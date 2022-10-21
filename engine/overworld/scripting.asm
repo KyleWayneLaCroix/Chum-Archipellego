@@ -2361,6 +2361,9 @@ Script_checkver_duplicate: ; unreferenced
 	ld [wScriptVar], a
 	ret
 
+.gs_version:
+	db GS_VERSION
+
 AppendTMHMMoveName::
 ; a = item ID
 	ld a, [wNamedObjectIndex]
@@ -2386,6 +2389,3 @@ AppendTMHMMoveName::
 	inc hl
 	ld de, wStringBuffer1
 	jp CopyName2
-
-.gs_version:
-	db GS_VERSION
