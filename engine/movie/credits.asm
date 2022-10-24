@@ -73,7 +73,8 @@ Credits::
 
 	call GetCreditsPalette
 	call SetPalettes
-; BUG: Credits sequence changes move selection menu behavior (see docs/bugs_and_glitches.md)
+; XBUG: Credits sequence changes move selection menu behavior (see docs/bugs_and_glitches.md)
+; Keeping this one on purpose because I think it's cool.
 	ldh a, [hVBlank]
 	push af
 	ld a, $5
