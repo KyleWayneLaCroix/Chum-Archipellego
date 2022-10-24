@@ -118,7 +118,7 @@ Pokegear_LoadGFX:
 	ld a, BANK(TownMapGFX)
 	call FarDecompress
 	ld hl, PokegearGFX
-	ld de, vTiles2 tile $50
+	ld de, vTiles2 tile $30
 	ld a, BANK(PokegearGFX)
 	call FarDecompress
 	ld hl, PokegearSpritesGFX
@@ -242,7 +242,7 @@ InitPokegearTilemap:
 	ldh [hBGMapMode], a
 	hlcoord 0, 0
 	ld bc, SCREEN_WIDTH * SCREEN_HEIGHT
-	ld a, $6f
+	ld a, $4f
 	call ByteFill
 	ld a, [wPokegearCard]
 	maskbits NUM_POKEGEAR_CARDS
@@ -368,7 +368,7 @@ InitPokegearTilemap:
 
 .PlacePhoneBars:
 	hlcoord 17, 1
-	ld a, $5c
+	ld a, $3c
 	ld [hli], a
 	inc a
 	ld [hl], a
@@ -379,17 +379,17 @@ InitPokegearTilemap:
 	and a
 	ret nz
 	hlcoord 18, 2
-	ld [hl], $5f
+	ld [hl], $3f
 	ret
 
 Pokegear_FinishTilemap:
 	hlcoord 0, 0
 	ld bc, $8
-	ld a, $6f
+	ld a, $4f
 	call ByteFill
 	hlcoord 0, 1
 	ld bc, $8
-	ld a, $6f
+	ld a, $4f
 	call ByteFill
 	ld de, wPokegearFlags
 	ld a, [de]
@@ -402,23 +402,23 @@ Pokegear_FinishTilemap:
 	bit POKEGEAR_RADIO_CARD_F, a
 	call nz, .PlaceRadioIcon
 	hlcoord 0, 0
-	ld a, $66
+	ld a, $46
 	call .PlacePokegearCardIcon
 	ret
 
 .PlaceMapIcon:
 	hlcoord 2, 0
-	ld a, $60
+	ld a, $40
 	jr .PlacePokegearCardIcon
 
 .PlacePhoneIcon:
 	hlcoord 4, 0
-	ld a, $64
+	ld a, $44
 	jr .PlacePokegearCardIcon
 
 .PlaceRadioIcon:
 	hlcoord 6, 0
-	ld a, $62
+	ld a, $42
 .PlacePokegearCardIcon:
 	ld [hli], a
 	inc a
@@ -708,7 +708,7 @@ PokegearMap_UpdateLandmarkName:
 	pop de
 	farcall TownMap_ConvertLineBreakCharacters
 	hlcoord 8, 0
-	ld [hl], $54
+	ld [hl], $34
 	ret
 
 PokegearMap_UpdateCursorPosition:
@@ -2035,7 +2035,7 @@ _FlyMap:
 	farcall ClearSpriteAnims
 	call LoadTownMapGFX
 	ld de, FlyMapLabelBorderGFX
-	ld hl, vTiles2 tile $50
+	ld hl, vTiles2 tile $30
 	lb bc, BANK(FlyMapLabelBorderGFX), 6
 	call Request1bpp
 	call FlyMap
@@ -2137,14 +2137,14 @@ TownMapBubble:
 
 ; Top-left corner
 	hlcoord 1, 0
-	ld a, $50
+	ld a, $30
 	ld [hli], a
 ; Top row
 	ld bc, 16
 	ld a, " "
 	call ByteFill
 ; Top-right corner
-	ld a, $51
+	ld a, $31
 	ld [hl], a
 	hlcoord 1, 1
 
@@ -2155,14 +2155,14 @@ TownMapBubble:
 
 ; Bottom-left corner
 	hlcoord 1, 2
-	ld a, $52
+	ld a, $32
 	ld [hli], a
 ; Bottom row
 	ld bc, 16
 	ld a, " "
 	call ByteFill
 ; Bottom-right corner
-	ld a, $53
+	ld a, $33
 	ld [hl], a
 
 ; Print "Where?"
@@ -2658,8 +2658,8 @@ TownMapPals:
 ; Current tile
 	ld a, [hli]
 	push hl
-; The palette map covers tiles $00 to $7e; $7f and above use palette 0
-	cp $7f
+; The palette map covers tiles $00 to $5f; $60 and above use palette 0
+	cp $60
 	jr nc, .pal0
 
 ; The palette data is condensed to nybbles, least-significant first.
@@ -2775,7 +2775,7 @@ TownMapPlayerIcon:
 LoadTownMapGFX:
 	ld hl, TownMapGFX
 	ld de, vTiles2
-	lb bc, BANK(TownMapGFX), $50
+	lb bc, BANK(TownMapGFX), 48
 	call DecompressRequest2bpp
 	ret
 
