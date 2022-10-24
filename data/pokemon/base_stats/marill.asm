@@ -1,4 +1,4 @@
-s	db MARILL ; 183
+	db MARILL ; 183
 
 	db  70,  20,  50,  40,  20,  50
 	;   hp  atk  def  spd  sat  sdf
