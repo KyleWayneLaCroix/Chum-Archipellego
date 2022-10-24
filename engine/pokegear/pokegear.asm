@@ -2173,7 +2173,7 @@ TownMapBubble:
 	call .Name
 ; Up/down arrows
 	hlcoord 18, 1
-	ld [hl], $34
+	ld [hl], $54
 	ret
 
 .Where:
