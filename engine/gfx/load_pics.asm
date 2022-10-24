@@ -106,16 +106,15 @@ GetFrontpicPointer:
 	ld a, [wCurPartySpecies]
 	cp UNOWN
 	jr z, .unown
+	ld hl, PokemonPicPointers
 	ld a, [wCurPartySpecies]
 	ld d, BANK(PokemonPicPointers)
 	jr .ok
 .unown
+	ld hl, UnownPicPointers
 	ld a, [wUnownLetter]
 	ld d, BANK(UnownPicPointers)
 .ok
-	; These are assumed to be at the same address in their respective banks.
-	assert PokemonPicPointers == UnownPicPointers
-	ld hl, PokemonPicPointers
 	dec a
 	ld bc, 6
 	call AddNTimes
@@ -213,6 +212,7 @@ GetMonBackpic:
 	ld d, BANK(PokemonPicPointers)
 	cp UNOWN
 	jr nz, .ok
+	ld hl, UnownPicPointers
 	ld a, c
 	ld d, BANK(UnownPicPointers)
 .ok
