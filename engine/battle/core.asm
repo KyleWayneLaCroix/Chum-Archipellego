@@ -110,10 +110,67 @@ DoBattle:
 	call SpikesDamage
 
 .not_linked_2
+call StartAutomaticBattleWeather
 	jp BattleTurn
 
 .tutorial_debug
 	jp BattleMenu
+
+StartAutomaticBattleWeather:
+	call GetAutomaticBattleWeather
+	and a
+	ret z
+; get current AutomaticWeatherEffects entry
+	dec a
+	ld hl, AutomaticWeatherEffects
+	ld bc, 5 ; size of one entry
+	call AddNTimes
+; [wBattleWeather] = weather
+	ld a, [hli]
+	ld [wBattleWeather], a
+; de = animation
+	ld a, [hli]
+	ld e, a
+	ld a, [hli]
+	ld d, a
+; hl = text pointer
+	ld a, [hli]
+	ld h, [hl]
+	ld l, a
+; start weather for 255 turns
+	ld a, 255
+	ld [wWeatherCount], a
+	push hl
+	call Call_PlayBattleAnim ; uses de
+	pop hl
+	call StdBattleTextbox ; uses hl
+	jp EmptyBattleTextbox
+
+GetAutomaticBattleWeather:
+	ld hl, AutomaticWeatherMaps
+	ld a, [wMapGroup]
+	ld b, a
+	ld a, [wMapNumber]
+	ld c, a
+.loop
+	ld a, [hli] ; group
+	and a
+	ret z ; end
+	cp b
+	jr nz, .wrong_group
+	ld a, [hli] ; map
+	cp c
+	jr nz, .wrong_map
+	ld a, [hl] ; weather
+	ret
+
+.wrong_group:
+	inc hl ; skip map
+.wrong_map
+	inc hl ; skip weather
+	jr .loop
+
+INCLUDE "data/battle/automatic_weather.asm"
 
 WildFled_EnemyFled_LinkBattleCanceled:
 	call SafeLoadTempTilemapToTilemap
@@ -6082,15 +6139,20 @@ LoadEnemyMon:
 	jp .Happiness
 
 .InitDVs:
-; Trainer DVs
-
-; All trainers have preset DVs, determined by class
-; See GetTrainerDVs for more on that
-	farcall GetTrainerDVs
-; These are the DVs we'll use if we're actually in a trainer battle
 	ld a, [wBattleMode]
 	dec a
-	jr nz, .UpdateDVs
+	jr z, .WildDVs
+
+; Trainer DVs
+	ld a, [wCurPartyMon]
+	ld hl, wOTPartyMon1DVs
+	call GetPartyLocation
+	ld b, [hl]
+	inc hl
+	ld c, [hl]
+	jr .UpdateDVs
+
+.WildDVs:
 
 ; Wild DVs
 ; Here's where the fun starts
@@ -6250,6 +6312,14 @@ LoadEnemyMon:
 	ld de, wEnemyMonMaxHP
 	ld b, FALSE
 	ld hl, wEnemyMonDVs - (MON_DVS - MON_STAT_EXP + 1)
+	ld a, [wBattleMode]
+	cp TRAINER_BATTLE
+	jr nz, .no_stat_exp
+	ld a, [wCurPartyMon]
+	ld hl, wOTPartyMon1StatExp - 1
+	call GetPartyLocation
+	ld b, TRUE
+.no_stat_exp
 	predef CalcMonStats
 
 ; If we're in a trainer battle,
@@ -6410,15 +6480,27 @@ LoadEnemyMon:
 	ld a, [wTempEnemyMonSpecies]
 	ld [wNamedObjectIndex], a
 
-	call GetPokemonName
-
 ; Did we catch it?
 	ld a, [wBattleMode]
 	and a
 	ret z
 
 ; Update enemy nickname
+	ld a, [wBattleMode]
+	dec a ; WILD_BATTLE?
+	jr z, .no_nickname
+	ld a, [wOtherTrainerType]
+	bit TRAINERTYPE_NICKNAME_F, a
+	jr z, .no_nickname
+	ld a, [wCurPartyMon]
+	ld hl, wOTPartyMonNicknames
+	ld bc, MON_NAME_LENGTH
+	call AddNTimes
+	jr .got_nickname
+.no_nickname
+	call GetPokemonName
 	ld hl, wStringBuffer1
+.got_nickname
 	ld de, wEnemyMonNickname
 	ld bc, MON_NAME_LENGTH
 	call CopyBytes

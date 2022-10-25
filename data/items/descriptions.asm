@@ -3,184 +3,158 @@ ItemDescriptions:
 	table_width 2, ItemDescriptions
 	dw MasterBallDesc
 	dw UltraBallDesc
-	dw BrightpowderDesc
 	dw GreatBallDesc
 	dw PokeBallDesc
-	dw TeruSama1Desc
-	dw BicycleDesc
+	dw HeavyBallDesc
+	dw LevelBallDesc
+	dw LureBallDesc
+	dw FastBallDesc
+	dw FriendBallDesc
+	dw MoonBallDesc
+	dw LoveBallDesc
+	dw ParkBallDesc
+	dw PokeDollDesc
+	dw DireHitDesc
+	dw GuardSpecDesc
+	dw XAccuracyDesc
+	dw XAttackDesc
+	dw XDefendDesc
+	dw XSpeedDesc
+	dw XSpecialDesc
+	dw EscapeRopeDesc
+	dw RepelDesc
+	dw SuperRepelDesc
+	dw MaxRepelDesc
+	dw BerryDesc
+	dw GoldBerryDesc
+	dw MysteryBerryDesc
+	dw MiracleBerryDesc
+	dw PsnCureBerryDesc
+	dw PrzCureBerryDesc
+	dw BurntBerryDesc
+	dw IceBerryDesc
+	dw BitterBerryDesc
+	dw MintBerryDesc
+	dw RedApricornDesc
+	dw BluApricornDesc
+	dw YlwApricornDesc
+	dw GrnApricornDesc
+	dw WhtApricornDesc
+	dw BlkApricornDesc
+	dw PnkApricornDesc
+	dw FireStoneDesc
+	dw ThunderStoneDesc
+	dw WaterStoneDesc
+	dw LeafStoneDesc
 	dw MoonStoneDesc
+	dw SunStoneDesc
+	dw SilverPowderDesc
+	dw SoftSandDesc
+	dw SharpBeakDesc
+	dw PoisonBarbDesc
+	dw MysticWaterDesc
+	dw TwistedSpoonDesc
+	dw BlackbeltDesc
+	dw BlackGlassesDesc
+	dw PinkBowDesc
+	dw NeverMeltIceDesc
+	dw MagnetDesc
+	dw SpellTagDesc
+	dw MiracleSeedDesc
+	dw MetalCoatDesc
+	dw DragonFangDesc
+	dw PolkadotBowDesc
+	dw CharcoalDesc
+	dw HardStoneDesc
+	dw LuckyPunchDesc
+	dw MetalPowderDesc
+	dw LightBallDesc
+	dw QuickClawDesc
+	dw KingsRockDesc
+	dw BrightpowderDesc
+	dw ScopeLensDesc
+	dw ExpShareDesc
+	dw AmuletCoinDesc
+	dw FocusBandDesc
+	dw LuckyEggDesc
+	dw LeftoversDesc
+	dw BerserkGeneDesc
+	dw CleanseTagDesc
+	dw SmokeBallDesc
+	dw EverStoneDesc
+	dw UpGradeDesc
+	dw DragonScaleDesc
+	dw BerryJuiceDesc
+	dw FreshWaterDesc
+	dw SodaPopDesc
+	dw LemonadeDesc
+	dw RareCandyDesc
 	dw AntidoteDesc
 	dw BurnHealDesc
 	dw IceHealDesc
 	dw AwakeningDesc
 	dw ParlyzHealDesc
+	dw FullHealDesc
 	dw FullRestoreDesc
 	dw MaxPotionDesc
 	dw HyperPotionDesc
 	dw SuperPotionDesc
 	dw PotionDesc
-	dw EscapeRopeDesc
-	dw RepelDesc
+	dw ElixerDesc
 	dw MaxElixerDesc
-	dw FireStoneDesc
-	dw ThunderStoneDesc
-	dw WaterStoneDesc
-	dw TeruSama2Desc
+	dw EtherDesc
+	dw MaxEtherDesc
+	dw MoomooMilkDesc
+	dw RageCandyBarDesc
+	dw EnergyPowderDesc
+	dw EnergyRootDesc
+	dw HealPowderDesc
+	dw RevivalHerbDesc
+	dw ReviveDesc
+	dw MaxReviveDesc
+	dw SacredAshDesc
 	dw HPUpDesc
 	dw ProteinDesc
 	dw IronDesc
 	dw CarbosDesc
-	dw LuckyPunchDesc
 	dw CalciumDesc
-	dw RareCandyDesc
-	dw XAccuracyDesc
-	dw LeafStoneDesc
-	dw MetalPowderDesc
+	dw PPUpDesc
+	dw TinyMushroomDesc
+	dw BigMushroomDesc
+	dw PearlDesc
+	dw BigPearlDesc
+	dw StardustDesc
+	dw StarPieceDesc
 	dw NuggetDesc
-	dw PokeDollDesc
-	dw FullHealDesc
-	dw ReviveDesc
-	dw MaxReviveDesc
-	dw GuardSpecDesc
-	dw SuperRepelDesc
-	dw MaxRepelDesc
-	dw DireHitDesc
-	dw TeruSama3Desc
-	dw FreshWaterDesc
-	dw SodaPopDesc
-	dw LemonadeDesc
-	dw XAttackDesc
-	dw TeruSama4Desc
-	dw XDefendDesc
-	dw XSpeedDesc
-	dw XSpecialDesc
+	dw BrickPieceDesc
+	dw StickDesc
+	dw ThickClubDesc
+	dw SilverLeafDesc
+	dw GoldLeafDesc
+	dw SlowpokeTailDesc
+	dw BicycleDesc
 	dw CoinCaseDesc
 	dw ItemfinderDesc
-	dw TeruSama5Desc
-	dw ExpShareDesc
 	dw OldRodDesc
 	dw GoodRodDesc
-	dw SilverLeafDesc
 	dw SuperRodDesc
-	dw PPUpDesc
-	dw EtherDesc
-	dw MaxEtherDesc
-	dw ElixerDesc
 	dw RedScaleDesc
 	dw SecretPotionDesc
 	dw SSTicketDesc
 	dw MysteryEggDesc
 	dw ClearBellDesc
 	dw SilverWingDesc
-	dw MoomooMilkDesc
-	dw QuickClawDesc
-	dw PsnCureBerryDesc
-	dw GoldLeafDesc
-	dw SoftSandDesc
-	dw SharpBeakDesc
-	dw PrzCureBerryDesc
-	dw BurntBerryDesc
-	dw IceBerryDesc
-	dw PoisonBarbDesc
-	dw KingsRockDesc
-	dw BitterBerryDesc
-	dw MintBerryDesc
-	dw RedApricornDesc
-	dw TinyMushroomDesc
-	dw BigMushroomDesc
-	dw SilverPowderDesc
-	dw BluApricornDesc
-	dw TeruSama6Desc
-	dw AmuletCoinDesc
-	dw YlwApricornDesc
-	dw GrnApricornDesc
-	dw CleanseTagDesc
-	dw MysticWaterDesc
-	dw TwistedSpoonDesc
-	dw WhtApricornDesc
-	dw BlackbeltDesc
-	dw BlkApricornDesc
-	dw TeruSama7Desc
-	dw PnkApricornDesc
-	dw BlackGlassesDesc
-	dw SlowpokeTailDesc
-	dw PinkBowDesc
-	dw StickDesc
-	dw SmokeBallDesc
-	dw NeverMeltIceDesc
-	dw MagnetDesc
-	dw MiracleBerryDesc
-	dw PearlDesc
-	dw BigPearlDesc
-	dw EverStoneDesc
-	dw SpellTagDesc
-	dw RageCandyBarDesc
 	dw GSBallDesc
 	dw BlueCardDesc
-	dw MiracleSeedDesc
-	dw ThickClubDesc
-	dw FocusBandDesc
-	dw TeruSama8Desc
-	dw EnergyPowderDesc
-	dw EnergyRootDesc
-	dw HealPowderDesc
-	dw RevivalHerbDesc
-	dw HardStoneDesc
-	dw LuckyEggDesc
 	dw CardKeyDesc
 	dw MachinePartDesc
 	dw EggTicketDesc
 	dw LostItemDesc
-	dw StardustDesc
-	dw StarPieceDesc
 	dw BasementKeyDesc
 	dw PassDesc
-	dw TeruSama9Desc
-	dw TeruSama10Desc
-	dw TeruSama11Desc
-	dw CharcoalDesc
-	dw BerryJuiceDesc
-	dw ScopeLensDesc
-	dw TeruSama12Desc
-	dw TeruSama13Desc
-	dw MetalCoatDesc
-	dw DragonFangDesc
-	dw TeruSama14Desc
-	dw LeftoversDesc
-	dw TeruSama15Desc
-	dw TeruSama16Desc
-	dw TeruSama17Desc
-	dw MysteryBerryDesc
-	dw DragonScaleDesc
-	dw BerserkGeneDesc
-	dw TeruSama18Desc
-	dw TeruSama19Desc
-	dw TeruSama20Desc
-	dw SacredAshDesc
-	dw HeavyBallDesc
-	dw FlowerMailDesc
-	dw LevelBallDesc
-	dw LureBallDesc
-	dw FastBallDesc
-	dw TeruSama21Desc
-	dw LightBallDesc
-	dw FriendBallDesc
-	dw MoonBallDesc
-	dw LoveBallDesc
-	dw NormalBoxDesc
-	dw GorgeousBoxDesc
-	dw SunStoneDesc
-	dw PolkadotBowDesc
-	dw TeruSama22Desc
-	dw UpGradeDesc
-	dw BerryDesc
-	dw GoldBerryDesc
 	dw SquirtBottleDesc
-	dw TeruSama23Desc
-	dw ParkBallDesc
 	dw RainbowWingDesc
-	dw TeruSama24Desc
-	dw BrickPieceDesc
+	dw FlowerMailDesc
 	dw SurfMailDesc
 	dw LiteBlueMailDesc
 	dw PortraitMailDesc
@@ -190,9 +164,35 @@ ItemDescriptions:
 	dw BlueSkyMailDesc
 	dw MusicMailDesc
 	dw MirageMailDesc
+	dw NormalBoxDesc
+	dw GorgeousBoxDesc
+	dw TeruSama1Desc
+	dw TeruSama2Desc
+	dw TeruSama3Desc
+	dw TeruSama4Desc
+	dw TeruSama5Desc
+	dw TeruSama6Desc
+	dw TeruSama7Desc
+	dw TeruSama8Desc
+	dw TeruSama9Desc
+	dw TeruSama10Desc
+	dw TeruSama11Desc
+	dw TeruSama12Desc
+	dw TeruSama13Desc
+	dw TeruSama14Desc
+	dw TeruSama15Desc
+	dw TeruSama16Desc
+	dw TeruSama17Desc
+	dw TeruSama18Desc
+	dw TeruSama19Desc
+	dw TeruSama20Desc
+	dw TeruSama21Desc
+	dw TeruSama22Desc
+	dw TeruSama23Desc
+	dw TeruSama24Desc
 	dw TeruSama25Desc
-	dw TeruSama25Desc
-	dw TeruSama25Desc
+	dw TeruSama26Desc
+	dw TeruSama27Desc
 	assert_table_length NUM_ITEMS
 	dw TeruSama26Desc
 	dw TeruSama26Desc
