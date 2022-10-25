@@ -1,22 +1,23 @@
 _OakText6::
-	text "Now, what did you"
-	line "say your name was?"
+	text "Now, for the new"
+	line "hire paperwork,"
+	cont "what's your name?"
 	prompt
 
 _OakText7::
 	text "<PLAYER>, are you"
 	line "ready?"
 
-	para "Your very own"
-	line "#MON story is"
+	para "Your very first"
+	line "day of work is"
 	cont "about to unfold."
 
-	para "You'll face fun"
-	line "times and tough"
-	cont "challenges."
+	para "It'll be fun some"
+	line "of the time at"
+	cont "least."
 
-	para "A world of dreams"
-	line "and adventures"
+	para "A chain of island"
+	line "adventures"
 
 	para "with #MON"
 	line "awaits! Let's go!"

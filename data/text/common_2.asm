@@ -1501,19 +1501,27 @@ _OakText1::
 	text "Hello! Sorry to"
 	line "keep you waiting!"
 
-	para "Welcome to the"
-	line "world of #MON!"
+	para "Welcome to Bro"
+	line "Island!"
+	cont "Is what I want"
+	cont "to say, but... "
 
-	para "My name is OAK."
-
-	para "People call me the"
-	line "#MON PROF."
+	para "Well, after what"
+	line "happened you can"
+	cont "call it more of a"
+	cont "Chum Archipelago"
 	prompt
 
 _OakText2::
-	text "This world is in-"
-	line "habited by crea-"
-	cont "tures that we call"
+	text "After Brian's flash"
+	line "drive went through"
+	cont "the wash, it's"
+	cont "became a mess."
+
+	para "All his gardevoir"
+	line "pics got mixed up"
+	cont "in here so it's"
+	cont "crawling with"
 	cont "#MON.@"
 	text_end
 
@@ -1524,26 +1532,15 @@ _OakText3::
 	text_end ; unreferenced
 
 _OakText4::
-	text "People and #MON"
-	line "live together by"
-
-	para "supporting each"
-	line "other."
-
-	para "Some people play"
-	line "with #MON, some"
-	cont "battle with them."
+	text "But now #MON"
+	line "are part of life."
+	cont "You get used to it"
+	cont "eventually."
 	prompt
 
 _OakText5::
-	text "But we don't know"
-	line "everything about"
-	cont "#MON yet."
-
-	para "There are still"
-	line "many mysteries to"
-	cont "solve."
-
-	para "That's why I study"
-	line "#MON every day."
+	text "Anyway, there's a"
+	line "lot to do to fix"
+	cont "things up. Glad"
+	cont "that's your job."
 	prompt
