@@ -440,31 +440,19 @@ DratiniEggMoves:
 	db SUPERSONIC
 	db -1 ; end
 
-ChikoritaEggMoves:
-	db VINE_WHIP
-	db LEECH_SEED
-	db COUNTER
-	db ANCIENTPOWER
-	db FLAIL
-	db SWORDS_DANCE
-	db -1 ; end
-
-CyndaquilEggMoves:
-	db FURY_SWIPES
-	db QUICK_ATTACK
-	db REVERSAL
-	db THRASH
-	db FORESIGHT
-	db SUBMISSION
-	db -1 ; end
-
-TotodileEggMoves:
-	db CRUNCH
-	db THRASH
-	db HYDRO_PUMP
-	db ANCIENTPOWER
-	db RAZOR_WIND
+SpirripEggMoves:
+	db LICK
 	db ROCK_SLIDE
+	db -1 ; end
+
+LitwickEggMoves:
+	db ACID
+	db ENDURE
+	db -1 ; end
+
+HonedgeEggMoves:
+	db SCREECH
+	db SLASH
 	db -1 ; end
 
 SentretEggMoves:

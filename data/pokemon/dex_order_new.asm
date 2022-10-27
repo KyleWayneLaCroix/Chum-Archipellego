@@ -2,15 +2,15 @@
 
 NewPokedexOrder:
 	table_width 1, NewPokedexOrder
-	db CHIKORITA
-	db BAYLEEF
-	db MEGANIUM
-	db CYNDAQUIL
-	db QUILAVA
-	db TYPHLOSION
-	db TOTODILE
-	db CROCONAW
-	db FERALIGATR
+	db SPIRRIP
+	db DOOMSTONE
+	db CRYPTIID
+	db LITWICK
+	db LAMPENT
+	db CHANDELURE
+	db HONEDGE
+	db DOUBLADE
+	db AEGISLASH
 	db PIDGEY
 	db PIDGEOTTO
 	db PIDGEOT

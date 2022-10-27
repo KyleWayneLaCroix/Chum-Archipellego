@@ -157,15 +157,15 @@ PokemonCries::
 	mon_cry CRY_BULBASAUR,    60,  320 ; DRAGONITE
 	mon_cry CRY_PARAS,       153,  383 ; MEWTWO
 	mon_cry CRY_PARAS,       238,  383 ; MEW
-	mon_cry CRY_CHIKORITA,   -16,  176 ; CHIKORITA
-	mon_cry CRY_CHIKORITA,   -34,  288 ; BAYLEEF
-	mon_cry CRY_CHIKORITA,  -183,  512 ; MEGANIUM
-	mon_cry CRY_CYNDAQUIL,   839,  128 ; CYNDAQUIL
-	mon_cry CRY_CYNDAQUIL,   801,  288 ; QUILAVA
-	mon_cry CRY_TYPHLOSION, 3840,  212 ; TYPHLOSION
-	mon_cry CRY_TOTODILE,   1132,  232 ; TOTODILE
-	mon_cry CRY_TOTODILE,   1088,  272 ; CROCONAW
-	mon_cry CRY_TOTODILE,   1020,  384 ; FERALIGATR
+	mon_cry CRY_PARAS,       173,  193 ; SPIRRIP
+	mon_cry CRY_PARAS,       120,  235 ; DOOMSTONE
+	mon_cry CRY_PARAS,       50,   352 ; CRYPTIID
+	mon_cry CRY_METAPOD,       0,  256 ; LITWICK
+	mon_cry CRY_METAPOD,       0,  256 ; LAMPENT
+	mon_cry CRY_METAPOD,       0,  256 ; CHANDELURE
+	mon_cry CRY_METAPOD,       0,  256 ; HONEDGE
+	mon_cry CRY_METAPOD,       0,  256 ; DOUBLADE
+	mon_cry CRY_METAPOD,       0,  256 ; AEGISLASH
 	mon_cry CRY_SENTRET,     138,  184 ; SENTRET
 	mon_cry CRY_SENTRET,     107,  258 ; FURRET
 	mon_cry CRY_HOOTHOOT,    145,  216 ; HOOTHOOT
