@@ -152,15 +152,15 @@ PokedexDataPointerTable:
 	dba DragonitePokedexEntry
 	dba MewtwoPokedexEntry
 	dba MewPokedexEntry
-	dba ChikoritaPokedexEntry
-	dba BayleefPokedexEntry
-	dba MeganiumPokedexEntry
-	dba CyndaquilPokedexEntry
-	dba QuilavaPokedexEntry
-	dba TyphlosionPokedexEntry
-	dba TotodilePokedexEntry
-	dba CroconawPokedexEntry
-	dba FeraligatrPokedexEntry
+	dba SpirripPokedexEntry
+	dba DoomstonePokedexEntry
+	dba CryptiidPokedexEntry
+	dba LitwickPokedexEntry
+	dba LampentPokedexEntry
+	dba ChandelurePokedexEntry
+	dba HonedgePokedexEntry
+	dba DoubladePokedexEntry
+	dba AegislashPokedexEntry
 	dba SentretPokedexEntry
 	dba FurretPokedexEntry
 	dba HoothootPokedexEntry
