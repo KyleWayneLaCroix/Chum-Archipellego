@@ -2060,7 +2060,7 @@ SpirripEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, LICK
 	db 1, POUND
-	db 4, ROW_THROW
+	db 4, ROCK_THROW
 	db 12, HARDEN
 	db 19, MUD_SLAP
 	db 26, BONEMERANG
@@ -2072,11 +2072,11 @@ SpirripEvosAttacks:
 	db 0 ; no more level-up moves
 
 DoomstoneEvosAttacks:
-	db EVOLVE_ITEM, DUSKSTONE, CRYPTIID
+	db EVOLVE_ITEM, MOON_STONE, CRYPTIID
 	db 0 ; no more evolutions
 	db 1, LICK
 	db 1, POUND
-	db 4, ROW_THROW
+	db 4, ROCK_THROW
 	db 12, HARDEN
 	db 19, MUD_SLAP
 	db 26, BONEMERANG
@@ -2091,7 +2091,7 @@ CryptiidEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, LICK
 	db 1, POUND
-	db 4, ROW_THROW
+	db 4, ROCK_THROW
 	db 12, HARDEN
 	db 19, MUD_SLAP
 	db 26, BONEMERANG
@@ -2120,7 +2120,7 @@ LitwickEvosAttacks:
 	db 0 ; no more level-up moves
 
 LampentEvosAttacks:
-	db EVOLVE_ITEM, DUSKSTONE, CHANDELURE
+	db EVOLVE_ITEM, MOON_STONE, CHANDELURE
 	db 0 ; no more evolutions
 	db 1, LICK
 	db 1, SMOG
@@ -2169,7 +2169,7 @@ HonedgeEvosAttacks:
 	db 0 ; no more level-up moves
 
 DoubladeEvosAttacks:
-	db EVOLVE_ITEM, DUSKSTONE, AEGISLASH
+	db EVOLVE_ITEM, MOON_STONE, AEGISLASH
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, FURY_CUTTER

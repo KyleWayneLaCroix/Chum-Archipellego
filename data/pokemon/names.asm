@@ -159,7 +159,7 @@ PokemonNames::
 	db "CHANDELURE"
 	db "HONEDGE@@@"
 	db "DOUBLADE@@"
-	db "AEGISLASH"
+	db "AEGISLASH@"
 	db "SENTRET@@@"
 	db "FURRET@@@@"
 	db "HOOTHOOT@@"
