@@ -60,22 +60,22 @@ BurnedTowerRivalBattleScript:
 	writetext BurnedTowerRival_BeforeText
 	waitbutton
 	closetext
-	checkevent EVENT_GOT_TOTODILE_FROM_ELM
-	iftrue .totodile
-	checkevent EVENT_GOT_CHIKORITA_FROM_ELM
+	checkevent EVENT_GOT_HONEDGE_FROM_ELM
+	iftrue .HONEDGE
+	checkevent EVENT_GOT_SPIRRIP_FROM_ELM
 	iftrue .chikorita
 	winlosstext BurnedTowerRival_WinText, BurnedTowerRival_LossText
 	setlasttalked BURNEDTOWER1F_RIVAL
-	loadtrainer RIVAL1, RIVAL1_3_TOTODILE
+	loadtrainer RIVAL1, RIVAL1_3_HONEDGE
 	startbattle
 	dontrestartmapmusic
 	reloadmapafterbattle
 	sjump .returnfrombattle
 
-.totodile
+.HONEDGE
 	winlosstext BurnedTowerRival_WinText, BurnedTowerRival_LossText
 	setlasttalked BURNEDTOWER1F_RIVAL
-	loadtrainer RIVAL1, RIVAL1_3_CHIKORITA
+	loadtrainer RIVAL1, RIVAL1_3_SPIRRIP
 	startbattle
 	dontrestartmapmusic
 	reloadmapafterbattle
@@ -84,7 +84,7 @@ BurnedTowerRivalBattleScript:
 .chikorita
 	winlosstext BurnedTowerRival_WinText, BurnedTowerRival_LossText
 	setlasttalked BURNEDTOWER1F_RIVAL
-	loadtrainer RIVAL1, RIVAL1_3_CYNDAQUIL
+	loadtrainer RIVAL1, RIVAL1_3_LITWICK
 	startbattle
 	dontrestartmapmusic
 	reloadmapafterbattle

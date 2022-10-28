@@ -56,31 +56,31 @@ VictoryRoadRivalNext:
 	waitbutton
 	closetext
 	setevent EVENT_RIVAL_VICTORY_ROAD
-	checkevent EVENT_GOT_TOTODILE_FROM_ELM
-	iftrue .GotTotodile
-	checkevent EVENT_GOT_CHIKORITA_FROM_ELM
-	iftrue .GotChikorita
+	checkevent EVENT_GOT_HONEDGE_FROM_ELM
+	iftrue .GotHonedge
+	checkevent EVENT_GOT_SPIRRIP_FROM_ELM
+	iftrue .GotSpirrip
 	winlosstext VictoryRoadRivalDefeatText, VictoryRoadRivalVictoryText
 	setlasttalked VICTORYROAD_RIVAL
-	loadtrainer RIVAL1, RIVAL1_5_TOTODILE
+	loadtrainer RIVAL1, RIVAL1_5_HONEDGE
 	startbattle
 	dontrestartmapmusic
 	reloadmapafterbattle
 	sjump .AfterBattle
 
-.GotTotodile:
+.GotHonedge:
 	winlosstext VictoryRoadRivalDefeatText, VictoryRoadRivalVictoryText
 	setlasttalked VICTORYROAD_RIVAL
-	loadtrainer RIVAL1, RIVAL1_5_CHIKORITA
+	loadtrainer RIVAL1, RIVAL1_5_SPIRRIP
 	startbattle
 	dontrestartmapmusic
 	reloadmapafterbattle
 	sjump .AfterBattle
 
-.GotChikorita:
+.GotSpirrip:
 	winlosstext VictoryRoadRivalDefeatText, VictoryRoadRivalVictoryText
 	setlasttalked VICTORYROAD_RIVAL
-	loadtrainer RIVAL1, RIVAL1_5_CYNDAQUIL
+	loadtrainer RIVAL1, RIVAL1_5_LITWICK
 	startbattle
 	dontrestartmapmusic
 	reloadmapafterbattle
