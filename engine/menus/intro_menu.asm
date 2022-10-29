@@ -661,7 +661,7 @@ OakSpeech:
 	call RotateThreePalettesRight
 	call ClearTilemap
 
-	ld a, MISDREAVUS
+	ld a, SPIRRIP
 	ld [wCurSpecies], a
 	ld [wCurPartySpecies], a
 	call GetBaseData

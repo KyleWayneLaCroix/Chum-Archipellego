@@ -859,19 +859,19 @@ LabWhereGoingText:
 TakeLitwickText:
 	text "ELM: You'll take"
 	line "LITWICK, the"
-	cont "fire #MON?"
+	cont "fire ghost?"
 	done
 
 TakeHonedgeText:
 	text "ELM: Do you want"
 	line "HONEDGE, the"
-	cont "water #MON?"
+	cont "steel ghost?"
 	done
 
 TakeSpirripText:
 	text "ELM: So, you like"
 	line "SPIRRIP, the"
-	cont "grass #MON?"
+	cont "rock ghost?"
 	done
 
 DidntChooseStarterText:
