@@ -1498,8 +1498,11 @@ _MayRegisterItemText::
 	done
 
 _OakText1::
-	text "Hello! Sorry to"
-	line "keep you waiting!"
+	text "Holy Shit, it"
+	line "worked! You're"
+	cont "alive! Thought"
+	cont "your data was"
+	cont "too corrupted."
 
 	para "Welcome to Bro"
 	line "Island!"
@@ -1516,13 +1519,13 @@ _OakText2::
 	text "After Brian's flash"
 	line "drive went through"
 	cont "the wash, it's"
-	cont "became a mess."
+	cont "become a mess."
 
-	para "All his gardevoir"
-	line "pics got mixed up"
-	cont "in here so it's"
-	cont "crawling with"
-	cont "#MON.@"
+	para "Data corruption,"
+	line "pointers mis-"
+	cont "pointing, etc."
+	cont "Plus his #MON"
+	cont "ROMs mixed in.@"
 	text_end
 
 _OakText3::
@@ -1534,13 +1537,13 @@ _OakText3::
 _OakText4::
 	text "But now #MON"
 	line "are part of life."
-	cont "You get used to it"
-	cont "eventually."
+	cont "You'll get used"
+	cont "to it eventually."
 	prompt
 
 _OakText5::
 	text "Anyway, there's a"
 	line "lot to do to fix"
 	cont "things up. Glad"
-	cont "that's your job."
+	cont "to have more help."
 	prompt

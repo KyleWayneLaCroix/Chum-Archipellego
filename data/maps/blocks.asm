@@ -1045,3 +1045,6 @@ BetaBlank_Blocks: ; unreferenced
 
 GoldenrodDeptStoreRoof_Blocks:
 	INCBIN "maps/GoldenrodDeptStoreRoof.blk"
+
+AwakeningBeach_Blocks:
+	INCBIN "maps/AwakeningBeach.blk"

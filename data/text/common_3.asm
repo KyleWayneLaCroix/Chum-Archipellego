@@ -1,29 +1,29 @@
 _OakText6::
-	text "Now, for the new"
-	line "hire paperwork,"
-	cont "what's your name?"
+	text "Now, do you know"
+	line "your name?"
 	prompt
 
 _OakText7::
 	text "<PLAYER>, are you"
 	line "ready?"
 
-	para "Your very first"
-	line "day of work is"
-	cont "about to unfold."
+	para "I'm about to get"
+	line "you back on Bro"
+	cont "Island."
 
-	para "It'll be fun some"
-	line "of the time at"
-	cont "least."
+	para "I'm going to need"
+	line "to compress you"
+	cont "to get you there."
 
-	para "A chain of island"
-	line "adventures"
+	para "It's going to be"
+	line "a bit weird, but"
+	cont "we'll get there."
 
-	para "with #MON"
-	line "awaits! Let's go!"
+	para "Hopefully we can"
+	line "get this fixed."
 
-	para "I'll be seeing you"
-	line "later!"
+	para "Try to find me,"
+	line "See ya soon."
 	done
 
 _ClockTimeMayBeWrongText::
