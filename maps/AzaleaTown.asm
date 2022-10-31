@@ -60,31 +60,31 @@ AzaleaTownRivalBattleScript:
 	waitbutton
 	closetext
 	setevent EVENT_RIVAL_AZALEA_TOWN
-	checkevent EVENT_GOT_TOTODILE_FROM_ELM
-	iftrue .Totodile
-	checkevent EVENT_GOT_CHIKORITA_FROM_ELM
-	iftrue .Chikorita
+	checkevent EVENT_GOT_HONEDGE_FROM_ELM
+	iftrue .Honedge
+	checkevent EVENT_GOT_SPIRRIP_FROM_ELM
+	iftrue .Spirrip
 	winlosstext AzaleaTownRivalWinText, AzaleaTownRivalLossText
 	setlasttalked AZALEATOWN_RIVAL
-	loadtrainer RIVAL1, RIVAL1_2_TOTODILE
+	loadtrainer RIVAL1, RIVAL1_2_HONEDGE
 	startbattle
 	dontrestartmapmusic
 	reloadmapafterbattle
 	sjump .AfterBattle
 
-.Totodile:
+.Honedge:
 	winlosstext AzaleaTownRivalWinText, AzaleaTownRivalLossText
 	setlasttalked AZALEATOWN_RIVAL
-	loadtrainer RIVAL1, RIVAL1_2_CHIKORITA
+	loadtrainer RIVAL1, RIVAL1_2_SPIRRIP
 	startbattle
 	dontrestartmapmusic
 	reloadmapafterbattle
 	sjump .AfterBattle
 
-.Chikorita:
+.Spirrip:
 	winlosstext AzaleaTownRivalWinText, AzaleaTownRivalLossText
 	setlasttalked AZALEATOWN_RIVAL
-	loadtrainer RIVAL1, RIVAL1_2_CYNDAQUIL
+	loadtrainer RIVAL1, RIVAL1_2_LITWICK
 	startbattle
 	dontrestartmapmusic
 	reloadmapafterbattle

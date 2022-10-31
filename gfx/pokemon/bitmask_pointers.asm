@@ -151,15 +151,15 @@ BitmasksPointers:
 	dw DragoniteBitmasks
 	dw MewtwoBitmasks
 	dw MewBitmasks
-	dw ChikoritaBitmasks
-	dw BayleefBitmasks
-	dw MeganiumBitmasks
-	dw CyndaquilBitmasks
-	dw QuilavaBitmasks
-	dw TyphlosionBitmasks
-	dw TotodileBitmasks
-	dw CroconawBitmasks
-	dw FeraligatrBitmasks
+	dw SpirripBitmasks
+	dw DoomstoneBitmasks
+	dw CryptiidBitmasks
+	dw LitwickBitmasks
+	dw LampentBitmasks
+	dw ChandelureBitmasks
+	dw HonedgeBitmasks
+	dw DoubladeBitmasks
+	dw AegislashBitmasks
 	dw SentretBitmasks
 	dw FurretBitmasks
 	dw HoothootBitmasks

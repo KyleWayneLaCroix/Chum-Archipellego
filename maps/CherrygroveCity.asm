@@ -113,13 +113,13 @@ CherrygroveRivalSceneNorth:
 	writetext CherrygroveRivalText_Seen
 	waitbutton
 	closetext
-	checkevent EVENT_GOT_TOTODILE_FROM_ELM
-	iftrue .Totodile
-	checkevent EVENT_GOT_CHIKORITA_FROM_ELM
-	iftrue .Chikorita
+	checkevent EVENT_GOT_HONEDGE_FROM_ELM
+	iftrue .Honedge
+	checkevent EVENT_GOT_SPIRRIP_FROM_ELM
+	iftrue .Spirrip
 	winlosstext RivalCherrygroveWinText, RivalCherrygroveLossText
 	setlasttalked CHERRYGROVECITY_RIVAL
-	loadtrainer RIVAL1, RIVAL1_1_TOTODILE
+	loadtrainer RIVAL1, RIVAL1_1_HONEDGE
 	loadvar VAR_BATTLETYPE, BATTLETYPE_CANLOSE
 	startbattle
 	dontrestartmapmusic
@@ -127,10 +127,10 @@ CherrygroveRivalSceneNorth:
 	iftrue .AfterVictorious
 	sjump .AfterYourDefeat
 
-.Totodile:
+.Honedge:
 	winlosstext RivalCherrygroveWinText, RivalCherrygroveLossText
 	setlasttalked CHERRYGROVECITY_RIVAL
-	loadtrainer RIVAL1, RIVAL1_1_CHIKORITA
+	loadtrainer RIVAL1, RIVAL1_1_SPIRRIP
 	loadvar VAR_BATTLETYPE, BATTLETYPE_CANLOSE
 	startbattle
 	dontrestartmapmusic
@@ -138,10 +138,10 @@ CherrygroveRivalSceneNorth:
 	iftrue .AfterVictorious
 	sjump .AfterYourDefeat
 
-.Chikorita:
+.Spirrip:
 	winlosstext RivalCherrygroveWinText, RivalCherrygroveLossText
 	setlasttalked CHERRYGROVECITY_RIVAL
-	loadtrainer RIVAL1, RIVAL1_1_CYNDAQUIL
+	loadtrainer RIVAL1, RIVAL1_1_LITWICK
 	loadvar VAR_BATTLETYPE, BATTLETYPE_CANLOSE
 	startbattle
 	dontrestartmapmusic

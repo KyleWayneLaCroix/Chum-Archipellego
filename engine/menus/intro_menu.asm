@@ -648,7 +648,7 @@ OakSpeech:
 	call RotateThreePalettesRight
 	xor a
 	ld [wCurPartySpecies], a
-	ld a, POKEMON_PROF
+	ld a, PSYCHIC_T
 	ld [wTrainerClass], a
 	call Intro_PrepTrainerPic
 
@@ -661,7 +661,7 @@ OakSpeech:
 	call RotateThreePalettesRight
 	call ClearTilemap
 
-	ld a, WOOPER
+	ld a, SPIRRIP
 	ld [wCurSpecies], a
 	ld [wCurPartySpecies], a
 	call GetBaseData
@@ -686,7 +686,7 @@ OakSpeech:
 
 	xor a
 	ld [wCurPartySpecies], a
-	ld a, POKEMON_PROF
+	ld a, PSYCHIC_T
 	ld [wTrainerClass], a
 	call Intro_PrepTrainerPic
 

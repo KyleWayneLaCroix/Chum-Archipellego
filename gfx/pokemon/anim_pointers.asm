@@ -151,15 +151,15 @@ AnimationPointers:
 	dw DragoniteAnimation
 	dw MewtwoAnimation
 	dw MewAnimation
-	dw ChikoritaAnimation
-	dw BayleefAnimation
-	dw MeganiumAnimation
-	dw CyndaquilAnimation
-	dw QuilavaAnimation
-	dw TyphlosionAnimation
-	dw TotodileAnimation
-	dw CroconawAnimation
-	dw FeraligatrAnimation
+	dw SpirripAnimation
+	dw DoomstoneAnimation
+	dw CryptiidAnimation
+	dw LitwickAnimation
+	dw LampentAnimation
+	dw ChandelureAnimation
+	dw HonedgeAnimation
+	dw DoubladeAnimation
+	dw AegislashAnimation
 	dw SentretAnimation
 	dw FurretAnimation
 	dw HoothootAnimation

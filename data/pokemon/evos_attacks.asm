@@ -2055,137 +2055,148 @@ MewEvosAttacks:
 	db 50, ANCIENTPOWER
 	db 0 ; no more level-up moves
 
-ChikoritaEvosAttacks:
-	db EVOLVE_LEVEL, 16, BAYLEEF
+SpirripEvosAttacks:
+	db EVOLVE_LEVEL, 34, DOOMSTONE
+	db 0 ; no more evolutions
+	db 1, LICK
+	db 1, POUND
+	db 4, ROCK_THROW
+	db 12, HARDEN
+	db 19, MUD_SLAP
+	db 26, BONEMERANG
+	db 30, BITE
+	db 32, CURSE
+	db 36, SHADOW_BALL
+	db 40, ROCK_SLIDE
+	db 58, EARTHQUAKE
+	db 0 ; no more level-up moves
+
+DoomstoneEvosAttacks:
+	db EVOLVE_ITEM, MOON_STONE, CRYPTIID
+	db 0 ; no more evolutions
+	db 1, LICK
+	db 1, POUND
+	db 4, ROCK_THROW
+	db 12, HARDEN
+	db 19, MUD_SLAP
+	db 26, BONEMERANG
+	db 30, BITE
+	db 32, CURSE
+	db 36, SHADOW_BALL
+	db 40, ROCK_SLIDE
+	db 58, EARTHQUAKE
+	db 0 ; no more level-up moves
+
+CryptiidEvosAttacks:
+	db 0 ; no more evolutions
+	db 1, LICK
+	db 1, POUND
+	db 4, ROCK_THROW
+	db 12, HARDEN
+	db 19, MUD_SLAP
+	db 26, BONEMERANG
+	db 30, BITE
+	db 32, CURSE
+	db 36, SHADOW_BALL
+	db 40, ROCK_SLIDE
+	db 58, EARTHQUAKE
+	db 0 ; no more level-up moves
+
+LitwickEvosAttacks:
+	db EVOLVE_LEVEL, 36, LAMPENT
+	db 0 ; no more evolutions
+	db 1, LICK
+	db 1, SMOG
+	db 4, EMBER
+	db 12, MINIMIZE
+	db 19, CONFUSE_RAY
+	db 24, FIRE_SPIN
+	db 28, NIGHT_SHADE
+	db 30, FLAME_WHEEL
+	db 32, CURSE
+	db 36, SHADOW_BALL
+	db 40, FLAMETHROWER
+	db 58, FIRE_BLAST
+	db 0 ; no more level-up moves
+
+LampentEvosAttacks:
+	db EVOLVE_ITEM, MOON_STONE, CHANDELURE
+	db 0 ; no more evolutions
+	db 1, LICK
+	db 1, SMOG
+	db 4, EMBER
+	db 12, MINIMIZE
+	db 19, CONFUSE_RAY
+	db 24, FIRE_SPIN
+	db 28, NIGHT_SHADE
+	db 30, FLAME_WHEEL
+	db 32, CURSE
+	db 36, SHADOW_BALL
+	db 40, FLAMETHROWER
+	db 58, FIRE_BLAST
+	db 0 ; no more level-up moves
+
+ChandelureEvosAttacks:
+	db 0 ; no more evolutions
+	db 1, LICK
+	db 1, SMOG
+	db 4, EMBER
+	db 12, MINIMIZE
+	db 19, CONFUSE_RAY
+	db 24, FIRE_SPIN
+	db 28, NIGHT_SHADE
+	db 30, FLAME_WHEEL
+	db 32, CURSE
+	db 36, SHADOW_BALL
+	db 40, FLAMETHROWER
+	db 58, FIRE_BLAST
+	db 0 ; no more level-up moves
+
+HonedgeEvosAttacks:
+	db EVOLVE_LEVEL, 34, DOUBLADE
 	db 0 ; no more evolutions
 	db 1, TACKLE
-	db 1, GROWL
-	db 8, RAZOR_LEAF
-	db 12, REFLECT
-	db 15, POISONPOWDER
-	db 22, SYNTHESIS
-	db 29, BODY_SLAM
-	db 36, LIGHT_SCREEN
-	db 43, SAFEGUARD
-	db 50, SOLARBEAM
+	db 1, FURY_CUTTER
+	db 8, AGILITY
+	db 16, SCREECH
+	db 20, SLASH
+	db 26, FAINT_ATTACK
+	db 30, FALSE_SWIPE
+	db 33, HARDEN
+	db 36, STEEL_WING
+	db 44, SWORDS_DANCE
+	db 48, THRASH
 	db 0 ; no more level-up moves
 
-BayleefEvosAttacks:
-	db EVOLVE_LEVEL, 32, MEGANIUM
+DoubladeEvosAttacks:
+	db EVOLVE_ITEM, MOON_STONE, AEGISLASH
 	db 0 ; no more evolutions
 	db 1, TACKLE
-	db 1, GROWL
-	db 1, RAZOR_LEAF
-	db 1, REFLECT
-	db 8, RAZOR_LEAF
-	db 12, REFLECT
-	db 15, POISONPOWDER
-	db 23, SYNTHESIS
-	db 31, BODY_SLAM
-	db 39, LIGHT_SCREEN
-	db 47, SAFEGUARD
-	db 55, SOLARBEAM
+	db 1, FURY_CUTTER
+	db 1, AGILITY
+	db 16, SCREECH
+	db 20, SLASH
+	db 26, FAINT_ATTACK
+	db 30, FALSE_SWIPE
+	db 33, HARDEN
+	db 36, STEEL_WING
+	db 44, SWORDS_DANCE
+	db 48, THRASH
 	db 0 ; no more level-up moves
 
-MeganiumEvosAttacks:
+AegislashEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
-	db 1, GROWL
-	db 1, RAZOR_LEAF
-	db 1, REFLECT
-	db 8, RAZOR_LEAF
-	db 12, REFLECT
-	db 15, POISONPOWDER
-	db 23, SYNTHESIS
-	db 31, BODY_SLAM
-	db 41, LIGHT_SCREEN
-	db 51, SAFEGUARD
-	db 61, SOLARBEAM
-	db 0 ; no more level-up moves
-
-CyndaquilEvosAttacks:
-	db EVOLVE_LEVEL, 14, QUILAVA
-	db 0 ; no more evolutions
-	db 1, TACKLE
-	db 1, LEER
-	db 6, SMOKESCREEN
-	db 12, EMBER
-	db 19, QUICK_ATTACK
-	db 27, FLAME_WHEEL
-	db 36, SWIFT
-	db 46, FLAMETHROWER
-	db 0 ; no more level-up moves
-
-QuilavaEvosAttacks:
-	db EVOLVE_LEVEL, 36, TYPHLOSION
-	db 0 ; no more evolutions
-	db 1, TACKLE
-	db 1, LEER
-	db 1, SMOKESCREEN
-	db 6, SMOKESCREEN
-	db 12, EMBER
-	db 21, QUICK_ATTACK
-	db 31, FLAME_WHEEL
-	db 42, SWIFT
-	db 54, FLAMETHROWER
-	db 0 ; no more level-up moves
-
-TyphlosionEvosAttacks:
-	db 0 ; no more evolutions
-	db 1, TACKLE
-	db 1, LEER
-	db 1, SMOKESCREEN
-	db 1, EMBER
-	db 6, SMOKESCREEN
-	db 12, EMBER
-	db 21, QUICK_ATTACK
-	db 31, FLAME_WHEEL
-	db 45, SWIFT
-	db 60, FLAMETHROWER
-	db 0 ; no more level-up moves
-
-TotodileEvosAttacks:
-	db EVOLVE_LEVEL, 18, CROCONAW
-	db 0 ; no more evolutions
-	db 1, SCRATCH
-	db 1, LEER
-	db 7, RAGE
-	db 13, WATER_GUN
-	db 20, BITE
-	db 27, SCARY_FACE
-	db 35, SLASH
-	db 43, SCREECH
-	db 52, HYDRO_PUMP
-	db 0 ; no more level-up moves
-
-CroconawEvosAttacks:
-	db EVOLVE_LEVEL, 30, FERALIGATR
-	db 0 ; no more evolutions
-	db 1, SCRATCH
-	db 1, LEER
-	db 1, RAGE
-	db 7, RAGE
-	db 13, WATER_GUN
-	db 21, BITE
-	db 28, SCARY_FACE
-	db 37, SLASH
-	db 45, SCREECH
-	db 55, HYDRO_PUMP
-	db 0 ; no more level-up moves
-
-FeraligatrEvosAttacks:
-	db 0 ; no more evolutions
-	db 1, SCRATCH
-	db 1, LEER
-	db 1, RAGE
-	db 1, WATER_GUN
-	db 7, RAGE
-	db 13, WATER_GUN
-	db 21, BITE
-	db 28, SCARY_FACE
-	db 38, SLASH
-	db 47, SCREECH
-	db 58, HYDRO_PUMP
+	db 1, FURY_CUTTER
+	db 1, AGILITY
+	db 16, SCREECH
+	db 20, SLASH
+	db 26, FAINT_ATTACK
+	db 30, FALSE_SWIPE
+	db 33, HARDEN
+	db 36, STEEL_WING
+	db 44, SWORDS_DANCE
+	db 48, THRASH
 	db 0 ; no more level-up moves
 
 SentretEvosAttacks:

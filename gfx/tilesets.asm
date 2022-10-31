@@ -335,3 +335,12 @@ INCBIN "data/tilesets/gate_metatiles.bin"
 
 TilesetGateColl::
 INCLUDE "data/tilesets/gate_collision.asm"
+
+TilesetChumelagoGFX::
+INCBIN "gfx/tilesets/chumelago.2bpp.lz"
+
+TilesetChumelagoMeta::
+INCBIN "data/tilesets/chumelago_metatiles.bin"
+
+TilesetChumelagoColl::
+INCLUDE "data/tilesets/chumelago_collision.asm"

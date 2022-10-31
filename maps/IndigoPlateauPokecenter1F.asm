@@ -88,32 +88,32 @@ PlateauRivalBattleCommon:
 	waitbutton
 	closetext
 	setevent EVENT_INDIGO_PLATEAU_POKECENTER_RIVAL
-	checkevent EVENT_GOT_TOTODILE_FROM_ELM
-	iftrue .Totodile
-	checkevent EVENT_GOT_CHIKORITA_FROM_ELM
-	iftrue .Chikorita
-	; Cyndaquil
+	checkevent EVENT_GOT_HONEDGE_FROM_ELM
+	iftrue .Honedge
+	checkevent EVENT_GOT_SPIRRIP_FROM_ELM
+	iftrue .Spirrip
+	; Litwick
 	winlosstext PlateauRivalWinText, PlateauRivalLoseText
 	setlasttalked INDIGOPLATEAUPOKECENTER1F_RIVAL
-	loadtrainer RIVAL2, RIVAL2_2_TOTODILE
+	loadtrainer RIVAL2, RIVAL2_2_HONEDGE
 	startbattle
 	dontrestartmapmusic
 	reloadmapafterbattle
 	sjump PlateauRivalPostBattle
 
-.Totodile:
+.Honedge:
 	winlosstext PlateauRivalWinText, PlateauRivalLoseText
 	setlasttalked INDIGOPLATEAUPOKECENTER1F_RIVAL
-	loadtrainer RIVAL2, RIVAL2_2_CHIKORITA
+	loadtrainer RIVAL2, RIVAL2_2_SPIRRIP
 	startbattle
 	dontrestartmapmusic
 	reloadmapafterbattle
 	sjump PlateauRivalPostBattle
 
-.Chikorita:
+.Spirrip:
 	winlosstext PlateauRivalWinText, PlateauRivalLoseText
 	setlasttalked INDIGOPLATEAUPOKECENTER1F_RIVAL
-	loadtrainer RIVAL2, RIVAL2_2_CYNDAQUIL
+	loadtrainer RIVAL2, RIVAL2_2_LITWICK
 	startbattle
 	dontrestartmapmusic
 	reloadmapafterbattle

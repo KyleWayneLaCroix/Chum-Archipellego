@@ -1,28 +1,29 @@
 _OakText6::
-	text "Now, what did you"
-	line "say your name was?"
+	text "Now, do you know"
+	line "your name?"
 	prompt
 
 _OakText7::
 	text "<PLAYER>, are you"
 	line "ready?"
 
-	para "Your very own"
-	line "#MON story is"
-	cont "about to unfold."
+	para "I'm about to get"
+	line "you back on Bro"
+	cont "Island."
 
-	para "You'll face fun"
-	line "times and tough"
-	cont "challenges."
+	para "I'm going to need"
+	line "to compress you"
+	cont "to get you there."
 
-	para "A world of dreams"
-	line "and adventures"
+	para "It's going to be"
+	line "a bit weird, but"
+	cont "we'll get there."
 
-	para "with #MON"
-	line "awaits! Let's go!"
+	para "Hopefully we can"
+	line "get this fixed."
 
-	para "I'll be seeing you"
-	line "later!"
+	para "Try to find me,"
+	line "See ya soon."
 	done
 
 _ClockTimeMayBeWrongText::
