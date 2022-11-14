@@ -9,10 +9,10 @@ MACRO auto_weather_map
 	map_id \1 ; map
 	db \2 ; AUTOMATIC_* weather index
 ENDM
-	auto_weather_map TIN_TOWER_ROOF, AUTOMATIC_SUN
-	auto_weather_map ROUTE_43, AUTOMATIC_RAIN
-	auto_weather_map LAKE_OF_RAGE, AUTOMATIC_RAIN
-	auto_weather_map ROUTE_45, AUTOMATIC_SANDSTORM
+;	auto_weather_map MAP_NONE, AUTOMATIC_SUN
+;	auto_weather_map MAP_NONE, AUTOMATIC_RAIN
+;	auto_weather_map MAP_NONE, AUTOMATIC_RAIN
+;	auto_weather_map MAP_NONE, AUTOMATIC_SANDSTORM
 	db 0 ; end
 
 AutomaticWeatherEffects:
