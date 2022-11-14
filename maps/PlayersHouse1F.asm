@@ -40,6 +40,7 @@ MeetMomScript:
 	scall PlayersHouse1FReceiveItemStd
 	setflag ENGINE_POKEGEAR
 	setflag ENGINE_PHONE_CARD
+	setflag ENGINE_MAP_CARD
 	addcellnum PHONE_MOM
 	setscene SCENE_PLAYERSHOUSE1F_NOOP
 	setevent EVENT_PLAYERS_HOUSE_MOM_1
@@ -61,6 +62,9 @@ MeetMomScript:
 	yesorno
 	iffalse .SetDayOfWeek
 .DayOfWeekDone:
+	writetext ComeHomeForDSTText
+	yesorno
+	iffalse .ExplainPhone
 	sjump .KnowPhone
 
 .KnowPhone:
@@ -68,7 +72,24 @@ MeetMomScript:
 	promptbutton
 	sjump .FinishPhone
 
+.ExplainPhone:
+	writetext DontKnowTheInstructionsText
+	promptbutton
+	sjump .FinishPhone
+
 .FinishPhone:
+	writetext InstructionsNextText
+	waitbutton
+	writetext GetStarterText
+	promptbutton
+	waitsfx
+	getmonname STRING_BUFFER_3, PIKACHU
+	writetext ReceivedStarterText
+	playsound SFX_CAUGHT_MON
+	waitsfx
+	promptbutton
+	givepoke PIKACHU, 5, BERRY
+	closetext
 	checkevent EVENT_TEMPORARY_UNTIL_MAP_RELOAD_1
 	iftrue .FromRight
 	checkevent EVENT_TEMPORARY_UNTIL_MAP_RELOAD_2
@@ -200,30 +221,42 @@ MomWalksBackMovement:
 	step_end
 
 ElmsLookingForYouText:
-	text "Good, it worked"
-	line "I wasn't sure."
+	text "Oh, <PLAYER>…! Our"
+	line "neighbor, PROF."
 
-	para "You appear to be"
-	line "in one piece."
+	para "ELM, was looking"
+	line "for you."
 
-	para "The restoration"
-	line "process does not"
-	cont "work for everyone,"
+	para "He said he wanted"
+	line "you to do some-"
+	cont "thing for him."
 
-	para "but you seem fine"
-	line "physically."
+	para "Oh! I almost for-"
+	line "got! Your #MON"
 
-	para "Your memories may"
-	line "return, as we fix"
-	cont "up the code."
+	para "GEAR is back from"
+	line "the repair shop."
+
+	para "Here you go!"
 	done
 
 MomGivesPokegearText:
-	text "Need to calibrate"
-	line "a few things still."
+	text "#MON GEAR, or"
+	line "just #GEAR."
 
-	para "What day of the"
-	line "week is it?"
+	para "It's essential if"
+	line "you want to be a"
+	cont "good trainer."
+
+	para "It comes with a"
+	line "CLOCK, PHONE,"
+	cont "and TOWN MAP!"
+
+	para "Oh, the day of the"
+	line "week isn't set."
+
+	para "You mustn't forget"
+	line "that!"
 	done
 
 IsItDSTText:
@@ -231,20 +264,64 @@ IsItDSTText:
 	line "Saving Time now?"
 	done
 
+ComeHomeForDSTText:
+	text "Come home to"
+	line "adjust your clock"
+
+	para "for Daylight"
+	line "Saving Time."
+
+	para "By the way, do you"
+	line "know how to use"
+	cont "the PHONE?"
+	done
+
 KnowTheInstructionsText:
-	text "Okay, this house"
-	line "is very unstable."
+	text "Don't you just"
+	line "turn the #GEAR"
 
-	para "You need to get"
-	line "moving, I left a"
-	cont "#MON for you"
+	para "on and select the"
+	line "PHONE icon?"
+	done
 
-	para "at the lab, so"
-	line "try to go there."
+DontKnowTheInstructionsText:
+	text "I'll read the"
+	line "instructions."
+
+	para "Turn the #GEAR"
+	line "on and select the"
+	cont "PHONE icon."
+	done
+
+InstructionsNextText:
+	text "Phone numbers are"
+	line "stored in memory."
+
+	para "Just choose a name"
+	line "you want to call."
+
+	para "Gee, isn't that"
+	line "convenient?"
+	done
+
+GetStarterText:
+	text "One more thing!"
+	line "Here's your first"
+	cont "#MON!"
+	done
+
+ReceivedStarterText:
+	text "<PLAYER> received"
+	line "@"
+	text_ram wStringBuffer3
+	text "!"
 	done
 
 HurryUpElmIsWaitingText:
-	text "I AM ERROR"
+	text "PROF.ELM is wait-"
+	line "ing for you."
+
+	para "Hurry up, baby!"
 	done
 
 SoWhatWasProfElmsErrandText:
@@ -269,60 +346,76 @@ ImBehindYouText:
 	done
 
 NeighborMornIntroText:
-	text "Hello, my name"
-	line "is Errol."
+	text "Good morning,"
+	line "<PLAY_G>!"
+
+	para "I'm visiting!"
 	done
 
 NeighborDayIntroText:
-	text "Hello, my name"
-	line "is Errol."
+	text "Hello, <PLAY_G>!"
+	line "I'm visiting!"
 	done
 
 NeighborNiteIntroText:
-	text "Hello, my name"
-	line "is Errol."
+	text "Good evening,"
+	line "<PLAY_G>!"
+
+	para "I'm visiting!"
 	done
 
 NeighborText:
-	text "I am not a real"
-	line "person."
+	text "<PLAY_G>, have you"
+	line "heard?"
+
+	para "My daughter is"
+	line "adamant about"
+
+	para "becoming PROF."
+	line "ELM's assistant."
+
+	para "She really loves"
+	line "#MON!"
 	done
 
 PlayersHouse1FStoveText:
-	text "The Stove feels"
-	line "bouncy for some"
-	cont "reason?"
+	text "Mom's specialty!"
+
+	para "CINNABAR VOLCANO"
+	line "BURGER!"
 	done
 
 PlayersHouse1FSinkText:
-	text "The sink drain"
-	line "seems unending."
+	text "The sink is spot-"
+	line "less. Mom likes it"
+	cont "clean."
 	done
 
 PlayersHouse1FFridgeText:
 	text "Let's see what's"
 	line "in the fridge…"
 
-	para "TERU-SAMA and"
-	line "tasty ITEMCA!"
+	para "FRESH WATER and"
+	line "tasty LEMONADE!"
 	done
 
 PlayersHouse1FTVText:
-	text "The TV shows the"
-	line "you the house"
-	cont "behind you."
+	text "There's a movie on"
+	line "TV: Stars dot the"
 
-	para "However, it shows"
-	line "no one seated at"
-	cont "the table…"
+	para "sky as two boys"
+	line "ride on a train…"
+
+	para "I'd better get"
+	line "rolling too!"
 	done
 
 PlayersHouse1F_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
-	warp_event  6,  7, ELMS_LAB, 3
-	warp_event  7,  7, ELMS_LAB, 3
+	warp_event  6,  7, NEW_BARK_TOWN, 1
+	warp_event  7,  7, NEW_BARK_TOWN, 1
 	warp_event  9,  0, PLAYERS_HOUSE_2F, 1
 
 	def_coord_events
@@ -336,8 +429,8 @@ PlayersHouse1F_MapEvents:
 	bg_event  4,  1, BGEVENT_READ, PlayersHouse1FTVScript
 
 	def_object_events
-	object_event  7,  4, SPRITE_CAL, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, MomScript, EVENT_PLAYERS_HOUSE_MOM_1
-	object_event  2,  2, SPRITE_CAL, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, MORN, 0, OBJECTTYPE_SCRIPT, 0, MomScript, EVENT_PLAYERS_HOUSE_MOM_2
-	object_event  7,  4, SPRITE_CAL, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, DAY, 0, OBJECTTYPE_SCRIPT, 0, MomScript, EVENT_PLAYERS_HOUSE_MOM_2
-	object_event  0,  2, SPRITE_CAL, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, NITE, 0, OBJECTTYPE_SCRIPT, 0, MomScript, EVENT_PLAYERS_HOUSE_MOM_2
-	object_event  4,  4, SPRITE_KRIS, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, NeighborScript, EVENT_PLAYERS_HOUSE_1F_NEIGHBOR
+	object_event  7,  4, SPRITE_MOM, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, MomScript, EVENT_PLAYERS_HOUSE_MOM_1
+	object_event  2,  2, SPRITE_MOM, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, MORN, 0, OBJECTTYPE_SCRIPT, 0, MomScript, EVENT_PLAYERS_HOUSE_MOM_2
+	object_event  7,  4, SPRITE_MOM, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, DAY, 0, OBJECTTYPE_SCRIPT, 0, MomScript, EVENT_PLAYERS_HOUSE_MOM_2
+	object_event  0,  2, SPRITE_MOM, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, NITE, 0, OBJECTTYPE_SCRIPT, 0, MomScript, EVENT_PLAYERS_HOUSE_MOM_2
+	object_event  4,  4, SPRITE_POKEFAN_F, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, NeighborScript, EVENT_PLAYERS_HOUSE_1F_NEIGHBOR
