@@ -60,3 +60,6 @@ LancesRoom_Blocks:
 
 HallOfFame_Blocks:
 	INCBIN "maps/HallOfFame.blk"
+
+AwakeningBeach_Blocks:
+	INCBIN "maps/AwakeningBeach.blk"

@@ -52,8 +52,6 @@ ENDM
 
 	newgroup NEW_BARK                                             ;  3
 	map_const NEW_BARK_TOWN,                               10,  9 ;  1
-	map_const PLAYERS_HOUSE_1F,                             5,  4 ;  2
-	map_const PLAYERS_HOUSE_2F,                             4,  3 ;  3
 	endgroup
 
 	newgroup INDIGO                                               ;  4
@@ -66,4 +64,10 @@ ENDM
 	map_const HALL_OF_FAME,                                 5,  7 ;  7
 	endgroup
 
-DEF NUM_MAP_GROUPS EQU const_value ; 4
+	newgroup BROLOGUE                                             ;  5
+	map_const AWAKENING_BEACH,                             11, 23 ;  1
+	map_const PLAYERS_HOUSE_1F,                             8,  5 ;  2
+	map_const PLAYERS_HOUSE_2F,                             4,  3 ;  3
+	endgroup
+
+DEF NUM_MAP_GROUPS EQU const_value ; 5

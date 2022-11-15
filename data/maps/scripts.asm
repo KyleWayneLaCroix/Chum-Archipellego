@@ -34,7 +34,7 @@ INCLUDE "maps/HallOfFame.asm"
 
 
 SECTION "Map Scripts 5", ROMX
-
+INCLUDE "maps/AwakeningBeach.asm"
 
 SECTION "Map Scripts 6", ROMX
 

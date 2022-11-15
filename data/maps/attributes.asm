@@ -120,3 +120,4 @@ ENDM
 	map_attributes KarensRoom, KARENS_ROOM, $00, 0
 	map_attributes LancesRoom, LANCES_ROOM, $00, 0
 	map_attributes HallOfFame, HALL_OF_FAME, $00, 0
+	map_attributes AwakeningBeach, AWAKENING_BEACH, $05, 0
