@@ -17,6 +17,7 @@ MapGroupRoofs:
 	db ROOF_NEW_BARK  ;  3 (New Bark)
 	db -1             ;  4
 	db ROOF_NEW_BARK  ;  5 (Brologue)
+	db -1             ;  6
 	assert_table_length NUM_MAP_GROUPS + 1
 
 Roofs:

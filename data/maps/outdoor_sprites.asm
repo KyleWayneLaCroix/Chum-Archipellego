@@ -9,6 +9,7 @@ OutdoorSprites:
 	dw NewBarkGroupSprites
 	dw IndigoGroupSprites
 	dw BrologueGroupSprites
+	dw DungeonGroupSprites
 	assert_table_length NUM_MAP_GROUPS
 
 
@@ -47,13 +48,13 @@ NewBarkGroupSprites:
 
 
 CableClubGroupSprites:
-; (no outdoor maps)
 	db SPRITE_BEAUTY
 	; 0 of max 9 walking sprites
 	db 0 ; end
 
 
 IndigoGroupSprites:
+	; (no outdoor maps)
 	; 0 of max 9 walking sprites
 	db 0 ; end
 
@@ -69,4 +70,10 @@ BrologueGroupSprites:
 	db SPRITE_POKE_BALL
 	db SPRITE_FRUIT_TREE
 	db SPRITE_CAPTAIN
+	db 0 ; end
+
+
+DungeonGroupSprites:
+	; (no outdoor maps)
+	; 0 of max 9 walking sprites
 	db 0 ; end

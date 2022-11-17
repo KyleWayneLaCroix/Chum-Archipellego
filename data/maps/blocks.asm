@@ -61,5 +61,47 @@ LancesRoom_Blocks:
 HallOfFame_Blocks:
 	INCBIN "maps/HallOfFame.blk"
 
+GearCityPokecenter1F_Blocks:
+	INCBIN "maps/Pokecenter1F.blk"
+
+GearCityMart_Blocks:
+	INCBIN "maps/Mart.blk"
+
+
+SECTION "Map Blocks 4", ROMX
+
 AwakeningBeach_Blocks:
 	INCBIN "maps/AwakeningBeach.blk"
+
+DankCave1F_Blocks:
+	INCBIN "maps/DankCave1F.blk"
+
+DankCave2F_Blocks:
+	INCBIN "maps/DankCave2F.blk"
+
+DrNuggzMDExterior_Blocks:
+	INCBIN "maps/DrNuggzMDExterior.blk"
+
+DrNuggzMDInterior_Blocks:
+	INCBIN "maps/DrNuggzMDInterior.blk"
+
+RouteA_Blocks:
+	INCBIN "maps/RouteA.blk"
+
+RouteAPokecenter1F_Blocks:
+	INCBIN "maps/Pokecenter1F.blk"
+
+GearCity_Blocks:
+	INCBIN "maps/GearCity.blk"
+
+CityGearRetail_Blocks:
+	INCBIN "maps/CityGearRetail.blk"
+
+CityGearHQ_Blocks:
+	INCBIN "maps/CityGearHQ.blk"
+
+CityGearHQBasement_Blocks:
+	INCBIN "maps/CityGearHQBasement.blk"
+
+NorthernForest_Blocks:
+	INCBIN "maps/NorthernForest.blk"

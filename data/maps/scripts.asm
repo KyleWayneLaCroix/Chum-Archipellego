@@ -35,6 +35,19 @@ INCLUDE "maps/HallOfFame.asm"
 
 SECTION "Map Scripts 5", ROMX
 INCLUDE "maps/AwakeningBeach.asm"
+INCLUDE "maps/DankCave1F.asm"
+INCLUDE "maps/DankCave2F.asm"
+INCLUDE "maps/DrNuggzMDExterior.asm"
+INCLUDE "maps/DrNuggzMDInterior.asm"
+INCLUDE "maps/RouteA.asm"
+INCLUDE "maps/RouteAPokecenter1F.asm"
+INCLUDE "maps/GearCity.asm"
+INCLUDE "maps/CityGearRetail.asm"
+INCLUDE "maps/GearCityPokecenter1F.asm"
+INCLUDE "maps/GearCityMart.asm"
+INCLUDE "maps/CityGearHQ.asm"
+INCLUDE "maps/CityGearHQBasement.asm"
+INCLUDE "maps/NorthernForest.asm"
 
 SECTION "Map Scripts 6", ROMX
 

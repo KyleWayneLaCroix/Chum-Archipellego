@@ -566,8 +566,8 @@ PokegearMap_KantoMap:
 
 PokegearMap_JohtoMap:
 ; TODO: Change these to the last and first landmarks of the Johto region.
-	ld d, LANDMARK_SILVER_CAVE
-	ld e, LANDMARK_NEW_BARK_TOWN
+	ld d, LANDMARK_DR_NUGGZ_MD
+	ld e, LANDMARK_AWAKENING_BEACH
 PokegearMap_ContinueMap:
 	ld hl, hJoyLast
 	ld a, [hl]

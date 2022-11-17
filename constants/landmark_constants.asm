@@ -4,9 +4,9 @@
 ; Johto landmarks
 	const LANDMARK_NEW_BARK_TOWN     ; 01
 	const LANDMARK_AWAKENING_BEACH   ; 01
-	const LANDMARK_ROUTE_29          ; 02
-	const LANDMARK_CHERRYGROVE_CITY  ; 03
-	const LANDMARK_ROUTE_30          ; 04
+	const LANDMARK_ROUTE_A           ; 02
+	const LANDMARK_GEAR_CITY         ; 03
+	const LANDMARK_NORTHERN_FOREST   ; 04
 	const LANDMARK_ROUTE_31          ; 05
 	const LANDMARK_VIOLET_CITY       ; 06
 	const LANDMARK_SPROUT_TOWER      ; 07
@@ -48,7 +48,7 @@
 	const LANDMARK_ROUTE_45          ; 2b
 	const LANDMARK_DARK_CAVE         ; 2c
 	const LANDMARK_ROUTE_46          ; 2d
-	const LANDMARK_SILVER_CAVE       ; 2e
+	const LANDMARK_DR_NUGGZ_MD       ; 2e
 DEF KANTO_LANDMARK EQU const_value
 	const LANDMARK_PALLET_TOWN       ; 2f
 	const LANDMARK_ROUTE_1           ; 30

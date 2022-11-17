@@ -120,4 +120,22 @@ ENDM
 	map_attributes KarensRoom, KARENS_ROOM, $00, 0
 	map_attributes LancesRoom, LANCES_ROOM, $00, 0
 	map_attributes HallOfFame, HALL_OF_FAME, $00, 0
-	map_attributes AwakeningBeach, AWAKENING_BEACH, $05, 0
+	map_attributes AwakeningBeach, AWAKENING_BEACH, $05, WEST
+	connection west, RouteA, ROUTE_A, -2
+	map_attributes DrNuggzMDExterior, DR_NUGGZ_MD_EXTERIOR, $05, 0
+	map_attributes DrNuggzMDInterior, DR_NUGGZ_MD_INTERIOR, $05, 0
+	map_attributes RouteA, ROUTE_A, $05, WEST | EAST
+	connection west, GearCity, GEAR_CITY, -13
+	connection east, AwakeningBeach, AWAKENING_BEACH, 2
+	map_attributes RouteAPokecenter1F, ROUTE_A_POKECENTER_1F, $00, 0
+	map_attributes GearCity, GEAR_CITY, $05, EAST
+	connection east, RouteA, ROUTE_A, 13
+	map_attributes CityGearRetail, CITY_GEAR_RETAIL, $00, 0
+	map_attributes GearCityPokecenter1F, GEAR_CITY_POKECENTER_1F, $00, 0
+	map_attributes GearCityMart, GEAR_CITY_MART, $00, 0
+
+	map_attributes DankCave1F, DANK_CAVE_1F, $09, 0
+	map_attributes DankCave2F, DANK_CAVE_2F, $09, 0
+	map_attributes NorthernForest, NORTHERN_FOREST, $00, 0
+	map_attributes CityGearHQ, CITY_GEAR_HQ, $00, 0
+	map_attributes CityGearHQBasement, CITY_GEAR_HQ_BASEMENT, $00, 0
