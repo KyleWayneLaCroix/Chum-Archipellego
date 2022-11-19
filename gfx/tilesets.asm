@@ -36,14 +36,14 @@ INCBIN "data/tilesets/ice_path_metatiles.bin"
 TilesetIcePathColl::
 INCLUDE "data/tilesets/ice_path_collision.asm"
 
-TilesetPlayersRoomGFX::
-INCBIN "gfx/tilesets/players_room.2bpp.lz"
+TilesetPlayersHouseGFX::
+INCBIN "gfx/tilesets/players_house.2bpp.lz"
 
-TilesetPlayersRoomMeta::
-INCBIN "data/tilesets/players_room_metatiles.bin"
+TilesetPlayersHouseMeta::
+INCBIN "data/tilesets/players_house_metatiles.bin"
 
-TilesetPlayersRoomColl::
-INCLUDE "data/tilesets/players_room_collision.asm"
+TilesetPlayersHouseColl::
+INCLUDE "data/tilesets/players_house_collision.asm"
 
 
 SECTION "Tileset Data 2", ROMX
@@ -65,15 +65,6 @@ INCBIN "data/tilesets/port_metatiles.bin"
 
 TilesetPortColl::
 INCLUDE "data/tilesets/port_collision.asm"
-
-TilesetPlayersHouseGFX::
-INCBIN "gfx/tilesets/players_house.2bpp.lz"
-
-TilesetPlayersHouseMeta::
-INCBIN "data/tilesets/players_house_metatiles.bin"
-
-TilesetPlayersHouseColl::
-INCLUDE "data/tilesets/players_house_collision.asm"
 
 TilesetMansionGFX::
 INCBIN "gfx/tilesets/mansion.2bpp.lz"
@@ -312,6 +303,14 @@ INCBIN "data/tilesets/ruins_of_alph_metatiles.bin"
 TilesetRuinsOfAlphColl::
 INCLUDE "data/tilesets/ruins_of_alph_collision.asm"
 
+TilesetPlayersRoomGFX::
+INCBIN "gfx/tilesets/players_room.2bpp.lz"
+
+TilesetPlayersRoomMeta::
+INCBIN "data/tilesets/players_room_metatiles.bin"
+
+TilesetPlayersRoomColl::
+INCLUDE "data/tilesets/players_room_collision.asm"
 
 SECTION "Tileset Data 8", ROMX
 
@@ -335,3 +334,12 @@ INCBIN "data/tilesets/gate_metatiles.bin"
 
 TilesetGateColl::
 INCLUDE "data/tilesets/gate_collision.asm"
+
+TilesetChumelagoGFX::
+INCBIN "gfx/tilesets/chumelago.2bpp.lz"
+
+TilesetChumelagoMeta::
+INCBIN "data/tilesets/chumelago_metatiles.bin"
+
+TilesetChumelagoColl::
+INCLUDE "data/tilesets/chumelago_collision.asm"

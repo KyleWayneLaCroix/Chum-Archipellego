@@ -181,14 +181,14 @@ _CardFolderOpenText::
 	text_end
 
 _OakTimeWokeUpText::
-	text "<……><……><……><……><……><……>"
-	line "<……><……><……><……><……><……>"
+	text "Hey, can you"
+	line "hear me?"
 
-	para "Zzz… Hm? Wha…?"
-	line "You woke me up!"
+	para "Looks like your"
+	line "eyes don't work."
 
-	para "Will you check the"
-	line "clock for me?"
+	para "Gotta calibrate a"
+	line "few things."
 	prompt
 
 _OakTimeWhatTimeIsItText::
@@ -217,19 +217,17 @@ _OakTimeMinutesQuestionMarkText::
 
 _OakTimeOversleptText::
 	text "!"
-	line "I overslept!"
+	line "Look out!"
 	done
 
 _OakTimeYikesText::
 	text "!"
-	line "Yikes! I over-"
-	cont "slept!"
+	line "I think I got it!"
 	done
 
 _OakTimeSoDarkText::
 	text "!"
-	line "No wonder it's so"
-	cont "dark!"
+	line "Fixing your eyes,"
 	done
 
 _OakTimeWhatDayIsItText::

@@ -32,10 +32,10 @@
 	const EVENT_GOT_GOOD_ROD
 	const EVENT_GOT_SUPER_ROD
 ; Johto story events
-	const EVENT_GOT_A_POKEMON_FROM_ELM
-	const EVENT_GOT_CYNDAQUIL_FROM_ELM
-	const EVENT_GOT_TOTODILE_FROM_ELM
-	const EVENT_GOT_CHIKORITA_FROM_ELM
+	const EVENT_GOT_A_STARTER
+	const EVENT_GOT_LITWICK_STARTER
+	const EVENT_GOT_HONEDGE_STARTER
+	const EVENT_GOT_SPIRRIP_STARTER
 	const EVENT_GOT_MYSTERY_EGG_FROM_MR_POKEMON
 	const EVENT_GAVE_MYSTERY_EGG_TO_ELM
 	const EVENT_JASMINE_RETURNED_TO_GYM
@@ -268,7 +268,8 @@
 	const EVENT_DANA_GAVE_THUNDERSTONE
 	const EVENT_TULLY_GAVE_WATER_STONE
 	const EVENT_TIFFANY_GAVE_PINK_BOW
-; Unused: next 339 events
+; Unused: next 338 events
+	const EVENT_AWAKENING_BEACH_HYPER_POTION
 
 	const_next 600
 ; Kurt Apricorn events
@@ -1050,9 +1051,9 @@
 ; The map script command macros `disappear` and `appear` set/clear these flags and immediately apply the effect on visibility.
 ; The map script command macros `setevent` and `clearevent` set/clear these flags, and their effects will be seen when the map is reloaded.
 ; Johto itemballs
-	const EVENT_CYNDAQUIL_POKEBALL_IN_ELMS_LAB
-	const EVENT_TOTODILE_POKEBALL_IN_ELMS_LAB
-	const EVENT_CHIKORITA_POKEBALL_IN_ELMS_LAB
+	const EVENT_LITWICK_POKEBALL
+	const EVENT_HONEDGE_POKEBALL
+	const EVENT_SPIRRIP_POKEBALL
 	const EVENT_VIOLET_CITY_PP_UP
 	const EVENT_VIOLET_CITY_RARE_CANDY
 	const EVENT_LAKE_OF_RAGE_ELIXER
@@ -1186,8 +1187,8 @@
 	const EVENT_RIVAL_SPROUT_TOWER
 	const EVENT_RIVAL_BURNED_TOWER
 	const EVENT_RIVAL_DRAGONS_DEN
-	const EVENT_PLAYERS_HOUSE_MOM_1
-	const EVENT_PLAYERS_HOUSE_MOM_2
+	const EVENT_PLAYERS_HOUSE_KYLE_1
+	const EVENT_PLAYERS_HOUSE_KYLE_2
 	const EVENT_MR_POKEMONS_HOUSE_OAK
 	const EVENT_VIOLET_CITY_EARL
 	const EVENT_EARLS_ACADEMY_EARL

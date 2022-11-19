@@ -1,12 +1,4 @@
 MomPhoneCalleeScript:
-	checkevent EVENT_TALKED_TO_MOM_AFTER_MYSTERY_EGG_QUEST
-	iftrue .started_quest
-	checkevent EVENT_DUDE_TALKED_TO_YOU
-	iftrue MomPhoneLectureScript
-	checkevent EVENT_GAVE_MYSTERY_EGG_TO_ELM
-	iftrue MomPhoneNoGymQuestScript
-	checkevent EVENT_GOT_A_POKEMON_FROM_ELM
-	iftrue MomPhoneNoPokedexScript
 	sjump MomPhoneNoPokemonScript
 
 .started_quest
@@ -26,12 +18,13 @@ MomPhoneLandmark:
 	sjump MomSavingMoney
 
 MomPhoneInTown:
+; TODO: Pick maps for Mom's phone dialog to change.
 	readvar VAR_MAPGROUP
 	ifequal GROUP_NEW_BARK_TOWN, .newbark
-	ifequal GROUP_CHERRYGROVE_CITY, .cherrygrove
-	ifequal GROUP_VIOLET_CITY, .violet
-	ifequal GROUP_AZALEA_TOWN, .azalea
-	ifequal GROUP_GOLDENROD_CITY, .goldenrod
+	ifequal GROUP_NONE, .cherrygrove
+	ifequal GROUP_NONE, .violet
+	ifequal GROUP_NONE, .azalea
+	ifequal GROUP_NONE, .goldenrod
 	farwritetext MomPhoneGenericAreaText
 	promptbutton
 	sjump MomSavingMoney
