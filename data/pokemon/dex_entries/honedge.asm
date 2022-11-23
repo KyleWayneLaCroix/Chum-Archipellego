@@ -1,10 +1,11 @@
-	db "SWORD@" ; species name
-	dw 7, 300 ; height, weight
 
-	db   "If anyone dares to"
-	next "grab its hilt, it"
-	next "wraps a blue cloth"
+	db "Sword@" ; species name
+	dw 8, 20 ; height, weight
 
-	page "around that arm"
-	next "and drains their"
-	next "life energy away.@"
+	db   "There is much to"
+    next "learn about this"
+    next "newly discovered"
+
+    page "#MON."
+    next "Temporary #dex"
+    next "entry.@"

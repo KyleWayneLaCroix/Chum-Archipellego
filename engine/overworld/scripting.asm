@@ -1122,7 +1122,7 @@ EarthquakeMovement:
 .End
 
 Script_loadpikachudata:
-	ld a, PIKACHU
+	ld a, EMOLGA
 	ld [wTempWildMonSpecies], a
 	ld a, 5
 	ld [wCurPartyLevel], a

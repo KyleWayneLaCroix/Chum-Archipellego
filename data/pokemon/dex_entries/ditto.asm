@@ -1,10 +1,11 @@
-	db "TRANSFORM@" ; species name
-	dw 100, 90 ; height, weight
 
-	db   "When it encount-"
-	next "ers another DITTO,"
-	next "it will move"
+	db "Transform@" ; species name
+	dw 3, 40 ; height, weight
 
-	page "faster than normal"
-	next "to duplicate that"
-	next "opponent exactly.@"
+	db   "There is much to"
+    next "learn about this"
+    next "newly discovered"
+
+    page "#MON."
+    next "Temporary #dex"
+    next "entry.@"

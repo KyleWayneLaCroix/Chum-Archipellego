@@ -1,4 +1,4 @@
-	db LAMPENT ; 9c
+ db LAMPENT
 
 	db  60,  40,  60,  55,  95,  60
 	;   hp  atk  def  spd  sat  sdf
@@ -12,10 +12,10 @@
 	db 20 ; step cycles to hatch
 	db 5 ; unknown 2
 	INCBIN "gfx/pokemon/lampent/front.dimensions"
-	db 0, 0, 0, 0 ; padding
-	db GROWTH_MEDIUM_FAST ; growth rate
+	dw NULL, NULL ; unused (beta front/back pics)
+	db GROWTH_MEDIUM_SLOW ; growth rate
 	dn EGG_INDETERMINATE, EGG_INDETERMINATE ; egg groups
 
 	; tm/hm learnset
-	tmhm CURSE, TOXIC, ZAP_CANNON, PSYCH_UP, HIDDEN_POWER, SUNNY_DAY, SNORE, PROTECT, RAIN_DANCE, GIGA_DRAIN, ENDURE, FRUSTRATION, THUNDER, RETURN, PSYCHIC_M, SHADOW_BALL, DOUBLE_TEAM, SWAGGER, SLEEP_TALK, DREAM_EATER, REST, ATTRACT, THIEF, NIGHTMARE, THUNDERBOLT
+	tmhm
 	; end

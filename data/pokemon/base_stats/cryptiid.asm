@@ -1,4 +1,4 @@
-	db CRYPTIID ; 9a
+ db CRYPTIID
 
 	db  65, 150, 130,  50,  50,  85
 	;   hp  atk  def  spd  sat  sdf
@@ -14,8 +14,8 @@
 	INCBIN "gfx/pokemon/cryptiid/front.dimensions"
 	dw NULL, NULL ; unused (beta front/back pics)
 	db GROWTH_MEDIUM_FAST ; growth rate
-	dn EGG_INDETERMINATE, EGG_INDETERMINATE ; egg groups
+	dn EGG_MINERAL, EGG_MINERAL ; egg groups
 
 	; tm/hm learnset
-	tmhm CURSE, TOXIC, ZAP_CANNON, PSYCH_UP, HIDDEN_POWER, SUNNY_DAY, SNORE, PROTECT, RAIN_DANCE, GIGA_DRAIN, ENDURE, FRUSTRATION, THUNDER, RETURN, PSYCHIC_M, SHADOW_BALL, DOUBLE_TEAM, SWAGGER, SLEEP_TALK, DREAM_EATER, REST, ATTRACT, THIEF, NIGHTMARE, THUNDERBOLT
+	tmhm
 	; end

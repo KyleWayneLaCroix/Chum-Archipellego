@@ -1,10 +1,11 @@
-	db "HARD SHELL@" ; species name
-	dw 311, 3350 ; height, weight
 
-	db   "It will not stay"
-	next "still, even while"
-	next "it's a pupa. It"
+	db "Hard Shell@" ; species name
+	dw 12, 1520 ; height, weight
 
-	page "already has arms"
-	next "and legs under its"
-	next "solid shell.@"
+	db   "There is much to"
+    next "learn about this"
+    next "newly discovered"
+
+    page "#MON."
+    next "Temporary #dex"
+    next "entry.@"

@@ -1,10 +1,11 @@
-	db "CLEAR WING@" ; species name
-	dw 311, 840 ; height, weight
 
-	db   "It can see in all"
-	next "directions without"
-	next "moving its big"
+	db "Clear Wing@" ; species name
+	dw 12, 380 ; height, weight
 
-	page "eyes, helping it"
-	next "spot attackers and"
-	next "food right away.@"
+	db   "There is much to"
+    next "learn about this"
+    next "newly discovered"
+
+    page "#MON."
+    next "Temporary #dex"
+    next "entry.@"

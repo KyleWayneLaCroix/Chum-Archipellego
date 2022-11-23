@@ -1,12 +1,12 @@
-	db GRIMER ; 088
+ db GRIMER
 
 	db  80,  80,  50,  25,  40,  50
 	;   hp  atk  def  spd  sat  sdf
 
-	db POISON, POISON ; type
+	db POISON, DARK ; type
 	db 190 ; catch rate
-	db 90 ; base exp
-	db NO_ITEM, NUGGET ; items
+	db 65 ; base exp
+	db NO_ITEM, NO_ITEM ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1
 	db 20 ; step cycles to hatch
@@ -17,5 +17,5 @@
 	dn EGG_INDETERMINATE, EGG_INDETERMINATE ; egg groups
 
 	; tm/hm learnset
-	tmhm DYNAMICPUNCH, CURSE, TOXIC, ZAP_CANNON, HIDDEN_POWER, SUNNY_DAY, SNORE, PROTECT, GIGA_DRAIN, ENDURE, FRUSTRATION, THUNDER, RETURN, MUD_SLAP, DOUBLE_TEAM, ICE_PUNCH, SWAGGER, SLEEP_TALK, SLUDGE_BOMB, FIRE_BLAST, THUNDERPUNCH, REST, ATTRACT, THIEF, FIRE_PUNCH, FLAMETHROWER, THUNDERBOLT
+	tmhm
 	; end

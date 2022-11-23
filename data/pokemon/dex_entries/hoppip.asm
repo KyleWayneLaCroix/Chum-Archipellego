@@ -1,10 +1,11 @@
-	db "COTTONWEED@" ; species name
-	dw 104, 10 ; height, weight
 
-	db   "It can be carried"
-	next "away on even the"
-	next "gentlest breeze."
+	db "Cottonweed@" ; species name
+	dw 4, 5 ; height, weight
 
-	page "It may even float"
-	next "all the way to the"
-	next "next town.@"
+	db   "There is much to"
+    next "learn about this"
+    next "newly discovered"
+
+    page "#MON."
+    next "Temporary #dex"
+    next "entry.@"

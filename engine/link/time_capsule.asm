@@ -38,9 +38,9 @@ ValidateOTTrademon:
 
 	; Magnemite and Magneton's types changed
 	; from Electric to Electric/Steel.
-	cp MAGNEMITE
+	cp EEVEE
 	jr z, .normal
-	cp MAGNETON
+	cp EEVEE
 	jr z, .normal
 
 	ld [wCurSpecies], a

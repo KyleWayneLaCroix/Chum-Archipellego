@@ -1,10 +1,11 @@
-	db "DARK@" ; species name
-	dw 200, 240 ; height, weight
 
-	db   "Around dawn, its"
-	next "ominous howl"
-	next "echoes through the"
+	db "Dark@" ; species name
+	dw 6, 108 ; height, weight
 
-	page "area to announce"
-	next "that this is its"
-	next "territory.@"
+	db   "There is much to"
+    next "learn about this"
+    next "newly discovered"
+
+    page "#MON."
+    next "Temporary #dex"
+    next "entry.@"

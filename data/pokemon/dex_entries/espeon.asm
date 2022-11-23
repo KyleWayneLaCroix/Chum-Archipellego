@@ -1,10 +1,11 @@
-	db "SUN@" ; species name
-	dw 211, 580 ; height, weight
 
-	db   "The tip of its"
-	next "forked tail"
-	next "quivers when it is"
+	db "Sun@" ; species name
+	dw 9, 265 ; height, weight
 
-	page "predicting its"
-	next "opponent's next"
-	next "move.@"
+	db   "There is much to"
+    next "learn about this"
+    next "newly discovered"
+
+    page "#MON."
+    next "Temporary #dex"
+    next "entry.@"

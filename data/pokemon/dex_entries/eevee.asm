@@ -1,10 +1,11 @@
-	db "EVOLUTION@" ; species name
-	dw 100, 140 ; height, weight
 
-	db   "Its ability to"
-	next "evolve into many"
-	next "forms allows it to"
+	db "Evolution@" ; species name
+	dw 3, 65 ; height, weight
 
-	page "adapt smoothly"
-	next "and perfectly to"
-	next "any environment.@"
+	db   "There is much to"
+    next "learn about this"
+    next "newly discovered"
+
+    page "#MON."
+    next "Temporary #dex"
+    next "entry.@"

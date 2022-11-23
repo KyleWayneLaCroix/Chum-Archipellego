@@ -393,7 +393,7 @@ endr
 	jr nz, .valid
 
 .invalid
-	ld a, SMEARGLE
+	ld a, M_BLOCK
 	ld [hl], a
 
 .valid

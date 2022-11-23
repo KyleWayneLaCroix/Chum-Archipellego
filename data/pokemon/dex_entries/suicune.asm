@@ -1,10 +1,11 @@
-	db "AURORA@" ; species name
-	dw 607, 4120 ; height, weight
 
-	db   "This divine"
-	next "#MON blows"
-	next "around the world,"
+	db "Aurora@" ; species name
+	dw 20, 1870 ; height, weight
 
-	page "always in search"
-	next "of a pure"
-	next "reservoir.@"
+	db   "There is much to"
+    next "learn about this"
+    next "newly discovered"
+
+    page "#MON."
+    next "Temporary #dex"
+    next "entry.@"

@@ -1,10 +1,11 @@
-	db "POISON GAS@" ; species name
-	dw 311, 210 ; height, weight
 
-	db   "When it inhales"
-	next "poisonous gases"
-	next "from garbage, its"
+	db "Poison Gas@" ; species name
+	dw 30, 160 ; height, weight
 
-	page "body expands, and"
-	next "its insides smell"
-	next "much worse.@"
+	db   "There is much to"
+    next "learn about this"
+    next "newly discovered"
+
+    page "#MON."
+    next "Temporary #dex"
+    next "entry.@"

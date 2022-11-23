@@ -1,10 +1,11 @@
-	db "EGG@" ; species name
-	dw 104, 60 ; height, weight
 
-	db   "If even one is"
-	next "separated from the"
-	next "group, the energy"
+	db "Egg@" ; species name
+	dw 4, 25 ; height, weight
 
-	page "bond between the"
-	next "six will make them"
-	next "rejoin instantly.@"
+	db   "There is much to"
+    next "learn about this"
+    next "newly discovered"
+
+    page "#MON."
+    next "Temporary #dex"
+    next "entry.@"

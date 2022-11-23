@@ -108,32 +108,8 @@ ENDM
 	deco  VIRTUAL_BOY
 ; FindOwnedBigDolls.big_dolls values (see engine/overworld/decorations.asm)
 	const BIG_DOLLS
-	deco  BIG_SNORLAX_DOLL
-	deco  BIG_ONIX_DOLL
-	deco  BIG_LAPRAS_DOLL
 ; FindOwnedOrnaments.ornaments values (see engine/overworld/decorations.asm)
 	const DOLLS
-	deco  PIKACHU_DOLL
-	deco  SURF_PIKACHU_DOLL
-	deco  CLEFAIRY_DOLL
-	deco  JIGGLYPUFF_DOLL
-	deco  BULBASAUR_DOLL
-	deco  CHARMANDER_DOLL
-	deco  SQUIRTLE_DOLL
-	deco  POLIWAG_DOLL
-	deco  DIGLETT_DOLL
-	deco  STARMIE_DOLL
-	deco  MAGIKARP_DOLL
-	deco  ODDISH_DOLL
-	deco  GENGAR_DOLL
-	deco  SHELLDER_DOLL
-	deco  GRIMER_DOLL
-	deco  VOLTORB_DOLL
-	deco  WEEDLE_DOLL
-	deco  UNOWN_DOLL
-	deco  GEODUDE_DOLL
-	deco  MACHOP_DOLL
-	deco  TENTACOOL_DOLL
 DEF NUM_NON_TROPHY_DECOS EQU __deco_value__
 	deco  GOLD_TROPHY_DOLL
 	deco  SILVER_TROPHY_DOLL

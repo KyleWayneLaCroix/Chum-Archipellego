@@ -1139,7 +1139,7 @@ BattleCommand_Critical:
 .Item:
 	ld c, 0
 
-	cp CHANSEY
+	cp GRAPPLOCT
 	jr nz, .Farfetchd
 	ld a, [hl]
 	cp LUCKY_PUNCH
@@ -1150,7 +1150,7 @@ BattleCommand_Critical:
 	jr .Tally
 
 .Farfetchd:
-	cp FARFETCH_D
+	cp FARFETCHD
 	jr nz, .FocusEnergy
 	ld a, [hl]
 	cp STICK
@@ -2746,8 +2746,8 @@ ThickClubBoost:
 ; it's holding a Thick Club, double it.
 	push bc
 	push de
-	ld b, CUBONE
-	ld c, MAROWAK
+	ld b, MUDBRAY
+	ld c, MUDSDALE
 	ld d, THICK_CLUB
 	call SpeciesItemBoost
 	pop de
@@ -2761,8 +2761,8 @@ LightBallBoost:
 ; holding a Light Ball, double it.
 	push bc
 	push de
-	ld b, PIKACHU
-	ld c, PIKACHU
+	ld b, EMOLGA
+	ld c, EMOLGA
 	ld d, LIGHT_BALL
 	call SpeciesItemBoost
 	pop de

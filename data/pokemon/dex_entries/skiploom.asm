@@ -1,10 +1,11 @@
-	db "COTTONWEED@" ; species name
-	dw 200, 20 ; height, weight
 
-	db   "As soon as it"
-	next "rains, it closes"
-	next "its flower and"
+	db "Cottonweed@" ; species name
+	dw 6, 10 ; height, weight
 
-	page "hides in the shade"
-	next "of a tree to avoid"
-	next "getting wet.@"
+	db   "There is much to"
+    next "learn about this"
+    next "newly discovered"
+
+    page "#MON."
+    next "Temporary #dex"
+    next "entry.@"

@@ -53,7 +53,7 @@ AnthonyTriesDunsparceSwarm:
 	checkflag ENGINE_DUNSPARCE_SWARM
 	iftrue .Generic
 	setflag ENGINE_DUNSPARCE_SWARM
-	getmonname STRING_BUFFER_4, DUNSPARCE
+	getmonname STRING_BUFFER_4, SPIRRIP
 ; TODO: Pick a map for the Dunsparce swarm, and add its wild data to the appropriate data/wild/ file.
 ;	swarm SWARM_DUNSPARCE, NONE
 	getlandmarkname STRING_BUFFER_5, LANDMARK_DARK_CAVE

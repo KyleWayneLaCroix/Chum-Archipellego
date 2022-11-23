@@ -1,10 +1,11 @@
-	db "FIRE HORSE@" ; species name
-	dw 303, 660 ; height, weight
 
-	db   "Training by"
-	next "jumping over grass"
-	next "that grows longer"
+	db "Fire Horse@" ; species name
+	dw 8, 240 ; height, weight
 
-	page "every day has made"
-	next "it a world-class"
-	next "jumper.@"
+	db   "There is much to"
+    next "learn about this"
+    next "newly discovered"
+
+    page "#MON."
+    next "Temporary #dex"
+    next "entry.@"
