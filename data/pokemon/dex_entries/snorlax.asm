@@ -1,10 +1,11 @@
-	db "SLEEPING@" ; species name
-	dw 611, 10140 ; height, weight
 
-	db   "This #MON's"
-	next "stomach is so"
-	next "strong, even"
+	db "Sleeping@" ; species name
+	dw 21, 4600 ; height, weight
 
-	page "eating moldy or"
-	next "rotten food will"
-	next "not affect it.@"
+	db   "There is much to"
+    next "learn about this"
+    next "newly discovered"
+
+    page "#MON."
+    next "Temporary #dex"
+    next "entry.@"

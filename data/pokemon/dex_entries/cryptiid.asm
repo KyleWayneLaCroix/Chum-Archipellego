@@ -1,10 +1,11 @@
-	db "CRYPT@" ; species name
-	dw 7, 300 ; height, weight
 
-	db   "Often found at"
-	next "the center of"
-	next "cemetaries. It"
+	db "Crypt@" ; species name
+	dw 0, 0 ; height, weight
 
-	page "feeds off of the"
-	next "sorrow of those"
-	next "who enter.@"
+	db   "There is much to"
+    next "learn about this"
+    next "newly discovered"
+
+    page "#MON."
+    next "Temporary #dex"
+    next "entry.@"

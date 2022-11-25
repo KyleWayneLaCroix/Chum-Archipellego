@@ -1,10 +1,11 @@
-	db "ARMOR@" ; species name
-	dw 607, 4450 ; height, weight
 
-	db   "In just one of its"
-	next "mighty hands, it"
-	next "has the power to"
+	db "Armor@" ; species name
+	dw 20, 2020 ; height, weight
 
-	page "make the ground"
-	next "shake and moun-"
-	next "tains crumble.@"
+	db   "There is much to"
+    next "learn about this"
+    next "newly discovered"
+
+    page "#MON."
+    next "Temporary #dex"
+    next "entry.@"

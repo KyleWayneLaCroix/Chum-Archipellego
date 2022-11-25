@@ -1,10 +1,11 @@
-	db "DARK@" ; species name
-	dw 407, 770 ; height, weight
 
-	db   "The pungent-"
-	next "smelling flame"
-	next "that shoots from"
+	db "Dark@" ; species name
+	dw 14, 350 ; height, weight
 
-	page "its mouth results"
-	next "from toxins burn-"
-	next "ing in its body.@"
+	db   "There is much to"
+    next "learn about this"
+    next "newly discovered"
+
+    page "#MON."
+    next "Temporary #dex"
+    next "entry.@"

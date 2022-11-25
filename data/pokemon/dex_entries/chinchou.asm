@@ -1,10 +1,11 @@
-	db "ANGLER@" ; species name
-	dw 108, 260 ; height, weight
 
-	db   "Its antennae, whi-"
-	next "ch evolved from a"
-	next "fin, have both po-"
+	db "Angler@" ; species name
+	dw 5, 120 ; height, weight
 
-	page "sitive and neg-"
-	next "ative charges flo-"
-	next "wing through them.@"
+	db   "There is much to"
+    next "learn about this"
+    next "newly discovered"
+
+    page "#MON."
+    next "Temporary #dex"
+    next "entry.@"

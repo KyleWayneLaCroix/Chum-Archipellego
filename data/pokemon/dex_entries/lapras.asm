@@ -1,10 +1,11 @@
-	db "TRANSPORT@" ; species name
-	dw 802, 4850 ; height, weight
 
-	db   "This gentle"
-	next "#MON loves to"
-	next "give people rides"
+	db "Transport@" ; species name
+	dw 25, 2200 ; height, weight
 
-	page "and provides a ve-"
-	next "ry comfortable way"
-	next "to get around.@"
+	db   "There is much to"
+    next "learn about this"
+    next "newly discovered"
+
+    page "#MON."
+    next "Temporary #dex"
+    next "entry.@"

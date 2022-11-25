@@ -1,10 +1,11 @@
-	db "GRAVEYARD@" ; species name
-	dw 7, 300 ; height, weight
 
-	db   "This #MON"
-	next "possesses large"
-	next "portions of a"
+	db "Tombstones@" ; species name
+	dw 0, 0 ; height, weight
 
-	page "cemetary. No one"
-	next "knows how it can"
-	next "control so much.@"
+	db   "There is much to"
+    next "learn about this"
+    next "newly discovered"
+
+    page "#MON."
+    next "Temporary #dex"
+    next "entry.@"

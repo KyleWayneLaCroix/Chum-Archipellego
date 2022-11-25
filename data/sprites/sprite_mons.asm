@@ -2,38 +2,38 @@ SpriteMons:
 ; entries correspond to SPRITE_* constants past SPRITE_POKEMON
 	table_width 1, SpriteMons
 	db UNOWN
-	db GEODUDE
+	db ARON
 	db GROWLITHE
-	db WEEDLE
-	db SHELLDER
-	db ODDISH
+	db BLIPBUG
+	db PUPITAR
+	db APPLETUN
 	db GENGAR
-	db ZUBAT
-	db MAGIKARP
-	db SQUIRTLE
-	db TOGEPI
-	db BUTTERFREE
-	db DIGLETT
-	db POLIWAG
-	db PIKACHU
-	db CLEFAIRY
-	db CHARMANDER
-	db JYNX
-	db STARMIE
-	db BULBASAUR
-	db JIGGLYPUFF
+	db WOOBAT
+	db FINNEON
+	db TIRTOUGA
+	db BAD_EGG
+	db VIKAVOLT
+	db SPIRRIP
+	db TYMPOLE
+	db EMOLGA
+	db MORELULL
+	db LITWICK
+	db TSAREENA
+	db PORYGON
+	db SKIPLOOM
+	db SHIINOTIC
 	db GRIMER
-	db EKANS
-	db PARAS
-	db TENTACOOL
-	db TAUROS
-	db MACHOP
-	db VOLTORB
+	db SIZZLIPEDE
+	db DWEBBLE
+	db BARBOACH
+	db BOUFFALANT
+	db BRELOOM
+	db MUNNA
 	db LAPRAS
-	db RHYDON
-	db MOLTRES
+	db EXCADRILL
+	db HOPPIP
 	db SNORLAX
-	db GYARADOS
-	db LUGIA
-	db HO_OH
+	db ANGORE
+	db BUZZWOLE
+	db FURIOUSB
 	assert_table_length NUM_POKEMON_SPRITES

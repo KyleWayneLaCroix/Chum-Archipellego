@@ -1,10 +1,11 @@
-	db "GAS@" ; species name
-	dw 403, 2 ; height, weight
 
-	db   "It wraps its op-"
-	next "ponent in its gas-"
-	next "like body, slowly"
+	db "Gas@" ; species name
+	dw 13, 1 ; height, weight
 
-	page "weakening its prey"
-	next "by poisoning it"
-	next "through the skin.@"
+	db   "There is much to"
+    next "learn about this"
+    next "newly discovered"
+
+    page "#MON."
+    next "Temporary #dex"
+    next "entry.@"

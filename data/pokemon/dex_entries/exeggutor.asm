@@ -1,10 +1,11 @@
-	db "COCONUT@" ; species name
-	dw 607, 2650 ; height, weight
 
-	db   "Living in a good"
-	next "environment makes"
-	next "it grow lots of"
+	db "Coconut@" ; species name
+	dw 109, 4156 ; height, weight
 
-	page "heads. A head that"
-	next "drops off becomes"
-	next "an EXEGGCUTE.@"
+	db   "There is much to"
+    next "learn about this"
+    next "newly discovered"
+
+    page "#MON."
+    next "Temporary #dex"
+    next "entry.@"

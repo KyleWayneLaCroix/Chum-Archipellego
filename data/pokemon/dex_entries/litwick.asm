@@ -1,10 +1,11 @@
-	db "CANDLE@" ; species name
-	dw 7, 300 ; height, weight
 
-	db   "It pretends to be"
-	next "a guide to people"
-	next "and #MON, but"
+	db "Candle@" ; species name
+	dw 3, 31 ; height, weight
 
-	page "it is actually"
-	next "leeching the life"
-	next "force of others.@"
+	db   "There is much to"
+    next "learn about this"
+    next "newly discovered"
+
+    page "#MON."
+    next "Temporary #dex"
+    next "entry.@"

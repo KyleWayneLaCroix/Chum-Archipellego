@@ -1,10 +1,11 @@
-	db "PIG@" ; species name
-	dw 104, 140 ; height, weight
 
-	db   "It uses the tip of"
-	next "its nose to dig"
-	next "for food. Its nose"
+	db "Pig@" ; species name
+	dw 4, 65 ; height, weight
 
-	page "is so tough that"
-	next "even frozen ground"
-	next "poses no problem.@"
+	db   "There is much to"
+    next "learn about this"
+    next "newly discovered"
+
+    page "#MON."
+    next "Temporary #dex"
+    next "entry.@"

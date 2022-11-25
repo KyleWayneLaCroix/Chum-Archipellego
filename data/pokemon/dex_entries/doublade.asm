@@ -1,10 +1,11 @@
-	db "SWORD@" ; species name
-	dw 7, 300 ; height, weight
 
-	db   "The two swords"
-	next "employ a strategy"
-	next "of rapidly alter-"
+	db "Sword@" ; species name
+	dw 8, 45 ; height, weight
 
-	page "-nating between"
-	next "attck and defense"
-	next "to defeat prey.@"
+	db   "There is much to"
+    next "learn about this"
+    next "newly discovered"
+
+    page "#MON."
+    next "Temporary #dex"
+    next "entry.@"

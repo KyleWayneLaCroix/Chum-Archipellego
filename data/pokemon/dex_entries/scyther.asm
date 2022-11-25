@@ -1,10 +1,11 @@
-	db "MANTIS@" ; species name
-	dw 411, 1230 ; height, weight
 
-	db   "It's very proud of"
-	next "its speed. It"
-	next "moves so fast that"
+	db "Mantis@" ; species name
+	dw 15, 560 ; height, weight
 
-	page "its opponent does"
-	next "not even know what"
-	next "knocked it down.@"
+	db   "There is much to"
+    next "learn about this"
+    next "newly discovered"
+
+    page "#MON."
+    next "Temporary #dex"
+    next "entry.@"

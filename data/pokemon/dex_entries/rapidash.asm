@@ -1,10 +1,11 @@
-	db "FIRE HORSE@" ; species name
-	dw 507, 2090 ; height, weight
 
-	db   "It just loves to"
-	next "gallop. The faster"
-	next "it goes, the long-"
+	db "Fire Horse@" ; species name
+	dw 17, 800 ; height, weight
 
-	page "er the swaying"
-	next "flames of its mane"
-	next "will become.@"
+	db   "There is much to"
+    next "learn about this"
+    next "newly discovered"
+
+    page "#MON."
+    next "Temporary #dex"
+    next "entry.@"
