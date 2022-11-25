@@ -1,10 +1,11 @@
-	db "LURING@" ; species name
-	dw 7, 300 ; height, weight
 
-	db   "The spirits it"
-	next "burns with its"
-	next "ominous flame are"
+	db "Luring@" ; species name
+	dw 10, 343 ; height, weight
 
-	page "doomed to wander"
-	next "this world, never"
-	next "able to go beyond@"
+	db   "There is much to"
+    next "learn about this"
+    next "newly discovered"
+
+    page "#MON."
+    next "Temporary #dex"
+    next "entry.@"

@@ -1,10 +1,11 @@
-	db "ROYALSWORD@" ; species name
-	dw 7, 300 ; height, weight
 
-	db   "It is said to be"
-	next "able to detect a"
-	next "true leader and"
+	db "Royal Sword@" ; species name
+	dw 17, 530 ; height, weight
 
-	page "determine who is"
-	next "destined to"
-	next "become a king.@"
+	db   "There is much to"
+    next "learn about this"
+    next "newly discovered"
+
+    page "#MON."
+    next "Temporary #dex"
+    next "entry.@"

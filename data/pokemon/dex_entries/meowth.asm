@@ -1,10 +1,11 @@
-	db "SCRATCHCAT@" ; species name
-	dw 104, 90 ; height, weight
 
-	db   "It loves things"
-	next "that sparkle. When"
-	next "it sees a shiny"
+	db "Scratch Cat@" ; species name
+	dw 4, 75 ; height, weight
 
-	page "object, the gold"
-	next "coin on its head"
-	next "shines too.@"
+	db   "There is much to"
+    next "learn about this"
+    next "newly discovered"
+
+    page "#MON."
+    next "Temporary #dex"
+    next "entry.@"

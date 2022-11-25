@@ -1,10 +1,11 @@
-	db "GAS@" ; species name
-	dw 503, 2 ; height, weight
 
-	db   "It hides in the"
-	next "dark, planning to"
-	next "take the life of"
+	db "Gas@" ; species name
+	dw 16, 1 ; height, weight
 
-	page "the next living"
-	next "thing that wanders"
-	next "close by.@"
+	db   "There is much to"
+    next "learn about this"
+    next "newly discovered"
+
+    page "#MON."
+    next "Temporary #dex"
+    next "entry.@"

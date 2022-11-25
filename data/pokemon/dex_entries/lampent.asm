@@ -1,10 +1,11 @@
-	db "LAMP@" ; species name
-	dw 7, 300 ; height, weight
 
-	db   "It arrives near"
-	next "the moment of"
-	next "death and steals"
+	db "Lamp@" ; species name
+	dw 6, 130 ; height, weight
 
-	page "the spirit from"
-	next "the body. It is"
-	next "seen at hospitals@"
+	db   "There is much to"
+    next "learn about this"
+    next "newly discovered"
+
+    page "#MON."
+    next "Temporary #dex"
+    next "entry.@"

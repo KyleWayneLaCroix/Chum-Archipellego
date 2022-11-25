@@ -1,10 +1,11 @@
-	db "ARMOR BIRD@" ; species name
-	dw 507, 1110 ; height, weight
 
-	db   "The feathers that"
-	next "it sheds are very"
-	next "sharp. It is said"
+	db "Armor Bird@" ; species name
+	dw 17, 505 ; height, weight
 
-	page "that people once"
-	next "used the feathers"
-	next "as swords.@"
+	db   "There is much to"
+    next "learn about this"
+    next "newly discovered"
+
+    page "#MON."
+    next "Temporary #dex"
+    next "entry.@"

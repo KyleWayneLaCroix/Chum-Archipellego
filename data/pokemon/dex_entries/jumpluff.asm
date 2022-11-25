@@ -1,10 +1,11 @@
-	db "COTTONWEED@" ; species name
-	dw 207, 70 ; height, weight
 
-	db   "Even in the fierc-"
-	next "est wind, it can"
-	next "control its fluff"
+	db "Cottonweed@" ; species name
+	dw 8, 30 ; height, weight
 
-	page "to make its way to"
-	next "any place in the"
-	next "world it wants.@"
+	db   "There is much to"
+    next "learn about this"
+    next "newly discovered"
+
+    page "#MON."
+    next "Temporary #dex"
+    next "entry.@"

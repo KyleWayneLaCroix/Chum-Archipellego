@@ -1,10 +1,11 @@
-	db "SLUDGE@" ; species name
-	dw 311, 660 ; height, weight
 
-	db   "As it moves, a"
-	next "very strong poison"
-	next "leaks from it,"
+	db "Sludge@" ; species name
+	dw 10, 520 ; height, weight
 
-	page "making the ground"
-	next "there barren for"
-	next "three years.@"
+	db   "There is much to"
+    next "learn about this"
+    next "newly discovered"
+
+    page "#MON."
+    next "Temporary #dex"
+    next "entry.@"

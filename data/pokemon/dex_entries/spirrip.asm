@@ -1,10 +1,11 @@
-	db "GRAVE@" ; species name
-	dw 3, 60 ; height, weight
 
-	db   "It possesses the"
-	next "gravestone of its"
-	next "former life."
+	db "Tombstone@" ; species name
+	dw 0, 0 ; height, weight
 
-	page "It acts friendly,"
-	next "but it seems to"
-	next "multiply quickly.@"
+	db   "There is much to"
+    next "learn about this"
+    next "newly discovered"
+
+    page "#MON."
+    next "Temporary #dex"
+    next "entry.@"

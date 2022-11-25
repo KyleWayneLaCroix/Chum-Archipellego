@@ -493,9 +493,9 @@ InitRoamMons:
 ; initialize wRoamMon structs
 
 ; species
-	ld a, RAIKOU
+	ld a, M_BLOCK
 	ld [wRoamMon1Species], a
-	ld a, ENTEI
+	ld a, BAD_EGG
 	ld [wRoamMon2Species], a
 
 ; level
