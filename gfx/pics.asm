@@ -93,6 +93,8 @@ BrockPic:            INCBIN "gfx/trainers/brock.2bpp.lz"
 SagePic:             INCBIN "gfx/trainers/sage.2bpp.lz"
 MistyPic:            INCBIN "gfx/trainers/misty.2bpp.lz"
 BlainePic:           INCBIN "gfx/trainers/blaine.2bpp.lz"
+HeroOfTimePic:       INCBIN "gfx/trainers/link.2bpp.lz"
+KeybladerPic:        INCBIN "gfx/trainers/sora.2bpp.lz"
 
 SECTION "Pics 4", ROMX
 UnownAFrontpic:      INCBIN "gfx/pokemon/unown_A/front.animated.2bpp.lz"

@@ -26,6 +26,8 @@ MaleTrainers:
 	db SAGE
 	db BIKER
 	db SCIENTIST
+	db HEROOFTIME
+	db KEYBLADER
 .End
 
 FemaleTrainers:
