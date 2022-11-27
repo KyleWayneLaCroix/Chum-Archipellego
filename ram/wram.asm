@@ -3053,8 +3053,10 @@ wBrunosRoomSceneID::                db
 wKarensRoomSceneID::                db
 wLancesRoomSceneID::                db
 wHallOfFameSceneID::                db
+wAwakeningLabSceneID::              db
+wAwakeningBeachSceneID::            db
 
-	ds 112
+	ds 110
 
 ; fight counts
 wJackFightCount::    db

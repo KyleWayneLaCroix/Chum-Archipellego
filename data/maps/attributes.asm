@@ -122,6 +122,7 @@ ENDM
 	map_attributes HallOfFame, HALL_OF_FAME, $00, 0
 	map_attributes AwakeningBeach, AWAKENING_BEACH, $05, WEST
 	connection west, RouteA, ROUTE_A, -2
+	map_attributes AwakeningLab, AWAKENING_LAB, $00, 0
 	map_attributes DrNuggzMDExterior, DR_NUGGZ_MD_EXTERIOR, $05, 0
 	map_attributes DrNuggzMDInterior, DR_NUGGZ_MD_INTERIOR, $05, 0
 	map_attributes RouteA, ROUTE_A, $05, WEST | EAST

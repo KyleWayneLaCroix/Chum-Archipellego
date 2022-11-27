@@ -74,9 +74,8 @@ EngineFlags:
 
 	; fly
 	engine_flag wVisitedSpawns, SPAWN_HOME
-	engine_flag wVisitedSpawns, SPAWN_INDIGO
 	engine_flag wVisitedSpawns, SPAWN_AWAKENING_BEACH
-	engine_flag wVisitedSpawns, SPAWN_BATTLE_TOWER
+	engine_flag wVisitedSpawns, SPAWN_INDIGO
 
 	engine_flag wLuckyNumberShowFlag, LUCKYNUMBERSHOW_GAME_OVER_F
 

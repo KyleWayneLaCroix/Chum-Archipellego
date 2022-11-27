@@ -66,16 +66,17 @@ ENDM
 
 	newgroup BROLOGUE                                 ;  5
 	map_const AWAKENING_BEACH,                 11, 23 ;  1
-	map_const PLAYERS_HOUSE_1F,                 8,  5 ;  2
-	map_const PLAYERS_HOUSE_2F,                 4,  3 ;  3
-	map_const DR_NUGGZ_MD_EXTERIOR,            10,  9 ;  4
-	map_const DR_NUGGZ_MD_INTERIOR,             6,  5 ;  5
-	map_const ROUTE_A,                         30,  9 ;  6
-	map_const ROUTE_A_POKECENTER_1F,            5,  4 ;  7
-	map_const GEAR_CITY,                       14, 19 ;  8
-	map_const CITY_GEAR_RETAIL,                10,  6 ;  9
-	map_const GEAR_CITY_POKECENTER_1F,          5,  4 ; 10
-	map_const GEAR_CITY_MART,                   6,  4 ; 11
+	map_const AWAKENING_LAB,                   15, 10 ;  2
+	map_const PLAYERS_HOUSE_1F,                 8,  5 ;  3
+	map_const PLAYERS_HOUSE_2F,                 4,  3 ;  4
+	map_const DR_NUGGZ_MD_EXTERIOR,            10,  9 ;  5
+	map_const DR_NUGGZ_MD_INTERIOR,             6,  5 ;  6
+	map_const ROUTE_A,                         30,  9 ;  7
+	map_const ROUTE_A_POKECENTER_1F,            5,  4 ;  8
+	map_const GEAR_CITY,                       14, 19 ;  9
+	map_const CITY_GEAR_RETAIL,                10,  6 ; 10
+	map_const GEAR_CITY_POKECENTER_1F,          5,  4 ; 11
+	map_const GEAR_CITY_MART,                   6,  4 ; 12
 	endgroup
 
 

@@ -4,6 +4,19 @@
 	const AWAKENINGBEACH_BRIAN
 
 AwakeningBeach_MapScripts::
+	def_scene_scripts
+	scene_script AwakeningBeachNoop1Scene, SCENE_AWAKENING_BEACH_DUMMY
+
+	def_callbacks
+	callback MAPCALLBACK_NEWMAP, AwakeningBeachFlypointCallback
+
+AwakeningBeachNoop1Scene:
+	end
+
+
+AwakeningBeachFlypointCallback:
+	setflag ENGINE_FLYPOINT_AWAKENING_BEACH
+	endcallback
 
 AwakeningBeachSign:
 	jumptext AwakeningBeachSignText
@@ -13,6 +26,9 @@ KameHouseSign:
 
 DankCaveSign:
 	jumptext DankCaveSignText
+
+AwakeningLabSign:
+	jumptext AwakeningLabSignText
 
 AwakeningBeachFruitTree:
 	fruittree FRUITTREE_AWAKENING_BEACH
@@ -30,6 +46,11 @@ AwakeningBeachSignText:
 
 KameHouseSignText:
 	text "KAME HOUSE"
+	done
+
+AwakeningLabSignText:
+	text "Awakening Lab"
+	line "Keep Out"
 	done
 
 DankCaveSignText:
@@ -56,15 +77,16 @@ AwakeningBeach_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
-	warp_event 19, 26, PLAYERS_HOUSE_1F, 1
+	warp_event  1, 27, AWAKENING_LAB, 1
 	warp_event 16, 25, DANK_CAVE_1F, 1
 
 	def_coord_events
 
 	def_bg_events
-	bg_event   9, 25, BGEVENT_READ, AwakeningBeachSign
-	bg_event  15, 26, BGEVENT_READ, DankCaveSign
-	bg_event   9, 37, BGEVENT_READ, KameHouseSign
+	bg_event  9, 25, BGEVENT_READ, AwakeningBeachSign
+	bg_event 15, 26, BGEVENT_READ, DankCaveSign
+	bg_event  9, 37, BGEVENT_READ, KameHouseSign
+	bg_event  0, 28, BGEVENT_READ, AwakeningLabSign
 
 	def_object_events
 	object_event 17, 13, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, AwakeningBeachHyperPotion, EVENT_AWAKENING_BEACH_HYPER_POTION

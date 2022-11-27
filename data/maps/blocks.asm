@@ -73,6 +73,9 @@ SECTION "Map Blocks 4", ROMX
 AwakeningBeach_Blocks:
 	INCBIN "maps/AwakeningBeach.blk"
 
+AwakeningLab_Blocks:
+	INCBIN "maps/AwakeningLab.blk"
+
 DankCave1F_Blocks:
 	INCBIN "maps/DankCave1F.blk"
 

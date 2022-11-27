@@ -35,6 +35,7 @@ INCLUDE "maps/HallOfFame.asm"
 
 SECTION "Map Scripts 5", ROMX
 INCLUDE "maps/AwakeningBeach.asm"
+INCLUDE "maps/AwakeningLab.asm"
 INCLUDE "maps/DankCave1F.asm"
 INCLUDE "maps/DankCave2F.asm"
 INCLUDE "maps/DrNuggzMDExterior.asm"
