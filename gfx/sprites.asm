@@ -111,3 +111,4 @@ StandingYoungsterSpriteGFX::   INCBIN "gfx/sprites/standing_youngster.2bpp"
 SECTION "Sprites 3", ROMX
 
 KyleSpriteGFX::                INCBIN "gfx/sprites/kyle.2bpp"
+LinkSpriteGFX::                INCBIN "gfx/sprites/link.2bpp"

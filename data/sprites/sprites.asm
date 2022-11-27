@@ -110,4 +110,5 @@ OverworldSprites:
 	overworld_sprite RaikouSpriteGFX, 4, STILL_SPRITE, PAL_OW_RED
 	overworld_sprite StandingYoungsterSpriteGFX, 12, STANDING_SPRITE, PAL_OW_BLUE
 	overworld_sprite KyleSpriteGFX, 12, WALKING_SPRITE, PAL_OW_BLUE
+	overworld_sprite LinkSpriteGFX, 12, WALKING_SPRITE, PAL_OW_GREEN
 	assert_table_length NUM_OVERWORLD_SPRITES
