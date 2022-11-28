@@ -1,5 +1,13 @@
-; Johto PokÃ©mon in water
+; Johto Pokémon in water
 
 JohtoWaterWildMons:
 
-	db -1 ; end
+    def_water_wildmons AWAKENING_BEACH
+    db 6 percent ; encounter rate
+    db 15, BUIZEL
+    db 15, BUIZEL
+    db 15, BUIZEL
+    db 15, BUIZEL
+    end_water_wildmons
+
+    db -1 ; end
