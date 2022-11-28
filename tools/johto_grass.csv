@@ -1,4 +1,4 @@
-Map,encounter rate,% chance (ref),Time,Pokemon,Level
+Map,EncounterRate,% chance (ref),Time,Pokemon,Level
 AWAKENING_BEACH,10,30%,Morn,YANMA,3
 AWAKENING_BEACH,10,30%,Morn,PIKIPEK,3
 AWAKENING_BEACH,10,20%,Morn,BOUNSWEET,2

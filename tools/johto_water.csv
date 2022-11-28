@@ -1,4 +1,4 @@
-Map,encounter rate,% chance (ref),Pokemon,Level
+Map,EncounterRate,% chance (ref),Pokemon,Level
 AWAKENING_BEACH,6,60%,BUIZEL,15
 AWAKENING_BEACH,6,20%,BARBOACH,13
 AWAKENING_BEACH,6,15%,DEWPIDER,15
