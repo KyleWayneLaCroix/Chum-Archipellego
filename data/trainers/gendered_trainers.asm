@@ -28,6 +28,10 @@ MaleTrainers:
 	db SCIENTIST
 	db HEROOFTIME
 	db KEYBLADER
+	db BALL_BRIAN
+	db TREE_BRIAN
+	db ROCK_BRIAN
+	db MAD_DOG
 .End
 
 FemaleTrainers:

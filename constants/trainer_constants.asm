@@ -709,4 +709,16 @@ DEF KRIS EQU __trainer_class__
 	trainerclass KEYBLADER ; 45
 	const SORA
 
+	trainerclass BALLBRIAN ; 46
+	const BALLBRIAN_1
+
+	trainerclass BRIANTREE ; 47
+	const TREEBRIAN_1
+
+	trainerclass ROCKBRIAN ; 48
+	const ROCKBRIAN_1
+
+	trainerclass MADDOG ; 49
+	const BRIAN_1
+
 DEF NUM_TRAINER_CLASSES EQU __trainer_class__ - 1

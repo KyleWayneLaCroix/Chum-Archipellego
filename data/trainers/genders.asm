@@ -71,4 +71,8 @@ BTTrainerClassGenders:
 	db FEMALE ; GRUNTF
 	db MALE   ; HEROOFTIME
 	db MALE   ; KEYBLADER
+	db MALE   ; BALL_BRIAN
+	db MALE   ; TREE_BRIAN
+	db MALE   ; ROCK_BRIAN
+	db MALE   ; MAD_DOG
 	assert_table_length NUM_TRAINER_CLASSES - 1 ; exclude MYSTICALMAN

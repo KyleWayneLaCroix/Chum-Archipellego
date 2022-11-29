@@ -29,7 +29,7 @@ TrainerClassNames::
 	li "LEADER"
 	li "COOLTRAINER"
 	li "COOLTRAINER"
-	li "BEAUTY"
+	li "WHITE GIRL"
 	li "#MANIAC"
 	li "ROCKET"
 	li "GENTLEMAN"
@@ -70,4 +70,7 @@ TrainerClassNames::
 	li "MYSTICALMAN"
 	li "HERO OF TIME"
 	li "KEYBLADER"
+	li "ITEMBALL"
+	li "SECRET TREE"
+	li "MAD DOG"
 	assert_list_length NUM_TRAINER_CLASSES

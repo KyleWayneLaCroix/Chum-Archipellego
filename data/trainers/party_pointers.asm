@@ -72,4 +72,8 @@ TrainerGroups:
 	dw MysticalmanGroup
 	dw HeroOfTimeGroup
 	dw KeybladerGroup
+	dw BallBrianGroup
+	dw TreeBrianGroup
+	dw RockBrianGroup
+	dw MadDogGroup
 	assert_table_length NUM_TRAINER_CLASSES

@@ -78,5 +78,9 @@ INCBIN "gfx/trainers/grunt_f.gbcpal", middle_colors
 INCBIN "gfx/trainers/mysticalman.gbcpal", middle_colors
 INCBIN "gfx/trainers/link.gbcpal", middle_colors
 INCBIN "gfx/trainers/sora.gbcpal", middle_colors
+INCBIN "gfx/trainers/ball_brian.gbcpal", middle_colors
+INCBIN "gfx/trainers/tree_brian.gbcpal", middle_colors
+INCBIN "gfx/trainers/rock_brian.gbcpal", middle_colors
+INCBIN "gfx/trainers/brian.gbcpal", middle_colors
 
 	assert_table_length NUM_TRAINER_CLASSES + 1

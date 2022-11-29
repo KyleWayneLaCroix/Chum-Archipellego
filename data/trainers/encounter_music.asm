@@ -73,4 +73,8 @@ TrainerEncounterMusic::
 	db MUSIC_HIKER_ENCOUNTER       ; mysticalman
 	db MUSIC_HIKER_ENCOUNTER       ; herooftime
 	db MUSIC_LASS_ENCOUNTER        ; keyblader
+	db MUSIC_RIVAL_ENCOUNTER       ; ball brian
+	db MUSIC_RIVAL_ENCOUNTER       ; tree brian
+	db MUSIC_RIVAL_ENCOUNTER       ; rock brian
+	db MUSIC_RIVAL_ENCOUNTER       ; mad dog brian
 	assert_table_length NUM_TRAINER_CLASSES + 1

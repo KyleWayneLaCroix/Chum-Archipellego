@@ -95,6 +95,12 @@ MistyPic:            INCBIN "gfx/trainers/misty.2bpp.lz"
 BlainePic:           INCBIN "gfx/trainers/blaine.2bpp.lz"
 HeroOfTimePic:       INCBIN "gfx/trainers/link.2bpp.lz"
 KeybladerPic:        INCBIN "gfx/trainers/sora.2bpp.lz"
+BallBrianPic:		 INCBIN "gfx/trainers/ball_brian.2bpp.lz"
+TreeBrianPic:		 INCBIN "gfx/trainers/tree_brian.2bpp.lz"
+RockBrianPic:		 INCBIN "gfx/trainers/rock_brian.2bpp.lz"
+MadDogBrianPic:		 INCBIN "gfx/trainers/brian.2bpp.lz"
+
+Tree
 
 SECTION "Pics 4", ROMX
 UnownAFrontpic:      INCBIN "gfx/pokemon/unown_A/front.animated.2bpp.lz"

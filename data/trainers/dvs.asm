@@ -71,4 +71,8 @@ TrainerClassDVs:
 	dn  9,  8,  8,  8 ; MYSTICALMAN
 	dn  8,  8,  8,  8 ; HEROOFTIME
 	dn  8,  8,  8,  8 ; KEYBLADER
+	dn  9,  8, 10,  8 ; BALL BRIAN
+	dn  8,  9,  8, 10 ; TREE BRIAN
+	dn  8, 10,  6, 10 ; ROCK BRIAN
+	dn 15, 15, 15, 15 ; MAD DOG BRIAN
 	assert_table_length NUM_TRAINER_CLASSES

@@ -410,4 +410,35 @@ TrainerClassAttributes:
 	dw AI_BASIC | AI_OFFENSIVE | AI_STATUS | AI_RISKY
 	dw CONTEXT_USE | SWITCH_SOMETIMES 
 
+; Keyblader
+	db NO_ITEM, NO_ITEM ; items
+	db 20 ; base reward
+	dw AI_BASIC | AI_OFFENSIVE | AI_STATUS | AI_RISKY
+	dw CONTEXT_USE | SWITCH_SOMETIMES 
+
+; Brian Ball
+	db X_SPEED, FULL_HEAL ; items
+	db 18 ; base reward
+	dw AI_BASIC | AI_TYPES | AI_OPPORTUNIST | AI_CAUTIOUS | AI_STATUS
+	dw CONTEXT_USE | SWITCH_OFTEN
+
+; Brian Tree
+	db X_DEFENSE, NO_ITEM ; items
+	db 18 ; base reward
+	dw AI_BASIC | AI_TYPES | AI_OPPORTUNIST | AI_STATUS
+	dw CONTEXT_USE | SWITCH_OFTEN
+
+; Brian Tree
+	db X_DEFENSE, NO_ITEM ; items
+	db 18 ; base reward
+	dw AI_BASIC | AI_TYPES | AI_OPPORTUNIST | AI_STATUS
+	dw CONTEXT_USE | SWITCH_OFTEN
+
+
+; Mad Dog Brian
+	db FULL_RESTORE, FULL_RESTORE ; items
+	db 25 ; base reward
+	dw AI_BASIC | AI_SETUP | AI_SMART | AI_AGGRESSIVE | AI_CAUTIOUS | AI_STATUS | AI_RISKY
+	dw CONTEXT_USE | SWITCH_OFTEN
+
 	assert_table_length NUM_TRAINER_CLASSES

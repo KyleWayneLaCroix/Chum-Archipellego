@@ -70,6 +70,10 @@ TrainerPicPointers::
 	dba OfficerPic
 	dba GruntfPic
 	dba MysticalmanPic
-	dba KeybladerPic
 	dba HeroOfTimePic
+	dba KeybladerPic
+	dba BallBrianPic
+	dba TreeBrianPic
+	dba RockBrianPic
+	dba MadDogBrianPic
 	assert_table_length NUM_TRAINER_CLASSES
