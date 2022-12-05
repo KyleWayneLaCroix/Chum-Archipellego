@@ -22,18 +22,18 @@ TrainerEncounterMusic::
 	db MUSIC_OFFICER_ENCOUNTER     ; champion
 	db MUSIC_YOUNGSTER_ENCOUNTER   ; brock
 	db MUSIC_LASS_ENCOUNTER        ; misty
-	db MUSIC_OFFICER_ENCOUNTER     ; lt_surge
-	db MUSIC_ROCKET_ENCOUNTER      ; scientist
+	db MUSIC_OFFICER_ENCOUNTER     ; SUPERVISOR
+	db MUSIC_ROCKET_ENCOUNTER      ; IT Guy
 	db MUSIC_OFFICER_ENCOUNTER     ; erika
 	db MUSIC_YOUNGSTER_ENCOUNTER   ; youngster
-	db MUSIC_YOUNGSTER_ENCOUNTER   ; schoolboy
+	db MUSIC_HIKER_ENCOUNTER       ; worker
 	db MUSIC_YOUNGSTER_ENCOUNTER   ; bird_keeper
 	db MUSIC_LASS_ENCOUNTER        ; lass
 	db MUSIC_LASS_ENCOUNTER        ; janine
 	db MUSIC_HIKER_ENCOUNTER       ; cooltrainerm
 	db MUSIC_BEAUTY_ENCOUNTER      ; cooltrainerf
-	db MUSIC_BEAUTY_ENCOUNTER      ; beauty
-	db MUSIC_POKEMANIAC_ENCOUNTER  ; pokemaniac
+	db MUSIC_BEAUTY_ENCOUNTER      ; white girl
+	db MUSIC_POKEMANIAC_ENCOUNTER  ; weirdo
 	db MUSIC_ROCKET_ENCOUNTER      ; gruntm
 	db MUSIC_HIKER_ENCOUNTER       ; gentleman
 	db MUSIC_BEAUTY_ENCOUNTER      ; skier
@@ -59,7 +59,7 @@ TrainerEncounterMusic::
 	db MUSIC_LASS_ENCOUNTER        ; picnicker
 	db MUSIC_YOUNGSTER_ENCOUNTER   ; camper
 	db MUSIC_ROCKET_ENCOUNTER      ; executivef
-	db MUSIC_SAGE_ENCOUNTER        ; sage
+	db MUSIC_SAGE_ENCOUNTER        ; photographer
 	db MUSIC_SAGE_ENCOUNTER        ; medium
 	db MUSIC_HIKER_ENCOUNTER       ; boarder
 	db MUSIC_HIKER_ENCOUNTER       ; pokefanm
@@ -77,4 +77,6 @@ TrainerEncounterMusic::
 	db MUSIC_RIVAL_ENCOUNTER       ; tree brian
 	db MUSIC_RIVAL_ENCOUNTER       ; rock brian
 	db MUSIC_RIVAL_ENCOUNTER       ; mad dog brian
+	db MUSIC_SAGE_ENCOUNTER        ; ghost_t
+	db MUSIC_SAGE_ENCOUNTER        ; undead
 	assert_table_length NUM_TRAINER_CLASSES + 1

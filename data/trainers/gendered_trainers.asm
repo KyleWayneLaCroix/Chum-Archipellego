@@ -3,9 +3,9 @@
 MaleTrainers:
 	db BURGLAR
 	db YOUNGSTER
-	db SCHOOLBOY
+	db WORKER
 	db BIRD_KEEPER
-	db POKEMANIAC
+	db WEIRDO
 	db GENTLEMAN
 	db BUG_CATCHER
 	db FISHER
@@ -23,21 +23,23 @@ MaleTrainers:
 	db JUGGLER
 	db POKEFANM
 	db OFFICER
-	db SAGE
+	db PHOTOGRAPHER
 	db BIKER
-	db SCIENTIST
+	db IT_GUY
 	db HEROOFTIME
 	db KEYBLADER
 	db BALL_BRIAN
 	db TREE_BRIAN
 	db ROCK_BRIAN
 	db MAD_DOG
+	db GHOST_T
+	db UNDEAD
 .End
 
 FemaleTrainers:
 	db MEDIUM
 	db LASS
-	db BEAUTY
+	db WHITE_GIRL
 	db SKIER
 	db TEACHER
 	db SWIMMERF

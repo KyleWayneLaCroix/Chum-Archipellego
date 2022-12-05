@@ -26,55 +26,55 @@ BugContestant_BugCatcherDon:
 	dbw GRUBBIN,   226
 
 BugContestant_BugCatcherEd:
-	db BUG_CATCHER, ED
+	db BUG_CATCHER, DON
 	dbw VIKAVOLT, 286
 	dbw VIKAVOLT, 251
 	dbw GRUBBIN,   237
 
 BugContestant_CooltrainerMNick:
-	db COOLTRAINERM, NICK
+	db BUG_CATCHER, DON
 	dbw SCYTHER,    357
 	dbw VIKAVOLT, 349
 	dbw HERACROSS,     368
 
 BugContestant_PokefanMWilliam:
-	db POKEFANM, WILLIAM
+	db BUG_CATCHER, DON
 	dbw HERACROSS,     332
 	dbw VIKAVOLT, 324
 	dbw SIZZLIPEDE,    321
 
 BugContestant_BugCatcherBenny:
-	db BUG_CATCHER, BUG_CATCHER_BENNY
+	db BUG_CATCHER, DON
 	dbw VIKAVOLT, 318
 	dbw BLIPBUG,     295
 	dbw GRUBBIN,   285
 
 BugContestant_CamperBarry:
-	db CAMPER, BARRY
+	db BUG_CATCHER, DON
 	dbw HERACROSS,     366
 	dbw SIZZLIPEDE,    329
 	dbw DOTTLER,     314
 
 BugContestant_PicnickerCindy:
-	db PICNICKER, CINDY
+	db BUG_CATCHER, DON
 	dbw VIKAVOLT, 341
 	dbw CHARJABUG,    301
 	dbw GRUBBIN,   264
 
 BugContestant_BugCatcherJosh:
-	db BUG_CATCHER, JOSH
+	db BUG_CATCHER, DON
 	dbw SCYTHER,    326
 	dbw VIKAVOLT, 292
 	dbw CHARJABUG,    282
 
 BugContestant_YoungsterSamuel:
-	db YOUNGSTER, SAMUEL
+	db BUG_CATCHER, DON
 	dbw BLIPBUG,     270
 	dbw HERACROSS,     282
 	dbw GRUBBIN,   251
 
 BugContestant_SchoolboyKipp:
-	db SCHOOLBOY, KIPP
+	db BUG_CATCHER, DON
 	dbw SIZZLIPEDE,    267
 	dbw JOLTIK,      254
 	dbw DOTTLER,     259

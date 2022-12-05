@@ -21,18 +21,18 @@ TrainerGroups:
 	dw ChampionGroup
 	dw BrockGroup
 	dw MistyGroup
-	dw LtSurgeGroup
-	dw ScientistGroup
+	dw SupervisorGroup
+	dw ITGuyGroup
 	dw ErikaGroup
 	dw YoungsterGroup
-	dw SchoolboyGroup
+	dw WorkerGroup
 	dw BirdKeeperGroup
 	dw LassGroup
 	dw JanineGroup
 	dw CooltrainerMGroup
 	dw CooltrainerFGroup
-	dw BeautyGroup
-	dw PokemaniacGroup
+	dw WhiteGirlGroup
+	dw WeirdoGroup
 	dw GruntMGroup
 	dw GentlemanGroup
 	dw SkierGroup
@@ -58,7 +58,7 @@ TrainerGroups:
 	dw PicnickerGroup
 	dw CamperGroup
 	dw ExecutiveFGroup
-	dw SageGroup
+	dw PhotographerGroup
 	dw MediumGroup
 	dw BoarderGroup
 	dw PokefanMGroup
@@ -76,4 +76,6 @@ TrainerGroups:
 	dw TreeBrianGroup
 	dw RockBrianGroup
 	dw MadDogGroup
+	dw GhostTGroup
+	dw UndeadGroup
 	assert_table_length NUM_TRAINER_CLASSES

@@ -21,18 +21,18 @@ BTTrainerClassGenders:
 	db MALE   ; CHAMPION
 	db MALE   ; BROCK
 	db FEMALE ; MISTY
-	db MALE   ; LT_SURGE
-	db MALE   ; SCIENTIST
+	db MALE   ; SUPERVISOR
+	db MALE   ; IT_GUY
 	db FEMALE ; ERIKA
 	db MALE   ; YOUNGSTER
-	db MALE   ; SCHOOLBOY
+	db MALE   ; WORKER
 	db MALE   ; BIRD_KEEPER
 	db FEMALE ; LASS
 	db FEMALE ; JANINE
 	db MALE   ; COOLTRAINERM
 	db FEMALE ; COOLTRAINERF
-	db FEMALE ; BEAUTY
-	db MALE   ; POKEMANIAC
+	db FEMALE ; WHITE_GIRL
+	db MALE   ; WEIRDO
 	db MALE   ; GRUNTM
 	db MALE   ; GENTLEMAN
 	db FEMALE ; SKIER
@@ -58,7 +58,7 @@ BTTrainerClassGenders:
 	db FEMALE ; PICNICKER
 	db MALE   ; CAMPER
 	db FEMALE ; EXECUTIVEF
-	db MALE   ; SAGE
+	db MALE   ; PHOTOGRAPHER
 	db FEMALE ; MEDIUM
 	db MALE   ; BOARDER
 	db MALE   ; POKEFANM
@@ -75,4 +75,6 @@ BTTrainerClassGenders:
 	db MALE   ; TREE_BRIAN
 	db MALE   ; ROCK_BRIAN
 	db MALE   ; MAD_DOG
+	db MALE   ; GHOST_T
+	db MALE   ; UNDEAD
 	assert_table_length NUM_TRAINER_CLASSES - 1 ; exclude MYSTICALMAN

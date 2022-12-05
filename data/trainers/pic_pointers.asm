@@ -21,18 +21,18 @@ TrainerPicPointers::
 	dba ChampionPic
 	dba BrockPic
 	dba MistyPic
-	dba LtSurgePic
-	dba ScientistPic
+	dba SupervisorPic
+	dba ITGuyPic
 	dba ErikaPic
 	dba YoungsterPic
-	dba SchoolboyPic
+	dba WorkerPic
 	dba BirdKeeperPic
 	dba LassPic
 	dba JaninePic
 	dba CooltrainermPic
 	dba CooltrainerfPic
-	dba BeautyPic
-	dba PokemaniacPic
+	dba WhiteGirlPic
+	dba WeirdoPic
 	dba GruntmPic
 	dba GentlemanPic
 	dba SkierPic
@@ -58,7 +58,7 @@ TrainerPicPointers::
 	dba PicnickerPic
 	dba CamperPic
 	dba ExecutivefPic
-	dba SagePic
+	dba PhotographerPic
 	dba MediumPic
 	dba BoarderPic
 	dba PokefanmPic
@@ -76,4 +76,6 @@ TrainerPicPointers::
 	dba TreeBrianPic
 	dba RockBrianPic
 	dba MadDogBrianPic
+	dba GhostTPic
+	dba UndeadPic
 	assert_table_length NUM_TRAINER_CLASSES

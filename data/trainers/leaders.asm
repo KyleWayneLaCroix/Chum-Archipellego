@@ -23,7 +23,6 @@ GymLeaders:
 KantoGymLeaders:
 	db BROCK
 	db MISTY
-	db LT_SURGE
 	db ERIKA
 	db JANINE
 	db SABRINA

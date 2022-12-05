@@ -97,11 +97,11 @@ DEF KRIS EQU __trainer_class__
 	trainerclass MISTY ; 12
 	const MISTY1
 
-	trainerclass LT_SURGE ; 13
-	const LT_SURGE1
+	trainerclass SUPERVISOR ; 13
+	const JOSH1
 
-	trainerclass SCIENTIST ; 14
-	const ROSS
+	trainerclass IT_GUY ; 14
+	const MIKE_B
 	const MITCH
 	const JED
 	const MARC
@@ -126,8 +126,8 @@ DEF KRIS EQU __trainer_class__
 	const JOEY4
 	const JOEY5
 
-	trainerclass SCHOOLBOY ; 17
-	const JACK1
+	trainerclass WORKER ; 17
+	const CGHQ_Q
 	const KIPP
 	const ALAN1
 	const JOHNNY
@@ -196,7 +196,7 @@ DEF KRIS EQU __trainer_class__
 	const JANINE1
 
 	trainerclass COOLTRAINERM ; 1b
-	const NICK
+	const NICKY
 	const AARON
 	const PAUL
 	const CODY
@@ -240,9 +240,9 @@ DEF KRIS EQU __trainer_class__
 	const REENA3
 	const CARA
 
-	trainerclass BEAUTY ; 1d
-	const VICTORIA
-	const SAMANTHA
+	trainerclass WHITE_GIRL ; 1d
+	const AIMEE
+	const TAYLOR1
 	const JULIE ; unused
 	const JACLYN ; unused
 	const BRENDA ; unused
@@ -259,8 +259,8 @@ DEF KRIS EQU __trainer_class__
 	const VALERIE
 	const OLIVIA
 
-	trainerclass POKEMANIAC ; 1e
-	const LARRY
+	trainerclass WEIRDO ; 1e
+	const NICK
 	const ANDREW
 	const CALVIN
 	const SHANE
@@ -536,7 +536,7 @@ DEF KRIS EQU __trainer_class__
 	const WAI
 
 	trainerclass EXECUTIVEM ; 33
-	const EXECUTIVEM_1
+	const LONGO
 	const EXECUTIVEM_2
 	const EXECUTIVEM_3
 	const EXECUTIVEM_4
@@ -611,8 +611,8 @@ DEF KRIS EQU __trainer_class__
 	const EXECUTIVEF_1
 	const EXECUTIVEF_2
 
-	trainerclass SAGE ; 38
-	const CHOW
+	trainerclass PHOTOGRAPHER ; 38
+	const JULIAN
 	const NICO
 	const JIN
 	const TROY
@@ -709,16 +709,22 @@ DEF KRIS EQU __trainer_class__
 	trainerclass KEYBLADER ; 45
 	const SORA
 
-	trainerclass BALLBRIAN ; 46
+	trainerclass BALL_BRIAN ; 46
 	const BALLBRIAN_1
 
-	trainerclass BRIANTREE ; 47
+	trainerclass TREE_BRIAN ; 47
 	const TREEBRIAN_1
 
-	trainerclass ROCKBRIAN ; 48
+	trainerclass ROCK_BRIAN ; 48
 	const ROCKBRIAN_1
 
-	trainerclass MADDOG ; 49
+	trainerclass MAD_DOG ; 49
 	const BRIAN_1
+
+	trainerclass GHOST_T ; 50
+	const CG_GHOST
+
+	trainerclass UNDEAD ;
+	const CLAYWHOLE
 
 DEF NUM_TRAINER_CLASSES EQU __trainer_class__ - 1

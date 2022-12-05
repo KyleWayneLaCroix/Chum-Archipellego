@@ -285,43 +285,42 @@ MistyGroup:
 	db 47, ESPURR,    SURF, CONFUSE_RAY, RECOVER, ICE_BEAM
 	db -1 ; end
 
-LtSurgeGroup:
-	; LT_SURGE (1)
-	db "LT.SURGE@", TRAINERTYPE_MOVES
-	db 44, BLIPBUG,     THUNDER_WAVE, QUICK_ATTACK, THUNDERBOLT, THUNDER
-	db 40, SKUNTANK,  SCREECH, DOUBLE_TEAM, SWIFT, EXPLOSION
-	db 40, TOXAPEX,   LOCK_ON, DOUBLE_TEAM, SWIFT, ZAP_CANNON
-	db 40, SKUNTANK,  SCREECH, DOUBLE_TEAM, SWIFT, EXPLOSION
-	db 46, LIEPARD, QUICK_ATTACK, THUNDERPUNCH, LIGHT_SCREEN, THUNDER
+SupervisorGroup:
+	; JOSH (1)
+	db "JOSH@", TRAINERTYPE_NORMAL
+	db  7, ROCKRUFF
+	db  5, TRUBBISH
+	db  4, ARON
 	db -1 ; end
 
-ScientistGroup:
-	; SCIENTIST (1)
-	db "ROSS@", TRAINERTYPE_NORMAL
-	db 22, TSAREENA
-	db 22, TSAREENA
+ITGuyGroup:
+	; IT_GUY (1)
+	db "MIKE B@", TRAINERTYPE_NORMAL
+	db  5, GRUBBIN
+	db  5, JOLTIK
+	db  7, PORYGON
 	db -1 ; end
 
-	; SCIENTIST (2)
+	; IT_GUY (2)
 	db "MITCH@", TRAINERTYPE_NORMAL
 	db 24, BRUXISH
 	db -1 ; end
 
-	; SCIENTIST (3)
+	; IT_GUY (3)
 	db "JED@", TRAINERTYPE_NORMAL
 	db 20, MAREANIE
 	db 20, MAREANIE
 	db 20, MAREANIE
 	db -1 ; end
 
-	; SCIENTIST (4)
+	; IT_GUY (4)
 	db "MARC@", TRAINERTYPE_NORMAL
 	db 27, MAREANIE
 	db 27, MAREANIE
 	db 27, MAREANIE
 	db -1 ; end
 
-	; SCIENTIST (5)
+	; IT_GUY (5)
 	db "RICH@", TRAINERTYPE_MOVES
 	db 30, MAKUHITA,    CONVERSION, CONVERSION2, RECOVER, TRI_ATTACK
 	db -1 ; end
@@ -414,14 +413,15 @@ YoungsterGroup:
 	db 37, YAMPER,   HYPER_BEAM, QUICK_ATTACK, HYPER_FANG, PURSUIT
 	db -1 ; end
 
-SchoolboyGroup:
-	; SCHOOLBOY (1)
-	db "JACK@", TRAINERTYPE_NORMAL
-	db 12, GALLADE
-	db 15, STUNKY
+WorkerGroup:
+	; WORKER (1)
+	db "Q@", TRAINERTYPE_NORMAL
+	db  5, BURGELA
+	db  6, YUNGOOS
+	db  5, ROOKIDEE
 	db -1 ; end
 
-	; SCHOOLBOY (2)
+	; WORKER (2)
 	db "KIPP@", TRAINERTYPE_NORMAL
 	db 27, STUNKY
 	db 27, MAREANIE
@@ -429,43 +429,43 @@ SchoolboyGroup:
 	db 31, TOXAPEX
 	db -1 ; end
 
-	; SCHOOLBOY (3)
+	; WORKER (3)
 	db "ALAN@", TRAINERTYPE_NORMAL
 	db 16, ORICORIO_PAU
 	db -1 ; end
 
-	; SCHOOLBOY (4)
+	; WORKER (4)
 	db "JOHNNY@", TRAINERTYPE_NORMAL
 	db 29, LUDICOLO
 	db 31, GLACEON
 	db 33, LEAFEON
 	db -1 ; end
 
-	; SCHOOLBOY (5)
+	; WORKER (5)
 	db "DANNY@", TRAINERTYPE_NORMAL
 	db 31, PURRLOIN
 	db 31, LIEPARD
 	db 31, SKITTY
 	db -1 ; end
 
-	; SCHOOLBOY (6)
+	; WORKER (6)
 	db "TOMMY@", TRAINERTYPE_NORMAL
 	db 32, ORICORIO_PAU
 	db 34, DWEBBLE
 	db -1 ; end
 
-	; SCHOOLBOY (7)
+	; WORKER (7)
 	db "DUDLEY@", TRAINERTYPE_NORMAL
 	db 35, GALLADE
 	db -1 ; end
 
-	; SCHOOLBOY (8)
+	; WORKER (8)
 	db "JOE@", TRAINERTYPE_NORMAL
 	db 33, ORICORIO_PAU
 	db 33, CHATOT
 	db -1 ; end
 
-	; SCHOOLBOY (9)
+	; WORKER (9)
 	db "BILLY@", TRAINERTYPE_NORMAL
 	db 27, HATTERENE
 	db 27, HATTERENE
@@ -473,42 +473,42 @@ SchoolboyGroup:
 	db 35, BRUXISH
 	db -1 ; end
 
-	; SCHOOLBOY (10)
+	; WORKER (10)
 	db "CHAD@", TRAINERTYPE_NORMAL
 	db 19, MEOWSTIC_M
 	db -1 ; end
 
-	; SCHOOLBOY (11)
+	; WORKER (11)
 	db "NATE@", TRAINERTYPE_NORMAL
 	db 32, CLAWITZER
 	db 32, MAMOSWINE
 	db -1 ; end
 
-	; SCHOOLBOY (12)
+	; WORKER (12)
 	db "RICKY@", TRAINERTYPE_NORMAL
 	db 32, DURANT
 	db 32, BRUXISH
 	db -1 ; end
 
-	; SCHOOLBOY (13)
+	; WORKER (13)
 	db "JACK@", TRAINERTYPE_NORMAL
 	db 14, GALLADE
 	db 17, STUNKY
 	db -1 ; end
 
-	; SCHOOLBOY (14)
+	; WORKER (14)
 	db "JACK@", TRAINERTYPE_NORMAL
 	db 28, HATENNA
 	db 31, SKUNTANK
 	db -1 ; end
 
-	; SCHOOLBOY (15)
+	; WORKER (15)
 	db "ALAN@", TRAINERTYPE_NORMAL
 	db 17, ORICORIO_PAU
 	db 17, MAMOSWINE
 	db -1 ; end
 
-	; SCHOOLBOY (16)
+	; WORKER (16)
 	db "ALAN@", TRAINERTYPE_NORMAL
 	db 20, BURGELA
 	db 22, ORICORIO_PAU
@@ -516,33 +516,33 @@ SchoolboyGroup:
 	db 25, MAMOSWINE
 	db -1 ; end
 
-	; SCHOOLBOY (17)
+	; WORKER (17)
 	db "CHAD@", TRAINERTYPE_NORMAL
 	db 19, MEOWSTIC_M
 	db 19, MAREANIE
 	db -1 ; end
 
-	; SCHOOLBOY (18)
+	; WORKER (18)
 	db "CHAD@", TRAINERTYPE_NORMAL
 	db 27, MEOWSTIC_M
 	db 31, TOXAPEX
 	db -1 ; end
 
-	; SCHOOLBOY (19)
+	; WORKER (19)
 	db "JACK@", TRAINERTYPE_NORMAL
 	db 30, HATENNA
 	db 33, BARBOACH
 	db 33, SKUNTANK
 	db -1 ; end
 
-	; SCHOOLBOY (20)
+	; WORKER (20)
 	db "JACK@", TRAINERTYPE_MOVES
 	db 35, SKUNTANK,  SCREECH, SONICBOOM, ROLLOUT, LIGHT_SCREEN
 	db 35, BARBOACH,  SUNNY_DAY, LEER, TAKE_DOWN, FLAME_WHEEL
 	db 37, HATTREM,  SOLARBEAM, SLEEP_POWDER, ACID, MOONLIGHT
 	db -1 ; end
 
-	; SCHOOLBOY (21)
+	; WORKER (21)
 	db "ALAN@", TRAINERTYPE_NORMAL
 	db 27, BURGELA
 	db 27, ORICORIO_PAU
@@ -550,7 +550,7 @@ SchoolboyGroup:
 	db 30, MAMOSWINE
 	db -1 ; end
 
-	; SCHOOLBOY (22)
+	; WORKER (22)
 	db "ALAN@", TRAINERTYPE_MOVES
 	db 35, ORICORIO_PAU,       PECK, NIGHT_SHADE, SWIFT, FUTURE_SIGHT
 	db 32, ORICORIO_PAU,    POISONPOWDER, VINE_WHIP, BIND, MEGA_DRAIN
@@ -558,13 +558,13 @@ SchoolboyGroup:
 	db 35, MAKUHITA,   TAIL_WHIP, SLAM, AMNESIA, EARTHQUAKE
 	db -1 ; end
 
-	; SCHOOLBOY (23)
+	; WORKER (23)
 	db "CHAD@", TRAINERTYPE_NORMAL
 	db 30, MEOWSTIC_M
 	db 34, TOXAPEX
 	db -1 ; end
 
-	; SCHOOLBOY (24)
+	; WORKER (24)
 	db "CHAD@", TRAINERTYPE_MOVES
 	db 34, MEOWSTIC_M,   PSYCHIC_M, LIGHT_SCREEN, REFLECT, ENCORE
 	db 38, TOXAPEX,   ZAP_CANNON, THUNDER_WAVE, LOCK_ON, SWIFT
@@ -1062,177 +1062,182 @@ CooltrainerFGroup:
 	db 35, TSAREENA,     SWIFT, LEER, WATERFALL, TWISTER
 	db -1 ; end
 
-BeautyGroup:
-	; BEAUTY (1)
-	db "VICTORIA@", TRAINERTYPE_NORMAL
-	db  9, TOUCANNON
-	db 13, TOUCANNON
-	db 17, TOUCANNON
+WhiteGirlGroup:
+	; WHITE_GIRL (1)
+	db "AIMEE@", TRAINERTYPE_NORMAL
+	db  6, SKITTY
+	db  4, SKITTY
+	db  5, SKITTY
 	db -1 ; end
 
-	; BEAUTY (2)
-	db "SAMANTHA@", TRAINERTYPE_MOVES
-	db 16, DEERLING,     SCRATCH, GROWL, BITE, PAY_DAY
-	db 16, DEERLING,     SCRATCH, GROWL, BITE, SLASH
+	; WHITE_GIRL (2)
+	db "TAYLOR@", TRAINERTYPE_MOVES
+	db 7, SKITTY,        TACKLE, GROWL, TAIL_WHIP, ATTRACT
+	db 7, STEENEE,       RAZOR_LEAF, GROWL, RAPID_SPIN, SPLASH
+	db 10, HATENNA,      CONFUSION, GROWL, LIGHT_SCREEN, ATTRACT
 	db -1 ; end
 
-	; BEAUTY (3)
+	; WHITE_GIRL (3)
 	db "JULIE@", TRAINERTYPE_NORMAL
 	db 15, TOUCANNON
 	db -1 ; end
 
-	; BEAUTY (4)
+	; WHITE_GIRL (4)
 	db "JACLYN@", TRAINERTYPE_NORMAL
 	db 15, TOUCANNON
 	db -1 ; end
 
-	; BEAUTY (5)
+	; WHITE_GIRL (5)
 	db "BRENDA@", TRAINERTYPE_NORMAL
 	db 16, HEATMOR
 	db -1 ; end
 
-	; BEAUTY (6)
+	; WHITE_GIRL (6)
 	db "CASSIE@", TRAINERTYPE_NORMAL
 	db 28, HATTREM
 	db 34, CORVIKNIGHT
 	db -1 ; end
 
-	; BEAUTY (7)
+	; WHITE_GIRL (7)
 	db "CAROLINE@", TRAINERTYPE_NORMAL
 	db 30, DRILBUR
 	db 32, JOLTIK
 	db 30, DRILBUR
 	db -1 ; end
 
-	; BEAUTY (8)
+	; WHITE_GIRL (8)
 	db "CARLENE@", TRAINERTYPE_NORMAL
 	db 15, TOUCANNON
 	db -1 ; end
 
-	; BEAUTY (9)
+	; WHITE_GIRL (9)
 	db "JESSICA@", TRAINERTYPE_NORMAL
 	db 15, TOUCANNON
 	db -1 ; end
 
-	; BEAUTY (10)
+	; WHITE_GIRL (10)
 	db "RACHAEL@", TRAINERTYPE_NORMAL
 	db 15, TOUCANNON
 	db -1 ; end
 
-	; BEAUTY (11)
+	; WHITE_GIRL (11)
 	db "ANGELICA@", TRAINERTYPE_NORMAL
 	db 15, TOUCANNON
 	db -1 ; end
 
-	; BEAUTY (12)
+	; WHITE_GIRL (12)
 	db "KENDRA@", TRAINERTYPE_NORMAL
 	db 15, TOUCANNON
 	db -1 ; end
 
-	; BEAUTY (13)
+	; WHITE_GIRL (13)
 	db "VERONICA@", TRAINERTYPE_NORMAL
 	db 15, TOUCANNON
 	db -1 ; end
 
-	; BEAUTY (14)
+	; WHITE_GIRL (14)
 	db "JULIA@", TRAINERTYPE_NORMAL
 	db 32, HATTERENE
 	db 32, GRENMAR
 	db 35, ZIGZAGOON
 	db -1 ; end
 
-	; BEAUTY (15)
+	; WHITE_GIRL (15)
 	db "THERESA@", TRAINERTYPE_NORMAL
 	db 15, TOUCANNON
 	db -1 ; end
 
-	; BEAUTY (16)
+	; WHITE_GIRL (16)
 	db "VALERIE@", TRAINERTYPE_MOVES
 	db 17, GLACEON,     SYNTHESIS, TAIL_WHIP, TACKLE, POISONPOWDER
 	db 17, LEAFEON,   SYNTHESIS, TAIL_WHIP, TACKLE, STUN_SPORE
 	db -1 ; end
 
-	; BEAUTY (17)
+	; WHITE_GIRL (17)
 	db "OLIVIA@", TRAINERTYPE_NORMAL
 	db 19, AURORUS
 	db -1 ; end
 
-PokemaniacGroup:
-	; POKEMANIAC (1)
-	db "LARRY@", TRAINERTYPE_NORMAL
-	db 10, DEWPIDER
+WeirdoGroup:
+	; Weirdo (1)
+	db "NICK@", TRAINERTYPE_NORMAL
+	db 1, BOUNSWEET
+	db 8, KOFFING
+	db 5, MEOWTH
+	db 1, BOUNSWEET
+	db 1, BOUNSWEET
 	db -1 ; end
 
-	; POKEMANIAC (2)
+	; Weirdo (2)
 	db "ANDREW@", TRAINERTYPE_NORMAL
 	db 24, CHERUBI
 	db 24, CHERUBI
 	db -1 ; end
 
-	; POKEMANIAC (3)
+	; Weirdo (3)
 	db "CALVIN@", TRAINERTYPE_NORMAL
 	db 26, KLEAVOR
 	db -1 ; end
 
-	; POKEMANIAC (4)
+	; Weirdo (4)
 	db "SHANE@", TRAINERTYPE_NORMAL
 	db 16, CENTISKORCH
 	db 16, ARON
 	db -1 ; end
 
-	; POKEMANIAC (5)
+	; Weirdo (5)
 	db "BEN@", TRAINERTYPE_NORMAL
 	db 19, ARAQUANID
 	db -1 ; end
 
-	; POKEMANIAC (6)
+	; Weirdo (6)
 	db "BRENT@", TRAINERTYPE_NORMAL
 	db 19, STEENEE
 	db -1 ; end
 
-	; POKEMANIAC (7)
+	; Weirdo (7)
 	db "RON@", TRAINERTYPE_NORMAL
 	db 19, LAIRON
 	db -1 ; end
 
-	; POKEMANIAC (8)
+	; Weirdo (8)
 	db "ETHAN@", TRAINERTYPE_NORMAL
 	db 31, FOMANTIS
 	db 31, LURANTIS
 	db -1 ; end
 
-	; POKEMANIAC (9)
+	; Weirdo (9)
 	db "BRENT@", TRAINERTYPE_NORMAL
 	db 25, KLEAVOR
 	db -1 ; end
 
-	; POKEMANIAC (10)
+	; Weirdo (10)
 	db "BRENT@", TRAINERTYPE_MOVES
 	db 36, MAKUHITA,    RECOVER, PSYCHIC_M, CONVERSION2, TRI_ATTACK
 	db -1 ; end
 
-	; POKEMANIAC (11)
+	; Weirdo (11)
 	db "ISSAC@", TRAINERTYPE_MOVES
 	db 12, STEENEE,  LICK, SUPERSONIC, CUT, NO_MOVE
 	db -1 ; end
 
-	; POKEMANIAC (12)
+	; Weirdo (12)
 	db "DONALD@", TRAINERTYPE_NORMAL
 	db 10, DEWPIDER
 	db 10, DEWPIDER
 	db -1 ; end
 
-	; POKEMANIAC (13)
+	; Weirdo (13)
 	db "ZACH@", TRAINERTYPE_NORMAL
 	db 27, FOMANTIS
 	db -1 ; end
 
-	; POKEMANIAC (14)
+	; Weirdo (14)
 	db "BRENT@", TRAINERTYPE_MOVES
 	db 41, MEOWSTIC_F,    ROLLOUT, ATTRACT, EGG_BOMB, SOFTBOILED
 	db -1 ; end
 
-	; POKEMANIAC (15)
+	; Weirdo (15)
 	db "MILLER@", TRAINERTYPE_NORMAL
 	db 17, LAIRON
 	db 17, SNOM
@@ -1496,8 +1501,8 @@ SabrinaGroup:
 BugCatcherGroup:
 	; BUG_CATCHER (1)
 	db "DON@", TRAINERTYPE_NORMAL
-	db  3, ROOKIDEE
-	db  3, ROOKIDEE
+	db  3, BLIPBUG
+	db  3, BLIPBUG
 	db -1 ; end
 
 	; BUG_CATCHER (2)
@@ -1616,10 +1621,9 @@ BugCatcherGroup:
 FisherGroup:
 	; FISHER (1)
 	db "JUSTIN@", TRAINERTYPE_NORMAL
-	db  5, PYROAR
-	db  5, PYROAR
-	db 15, PYROAR
-	db  5, PYROAR
+	db  5, TYMPOLE
+	db  5, BARBOACH
+	db  5, FINNEON
 	db -1 ; end
 
 	; FISHER (2)
@@ -2659,10 +2663,10 @@ BlackbeltGroup:
 
 ExecutiveMGroup:
 	; EXECUTIVEM (1)
-	db "EXECUTIVE@", TRAINERTYPE_MOVES
-	db 33, MEGA_MAWILE,   EMBER, ROAR, BITE, FAINT_ATTACK
-	db 33, TSAREENA,    TACKLE, SLUDGE, SMOKESCREEN, HAZE
-	db 35, SKRELP,   EMBER, SMOG, BITE, FAINT_ATTACK
+	db "LONGO@", TRAINERTYPE_NORMAL
+	db 8, FARFETCHD
+	db 3, BLIPBUG
+	db 5, HOUNDOUR
 	db -1 ; end
 
 	; EXECUTIVEM (2)
@@ -3072,38 +3076,38 @@ ExecutiveFGroup:
 	db 25, ABOMASNOW,    PECK, PURSUIT, HAZE, NO_MOVE
 	db -1 ; end
 
-SageGroup:
-	; SAGE (1)
-	db "CHOW@", TRAINERTYPE_NORMAL
-	db  3, LUDICOLO
-	db  3, LUDICOLO
-	db  3, LUDICOLO
+PhotographerGroup:
+	; Photographer (1)
+	db "Julian@", TRAINERTYPE_NORMAL
+	db  6, TYKER
+	db  5, YANMA
+	db  5, RALTS
 	db -1 ; end
 
-	; SAGE (2)
+	; Photographer (2)
 	db "NICO@", TRAINERTYPE_NORMAL
 	db  3, LUDICOLO
 	db  3, LUDICOLO
 	db  3, LUDICOLO
 	db -1 ; end
 
-	; SAGE (3)
+	; Photographer (3)
 	db "JIN@", TRAINERTYPE_NORMAL
 	db  6, LUDICOLO
 	db -1 ; end
 
-	; SAGE (4)
+	; Photographer (4)
 	db "TROY@", TRAINERTYPE_NORMAL
 	db  7, LUDICOLO
 	db  7, MOLAMBINO
 	db -1 ; end
 
-	; SAGE (5)
+	; Photographer (5)
 	db "JEFFREY@", TRAINERTYPE_NORMAL
 	db 22, DUOSION
 	db -1 ; end
 
-	; SAGE (6)
+	; Photographer (6)
 	db "PING@", TRAINERTYPE_NORMAL
 	db 16, SOLOSIS
 	db 16, SOLOSIS
@@ -3112,38 +3116,38 @@ SageGroup:
 	db 16, SOLOSIS
 	db -1 ; end
 
-	; SAGE (7)
+	; Photographer (7)
 	db "EDMOND@", TRAINERTYPE_NORMAL
 	db  3, LUDICOLO
 	db  3, LUDICOLO
 	db  3, LUDICOLO
 	db -1 ; end
 
-	; SAGE (8)
+	; Photographer (8)
 	db "NEAL@", TRAINERTYPE_NORMAL
 	db  6, LUDICOLO
 	db -1 ; end
 
-	; SAGE (9)
+	; Photographer (9)
 	db "LI@", TRAINERTYPE_NORMAL
 	db  7, LUDICOLO
 	db  7, LUDICOLO
 	db 10, MOLAMBINO
 	db -1 ; end
 
-	; SAGE (10)
+	; Photographer (10)
 	db "GAKU@", TRAINERTYPE_NORMAL
 	db 32, ANGORE
 	db 32, EXCADRILL
 	db -1 ; end
 
-	; SAGE (11)
+	; Photographer (11)
 	db "MASA@", TRAINERTYPE_NORMAL
 	db 32, ANGORE
 	db 32, DRILBUR
 	db -1 ; end
 
-	; SAGE (12)
+	; Photographer (12)
 	db "KOJI@", TRAINERTYPE_NORMAL
 	db 32, ANGORE
 	db 32, CHATOT
@@ -3499,13 +3503,61 @@ MysticalmanGroup:
 HeroOfTimeGroup:
 	; HERO_OF_TIME (1)
 	db "LINK@", TRAINERTYPE_NICKNAME
-	db 5, MUDBRAY, "EPONA@", NO_ITEM
-	db 4, HOPPIP, "TEKTITE@", BERRY
+	db 3, MUDBRAY, "EPONA@"
+	db 2, HOPPIP, "TEKTITE@"
 	db -1 ; end
 
-KeybladerGroup
+KeybladerGroup:
 	; KEYBLADER (1)
 	db "SORA@", TRAINERTYPE_NICKNAME
-	db 4 FARFETCHD, "DONALD@", NO_ITEM
-	db 5, ROCKRUFF, "GOOFY@", NO_ITEM
+	db 3, FARFETCHD, "DONALD@"
+	db 2, ROCKRUFF, "GOOFY@"
+	db -1 ; end
+
+BallBrianGroup:
+	; BALL_BRIAN (1)
+	db "BRIAN@", TRAINERTYPE_NORMAL
+	db 5, LILLIPUP
+	db 4, ROCKRUFF
+	db -1 ; end
+
+TreeBrianGroup:
+	; TREE_BRIAN (1)
+	db "BRIAN@", TRAINERTYPE_NORMAL
+	db 4, LILLIPUP
+	db 3, ROCKRUFF
+	db -1 ; end
+
+RockBrianGroup:
+	; ROCK_BRIAN (1)
+	db "BRIAN@", TRAINERTYPE_NORMAL
+	db 4, LILLIPUP
+	db 3, ROCKRUFF
+	db -1 ; end
+
+MadDogGroup:
+	; MAD_DOG_BRIAN (1)
+	db "BRIAN@", TRAINERTYPE_NORMAL
+	db 4, LILLIPUP
+	db 3, ROCKRUFF
+	db -1 ; end
+
+GhostTGroup:
+	; GHOST (1)
+	db "CLAY@", TRAINERTYPE_NORMAL
+	db 7, SPIRRIP
+	db 6, HONEDGE
+	db 6, LITWICK
+	db 5, GASTLY
+	db 7, ORICORIO_SENSU
+	db 5, SANDYGAST
+	db -1 ; end
+
+UndeadGroup:
+	; UNDEAD (1)
+	db "CLAY@", TRAINERTYPE_MOVES
+	db 9, MAKUHITA,    TACKLE, VITAL_THROW, SAND_ATTACK, LOW_KICK
+	db 8, CROAGUNK,    MUD_SLAP, POISON_STING, ROCK_SMASH, TACKLE
+	db 10, HERACROSS,    HORN_ATTACK, TACKLE, LEER, HARDEN
+	db 12, CLOBBOPUS,    LEER, ROCK_SMASH, BIND, MEGA_PUNCH
 	db -1 ; end

@@ -20,18 +20,18 @@ TrainerClassDVs:
 	dn 13, 12, 13, 13 ; CHAMPION
 	dn  9,  8,  8,  8 ; BROCK
 	dn  7,  8,  8,  8 ; MISTY
-	dn  9,  8,  8,  8 ; LT_SURGE
-	dn  9,  8,  8,  8 ; SCIENTIST
+	dn  9,  8,  8,  8 ; SUPERVISOR
+	dn  9,  8,  8,  8 ; IT_GUY
 	dn  7,  8,  8,  8 ; ERIKA
 	dn  9,  8,  8,  8 ; YOUNGSTER
-	dn  9,  8,  8,  8 ; SCHOOLBOY
+	dn  9,  8,  8,  8 ; WORKER
 	dn  9,  8,  8,  8 ; BIRD_KEEPER
 	dn  5,  8,  8,  8 ; LASS
 	dn  9,  8,  8,  8 ; JANINE
 	dn 13,  8, 12,  8 ; COOLTRAINERM
 	dn  7, 12, 12,  8 ; COOLTRAINERF
-	dn  6,  9, 12,  8 ; BEAUTY
-	dn  9,  8,  8,  8 ; POKEMANIAC
+	dn  6,  9, 12,  8 ; WHITE_GIRL
+	dn  9,  8,  8,  8 ; WEIRDO
 	dn 13,  8, 10,  8 ; GRUNTM
 	dn  9,  8,  8,  8 ; GENTLEMAN
 	dn  9,  8,  8,  8 ; SKIER
@@ -57,7 +57,7 @@ TrainerClassDVs:
 	dn  6, 10, 10,  8 ; PICNICKER
 	dn  9,  8,  8,  8 ; CAMPER
 	dn  7, 14, 10,  8 ; EXECUTIVEF
-	dn  9,  8,  8,  8 ; SAGE
+	dn  9,  8,  8,  8 ; PHOTOGRAPHER
 	dn  7,  8,  8,  8 ; MEDIUM
 	dn  9,  8,  8,  8 ; BOARDER
 	dn  9,  8,  8,  8 ; POKEFANM
@@ -75,4 +75,6 @@ TrainerClassDVs:
 	dn  8,  9,  8, 10 ; TREE BRIAN
 	dn  8, 10,  6, 10 ; ROCK BRIAN
 	dn 15, 15, 15, 15 ; MAD DOG BRIAN
+	dn  9,  8,  8, 12 ; GHOST_T
+	dn 13,  9, 10,  8 ; UNDEAD
 	assert_table_length NUM_TRAINER_CLASSES

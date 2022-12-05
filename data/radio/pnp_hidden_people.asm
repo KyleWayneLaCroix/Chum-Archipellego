@@ -10,7 +10,6 @@ PnP_HiddenPeople:
 PnP_HiddenPeople_BeatE4:
 	db BROCK
 	db MISTY
-	db LT_SURGE
 	db ERIKA
 	db JANINE
 	db SABRINA
