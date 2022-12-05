@@ -42,15 +42,15 @@ JohtoGrassWildMons:
     db 2, BOUNSWEET
     db 2, PIKIPEK
     db 3, YUNGOOS
-    db 4, FARFETCH_D
-    db 4, FARFETCH_D
+    db 4, FARFETCHD
+    db 4, FARFETCHD
     ; day
     db 2, ROOKIDEE
     db 3, YUNGOOS
     db 4, BLIPBUG
     db 2, GRUBBIN
     db 2, BOUNSWEET
-    db 3, FARFETCH_D
+    db 3, FARFETCHD
     db 4, LILLIPUP
     db 4, ZIGZAGOON
     ; nite
@@ -59,7 +59,7 @@ JohtoGrassWildMons:
     db 4, ORICORIO_SENSU
     db 2, PURRLOIN
     db 2, JOLTIK
-    db 3, FARFETCH_D
+    db 3, FARFETCHD
     db 4, BLIPBUG
     db 4, BLIPBUG
     end_grass_wildmons
@@ -96,37 +96,37 @@ JohtoGrassWildMons:
     end_grass_wildmons
 
     def_grass_wildmons CITY_GEAR_HQ_BASEMENT
-    db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
+    db  3 percent,  3 percent,  3 percent ; encounter rates: morn/day/nite
     ; morn
     db 8, GASTLY
     db 7, GASTLY
     db 6, GASTLY
     db 8, GASTLY
     db 7, GASTLY
-    db 6, MISDREAVOUS
-    db 8, DREEPY
-    db 8, LITWICK
+    db 6, GASTLY
+    db 8, GASTLY
+    db 8, GASTLY
     ; day
     db 8, GASTLY
     db 7, GASTLY
     db 6, GASTLY
     db 8, GASTLY
     db 7, GASTLY
-    db 6, MISDREAVOUS
-    db 8, DREEPY
-    db 8, HONEDGE
+    db 6, GASTLY
+    db 8, GASTLY
+    db 8, GASTLY
     ; nite
     db 8, GASTLY
     db 7, GASTLY
     db 6, GASTLY
     db 8, GASTLY
     db 7, GASTLY
-    db 6, MISDREAVOUS
-    db 8, DREEPY
-    db 8, SPIRRIP
+    db 6, GASTLY
+    db 8, GASTLY
+    db 8, GASTLY
     end_grass_wildmons
 
-    def_grass_wildmons NORTH_FOREST
+    def_grass_wildmons NORTHERN_FOREST
     db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
     ; morn
     db 8, DEERLING
@@ -134,8 +134,8 @@ JohtoGrassWildMons:
     db 8, LOTAD
     db 8, PIKIPEK
     db 8, MORELULL
-    db 8, FARFETCH_D
-    db 8, FARFETCH_D
+    db 8, FARFETCHD
+    db 8, FARFETCHD
     db 8, PONYTA
     ; day
     db 8, LOTAD
@@ -143,8 +143,8 @@ JohtoGrassWildMons:
     db 8, STANTLER
     db 8, DEERLING
     db 8, PIKIPEK
-    db 8, FARFETCH_D
-    db 8, FARFETCH_D
+    db 8, FARFETCHD
+    db 8, FARFETCHD
     db 8, PONYTA
     ; nite
     db 8, SHROOMISH

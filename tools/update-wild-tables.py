@@ -53,7 +53,7 @@ def updateGrass(region="Johto"):
             newFile += "\n".join(formatted[location][time])
             newFile += "\n"
         newFile += "    end_grass_wildmons\n\n"
-    newFile += "    db -1 ; end"
+    newFile += "    db -1 ; end\n"
     finalFile = open("../data/wild/" + region.lower() + "_grass.asm", "w")
     finalFile.write(newFile)
     finalFile.close()
@@ -79,7 +79,7 @@ def updateWater(region="Johto"):
         newFile += "\n".join(formatted[location]["Encounters"])
         newFile += "\n"
         newFile += "    end_water_wildmons\n\n"
-    newFile += "    db -1 ; end"
+    newFile += "    db -1 ; end\n"
     finalFile = open("../data/wild/" + region.lower() + "_water.asm", "w")
     finalFile.write(newFile)
     finalFile.close()
