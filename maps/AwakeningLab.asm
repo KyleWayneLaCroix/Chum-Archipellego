@@ -2,6 +2,8 @@
 	const AWAKENINGLAB_POKE_BALL1
 	const AWAKENINGLAB_POKE_BALL2
 	const AWAKENINGLAB_POKE_BALL3
+	const AWAKENINGLAB_POKE_BALL4
+	const AWAKENINGLAB_POKE_BALL5
 ; TODO Add some stuff to the scripts to make them a bit fancier for the intro.
 AwakeningLab_MapScripts:
 	def_scene_scripts
@@ -29,9 +31,9 @@ WakeUpScript:
 	getstring STRING_BUFFER_4, PokegearName
 	scall AwakeningLabReceiveItemStd
 	setflag ENGINE_POKEGEAR
-	setflag ENGINE_PHONE_CARD
 	setflag ENGINE_MAP_CARD
 	setflag ENGINE_RADIO_CARD
+	setflag ENGINE_POKEDEX
 	promptbutton
 	special SetDayOfWeek
 .SetDayOfWeek:
@@ -54,6 +56,7 @@ WakeUpScript:
 	waitbutton
 	closetext
 	playsound SFX_ZAP_CANNON
+	waitsfx
 	showemote EMOTE_SHOCK, PLAYER, 15
 	turnobject PLAYER, LEFT
 	setscene SCENE_AWAKENINGLAB_PICK_POKEMON
@@ -71,7 +74,7 @@ LabTryToLeaveScript:
 	applymovement PLAYER, AwakeningLab_CantLeaveMovement
 	end
 
-LitwickPokeBallScript:	refreshscreen
+LitwickPokeBallScript:
 	refreshscreen
 	pokepic LITWICK
 	cry LITWICK
@@ -94,7 +97,7 @@ LitwickPokeBallScript:	refreshscreen
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	promptbutton
-	givepoke LITWICK, 1, CHARCOAL
+	givepoke LITWICK, 77, CHARCOAL
 	setscene SCENE_AWAKENINGLAB_PICKED_POKEMON
 	closetext
 	end
@@ -122,7 +125,7 @@ HonedgePokeBallScript:
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	promptbutton
-	givepoke HONEDGE, 1, METAL_COAT
+	givepoke HONEDGE, 77, METAL_COAT
 	setscene SCENE_AWAKENINGLAB_PICKED_POKEMON
 	closetext
 	end
@@ -150,7 +153,7 @@ SpirripPokeBallScript:
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	promptbutton
-	givepoke SPIRRIP, 1, HARD_STONE
+	givepoke SPIRRIP, 77, HARD_STONE
 	setscene SCENE_AWAKENINGLAB_PICKED_POKEMON
 	closetext
 	end
@@ -171,6 +174,12 @@ LookAtStarterPokeballScript:
 	waitbutton
 	closetext
 	end
+
+AwakeningLabPokeballs:
+	itemball POKE_BALL, 5
+
+AwakeningLabPotions:
+	itemball POTION, 3
 
 WalkToStartingItemsMovement:
 	step DOWN
@@ -325,9 +334,10 @@ GotFirstItemsText:
 
 	para "Take these items"
 	line "and one of the"
-	cont "#MON from the lab"
-	cont "and start heading"
-	cont "to GEAR CITY."
+	cont "#MON from the"
+	cont "lab and start"
+	cont "heading to"
+	cont "GEAR CITY."
 
 	para "My lab is to the"
 	line "north, past the"
@@ -347,7 +357,8 @@ GotFirstItemsText:
 	cont "inside."
 
 	para "They're not real."
-	line "Just extra parts."
+	
+	para "Just extra parts."
 
 	para "-Kyle."
 	done
@@ -474,6 +485,7 @@ AwakeningLab_MapEvents:
 	def_warp_events
 	warp_event 25, 19, AWAKENING_BEACH, 1
 	warp_event 24, 19, AWAKENING_BEACH, 1
+	warp_event 27, 16, GEAR_CITY_POKECENTER_1F, 1
 
 	def_coord_events
 	coord_event 26,  6, SCENE_AWAKENINGLAB_WOKE_UP, WakeUpScript
@@ -510,3 +522,5 @@ AwakeningLab_MapEvents:
 	object_event 12, 15, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, LitwickPokeBallScript, EVENT_LITWICK_POKEBALL
 	object_event 13, 15, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, HonedgePokeBallScript, EVENT_HONEDGE_POKEBALL
 	object_event 14, 15, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, SpirripPokeBallScript, EVENT_SPIRRIP_POKEBALL
+	object_event 21, 14, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, AwakeningLabPokeballs, EVENT_AWAKENING_LAB_POKEBALLS
+	object_event 20, 14, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, AwakeningLabPotions, EVENT_AWAKENING_LAB_POTIONS

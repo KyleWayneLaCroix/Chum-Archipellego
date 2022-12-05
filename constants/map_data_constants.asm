@@ -74,6 +74,7 @@ DEF NUM_FISHGROUPS EQU const_value - 1
 	const_def
 	const SPAWN_HOME
 	const SPAWN_AWAKENING_BEACH
+	const SPAWN_GEAR_CITY
 	const SPAWN_INDIGO
 DEF NUM_SPAWNS EQU const_value
 

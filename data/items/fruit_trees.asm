@@ -2,9 +2,9 @@ FruitTreeItems:
 ; entries correspond to FRUITTREE_* constants
 	table_width 1, FruitTreeItems
 	db BERRY        ; AWAKENING_BEACH
-	db BERRY        ; ROUTE_30_1
-	db BERRY        ; ROUTE_38
-	db BERRY        ; ROUTE_46_1
+	db PSNCUREBERRY ; ROUTE_A_1
+	db PRZCUREBERRY ; ROUTE_A_2
+	db GOLD_BERRY   ; GEAR_CITY
 	db PSNCUREBERRY ; ROUTE_30_2
 	db PSNCUREBERRY ; ROUTE_33
 	db BITTER_BERRY ; ROUTE_31

@@ -3055,8 +3055,10 @@ wLancesRoomSceneID::                db
 wHallOfFameSceneID::                db
 wAwakeningLabSceneID::              db
 wAwakeningBeachSceneID::            db
-
-	ds 110
+wGearCitySceneID::					db
+wCityGearHQSceneID::        	    db
+wCityGearHQBasementSceneID::        db
+	ds 107
 
 ; fight counts
 wJackFightCount::    db

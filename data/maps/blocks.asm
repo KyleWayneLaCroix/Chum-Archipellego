@@ -67,6 +67,9 @@ GearCityPokecenter1F_Blocks:
 GearCityMart_Blocks:
 	INCBIN "maps/Mart.blk"
 
+GearCityWhiltenHouse_Blocks:
+OldFisherFellowHouse_Blocks:
+	INCBIN "maps/House1.blk"
 
 SECTION "Map Blocks 4", ROMX
 

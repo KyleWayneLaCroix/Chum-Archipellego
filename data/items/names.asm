@@ -165,7 +165,7 @@ ItemNames::
 	li "MIRAGE MAIL"
 	li "NORMAL BOX"
 	li "GORGEOUS BOX"
-	li "TERU-SAMA"
+	li "FOAMPOSITES"
 	li "TERU-SAMA"
 	li "TERU-SAMA"
 	li "TERU-SAMA"

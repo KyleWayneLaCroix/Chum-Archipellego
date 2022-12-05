@@ -11,6 +11,7 @@ SpawnPoints:
 	spawn AWAKENING_LAB,                 25, 3
 ; johto
 	spawn AWAKENING_BEACH,               7, 26
+	spawn GEAR_CITY,                     3, 34
 	spawn INDIGO_PLATEAU_POKECENTER_1F,  7,  9
 
 	spawn N_A,                          -1, -1

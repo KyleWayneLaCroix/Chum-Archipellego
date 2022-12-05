@@ -171,7 +171,7 @@
 	const MIRAGE_MAIL  ; a3
 	const NORMAL_BOX   ; a4
 	const GORGEOUS_BOX ; a5
-	const ITEM_A6      ; a6
+	const FOAMPOSITES  ; a6
 	const ITEM_A7      ; a7
 	const ITEM_A8      ; a8
 	const ITEM_A9      ; a9

@@ -179,7 +179,7 @@ ItemEffects:
 	dw NoEffect            ; MIRAGE_MAIL
 	dw NormalBoxEffect     ; NORMAL_BOX
 	dw GorgeousBoxEffect   ; GORGEOUS_BOX
-	dw NoEffect            ; ITEM_ A6
+	dw NoEffect            ; FOAMPOSITES
 	dw NoEffect            ; ITEM_ A7
 	dw NoEffect            ; ITEM_ A8
 	dw NoEffect            ; ITEM_ A9

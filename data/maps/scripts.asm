@@ -48,10 +48,12 @@ INCLUDE "maps/GearCityPokecenter1F.asm"
 INCLUDE "maps/GearCityMart.asm"
 INCLUDE "maps/CityGearHQ.asm"
 INCLUDE "maps/CityGearHQBasement.asm"
-INCLUDE "maps/NorthernForest.asm"
+
 
 SECTION "Map Scripts 6", ROMX
-
+INCLUDE "maps/GearCityWhiltenHouse.asm"
+INCLUDE "maps/OldFisherFellowHouse.asm"
+INCLUDE "maps/NorthernForest.asm"
 
 SECTION "Map Scripts 7", ROMX
 

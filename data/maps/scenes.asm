@@ -19,6 +19,9 @@ MapScenes::
 
 	scene_var AWAKENING_LAB,                wAwakeningLabSceneID
 	scene_var AWAKENING_BEACH,              wAwakeningBeachSceneID
+	scene_var GEAR_CITY,					wGearCitySceneID
+	scene_var CITY_GEAR_HQ,					wCityGearHQSceneID
+	scene_var CITY_GEAR_HQ_BASEMENT,		wCityGearHQBasementSceneID
 
 	scene_var INDIGO_PLATEAU_POKECENTER_1F, wIndigoPlateauPokecenter1FSceneID
 	scene_var WILLS_ROOM,                   wWillsRoomSceneID

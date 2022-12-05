@@ -85,7 +85,7 @@ PlayBattleMusic:
 	jr z, .done
 	cp EXECUTIVEF
 	jr z, .done
-	cp SCIENTIST
+	cp IT_GUY
 	jr z, .done
 
 	ld de, MUSIC_KANTO_GYM_LEADER_BATTLE

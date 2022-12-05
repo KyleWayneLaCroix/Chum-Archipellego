@@ -120,6 +120,7 @@ ENDM
 	map_attributes KarensRoom, KARENS_ROOM, $00, 0
 	map_attributes LancesRoom, LANCES_ROOM, $00, 0
 	map_attributes HallOfFame, HALL_OF_FAME, $00, 0
+	
 	map_attributes AwakeningBeach, AWAKENING_BEACH, $05, WEST
 	connection west, RouteA, ROUTE_A, -2
 	map_attributes AwakeningLab, AWAKENING_LAB, $00, 0
@@ -134,7 +135,8 @@ ENDM
 	map_attributes CityGearRetail, CITY_GEAR_RETAIL, $00, 0
 	map_attributes GearCityPokecenter1F, GEAR_CITY_POKECENTER_1F, $00, 0
 	map_attributes GearCityMart, GEAR_CITY_MART, $00, 0
-
+	map_attributes OldFisherFellowHouse, OLD_FISHER_FELLOW_HOUSE, $00, 0
+	map_attributes GearCityWhiltenHouse, GEAR_CITY_CHRIS_WHILTEN_HOUSE, $00, 0
 	map_attributes DankCave1F, DANK_CAVE_1F, $09, 0
 	map_attributes DankCave2F, DANK_CAVE_2F, $09, 0
 	map_attributes NorthernForest, NORTHERN_FOREST, $00, 0

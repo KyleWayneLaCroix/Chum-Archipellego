@@ -166,7 +166,7 @@ ItemDescriptions:
 	dw MirageMailDesc
 	dw NormalBoxDesc
 	dw GorgeousBoxDesc
-	dw TeruSama1Desc
+	dw FoampositesDesc
 	dw TeruSama2Desc
 	dw TeruSama3Desc
 	dw TeruSama4Desc
@@ -279,8 +279,9 @@ PokeBallDesc:
 	db   "An item for catch-"
 	next "ing #MON.@"
 
-TeruSama1Desc:
-	db   "?@"
+FoampositesDesc:
+	db   "The hottest kicks."
+	next "You got style now.@"
 
 BicycleDesc:
 	db   "A collapsible bike"
@@ -751,8 +752,8 @@ LuckyEggDesc:
 	next "points. (HOLD)@"
 
 CardKeyDesc:
-	db   "Opens shutters in"
-	next "the RADIO TOWER.@"
+	db   "Opens the gate to"
+	next "CITY GEAR HQ.@"
 
 MachinePartDesc:
 	db   "A machine part for"
