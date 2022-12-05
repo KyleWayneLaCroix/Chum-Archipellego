@@ -8,12 +8,12 @@ ENDM
 SpecialPhoneCallList:
 ; entries correspond to SPECIALCALL_* constants
 	table_width SPECIALCALL_SIZE, SpecialPhoneCallList
-	specialcall SpecialCallOnlyWhenOutside, PHONECONTACT_ELM,      ElmPhoneCallerScript
-	specialcall SpecialCallOnlyWhenOutside, PHONECONTACT_ELM,      ElmPhoneCallerScript
-	specialcall SpecialCallOnlyWhenOutside, PHONECONTACT_ELM,      ElmPhoneCallerScript
-	specialcall SpecialCallOnlyWhenOutside, PHONECONTACT_ELM,      ElmPhoneCallerScript
-	specialcall SpecialCallWhereverYouAre,  PHONECONTACT_ELM,      ElmPhoneCallerScript
-	specialcall SpecialCallWhereverYouAre,  PHONECONTACT_BIKESHOP, BikeShopPhoneCallerScript
-	specialcall SpecialCallWhereverYouAre,  PHONECONTACT_MOM,      MomPhoneLectureScript
-	specialcall SpecialCallOnlyWhenOutside, PHONECONTACT_ELM,      ElmPhoneCallerScript
+	specialcall SpecialCallOnlyWhenOutside, PHONE_00,      PhoneScript_AnswerPhone_Male
+	specialcall SpecialCallOnlyWhenOutside, PHONE_00,      PhoneScript_AnswerPhone_Male
+	specialcall SpecialCallOnlyWhenOutside, PHONE_00,      PhoneScript_AnswerPhone_Male
+	specialcall SpecialCallOnlyWhenOutside, PHONE_00,      PhoneScript_AnswerPhone_Male
+	specialcall SpecialCallWhereverYouAre,  PHONE_00,      PhoneScript_AnswerPhone_Male
+	specialcall SpecialCallWhereverYouAre,  PHONE_00, PhoneScript_AnswerPhone_Male
+	specialcall SpecialCallWhereverYouAre,  PHONE_00,      PhoneScript_AnswerPhone_Male
+	specialcall SpecialCallOnlyWhenOutside, PHONE_00,      PhoneScript_AnswerPhone_Male
 	assert_table_length NUM_SPECIALCALLS

@@ -436,17 +436,10 @@ Script_SpecialBillCall::
 	sjump Script_ReceivePhoneCall
 
 .LoadBillScript:
-	ld e, PHONE_BILL
-	jp LoadCallerScript
-
-Script_SpecialElmCall: ; unreferenced
-	callasm .LoadElmScript
-	pause 30
-	sjump Script_ReceivePhoneCall
+	end
 
 .LoadElmScript:
-	ld e, PHONE_ELM
-	jp LoadCallerScript
+	end
 
 RingTwice_StartCall:
 	call .Ring
@@ -611,10 +604,6 @@ CheckCanDeletePhoneNumber:
 	; and a
 	ret nz
 	ld a, b
-	cp PHONECONTACT_MOM
-	ret z
-	cp PHONECONTACT_ELM
-	ret z
 	ld c, $1
 	ret
 
