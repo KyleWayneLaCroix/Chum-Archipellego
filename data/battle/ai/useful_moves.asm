@@ -5,6 +5,10 @@ UsefulMoves:
 	db SING
 	db FLAMETHROWER
 	db HYDRO_PUMP
+	db POWER_WHIP
+	db GUNK_SHOT
+	db MEGAHORN
+	db STONE_EDGE
 	db SURF
 	db ICE_BEAM
 	db BLIZZARD
@@ -18,6 +22,5 @@ UsefulMoves:
 	db HYPNOSIS
 	db RECOVER
 	db FIRE_BLAST
-	db SOFTBOILED
 	db SUPER_FANG
 	db -1 ; end

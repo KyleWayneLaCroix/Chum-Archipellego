@@ -2074,3 +2074,78 @@ DefenseCurl:
 	statupmessage
 	statupfailtext
 	endmove
+
+Hail:
+	checkobedience
+	usedmovetext
+	doturn
+	starthail
+	endmove
+
+DragonDance:
+	checkobedience
+	usedmovetext
+	doturn
+	attackup
+	lowersub
+	statupanim
+	raisesub
+	statupmessage
+	statupfailtext
+	speedup
+	lowersub
+	raisesub
+	statupmessage
+	statupfailtext
+	endmove
+
+BulkUp:
+	checkobedience
+	usedmovetext
+	doturn
+	attackup
+	lowersub
+	statupanim
+	raisesub
+	statupmessage
+	statupfailtext
+	defenseup
+	lowersub
+	raisesub
+	statupmessage
+	statupfailtext
+	endmove
+
+HoneClaws:
+	checkobedience
+	usedmovetext
+	doturn
+	attackup
+	lowersub
+	statupanim
+	raisesub
+	statupmessage
+	statupfailtext
+	accuracyup
+	lowersub
+	raisesub
+	statupmessage
+	statupfailtext
+	endmove	
+
+CalmMind:
+	checkobedience
+	usedmovetext
+	doturn
+	specialattackup
+	lowersub
+	statupanim
+	raisesub
+	statupmessage
+	statupfailtext
+	specialdefenseup
+	lowersub
+	raisesub
+	statupmessage
+	statupfailtext
+	endmove	

@@ -1,4 +1,5 @@
 	object_const_def
+	const AWAKENINGLAB_TEST_TRAINER
 	const AWAKENINGLAB_POKE_BALL1
 	const AWAKENINGLAB_POKE_BALL2
 	const AWAKENINGLAB_POKE_BALL3
@@ -181,6 +182,12 @@ AwakeningLabPokeballs:
 AwakeningLabPotions:
 	itemball POTION, 3
 
+TestTrainer:
+ trainer RIVAL1, RIVAL1_1_SPIRRIP, -1, TestTrainerSeen, TestTrainerBeaten, 0, .Script
+
+.Script
+	end
+
 WalkToStartingItemsMovement:
 	step DOWN
 	step DOWN
@@ -227,6 +234,14 @@ AwakeningLabShelfScript:
 
 AwakeningLabComputerScript:
 	jumptext AwakeningLabComputerText
+
+TestTrainerSeen:
+	text "Test"
+	done
+
+TestTrainerBeaten:
+	text "You win."
+	done
 
 AwakeningLabPlayerRoomSignText:
 	text "<PLAY_G>?"
@@ -519,6 +534,7 @@ AwakeningLab_MapEvents:
 	bg_event 25, 12, BGEVENT_READ, AwakeningLabHealingMachine
 
 	def_object_events
+	object_event 26, 14, SPRITE_RIVAL, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 0, TestTrainer, -1
 	object_event 12, 15, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, LitwickPokeBallScript, EVENT_LITWICK_POKEBALL
 	object_event 13, 15, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, HonedgePokeBallScript, EVENT_HONEDGE_POKEBALL
 	object_event 14, 15, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, SpirripPokeBallScript, EVENT_SPIRRIP_POKEBALL

@@ -2325,7 +2325,7 @@ RestorePPEffect:
 	jp nz, Not_PP_Up
 
 	ld a, [hl]
-	cp SKETCH
+	cp STRUGGLE
 	jr z, .CantUsePPUpOnSketch
 
 	ld bc, MON_PP - MON_MOVES

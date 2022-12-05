@@ -198,8 +198,8 @@ BattleCommand_CheckTurn:
 	ld a, [wCurPlayerMove]
 	cp FLAME_WHEEL
 	jr z, .not_frozen
-	cp SACRED_FIRE
-	jr z, .not_frozen
+	;cp SACRED_FIRE
+	;jr z, .not_frozen
 
 	ld hl, FrozenSolidText
 	call StdBattleTextbox
@@ -425,8 +425,8 @@ CheckEnemyTurn:
 	ld a, [wCurEnemyMove]
 	cp FLAME_WHEEL
 	jr z, .not_frozen
-	cp SACRED_FIRE
-	jr z, .not_frozen
+	;cp SACRED_FIRE
+	;jr z, .not_frozen
 
 	ld hl, FrozenSolidText
 	call StdBattleTextbox
@@ -1043,12 +1043,12 @@ BattleCommand_DoTurn:
 	ld b, 0
 	add hl, bc
 	ld a, [hl]
-	cp MIMIC
+	cp STRUGGLE
 	jr z, .mimic
 	ld hl, wWildMonMoves
 	add hl, bc
 	ld a, [hl]
-	cp MIMIC
+	cp STRUGGLE
 	ret z
 
 .mimic
@@ -1077,9 +1077,9 @@ BattleCommand_DoTurn:
 	ret
 
 .continuousmoves
-	db EFFECT_RAZOR_WIND
-	db EFFECT_SKY_ATTACK
-	db EFFECT_SKULL_BASH
+	;db EFFECT_RAZOR_WIND
+	;db EFFECT_SKY_ATTACK
+	;db EFFECT_SKULL_BASH
 	db EFFECT_SOLARBEAM
 	db EFFECT_FLY
 	db EFFECT_ROLLOUT
@@ -1101,13 +1101,13 @@ CheckMimicUsed:
 
 	ld a, BATTLE_VARS_MOVE
 	call GetBattleVar
-	cp MIMIC
+	cp STRUGGLE
 	jr z, .mimic
 
 	ld b, 0
 	add hl, bc
 	ld a, [hl]
-	cp MIMIC
+	cp STRUGGLE
 	jr nz, .mimic
 
 	scf
@@ -1561,6 +1561,9 @@ BattleCommand_CheckHit:
 	call .ThunderRain
 	ret z
 
+	CALL .BlizzardHail
+	ret z
+
 	call .XAccuracy
 	ret nz
 
@@ -1719,8 +1722,8 @@ BattleCommand_CheckHit:
 
 	cp GUST
 	ret z
-	cp WHIRLWIND
-	ret z
+	;cp WHIRLWIND
+	;ret z
 	cp THUNDER
 	ret z
 	cp TWISTER
@@ -1746,6 +1749,17 @@ BattleCommand_CheckHit:
 
 	ld a, [wBattleWeather]
 	cp WEATHER_RAIN
+	ret
+
+.BlizzardHail:
+; Return z if the current move always hits in hail, and it is hailing.
+	ld a, BATTLE_VARS_MOVE_EFFECT
+	call GetBattleVar
+	cp EFFECT_BLIZZARD
+	ret nz
+
+	ld a, [wBattleWeather]
+	cp WEATHER_HAIL
 	ret
 
 .XAccuracy:
@@ -1888,12 +1902,12 @@ BattleCommand_LowerSub:
 
 	ld a, BATTLE_VARS_MOVE_EFFECT
 	call GetBattleVar
-	cp EFFECT_RAZOR_WIND
-	jr z, .charge_turn
-	cp EFFECT_SKY_ATTACK
-	jr z, .charge_turn
-	cp EFFECT_SKULL_BASH
-	jr z, .charge_turn
+	;cp EFFECT_RAZOR_WIND
+	;jr z, .charge_turn
+	;cp EFFECT_SKY_ATTACK
+	;jr z, .charge_turn
+	;cp EFFECT_SKULL_BASH
+	;jr z, .charge_turn
 	cp EFFECT_SOLARBEAM
 	jr z, .charge_turn
 	cp EFFECT_FLY
@@ -5548,21 +5562,21 @@ BattleCommand_Charge:
 	text_asm
 	ld a, BATTLE_VARS_MOVE_ANIM
 	call GetBattleVar
-	cp RAZOR_WIND
-	ld hl, .BattleMadeWhirlwindText
-	jr z, .done
+	;cp RAZOR_WIND
+	;ld hl, .BattleMadeWhirlwindText
+	;jr z, .done
 
 	cp SOLARBEAM
 	ld hl, .BattleTookSunlightText
 	jr z, .done
 
-	cp SKULL_BASH
-	ld hl, .BattleLoweredHeadText
-	jr z, .done
+	;cp SKULL_BASH
+	;ld hl, .BattleLoweredHeadText
+	;jr z, .done
 
-	cp SKY_ATTACK
-	ld hl, .BattleGlowingText
-	jr z, .done
+	;cp SKY_ATTACK
+	;ld hl, .BattleGlowingText
+	;jr z, .done
 
 	cp FLY
 	ld hl, .BattleFlewText
@@ -5650,10 +5664,10 @@ BattleCommand_TrapTarget:
 	jp StdBattleTextbox
 
 .Traps:
-	dbw BIND,      UsedBindText      ; 'used BIND on'
+	;dbw BIND,      UsedBindText      ; 'used BIND on'
 	dbw WRAP,      WrappedByText     ; 'was WRAPPED by'
 	dbw FIRE_SPIN, FireSpinTrapText  ; 'was trapped!'
-	dbw CLAMP,     ClampedByText     ; 'was CLAMPED by'
+	;dbw CLAMP,     ClampedByText     ; 'was CLAMPED by'
 	dbw WHIRLPOOL, WhirlpoolTrapText ; 'was trapped!'
 
 INCLUDE "engine/battle/move_effects/mist.asm"
@@ -6511,6 +6525,8 @@ BattleCommand_SkipSunCharge:
 INCLUDE "engine/battle/move_effects/future_sight.asm"
 
 INCLUDE "engine/battle/move_effects/thunder.asm"
+
+INCLUDE "engine/battle/move_effects/hail.asm"
 
 CheckHiddenOpponent:
 	xor a

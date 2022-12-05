@@ -230,7 +230,7 @@ DEF TM01 EQU const_value
 	add_tm PSYCH_UP     ; c9
 	add_tm HIDDEN_POWER ; ca
 	add_tm SUNNY_DAY    ; cb
-	add_tm SWEET_SCENT  ; cc
+	add_tm FAIRY_WIND   ; cc
 	add_tm SNORE        ; cd
 	add_tm BLIZZARD     ; ce
 	add_tm HYPER_BEAM   ; cf
@@ -239,7 +239,7 @@ DEF TM01 EQU const_value
 	add_tm RAIN_DANCE   ; d2
 	add_tm GIGA_DRAIN   ; d3
 	add_tm ENDURE       ; d4
-	add_tm FRUSTRATION  ; d5
+	add_tm POUND        ; d5
 	add_tm SOLARBEAM    ; d6
 	add_tm IRON_TAIL    ; d7
 	add_tm DRAGONBREATH ; d8
@@ -261,14 +261,14 @@ DEF TM01 EQU const_value
 	add_tm DEFENSE_CURL ; e8
 	add_tm THUNDERPUNCH ; e9
 	add_tm DREAM_EATER  ; ea
-	add_tm DETECT       ; eb
+	add_tm TACKLE       ; eb
 	add_tm REST         ; ec
 	add_tm ATTRACT      ; ed
 	add_tm THIEF        ; ee
 	add_tm STEEL_WING   ; ef
 	add_tm FIRE_PUNCH   ; f0
 	add_tm FURY_CUTTER  ; f1
-	add_tm NIGHTMARE    ; f2
+	add_tm BULLDOZE     ; f2
 DEF NUM_TMS EQU __tmhm_value__ - 1
 
 MACRO add_hm

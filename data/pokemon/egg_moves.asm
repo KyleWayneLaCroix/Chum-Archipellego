@@ -87,7 +87,7 @@ MudbrayEggMoves:
 DeerlingEggMoves:
 	db AGILITY
 	db HEADBUTT
-	db SYNTHESIS
+	db RECOVER
 	db -1 ; end
 
 RockruffEggMoves:
@@ -120,7 +120,7 @@ DwebbleEggMoves:
 LotadEggMoves:
 	db COUNTER
 	db FLAIL
-	db SYNTHESIS
+	db RECOVER
 	db -1 ; end
 
 HoppipEggMoves:
@@ -187,7 +187,7 @@ StunkyEggMoves:
 YanmaEggMoves:
 	db PURSUIT
 	db REVERSAL
-	db WHIRLWIND
+	db ROAR
 	db -1 ; end
 
 CherubiEggMoves:
@@ -196,7 +196,7 @@ CherubiEggMoves:
 
 BounsweetEggMoves:
 	db CHARM
-	db SYNTHESIS
+	db RECOVER
 	db -1 ; end
 
 BouffalantEggMoves:
@@ -279,7 +279,7 @@ DrilburEggMoves:
 
 MakuhitaEggMoves:
 	db COUNTER
-	db DETECT
+	db PROTECT
 	db FORESIGHT
 	db -1 ; end
 
@@ -301,7 +301,7 @@ WingullEggMoves:
 CroagunkEggMoves:
 	db COUNTER
 	db HEADBUTT
-	db MEDITATE
+	db POUND
 	db -1 ; end
 
 Jangmo_oEggMoves:
@@ -354,7 +354,7 @@ TirtougaEggMoves:
 	db BIDE
 	db FLAIL
 	db ROLLOUT
-	db SLAM
+	db STRENGTH
 	db WHIRLPOOL
 	db -1 ; end
 
@@ -379,7 +379,7 @@ TangelaEggMoves:
 EeveeEggMoves:
 	db CHARM
 	db CURSE
-	db DETECT
+	db PROTECT
 	db ENDURE
 	db FLAIL
 	db -1 ; end
@@ -411,7 +411,7 @@ SkarmoryEggMoves:
 	db CURSE
 	db ENDURE
 	db PURSUIT
-	db WHIRLWIND
+	db ROAR
 	db -1 ; end
 
 BlitzleEggMoves:
@@ -482,11 +482,11 @@ SnorlaxEggMoves:
 	db LICK
 	db PURSUIT
 	db SUBSTITUTE
-	db WHIRLWIND
+	db ROAR
 	db -1 ; end
 
 MawileEggMoves:
-	db SLAM
+	db STRENGTH
 	db -1 ; end
 
 SkrelpEggMoves:
@@ -505,9 +505,9 @@ BruxishEggMoves:
 
 ExeggcuteEggMoves:
 	db CURSE
-	db MOONLIGHT
+	db RECOVER
 	db REFLECT
-	db SYNTHESIS
+	db RECOVER
 	db -1 ; end
 
 ApplinEggMoves:
