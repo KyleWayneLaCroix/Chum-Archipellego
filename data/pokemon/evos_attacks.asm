@@ -16,15 +16,18 @@ INCLUDE "data/pokemon/evos_attacks_pointers.asm"
 SpirripEvosAttacks:
 	db EVOLVE_LEVEL, 32, DOOMSTONE
 	db 0 ; no more evolutions
+	db 1, TACKLE
 	db 0 ; no more level-up moves
 
 DoomstoneEvosAttacks:
 	db EVOLVE_ITEM, MOON_STONE, CRYPTIID
 	db 0 ; no more evolutions
+	db 1, TACKLE
 	db 0 ; no more level-up moves
 
 CryptiidEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, TACKLE
 	db 0 ; no more level-up moves
 
 LitwickEvosAttacks:
@@ -96,6 +99,7 @@ DoubladeEvosAttacks:
 
 AegislashEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, TACKLE
 	db 0 ; no more level-up moves
 
 RookideeEvosAttacks:
@@ -158,6 +162,7 @@ FarfetchdEvosAttacks:
 
 LuxwanEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, TACKLE
 	db 0 ; no more level-up moves
 
 SirfetchdEvosAttacks:
@@ -322,6 +327,10 @@ VikavoltEvosAttacks:
 BlipbugEvosAttacks:
 	db EVOLVE_LEVEL, 10, DOTTLER
 	db 0 ; no more evolutions
+	db 1, TACKLE
+	db 1, STRING_SHOT
+	db 4, CONFUSE_RAY
+	db 8, CONFUSION
 	db 0 ; no more level-up moves
 
 DottlerEvosAttacks:
@@ -574,15 +583,18 @@ GalladeEvosAttacks:
 HatennaEvosAttacks:
 	db EVOLVE_LEVEL, 32, HATTREM
 	db 0 ; no more evolutions
+	db 1, TACKLE
 	db 0 ; no more level-up moves
 
 HattremEvosAttacks:
 	db EVOLVE_LEVEL, 42, HATTERENE
 	db 0 ; no more evolutions
+	db 1, TACKLE
 	db 0 ; no more level-up moves
 
 HattereneEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, TACKLE
 	db 0 ; no more level-up moves
 
 ZigzagoonEvosAttacks:
@@ -874,6 +886,7 @@ Mega_gengarEvosAttacks:
 
 UnownEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, TACKLE
 	db 0 ; no more level-up moves
 
 DwebbleEvosAttacks:
@@ -1436,6 +1449,7 @@ SkuntankEvosAttacks:
 
 GrenmarEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, TACKLE
 	db 0 ; no more level-up moves
 
 YanmaEvosAttacks:
@@ -1603,6 +1617,7 @@ ScizorEvosAttacks:
 
 KleavorEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, TACKLE
 	db 0 ; no more level-up moves
 
 HeracrossEvosAttacks:
@@ -1843,6 +1858,7 @@ StantlerEvosAttacks:
 
 WyrdeerEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, TACKLE
 	db 0 ; no more level-up moves
 
 ChatotEvosAttacks:
@@ -2102,19 +2118,23 @@ StoutlandEvosAttacks:
 Salandit2EvosAttacks:
 	db EVOLVE_LEVEL, 33, SALAZZLE2
 	db 0 ; no more evolutions
+	db 1, TACKLE
 	db 0 ; no more level-up moves
 
 Salazzle2EvosAttacks:
 	db 0 ; no more evolutions
+	db 1, TACKLE
 	db 0 ; no more level-up moves
 
 TykerEvosAttacks:
 	db EVOLVE_LEVEL, 30, STRAIGAR
 	db 0 ; no more evolutions
+	db 1, TACKLE
 	db 0 ; no more level-up moves
 
 StraigarEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, TACKLE
 	db 0 ; no more level-up moves
 
 TympoleEvosAttacks:
@@ -2204,19 +2224,23 @@ HeatmorEvosAttacks:
 MolambinoEvosAttacks:
 	db EVOLVE_LEVEL, 32, ANGORE
 	db 0 ; no more evolutions
+	db 1, TACKLE
 	db 0 ; no more level-up moves
 
 AngoreEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, TACKLE
 	db 0 ; no more level-up moves
 
 ClauncherEvosAttacks:
 	db EVOLVE_LEVEL, 37, CLAWITZER
 	db 0 ; no more evolutions
+	db 1, TACKLE
 	db 0 ; no more level-up moves
 
 ClawitzerEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, TACKLE
 	db 0 ; no more level-up moves
 
 BuizelEvosAttacks:
@@ -2376,6 +2400,7 @@ LanturnEvosAttacks:
 BurgelaEvosAttacks:
 	db EVOLVE_HAPPINESS, TR_ANYTIME, TANGELA
 	db 0 ; no more evolutions
+	db 1, TACKLE
 	db 0 ; no more level-up moves
 
 TangelaEvosAttacks:
@@ -2417,6 +2442,7 @@ TangrowthEvosAttacks:
 
 JungelaEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, TACKLE
 	db 0 ; no more level-up moves
 
 EeveeEvosAttacks:
@@ -2730,6 +2756,7 @@ UrsaringEvosAttacks:
 
 UrsalunaEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, TACKLE
 	db 0 ; no more level-up moves
 
 SnoverEvosAttacks:
@@ -3282,6 +3309,7 @@ ExeggcuteEvosAttacks:
 
 ExeggutorEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, TACKLE
 	db 0 ; no more level-up moves
 
 SuicuneEvosAttacks:
@@ -3421,29 +3449,36 @@ BuzzwoleEvosAttacks:
 
 PoppyEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, TACKLE
 	db 0 ; no more level-up moves
 
 DaisyEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, TACKLE
 	db 0 ; no more level-up moves
 
 BoomerEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, TACKLE
 	db 0 ; no more level-up moves
 
 KirbyEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, TACKLE
 	db 0 ; no more level-up moves
 
 M_blockEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, TACKLE
 	db 0 ; no more level-up moves
 
 Bad_eggEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, TACKLE
 	db 0 ; no more level-up moves
 
 FuriousbEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, TACKLE
 	db 0 ; no more level-up moves
 
