@@ -172,16 +172,16 @@
 	const NORMAL_BOX   ; a4
 	const GORGEOUS_BOX ; a5
 	const FOAMPOSITES  ; a6
-	const ITEM_A7      ; a7
-	const ITEM_A8      ; a8
-	const ITEM_A9      ; a9
-	const ITEM_AA      ; aa
-	const ITEM_AB      ; ab
-	const ITEM_AC      ; ac
-	const ITEM_AD      ; ad
-	const ITEM_AE      ; ae
-	const ITEM_AF      ; af
-	const ITEM_B0      ; b0
+	const LINK_CABLE   ; a7
+	const DUSK_STONE   ; a8
+	const ICE_STONE    ; a9
+	const LOVE_STONE   ; aa
+	const TESTOSTERONE ; ab
+	const ESTRADIOL    ; ac
+	const BLACK_ROCK   ; ad
+	const DAWN_STONE   ; ae
+	const TART_APPLE   ; af
+	const SWEET_APPLE  ; b0
 	const ITEM_B1      ; b1
 	const ITEM_B2      ; b2
 	const ITEM_B3      ; b3
