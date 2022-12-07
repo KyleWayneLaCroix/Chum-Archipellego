@@ -17,5 +17,5 @@
 	dn EGG_PLANT, EGG_PLANT ; egg groups
 
 	; tm/hm learnset
-	tmhm
+	tmhm 
 	; end

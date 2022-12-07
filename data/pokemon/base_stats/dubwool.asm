@@ -17,5 +17,5 @@
 	dn EGG_GROUND, EGG_GROUND ; egg groups
 
 	; tm/hm learnset
-	tmhm
+	tmhm BODY_SLAM, DOUBLE_EDGE, GIGA_IMPACT, HEADBUTT, HYPER_BEAM, SLEEP_TALK, SUBSTITUTE, ZEN_HEADBUTT
 	; end

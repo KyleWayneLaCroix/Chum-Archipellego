@@ -17,5 +17,5 @@
 	dn EGG_MINERAL, EGG_MINERAL ; egg groups
 
 	; tm/hm learnset
-	tmhm
+	tmhm BODY_SLAM, DIG, GIGA_IMPACT, ROCK_SLIDE, SANDSTORM
 	; end

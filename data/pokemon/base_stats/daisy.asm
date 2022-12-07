@@ -17,5 +17,5 @@
 	dn EGG_GROUND, EGG_GROUND ; egg groups
 
 	; tm/hm learnset
-	tmhm
+	tmhm CALM_MIND, DARK_PULSE, PSYBEAM, PSYCHIC_M, SIGNAL_BEAM
 	; end

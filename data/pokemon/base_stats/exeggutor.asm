@@ -17,5 +17,5 @@
 	dn EGG_PLANT, EGG_PLANT ; egg groups
 
 	; tm/hm learnset
-	tmhm
+	tmhm GIGA_DRAIN, HIDDEN_POWER, HYPER_VOICE, PSYBEAM, PSYCHIC_M, SOLARBEAM
 	; end

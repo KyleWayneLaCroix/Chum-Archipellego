@@ -1,6 +1,6 @@
  db STRAIGAR
 
-	db 115,  85,  80,  60,  85,  90
+	db 100,  95,  80,  80,  95,  90
 	;   hp  atk  def  spd  sat  sdf
 
 	db ELECTRIC, ELECTRIC ; type
@@ -17,5 +17,5 @@
 	dn EGG_NONE, EGG_NONE ; egg groups
 
 	; tm/hm learnset
-	tmhm
+	tmhm BITE, PLAY_ROUGH, SHOCK_WAVE, THUNDER, THUNDERBOLT, THUNDERPUNCH
 	; end

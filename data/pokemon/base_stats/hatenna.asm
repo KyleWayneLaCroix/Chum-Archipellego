@@ -17,5 +17,5 @@
 	dn EGG_FAIRY, EGG_FAIRY ; egg groups
 
 	; tm/hm learnset
-	tmhm
+	tmhm CALM_MIND, DAZZLE_BEAM, MOONBLAST, PSYBEAM, PSYCHIC_M
 	; end

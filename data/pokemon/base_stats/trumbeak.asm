@@ -17,5 +17,5 @@
 	dn EGG_NONE, EGG_NONE ; egg groups
 
 	; tm/hm learnset
-	tmhm
+	tmhm FLY, HIDDEN_POWER, HYPER_VOICE, RETURN, SLEEP_TALK, SUBSTITUTE, SUNNY_DAY, TOXIC
 	; end

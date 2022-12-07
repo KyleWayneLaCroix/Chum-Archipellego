@@ -17,5 +17,5 @@
 	dn EGG_NONE, EGG_NONE ; egg groups
 
 	; tm/hm learnset
-	tmhm
+	tmhm BITE, GIGA_IMPACT, IRON_HEAD, MOONBLAST, SUBMISSION
 	; end

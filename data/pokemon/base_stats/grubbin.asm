@@ -17,5 +17,5 @@
 	dn EGG_BUG, EGG_BUG ; egg groups
 
 	; tm/hm learnset
-	tmhm
+	tmhm BITE, DIG, DIG, HIDDEN_POWER, POISON_JAB, RAIN_DANCE, RETURN, SLEEP_TALK, SUBSTITUTE, THUNDERBOLT, TOXIC
 	; end

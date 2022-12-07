@@ -17,5 +17,5 @@
 	dn EGG_NONE, EGG_NONE ; egg groups
 
 	; tm/hm learnset
-	tmhm
+	tmhm FLAMETHROWER, HEADBUTT, HYDRO_PUMP, WATER_PULSE, ZEN_HEADBUTT
 	; end

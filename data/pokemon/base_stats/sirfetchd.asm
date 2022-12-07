@@ -17,5 +17,5 @@
 	dn EGG_NONE, EGG_GROUND ; egg groups
 
 	; tm/hm learnset
-	tmhm
+	tmhm BODY_SLAM, NIGHT_SLASH, POISON_JAB, SLEEP_TALK, STRENGTH, SUBSTITUTE, SUNNY_DAY
 	; end

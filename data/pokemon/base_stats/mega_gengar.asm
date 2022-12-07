@@ -17,5 +17,5 @@
 	dn EGG_INDETERMINATE, EGG_INDETERMINATE ; egg groups
 
 	; tm/hm learnset
-	tmhm
+	tmhm DARK_PULSE, OMINOUS_WIND, SHADOW_BALL, TOXIC
 	; end

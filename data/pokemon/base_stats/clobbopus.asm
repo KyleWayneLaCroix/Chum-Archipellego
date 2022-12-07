@@ -17,5 +17,5 @@
 	dn EGG_WATER_1, EGG_HUMANSHAPE ; egg groups
 
 	; tm/hm learnset
-	tmhm
+	tmhm BODY_SLAM, ICE_PUNCH, SLEEP_TALK, SUBMISSION, SUBSTITUTE, WATERFALL
 	; end

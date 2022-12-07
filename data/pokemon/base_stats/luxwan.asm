@@ -1,6 +1,6 @@
  db LUXWAN
 
-	db  85,  90,  70,  85,  65,  70
+	db  62, 120,  60, 135,  65,  65
 	;   hp  atk  def  spd  sat  sdf
 
 	db NORMAL, FLYING ; type
@@ -17,5 +17,5 @@
 	dn EGG_FLYING, EGG_FLYING ; egg groups
 
 	; tm/hm learnset
-	tmhm
+	tmhm NIGHT_SLASH, STRENGTH
 	; end

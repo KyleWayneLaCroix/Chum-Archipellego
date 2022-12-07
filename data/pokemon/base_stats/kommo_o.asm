@@ -17,5 +17,5 @@
 	dn EGG_DRAGON, EGG_DRAGON ; egg groups
 
 	; tm/hm learnset
-	tmhm
+	tmhm HEADBUTT, SUBMISSION
 	; end

@@ -17,5 +17,5 @@
 	dn EGG_WATER_2, EGG_WATER_2 ; egg groups
 
 	; tm/hm learnset
-	tmhm
+	tmhm BITE, GIGA_IMPACT, HEADBUTT, IRON_HEAD, RAIN_DANCE, WATER_PULSE, WATERFALL
 	; end

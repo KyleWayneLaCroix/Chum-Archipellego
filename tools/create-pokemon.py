@@ -13,6 +13,7 @@ pokeTreesCSV = 'pokemon-trees.csv'
 pokeTreeSleepCSV = 'pokemon-tree-sleep.csv'
 pokeBugCatchCSV = 'pokemon-bug-contest.csv'
 pokeSwapCSV = 'pokemon-swap.csv'
+pokeTMHMCSV = 'tm-data.csv'
 
 # Game Files
 pokeConstantsFile = '../constants/pokemon_constants.asm'
@@ -184,7 +185,15 @@ def createBaseData(poke):
     eggGroup1 = eggGroupDict.get(poke["eggGroup1"]) or "EGG_NONE"
     eggGroup2 = eggGroupDict.get(poke["eggGroup2"]) or eggGroup1
 
-    # TODO: TM/HM
+    tmData = pd.read_csv(pokeTMHMCSV)
+    tmList = []
+    for row in tmData.to_dict(orient="records"):
+        if row['pokemon'] == constant:
+            tmList.append(row['TM'])
+    if len(tmList) > 0:
+        tmList = ", ".join(tmList)
+    else:
+        tmList = ""
     baseStats = """ db {constant}
 
 	db {stats}
@@ -204,7 +213,7 @@ def createBaseData(poke):
 	dn {eggGroup1}, {eggGroup2} ; egg groups
 
 	; tm/hm learnset
-	tmhm
+	tmhm {tmList}
 	; end
 """
     file = open('../data/pokemon/base_stats/' + nameLower + '.asm', "w")
@@ -221,7 +230,8 @@ def createBaseData(poke):
         imgFolder=imgFolder,
         growthRate=growthRate,
         eggGroup1=eggGroup1,
-        eggGroup2=eggGroup2
+        eggGroup2=eggGroup2,
+        tmList=tmList
     ))
     file.close()
 
@@ -881,7 +891,7 @@ for row in pokeEggs.to_dict(orient="records"):
 
 # updatePokeConstants(pokeConstants)
 # updatePokeNames(pokeNames)
-# updatePokeBaseStats(pokeConstants)
+updatePokeBaseStats(pokeConstants)
 updateEvosAttacksPointers(pokeConstants)
 updateEvosAttacks(pokeConstants, pokeEvosAttacks)
 # updateEggMoves(pokeConstants, pokeEggMoves)

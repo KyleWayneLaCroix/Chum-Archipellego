@@ -17,5 +17,5 @@
 	dn EGG_GROUND, EGG_GROUND ; egg groups
 
 	; tm/hm learnset
-	tmhm
+	tmhm BITE, EARTHQUAKE, HIDDEN_POWER, RETURN, SANDSTORM, SLEEP_TALK, SUBSTITUTE, TOXIC
 	; end

@@ -17,5 +17,5 @@
 	dn EGG_BUG, EGG_BUG ; egg groups
 
 	; tm/hm learnset
-	tmhm
+	tmhm BITE, FIRE_BLAST, SLEEP_TALK, STRENGTH, SUBSTITUTE, SUNNY_DAY
 	; end

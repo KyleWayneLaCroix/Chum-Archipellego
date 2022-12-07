@@ -17,5 +17,5 @@
 	dn EGG_GROUND, EGG_FAIRY ; egg groups
 
 	; tm/hm learnset
-	tmhm
+	tmhm BITE, IRON_HEAD, PLAY_ROUGH
 	; end

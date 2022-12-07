@@ -17,5 +17,5 @@
 	dn EGG_INDETERMINATE, EGG_DRAGON ; egg groups
 
 	; tm/hm learnset
-	tmhm
+	tmhm BITE, SLEEP_TALK, SUBSTITUTE, SWIFT
 	; end

@@ -17,5 +17,5 @@
 	dn EGG_NONE, EGG_NONE ; egg groups
 
 	; tm/hm learnset
-	tmhm
+	tmhm BODY_SLAM, FLY, GIGA_IMPACT, HYPER_BEAM, IRON_HEAD, SLEEP_TALK, SUBSTITUTE, SWIFT
 	; end

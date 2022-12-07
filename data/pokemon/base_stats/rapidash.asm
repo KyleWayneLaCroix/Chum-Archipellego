@@ -17,5 +17,5 @@
 	dn EGG_GROUND, EGG_GROUND ; egg groups
 
 	; tm/hm learnset
-	tmhm
+	tmhm DAZZLE_BEAM, PSYBEAM, PSYCHIC_M, ZEN_HEADBUTT
 	; end

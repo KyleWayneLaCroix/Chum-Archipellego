@@ -219,56 +219,57 @@ ENDM
 
 ; see data/moves/tmhm_moves.asm for moves
 DEF TM01 EQU const_value
-	add_tm DYNAMICPUNCH ; c1
-	add_tm HEADBUTT     ; c2
-	add_tm CURSE        ; c3
-	add_tm ROLLOUT      ; c4
-	add_tm ROAR         ; c5
-	add_tm TOXIC        ; c6
-	add_tm ZAP_CANNON   ; c7
-	add_tm ROCK_SMASH   ; c8
-	add_tm PSYCH_UP     ; c9
-	add_tm HIDDEN_POWER ; ca
-	add_tm SUNNY_DAY    ; cb
-	add_tm FAIRY_WIND   ; cc
-	add_tm SNORE        ; cd
-	add_tm BLIZZARD     ; ce
-	add_tm HYPER_BEAM   ; cf
-	add_tm ICY_WIND     ; d0
-	add_tm PROTECT      ; d1
-	add_tm RAIN_DANCE   ; d2
-	add_tm GIGA_DRAIN   ; d3
-	add_tm ENDURE       ; d4
-	add_tm POUND        ; d5
-	add_tm SOLARBEAM    ; d6
-	add_tm IRON_TAIL    ; d7
-	add_tm DRAGONBREATH ; d8
-	add_tm THUNDER      ; d9
-	add_tm EARTHQUAKE   ; da
-	add_tm RETURN       ; db
-	add_tm DIG          ; dc
-	add_tm PSYCHIC_M    ; dd
-	add_tm SHADOW_BALL  ; de
-	add_tm MUD_SLAP     ; df
-	add_tm DOUBLE_TEAM  ; e0
-	add_tm ICE_PUNCH    ; e1
-	add_tm SWAGGER      ; e2
-	add_tm SLEEP_TALK   ; e3
-	add_tm SLUDGE_BOMB  ; e4
-	add_tm SANDSTORM    ; e5
-	add_tm FIRE_BLAST   ; e6
-	add_tm SWIFT        ; e7
-	add_tm DEFENSE_CURL ; e8
-	add_tm THUNDERPUNCH ; e9
-	add_tm DREAM_EATER  ; ea
-	add_tm TACKLE       ; eb
-	add_tm REST         ; ec
-	add_tm ATTRACT      ; ed
-	add_tm THIEF        ; ee
-	add_tm STEEL_WING   ; ef
-	add_tm FIRE_PUNCH   ; f0
-	add_tm FURY_CUTTER  ; f1
-	add_tm BULLDOZE     ; f2
+	add_tm BITE         ; c1
+	add_tm BLIZZARD     ; c2
+	add_tm BODY_SLAM    ; c3
+	add_tm CALM_MIND    ; c4
+	add_tm DARK_PULSE   ; c5
+	add_tm DAZZLE_BEAM  ; c6
+	add_tm DIG          ; c7
+	add_tm DOUBLE_EDGE  ; c8
+	add_tm EARTHQUAKE   ; c9
+	add_tm ENERGY_BALL  ; ca
+	add_tm FIRE_BLAST   ; cb
+	add_tm FIRE_PUNCH   ; cc
+	add_tm FLAMETHROWER ; cd
+	add_tm GIGA_DRAIN   ; ce
+	add_tm GIGA_IMPACT  ; cf
+	add_tm HAIL         ; d0
+	add_tm HEADBUTT     ; d1
+	add_tm HIDDEN_POWER ; d2
+	add_tm HYDRO_PUMP   ; d3
+	add_tm HYPER_BEAM   ; d4
+	add_tm HYPER_VOICE  ; d5
+	add_tm ICE_BEAM     ; d6
+	add_tm ICE_PUNCH    ; d7
+	add_tm IRON_HEAD    ; d8
+	add_tm MOONBLAST    ; d9
+	add_tm NIGHT_SLASH  ; da
+	add_tm OMINOUS_WIND ; db
+	add_tm PLAY_ROUGH   ; dc
+	add_tm POISON_JAB   ; dd
+	add_tm SLEEP_TALK   ; de
+	add_tm PSYBEAM      ; df
+	add_tm PSYCHIC_M    ; e0
+	add_tm RAIN_DANCE   ; e1
+	add_tm RETURN       ; e2
+	add_tm ROCK_SLIDE   ; e3
+	add_tm SANDSTORM    ; e4
+	add_tm SHADOW_BALL  ; e5
+	add_tm SHOCK_WAVE   ; e6
+	add_tm SIGNAL_BEAM  ; e7
+	add_tm SOLARBEAM    ; e8
+	add_tm SUBMISSION   ; e9
+	add_tm SUBSTITUTE   ; ea
+	add_tm SUNNY_DAY    ; eb
+	add_tm SWIFT        ; ec
+	add_tm THUNDER      ; ed
+	add_tm THUNDERBOLT  ; ee
+	add_tm THUNDERPUNCH ; ef
+	add_tm TOXIC        ; f0
+	add_tm WATER_PULSE  ; f1
+	add_tm ZEN_HEADBUTT ; f2
+
 DEF NUM_TMS EQU __tmhm_value__ - 1
 
 MACRO add_hm
@@ -302,9 +303,9 @@ MACRO add_mt
 ENDM
 
 DEF MT01 EQU const_value
-	add_mt FLAMETHROWER
-	add_mt THUNDERBOLT
-	add_mt ICE_BEAM
+	add_mt POISON_GAS
+	add_mt SEED_BOMB
+	add_mt DREAM_EATER
 DEF NUM_TUTORS = __tmhm_value__ - NUM_TMS - NUM_HMS - 1
 
 DEF NUM_TM_HM_TUTOR EQU NUM_TMS + NUM_HMS + NUM_TUTORS

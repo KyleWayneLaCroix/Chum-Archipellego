@@ -65,6 +65,7 @@ ROMX $0e
 ROMX $0f
 	"Battle Core"
 ROMX $10
+	"bank10"
 	"Evolutions and Attacks"
 ROMX $11
 	"bank11"
@@ -118,7 +119,6 @@ ROMX $27
 	"Map Scripts 12"
 ROMX $28
 	"Phone Scripts 1"
-	"bank10"
 ROMX $29
 	"Phone Text"
 ROMX $2a

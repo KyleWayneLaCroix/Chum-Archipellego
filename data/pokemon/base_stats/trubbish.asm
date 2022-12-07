@@ -17,5 +17,5 @@
 	dn EGG_NONE, EGG_NONE ; egg groups
 
 	; tm/hm learnset
-	tmhm
+	tmhm DARK_PULSE, GIGA_DRAIN, HIDDEN_POWER, RAIN_DANCE, RETURN, SLEEP_TALK, SUBSTITUTE, SUNNY_DAY, TOXIC, TOXIC
 	; end

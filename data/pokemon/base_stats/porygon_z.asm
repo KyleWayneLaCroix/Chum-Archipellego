@@ -17,5 +17,5 @@
 	dn EGG_NONE, EGG_NONE ; egg groups
 
 	; tm/hm learnset
-	tmhm
+	tmhm HYPER_BEAM, PSYBEAM, SHOCK_WAVE, SIGNAL_BEAM
 	; end

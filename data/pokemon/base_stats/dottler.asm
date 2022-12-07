@@ -17,5 +17,5 @@
 	dn EGG_BUG, EGG_BUG ; egg groups
 
 	; tm/hm learnset
-	tmhm
+	tmhm CALM_MIND, ENERGY_BALL, PSYCHIC_M, SHADOW_BALL, SLEEP_TALK, SUBSTITUTE, ZEN_HEADBUTT
 	; end
