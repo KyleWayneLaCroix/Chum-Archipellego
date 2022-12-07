@@ -14,7 +14,7 @@ SECTION "Evolutions and Attacks", ROMX
 
 INCLUDE "data/pokemon/evos_attacks_pointers.asm"
 SpirripEvosAttacks:
-	db EVOLVE_LEVEL, 32, DOOMSTONE
+	db EVOLVE_LEVEL, 20, DOOMSTONE
 	db 0 ; no more evolutions
 	db 1, ASTONISH
 	db 1, TACKLE
@@ -36,7 +36,7 @@ SpirripEvosAttacks:
 	db 0 ; no more level-up moves
 
 DoomstoneEvosAttacks:
-	db EVOLVE_ITEM, MOON_STONE, CRYPTIID
+	db EVOLVE_ITEM, DUSK_STONE, CRYPTIID
 	db 0 ; no more evolutions
 	db 1, SCARY_FACE
 	db 1, BONEMERANG
@@ -86,7 +86,7 @@ LitwickEvosAttacks:
 	db 0 ; no more level-up moves
 
 LampentEvosAttacks:
-	db EVOLVE_ITEM, MOON_STONE, CHANDELURE
+	db EVOLVE_ITEM, DUSK_STONE, CHANDELURE
 	db 0 ; no more evolutions
 	db 1, SINGE
 	db 1, FLAMETHROWER
@@ -114,7 +114,7 @@ HonedgeEvosAttacks:
 	db 0 ; no more level-up moves
 
 DoubladeEvosAttacks:
-	db EVOLVE_ITEM, MOON_STONE, AEGISLASH
+	db EVOLVE_ITEM, DUSK_STONE, AEGISLASH
 	db 0 ; no more evolutions
 	db 1, AERIAL_ACE
 	db 0 ; no more level-up moves
@@ -165,8 +165,8 @@ CorviknightEvosAttacks:
 	db 0 ; no more level-up moves
 
 FarfetchdEvosAttacks:
-	db EVOLVE_LEVEL, 28, LUXWAN
-	db EVOLVE_LEVEL, 29, SIRFETCHD
+	db EVOLVE_ITEM, ESTRADIOL, LUXWAN
+	db EVOLVE_ITEM, TESTOSTERONE, SIRFETCHD
 	db 0 ; no more evolutions
 	db 1, MIRROR_MOVE
 	db 1, PECK
@@ -188,6 +188,7 @@ FarfetchdEvosAttacks:
 	db 0 ; no more level-up moves
 
 LuxwanEvosAttacks:
+	db EVOLVE_ITEM, TESTOSTERONE, SIRFETCHD
 	db 0 ; no more evolutions
 	db 1, PECK
 	db 1, SMOKESCREEN
@@ -204,6 +205,7 @@ LuxwanEvosAttacks:
 	db 0 ; no more level-up moves
 
 SirfetchdEvosAttacks:
+	db EVOLVE_ITEM, ESTRADIOL, LUXWAN
 	db 0 ; no more evolutions
 	db 1, LEER
 	db 1, PECK
@@ -590,7 +592,7 @@ RaltsEvosAttacks:
 
 KirliaEvosAttacks:
 	db EVOLVE_LEVEL, 30, GARDEVOIR
-	db EVOLVE_ITEM, SUN_STONE, GALLADE
+	db EVOLVE_ITEM, DAWN_STONE, GALLADE
 	db 0 ; no more evolutions
 	db 1, CONFUSION
 	db 1, DOUBLE_TEAM
@@ -905,7 +907,7 @@ GastlyEvosAttacks:
 	db 0 ; no more level-up moves
 
 HaunterEvosAttacks:
-	db EVOLVE_TRADE, -1, GENGAR
+	db EVOLVE_ITEM, LINK_CABLE, GENGAR
 	db 0 ; no more evolutions
 	db 1, SINGE
 	db 1, NIGHT_SHADE
@@ -1662,8 +1664,8 @@ LurantisEvosAttacks:
 	db 0 ; no more level-up moves
 
 ScytherEvosAttacks:
-	db EVOLVE_TRADE, METAL_COAT, SCIZOR
-	db EVOLVE_TRADE, HARD_STONE, KLEAVOR
+	db EVOLVE_ITEM, METAL_COAT, SCIZOR
+	db EVOLVE_ITEM, BLACK_ROCK, KLEAVOR
 	db 0 ; no more evolutions
 	db 1, QUICK_ATTACK
 	db 2, LEER
@@ -2697,7 +2699,7 @@ LanturnEvosAttacks:
 	db 0 ; no more level-up moves
 
 BurgelaEvosAttacks:
-	db EVOLVE_HAPPINESS, TR_ANYTIME, TANGELA
+	db EVOLVE_LEVEL, 20, TANGELA
 	db 0 ; no more evolutions
 	db 1, WRAP
 	db 4, TACKLE
@@ -2709,8 +2711,8 @@ BurgelaEvosAttacks:
 	db 0 ; no more level-up moves
 
 TangelaEvosAttacks:
-	db EVOLVE_LEVEL, 38, TANGROWTH
-	db EVOLVE_ITEM, LEAF_STONE, JUNGELA
+	db EVOLVE_ITEM, TESTOSTERONE, TANGROWTH
+	db EVOLVE_ITEM, ESTRADIOL, JUNGELA
 	db 0 ; no more evolutions
 	db 1, WRAP
 	db 4, RECOVER
@@ -2732,6 +2734,7 @@ TangelaEvosAttacks:
 	db 0 ; no more level-up moves
 
 TangrowthEvosAttacks:
+	db EVOLVE_ITEM, ESTRADIOL, JUNGELA
 	db 0 ; no more evolutions
 	db 21, RAZOR_LEAF
 	db 21, GROWTH
@@ -2748,6 +2751,7 @@ TangrowthEvosAttacks:
 	db 0 ; no more level-up moves
 
 JungelaEvosAttacks:
+	db EVOLVE_ITEM, TESTOSTERONE, TANGROWTH
 	db 0 ; no more evolutions
 	db 21, RAZOR_LEAF
 	db 21, GROWTH
@@ -2767,11 +2771,11 @@ EeveeEvosAttacks:
 	db EVOLVE_ITEM, WATER_STONE, VAPOREON
 	db EVOLVE_ITEM, THUNDERSTONE, JOLTEON
 	db EVOLVE_ITEM, FIRE_STONE, FLAREON
-	db EVOLVE_ITEM, SUN_STONE, ESPEON
-	db EVOLVE_ITEM, MOON_STONE, UMBREON
-	db EVOLVE_TRADE, NEVERMELTICE, GLACEON
+	db EVOLVE_ITEM, ICE_STONE, GLACEON
 	db EVOLVE_ITEM, LEAF_STONE, LEAFEON
-	db EVOLVE_HAPPINESS, TR_ANYTIME, SYLVEON
+	db EVOLVE_ITEM, LOVE_STONE, SYLVEON
+	db EVOLVE_HAPPINESS, TR_MORNDAY, ESPEON
+	db EVOLVE_HAPPINESS, TR_NITE, UMBREON
 	db 0 ; no more evolutions
 	db 1, BATON_PASS
 	db 1, TACKLE
@@ -3323,7 +3327,7 @@ OranguruEvosAttacks:
 	db 0 ; no more level-up moves
 
 MisdreavusEvosAttacks:
-	db EVOLVE_ITEM, MOON_STONE, MISMAGIUS
+	db EVOLVE_ITEM, DUSK_STONE, MISMAGIUS
 	db 0 ; no more evolutions
 	db 1, GROWL
 	db 1, PSYWAVE
@@ -3349,7 +3353,7 @@ MismagiusEvosAttacks:
 	db 0 ; no more level-up moves
 
 PorygonEvosAttacks:
-	db EVOLVE_TRADE, UP_GRADE, PORYGON2
+	db EVOLVE_ITEM, 20, PORYGON2
 	db 0 ; no more evolutions
 	db 1, CONVERSION
 	db 1, HARDEN
@@ -3369,7 +3373,7 @@ PorygonEvosAttacks:
 	db 0 ; no more level-up moves
 
 Porygon2EvosAttacks:
-	db EVOLVE_ITEM, THUNDERSTONE, PORYGON_Z
+	db EVOLVE_ITEM, UP_GRADE, PORYGON_Z
 	db 0 ; no more evolutions
 	db 1, CONVERSION
 	db 1, CONVERSION2
@@ -3649,8 +3653,8 @@ SuicuneEvosAttacks:
 	db 0 ; no more level-up moves
 
 ApplinEvosAttacks:
-	db EVOLVE_ITEM, SUN_STONE, FLAPPLE
-	db EVOLVE_ITEM, MOON_STONE, APPLETUN
+	db EVOLVE_ITEM, TART_APPLE, FLAPPLE
+	db EVOLVE_ITEM, SWEET_APPLE, APPLETUN
 	db 0 ; no more evolutions
 	db 1, ASTONISH
 	db 1, DEFENSE_CURL
