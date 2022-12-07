@@ -167,16 +167,16 @@ ItemDescriptions:
 	dw NormalBoxDesc
 	dw GorgeousBoxDesc
 	dw FoampositesDesc
-	dw TeruSama2Desc
-	dw TeruSama3Desc
-	dw TeruSama4Desc
-	dw TeruSama5Desc
-	dw TeruSama6Desc
-	dw TeruSama7Desc
-	dw TeruSama8Desc
-	dw TeruSama9Desc
-	dw TeruSama10Desc
-	dw TeruSama11Desc
+	dw LinkCableDesc
+	dw DuskStoneDesc
+	dw IceStoneDesc
+	dw LoveStoneDesc
+	dw TestosteroneDesc
+	dw EstradiolDesc
+	dw BlackRockDesc
+	dw DawnStoneDesc
+	dw TartAppleDesc
+	dw SweetAppleDesc
 	dw TeruSama12Desc
 	dw TeruSama13Desc
 	dw TeruSama14Desc
@@ -355,8 +355,9 @@ WaterStoneDesc:
 	db   "Evolves certain"
 	next "kinds of #MON.@"
 
-TeruSama2Desc:
-	db   "?@"
+LinkCableDesc:
+	db   "Evolves certain"
+	next "kinds of #MON.@"
 
 HPUpDesc:
 	db   "Raises the HP of"
@@ -434,8 +435,9 @@ DireHitDesc:
 	db   "Ups critical hit"
 	next "ratio. (1 BTL)@"
 
-TeruSama3Desc:
-	db   "?@"
+DuskStoneDesc:
+	db   "Evolves certain"
+	next "kinds of #MON.@"
 
 FreshWaterDesc:
 	db   "Restores #MON"
@@ -453,8 +455,9 @@ XAttackDesc:
 	db   "Raises ATTACK."
 	next "(1 BTL)@"
 
-TeruSama4Desc:
-	db   "?@"
+IceStoneDesc:
+	db   "Evolves certain"
+	next "kinds of #MON.@"
 
 XDefendDesc:
 	db   "Raises DEFENSE."
@@ -476,8 +479,9 @@ ItemfinderDesc:
 	db   "Checks for unseen"
 	next "items in the area.@"
 
-TeruSama5Desc:
-	db   "?@"
+LoveStoneDesc:
+	db   "Evolves certain"
+	next "kinds of #MON.@"
 
 ExpShareDesc:
 	db   "Shares battle EXP."
@@ -609,8 +613,9 @@ SilverPowderDesc:
 BluApricornDesc:
 	db   "A blue APRICORN.@"
 
-TeruSama6Desc:
-	db   "?@"
+TestosteroneDesc:
+	db   "Gender evolution"
+	next "for #MON.@"
 
 AmuletCoinDesc:
 	db   "Doubles monetary"
@@ -645,8 +650,9 @@ BlkApricornDesc:
 	db   "A black APRICORN."
 	next "@"
 
-TeruSama7Desc:
-	db   "?@"
+EstradiolDesc:
+	db   "Gender evolution"
+	next "for #MON.@"
 
 PnkApricornDesc:
 	db   "A pink APRICORN."
@@ -724,8 +730,9 @@ FocusBandDesc:
 	db   "May prevent faint-"
 	next "ing. (HOLD)@"
 
-TeruSama8Desc:
-	db   "?@"
+BlackRockDesc:
+	db   "Evolves certain"
+	next "kinds of #MON.@"
 
 EnergyPowderDesc:
 	db   "Restores #MON"
@@ -782,14 +789,17 @@ PassDesc:
 	db   "A ticket for the"
 	next "MAGNET TRAIN.@"
 
-TeruSama9Desc:
-	db   "?@"
+DawnStoneDesc:
+	db   "Evolves certain"
+	next "kinds of #MON.@"
 
-TeruSama10Desc:
-	db   "?@"
+TartAppleDesc:
+	db   "Evolves APPLIN"
+	next "into FLAPPLE.@"
 
-TeruSama11Desc:
-	db   "?@"
+SweetAppleDesc:
+	db   "Evolves APPLIN"
+	next "into APPLETUN.@"
 
 CharcoalDesc:
 	db   "Powers up fire-"

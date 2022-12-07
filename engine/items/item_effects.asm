@@ -180,16 +180,16 @@ ItemEffects:
 	dw NormalBoxEffect     ; NORMAL_BOX
 	dw GorgeousBoxEffect   ; GORGEOUS_BOX
 	dw NoEffect            ; FOAMPOSITES
-	dw NoEffect            ; ITEM_ A7
-	dw NoEffect            ; ITEM_ A8
-	dw NoEffect            ; ITEM_ A9
-	dw NoEffect            ; ITEM_ AA
-	dw NoEffect            ; ITEM_ AB
-	dw NoEffect            ; ITEM_ AC
-	dw NoEffect            ; ITEM_ AD
-	dw NoEffect            ; ITEM_ AE
-	dw NoEffect            ; ITEM_ AF
-	dw NoEffect            ; ITEM_ B0
+	dw EvoStoneEffect      ; LINK_CABLE
+	dw EvoStoneEffect      ; DUSK_STONE
+	dw EvoStoneEffect      ; ICE_STONE
+	dw EvoStoneEffect      ; LOVE_STONE
+	dw EvoStoneEffect      ; TESTOSTERONE
+	dw EvoStoneEffect      ; ESTRADIOL
+	dw EvoStoneEffect      ; BLACK_ROCK
+	dw EvoStoneEffect      ; DAWN_STONE
+	dw EvoStoneEffect      ; TART_APPLE
+	dw EvoStoneEffect      ; SWEET_APPLE
 	dw NoEffect            ; ITEM_ B1
 	dw NoEffect            ; ITEM_ B2
 	dw NoEffect            ; ITEM_ B3
