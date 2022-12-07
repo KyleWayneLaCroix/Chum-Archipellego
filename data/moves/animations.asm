@@ -253,9 +253,9 @@ BattleAnimations::
 	dw BattleAnim_RockSmash
 	dw BattleAnim_Whirlpool
 	dw BattleAnim_OminousWind
+	dw BattleAnim_FireLash
+	dw BattleAnim_Singe
 	assert_table_length NUM_ATTACKS + 1
-	dw BattleAnim_252
-	dw BattleAnim_253
 	dw BattleAnim_254
 	dw BattleAnim_SweetScent2
 	assert_table_length $100
@@ -863,6 +863,7 @@ BattleAnim_SuperFang:
 	anim_loop 3, .loop
 	anim_ret
 
+BattleAnim_Singe:
 BattleAnim_Ember:
 	anim_1gfx ANIM_GFX_FIRE
 	anim_sound 6, 2, SFX_EMBER
@@ -1146,6 +1147,7 @@ BattleAnim_Surf:
 
 BattleAnim_PowerWhip:
 BattleAnim_VineWhip:
+BattleAnim_FireLash:
 	anim_1gfx ANIM_GFX_WHIP
 	anim_sound 0, 1, SFX_VINE_WHIP
 	anim_obj ANIM_OBJ_VINE_WHIP2, 116, 52, $80

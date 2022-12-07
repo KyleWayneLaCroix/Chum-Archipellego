@@ -257,8 +257,8 @@
 	const ROCK_SMASH   ; f9
 	const WHIRLPOOL    ; fa
 	const OMINOUS_WIND ; fb
-
-
+	const FIRE_LASH    ; fc
+	const SINGE        ; fd
 DEF NUM_ATTACKS EQU const_value - 1
 
 ; Battle animations use the same constants as the moves up to this point

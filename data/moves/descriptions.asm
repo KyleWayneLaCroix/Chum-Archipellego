@@ -252,9 +252,9 @@ MoveDescriptions::
 	dw RockSmashDescription
 	dw WhirlpoolDescription
 	dw OminouswindDescription
+	dw FireLashDescription
+	dw SingeDescription
 	assert_table_length NUM_ATTACKS
-	dw MoveFCDescription
-	dw MoveFDDescription
 	dw MoveFEDescription
 	dw MoveFFDescription
 	dw Move00Description
@@ -1269,4 +1269,12 @@ WhirlpoolDescription:
 
 OminouswindDescription:
 	db   "An attack that may"
-	next "raise all stats.@"	
+	next "raise all stats.@"
+
+FireLashDescription:
+	db   "Strike with flames"
+	next "Will lower defense@"
+
+SingeDescription:
+	db   "Burn a target with"
+	next "a small flame.@"
