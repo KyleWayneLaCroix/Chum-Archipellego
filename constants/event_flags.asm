@@ -33,8 +33,8 @@
 	const EVENT_GOT_SUPER_ROD
 ; Johto story events
 	const EVENT_GOT_A_STARTER
-	const EVENT_GOT_LITWICK_STARTER
-	const EVENT_GOT_HONEDGE_STARTER
+	const EVENT_GOT_BURGELA_STARTER
+	const EVENT_GOT_PORYGON_STARTER
 	const EVENT_GOT_SPIRRIP_STARTER
 	const EVENT_GOT_FOAMPOSITES
 	const EVENT_GOT_BASEMENT_KEY
@@ -1057,8 +1057,8 @@
 ; The map script command macros `disappear` and `appear` set/clear these flags and immediately apply the effect on visibility.
 ; The map script command macros `setevent` and `clearevent` set/clear these flags, and their effects will be seen when the map is reloaded.
 ; Johto itemballs
-	const EVENT_LITWICK_POKEBALL
-	const EVENT_HONEDGE_POKEBALL
+	const EVENT_BURGELA_POKEBALL
+	const EVENT_PORYGON_POKEBALL
 	const EVENT_SPIRRIP_POKEBALL
 	const EVENT_AWAKENING_LAB_POTIONS
 	const EVENT_AWAKENING_LAB_POKEBALLS

@@ -75,58 +75,58 @@ LabTryToLeaveScript:
 	applymovement PLAYER, AwakeningLab_CantLeaveMovement
 	end
 
-LitwickPokeBallScript:
+PorygonPokeBallScript:
 	refreshscreen
-	pokepic LITWICK
-	cry LITWICK
+	pokepic PORYGON
+	cry PORYGON
 	waitbutton
 	closepokepic
 	opentext
-	writetext TakeLitwickText
+	writetext TakePorygonText
 	yesorno
 	iffalse DidntChooseStarterScript
 	disappear AWAKENINGLAB_POKE_BALL1
 	disappear AWAKENINGLAB_POKE_BALL2
 	disappear AWAKENINGLAB_POKE_BALL3
-	setevent EVENT_GOT_LITWICK_STARTER
+	setevent EVENT_GOT_PORYGON_STARTER
 	setevent EVENT_GOT_A_STARTER
 	writetext ChoseStarterText
 	promptbutton
 	waitsfx
-	getmonname STRING_BUFFER_3, LITWICK
+	getmonname STRING_BUFFER_3, PORYGON
 	writetext ReceivedStarterText
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	promptbutton
-	givepoke LITWICK, 77, CHARCOAL
+	givepoke PORYGON, 77, CHARCOAL
 	setscene SCENE_AWAKENINGLAB_PICKED_POKEMON
 	closetext
 	end
 
-HonedgePokeBallScript:
+BurgelaPokeBallScript:
 	refreshscreen
-	pokepic HONEDGE
-	cry HONEDGE
+	pokepic BURGELA
+	cry BURGELA
 	waitbutton
 	closepokepic
 	opentext
-	writetext TakeHonedgeText
+	writetext TakeBurgelaText
 	yesorno
 	iffalse DidntChooseStarterScript
 	disappear AWAKENINGLAB_POKE_BALL1
 	disappear AWAKENINGLAB_POKE_BALL2
 	disappear AWAKENINGLAB_POKE_BALL3
-	setevent EVENT_GOT_HONEDGE_STARTER
+	setevent EVENT_GOT_BURGELA_STARTER
 	setevent EVENT_GOT_A_STARTER
 	writetext ChoseStarterText
 	promptbutton
 	waitsfx
-	getmonname STRING_BUFFER_3, HONEDGE
+	getmonname STRING_BUFFER_3, BURGELA
 	writetext ReceivedStarterText
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	promptbutton
-	givepoke HONEDGE, 77, METAL_COAT
+	givepoke BURGELA, 77, METAL_COAT
 	setscene SCENE_AWAKENINGLAB_PICKED_POKEMON
 	closetext
 	end
@@ -398,16 +398,16 @@ DidntChooseStarterText:
 	cont "this is all done."
 	done
 
-TakeLitwickText:
+TakePorygonText:
 	text "You'll take"
-	line "LITWICK, the"
-	cont "fire ghost?"
+	line "PORYGON, the"
+	cont "digital mon?"
 	done
 
-TakeHonedgeText:
+TakeBurgelaText:
 	text "Do you want"
-	line "HONEDGE, the"
-	cont "steel ghost?"
+	line "BURGELA, the"
+	cont "beta GRASS mon?"
 	done
 
 TakeSpirripText:
@@ -535,8 +535,8 @@ AwakeningLab_MapEvents:
 
 	def_object_events
 	object_event 26, 14, SPRITE_RIVAL, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 0, TestTrainer, -1
-	object_event 12, 15, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, LitwickPokeBallScript, EVENT_LITWICK_POKEBALL
-	object_event 13, 15, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, HonedgePokeBallScript, EVENT_HONEDGE_POKEBALL
+	object_event 12, 15, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, PorygonPokeBallScript, EVENT_PORYGON_POKEBALL
+	object_event 13, 15, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, BurgelaPokeBallScript, EVENT_BURGELA_POKEBALL
 	object_event 14, 15, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, SpirripPokeBallScript, EVENT_SPIRRIP_POKEBALL
 	object_event 21, 14, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, AwakeningLabPokeballs, EVENT_AWAKENING_LAB_POKEBALLS
 	object_event 20, 14, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, AwakeningLabPotions, EVENT_AWAKENING_LAB_POTIONS
