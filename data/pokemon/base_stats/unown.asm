@@ -1,10 +1,10 @@
  db UNOWN
 
-	db  48,  72,  48,  48,  72,  48
+	db  50, 120,  50,  90, 120,  50
 	;   hp  atk  def  spd  sat  sdf
 
-	db ELECTRIC, BUG ; type
-	db 225 ; catch rate
+	db GLITCH, GLITCH ; type
+	db 180 ; catch rate
 	db 118 ; base exp
 	db NO_ITEM, NO_ITEM ; items
 	db GENDER_UNKNOWN ; gender ratio

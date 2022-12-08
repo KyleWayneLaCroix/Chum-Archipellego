@@ -90,7 +90,7 @@ OddEggs:
 
 	db MOLAMBINO
 	db NO_ITEM
-	db POUND, CHARM, SWEET_KISS, 0
+	db TACKLE, CHARM, SWEET_KISS, 0
 	dw 04096 ; OT ID
 	dt 125 ; Exp
 	; Stat exp
@@ -116,7 +116,7 @@ OddEggs:
 
 	db MOLAMBINO
 	db NO_ITEM
-	db POUND, CHARM, SWEET_KISS, 0
+	db TACKLE, CHARM, SWEET_KISS, 0
 	dw 00768 ; OT ID
 	dt 125 ; Exp
 	; Stat exp
@@ -194,7 +194,7 @@ OddEggs:
 
 	db GRENMAR
 	db NO_ITEM
-	db POUND, LICK, SWEET_KISS, 0
+	db TACKLE, LICK, SWEET_KISS, 0
 	dw 03584 ; OT ID
 	dt 125 ; Exp
 	; Stat exp
@@ -220,7 +220,7 @@ OddEggs:
 
 	db GRENMAR
 	db NO_ITEM
-	db POUND, LICK, SWEET_KISS, 0
+	db TACKLE, LICK, SWEET_KISS, 0
 	dw 00512 ; OT ID
 	dt 125 ; Exp
 	; Stat exp

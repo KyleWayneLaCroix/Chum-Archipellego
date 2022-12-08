@@ -30,6 +30,7 @@ DEF UNUSED_TYPES_END EQU const_value
 	const DRAGON
 	const DARK
 	const FAIRY
+	const GLITCH
 DEF TYPES_END EQU const_value
 
 DEF TYPE_MASK EQU %00111111

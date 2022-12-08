@@ -63,7 +63,7 @@ PokemonNames::
 	db "HAUNTER@@@"
 	db "GENGAR@@@@"
 	db "MEGAGENGAR"
-	db "UNOWN@@@@@"
+	db "MISSINGNO."
 	db "DWEBBLE@@@"
 	db "CRUSTLE@@@"
 	db "LOTAD@@@@@"

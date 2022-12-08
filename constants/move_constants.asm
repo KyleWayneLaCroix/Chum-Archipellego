@@ -6,7 +6,7 @@
 ; - BattleAnimations (see data/moves/animations.asm)
 	const_def
 	const NO_MOVE      ; 00
-	const POUND        ; 01
+	const GLITCH_M     ; 01
 	const KARATE_CHOP  ; 02
 	const DOUBLESLAP   ; 03
 	const BULLET_PUNCH ; 04

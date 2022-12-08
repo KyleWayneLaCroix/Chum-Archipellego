@@ -2,6 +2,7 @@ TypeMatchups:
 	;  attacker,     defender,     *=
 	db NORMAL,       ROCK,         NOT_VERY_EFFECTIVE
 	db NORMAL,       STEEL,        NOT_VERY_EFFECTIVE
+	db NORMAL,       GLITCH,       NO_EFFECT
 	db FIRE,         FIRE,         NOT_VERY_EFFECTIVE
 	db FIRE,         WATER,        NOT_VERY_EFFECTIVE
 	db FIRE,         GRASS,        SUPER_EFFECTIVE
@@ -118,7 +119,10 @@ TypeMatchups:
 	db FAIRY,        DRAGON,       SUPER_EFFECTIVE
 	db FAIRY,        DARK,         SUPER_EFFECTIVE
 	db FAIRY,        STEEL,        NOT_VERY_EFFECTIVE
-
+	db GLITCH,       GLITCH,       SUPER_EFFECTIVE
+	db GLITCH,       ELECTRIC,     NOT_VERY_EFFECTIVE
+	db GLITCH,       NORMAL,       SUPER_EFFECTIVE
+	db GLITCH,       STEEL,        NOT_VERY_EFFECTIVE
 	db -2 ; end (with Foresight)
 
 ; Foresight removes Ghost's immunities.

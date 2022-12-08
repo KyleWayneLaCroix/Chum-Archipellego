@@ -1,5 +1,5 @@
 
-	db "Symbol@" ; species name
+	db "Glitch@" ; species name
 	dw 5, 50 ; height, weight
 
 	db   "There is much to"

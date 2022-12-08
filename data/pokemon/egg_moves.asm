@@ -301,7 +301,7 @@ WingullEggMoves:
 CroagunkEggMoves:
 	db COUNTER
 	db HEADBUTT
-	db POUND
+	db TACKLE
 	db -1 ; end
 
 Jangmo_oEggMoves:
