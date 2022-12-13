@@ -109,7 +109,7 @@
 	const MAX_ELIXER   ; 65
 	const ETHER        ; 66
 	const MAX_ETHER    ; 67
-	const MOOMOO_MILK  ; 68
+	const HONEY  ; 68
 	const RAGECANDYBAR ; 69
 	const ENERGYPOWDER ; 6a
 	const ENERGY_ROOT  ; 6b
@@ -182,8 +182,8 @@
 	const DAWN_STONE   ; ae
 	const TART_APPLE   ; af
 	const SWEET_APPLE  ; b0
-	const ITEM_B1      ; b1
-	const ITEM_B2      ; b2
+	const CHAINSAW     ; b1
+	const PDA          ; b2
 	const ITEM_B3      ; b3
 	const ITEM_B4      ; b4
 	const ITEM_B5      ; b5

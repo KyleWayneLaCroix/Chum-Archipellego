@@ -214,14 +214,14 @@ INCBIN "data/tilesets/house_metatiles.bin"
 TilesetHouseColl::
 INCLUDE "data/tilesets/house_collision.asm"
 
-TilesetLighthouseGFX::
-INCBIN "gfx/tilesets/lighthouse.2bpp.lz"
+;TilesetLighthouseGFX::
+;INCBIN "gfx/tilesets/lighthouse.2bpp.lz"
 
-TilesetLighthouseMeta::
-INCBIN "data/tilesets/lighthouse_metatiles.bin"
+;TilesetLighthouseMeta::
+;INCBIN "data/tilesets/lighthouse_metatiles.bin"
 
-TilesetLighthouseColl::
-INCLUDE "data/tilesets/lighthouse_collision.asm"
+;TilesetLighthouseColl::
+;INCLUDE "data/tilesets/lighthouse_collision.asm"
 
 TilesetForestColl::
 INCLUDE "data/tilesets/forest_collision.asm"
@@ -284,3 +284,14 @@ INCBIN "data/tilesets/chumelago_metatiles.bin"
 TilesetChumelagoColl::
 Tileset0Coll::
 INCLUDE "data/tilesets/chumelago_collision.asm"
+
+SECTION "Tileset Data 9", ROMX
+
+TilesetMetroidGFX::
+INCBIN "gfx/tilesets/metroid.2bpp.lz"
+
+TilesetMetroidMeta::
+INCBIN "data/tilesets/metroid_metatiles.bin"
+
+TilesetMetroidColl::
+INCLUDE "data/tilesets/metroid_collision.asm"

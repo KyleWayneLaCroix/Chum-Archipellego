@@ -1,5 +1,4 @@
-
-	db "Gas@" ; species name
+	db "GAS@" ; species name
 	dw 13, 1 ; height, weight
 
 	db   "There is much to"

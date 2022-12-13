@@ -1511,9 +1511,12 @@ BugCatcherGroup:
 	db -1 ; end
 
 	; BUG_CATCHER (2)
-	db "ROB@", TRAINERTYPE_NORMAL
-	db 32, SIRFETCHD
-	db 32, CORVIKNIGHT
+	db "JIM@", TRAINERTYPE_NORMAL
+	db 8, YANMA
+	db 7, BLIPBUG
+	db 9, DEWPIDER
+	db 7, GRUBBIN
+	db 6, JOLTIK
 	db -1 ; end
 
 	; BUG_CATCHER (3)
@@ -1633,7 +1636,9 @@ FisherGroup:
 
 	; FISHER (2)
 	db "RALPH@", TRAINERTYPE_NORMAL
-	db 10, BOUFFALANT
+	db 10, CHINCHOU
+	db  8, BARBOACH
+	db  9, ALOMOMOLA
 	db -1 ; end
 
 	; FISHER (3)
@@ -2278,16 +2283,18 @@ GuitaristGroup:
 
 HikerGroup:
 	; HIKER (1)
-	db "ANTHONY@", TRAINERTYPE_NORMAL
-	db 16, SHIINOTIC
-	db 18, LOMBRE
+	db "COURTNEY@", TRAINERTYPE_NORMAL
+	db  6, ARON
+	db  8, ROCKRUFF
+	db 10, DWEBBLE
+	db 12, KLEAVOR
 	db -1 ; end
 
 	; HIKER (2)
-	db "RUSSELL@", TRAINERTYPE_NORMAL
-	db  4, SHIINOTIC
-	db  6, SHIINOTIC
-	db  8, SHIINOTIC
+	db "HORACE@", TRAINERTYPE_NORMAL
+	db   8, MORELULL
+	db  10, TEDDIURSA
+	db   8, DRILBUR
 	db -1 ; end
 
 	; HIKER (3)
@@ -2386,7 +2393,7 @@ HikerGroup:
 	db -1 ; end
 
 	; HIKER (17)
-	db "JIM@", TRAINERTYPE_NORMAL
+	db "JIM2@", TRAINERTYPE_NORMAL
 	db 35, LOMBRE
 	db -1 ; end
 
@@ -2610,11 +2617,10 @@ JugglerGroup:
 
 BlackbeltGroup:
 	; BLACKBELT_T (1)
-	db "KENJI@", TRAINERTYPE_NORMAL
-	db 27, BRUXISH
-	db 30, CHERRIM
-	db 27, BRUXISH
-	db 32, LOTAD
+	db "DANIEL@", TRAINERTYPE_NORMAL
+	db  9, STUFFUL
+	db 12, CLOBBOPUS
+	db 10, MAKUHITA
 	db -1 ; end
 
 	; BLACKBELT_T (2)
@@ -2699,12 +2705,14 @@ ExecutiveMGroup:
 PsychicGroup:
 	; PSYCHIC_T (1)
 	db "NATHAN@", TRAINERTYPE_NORMAL
-	db 26, WALREIN
+	db 12, EXEGGCUTE
+	db  8, MUNNA
+	db 10, ESPURR
 	db -1 ; end
 
 	; PSYCHIC_T (2)
 	db "FRANKLIN@", TRAINERTYPE_NORMAL
-	db 37, ZEBSTRIKA
+	db 13, ORICORIO_PAU
 	db -1 ; end
 
 	; PSYCHIC_T (3)
@@ -2770,15 +2778,17 @@ PsychicGroup:
 
 PicnickerGroup:
 	; PICNICKER (1)
-	db "LIZ@", TRAINERTYPE_NORMAL
+	db "LIZZY@", TRAINERTYPE_NORMAL
+	db  7, LOTAD
+	db 11, DEERLING
 	db  9, SIZZLIPEDE
 	db -1 ; end
 
 	; PICNICKER (2)
 	db "GINA@", TRAINERTYPE_NORMAL
-	db  9, GLACEON
-	db  9, GLACEON
-	db 12, SPIRRIP
+	db  9, EEVEE
+	db 12, GLACEON
+	db  8, HOPPIP
 	db -1 ; end
 
 	; PICNICKER (3)
@@ -2926,7 +2936,9 @@ PicnickerGroup:
 CamperGroup:
 	; CAMPER (1)
 	db "ROLAND@", TRAINERTYPE_NORMAL
-	db  9, FROSMOTH
+	db  9, RALTS
+	db  7, ZIGZAGOON
+	db  8, EEVEE
 	db -1 ; end
 
 	; CAMPER (2)
@@ -3161,15 +3173,15 @@ PhotographerGroup:
 MediumGroup:
 	; MEDIUM (1)
 	db "MARTHA@", TRAINERTYPE_NORMAL
-	db 18, SOLOSIS
-	db 20, DUOSION
-	db 20, SOLOSIS
+	db 8, SPIRRIP
+	db 10, GASTLY
+	db 10, MISDREAVUS
 	db -1 ; end
 
 	; MEDIUM (2)
 	db "GRACE@", TRAINERTYPE_NORMAL
-	db 20, DUOSION
-	db 20, DUOSION
+	db 11, SANDYGAST
+	db 10, LITWICK
 	db -1 ; end
 
 	; MEDIUM (3)
@@ -3522,15 +3534,23 @@ KeybladerGroup:
 BallBrianGroup:
 	; BALL_BRIAN (1)
 	db "BRIAN@", TRAINERTYPE_NORMAL
-	db 5, LILLIPUP
-	db 4, ROCKRUFF
+	db 5, WOOLOO
+	db 4, BOUNSWEET
+	db -1 ; end
+
+	; BALL_BRIAN (2)
+	db "BRIAN@", TRAINERTYPE_NORMAL
+	db 9, GASTLY
+	db 8, KOFFING
+	db 11, GASTLY
 	db -1 ; end
 
 TreeBrianGroup:
 	; TREE_BRIAN (1)
 	db "BRIAN@", TRAINERTYPE_NORMAL
-	db 4, LILLIPUP
-	db 3, ROCKRUFF
+	db  8, CHERUBI
+	db  6, FOMANTIS
+	db 12, APPLIN
 	db -1 ; end
 
 RockBrianGroup:

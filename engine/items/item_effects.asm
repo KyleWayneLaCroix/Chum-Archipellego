@@ -117,7 +117,7 @@ ItemEffects:
 	dw RestorePPEffect     ; MAX_ELIXER
 	dw RestorePPEffect     ; ETHER
 	dw RestorePPEffect     ; MAX_ETHER
-	dw RestoreHPEffect     ; MOOMOO_MILK
+	dw RestoreHPEffect     ; HONEY
 	dw RestoreHPEffect     ; RAGECANDYBAR
 	dw EnergypowderEffect  ; ENERGYPOWDER
 	dw EnergyRootEffect    ; ENERGY_ROOT
@@ -190,8 +190,8 @@ ItemEffects:
 	dw EvoStoneEffect      ; DAWN_STONE
 	dw EvoStoneEffect      ; TART_APPLE
 	dw EvoStoneEffect      ; SWEET_APPLE
-	dw NoEffect            ; ITEM_ B1
-	dw NoEffect            ; ITEM_ B2
+	dw ChainsawEffect      ; CHAINSAW
+	dw PocketPCEffect      ; POCKET_PC
 	dw NoEffect            ; ITEM_ B3
 	dw NoEffect            ; ITEM_ B4
 	dw NoEffect            ; ITEM_ B5
@@ -2907,4 +2907,14 @@ GetMthMoveOfCurrentMon:
 	ld c, a
 	ld b, 0
 	add hl, bc
+	ret
+
+ChainsawEffect:
+	ld a, 1
+	ld [wUsingHMItem], a
+	farcall CutFunction
+	ret
+
+PocketPCEffect:
+	farcall PocketPCFunction
 	ret

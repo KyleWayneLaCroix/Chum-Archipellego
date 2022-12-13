@@ -130,16 +130,9 @@ CutFunction:
 	dw .FailCut
 
 .CheckAble:
-	ld de, ENGINE_HIVEBADGE
-	call CheckBadge
-	jr c, .nohivebadge
 	call CheckMapForSomethingToCut
 	jr c, .nothingtocut
 	ld a, $1
-	ret
-
-.nohivebadge
-	ld a, $80
 	ret
 
 .nothingtocut
@@ -204,7 +197,6 @@ Script_CutFromMenu:
 	special UpdateTimePals
 
 Script_Cut:
-	callasm GetPartyNickname
 	writetext UseCutText
 	reloadmappart
 	callasm CutDownTreeOrGrass
@@ -1765,13 +1757,11 @@ GotOffBikeText:
 	text_end
 
 TryCutOW::
-	ld d, CUT
-	call CheckPartyMove
-	jr c, .cant_cut
-
-	ld de, ENGINE_HIVEBADGE
-	call CheckEngineFlag
-	jr c, .cant_cut
+	ld a, CHAINSAW
+	ld [wCurItem], a
+	ld hl, wNumItems
+	call CheckItem
+	jr nc, .cant_cut
 
 	ld a, BANK(AskCutScript)
 	ld hl, AskCutScript
@@ -1816,3 +1806,39 @@ CantCutScript:
 CanCutText:
 	text_far _CanCutText
 	text_end
+
+
+PocketPCFunction:
+	call .LoadPocketPC
+	and $7f
+	ld [wFieldMoveSucceeded], a
+	ret
+	
+.LoadPocketPC:
+	ld a, [wPlayerState]
+	ld hl, Script_LoadPocketPC
+	ld de, Script_LoadPocketPC_Register
+	call .CheckIfRegistered
+	call QueueScript
+	ld a, TRUE
+	ret
+	
+.CheckIfRegistered:
+	ld a, [wUsingItemWithSelect]
+	and a
+	ret z
+	ld h, d
+	ld l, e
+	ret
+
+Script_LoadPocketPC:
+	reloadmappart
+	special UpdateTimePals
+	special PokemonCenterPC
+	reloadmappart
+	end
+
+Script_LoadPocketPC_Register:
+	special PokemonCenterPC
+	reloadmappart
+	end

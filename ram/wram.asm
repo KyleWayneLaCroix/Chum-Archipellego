@@ -1823,6 +1823,7 @@ wMinutesSince:: db
 wHoursSince:: db
 wDaysSince:: db
 
+wUsingHMItem:: db
 
 SECTION "WRAM 1", WRAMX
 
@@ -3058,7 +3059,8 @@ wAwakeningBeachSceneID::            db
 wGearCitySceneID::					db
 wCityGearHQSceneID::        	    db
 wCityGearHQBasementSceneID::        db
-	ds 107
+wCemetaryLabSceneID::               db
+	ds 106
 
 ; fight counts
 wJackFightCount::    db

@@ -23,6 +23,8 @@ MapScenes::
 	scene_var CITY_GEAR_HQ,					wCityGearHQSceneID
 	scene_var CITY_GEAR_HQ_BASEMENT,		wCityGearHQBasementSceneID
 
+	scene_var CEMETARY_LAB,                 wCemetaryLabSceneID
+
 	scene_var INDIGO_PLATEAU_POKECENTER_1F, wIndigoPlateauPokecenter1FSceneID
 	scene_var WILLS_ROOM,                   wWillsRoomSceneID
 	scene_var KOGAS_ROOM,                   wKogasRoomSceneID

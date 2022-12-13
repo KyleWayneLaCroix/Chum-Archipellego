@@ -34,7 +34,7 @@ WakeUpScript:
 	setflag ENGINE_POKEGEAR
 	setflag ENGINE_MAP_CARD
 	setflag ENGINE_RADIO_CARD
-	setflag ENGINE_POKEDEX
+	;setflag ENGINE_POKEDEX
 	promptbutton
 	special SetDayOfWeek
 .SetDayOfWeek:
@@ -154,7 +154,7 @@ SpirripPokeBallScript:
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	promptbutton
-	givepoke SPIRRIP, 77, HARD_STONE
+	givepoke GASTLY, 77, HARD_STONE
 	setscene SCENE_AWAKENINGLAB_PICKED_POKEMON
 	closetext
 	end
@@ -167,7 +167,11 @@ DidntChooseStarterScript:
 	end
 
 AwakeningLabHealingMachine:
-	jumptext AwakeningLabHealingMachineText
+	;jumptext AwakeningLabHealingMachineText
+	opentext
+	verbosegiveitem CHAINSAW
+	closetext
+	end
 
 LookAtStarterPokeballScript:
 	opentext
@@ -500,7 +504,7 @@ AwakeningLab_MapEvents:
 	def_warp_events
 	warp_event 25, 19, AWAKENING_BEACH, 1
 	warp_event 24, 19, AWAKENING_BEACH, 1
-	warp_event 27, 16, GEAR_CITY_POKECENTER_1F, 1
+	warp_event 27, 16, CEMETARY, 1
 
 	def_coord_events
 	coord_event 26,  6, SCENE_AWAKENINGLAB_WOKE_UP, WakeUpScript

@@ -9,13 +9,13 @@ Landmarks:
 	table_width 4, Landmarks
 	landmark  -8, -16, SpecialMapName
 	landmark 140, 100, NewBarkTownName
-	landmark 142, 105, AwakeningBeachName
-	landmark 128, 100, RouteAName
-	landmark 100, 100, GearCityName
-	landmark 100,  80, NorthernForestName
-	landmark  96,  60, Route31Name
-	landmark  84,  60, VioletCityName
-	landmark  85,  58, SproutTowerName
+	landmark  44, 124, AwakeningBeachName
+	landmark  36, 116, RouteAName
+	landmark  28, 116, GearCityName
+	landmark  28, 108, NorthernForestName
+	landmark  28, 100, RouteBName
+	landmark  36,  92, CemetaryName
+	landmark  28,  92, RouteBName
 	landmark  84,  92, Route32Name
 	landmark  76,  76, RuinsOfAlphName
 	landmark  84, 124, UnionCaveName
@@ -53,7 +53,7 @@ Landmarks:
 	landmark 132,  36, DragonsDenName
 	landmark 132,  64, Route45Name
 	landmark 112,  72, DarkCaveName
-	landmark 124,  88, Route46Name
+	landmark  36,  36, Cyberspace1Name
 	landmark 148,  68, DrNuggzMDName
 	assert_table_length KANTO_LANDMARK
 	landmark  52, 108, PalletTownName
@@ -213,4 +213,7 @@ AwakeningBeachName:  db "AWAKENING¯BEACH@"
 RouteAName:          db "Route¯A@"
 GearCityName:        db "Gear¯City@"
 NorthernForestName:  db "Northern¯Forest@"
-DrNuggzMDName:       db "Dr.¯Nuggz¯M.D.@"
+DrNuggzMDName:       db "NUGGZ@"
+RouteBName:          db "ROUTE¯B@"
+CemetaryName:		 db "Code¯Graveyard@"
+Cyberspace1Name:     db "CYBER¯SPACE@"

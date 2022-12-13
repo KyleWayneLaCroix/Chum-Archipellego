@@ -9,8 +9,6 @@ BugContestantPointers:
 	dw BugContestant_CamperBarry
 	dw BugContestant_PicnickerCindy
 	dw BugContestant_BugCatcherJosh
-	dw BugContestant_YoungsterSamuel
-	dw BugContestant_SchoolboyKipp
 	assert_table_length NUM_BUG_CONTESTANTS + 1
 
 ; contestant format:
@@ -66,15 +64,3 @@ BugContestant_BugCatcherJosh:
 	dbw SCYTHER,    326
 	dbw VIKAVOLT, 292
 	dbw CHARJABUG,    282
-
-BugContestant_YoungsterSamuel:
-	db BUG_CATCHER, DON
-	dbw BLIPBUG,     270
-	dbw HERACROSS,     282
-	dbw GRUBBIN,   251
-
-BugContestant_SchoolboyKipp:
-	db BUG_CATCHER, DON
-	dbw SIZZLIPEDE,    267
-	dbw JOLTIK,      254
-	dbw DOTTLER,     259

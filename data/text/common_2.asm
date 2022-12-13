@@ -301,9 +301,8 @@ _CantUseItemText::
 	prompt
 
 _UseCutText::
-	text_ram wStringBuffer2
-	text " used"
-	line "CUT!"
+	text "You RIP and TEAR"
+	line "some plants!"
 	prompt
 
 _CutNothingText::

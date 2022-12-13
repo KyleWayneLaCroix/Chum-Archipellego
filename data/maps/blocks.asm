@@ -71,6 +71,18 @@ GearCityWhiltenHouse_Blocks:
 OldFisherFellowHouse_Blocks:
 	INCBIN "maps/House1.blk"
 
+GearCityNorthForestGate_Blocks:
+	INCBIN "maps/GateNorthWest.blk"
+
+NorthernForestRouteBGate_Blocks:
+	INCBIN "maps/GateNorthSouth.blk"
+
+WardensCabin_Blocks:
+	INCBIN "maps/WardensCabin.blk"
+
+DangerousCave_Blocks:
+	INCBIN "maps/Zelda1Cave.blk"
+
 SECTION "Map Blocks 4", ROMX
 
 AwakeningBeach_Blocks:
@@ -111,3 +123,32 @@ CityGearHQBasement_Blocks:
 
 NorthernForest_Blocks:
 	INCBIN "maps/NorthernForest.blk"
+
+SECTION "Map Blocks 5", ROMX
+
+RouteB_Blocks:
+	INCBIN "maps/RouteB.blk"
+
+RouteBNorth_Blocks:
+	INCBIN "maps/RouteBNorth.blk"
+
+Cemetary_Blocks:
+	INCBIN "maps/Cemetary.blk"
+
+CemetaryLab_Blocks:
+	INCBIN "maps/CemetaryLab.blk"
+
+
+SECTION "Map Blocks 6", ROMX
+
+MetroidIntro_Blocks:
+	INCBIN "maps/MetroidIntro.blk"
+
+MetroidHallway_Blocks:
+	INCBIN "maps/MetroidHallway.blk"
+
+MetroidVerticalHallway_Blocks:
+	INCBIN "maps/MetroidVerticalHallway.blk"
+
+MetroidEnd_Blocks:
+	INCBIN "maps/MetroidEnd.blk"

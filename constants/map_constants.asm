@@ -79,15 +79,32 @@ ENDM
 	map_const GEAR_CITY_MART,                   6,  4 ; 10
 	map_const OLD_FISHER_FELLOW_HOUSE,          4,  4 ; 11
 	map_const GEAR_CITY_CHRIS_WHILTEN_HOUSE,    4,  4 ; 12
+	map_const GEAR_CITY_NORTH_FOREST_GATE,      8,  5 ; 13
 	endgroup
 
+	newgroup BROLOGUE_NORTH                           ; 6
+	map_const WARDENS_CABIN,                    6,  5 ; 1
+	map_const NORTHERN_FOREST_ROUTE_B_GATE,     5,  5 ; 2
+	map_const ROUTE_B,							7, 30 ; 3
+	map_const ROUTE_B_NORTH,                   10, 20 ; 4
+	map_const CEMETARY,                        14, 14 ; 5
+	map_const CEMETARY_LAB,				        9, 12 ; 6
+	map_const DANGEROUS_CAVE,                   6,  5 ; 7
+	endgroup
 
-	newgroup DUNGEONS                                 ;  6
+	newgroup METROID                                  ; 7
+	map_const METROID_INTRO,                   27,  7 ; 1
+	map_const METROID_HALLWAY,                  8,  7 ; 2
+	map_const METROID_VERTICAL_HALLWAY,         7, 17 ; 3
+	map_const METROID_END,                     19,  7 ; 4
+	endgroup
+
+	newgroup DUNGEONS                                 ;  8
 	map_const DANK_CAVE_1F,                    22,  7 ;  1
 	map_const DANK_CAVE_2F,                    16, 14 ;  2
-	map_const NORTHERN_FOREST,                 17, 28 ;  3
+	map_const NORTHERN_FOREST,                 20, 30 ;  3
 	map_const CITY_GEAR_HQ,                    12, 19 ;  4
 	map_const CITY_GEAR_HQ_BASEMENT,           17,  8 ;  5
 	endgroup
 
-DEF NUM_MAP_GROUPS EQU const_value ; 5
+DEF NUM_MAP_GROUPS EQU const_value ; 8

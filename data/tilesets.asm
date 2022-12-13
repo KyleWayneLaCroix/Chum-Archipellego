@@ -29,7 +29,7 @@ Tilesets::
 	tileset TilesetEliteFourRoom
 	tileset TilesetTraditionalHouse
 	tileset TilesetChampionsRoom
-	tileset TilesetLighthouse
+	;tileset TilesetLighthouse
 	tileset TilesetPlayersRoom
 	tileset TilesetPokeComCenter
 	tileset TilesetBattleTowerInside
@@ -43,4 +43,5 @@ Tilesets::
 	tileset TilesetDarkCave
 	tileset TilesetForest
 	tileset TilesetChumelago
+	tileset TilesetMetroid
 	assert_table_length NUM_TILESETS + 1

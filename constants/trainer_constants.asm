@@ -330,7 +330,7 @@ DEF KRIS EQU __trainer_class__
 
 	trainerclass BUG_CATCHER ; 24
 	const DON
-	const ROB
+	const JIM
 	const ED
 	const WADE1
 	const BUG_CATCHER_BENNY
@@ -351,7 +351,7 @@ DEF KRIS EQU __trainer_class__
 
 	trainerclass FISHER ; 25
 	const JUSTIN
-	const RALPH1
+	const RALPH
 	const ARNOLD
 	const KYLE
 	const HENRY
@@ -464,8 +464,8 @@ DEF KRIS EQU __trainer_class__
 	const VINCENT
 
 	trainerclass HIKER ; 2c
-	const ANTHONY1
-	const RUSSELL
+	const COURTNEY
+	const HORACE
 	const PHILLIP
 	const LEONARD
 	const ANTHONY2
@@ -480,8 +480,8 @@ DEF KRIS EQU __trainer_class__
 	const NOLAND
 	const SIDNEY
 	const KENNY
-	const JIM
-	const DANIEL
+	const JIM2
+	const DANIELC
 	const PARRY2
 	const PARRY3
 	const ANTHONY4
@@ -525,7 +525,7 @@ DEF KRIS EQU __trainer_class__
 	const IRWIN4 ; unused
 
 	trainerclass BLACKBELT_T ; 32
-	const KENJI1 ; unused
+	const DANIEL ; unused
 	const YOSHI
 	const KENJI2 ; unused
 	const LAO
@@ -556,7 +556,7 @@ DEF KRIS EQU __trainer_class__
 	const RODNEY
 
 	trainerclass PICNICKER ; 35
-	const LIZ1
+	const LIZZY
 	const GINA1
 	const BROOKE
 	const KIM
@@ -711,6 +711,7 @@ DEF KRIS EQU __trainer_class__
 
 	trainerclass BALL_BRIAN ; 46
 	const BALLBRIAN_1
+	const BALLBRIAN_2
 
 	trainerclass TREE_BRIAN ; 47
 	const TREEBRIAN_1

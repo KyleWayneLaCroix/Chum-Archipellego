@@ -53,7 +53,19 @@ INCLUDE "maps/CityGearHQBasement.asm"
 SECTION "Map Scripts 6", ROMX
 INCLUDE "maps/GearCityWhiltenHouse.asm"
 INCLUDE "maps/OldFisherFellowHouse.asm"
+INCLUDE "maps/GearCityNorthForestGate.asm"
 INCLUDE "maps/NorthernForest.asm"
+INCLUDE "maps/WardensCabin.asm"
+INCLUDE "maps/NorthernForestRouteBGate.asm"
+INCLUDE "maps/RouteB.asm"
+INCLUDE "maps/RouteBNorth.asm"
+INCLUDE "maps/DangerousCave.asm"
+INCLUDE "maps/Cemetary.asm"
+INCLUDE "maps/CemetaryLab.asm"
+INCLUDE "maps/MetroidIntro.asm"
+INCLUDE "maps/MetroidHallway.asm"
+INCLUDE "maps/MetroidVerticalHallway.asm"
+INCLUDE "maps/MetroidEnd.asm"
 
 SECTION "Map Scripts 7", ROMX
 

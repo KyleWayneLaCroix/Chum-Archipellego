@@ -9,7 +9,7 @@
 ; Marts indexes (see data/items/marts.asm)
 	const_def
 	const MART_GEARCITY
-	const MART_CHERRYGROVE_DEX
+	const MART_ROUTE_B_GATE
 	const MART_VIOLET
 	const MART_AZALEA
 	const MART_CIANWOOD

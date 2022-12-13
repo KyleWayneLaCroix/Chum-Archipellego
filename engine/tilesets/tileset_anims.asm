@@ -276,6 +276,7 @@ TilesetHoOhWordRoomAnim:
 TilesetKabutoWordRoomAnim:
 TilesetOmanyteWordRoomAnim:
 TilesetAerodactylWordRoomAnim:
+TilesetMetroidAnim:
 	dw NULL,  WaitTileAnimation
 	dw NULL,  WaitTileAnimation
 	dw NULL,  WaitTileAnimation

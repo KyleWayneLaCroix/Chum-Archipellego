@@ -104,7 +104,7 @@ ItemDescriptions:
 	dw MaxElixerDesc
 	dw EtherDesc
 	dw MaxEtherDesc
-	dw MoomooMilkDesc
+	dw HoneyDesc
 	dw RageCandyBarDesc
 	dw EnergyPowderDesc
 	dw EnergyRootDesc
@@ -177,8 +177,8 @@ ItemDescriptions:
 	dw DawnStoneDesc
 	dw TartAppleDesc
 	dw SweetAppleDesc
-	dw TeruSama12Desc
-	dw TeruSama13Desc
+	dw ChainsawDesc
+	dw PDADesc
 	dw TeruSama14Desc
 	dw TeruSama15Desc
 	dw TeruSama16Desc
@@ -543,7 +543,7 @@ SilverWingDesc:
 	db   "A strange, silver-"
 	next "colored feather.@"
 
-MoomooMilkDesc:
+HoneyDesc:
 	db   "Restores #MON"
 	next "HP by 100.@"
 
@@ -671,8 +671,8 @@ PinkBowDesc:
 	next "type moves. (HOLD)@"
 
 StickDesc:
-	db   "An ordinary stick."
-	next "Sell low.@"
+	db   "A wooden sword."
+	next "Duck # like it.@"
 
 SmokeBallDesc:
 	db   "Escape from wild"
@@ -813,11 +813,13 @@ ScopeLensDesc:
 	db   "Raises critical"
 	next "hit ratio. (HOLD)@"
 
-TeruSama12Desc:
-	db   "?@"
+ChainsawDesc:
+	db   "Cuts down pesky"
+	next "trees.@"
 
-TeruSama13Desc:
-	db   "?@"
+PDADesc:
+	db   "Access the PC@"
+	next "from your Pocket!@"
 
 MetalCoatDesc:
 	db   "Powers up steel-"

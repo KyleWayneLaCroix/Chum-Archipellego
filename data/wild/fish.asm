@@ -25,9 +25,9 @@ FishGroups:
 	assert_table_length NUM_FISHGROUPS
 
 .Shore_Old:
-	db  70 percent + 1, ALOMOMOLA,   10
+	db  70 percent + 1, FINNEON,     10
 	db  85 percent + 1, ALOMOMOLA,   10
-	db 100 percent,     CLAUNCHER,     10
+	db 100 percent,     MOLAMBINO,   10
 .Shore_Good:
 	db  35 percent,     ALOMOMOLA,   20
 	db  70 percent,     CLAUNCHER,     20
@@ -40,9 +40,9 @@ FishGroups:
 	db 100 percent,     CLAWITZER,    40
 
 .Ocean_Old:
-	db  70 percent + 1, ALOMOMOLA,   10
-	db  85 percent + 1, ALOMOMOLA,   10
-	db 100 percent,     SHELLOS,  10
+	db  70 percent + 1, BARBOACH,   10
+	db  85 percent + 1, CHINCHOU,   10
+	db 100 percent,     SKRELP,     10
 .Ocean_Good:
 	db  35 percent,     ALOMOMOLA,   20
 	db  70 percent,     SHELLOS,  20
@@ -55,9 +55,9 @@ FishGroups:
 	db 100 percent,     LANTURN,    40
 
 .Lake_Old:
-	db  70 percent + 1, ALOMOMOLA,   10
-	db  85 percent + 1, ALOMOMOLA,   10
-	db 100 percent,     FINNEON,    10
+	db  70 percent + 1, TYMPOLE,   10
+	db  85 percent + 1, FINNEON,   10
+	db 100 percent,     TIRTOUGA,    10
 .Lake_Good:
 	db  35 percent,     ALOMOMOLA,   20
 	db  70 percent,     FINNEON,    20
@@ -70,9 +70,9 @@ FishGroups:
 	db 100 percent,     LUMINEON,    40
 
 .Pond_Old:
-	db  70 percent + 1, ALOMOMOLA,   10
-	db  85 percent + 1, ALOMOMOLA,   10
-	db 100 percent,     TYMPOLE,    10
+	db  70 percent + 1, TYMPOLE,   10
+	db  85 percent + 1, LOTAD,   10
+	db 100 percent,     FINNEON,    10
 .Pond_Good:
 	db  35 percent,     ALOMOMOLA,   20
 	db  70 percent,     TYMPOLE,    20

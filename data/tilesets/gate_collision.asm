@@ -73,3 +73,6 @@
 	tilecoll WARP_CARPET_LEFT, WARP_CARPET_LEFT, FLOOR, FLOOR ; 48
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 49
 	tilecoll PC, WALL, FLOOR, FLOOR ; 4a
+	tilecoll FLOOR, WALL, FLOOR, WALL ; 4b
+	tilecoll FLOOR, FLOOR, WALL, WALL ; 4c
+	tilecoll FLOOR, FLOOR, FLOOR, WALL ; 4d

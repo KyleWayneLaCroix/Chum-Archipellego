@@ -2,7 +2,7 @@ Marts:
 ; entries correspond to MART_* constants (see constants/mart_constants.asm)
 	table_width 2, Marts
 	dw MartGearCity
-	dw MartCherrygroveDex
+	dw MartRouteBGate
 	dw MartViolet
 	dw MartAzalea
 	dw MartCianwood
@@ -35,7 +35,8 @@ Marts:
 	assert_table_length NUM_MARTS
 
 MartGearCity:
-	db 8 ; # items
+	db 10 ; # items
+	db LURE_BALL
 	db POKE_BALL
 	db POTION
 	db ANTIDOTE
@@ -44,15 +45,18 @@ MartGearCity:
 	db BURN_HEAL
 	db ESCAPE_ROPE
 	db REPEL
+	db ETHER
 	db -1 ; end
 
-MartCherrygroveDex:
-	db 5 ; # items
+MartRouteBGate:
+	db 7 ; # items
 	db POKE_BALL
-	db POTION
-	db ANTIDOTE
-	db PARLYZ_HEAL
-	db AWAKENING
+	db LURE_BALL
+	db REPEL
+	db ENERGYPOWDER
+	db ENERGY_ROOT
+	db HEAL_POWDER
+	db REVIVAL_HERB
 	db -1 ; end
 
 MartViolet:

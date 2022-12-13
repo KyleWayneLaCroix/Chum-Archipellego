@@ -142,3 +142,21 @@ ENDM
 	map_attributes NorthernForest, NORTHERN_FOREST, $00, 0
 	map_attributes CityGearHQ, CITY_GEAR_HQ, $00, 0
 	map_attributes CityGearHQBasement, CITY_GEAR_HQ_BASEMENT, $00, 0
+	map_attributes GearCityNorthForestGate, GEAR_CITY_NORTH_FOREST_GATE, $00, 0
+
+	map_attributes WardensCabin, WARDENS_CABIN, $00, 0
+	map_attributes NorthernForestRouteBGate, NORTHERN_FOREST_ROUTE_B_GATE, $00, 0
+	map_attributes RouteB, ROUTE_B, $05, NORTH | EAST
+	connection north, RouteBNorth, ROUTE_B_NORTH, -1
+	connection east, Cemetary, CEMETARY,0
+	map_attributes RouteBNorth, ROUTE_B_NORTH, $05, SOUTH
+	connection south, RouteB, ROUTE_B, 1
+	map_attributes Cemetary, CEMETARY, $82, WEST
+	connection west, RouteB, ROUTE_B, 0
+	map_attributes CemetaryLab, CEMETARY_LAB, $00, 0
+	map_attributes DangerousCave, DANGEROUS_CAVE, $00, 0
+
+	map_attributes MetroidIntro, METROID_INTRO, $00, 0
+	map_attributes MetroidHallway, METROID_HALLWAY, $00, 0
+	map_attributes MetroidVerticalHallway, METROID_VERTICAL_HALLWAY, $00, 0
+	map_attributes MetroidEnd, METROID_END, $00, 0
