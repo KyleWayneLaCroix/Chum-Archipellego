@@ -98,7 +98,7 @@ PorygonPokeBallScript:
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	promptbutton
-	givepoke PORYGON, 77, CHARCOAL
+	givepoke PORYGON, 8, BERRY
 	setscene SCENE_AWAKENINGLAB_PICKED_POKEMON
 	closetext
 	end
@@ -126,7 +126,7 @@ BurgelaPokeBallScript:
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	promptbutton
-	givepoke BURGELA, 77, METAL_COAT
+	givepoke BURGELA, 8, BERRY
 	setscene SCENE_AWAKENINGLAB_PICKED_POKEMON
 	closetext
 	end
@@ -154,7 +154,7 @@ SpirripPokeBallScript:
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	promptbutton
-	givepoke GASTLY, 77, HARD_STONE
+	givepoke SPIRRIP, 8, BERRY
 	setscene SCENE_AWAKENINGLAB_PICKED_POKEMON
 	closetext
 	end
