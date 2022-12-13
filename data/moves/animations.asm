@@ -4,7 +4,7 @@ BattleAnimations::
 	dw BattleAnim_0
 	dw BattleAnim_Glitch
 	dw BattleAnim_KarateChop
-	dw BattleAnim_Doubleslap
+	dw BattleAnim_Leafage
 	dw BattleAnim_BulletPunch
 	dw BattleAnim_DarkPulse
 	dw BattleAnim_PayDay
@@ -1174,6 +1174,7 @@ BattleAnim_LeechSeed:
 	anim_wait 128
 	anim_ret
 
+BattleAnim_Leafage:
 BattleAnim_MagicalLeaf:
 BattleAnim_RazorLeaf:
 	anim_1gfx ANIM_GFX_PLANT

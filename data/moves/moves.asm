@@ -16,7 +16,7 @@ Moves:
 	table_width MOVE_LENGTH, Moves
 	move GLITCH_M,     EFFECT_PRESENT,             1, GLITCH,        SPECIAL,  100, 35,   0
 	move KARATE_CHOP,  EFFECT_NORMAL_HIT,         50, FIGHTING,      PHYSICAL, 100, 25,   0
-	move DOUBLESLAP,   EFFECT_MULTI_HIT,          15, NORMAL,        PHYSICAL,  85, 10,   0
+	move LEAFAGE,      EFFECT_NORMAL_HIT,         40, GRASS,         PHYSICAL, 100, 40,   0
 	move BULLET_PUNCH, EFFECT_PRIORITY_HIT,       40, STEEL,         PHYSICAL, 100, 30,   0
 	move DARK_PULSE,   EFFECT_FLINCH_HIT,         80, DARK,          SPECIAL,  100, 15,  20
 	move PAY_DAY,      EFFECT_PAY_DAY,            40, NORMAL,        PHYSICAL, 100, 20,   0

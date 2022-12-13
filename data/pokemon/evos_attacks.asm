@@ -851,8 +851,8 @@ Lycanroc_midnightEvosAttacks:
 BarboachEvosAttacks:
 	db EVOLVE_LEVEL, 30, WHISCASH
 	db 0 ; no more evolutions
-	db 6, MUD_SLAP
-	db 9, WATER_GUN
+	db 1, MUD_SLAP
+	db 6, WATER_GUN
 	db 13, MUD_BOMB
 	db 18, AMNESIA
 	db 19, WATER_PULSE
@@ -2703,9 +2703,10 @@ BurgelaEvosAttacks:
 	db EVOLVE_LEVEL, 20, TANGELA
 	db 0 ; no more evolutions
 	db 1, WRAP
+	db 2, LEECH_LIFE
 	db 4, TACKLE
-	db 9, SLEEP_POWDER
-	db 10, LEECH_LIFE
+	db 6, LEAFAGE
+	db 10, SLEEP_POWDER
 	db 12, CONFUSION
 	db 16, RAZOR_LEAF
 	db 17, POISON_GAS
