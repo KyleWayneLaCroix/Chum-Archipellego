@@ -155,7 +155,12 @@ NorthForestGraveScript:
 	special FadeOutMusic
 	opentext
 	writetext GlitchGraveForestText
+	playsound SFX_ZAP_CANNON
+	cry GASTLY
+	waitsfx
+	waitbutton
 	closetext
+	playmusic MUSIC_RUINS_OF_ALPH_RADIO
 	setevent READ_NORTHFOREST_GRAVE
 	; todo: the rest of this
 	end
@@ -165,8 +170,8 @@ GlitchGraveForestText:
 
 	para "3 9 7 1 5"
 
-	cont "3 9 7 1 5"
-	line "3 9 7 1 5"
+	cont "        3 9 7 1 5"
+	line "    3 9 7 1 5"
 
 	para "THIS IS THE WATER"
 

@@ -61,6 +61,7 @@ CityGearBasementChamberPuzzle:
 	playsound SFX_STRENGTH
 	earthquake 80
 	waitsfx
+	writetext CityGearHQBasementFinalGateOpenText
 	pause 20
 	reloadmappart
 	closetext
@@ -241,14 +242,18 @@ WholeClayBeatenText:
 	done
 
 WholeClayAfterBattleText:
-	text "NO"
-	line "NO"
+	text "YOU CAN'T QUIT."
+	line "I WAS FIRING YOU"
 
 	para "YOU CAN'T"
 	line "NO"
-	line "WHATISHAPPENING"
+	line "YOU CAN'T DO THIS"
 
-	para "YOU CAN'T DO THIS TO ME. NO"
+	para "MY DAD OWNS THIS."
+
+	para "YOU'RE INCOMPETENT"
+
+	para "NOOOOOOOOOOOOO"
 
 	done
 
@@ -256,6 +261,15 @@ CityGearBasementGateText:
 	text "A strange, ether-"
 	line "-eal wall blocks"
 	cont "the way ahead."
+	done
+
+CityGearHQBasementFinalGateOpenText:
+	text "It sounds like"
+	line "stone is sliding"
+
+	para "nearby as you"
+	line "feel a presence"
+	cont "slip past you."
 	done
 
 CityGearHQBasement_MapEvents:

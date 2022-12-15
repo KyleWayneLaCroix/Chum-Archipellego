@@ -224,8 +224,8 @@ RouteB_MapEvents:
 	
 	def_warp_events
 ;	warp_event x, y, map, warp_id
-	warp_event  5, 53, NORTHERN_FOREST_ROUTE_B_GATE, 1
-	warp_event  6, 53, NORTHERN_FOREST_ROUTE_B_GATE, 2
+	warp_event  5, 53, NORTHERN_FOREST_ROUTE_B_GATE, 3
+	warp_event  6, 53, NORTHERN_FOREST_ROUTE_B_GATE, 4
 	warp_event 10, 15, DANGEROUS_CAVE, 1
 
 	def_coord_events

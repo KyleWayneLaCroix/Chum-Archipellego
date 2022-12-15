@@ -14,6 +14,7 @@ DangerousToGoAloneScript:
 	opentext
 	writetext OldManZelda1Sword
 	verbosegiveitem STICK
+	setevent EVENT_TOOK_THAT
 	closetext
 .end:
 	end

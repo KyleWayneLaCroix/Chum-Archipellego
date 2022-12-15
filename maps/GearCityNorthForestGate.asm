@@ -78,7 +78,7 @@ GearCityGateTMLadyGotTMText:
 	cont "GLEAM, but there"
 	cont "is a character"
 	cont "limit."
-	end
+	done
 
 GearCityGateFrosmothText:
 	text "FROSMOTH: Frross!"

@@ -286,7 +286,8 @@ ITGuyMikeBAfterText:
 	para "Kid, I'm too busy"
 	line "stopping crimi-"
 	cont "-nals, fixing PCs"
-	cont "and being a prick"
+	
+	para "and being a prick"
 	cont "to worry about a"
 	cont "pair of shoes."
 	done
@@ -307,8 +308,9 @@ WorkerQAfterText:
 
 	para "If there were any"
 	line "left to take, I"
-	cont "would already be"
-	cont "wearin' 'em."
+
+	para "would already be"
+	line "wearin' 'em."
 	done
 
 CEOLongoSeenText:
@@ -317,8 +319,9 @@ CEOLongoSeenText:
 
 	para "Oh, excuse me, I"
 	line "was busy enjoying"
-	cont "the greatest"
-	cont "musician of all"
+	
+	para "the greatest"
+	line "musician of all"
 	cont "time."
 
 	para "Wait, who are you"
@@ -368,8 +371,9 @@ WeirdoNickBeatenText:
 WeirdoNickAfterText:
 	text "I would have won"
 	line "if they didn't"
-	cont "promote AIMEE"
-	cont "instead of me."
+	
+	para "promote AIMEE"
+	line "instead of me."
 	done
 
 PhotographerJulianSeenText:
@@ -395,8 +399,9 @@ PhotographerJulianAfterText:
 
 	para "Maybe the graphic"
 	line "designers have a"
-	cont "pair from when"
-	cont "they were editing"
+	
+	para "pair from when"
+	line "they were editing"
 	cont "the pics."
 	done
 
@@ -433,8 +438,9 @@ SupervisorJoshAfterText:
 
 	para "If there's any of"
 	line "them left, it'll"
-	cont "be in the photog-"
-	cont "-raphy room from"
+	
+	para "be in the photog-"
+	line "-raphy room from"
 	cont "the last shoot."
 	done
 
@@ -452,23 +458,28 @@ CityGearHQMissDDText:
 
 	para "Well, I'm afraid"
 	line "I've been out"
-	cont "buying some"
-	cont "PORNOGRAPHY for"
-	cont "a gift basket,"
-	cont "so I'm not sure"
-	cont "what's going on"
-	cont "today."
+	
+	para "buying some"
+	line "PORNOGRAPHY for"
+	
+	para "a gift basket,"
+	line "so I'm not sure"
+
+	para "what's going on"
+	line "today."
 
 	para "You may want to"
 	line "go check in the"
-	cont "product setup"
-	cont "room. They'll"
+	
+	para "product setup"
+	line "room. They'll"
 	cont "be able to help."
 
 	para "Head out of the"
 	line "warehouse area,"
-	cont "go down the hall"
-	cont "and in the room"
+	
+	para "go down the hall"
+	line "and in the room"
 	cont "with the blue rug"
 
 	para "They'll be able to"
@@ -513,15 +524,18 @@ WhiteGirlAimeeAfterText:
 WhiteGirlTaylorSeenText:
 	text "I don't have time"
 	line "to deal with some"
-	cont "guy off the street"
-	cont "right now."
+	
+	para "guy off the street"
+	line "right now."
 
 	para "We got a big drop"
 	line "tomorrow, and Nick"
-	cont "is throwing a fit"
-	cont "about Aimee get-"
-	cont "-ting the first"
-	cont "cupcake at lunch"
+	
+	para "is throwing a fit"
+	line "about Aimee get-"
+	
+	para "-ting the first"
+	line "cupcake at lunch"
 	cont "today."
 
 	para "You want some"
@@ -532,8 +546,9 @@ WhiteGirlTaylorSeenText:
 
 	para "Fuck it, let's"
 	line "fight. I'm not"
-	cont "allowed to beat"
-	cont "up coworkers."
+	
+	para "allowed to beat"
+	line "up coworkers."
 	done
 
 WhiteGirlTaylorBeatenText:
@@ -544,8 +559,9 @@ WhiteGirlTaylorBeatenText:
 WhiteGirlTaylorPostBattleText:
 	text "You're pretty"
 	line "good compared to"
-	cont "some of the other"
-	cont "people here."
+
+	para "some of the other"
+	line "people here."
 
 	para "Look if you"
 	line "really need some"
@@ -566,8 +582,9 @@ WhiteGirlTaylorPostBattleText:
 WhiteGirlTaylorAfterText:
 	text "That key will let"
 	line "you into the bas-"
-	cont "ment which has"
-	cont "the last pair of"
+	
+	para "ment which has"
+	line "the last pair of"
 	cont "FOAMs in town."
 
 	para "Be careful of"
@@ -684,7 +701,7 @@ CityGearHQComputer2Text:
 
 CityGearHQLaptopText:
 	text "This laptop is"
-	cont "from 2002."
+	line "from 2002."
 	done
 
 CityGearHQBookshelfText:
@@ -772,7 +789,7 @@ CityGearHQ_MapEvents:
 	object_event 19,  2, SPRITE_SURGE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 5, TrainerSupervisorJosh, -1
 	object_event 14, 15, SPRITE_GENTLEMAN, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 0, TrainerCEOLongo, -1
 	object_event  7,  4, SPRITE_BILL, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 5, TrainerWorkerQ, -1
-	object_event 20, 35, SPRITE_LASS, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 5, TrainerWhiteGirlTaylor, -1
+	object_event 20, 35, SPRITE_LASS, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 0, TrainerWhiteGirlTaylor, -1
 	object_event 21, 27, SPRITE_SUPER_NERD, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 5, TrainerWeirdoNick, -1
 	object_event 21, 25, SPRITE_BEAUTY, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 5, TrainerWhiteGirlAimee, -1
 	object_event 11,  8, SPRITE_GRANNY, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, CityGearHQMissDDScript, -1
