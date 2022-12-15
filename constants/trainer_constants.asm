@@ -708,6 +708,7 @@ DEF KRIS EQU __trainer_class__
 
 	trainerclass KEYBLADER ; 45
 	const SORA
+	const OAK
 
 	trainerclass BALL_BRIAN ; 46
 	const BALLBRIAN_1

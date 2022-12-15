@@ -108,6 +108,11 @@
 	const SPRITE_LINK ; 68
 	const SPRITE_BIG_CLAY ; 69
 	const SPRITE_MUSHROOM ; 70
+	const SPRITE_ZOOMER ; 71
+	const SPRITE_SKREE_RIPPER ; 72
+	const SPRITE_MORPH_BALL ; 73
+	const SPRITE_ENERGY_TANK ; 74
+	const SPRITE_MISSILES ; 75
 DEF NUM_OVERWORLD_SPRITES EQU const_value - 1
 
 ; SpriteMons indexes (see data/sprites/sprite_mons.asm)

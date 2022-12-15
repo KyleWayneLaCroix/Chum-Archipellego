@@ -211,9 +211,9 @@ WillGroup:
 PKMNTrainerGroup:
 	; CAL (1)
 	db "CAL@", TRAINERTYPE_NORMAL
-	db 10, SPIRRIP
-	db 10, LITWICK
-	db 10, HONEDGE
+	db 1, SPIRRIP
+	db 1, LITWICK
+	db 1, HONEDGE
 	db -1 ; end
 
 	; CAL (2)
@@ -1250,8 +1250,13 @@ WeirdoGroup:
 
 GruntMGroup:
 	; GRUNTM (1)
-	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 14, TSAREENA
+	db "MEW@", TRAINERTYPE_NORMAL
+	db 1, DITTO
+	db 1, DITTO
+	db 1, DITTO
+	db 1, DITTO
+	db 1, DITTO
+	db 1, DITTO
 	db -1 ; end
 
 	; GRUNTM (2)
@@ -1469,8 +1474,10 @@ GentlemanGroup:
 
 SkierGroup:
 	; SKIER (1)
-	db "ROXANNE@", TRAINERTYPE_NORMAL
-	db 28, PURRLOIN
+	db "LT. SURGE@", TRAINERTYPE_NORMAL
+	db 11, GRENMAR
+	db  1, MEGA_GENGAR
+	db 10, UNOWN
 	db -1 ; end
 
 	; SKIER (2)
@@ -2269,8 +2276,10 @@ Rival2Group:
 
 GuitaristGroup:
 	; GUITARIST (1)
-	db "CLYDE@", TRAINERTYPE_NORMAL
-	db 34, LIEPARD
+	db "MEWTWO@", TRAINERTYPE_NICKNAME
+	db 13, TYKER, "CHARMANDER@"
+	db 8, PORYGON, "AGUMON@"
+	db 11, UNOWN, "MISTY@"
 	db -1 ; end
 
 	; GUITARIST (2)
@@ -3479,9 +3488,9 @@ OfficerGroup:
 
 GruntFGroup:
 	; GRUNTF (1)
-	db "GRUNT@", TRAINERTYPE_NORMAL
-	db  9, KIRLIA
-	db 11, GRUBBIN
+	db "GRUNT@", TRAINERTYPE_NICKNAME
+	db  9, DEWPIDER, "EMOLGA@"
+	db 11, EMOLGA, "VIKAVOLT@"
 	db -1 ; end
 
 	; GRUNTF (2)
@@ -3531,6 +3540,13 @@ KeybladerGroup:
 	db 2, ROCKRUFF, "GOOFY@"
 	db -1 ; end
 
+	; KEYBLADER (2)
+	db "OAK@", TRAINERTYPE_NICKNAME
+	db 8, ORICORIO_BAILE, "BULBASAUR@"
+	db 8, ORICORIO_PAU, "STUFFUL@"
+	db 3, STUNKY, "YANMA@"
+	db -1 ; end
+
 BallBrianGroup:
 	; BALL_BRIAN (1)
 	db "BRIAN@", TRAINERTYPE_NORMAL
@@ -3563,8 +3579,9 @@ RockBrianGroup:
 MadDogGroup:
 	; MAD_DOG_BRIAN (1)
 	db "BRIAN@", TRAINERTYPE_NORMAL
-	db 4, LILLIPUP
-	db 3, ROCKRUFF
+	db  8, LILLIPUP
+	db  7, ROCKRUFF
+	db 10, YAMPER
 	db -1 ; end
 
 GhostTGroup:

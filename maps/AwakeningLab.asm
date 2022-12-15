@@ -169,7 +169,17 @@ DidntChooseStarterScript:
 AwakeningLabHealingMachine:
 	;jumptext AwakeningLabHealingMachineText
 	opentext
+	setflag ENGINE_UNLOCKED_UNOWNS_A_TO_K
+	setflag ENGINE_UNLOCKED_UNOWNS_L_TO_R
+	setflag ENGINE_UNLOCKED_UNOWNS_S_TO_W
+	setflag ENGINE_UNLOCKED_UNOWNS_X_TO_Z
 	verbosegiveitem CHAINSAW
+	verbosegiveitem PDA
+	givepoke UNOWN, 50
+	givepoke UNOWN, 50
+	givepoke UNOWN, 50
+	givepoke UNOWN, 50
+	givepoke UNOWN, 50
 	closetext
 	end
 
@@ -504,7 +514,7 @@ AwakeningLab_MapEvents:
 	def_warp_events
 	warp_event 25, 19, AWAKENING_BEACH, 1
 	warp_event 24, 19, AWAKENING_BEACH, 1
-	warp_event 27, 16, CEMETARY, 1
+	warp_event 27, 16, METROID_INTRO, 1
 
 	def_coord_events
 	coord_event 26,  6, SCENE_AWAKENINGLAB_WOKE_UP, WakeUpScript
