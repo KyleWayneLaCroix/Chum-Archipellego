@@ -2684,7 +2684,7 @@ BlackbeltGroup:
 ExecutiveMGroup:
 	; EXECUTIVEM (1)
 	db "LONGO@", TRAINERTYPE_NORMAL
-	db 8, FARFETCHD
+	db 6, FARFETCHD
 	db 3, BLIPBUG
 	db 5, HOUNDOUR
 	db -1 ; end
@@ -2796,7 +2796,7 @@ PicnickerGroup:
 	; PICNICKER (2)
 	db "GINA@", TRAINERTYPE_NORMAL
 	db  9, EEVEE
-	db 12, GLACEON
+	db 12, SNOM
 	db  8, HOPPIP
 	db -1 ; end
 

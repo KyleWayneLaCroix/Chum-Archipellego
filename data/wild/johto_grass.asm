@@ -96,7 +96,7 @@ JohtoGrassWildMons:
     end_grass_wildmons
 
     def_grass_wildmons CITY_GEAR_HQ_BASEMENT
-    db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
+    db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
     ; morn
     db 8, GASTLY
     db 7, GASTLY
@@ -127,34 +127,34 @@ JohtoGrassWildMons:
     end_grass_wildmons
 
     def_grass_wildmons NORTHERN_FOREST
-    db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
+    db 3 percent, 3 percent, 3 percent ; encounter rates: morn/day/nite
     ; morn
     db 6, DEERLING
     db 7, SHROOMISH
     db 8, LOTAD
     db 9, PIKIPEK
     db 7, MORELULL
-    db 10, FARFETCHD
     db 8, FARFETCHD
-    db 10, PONYTA
+    db 8, FARFETCHD
+    db 8, PONYTA
     ; day
     db 6, LOTAD
     db 7, SHROOMISH
     db 8, STANTLER
     db 9, DEERLING
     db 7, PIKIPEK
-    db 10, FARFETCHD
     db 8, FARFETCHD
-    db 10, PONYTA
+    db 8, FARFETCHD
+    db 8, PONYTA
     ; nite
     db 6, SHROOMISH
     db 7, MORELULL
     db 8, STANTLER
     db 9, ZIGZAGOON
     db 7, BLIPBUG
-    db 10, BLIPBUG
+    db 8, BLIPBUG
     db 8, DEERLING
-    db 10, PONYTA
+    db 8, PONYTA
     end_grass_wildmons
 
     def_grass_wildmons ROUTE_B
@@ -251,7 +251,7 @@ JohtoGrassWildMons:
     end_grass_wildmons
 
     def_grass_wildmons METROID_INTRO
-    db 3 percent, 3 percent, 3 percent ; encounter rates: morn/day/nite
+    db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
     ; morn
     db 8, UNOWN
     db 8, UNOWN
@@ -282,7 +282,7 @@ JohtoGrassWildMons:
     end_grass_wildmons
 
     def_grass_wildmons METROID_HALLWAY
-    db 3 percent, 3 percent, 3 percent ; encounter rates: morn/day/nite
+    db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
     ; morn
     db 8, UNOWN
     db 8, UNOWN
@@ -313,7 +313,7 @@ JohtoGrassWildMons:
     end_grass_wildmons
 
     def_grass_wildmons METROID_VERTICAL_HALLWAY
-    db 3 percent, 3 percent, 3 percent ; encounter rates: morn/day/nite
+    db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
     ; morn
     db 8, UNOWN
     db 8, UNOWN

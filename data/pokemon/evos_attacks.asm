@@ -3349,11 +3349,10 @@ PorygonEvosAttacks:
 	db EVOLVE_ITEM, 20, PORYGON2
 	db 0 ; no more evolutions
 	db 1, CONVERSION
-	db 1, HARDEN
 	db 1, CONVERSION2
-	db 7, CONFUSION
+	db 9, CONFUSION
 	db 12, AGILITY
-	db 14, THUNDERSHOCK
+	db 6, THUNDERSHOCK
 	db 16, SHOCK_WAVE
 	db 18, PSYBEAM
 	db 21, RECOVER

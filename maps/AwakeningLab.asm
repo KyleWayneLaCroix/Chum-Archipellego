@@ -191,10 +191,10 @@ LookAtStarterPokeballScript:
 	end
 
 AwakeningLabPokeballs:
-	itemball POKE_BALL, 5
+	itemball POKE_BALL, 20
 
 AwakeningLabPotions:
-	itemball POTION, 3
+	itemball POTION, 7
 
 TestTrainer:
  trainer RIVAL1, RIVAL1_1_SPIRRIP, -1, TestTrainerSeen, TestTrainerBeaten, 0, .Script
