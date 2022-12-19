@@ -61,6 +61,8 @@ LancesRoom_Blocks:
 HallOfFame_Blocks:
 	INCBIN "maps/HallOfFame.blk"
 
+RouteAPokecenter1F_Blocks:
+UnivercityPokecenter1F_Blocks:
 GearCityPokecenter1F_Blocks:
 	INCBIN "maps/Pokecenter1F.blk"
 
@@ -108,9 +110,6 @@ DrNuggzMDInterior_Blocks:
 
 RouteA_Blocks:
 	INCBIN "maps/RouteA.blk"
-
-RouteAPokecenter1F_Blocks:
-	INCBIN "maps/Pokecenter1F.blk"
 
 GearCity_Blocks:
 	INCBIN "maps/GearCity.blk"

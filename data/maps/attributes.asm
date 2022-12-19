@@ -163,3 +163,4 @@ ENDM
 	map_attributes MetroidCyberspaceExit, METROID_CYBERSPACE_EXIT, $00, 0
 
 	map_attributes Univercity, UNIVERCITY, $0A, 0
+	map_attributes UnivercityPokecenter1F, UNIVERCITY_POKECENTER_1F, $00, 0

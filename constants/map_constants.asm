@@ -102,6 +102,7 @@ ENDM
 
 	newgroup PAL_ATOLL                                ;  8
 	map_const UNIVERCITY,                      20, 18 ;  1
+	map_const UNIVERCITY_POKECENTER_1F,         5,  4 ;  2
 	endgroup
 
 	newgroup DUNGEONS                                 ;  9
