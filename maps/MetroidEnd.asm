@@ -127,6 +127,8 @@ MetroidEnd_MapEvents:
 	def_warp_events
 ;	warp_event x, y, map, warp_id
 	warp_event 0, 11, METROID_VERTICAL_HALLWAY, 2
+	warp_event 30, 8, METROID_CYBERSPACE_EXIT, 1
+	warp_event 31,  8, METROID_CYBERSPACE_EXIT, 1
 
 	def_coord_events
 ;	coord_event x, y, scene_id, script

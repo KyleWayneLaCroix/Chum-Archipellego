@@ -97,9 +97,14 @@ ENDM
 	map_const METROID_HALLWAY,                  8,  7 ; 2
 	map_const METROID_VERTICAL_HALLWAY,         7, 17 ; 3
 	map_const METROID_END,                     19,  7 ; 4
+	map_const METROID_CYBERSPACE_EXIT,          5,  5 ; 5
 	endgroup
 
-	newgroup DUNGEONS                                 ;  8
+	newgroup PAL_ATOLL                                ;  8
+	map_const UNIVERCITY,                      20, 18 ;  1
+	endgroup
+
+	newgroup DUNGEONS                                 ;  9
 	map_const DANK_CAVE_1F,                    22,  7 ;  1
 	map_const DANK_CAVE_2F,                    16, 14 ;  2
 	map_const NORTHERN_FOREST,                 20, 30 ;  3

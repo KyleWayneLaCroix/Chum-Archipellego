@@ -10,7 +10,7 @@
 	const LANDMARK_ROUTE_B           ; 05
 	const LANDMARK_CEMETARY          ; 06
 	const LANDMARK_ROUTE_B_N         ; 07
-	const LANDMARK_ROUTE_32          ; 08
+	const LANDMARK_UNIVERCITY        ; 08
 	const LANDMARK_RUINS_OF_ALPH     ; 09
 	const LANDMARK_UNION_CAVE        ; 0a
 	const LANDMARK_ROUTE_33          ; 0b

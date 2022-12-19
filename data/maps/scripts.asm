@@ -66,6 +66,8 @@ INCLUDE "maps/MetroidIntro.asm"
 INCLUDE "maps/MetroidHallway.asm"
 INCLUDE "maps/MetroidVerticalHallway.asm"
 INCLUDE "maps/MetroidEnd.asm"
+INCLUDE "maps/MetroidCyberspaceExit.asm"
+INCLUDE "maps/Univercity.asm"
 
 SECTION "Map Scripts 7", ROMX
 

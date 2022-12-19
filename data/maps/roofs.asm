@@ -19,7 +19,8 @@ MapGroupRoofs:
 	db ROOF_NEW_BARK  ;  5 (Brologue)
 	db ROOF_NEW_BARK  ;  6 (Brologue North)
 	db -1             ;  7 (Metroid)
-	db -1             ;  8 (Dungeons)
+	db -1             ;  8 (Pal Atoll)
+	db -1             ;  9 (Dungeons)
 	assert_table_length NUM_MAP_GROUPS + 1
 
 Roofs:

@@ -25,6 +25,8 @@ MapScenes::
 
 	scene_var CEMETARY_LAB,                 wCemetaryLabSceneID
 
+	scene_var METROID_CYBERSPACE_EXIT,      wMetroidCyberspaceExitSceneID
+
 	scene_var INDIGO_PLATEAU_POKECENTER_1F, wIndigoPlateauPokecenter1FSceneID
 	scene_var WILLS_ROOM,                   wWillsRoomSceneID
 	scene_var KOGAS_ROOM,                   wKogasRoomSceneID

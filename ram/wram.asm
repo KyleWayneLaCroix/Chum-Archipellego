@@ -3060,7 +3060,8 @@ wGearCitySceneID::					db
 wCityGearHQSceneID::        	    db
 wCityGearHQBasementSceneID::        db
 wCemetaryLabSceneID::               db
-	ds 106
+wMetroidCyberspaceExitSceneID::     db
+	ds 105
 
 ; fight counts
 wJackFightCount::    db

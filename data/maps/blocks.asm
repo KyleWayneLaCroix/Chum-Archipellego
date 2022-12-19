@@ -83,6 +83,9 @@ WardensCabin_Blocks:
 DangerousCave_Blocks:
 	INCBIN "maps/Zelda1Cave.blk"
 
+MetroidCyberspaceExit_Blocks:
+	INCBIN "maps/CyberspaceExit.blk"
+
 SECTION "Map Blocks 4", ROMX
 
 AwakeningBeach_Blocks:
@@ -137,6 +140,9 @@ Cemetary_Blocks:
 
 CemetaryLab_Blocks:
 	INCBIN "maps/CemetaryLab.blk"
+
+Univercity_Blocks:
+	INCBIN "maps/Univercity.blk"
 
 
 SECTION "Map Blocks 6", ROMX

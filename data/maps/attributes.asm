@@ -160,3 +160,6 @@ ENDM
 	map_attributes MetroidHallway, METROID_HALLWAY, $00, 0
 	map_attributes MetroidVerticalHallway, METROID_VERTICAL_HALLWAY, $00, 0
 	map_attributes MetroidEnd, METROID_END, $00, 0
+	map_attributes MetroidCyberspaceExit, METROID_CYBERSPACE_EXIT, $00, 0
+
+	map_attributes Univercity, UNIVERCITY, $0A, 0

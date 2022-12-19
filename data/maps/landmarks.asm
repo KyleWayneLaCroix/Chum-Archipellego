@@ -16,7 +16,7 @@ Landmarks:
 	landmark  28, 100, RouteBName
 	landmark  36,  92, CemetaryName
 	landmark  28,  92, RouteBName
-	landmark  84,  92, Route32Name
+	landmark 116,  52, UnivercityName
 	landmark  76,  76, RuinsOfAlphName
 	landmark  84, 124, UnionCaveName
 	landmark  82, 124, Route33Name
@@ -217,3 +217,4 @@ DrNuggzMDName:       db "NUGGZ@"
 RouteBName:          db "ROUTE¯B@"
 CemetaryName:		 db "Code¯Graveyard@"
 Cyberspace1Name:     db "CYBER¯SPACE@"
+UnivercityName:      db "UNIVERCITY@"

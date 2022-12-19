@@ -24,7 +24,8 @@ MapGroupPointers::
 	dw MapGroup_Brologue      ;  5
 	dw MapGroup_BrologueNorth ;  6
 	dw MapGroup_Metroid       ;  7
-	dw MapGroup_Dungeons      ;  8
+	dw MapGroup_PalAtoll      ;  8
+	dw MapGroup_Dungeons      ;  9
 	assert_table_length NUM_MAP_GROUPS
 
 MapGroup_CableClub:
@@ -96,7 +97,13 @@ MapGroup_Metroid:
 	map MetroidHallway,  TILESET_METROID, CAVE, LANDMARK_CYBERSPACE1, MUSIC_NONE, FALSE, PALETTE_NITE, FISHGROUP_OCEAN
 	map MetroidVerticalHallway, TILESET_METROID, CAVE, LANDMARK_CYBERSPACE1, MUSIC_NONE, FALSE, PALETTE_NITE, FISHGROUP_OCEAN
 	map MetroidEnd, TILESET_METROID, CAVE, LANDMARK_CYBERSPACE1, MUSIC_NONE, FALSE, PALETTE_NITE, FISHGROUP_OCEAN
+	map MetroidCyberspaceExit, TILESET_MANSION, INDOOR, LANDMARK_UNIVERCITY, MUSIC_MOBILE_CENTER, FALSE, PALETTE_MORN, FISHGROUP_OCEAN
 	assert_table_length NUM_METROID_MAPS
+
+MapGroup_PalAtoll:
+	table_width MAP_LENGTH, MapGroup_PalAtoll
+	map Univercity, TILESET_KANTO, TOWN, LANDMARK_UNIVERCITY, MUSIC_GOLDENROD_CITY, FALSE, PALETTE_AUTO, FISHGROUP_POND
+	assert_table_length NUM_PAL_ATOLL_MAPS
 
 MapGroup_Dungeons:
 	table_width MAP_LENGTH, MapGroup_Dungeons
