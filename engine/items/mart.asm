@@ -22,6 +22,7 @@ OpenMartDialog::
 	dw BargainShop
 	dw Pharmacist
 	dw RooftopSale
+	dw LocalShop
 
 MartDialog:
 	ld a, MARTTYPE_STANDARD
@@ -71,6 +72,15 @@ Pharmacist:
 	ld hl, PharmacyComeAgainText
 	call MartTextbox
 	ret
+
+LocalShop:
+	call FarReadMart
+	call LoadStandardMenuHeader
+	ld hl, LocalShopIntroText
+	call MartTextbox
+	call BuyMenu
+	ld hl, LocalShopComeAgainText
+	jp MartTextbox
 
 RooftopSale:
 	ld b, BANK(RooftopSaleMart1)
@@ -435,6 +445,7 @@ GetMartDialogGroup:
 	dwb .BargainShopPointers, 1
 	dwb .PharmacyPointers, 0
 	dwb .StandardMartPointers, 2
+	dwb .LocalPointers, 0
 
 .StandardMartPointers:
 	dw MartHowManyText
@@ -466,6 +477,14 @@ GetMartDialogGroup:
 	dw PharmacyNoMoneyText
 	dw PharmacyPackFullText
 	dw PharmacyThanksText
+	dw BuyMenuLoop
+
+.LocalPointers:
+	dw LocalShopHowManyText
+	dw LocalShopFinalPriceText
+	dw LocalShopNoMoneyText
+	dw LocalShopPackFullText
+	dw LocalShopThanksText
 	dw BuyMenuLoop
 
 BuyMenuLoop:
@@ -746,6 +765,34 @@ PharmacyNoMoneyText:
 
 PharmacyComeAgainText:
 	text_far _PharmacyComeAgainText
+	text_end
+
+LocalShopIntroText:
+	text_far _LocalIntroText
+	text_end
+
+LocalShopHowManyText:
+	text_far _LocalHowManyText
+	text_end
+
+LocalShopFinalPriceText:
+	text_far _LocalFinalPriceText
+	text_end
+
+LocalShopThanksText:
+	text_far _LocalThanksText
+	text_end
+
+LocalShopPackFullText:
+	text_far _LocalPackFullText
+	text_end
+
+LocalShopNoMoneyText:
+	text_far _LocalNoMoneyText
+	text_end
+
+LocalShopComeAgainText:
+	text_far _LocalComeAgainText
 	text_end
 
 SellMenu:

@@ -626,6 +626,54 @@ _PharmacyComeAgainText::
 	line "See you around."
 	done
 
+_LocalIntroText::
+	text "Hey sweat pea,"
+	line "thanks for comin'"
+	cont "to our booth!"
+
+	para "Ah'm from the"
+	line "EEVEE RANCH over"
+	cont "to the east."
+
+	para "All ah'm sellin"
+	line "is from the"
+	cont "ranch!"
+	done
+
+_LocalHowManyText::
+	text "How many, sugar?"
+	done
+
+_LocalFinalPriceText::
+	text_decimal wItemQuantityChange, 1, 2
+	text " @"
+	text_ram wStringBuffer2
+	text "(S)"
+	line "will cost ¥@"
+	text_decimal hMoneyTemp, 3, 6
+	text "."
+	done
+
+_LocalThanksText::
+	text "Thank ya'll so"
+	line "much."
+	done
+
+_LocalPackFullText::
+	text "Sorry honey, your"
+	line "bag is full."
+	done
+
+_LocalNoMoneyText::
+	text "Sorry molasses,"
+	line "need more money."
+	done
+
+_LocalComeAgainText::
+	text "Why thank you for"
+	line "business!"
+	done
+
 _NothingToSellText::
 	text "You don't have"
 	line "anything to sell."
