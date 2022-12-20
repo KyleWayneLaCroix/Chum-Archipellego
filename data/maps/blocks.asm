@@ -143,6 +143,26 @@ CemetaryLab_Blocks:
 Univercity_Blocks:
 	INCBIN "maps/Univercity.blk"
 
+UnivercityMart1F_Blocks:
+	INCBIN "maps/DeptStore1F.blk"
+
+UnivercityMart2F_Blocks:
+	INCBIN "maps/DeptStore2F.blk"
+
+UnivercityMart3F_Blocks:
+	INCBIN "maps/DeptStore3F.blk"
+
+UnivercityMart4F_Blocks:
+	INCBIN "maps/DeptStore4F.blk"
+
+UnivercityMart5F_Blocks:
+	INCBIN "maps/DeptStore5F.blk"
+
+UnivercityMartRoof_Blocks:
+	INCBIN "maps/DeptStoreRoof.blk"
+
+UnivercityMartB1F_Blocks:
+	INCBIN "maps/DeptStoreB1F.blk"
 
 SECTION "Map Blocks 6", ROMX
 

@@ -3,7 +3,7 @@
 	tilecoll WALL, STAIRCASE, FLOOR, FLOOR ; 02
 	tilecoll WALL, WALL, FLOOR, FLOOR ; 03
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 04
-	tilecoll STAIRCASE, WALL, FLOOR, FLOOR ; 05
+	tilecoll WALL, WALL, FLOOR, FLOOR ; 05
 	tilecoll FLOOR, FLOOR, FLOOR, WARP_CARPET_DOWN ; 06
 	tilecoll WALL, FLOOR, WALL, FLOOR ; 07
 	tilecoll WALL, WALL, FLOOR, COUNTER ; 08
@@ -46,19 +46,20 @@
 	tilecoll FLOOR, MART_SHELF, COUNTER, COUNTER ; 2d
 	tilecoll COUNTER, FLOOR, COUNTER, COUNTER ; 2e
 	tilecoll WALL, STAIRCASE, FLOOR, FLOOR ; 2f
-	tilecoll WALL, WALL, WALL, WALL ; 30
+	tilecoll WALL, WALL, WALL, FLOOR ; 30
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 31
 	tilecoll WALL, WALL, WALL, WALL ; 32
 	tilecoll WALL, FLOOR, WALL, WALL ; 33
 	tilecoll FLOOR, FLOOR, WALL, WALL ; 34
 	tilecoll FLOOR, WALL, WALL, WALL ; 35
 	tilecoll FLOOR, WALL, FLOOR, WALL ; 36
-	tilecoll FLOOR, WALL, FLOOR, WALL ; 37
+	tilecoll WALL, WALL, STAIRCASE, WALL ; 37
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 38
-	tilecoll FLOOR, FLOOR, FLOOR, STAIRCASE ; 39
+	tilecoll WALL, WALL, FLOOR, FLOOR ; 39
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 3a
 	tilecoll WALL, WALL, WALL, WALL ; 3b
-	tilecoll WALL, WALL, WALL, WALL ; 3c
-	tilecoll WALL, WALL, WALL, WALL ; 3d
+	tilecoll WALL, FLOOR, WALL, COUNTER ; 3c
+	tilecoll FLOOR, WALL, COUNTER, WALL ; 3d
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 3e
 	tilecoll WALL, WALL, WALL, WALL ; 3f
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 40

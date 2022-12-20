@@ -3,19 +3,19 @@ Marts:
 	table_width 2, Marts
 	dw MartGearCity
 	dw MartRouteBGate
-	dw MartViolet
-	dw MartAzalea
-	dw MartCianwood
-	dw MartGoldenrod2F1
-	dw MartGoldenrod2F2
-	dw MartGoldenrod3F
-	dw MartGoldenrod4F
-	dw MartGoldenrod5F
-	dw MartOlivine
-	dw MartEcruteak
-	dw MartMahogany1
-	dw MartMahogany2
-	dw MartBlackthorn
+	dw MartUnivercityBalls
+	dw MartUnivercityBattle
+	dw MartUnivercityHealing
+	dw MartUnivercityPP
+	dw MartUnivercityHeld1
+	dw MartUnivercityHeld2
+	dw MartUnivercityTM1
+	dw MartUnivercityTM2
+	dw MartUnivercityTM3
+	dw MartUnivercityEvolution
+	dw MartUnivercityStats
+	dw MartUnivercityOverworld
+	dw MartUnivercityLocal
 	dw MartViridian
 	dw MartPewter
 	dw MartCerulean
@@ -59,66 +59,21 @@ MartRouteBGate:
 	db REVIVAL_HERB
 	db -1 ; end
 
-MartViolet:
+MartUnivercityBalls:
 	db 10 ; # items
 	db POKE_BALL
-	db POTION
-	db ESCAPE_ROPE
-	db ANTIDOTE
-	db PARLYZ_HEAL
-	db AWAKENING
-	db X_DEFEND
-	db X_ATTACK
-	db X_SPEED
-	db FLOWER_MAIL
-	db -1 ; end
-
-MartAzalea:
-	db 9 ; # items
-	db CHARCOAL
-	db POKE_BALL
-	db POTION
-	db SUPER_POTION
-	db ESCAPE_ROPE
-	db REPEL
-	db ANTIDOTE
-	db PARLYZ_HEAL
-	db FLOWER_MAIL
-	db -1 ; end
-
-MartCianwood:
-	db 5 ; # items
-	db POTION
-	db SUPER_POTION
-	db HYPER_POTION
-	db FULL_HEAL
-	db REVIVE
-	db -1 ; end
-
-MartGoldenrod2F1:
-	db 7 ; # items
-	db POTION
-	db SUPER_POTION
-	db ANTIDOTE
-	db PARLYZ_HEAL
-	db AWAKENING
-	db BURN_HEAL
-	db ICE_HEAL
-	db -1 ; end
-
-MartGoldenrod2F2:
-	db 8 ; # items
-	db POKE_BALL
 	db GREAT_BALL
-	db ESCAPE_ROPE
-	db REPEL
-	db REVIVE
-	db FULL_HEAL
-	db POKE_DOLL
-	db FLOWER_MAIL
+	db ULTRA_BALL
+	db LURE_BALL
+	db LEVEL_BALL
+	db FAST_BALL
+	db FRIEND_BALL
+	db MOON_BALL
+	db LOVE_BALL
+	db HEAVY_BALL
 	db -1 ; end
 
-MartGoldenrod3F:
+MartUnivercityBattle:
 	db 7 ; # items
 	db X_SPEED
 	db X_SPECIAL
@@ -129,81 +84,131 @@ MartGoldenrod3F:
 	db X_ACCURACY
 	db -1 ; end
 
-MartGoldenrod4F:
+MartUnivercityHealing:
+	db 10 ; # items
+	db POTION
+	db SUPER_POTION
+	db HYPER_POTION
+	db REVIVE
+	db FULL_HEAL
+	db ANTIDOTE
+	db BURN_HEAL
+	db ICE_HEAL
+	db AWAKENING
+	db PARLYZ_HEAL
+	db -1 ; end
+
+MartUnivercityPP:
 	db 5 ; # items
+	db ETHER
+	db MAX_ETHER
+	db ELIXER
+	db MAX_ELIXER
+	db PP_UP
+	db -1 ; end
+
+MartUnivercityOverworld:
+	db 4 ; # items
+	db ESCAPE_ROPE
+	db REPEL
+	db SUPER_REPEL
+	db MAX_REPEL
+	db -1 ; end
+
+MartUnivercityStats:
+	db 6 ; # items
 	db PROTEIN
 	db IRON
 	db CARBOS
 	db CALCIUM
 	db HP_UP
+	db RARE_CANDY
 	db -1 ; end
 
-MartGoldenrod5F:
-	db 3 ; # items
+MartUnivercityLocal:
+	db 4 ; # items
+	db HONEY
+	db GOLD_BERRY
+	db BERRY_JUICE
+	db BASIL
+	db -1 ; end
+
+MartUnivercityEvolution:
+	db 10 ; # items
+	db FIRE_STONE
+	db THUNDERSTONE
+	db WATER_STONE
+	db LEAF_STONE
+	db MOON_STONE
+	db SUN_STONE
+	db ICE_STONE
+	db DAWN_STONE
+	db BLACK_ROCK
+	db LINK_CABLE
+	db -1 ; end
+
+MartUnivercityHeld1:
+	db 10 ; # items
+	db SILVERPOWDER
+	db SOFT_SAND
+	db SHARP_BEAK
+	db POISON_BARB
+	db MYSTIC_WATER
+	db TWISTEDSPOON
+	db BLACKBELT_I
+	db BLACKGLASSES
+	db PINK_BOW
+	db EVERSTONE
+	db -1 ; end
+
+MartUnivercityHeld2:
+	db 10 ; # items
+	db NEVERMELTICE
+	db MAGNET
+	db SPELL_TAG
+	db MIRACLE_SEED
+	db METAL_COAT
+	db DRAGON_FANG
+	db POLKADOT_BOW
+	db CHARCOAL
+	db HARD_STONE
+	db CLEANSE_TAG
+	db -1 ; end
+
+MartUnivercityTM1:
+	db 9 ; # items
 	db TM_THUNDERPUNCH
 	db TM_FIRE_PUNCH
 	db TM_ICE_PUNCH
+	db TM_THUNDERBOLT
+	db TM_FLAMETHROWER
+	db TM_ICE_BEAM
+	db TM_THUNDER
+	db TM_FIRE_BLAST
+	db TM_BLIZZARD
 	db -1 ; end
 
-MartOlivine:
-	db 9 ; # items
-	db GREAT_BALL
-	db SUPER_POTION
-	db HYPER_POTION
-	db ANTIDOTE
-	db PARLYZ_HEAL
-	db AWAKENING
-	db ICE_HEAL
-	db SUPER_REPEL
-	db SURF_MAIL
+MartUnivercityTM2:
+	db 8 ; # items
+	db TM_BODY_SLAM
+	db TM_HYPER_BEAM
+	db TM_GIGA_IMPACT
+	db TM_RETURN
+	db TM_SLEEP_TALK
+	db TM_DOUBLE_EDGE
+	db TM_HIDDEN_POWER
+	db TM_SUBSTITUTE
 	db -1 ; end
 
-MartEcruteak:
-	db 10 ; # items
-	db POKE_BALL
-	db GREAT_BALL
-	db POTION
-	db SUPER_POTION
-	db ANTIDOTE
-	db PARLYZ_HEAL
-	db AWAKENING
-	db BURN_HEAL
-	db ICE_HEAL
-	db REVIVE
-	db -1 ; end
-
-MartMahogany1:
-	db 4 ; # items
-	db TINYMUSHROOM
-	db SLOWPOKETAIL
-	db POKE_BALL
-	db POTION
-	db -1 ; end
-
-MartMahogany2:
-	db 9 ; # items
-	db RAGECANDYBAR
-	db GREAT_BALL
-	db SUPER_POTION
-	db HYPER_POTION
-	db ANTIDOTE
-	db PARLYZ_HEAL
-	db SUPER_REPEL
-	db REVIVE
-	db FLOWER_MAIL
-	db -1 ; end
-
-MartBlackthorn:
-	db 9 ; # items
-	db GREAT_BALL
-	db ULTRA_BALL
-	db HYPER_POTION
-	db MAX_POTION
-	db FULL_HEAL
-	db REVIVE
-	db MAX_REPEL
-	db X_DEFEND
-	db X_ATTACK
+MartUnivercityTM3:
+	db 7 ; # items
+	db TM_HAIL
+	db TM_RAIN_DANCE
+	db TM_SANDSTORM
+	db TM_SUNNY_DAY
+	db TM_HYDRO_PUMP
+	db TM_SOLARBEAM
+	db TM_TOXIC
 	db -1 ; end
 
 MartViridian:

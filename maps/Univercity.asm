@@ -65,6 +65,7 @@ Univercity_MapEvents:
 ;	warp_event x, y, map, warp_id
 	warp_event 9, 9, METROID_CYBERSPACE_EXIT, 3
 	warp_event 15, 17, UNIVERCITY_POKECENTER_1F, 1
+	warp_event 23, 17, UNIVERCITY_MART_1F, 3
 
 	def_coord_events
 ;	coord_event x, y, scene_id, script

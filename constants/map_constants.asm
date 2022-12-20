@@ -103,6 +103,13 @@ ENDM
 	newgroup PAL_ATOLL                                ;  8
 	map_const UNIVERCITY,                      20, 18 ;  1
 	map_const UNIVERCITY_POKECENTER_1F,         5,  4 ;  2
+	map_const UNIVERCITY_MART_1F,               8,  4 ;  3
+	map_const UNIVERCITY_MART_2F,               8,  4 ;  4
+	map_const UNIVERCITY_MART_3F,               8,  4 ;  5
+	map_const UNIVERCITY_MART_4F,               8,  4 ;  6
+	map_const UNIVERCITY_MART_5F,               8,  4 ;  7
+	map_const UNIVERCITY_MART_ROOF,             8,  4 ;  8
+	map_const UNIVERCITY_MART_B1F,             10, 10 ;  9
 	endgroup
 
 	newgroup DUNGEONS                                 ;  9
