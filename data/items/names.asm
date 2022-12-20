@@ -104,7 +104,7 @@ ItemNames::
 	li "ETHER"
 	li "MAX ETHER"
 	li "HONEY"
-	li "RAGECANDYBAR"
+	li "BASIL"
 	li "ENERGYPOWDER"
 	li "ENERGY ROOT"
 	li "HEAL POWDER"

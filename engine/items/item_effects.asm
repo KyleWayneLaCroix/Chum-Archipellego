@@ -118,7 +118,7 @@ ItemEffects:
 	dw RestorePPEffect     ; ETHER
 	dw RestorePPEffect     ; MAX_ETHER
 	dw RestoreHPEffect     ; HONEY
-	dw RestoreHPEffect     ; RAGECANDYBAR
+	dw FullRestoreEffect   ; BASIL
 	dw EnergypowderEffect  ; ENERGYPOWDER
 	dw EnergyRootEffect    ; ENERGY_ROOT
 	dw HealPowderEffect    ; HEAL_POWDER

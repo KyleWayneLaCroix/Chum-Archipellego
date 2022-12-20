@@ -105,7 +105,7 @@ ItemDescriptions:
 	dw EtherDesc
 	dw MaxEtherDesc
 	dw HoneyDesc
-	dw RageCandyBarDesc
+	dw BasilDesc
 	dw EnergyPowderDesc
 	dw EnergyRootDesc
 	dw HealPowderDesc
@@ -706,9 +706,9 @@ SpellTagDesc:
 	db   "Powers up ghost-"
 	next "type moves. (HOLD)@"
 
-RageCandyBarDesc:
-	db   "Restores #MON"
-	next "HP by 20.@"
+BasilDesc:
+	db   "Held item heals 20"
+	next "& cures all status@"
 
 GSBallDesc:
 	db   "The mysterious"

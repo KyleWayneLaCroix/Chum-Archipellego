@@ -109,8 +109,8 @@
 	const MAX_ELIXER   ; 65
 	const ETHER        ; 66
 	const MAX_ETHER    ; 67
-	const HONEY  ; 68
-	const RAGECANDYBAR ; 69
+	const HONEY        ; 68
+	const BASIL        ; 69
 	const ENERGYPOWDER ; 6a
 	const ENERGY_ROOT  ; 6b
 	const HEAL_POWDER  ; 6c
