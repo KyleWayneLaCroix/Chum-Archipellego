@@ -69,7 +69,6 @@ INCLUDE "maps/MetroidEnd.asm"
 INCLUDE "maps/MetroidCyberspaceExit.asm"
 INCLUDE "maps/Univercity.asm"
 INCLUDE "maps/UnivercityPokecenter1F.asm"
-INCLUDE "maps/DeptStore1F.asm"
 INCLUDE "maps/DeptStore2F.asm"
 INCLUDE "maps/DeptStore3F.asm"
 INCLUDE "maps/DeptStore4F.asm"
@@ -78,6 +77,7 @@ INCLUDE "maps/DeptStoreRoof.asm"
 INCLUDE "maps/DeptStoreB1F.asm"
 
 SECTION "Map Scripts 7", ROMX
+INCLUDE "maps/DeptStore1F.asm"
 
 
 SECTION "Map Scripts 8", ROMX

@@ -3061,6 +3061,7 @@ wCityGearHQSceneID::        	    db
 wCityGearHQBasementSceneID::        db
 wCemetaryLabSceneID::               db
 wMetroidCyberspaceExitSceneID::     db
+wUnivercityMart1FSceneID::          db
 	ds 105
 
 ; fight counts
