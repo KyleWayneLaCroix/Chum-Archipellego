@@ -173,13 +173,40 @@ AwakeningLabHealingMachine:
 	setflag ENGINE_UNLOCKED_UNOWNS_L_TO_R
 	setflag ENGINE_UNLOCKED_UNOWNS_S_TO_W
 	setflag ENGINE_UNLOCKED_UNOWNS_X_TO_Z
-	verbosegiveitem CHAINSAW
-	verbosegiveitem PDA
+	giveitem CHAINSAW
+	giveitem PDA
+	giveitem THUNDERSTONE, 3
+	giveitem FIRE_STONE, 3
+	giveitem WATER_STONE, 3
+	giveitem ICE_STONE, 3
+	giveitem DUSK_STONE, 3
+	giveitem TESTOSTERONE, 3
+	giveitem ESTRADIOL, 3
+	giveitem LINK_CABLE, 3
+	giveitem BLACK_ROCK, 3
+	giveitem DAWN_STONE, 3
+	giveitem TART_APPLE, 3
+	giveitem SWEET_APPLE, 3
+	giveitem MOON_STONE, 3
+	giveitem SUN_STONE, 3
+	giveitem METAL_COAT, 3
+	giveitem UP_GRADE, 3
+	giveitem MASTER_BALL, 99
+	giveitem RARE_CANDY, 99
+	giveitem NUGGET, 99
 	givepoke UNOWN, 50
 	givepoke UNOWN, 50
 	givepoke UNOWN, 50
 	givepoke UNOWN, 50
 	givepoke UNOWN, 50
+	givepoke EEVEE, 12
+	givepoke EEVEE, 12
+	givepoke EEVEE, 12
+	givepoke EEVEE, 12
+	givepoke EEVEE, 12
+	givepoke EEVEE, 12
+	givepoke EEVEE, 12
+	givepoke EEVEE, 12
 	closetext
 	end
 

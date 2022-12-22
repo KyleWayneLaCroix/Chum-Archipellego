@@ -76,4 +76,5 @@ TrainerClassNames::
 	li "MAD DOG"
 	li "GHOST OF"
 	li "UNDEAD"
+	li "BRIAN"
 	assert_list_length NUM_TRAINER_CLASSES

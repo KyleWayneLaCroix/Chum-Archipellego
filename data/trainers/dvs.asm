@@ -77,4 +77,5 @@ TrainerClassDVs:
 	dn 15, 15, 15, 15 ; MAD DOG BRIAN
 	dn  9,  8,  8, 12 ; GHOST_T
 	dn 13,  9, 10,  8 ; UNDEAD
+	dn  6,  8, 10, 12 ; BRIAN 64
 	assert_table_length NUM_TRAINER_CLASSES

@@ -28,6 +28,60 @@ UnivercityMart3FElevatorScript:
 UnivercityMart3FSignScript:
 	jumptext UnivercityMart3FSignText
 
+UnivercityMart3FTwin1Script:
+	jumptextfaceplayer UnivercityMart3FTwin1Text
+
+UnivercityMart3FTwin2Script:
+	jumptextfaceplayer UnivercityMart3FTwin2Text
+
+UnivercityMart3FYoungsterScript:
+	jumptextfaceplayer UnivercityMart3FYoungsterText
+
+UnivercityMart3FYoungsterText:
+	text "Did you know that"
+	line "in GEN 2, EVs"
+	cont "didn't exist?"
+
+	para "Instead, STAT XP"
+	line "determines your"
+	cont "stats."
+
+	para "CARBOS and all"
+	line "that still work"
+	cont "about the same."
+	done
+
+UnivercityMart3FTwin1Text:
+	text "Mom says RARE"
+	line "CANDIES don't"
+	cont "work on people."
+
+	para "But I don't mind."
+
+	para "I just like to"
+	line "eat them!"
+	done
+
+UnivercityMart3FTwin2Text:
+	text "We're twins, but"
+	line "we're sick of"
+	
+	para "people getting us"
+	line "mixed up."
+
+	para "So, my sister is"
+	line "eating a bunch of"
+	cont "RARE CANDIES so"
+	cont "she gets older."
+	
+	para "It's not working"
+	line "so far."
+
+	para "I think she just"
+	line "wanted to eat all"
+	cont "our candies."
+	done
+
 UnivercityMart3FSignText:
 	text "  DIRECTORY - 3F "
 	line "  Stats & Battle "
@@ -66,3 +120,6 @@ UnivercityMart3F_MapEvents:
 ;	object_event x, y, sprite, movement, rx, ry, h1, h2, palette, type, range, script, event_flag
 	object_event  9,  1, SPRITE_CLERK, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, UnivercityStatsMartScript, 0
 	object_event  7,  1, SPRITE_CLERK, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, UnivercityBattleMartScript, 0
+	object_event  7,  6, SPRITE_TWIN, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, UnivercityMart3FTwin1Script, 0
+	object_event  8,  6, SPRITE_TWIN, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, UnivercityMart3FTwin2Script, 0
+	object_event 12,  3, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 3, 3, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, UnivercityMart3FYoungsterScript, 0

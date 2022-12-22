@@ -99,6 +99,7 @@ DEF KRIS EQU __trainer_class__
 
 	trainerclass SUPERVISOR ; 13
 	const JOSH1
+	const STEV
 
 	trainerclass IT_GUY ; 14
 	const MIKE_B
@@ -129,7 +130,7 @@ DEF KRIS EQU __trainer_class__
 	trainerclass WORKER ; 17
 	const CGHQ_Q
 	const KIPP
-	const ALAN1
+	const ALAN
 	const JOHNNY
 	const DANNY
 	const TOMMY
@@ -728,5 +729,8 @@ DEF KRIS EQU __trainer_class__
 
 	trainerclass UNDEAD ;
 	const CLAYWHOLE
+
+	trainerclass BRIAN_64 ;
+	const BRIAN_64_1
 
 DEF NUM_TRAINER_CLASSES EQU __trainer_class__ - 1

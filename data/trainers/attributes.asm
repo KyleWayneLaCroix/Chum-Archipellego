@@ -423,12 +423,12 @@ TrainerClassAttributes:
 	dw CONTEXT_USE | SWITCH_OFTEN
 
 ; Brian Tree
-	db X_DEFEND, NO_ITEM ; items
+	db X_ATTACK, NO_ITEM ; items
 	db 18 ; base reward
 	dw AI_BASIC | AI_TYPES | AI_OPPORTUNIST | AI_STATUS
 	dw CONTEXT_USE | SWITCH_OFTEN
 
-; Brian Tree
+; Brian Rock
 	db X_DEFEND, NO_ITEM ; items
 	db 18 ; base reward
 	dw AI_BASIC | AI_TYPES | AI_OPPORTUNIST | AI_STATUS
@@ -451,5 +451,11 @@ TrainerClassAttributes:
 	db 25 ; base reward
 	dw AI_BASIC | AI_SETUP | AI_SMART | AI_AGGRESSIVE | AI_CAUTIOUS | AI_STATUS | AI_RISKY
 	dw CONTEXT_USE | SWITCH_SOMETIMES
+
+; Brian 64
+	db LEMONADE, NO_ITEM ; items
+	db 20 ; base reward
+	dw AI_BASIC | AI_SETUP | AI_SMART | AI_AGGRESSIVE | AI_CAUTIOUS | AI_STATUS | AI_RISKY
+	dw CONTEXT_USE | SWITCH_OFTEN
 
 	assert_table_length NUM_TRAINER_CLASSES

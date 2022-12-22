@@ -78,4 +78,5 @@ TrainerGroups:
 	dw MadDogGroup
 	dw GhostTGroup
 	dw UndeadGroup
+	dw Brian64Group
 	assert_table_length NUM_TRAINER_CLASSES

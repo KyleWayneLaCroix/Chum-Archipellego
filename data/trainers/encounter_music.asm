@@ -79,4 +79,5 @@ TrainerEncounterMusic::
 	db MUSIC_RIVAL_ENCOUNTER       ; mad dog brian
 	db MUSIC_SAGE_ENCOUNTER        ; ghost_t
 	db MUSIC_SAGE_ENCOUNTER        ; undead
+	db MUSIC_RIVAL_ENCOUNTER       ; brian 64
 	assert_table_length NUM_TRAINER_CLASSES + 1

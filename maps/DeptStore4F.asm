@@ -35,6 +35,297 @@ UnivercityMart4FElevatorScript:
 UnivercityMart4FSignScript:
 	jumptext UnivercityMart4FSignText
 
+UnivercityMart4FScientistScript:
+	jumptextfaceplayer Univercity4FScientistText
+
+UnivercityMart4FErikaScript:
+	jumptextfaceplayer UnivercityMart4FErikaText
+
+UnivercityMart4FProfessorScript:
+	faceplayer
+	opentext
+	writetext EvoProfessorIntroText
+.Loop:
+	loadmenu .EvoProfessorMenu
+	verticalmenu
+	closewindow
+	ifequal 1, .Elemental
+	ifequal 2, .OtherStones
+	ifequal 3, .OtherItems
+	ifequal 4, .Sex
+	ifequal 5, .Happiness
+	closetext
+	end
+
+.Elemental:
+	writetext EvoElementalText
+	waitbutton
+	sjump .Loop
+
+.OtherStones:
+	writetext EvoOtherStonesText
+	waitbutton
+	sjump .Loop
+
+.OtherItems:
+	writetext EvoOtherItemsText
+	waitbutton
+	sjump .Loop
+
+.Sex:
+	writetext EvoSexText
+	waitbutton
+	sjump .Loop
+
+.Happiness:
+	writetext EvoHappinessText
+	waitbutton
+	sjump .Loop
+
+.EvoProfessorMenu:
+	db MENU_BACKUP_TILES ; flags
+	menu_coords 0, 0, SCREEN_WIDTH - 1, TEXTBOX_Y - 1
+	dw .MenuData
+	db 1 ; default option
+
+.MenuData:
+	db STATICMENU_CURSOR ; flags
+	db 5 ; items
+	db "ELEMENTAL STONES@"
+	db "OTHER STONES@"
+	db "OTHER ITEMS@"
+	db "SEX-BASED EVOL.@"
+	db "HAPPINESS@"
+
+
+UnivercityMart4FGrannyScript:
+	jumptextfaceplayer UnivercityMart4FGrannyText
+
+UnivercityMart4FGrannyText:
+	text "Evolution isn't"
+	line "real."
+
+	para "#MON changing"
+	line "to other #MON?"
+
+	para "Hogwash!"
+
+	para "Arceus created"
+	line "every #MON as"
+	cont "they are now."
+
+	para "Microevolution"
+	line "like CATERPIE"
+	cont "into METAPOD"
+	cont "is true."
+
+	para "But MAGIKARP"
+	line "to GYARADOS?"
+
+	para "ridiculous."
+	done
+EvoProfessorIntroText:
+	text "Hello! I am PROF."
+	line "PINE."
+
+	para "I study #MON"
+	line "evolution."
+
+	para "Particularly non-"
+	line "-level based evo-"
+	cont "-lution."
+
+	para "What would you"
+	line "like to know?"
+	done
+
+EvoElementalText:
+ 	text "First off there"
+ 	line "are FIRE STONES,"
+
+ 	para "GROWLITHE and"
+ 	line "EEVEE are the 2"
+ 	cont "I've studied in"
+ 	cont "the ARCHIPELAGO"
+ 	cont "that use that."
+
+ 	para "The THUNDERSTONE"
+ 	line "can be used on"
+ 	cont "CHARJABUG and"
+ 	cont "EEVEE of course."
+
+ 	para "The WATER STONE"
+ 	line "is used by LOMBRE"
+ 	cont "and, again, EEVEE"
+
+ 	para "The LEAF STONE is"
+ 	line "used by EXEGGCUTE"
+ 	cont "and, again, EEVEE"
+
+ 	para "The ICE STONE is"
+ 	line "used by, you"
+ 	cont "guessed it, EEVEE"
+
+ 	para "EEVEE uses a LOT"
+ 	line "of STONES."
+ 	done
+
+EvoOtherStonesText:
+	text "Let's see, there"
+	line "is the DUSK STONE"
+	cont "which is used by"
+	cont "DOOMSTONE,"
+	cont "LAMPENT, &"
+	cont "MISDREAVUS."
+
+	para "Then the MOON"
+	line "STONE, used by"
+	cont "ROCKRUFFs for"
+	cont "their MIDNIGHT"
+	cont "form."
+	
+	para "MUNNA, and SKITTY"
+	line "also use MOON"
+	cont "STONES to evolve."
+
+	para "Then the LOVE"
+	line "STONE, used by"
+	cont "EEVEE to evolve"
+	cont "into SYLVEON."
+	done
+
+EvoOtherItemsText:
+	text "There's the BLACK"
+	line "ROCK, used by"
+	cont "SCYTHER to evolve"
+	cont "into KLEAVOR."
+	cont "It can also use a"
+	cont "METAL COAT to"
+	cont "evolve to SCYTHER"
+
+	para "HAUNTER uses a"
+	line "LINK CABLE now."
+
+	para "APPLIN turns into"
+	line "APPLETUN with a"
+	cont "SWEET APPLE, and"
+	cont "into FLAPPLE with"
+	cont "a TART APPLE."
+
+	para "Also PORYGON2"
+	line "uses an UPGRADE"
+	cont "to become PORY-"
+	cont "-GON Z."
+	done
+
+EvoSexText:
+	text "Some #MON have"
+	line "sexually dimor-"
+	cont "-phic evolutions."
+
+	para "FARFETCH'D can be"
+	line "SIRFETCH'D when"
+	cont "male, but LUXWAN"
+	cont "if female."
+
+	para "TANGELA evolves"
+	line "to TANGROWTH if"
+	cont "male, and JUNGELA"
+	cont "if female."
+
+	para "Also ESPURR has a"
+	line "male and female"
+	cont "form with some"
+	cont "differences too."
+
+	para "CHUM ARCHIPELAGO"
+	line "has a GEN II"
+	cont "architecture."
+
+	para "This is not"
+	line "condusive to sex-"
+	cont "-based evolution."
+
+	para "This is why you"
+	line "will need a GENDER"
+	cont "CLINIC to get"
+	cont "either ESTRADIOL"
+	cont "or TESTOSTERONE to"
+	cont "evolve these #-"
+	cont "-MON."
+
+	para "This does also"
+	line "allow you to evo-"
+	cont "-lve both forms"
+	cont "into each other."
+
+	para "So it can also be"
+	line "convenient!"
+	done
+
+EvoHappinessText:
+	text "Some #MON only"
+	line "evolve when they"
+	cont "are happy."
+
+	para "Some like WOOBAT"
+	line "and SNOM just"
+	cont "evolve whenever"
+	cont "they are at a"
+	cont "certain level of"
+	cont "happiness."
+
+	para "ROCKRUFF & EEVEE"
+	line "have different"
+	cont "forms depending"
+	cont "on what time they"
+	cont "feel this way."
+	done
+
+UnivercityMart4FErikaText:
+	text "Held items are"
+	line "very useful in"
+	cont "battle."
+
+	para "The ones they"
+	line "sell here mostly"
+	cont "boost damage of"
+	cont "certain types,"
+
+	para "but there are"
+	line "more out there"
+	cont "that do so much"
+	cont "more!"
+	done
+
+Univercity4FScientistText:
+	text "Trade evolution"
+	line "has been removed!"
+
+	para "Now you just use"
+	line "the items like a"
+	cont "stone."
+
+	para "They sell a lot"
+	line "of them here, but"
+	cont "there are a few"
+	cont "they don't."
+
+	para "Sex-based evolu-"
+	line "-tion is a bit off"
+	cont "in the ARCHIPELAGO"
+	cont "too."
+
+	para "You need to give"
+	line "your #MON a"
+	cont "huge burst of the"
+	cont "appropriate sex"
+	cont "hormone."
+
+	para "Not sure where to"
+	line "get that though."
+	done
+
 UnivercityMart4FSignText:
 	text "  DIRECTORY - 4F "
 	line "  Held Items &   " 
@@ -75,3 +366,7 @@ UnivercityMart4F_MapEvents:
 	object_event  7,  1, SPRITE_RECEPTIONIST, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, UnivercityHeld1MartScript, 0
 	object_event 13,  5, SPRITE_RECEPTIONIST, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, UnivercityHeld2MartScript, 0
 	object_event  4,  7, SPRITE_CLERK, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, UnivercityEvolutionMartScript, 0
+	object_event  7,  5, SPRITE_SCIENTIST, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, UnivercityMart4FScientistScript, 0
+	object_event 15,  2, SPRITE_ERIKA, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, UnivercityMart4FErikaScript, 0
+	object_event  3,  7, SPRITE_OAK, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, UnivercityMart4FProfessorScript, 0
+	object_event 10,  6, SPRITE_GRANNY, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, UnivercityMart4FGrannyScript, 0

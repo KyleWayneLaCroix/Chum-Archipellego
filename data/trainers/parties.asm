@@ -298,6 +298,13 @@ SupervisorGroup:
 	db  4, ARON
 	db -1 ; end
 
+	; STEV (2)
+	db "STEV@", TRAINERTYPE_NORMAL
+	db 11, BLITZLE
+	db 10, DOTTLER
+	db 14, LOMBRE
+	db -1 ; end
+
 ITGuyGroup:
 	; IT_GUY (1)
 	db "MIKE B@", TRAINERTYPE_NORMAL
@@ -428,15 +435,16 @@ WorkerGroup:
 
 	; WORKER (2)
 	db "KIPP@", TRAINERTYPE_NORMAL
-	db 27, STUNKY
-	db 27, MAREANIE
-	db 31, STUNKY
-	db 31, TOXAPEX
+	db 12, ARON
+	db 10, MUDBRAY
+	db 9,  CROAGUNK
 	db -1 ; end
 
 	; WORKER (3)
 	db "ALAN@", TRAINERTYPE_NORMAL
-	db 16, ORICORIO_PAU
+	db 9,  CROAGUNK
+	db 10, JANGMO_O
+	db 11, STUFFUL
 	db -1 ; end
 
 	; WORKER (4)
@@ -3602,4 +3610,13 @@ UndeadGroup:
 	db 8, CROAGUNK,    MUD_SLAP, POISON_STING, ROCK_SMASH, TACKLE
 	db 10, HERACROSS,    HORN_ATTACK, TACKLE, LEER, HARDEN
 	db 12, CLOBBOPUS,    LEER, ROCK_SMASH, WRAP, DRAIN_PUNCH
+	db -1 ; end
+
+Brian64Group:
+	; BRIAN_64 (1)
+	db "64@", TRAINERTYPE_NORMAL
+	db 11, PORYGON
+	db 12, TYKER
+	db  9, UNOWN
+	db 12, DITTO
 	db -1 ; end

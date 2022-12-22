@@ -76,4 +76,5 @@ BTTrainerClassSprites:
 	db SPRITE_ROCKER
 	db SPRITE_ROCKER
 	db SPRITE_ROCKER
+	db SPRITE_ROCKER
 	assert_table_length NUM_TRAINER_CLASSES

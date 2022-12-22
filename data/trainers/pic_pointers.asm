@@ -78,4 +78,5 @@ TrainerPicPointers::
 	dba MadDogBrianPic
 	dba GhostTPic
 	dba UndeadPic
+	dba Brian64Pic
 	assert_table_length NUM_TRAINER_CLASSES

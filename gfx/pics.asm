@@ -101,6 +101,7 @@ RockBrianPic:		 INCBIN "gfx/trainers/rock_brian.2bpp.lz"
 MadDogBrianPic:		 INCBIN "gfx/trainers/brian.2bpp.lz"
 GhostTPic:			 INCBIN "gfx/trainers/ghost.2bpp.lz"
 UndeadPic:           INCBIN "gfx/trainers/undead.2bpp.lz"
+Brian64Pic:          INCBIN "gfx/trainers/brian64.2bpp.lz"
 
 SECTION "Pics 4", ROMX
 UnownAFrontpic:      INCBIN "gfx/pokemon/unown_A/front.animated.2bpp.lz"

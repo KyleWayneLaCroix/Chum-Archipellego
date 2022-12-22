@@ -34,6 +34,7 @@ MaleTrainers:
 	db MAD_DOG
 	db GHOST_T
 	db UNDEAD
+	db BRIAN_64
 .End
 
 FemaleTrainers:
