@@ -727,8 +727,9 @@ ObstagoonEvosAttacks:
 MudbrayEvosAttacks:
 	db EVOLVE_LEVEL, 30, MUDSDALE
 	db 0 ; no more evolutions
-	db 1, MUD_SLAP
-	db 1, ROCK_SMASH
+	db 1, TACKLE
+	db 4, ROCK_SMASH
+	db 8, MUD_SLAP
 	db 10, BULLDOZE
 	db 12, DOUBLE_KICK
 	db 16, STOMP
@@ -1444,10 +1445,10 @@ GarbodorEvosAttacks:
 SalanditEvosAttacks:
 	db EVOLVE_LEVEL, 33, SALAZZLE
 	db 0 ; no more evolutions
+	db 1, FURY_STRIKES
 	db 6, EMBER
 	db 12, DRAGON_RAGE
 	db 18, POISON_JAB
-	db 1, FURY_STRIKES
 	db 29, NASTY_PLOT
 	db 30, FIRE_SPIN
 	db 36, SLUDGE_BOMB
@@ -1624,8 +1625,8 @@ TsareenaEvosAttacks:
 
 BouffalantEvosAttacks:
 	db 0 ; no more evolutions
-	db 5, PURSUIT
 	db 1, TACKLE
+	db 5, PURSUIT
 	db 8, RAGE
 	db 12, FURY_STRIKES
 	db 17, HORN_ATTACK
@@ -1909,8 +1910,8 @@ SkittyEvosAttacks:
 	db EVOLVE_ITEM, MOON_STONE, DELCATTY
 	db 0 ; no more evolutions
 	db 1, LEER
-	db 6, QUICK_ATTACK
 	db 1, TACKLE
+	db 6, QUICK_ATTACK
 	db 8, ATTRACT
 	db 10, SING
 	db 13, DISRMNGVOICE
@@ -2450,11 +2451,11 @@ ToucannonEvosAttacks:
 	db 1, THIEF
 	db 1, FURY_STRIKES
 	db 30, SCREECH
+	db 32, ROCK_BLAST
 	db 34, DRILL_PECK
 	db 40, SEED_BOMB
 	db 44, CHARM
 	db 50, HYPER_VOICE
-	db 32, ROCK_BLAST
 	db 0 ; no more level-up moves
 
 HeatmorEvosAttacks:
@@ -2703,13 +2704,13 @@ BurgelaEvosAttacks:
 	db EVOLVE_LEVEL, 20, TANGELA
 	db 0 ; no more evolutions
 	db 1, WRAP
-	db 2, LEECH_LIFE
 	db 4, TACKLE
 	db 6, LEAFAGE
 	db 10, SLEEP_POWDER
 	db 12, CONFUSION
 	db 16, RAZOR_LEAF
 	db 17, POISON_GAS
+	db 2, LEECH_LIFE
 	db 0 ; no more level-up moves
 
 TangelaEvosAttacks:
@@ -3350,9 +3351,10 @@ PorygonEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, CONVERSION
 	db 1, CONVERSION2
+	db 1, TACKLE
+	db 6, THUNDERSHOCK
 	db 9, CONFUSION
 	db 12, AGILITY
-	db 6, THUNDERSHOCK
 	db 16, SHOCK_WAVE
 	db 18, PSYBEAM
 	db 21, RECOVER
@@ -3395,12 +3397,12 @@ Porygon_zEvosAttacks:
 
 LaprasEvosAttacks:
 	db 0 ; no more evolutions
-	db 13, SING
+	db 1, WATER_PULSE
 	db 7, MIST
 	db 11, ICE_SHARD
+	db 13, SING
 	db 14, CONFUSE_RAY
 	db 15, RECOVER
-	db 1, WATER_PULSE
 	db 18, BODY_SLAM
 	db 28, PERISH_SONG
 	db 30, RAIN_DANCE
