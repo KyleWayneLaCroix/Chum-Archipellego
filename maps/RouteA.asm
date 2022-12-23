@@ -3,8 +3,9 @@
 	const ROUTEA_FISHER
 	const ROUTEA_YOUNGSTER
 	const ROUTEA_SWIMMER_F
+	const ROUTEA_COOLTRAINER_F
 	const ROUTEA_GENTLEMAN
-	const ROUTEA_CAPTAIN
+	const ROUTEA_COOLTRAINER_M
 	const ROUTEA_BALL_BRIAN
 	const ROUTEA_FRUIT_TREE1
 	const ROUTEA_FRUIT_TREE2
@@ -35,6 +36,9 @@ TrainerRouteABallBrian:
 	earthquake 80
 	waitsfx
 	disappear ROUTEA_BALL_BRIAN
+	opentext
+	verbosegiveitem FAST_BALL
+	closetext
 	end
 
 TrainerBugCatcherDon:

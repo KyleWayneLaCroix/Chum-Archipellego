@@ -2,7 +2,7 @@ MoveNames::
 	list_start MoveNames
 	li "P#ml!??jf"
 	li "KARATE CHOP"
-	li "DOUBLESLAP"
+	li "LEAFAGE"
 	li "BULLET PUNCH"
 	li "DARK PULSE"
 	li "PAY DAY"

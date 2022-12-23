@@ -288,7 +288,7 @@ ITGuyMikeBAfterText:
 	cont "-nals, fixing PCs"
 	
 	para "and being a prick"
-	cont "to worry about a"
+	line "to worry about a"
 	cont "pair of shoes."
 	done
 
