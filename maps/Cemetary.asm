@@ -89,6 +89,9 @@ TrainerCemetaryBallBrian:
 	earthquake 80
 	waitsfx
 	disappear CEMETARY_BALL_BRIAN
+	opentext
+	verbosegiveitem PP_UP
+	closetext
 	end
 
 CemetaryBallBrianSeenText:
