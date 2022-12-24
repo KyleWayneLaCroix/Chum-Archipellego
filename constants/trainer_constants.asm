@@ -92,7 +92,7 @@ DEF KRIS EQU __trainer_class__
 	const LANCE
 
 	trainerclass BROCK ; 11
-	const BROCK1
+	const JOELEO
 
 	trainerclass MISTY ; 12
 	const MISTY1

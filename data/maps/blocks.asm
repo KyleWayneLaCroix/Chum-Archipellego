@@ -164,6 +164,9 @@ UnivercityMartRoof_Blocks:
 UnivercityMartB1F_Blocks:
 	INCBIN "maps/DeptStoreB1F.blk"
 
+CampusMission_Blocks:
+	INCBIN "maps/CampusMIssion.blk"
+
 SECTION "Map Blocks 6", ROMX
 
 MetroidIntro_Blocks:

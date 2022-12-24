@@ -110,6 +110,7 @@ ENDM
 	map_const UNIVERCITY_MART_5F,               8,  4 ;  7
 	map_const UNIVERCITY_MART_ROOF,             8,  4 ;  8
 	map_const UNIVERCITY_MART_B1F,             10, 10 ;  9
+	map_const CAMPUS_MISSION,                   8,  5 ; 10
 	endgroup
 
 	newgroup DUNGEONS                                 ;  9

@@ -78,6 +78,7 @@ INCLUDE "maps/DeptStore3F.asm"
 INCLUDE "maps/DeptStore4F.asm"
 INCLUDE "maps/DeptStore5F.asm"
 INCLUDE "maps/DeptStoreRoof.asm"
+INCLUDE "maps/CampusMission.asm"
 
 SECTION "Map Scripts 8", ROMX
 

@@ -175,38 +175,15 @@ AwakeningLabHealingMachine:
 	setflag ENGINE_UNLOCKED_UNOWNS_X_TO_Z
 	giveitem CHAINSAW
 	giveitem PDA
-	giveitem THUNDERSTONE, 3
-	giveitem FIRE_STONE, 3
-	giveitem WATER_STONE, 3
-	giveitem ICE_STONE, 3
-	giveitem DUSK_STONE, 3
-	giveitem TESTOSTERONE, 3
-	giveitem ESTRADIOL, 3
-	giveitem LINK_CABLE, 3
-	giveitem BLACK_ROCK, 3
-	giveitem DAWN_STONE, 3
-	giveitem TART_APPLE, 3
-	giveitem SWEET_APPLE, 3
-	giveitem MOON_STONE, 3
-	giveitem SUN_STONE, 3
-	giveitem METAL_COAT, 3
-	giveitem UP_GRADE, 3
 	giveitem MASTER_BALL, 99
 	giveitem RARE_CANDY, 99
 	giveitem NUGGET, 99
-	givepoke UNOWN, 50
-	givepoke UNOWN, 50
-	givepoke UNOWN, 50
-	givepoke UNOWN, 50
-	givepoke UNOWN, 50
-	givepoke EEVEE, 12
-	givepoke EEVEE, 12
-	givepoke EEVEE, 12
-	givepoke EEVEE, 12
-	givepoke EEVEE, 12
-	givepoke EEVEE, 12
-	givepoke EEVEE, 12
-	givepoke EEVEE, 12
+	givepoke UNOWN, 89
+	givepoke ANGORE, 50
+	givepoke JUNGELA, 50
+	givepoke STRAIGAR, 50
+	givepoke SHELLOS, 50
+	givepoke GASTRODON, 12
 	closetext
 	end
 

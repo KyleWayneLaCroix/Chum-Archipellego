@@ -171,3 +171,4 @@ ENDM
 	map_attributes UnivercityMart5F, UNIVERCITY_MART_5F, $00, 0
 	map_attributes UnivercityMartRoof, UNIVERCITY_MART_ROOF, $24, 0
 	map_attributes UnivercityMartB1F, UNIVERCITY_MART_B1F, $00, 0
+	map_attributes CampusMission, CAMPUS_MISSION, $00, 0
