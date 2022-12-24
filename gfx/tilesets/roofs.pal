@@ -30,10 +30,18 @@
 	RGB 21,21,21, 11,11,11 ; morn/day
 	RGB 21,21,21, 17,08,07 ; nite
 
-; group  6 (PAL_ATOLL)
+; group  8 (PAL_ATOLL)
 	RGB 20,31,14, 11,23,05 ; morn/day
 	RGB 09,13,08, 06,09,04 ; nite
 
-; group  9 (Dungeons)
+; group  9 (Eevee Ranch)
+	RGB 20,31,14, 11,23,05 ; morn/day
+	RGB 09,13,08, 06,09,04 ; nite
+
+; group 10 (Jungle Area)
+	RGB 20,31,14, 11,23,05 ; morn/day
+	RGB 09,13,08, 06,09,04 ; nite
+
+; group 11 (Dungeons)
 	RGB 21,21,21, 11,11,11 ; morn/day
 	RGB 21,21,21, 17,08,07 ; nite

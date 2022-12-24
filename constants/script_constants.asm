@@ -192,7 +192,7 @@ DEF EMOTE_LENGTH EQU 6
 	const FRUITTREE_ROUTE_A_2       ; 03
 	const FRUITTREE_GEAR_CITY       ; 04
 	const FRUITTREE_ROUTE_B         ; 05
-	const FRUITTREE_ROUTE_33        ; 06
+	const FRUITTREE_UNIVERCITY      ; 06
 	const FRUITTREE_ROUTE_31        ; 07
 	const FRUITTREE_ROUTE_43        ; 08
 	const FRUITTREE_VIOLET_CITY     ; 09

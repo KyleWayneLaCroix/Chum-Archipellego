@@ -30,6 +30,7 @@
 	const TILESET_FOREST               ; 1f
 	const TILESET_CHUMELAGO            ; 25
 	const TILESET_METROID
+	const TILESET_JUNGLE
 DEF NUM_TILESETS EQU const_value - 1
 
 ; wTileset struct size

@@ -343,4 +343,35 @@ JohtoGrassWildMons:
     db 10, PORYGON
     end_grass_wildmons
 
+    def_grass_wildmons UNIVERCITY
+    db 15 percent, 15 percent, 15 percent ; encounter rates: morn/day/nite
+    ; morn
+    db 8, ORICORIO_BAILE
+    db 8, SOLOSIS
+    db 7, GROWLITHE
+    db 6, JOLTIK
+    db 7, SHROOMISH
+    db 8, STUNKY
+    db 12, MEOWTH
+    db 10, CORVISQUIRE
+    ; day
+    db 8, ORICORIO_BAILE
+    db 8, SOLOSIS
+    db 7, GROWLITHE
+    db 6, JOLTIK
+    db 7, SHROOMISH
+    db 8, STUNKY
+    db 9, MEOWTH
+    db 10, CORVISQUIRE
+    ; nite
+    db 8, ORICORIO_BAILE
+    db 8, SOLOSIS
+    db 7, GROWLITHE
+    db 6, JOLTIK
+    db 7, SHROOMISH
+    db 8, STUNKY
+    db 9, MEOWTH
+    db 10, CORVISQUIRE
+    end_grass_wildmons
+
     db -1 ; end

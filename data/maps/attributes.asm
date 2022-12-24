@@ -162,7 +162,9 @@ ENDM
 	map_attributes MetroidEnd, METROID_END, $00, 0
 	map_attributes MetroidCyberspaceExit, METROID_CYBERSPACE_EXIT, $00, 0
 
-	map_attributes Univercity, UNIVERCITY, $0A, 0
+	map_attributes Univercity, UNIVERCITY, $0A, SOUTH | WEST
+	connection south, RouteE, ROUTE_E, 5
+	connection west, RouteC, ROUTE_C, 4
 	map_attributes UnivercityPokecenter1F, UNIVERCITY_POKECENTER_1F, $00, 0
 	map_attributes UnivercityMart1F, UNIVERCITY_MART_1F, $00, 0
 	map_attributes UnivercityMart2F, UNIVERCITY_MART_2F, $00, 0
@@ -172,3 +174,24 @@ ENDM
 	map_attributes UnivercityMartRoof, UNIVERCITY_MART_ROOF, $24, 0
 	map_attributes UnivercityMartB1F, UNIVERCITY_MART_B1F, $00, 0
 	map_attributes CampusMission, CAMPUS_MISSION, $00, 0
+	map_attributes RouteC, ROUTE_C, $0A, NORTH |EAST
+	connection north, RouteD, ROUTE_D, 0
+	connection east, Univercity, UNIVERCITY, -4
+	map_attributes RouteD, ROUTE_D, $0A, SOUTH
+	connection south, RouteC, ROUTE_C, 0
+	map_attributes RouteE, ROUTE_E, $13, NORTH | EAST
+	connection north, Univercity, UNIVERCITY, -5
+	connection east, RouteF, ROUTE_F, 17
+	map_attributes RouteF, ROUTE_F, $13, WEST
+	connection west, RouteE, ROUTE_E, -17
+
+	map_attributes EeveeRanchExterior, EEVEE_RANCH_EXTERIOR, $80, 0 
+
+	map_attributes JungleGate, JUNGLE_GATE, $00, 0
+	map_attributes MuscleJungle, MUSCLE_JUNGLE, $01, NORTH
+	connection north, RouteG, ROUTE_G, 8
+	map_attributes RouteG, ROUTE_G, $2a, SOUTH | EAST
+	connection south, MuscleJungle, MUSCLE_JUNGLE, -8
+	connection east, VolcanoExterior, VOLCANO_EXTERIOR, -15
+	map_attributes VolcanoExterior, VOLCANO_EXTERIOR, $2a, WEST
+	connection west, RouteG, ROUTE_G, 15

@@ -17,14 +17,14 @@ Landmarks:
 	landmark  36,  92, CemetaryName
 	landmark  28,  92, RouteBName
 	landmark 116,  52, UnivercityName
-	landmark  76,  76, RuinsOfAlphName
-	landmark  84, 124, UnionCaveName
-	landmark  82, 124, Route33Name
-	landmark  68, 124, AzaleaTownName
-	landmark  70, 122, SlowpokeWellName
-	landmark  52, 120, IlexForestName
-	landmark  52, 112, Route34Name
-	landmark  52,  92, GoldenrodCityName
+	landmark 108,  15, RouteCName
+	landmark 108,  44, RouteDName
+	landmark 100,  44, EeveeRanchName
+	landmark 116,  60, RouteEName
+	landmark 124,  60, RouteFName
+	landmark 116,  44, MuscleJungleName
+	landmark 116,  36, RouteGName
+	landmark 124,  36, TheBrocanoName
 	landmark  50,  92, RadioTowerName
 	landmark  52,  76, Route35Name
 	landmark  52,  60, NationalParkName
@@ -218,3 +218,11 @@ RouteBName:          db "ROUTE¯B@"
 CemetaryName:		 db "Code¯Graveyard@"
 Cyberspace1Name:     db "CYBER¯SPACE@"
 UnivercityName:      db "UNIVERCITY@"
+RouteCName:          db "ROUTE¯C@"
+RouteDName:          db "ROUTE¯D@"
+EeveeRanchName:      db "RANCHALUTIONS@"
+RouteEName:          db "ROUTE¯E@"
+RouteFName:			 db "ROUTE¯F@"
+MuscleJungleName:    db "MUSCLE¯JUNGLE@"
+RouteGName:          db "ROUTE¯G@"
+TheBrocanoName:      db "THE¯BROCANO@"

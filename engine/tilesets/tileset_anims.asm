@@ -63,6 +63,7 @@ TilesetParkAnim:
 	dw NULL,  StandingTileFrame8
 	dw NULL,  DoneTileAnimation
 
+TilesetJungleAnim:
 TilesetForestAnim:
 	dw NULL,  ForestTreeLeftAnimation
 	dw NULL,  ForestTreeRightAnimation

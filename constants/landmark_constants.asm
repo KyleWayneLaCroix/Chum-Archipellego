@@ -11,14 +11,14 @@
 	const LANDMARK_CEMETARY          ; 06
 	const LANDMARK_ROUTE_B_N         ; 07
 	const LANDMARK_UNIVERCITY        ; 08
-	const LANDMARK_RUINS_OF_ALPH     ; 09
-	const LANDMARK_UNION_CAVE        ; 0a
-	const LANDMARK_ROUTE_33          ; 0b
-	const LANDMARK_AZALEA_TOWN       ; 0c
-	const LANDMARK_SLOWPOKE_WELL     ; 0d
-	const LANDMARK_ILEX_FOREST       ; 0e
-	const LANDMARK_ROUTE_34          ; 0f
-	const LANDMARK_GOLDENROD_CITY    ; 10
+	const LANDMARK_ROUTE_C           ; 09
+	const LANDMARK_ROUTE_D           ; 0a
+	const LANDMARK_EEVEE_RANCH       ; 0b
+	const LANDMARK_ROUTE_E           ; 0c
+	const LANDMARK_ROUTE_F           ; 0d
+	const LANDMARK_MUSCLE_JUNGLE     ; 0e
+	const LANDMARK_ROUTE_G           ; 0f
+	const LANDMARK_THE_BROCANO       ; 10
 	const LANDMARK_RADIO_TOWER       ; 11
 	const LANDMARK_ROUTE_35          ; 12
 	const LANDMARK_NATIONAL_PARK     ; 13
@@ -38,9 +38,9 @@
 	const LANDMARK_CIANWOOD_CITY     ; 21
 	const LANDMARK_ROUTE_42          ; 22
 	const LANDMARK_MT_MORTAR         ; 23
-	const LANDMARK_MAHOGANY_TOWN     ; 24
-	const LANDMARK_ROUTE_43          ; 25
-	const LANDMARK_LAKE_OF_RAGE      ; 26
+	const LANDMARK_ROUTE_43          ; 24
+	const LANDMARK_LAKE_OF_RAGE      ; 25
+	const LANDMARK_RUINS_OF_ALPH     ; 26
 	const LANDMARK_ROUTE_44          ; 27
 	const LANDMARK_ICE_PATH          ; 28
 	const LANDMARK_BLACKTHORN_CITY   ; 29

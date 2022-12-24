@@ -114,6 +114,9 @@ INCLUDE "gfx/tilesets/chumelago_palette_map.asm"
 TilesetMetroidPalMap:
 INCLUDE "gfx/tilesets/metroid_palette_map.asm"
 
+TilesetJunglePalMap:
+INCLUDE "gfx/tilesets/jungle_palette_map.asm"
+
 MapGroupPalettes: ; unreferenced
 ; entries correspond to MAPGROUP_* constants
 rept NUM_MAP_GROUPS

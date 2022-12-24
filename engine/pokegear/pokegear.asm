@@ -1525,9 +1525,9 @@ RadioChannels:
 	bit STATUSFLAGS_ROCKET_SIGNAL_F, a
 	jr z, .NoSignal
 	ld a, [wPokegearMapPlayerIconLandmark]
-	cp LANDMARK_MAHOGANY_TOWN
+	cp LANDMARK_GEAR_CITY
 	jr z, .ok
-	cp LANDMARK_ROUTE_43
+	cp LANDMARK_ROUTE_E
 	jr z, .ok
 	cp LANDMARK_LAKE_OF_RAGE
 	jr nz, .NoSignal

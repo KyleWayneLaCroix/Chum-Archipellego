@@ -79,6 +79,15 @@ INCLUDE "maps/DeptStore4F.asm"
 INCLUDE "maps/DeptStore5F.asm"
 INCLUDE "maps/DeptStoreRoof.asm"
 INCLUDE "maps/CampusMission.asm"
+INCLUDE "maps/RouteC.asm"
+INCLUDE "maps/RouteD.asm"
+INCLUDE "maps/RouteE.asm"
+INCLUDE "maps/RouteF.asm"
+INCLUDE "maps/RouteG.asm"
+INCLUDE "maps/EeveeRanchExterior.asm"
+INCLUDE "maps/JungleGate.asm"
+INCLUDE "maps/Jungle.asm"
+INCLUDE "maps/VolcanoExterior.asm"
 
 SECTION "Map Scripts 8", ROMX
 

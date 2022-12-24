@@ -11,7 +11,9 @@ OutdoorSprites:
 	dw BrologueGroupSprites
 	dw BrologueNorthGroupSprites
 	dw MetroidGroupSprites
-	DW PalAtollGroupSprites
+	dw PalAtollGroupSprites
+	dw EeveeRanchGroupSprites
+	dw JungleAreaGroupSprites
 	dw DungeonGroupSprites
 	assert_table_length NUM_MAP_GROUPS
 
@@ -111,6 +113,20 @@ PalAtollGroupSprites:
 	db SPRITE_GENTLEMAN
 	db SPRITE_SUPER_NERD
 	; 9 of max 9 walking sprites
+	db SPRITE_POKE_BALL
+	db SPRITE_FRUIT_TREE
+	db 0 ; end
+
+EeveeRanchGroupSprites:
+	db SPRITE_RED
+	; 1 of max 9 walking sprites
+	db SPRITE_POKE_BALL
+	db SPRITE_FRUIT_TREE
+	db 0 ; end
+
+JungleAreaGroupSprites:
+	db SPRITE_BRUNO
+	; 1 of max 9 walking sprites
 	db SPRITE_POKE_BALL
 	db SPRITE_FRUIT_TREE
 	db 0 ; end

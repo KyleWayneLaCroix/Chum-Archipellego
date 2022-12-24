@@ -295,3 +295,12 @@ INCBIN "data/tilesets/metroid_metatiles.bin"
 
 TilesetMetroidColl::
 INCLUDE "data/tilesets/metroid_collision.asm"
+
+TilesetJungleGFX::
+INCBIN "gfx/tilesets/jungle.2bpp.lz"
+
+TilesetJungleMeta::
+INCBIN "data/tilesets/jungle_metatiles.bin"
+
+TilesetJungleColl::
+INCLUDE "data/tilesets/jungle_collision.asm"

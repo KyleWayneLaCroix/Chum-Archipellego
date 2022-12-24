@@ -13,6 +13,9 @@ UnivercityFlypointCallback:
 	setflag ENGINE_FLYPOINT_UNIVERCITY
 	endcallback
 
+UnivercityFruitTree:
+	fruittree FRUITTREE_UNIVERCITY
+
 JSchoolSignScript:
 	jumptext JSchoolSignText
 
@@ -67,6 +70,7 @@ Univercity_MapEvents:
 	warp_event 15, 17, UNIVERCITY_POKECENTER_1F, 1
 	warp_event 23, 17, UNIVERCITY_MART_1F, 3
 	warp_event 15, 25, CAMPUS_MISSION, 1
+	warp_event 19,  5, JUNGLE_GATE, 1 
 
 	def_coord_events
 ;	coord_event x, y, scene_id, script
@@ -81,3 +85,4 @@ Univercity_MapEvents:
 
 	def_object_events
 ;	object_event x, y, sprite, movement, rx, ry, h1, h2, palette, type, range, script, event_flag
+	object_event 26, 28, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, UnivercityFruitTree, 0

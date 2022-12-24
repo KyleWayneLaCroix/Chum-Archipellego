@@ -77,6 +77,7 @@ GearCityNorthForestGate_Blocks:
 	INCBIN "maps/GateNorthWest.blk"
 
 NorthernForestRouteBGate_Blocks:
+JungleGate_Blocks:
 	INCBIN "maps/GateNorthSouth.blk"
 
 WardensCabin_Blocks:
@@ -166,6 +167,30 @@ UnivercityMartB1F_Blocks:
 
 CampusMission_Blocks:
 	INCBIN "maps/CampusMIssion.blk"
+
+RouteC_Blocks:
+	INCBIN "maps/RouteC.blk"
+
+RouteD_Blocks:
+	INCBIN "maps/RouteD.blk"
+
+RouteE_Blocks:
+	INCBIN "maps/RouteE.blk"
+
+RouteF_Blocks:
+	INCBIN "maps/RouteF.blk"
+
+RouteG_Blocks:
+	INCBIN "maps/RouteG.blk"
+
+EeveeRanchExterior_Blocks:
+	INCBIN "maps/EeveeRanchExterior.blk"
+
+MuscleJungle_Blocks:
+	INCBIN "maps/Jungle.blk"
+
+VolcanoExterior_Blocks:
+	INCBIN "maps/VolcanoExterior.blk"
 
 SECTION "Map Blocks 6", ROMX
 

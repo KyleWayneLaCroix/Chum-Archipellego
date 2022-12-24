@@ -44,4 +44,5 @@ Tilesets::
 	tileset TilesetForest
 	tileset TilesetChumelago
 	tileset TilesetMetroid
+	tileset TilesetJungle
 	assert_table_length NUM_TILESETS + 1

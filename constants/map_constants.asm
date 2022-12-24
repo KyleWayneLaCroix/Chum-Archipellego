@@ -111,9 +111,24 @@ ENDM
 	map_const UNIVERCITY_MART_ROOF,             8,  4 ;  8
 	map_const UNIVERCITY_MART_B1F,             10, 10 ;  9
 	map_const CAMPUS_MISSION,                   8,  5 ; 10
+	map_const ROUTE_C,                         19,  9 ; 11
+	map_const ROUTE_D,                          9, 20 ; 12
+	map_const ROUTE_E,                         10, 27 ; 13
+	map_const ROUTE_F,                         10, 27 ; 14
 	endgroup
 
-	newgroup DUNGEONS                                 ;  9
+	newgroup EEVEE_RANCH                              ;  9
+	map_const EEVEE_RANCH_EXTERIOR,            16, 20 ;  1
+	endgroup
+
+	newgroup JUNGLE_AREA                              ; 10
+	map_const JUNGLE_GATE,                      5,  5 ;  1
+	map_const MUSCLE_JUNGLE,                   26, 27 ;  2
+	map_const ROUTE_G,                         30,  9 ;  3
+	map_const VOLCANO_EXTERIOR,                29, 28 ;  4
+	endgroup
+
+	newgroup DUNGEONS                                 ; 11
 	map_const DANK_CAVE_1F,                    22,  7 ;  1
 	map_const DANK_CAVE_2F,                    16, 14 ;  2
 	map_const NORTHERN_FOREST,                 20, 30 ;  3
