@@ -337,6 +337,6 @@ UnivercityMartB1F_MapEvents:
 	object_event 12, 16, SPRITE_RECEPTIONIST, SPRITEMOVEDATA_STANDING_UP,     0, 0, -1, -1, 0,             OBJECTTYPE_SCRIPT, 0, UnivercityMartB1FSecretaryScript, 0
 	object_event  6,  6, SPRITE_CLERK,        SPRITEMOVEDATA_STANDING_UP,     0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, UnivercityMartB1FClerkScript, 0
 	object_event  2, 14, SPRITE_POKE_BALL,    SPRITEMOVEDATA_STILL,           0, 0, -1, -1, 0,             OBJECTTYPE_ITEMBALL,0, UnivercityMartB1FFullRestore, EVENT_UNIVERCITY_MART_B1F_FULL_RESTORE
-	object_event  3,  6, SPRITE_POKE_BALL,    SPRITEMOVEDATA_STILL,           0, 0, -1, -1, 0,             OBJECTTYPE_ITEMBALL,0, UnivercityMartB1FUltraBall, EVENT_UNIVERCITY_MART_B1F_ULTRA_BALL
+	object_event  3,  7, SPRITE_POKE_BALL,    SPRITEMOVEDATA_STILL,           0, 0, -1, -1, 0,             OBJECTTYPE_ITEMBALL,0, UnivercityMartB1FUltraBall, EVENT_UNIVERCITY_MART_B1F_ULTRA_BALL
 	object_event 18,  1, SPRITE_POKE_BALL,    SPRITEMOVEDATA_STILL,           0, 0, -1, -1, 0,             OBJECTTYPE_ITEMBALL,0, UnivercityMartB1FHPUp, EVENT_UNIVERCITY_MART_B1F_HP_UP
 	object_event 17, 17, SPRITE_N64,          SPRITEMOVEDATA_STILL,           0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER,0, UnivercityMartB1FN64BrianScript, EVENT_BEAT_BRIAN_64_1

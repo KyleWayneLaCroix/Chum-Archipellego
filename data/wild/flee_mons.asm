@@ -2,7 +2,6 @@ FleeMons:
 ; referenced by TryEnemyFlee and FastBallMultiplier
 
 SometimesFleeMons:
-	db UNOWN
 	db -1
 
 OftenFleeMons:
