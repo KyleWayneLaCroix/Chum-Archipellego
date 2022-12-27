@@ -23,7 +23,7 @@ TreeMonSet_City:
 	db 15, GRUBBIN, GRUBBIN, 10
 	db 10, EMOLGA, EMOLGA, 10
 	db 5, SCIZOR, SCIZOR, 10
-	db 5, CHATOT, CHATOT, 10
+	db 4, CHATOT, CHATOT, 10
 	db -1
 ; rare
 	db 50, CHATOT, CHATOT, 10
@@ -31,7 +31,7 @@ TreeMonSet_City:
 	db 15, GRUBBIN, GRUBBIN, 10
 	db 10, EMOLGA, EMOLGA, 10
 	db 5, ROOKIDEE, ROOKIDEE, 10
-	db 5, SCIZOR, SCIZOR, 10
+	db 4, SCIZOR, SCIZOR, 10
 	db -1
 
 TreeMonSet_Canyon:
@@ -41,7 +41,7 @@ TreeMonSet_Canyon:
 	db 15, TEDDIURSA, TEDDIURSA, 10
 	db 10, SIZZLIPEDE, SIZZLIPEDE, 10
 	db 5, NOIBAT, NOIBAT, 10
-	db 5, KLEAVOR, KLEAVOR, 10
+	db 4, KLEAVOR, KLEAVOR, 10
 	db -1
 ; rare
 	db 50, NOIBAT, NOIBAT, 10
@@ -49,7 +49,7 @@ TreeMonSet_Canyon:
 	db 15, SIZZLIPEDE, SIZZLIPEDE, 10
 	db 10, TEDDIURSA, TEDDIURSA, 10
 	db 5, WOOBAT, WOOBAT, 10
-	db 5, KLEAVOR, KLEAVOR, 10
+	db 4, KLEAVOR, KLEAVOR, 10
 	db -1
 
 TreeMonSet_Town:
