@@ -1090,7 +1090,9 @@ WhiteGirlGroup:
 
 	; WHITE_GIRL (3)
 	db "JULIE@", TRAINERTYPE_NORMAL
-	db 15, TOUCANNON
+	db 15, MUNNA
+	db 13, CHERUBI
+	db 12, FOMANTIS
 	db -1 ; end
 
 	; WHITE_GIRL (4)
@@ -1534,17 +1536,16 @@ BugCatcherGroup:
 
 	; BUG_CATCHER (3)
 	db "ED@", TRAINERTYPE_NORMAL
-	db 30, SIRFETCHD
-	db 30, SIRFETCHD
-	db 30, SIRFETCHD
+	db 10, DEWPIDER
+	db 11, HERACROSS
+	db 12, YANMA
 	db -1 ; end
 
 	; BUG_CATCHER (4)
 	db "WADE@", TRAINERTYPE_NORMAL
-	db  2, ROOKIDEE
-	db  2, ROOKIDEE
-	db  3, FARFETCHD
-	db  2, ROOKIDEE
+	db 10, SCYTHER
+	db 10, SCIZOR
+	db 10, KLEAVOR
 	db -1 ; end
 
 	; BUG_CATCHER (5)
@@ -1656,7 +1657,8 @@ FisherGroup:
 
 	; FISHER (3)
 	db "ARNOLD@", TRAINERTYPE_NORMAL
-	db 34, MORELULL
+	db 28, SKRELP
+	db 31, MAREANIE
 	db -1 ; end
 
 	; FISHER (4)
@@ -2314,9 +2316,9 @@ HikerGroup:
 
 	; HIKER (3)
 	db "PHILLIP@", TRAINERTYPE_NORMAL
-	db 23, SHIINOTIC
-	db 23, SHIINOTIC
-	db 23, ALOMOMOLA
+	db 13, AMAURA
+	db 13, SANDYGAST
+	db 13, TIRTOUGA
 	db -1 ; end
 
 	; HIKER (4)
@@ -2808,7 +2810,8 @@ PicnickerGroup:
 
 	; PICNICKER (3)
 	db "BROOKE@", TRAINERTYPE_MOVES
-	db 16, VIKAVOLT,    THUNDERSHOCK, GROWL, QUICK_ATTACK, DOUBLE_TEAM
+	db 13, DEERLING,	DOUBLE_KICK,	TACKLE,		LEAFAGE,	LEECH_SEED
+	db 13, CHERUBI,		TACKLE,			RAZOR_LEAF,	LEECH_SEED, MAGICAL_LEAF
 	db -1 ; end
 
 	; PICNICKER (4)
@@ -3118,9 +3121,9 @@ PhotographerGroup:
 
 	; Photographer (2)
 	db "NICO@", TRAINERTYPE_NORMAL
-	db  3, LUDICOLO
-	db  3, LUDICOLO
-	db  3, LUDICOLO
+	db  10, EMOLGA
+	db  14, CHARJABUG
+	db  12, JOLTEON
 	db -1 ; end
 
 	; Photographer (3)
@@ -3574,6 +3577,14 @@ TreeBrianGroup:
 	db  8, CHERUBI
 	db  6, FOMANTIS
 	db 12, APPLIN
+	db -1 ; end
+
+	; TREE_BRIAN (2)
+	db "BRIAN@", TRAINERTYPE_NORMAL
+	db 12, APPLIN
+	db 10, EXEGGUTOR
+	db  8, BURGELA
+	db 12, FOMANTIS
 	db -1 ; end
 
 RockBrianGroup:

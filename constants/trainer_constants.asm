@@ -717,6 +717,7 @@ DEF KRIS EQU __trainer_class__
 
 	trainerclass TREE_BRIAN ; 47
 	const TREEBRIAN_1
+	const TREEBRIAN_2
 
 	trainerclass ROCK_BRIAN ; 48
 	const ROCKBRIAN_1
