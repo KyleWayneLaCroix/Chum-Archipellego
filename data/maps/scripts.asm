@@ -84,6 +84,7 @@ INCLUDE "maps/CampusMission.asm"
 SECTION "Map Scripts 8", ROMX
 INCLUDE "maps/RouteC.asm"
 INCLUDE "maps/RouteD.asm"
+INCLUDE "maps/RouteDNameRaterHouse.asm"
 INCLUDE "maps/RouteE.asm"
 INCLUDE "maps/RouteF.asm"
 INCLUDE "maps/RouteG.asm"

@@ -73,6 +73,9 @@ GearCityWhiltenHouse_Blocks:
 OldFisherFellowHouse_Blocks:
 	INCBIN "maps/House1.blk"
 
+RouteDNameRaterHouse_Blocks:
+	INCBIN "maps/House2.blk"
+
 GearCityNorthForestGate_Blocks:
 	INCBIN "maps/GateNorthWest.blk"
 

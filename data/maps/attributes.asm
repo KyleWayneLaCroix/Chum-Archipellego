@@ -179,6 +179,7 @@ ENDM
 	connection east, Univercity, UNIVERCITY, -4
 	map_attributes RouteD, ROUTE_D, $0A, SOUTH
 	connection south, RouteC, ROUTE_C, 0
+	map_attributes RouteDNameRaterHouse, ROUTE_D_NAME_RATER_HOUSE, $00, 0
 	map_attributes RouteE, ROUTE_E, $13, NORTH | EAST
 	connection north, Univercity, UNIVERCITY, -5
 	connection east, RouteF, ROUTE_F, 17

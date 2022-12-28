@@ -23,6 +23,9 @@ RouteC_MapScripts:
 	def_callbacks
 ;	callback type, script
 
+RouteCHiddenFullHeal:
+	hiddenitem FULL_HEAL, EVENT_ROUTE_C_HIDDEN_FULL_HEAL
+
 RouteCXAttack:
 	itemball X_ATTACK
 
@@ -419,6 +422,7 @@ RouteC_MapEvents:
 	def_bg_events
 ;	bg_event x, y, type, script
 	bg_event 35, 9, BGEVENT_READ, RouteCSignScript
+	bg_event  9,  1, BGEVENT_ITEM, RouteCHiddenFullHeal
 
 	def_object_events
 ;	object_event x, y, sprite, movement, rx, ry, h1, h2, palette, type, range, script, event_flag

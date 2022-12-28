@@ -311,7 +311,7 @@ DEF KRIS EQU __trainer_class__
 	const GRUNTM_31
 
 	trainerclass GENTLEMAN ; 20
-	const PRESTON
+	const NICK_B
 	const EDWARD
 	const GREGORY
 	const VIRGIL ; unused
@@ -526,7 +526,7 @@ DEF KRIS EQU __trainer_class__
 	const IRWIN4 ; unused
 
 	trainerclass BLACKBELT_T ; 32
-	const DANIEL ; unused
+	const DANIEL
 	const YOSHI
 	const KENJI2 ; unused
 	const LAO

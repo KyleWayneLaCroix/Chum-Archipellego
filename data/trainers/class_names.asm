@@ -32,7 +32,7 @@ TrainerClassNames::
 	li "WHITE GIRL"
 	li "WEIRDO"
 	li "ROCKET"
-	li "GENTLEMAN"
+	li "FEDORAMAN"
 	li "SKIER"
 	li "TEACHER"
 	li "LEADER"
