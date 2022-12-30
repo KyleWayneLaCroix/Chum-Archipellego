@@ -64,6 +64,7 @@ HallOfFame_Blocks:
 RouteAPokecenter1F_Blocks:
 UnivercityPokecenter1F_Blocks:
 GearCityPokecenter1F_Blocks:
+EeveeRanchPokecenter1F_Blocks:
 	INCBIN "maps/Pokecenter1F.blk"
 
 GearCityMart_Blocks:
@@ -188,6 +189,12 @@ RouteG_Blocks:
 
 EeveeRanchExterior_Blocks:
 	INCBIN "maps/EeveeRanchExterior.blk"
+
+EeveeRanchInterior_Blocks:
+	INCBIN "maps/EeveeRanchInterior.blk"
+
+EeveeRanchGroomers_Blocks:
+	INCBIN "maps/EeveeRanchGroomers.blk"
 
 MuscleJungle_Blocks:
 	INCBIN "maps/Jungle.blk"

@@ -120,6 +120,15 @@ PalAtollGroupSprites:
 EeveeRanchGroupSprites:
 	db SPRITE_RED
 	; 1 of max 9 walking sprites
+	db SPRITE_EEVEE
+	db SPRITE_VAPOREON
+	db SPRITE_JOLTEON
+	db SPRITE_FLAREON
+	db SPRITE_ESPEON
+	db SPRITE_UMBREON
+	db SPRITE_GLACEON
+	db SPRITE_LEAFEON
+	db SPRITE_SYLVEON
 	db SPRITE_POKE_BALL
 	db SPRITE_FRUIT_TREE
 	db 0 ; end

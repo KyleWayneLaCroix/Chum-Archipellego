@@ -302,8 +302,6 @@ SECTION "bank23", ROMX
 
 INCLUDE "engine/tilesets/timeofday_pals.asm"
 INCLUDE "engine/battle/battle_transition.asm"
-INCLUDE "engine/events/field_moves.asm"
-INCLUDE "engine/events/magnet_train.asm"
 INCLUDE "engine/battle/battlestart_copytilemapatonce.asm"
 INCLUDE "engine/gfx/sprites.asm"
 INCLUDE "engine/gfx/mon_icons.asm"
@@ -316,7 +314,7 @@ INCLUDE "engine/rtc/timeset.asm"
 INCLUDE "engine/pokegear/pokegear.asm"
 INCLUDE "engine/events/fish.asm"
 INCLUDE "engine/games/slot_machine.asm"
-
+INCLUDE "engine/events/field_moves.asm"
 
 SECTION "Phone Scripts 1", ROMX
 
@@ -422,6 +420,7 @@ INCLUDE "engine/games/card_flip.asm"
 INCLUDE "engine/games/unown_puzzle.asm"
 INCLUDE "engine/games/memory_game.asm"
 INCLUDE "engine/pokemon/bills_pc.asm"
+INCLUDE "engine/events/magnet_train.asm"
 
 
 SECTION "bank39", ROMX

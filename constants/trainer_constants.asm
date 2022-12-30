@@ -724,6 +724,7 @@ DEF KRIS EQU __trainer_class__
 
 	trainerclass MAD_DOG ; 49
 	const BRIAN_1
+	const BRIANEON
 
 	trainerclass GHOST_T ; 50
 	const CG_GHOST

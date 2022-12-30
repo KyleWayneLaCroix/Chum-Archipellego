@@ -120,6 +120,9 @@ ENDM
 
 	newgroup EEVEE_RANCH                              ;  9
 	map_const EEVEE_RANCH_EXTERIOR,            16, 20 ;  1
+	map_const EEVEE_RANCH_POKECENTER_1F,        5,  4 ;  2
+	map_const EEVEE_RANCH_INTERIOR,             9,  7 ;  3
+	map_const EEVEE_RANCH_GROOMERS,             8,  6 ;  4
 	endgroup
 
 	newgroup JUNGLE_AREA                              ; 10

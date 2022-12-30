@@ -77,6 +77,7 @@ EngineFlags:
 	engine_flag wVisitedSpawns, SPAWN_AWAKENING_BEACH
 	engine_flag wVisitedSpawns, SPAWN_GEAR_CITY
 	engine_flag wVisitedSpawns, SPAWN_UNIVERCITY
+	engine_flag wVisitedSpawns, SPAWN_EEVEE_RANCH
 	engine_flag wVisitedSpawns, SPAWN_INDIGO
 
 	engine_flag wLuckyNumberShowFlag, LUCKYNUMBERSHOW_GAME_OVER_F

@@ -36,4 +36,13 @@ SpriteMons:
 	db ANGORE
 	db BUZZWOLE
 	db FURIOUSB
+	db EEVEE
+	db VAPOREON
+	db JOLTEON
+	db FLAREON
+	db ESPEON
+	db UMBREON
+	db GLACEON
+	db LEAFEON
+	db SYLVEON
 	assert_table_length NUM_POKEMON_SPRITES

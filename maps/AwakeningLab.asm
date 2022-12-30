@@ -175,6 +175,8 @@ AwakeningLabHealingMachine:
 	setflag ENGINE_UNLOCKED_UNOWNS_X_TO_Z
 	giveitem CHAINSAW
 	giveitem PDA
+	giveitem ICE_STONE
+	giveitem LEAF_STONE
 	giveitem MASTER_BALL, 99
 	giveitem RARE_CANDY, 99
 	giveitem NUGGET, 99
@@ -518,7 +520,7 @@ AwakeningLab_MapEvents:
 	def_warp_events
 	warp_event 25, 19, AWAKENING_BEACH, 1
 	warp_event 24, 19, AWAKENING_BEACH, 1
-	warp_event 27, 16, UNIVERCITY, 2
+	warp_event 27, 16, EEVEE_RANCH_EXTERIOR, 2
 
 	def_coord_events
 	coord_event 26,  6, SCENE_AWAKENINGLAB_WOKE_UP, WakeUpScript

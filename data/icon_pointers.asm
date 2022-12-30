@@ -40,4 +40,13 @@ IconPointers:
 	dw SlowpokeIcon
 	dw SudowoodoIcon
 	dw BigmonIcon
+	dw EeveeIcon
+	dw VaporeonIcon
+	dw JolteonIcon
+	dw FlareonIcon
+	dw EspeonIcon
+	dw UmbreonIcon
+	dw GlaceonIcon
+	dw LeafeonIcon
+	dw SylveonIcon
 	assert_table_length NUM_ICONS + 1

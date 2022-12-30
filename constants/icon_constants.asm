@@ -39,6 +39,15 @@
 	const ICON_SLOWPOKE
 	const ICON_SUDOWOODO
 	const ICON_BIGMON
+	const ICON_EEVEE
+	const ICON_VAPOREON
+	const ICON_JOLTEON
+	const ICON_FLAREON
+	const ICON_ESPEON
+	const ICON_UMBREON
+	const ICON_GLACEON
+	const ICON_LEAFEON
+	const ICON_SYLVEON
 DEF NUM_ICONS EQU const_value - 1
 
 ; LoadMenuMonIcon.Jumptable indexes (see engine/gfx/mon_icons.asm)
