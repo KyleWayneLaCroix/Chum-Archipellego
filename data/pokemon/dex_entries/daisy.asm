@@ -1,6 +1,6 @@
 
 	db "Shy Dog@" ; species name
-	dw 0, 0 ; height, weight
+	dw 1, 1 ; height, weight
 
 	db   "There is much to"
     next "learn about this"

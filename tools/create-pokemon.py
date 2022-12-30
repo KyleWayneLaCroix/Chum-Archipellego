@@ -350,9 +350,10 @@ def updatePokeIcons(pokeMenuIcons, pokeConstants):
 # Dex Data Handling
 def createDexData(poke):
     nameLower = poke["constant"].lower()
+    print(nameLower)
     species = poke["species name"]
-    height = poke["Height"]
-    weight = poke["Weight"]
+    height = int(poke["Height"])
+    weight = int(poke["Weight"])
     PokeDexP1L1 = poke["PokeDexP1L1"]
     PokeDexP1L2 = poke["PokeDexP1L2"]
     PokeDexP1L3 = poke["PokeDexP1L3"]
@@ -889,29 +890,29 @@ for row in pokeEggs.to_dict(orient="records"):
         pokeEggMoves[row["pokemon"]] = []
     pokeEggMoves[row["pokemon"]].append(row["move"])
 
-# updatePokeConstants(pokeConstants)
-# updatePokeNames(pokeNames)
+updatePokeConstants(pokeConstants)
+updatePokeNames(pokeNames)
 updatePokeBaseStats(pokeConstants)
 updateEvosAttacksPointers(pokeConstants)
 updateEvosAttacks(pokeConstants, pokeEvosAttacks)
-# updateEggMoves(pokeConstants, pokeEggMoves)
-# updateDexEntryPointers(pokeConstants)
-# updatePokeIcons(pokeMenuIcons, pokeConstants)
-# updateDexEntriesFile(pokeConstants)
-# updateDexOrderNew(pokeConstants)
-# updateDexOrderAlpha(pokeConstants)
-# createSpritePlaceholders(pokeConstants)
-# updatePicPointers(pokeConstants)
-# updatePalettes(pokeConstants)
-# updateAnimPointers(pokeConstants)
-# updateAnims(pokeConstants)
-# updateIdlePointers(pokeConstants)
-# updateIdles(pokeConstants)
-# updateBitmaskPointers(pokeConstants)
-# updateBitmasks(pokeConstants)
-# updateFramePointers(pokeConstants)
-# updateFrames(pokeConstants)
-# updateGen1Order(pokeConstants)
+updateEggMoves(pokeConstants, pokeEggMoves)
+updateDexEntryPointers(pokeConstants)
+updatePokeIcons(pokeMenuIcons, pokeConstants)
+updateDexEntriesFile(pokeConstants)
+updateDexOrderNew(pokeConstants)
+updateDexOrderAlpha(pokeConstants)
+createSpritePlaceholders(pokeConstants)
+updatePicPointers(pokeConstants)
+updatePalettes(pokeConstants)
+updateAnimPointers(pokeConstants)
+updateAnims(pokeConstants)
+updateIdlePointers(pokeConstants)
+updateIdles(pokeConstants)
+updateBitmaskPointers(pokeConstants)
+updateBitmasks(pokeConstants)
+updateFramePointers(pokeConstants)
+updateFrames(pokeConstants)
+updateGen1Order(pokeConstants)
 # removeEZChatOrder()
 # updateBuenasPasswords(pokeConstants)
 

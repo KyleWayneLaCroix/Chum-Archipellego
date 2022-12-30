@@ -7,9 +7,6 @@ PokedexDataPointerTable:
 	dw LitwickPokedexEntry
 	dw LampentPokedexEntry
 	dw ChandelurePokedexEntry
-	dw HonedgePokedexEntry
-	dw DoubladePokedexEntry
-	dw AegislashPokedexEntry
 	dw RookideePokedexEntry
 	dw CorvisquirePokedexEntry
 	dw CorviknightPokedexEntry
@@ -86,8 +83,8 @@ PokedexDataPointerTable:
 	dw BeldumPokedexEntry
 	dw MetangPokedexEntry
 	dw MetagrossPokedexEntry
-	dw JoltikPokedexEntry
-	dw GalvantulaPokedexEntry
+	dw LarvestaPokedexEntry
+	dw VolcaronaPokedexEntry
 	dw ShroomishPokedexEntry
 	dw BreloomPokedexEntry
 	dw MunnaPokedexEntry
@@ -117,6 +114,8 @@ PokedexDataPointerTable:
 	dw ScizorPokedexEntry
 	dw KleavorPokedexEntry
 	dw HeracrossPokedexEntry
+	dw CombeePokedexEntry
+	dw VespiquenPokedexEntry
 	dw KoffingPokedexEntry
 	dw WeezingPokedexEntry
 	dw GrimerPokedexEntry
@@ -191,6 +190,7 @@ PokedexDataPointerTable:
 	dw GlaceonPokedexEntry
 	dw LeafeonPokedexEntry
 	dw SylveonPokedexEntry
+	dw BuzzeonPokedexEntry
 	dw DurantPokedexEntry
 	dw SwinubPokedexEntry
 	dw PiloswinePokedexEntry

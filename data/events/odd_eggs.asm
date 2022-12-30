@@ -27,7 +27,7 @@ DEF prob_total = 0
 ; LITWICK
 	prob 12
 	prob 2
-; HONEDGE
+; PORYGON
 	prob 10
 	prob 1
 	assert_table_length NUM_ODD_EGGS
@@ -348,7 +348,7 @@ OddEggs:
 	bigdw 11 ; SDef
 	db "EGG@@@@@@@@"
 
-	db HONEDGE
+	db PORYGON
 	db NO_ITEM
 	db TACKLE, SWEET_KISS, 0, 0
 	dw 02560 ; OT ID
@@ -374,7 +374,7 @@ OddEggs:
 	bigdw 8 ; SDef
 	db "EGG@@@@@@@@"
 
-	db HONEDGE
+	db PORYGON
 	db NO_ITEM
 	db TACKLE, SWEET_KISS, 0, 0
 	dw 00256 ; OT ID

@@ -6,9 +6,6 @@ FramesPointers:
 	dw LitwickFrames
 	dw LampentFrames
 	dw ChandelureFrames
-	dw HonedgeFrames
-	dw DoubladeFrames
-	dw AegislashFrames
 	dw RookideeFrames
 	dw CorvisquireFrames
 	dw CorviknightFrames
@@ -85,8 +82,8 @@ FramesPointers:
 	dw BeldumFrames
 	dw MetangFrames
 	dw MetagrossFrames
-	dw JoltikFrames
-	dw GalvantulaFrames
+	dw LarvestaFrames
+	dw VolcaronaFrames
 	dw ShroomishFrames
 	dw BreloomFrames
 	dw MunnaFrames
@@ -116,6 +113,8 @@ FramesPointers:
 	dw ScizorFrames
 	dw KleavorFrames
 	dw HeracrossFrames
+	dw CombeeFrames
+	dw VespiquenFrames
 	dw KoffingFrames
 	dw WeezingFrames
 	dw GrimerFrames
@@ -190,6 +189,7 @@ FramesPointers:
 	dw GlaceonFrames
 	dw LeafeonFrames
 	dw SylveonFrames
+	dw BuzzeonFrames
 	dw DurantFrames
 	dw SwinubFrames
 	dw PiloswineFrames

@@ -6,9 +6,6 @@ AnimationIdlePointers:
 	dw LitwickAnimationIdle
 	dw LampentAnimationIdle
 	dw ChandelureAnimationIdle
-	dw HonedgeAnimationIdle
-	dw DoubladeAnimationIdle
-	dw AegislashAnimationIdle
 	dw RookideeAnimationIdle
 	dw CorvisquireAnimationIdle
 	dw CorviknightAnimationIdle
@@ -85,8 +82,8 @@ AnimationIdlePointers:
 	dw BeldumAnimationIdle
 	dw MetangAnimationIdle
 	dw MetagrossAnimationIdle
-	dw JoltikAnimationIdle
-	dw GalvantulaAnimationIdle
+	dw LarvestaAnimationIdle
+	dw VolcaronaAnimationIdle
 	dw ShroomishAnimationIdle
 	dw BreloomAnimationIdle
 	dw MunnaAnimationIdle
@@ -116,6 +113,8 @@ AnimationIdlePointers:
 	dw ScizorAnimationIdle
 	dw KleavorAnimationIdle
 	dw HeracrossAnimationIdle
+	dw CombeeAnimationIdle
+	dw VespiquenAnimationIdle
 	dw KoffingAnimationIdle
 	dw WeezingAnimationIdle
 	dw GrimerAnimationIdle
@@ -190,6 +189,7 @@ AnimationIdlePointers:
 	dw GlaceonAnimationIdle
 	dw LeafeonAnimationIdle
 	dw SylveonAnimationIdle
+	dw BuzzeonAnimationIdle
 	dw DurantAnimationIdle
 	dw SwinubAnimationIdle
 	dw PiloswineAnimationIdle

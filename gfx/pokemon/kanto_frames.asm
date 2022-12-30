@@ -12,12 +12,6 @@ LampentFrames:    INCLUDE "gfx/pokemon/lampent/frames.asm"
 
 ChandelureFrames: INCLUDE "gfx/pokemon/chandelure/frames.asm"
 
-HonedgeFrames:    INCLUDE "gfx/pokemon/honedge/frames.asm"
-
-DoubladeFrames:   INCLUDE "gfx/pokemon/doublade/frames.asm"
-
-AegislashFrames:  INCLUDE "gfx/pokemon/aegislash/frames.asm"
-
 RookideeFrames:   INCLUDE "gfx/pokemon/rookidee/frames.asm"
 
 CorvisquireFrames: INCLUDE "gfx/pokemon/corvisquire/frames.asm"
@@ -170,9 +164,9 @@ MetangFrames:     INCLUDE "gfx/pokemon/metang/frames.asm"
 
 MetagrossFrames:  INCLUDE "gfx/pokemon/metagross/frames.asm"
 
-JoltikFrames:     INCLUDE "gfx/pokemon/joltik/frames.asm"
+LarvestaFrames:   INCLUDE "gfx/pokemon/larvesta/frames.asm"
 
-GalvantulaFrames: INCLUDE "gfx/pokemon/galvantula/frames.asm"
+VolcaronaFrames:  INCLUDE "gfx/pokemon/volcarona/frames.asm"
 
 ShroomishFrames:  INCLUDE "gfx/pokemon/shroomish/frames.asm"
 
@@ -231,6 +225,10 @@ ScizorFrames:     INCLUDE "gfx/pokemon/scizor/frames.asm"
 KleavorFrames:    INCLUDE "gfx/pokemon/kleavor/frames.asm"
 
 HeracrossFrames:  INCLUDE "gfx/pokemon/heracross/frames.asm"
+
+CombeeFrames:     INCLUDE "gfx/pokemon/combee/frames.asm"
+
+VespiquenFrames:  INCLUDE "gfx/pokemon/vespiquen/frames.asm"
 
 KoffingFrames:    INCLUDE "gfx/pokemon/koffing/frames.asm"
 
@@ -301,3 +299,5 @@ Kommo_oFrames:    INCLUDE "gfx/pokemon/kommo_o/frames.asm"
 LillipupFrames:   INCLUDE "gfx/pokemon/lillipup/frames.asm"
 
 HerdierFrames:    INCLUDE "gfx/pokemon/herdier/frames.asm"
+
+StoutlandFrames:  INCLUDE "gfx/pokemon/stoutland/frames.asm"

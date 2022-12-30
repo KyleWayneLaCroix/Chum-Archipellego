@@ -6,9 +6,6 @@ BitmasksPointers:
 	dw LitwickBitmasks
 	dw LampentBitmasks
 	dw ChandelureBitmasks
-	dw HonedgeBitmasks
-	dw DoubladeBitmasks
-	dw AegislashBitmasks
 	dw RookideeBitmasks
 	dw CorvisquireBitmasks
 	dw CorviknightBitmasks
@@ -85,8 +82,8 @@ BitmasksPointers:
 	dw BeldumBitmasks
 	dw MetangBitmasks
 	dw MetagrossBitmasks
-	dw JoltikBitmasks
-	dw GalvantulaBitmasks
+	dw LarvestaBitmasks
+	dw VolcaronaBitmasks
 	dw ShroomishBitmasks
 	dw BreloomBitmasks
 	dw MunnaBitmasks
@@ -116,6 +113,8 @@ BitmasksPointers:
 	dw ScizorBitmasks
 	dw KleavorBitmasks
 	dw HeracrossBitmasks
+	dw CombeeBitmasks
+	dw VespiquenBitmasks
 	dw KoffingBitmasks
 	dw WeezingBitmasks
 	dw GrimerBitmasks
@@ -190,6 +189,7 @@ BitmasksPointers:
 	dw GlaceonBitmasks
 	dw LeafeonBitmasks
 	dw SylveonBitmasks
+	dw BuzzeonBitmasks
 	dw DurantBitmasks
 	dw SwinubBitmasks
 	dw PiloswineBitmasks
