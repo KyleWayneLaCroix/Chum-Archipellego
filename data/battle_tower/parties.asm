@@ -3165,7 +3165,7 @@ BattleTowerMons:
 	bigdw 165 ; SDef
 	db "RU-ZIyuRA@@"
 
-	db AEGISLASH
+	db JUNGELA
 	db GOLD_BERRY
 	db SURF, EARTHQUAKE, RAPID_SPIN, BLIZZARD
 	dw 0 ; OT ID
@@ -3818,7 +3818,7 @@ BattleTowerMons:
 	bigdw 159 ; SDef
 	db "RIZA-DON@@@"
 
-	db AEGISLASH
+	db JUNGELA
 	db QUICK_CLAW
 	db HYDRO_PUMP, ICE_PUNCH, HYPER_BEAM, IRON_TAIL
 	dw 0 ; OT ID

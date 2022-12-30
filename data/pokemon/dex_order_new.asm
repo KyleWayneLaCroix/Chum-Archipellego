@@ -8,9 +8,6 @@ NewPokedexOrder:
 	db LITWICK
 	db LAMPENT
 	db CHANDELURE
-	db HONEDGE
-	db DOUBLADE
-	db AEGISLASH
 	db ROOKIDEE
 	db CORVISQUIRE
 	db CORVIKNIGHT
@@ -87,8 +84,8 @@ NewPokedexOrder:
 	db BELDUM
 	db METANG
 	db METAGROSS
-	db JOLTIK
-	db GALVANTULA
+	db LARVESTA
+	db VOLCARONA
 	db SHROOMISH
 	db BRELOOM
 	db MUNNA
@@ -118,6 +115,8 @@ NewPokedexOrder:
 	db SCIZOR
 	db KLEAVOR
 	db HERACROSS
+	db COMBEE
+	db VESPIQUEN
 	db KOFFING
 	db WEEZING
 	db GRIMER
@@ -192,6 +191,7 @@ NewPokedexOrder:
 	db GLACEON
 	db LEAFEON
 	db SYLVEON
+	db BUZZEON
 	db DURANT
 	db SWINUB
 	db PILOSWINE

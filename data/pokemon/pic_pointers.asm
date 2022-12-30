@@ -15,12 +15,6 @@ PokemonPicPointers::
 	dba LampentBackpic
 	dba ChandelureFrontpic
 	dba ChandelureBackpic
-	dba HonedgeFrontpic
-	dba HonedgeBackpic
-	dba DoubladeFrontpic
-	dba DoubladeBackpic
-	dba AegislashFrontpic
-	dba AegislashBackpic
 	dba RookideeFrontpic
 	dba RookideeBackpic
 	dba CorvisquireFrontpic
@@ -177,10 +171,10 @@ PokemonPicPointers::
 	dba MetangBackpic
 	dba MetagrossFrontpic
 	dba MetagrossBackpic
-	dba JoltikFrontpic
-	dba JoltikBackpic
-	dba GalvantulaFrontpic
-	dba GalvantulaBackpic
+	dba LarvestaFrontpic
+	dba LarvestaBackpic
+	dba VolcaronaFrontpic
+	dba VolcaronaBackpic
 	dba ShroomishFrontpic
 	dba ShroomishBackpic
 	dba BreloomFrontpic
@@ -239,6 +233,10 @@ PokemonPicPointers::
 	dba KleavorBackpic
 	dba HeracrossFrontpic
 	dba HeracrossBackpic
+	dba CombeeFrontpic
+	dba CombeeBackpic
+	dba VespiquenFrontpic
+	dba VespiquenBackpic
 	dba KoffingFrontpic
 	dba KoffingBackpic
 	dba WeezingFrontpic
@@ -387,6 +385,8 @@ PokemonPicPointers::
 	dba LeafeonBackpic
 	dba SylveonFrontpic
 	dba SylveonBackpic
+	dba BuzzeonFrontpic
+	dba BuzzeonBackpic
 	dba DurantFrontpic
 	dba DurantBackpic
 	dba SwinubFrontpic

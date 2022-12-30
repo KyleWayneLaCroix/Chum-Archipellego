@@ -8,9 +8,6 @@ EvosAttacksPointers::
 	dw LitwickEvosAttacks
 	dw LampentEvosAttacks
 	dw ChandelureEvosAttacks
-	dw HonedgeEvosAttacks
-	dw DoubladeEvosAttacks
-	dw AegislashEvosAttacks
 	dw RookideeEvosAttacks
 	dw CorvisquireEvosAttacks
 	dw CorviknightEvosAttacks
@@ -87,8 +84,8 @@ EvosAttacksPointers::
 	dw BeldumEvosAttacks
 	dw MetangEvosAttacks
 	dw MetagrossEvosAttacks
-	dw JoltikEvosAttacks
-	dw GalvantulaEvosAttacks
+	dw LarvestaEvosAttacks
+	dw VolcaronaEvosAttacks
 	dw ShroomishEvosAttacks
 	dw BreloomEvosAttacks
 	dw MunnaEvosAttacks
@@ -118,6 +115,8 @@ EvosAttacksPointers::
 	dw ScizorEvosAttacks
 	dw KleavorEvosAttacks
 	dw HeracrossEvosAttacks
+	dw CombeeEvosAttacks
+	dw VespiquenEvosAttacks
 	dw KoffingEvosAttacks
 	dw WeezingEvosAttacks
 	dw GrimerEvosAttacks
@@ -192,6 +191,7 @@ EvosAttacksPointers::
 	dw GlaceonEvosAttacks
 	dw LeafeonEvosAttacks
 	dw SylveonEvosAttacks
+	dw BuzzeonEvosAttacks
 	dw DurantEvosAttacks
 	dw SwinubEvosAttacks
 	dw PiloswineEvosAttacks

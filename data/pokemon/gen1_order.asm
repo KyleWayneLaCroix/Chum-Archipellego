@@ -6,9 +6,6 @@ Pokered_MonIndices:
 	db LITWICK
 	db LAMPENT
 	db CHANDELURE
-	db HONEDGE
-	db DOUBLADE
-	db AEGISLASH
 	db ROOKIDEE
 	db CORVISQUIRE
 	db CORVIKNIGHT
@@ -85,8 +82,8 @@ Pokered_MonIndices:
 	db BELDUM
 	db METANG
 	db METAGROSS
-	db JOLTIK
-	db GALVANTULA
+	db LARVESTA
+	db VOLCARONA
 	db SHROOMISH
 	db BRELOOM
 	db MUNNA
@@ -116,6 +113,8 @@ Pokered_MonIndices:
 	db SCIZOR
 	db KLEAVOR
 	db HERACROSS
+	db COMBEE
+	db VESPIQUEN
 	db KOFFING
 	db WEEZING
 	db GRIMER
@@ -190,6 +189,7 @@ Pokered_MonIndices:
 	db GLACEON
 	db LEAFEON
 	db SYLVEON
+	db BUZZEON
   assert_table_length 190 ; gen 1 mon indexes
 	db DURANT
 	db SWINUB

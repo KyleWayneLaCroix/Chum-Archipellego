@@ -3,7 +3,6 @@
 AlphabeticalPokedexOrder:
 	table_width 1, AlphabeticalPokedexOrder
 	db ABOMASNOW
-	db AEGISLASH
 	db AGGRON
 	db ALOMOMOLA
 	db AMAURA
@@ -28,6 +27,7 @@ AlphabeticalPokedexOrder:
 	db BRUXISH
 	db BUIZEL
 	db BURGELA
+	db BUZZEON
 	db BUZZWOLE
 	db CARRACOSTA
 	db CENTISKORCH
@@ -40,6 +40,7 @@ AlphabeticalPokedexOrder:
 	db CLAUNCHER
 	db CLAWITZER
 	db CLOBBOPUS
+	db COMBEE
 	db CORVIKNIGHT
 	db CORVISQUIRE
 	db CROAGUNK
@@ -52,7 +53,6 @@ AlphabeticalPokedexOrder:
 	db DITTO
 	db DOOMSTONE
 	db DOTTLER
-	db DOUBLADE
 	db DRAGALGE
 	db DRAGAPULT
 	db DRAKLOAK
@@ -79,7 +79,6 @@ AlphabeticalPokedexOrder:
 	db FROSMOTH
 	db FURIOUSB
 	db GALLADE
-	db GALVANTULA
 	db GARBODOR
 	db GARDEVOIR
 	db GASTLY
@@ -101,13 +100,11 @@ AlphabeticalPokedexOrder:
 	db HEATMOR
 	db HERACROSS
 	db HERDIER
-	db HONEDGE
 	db HOPPIP
 	db HOUNDOOM
 	db HOUNDOUR
 	db JANGMO_O
 	db JOLTEON
-	db JOLTIK
 	db JUMPLUFF
 	db JUNGELA
 	db KIRBY
@@ -119,6 +116,7 @@ AlphabeticalPokedexOrder:
 	db LAMPENT
 	db LANTURN
 	db LAPRAS
+	db LARVESTA
 	db LARVITAR
 	db LEAFEON
 	db LIEPARD
@@ -240,7 +238,9 @@ AlphabeticalPokedexOrder:
 	db URSALUNA
 	db URSARING
 	db VAPOREON
+	db VESPIQUEN
 	db VIKAVOLT
+	db VOLCARONA
 	db WALREIN
 	db WEEZING
 	db WHISCASH

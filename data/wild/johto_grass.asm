@@ -54,11 +54,11 @@ JohtoGrassWildMons:
     db 4, LILLIPUP
     db 4, ZIGZAGOON
     ; nite
-    db 2, JOLTIK
+    db 2, GRUBBIN
     db 3, ZIGZAGOON
     db 4, ORICORIO_SENSU
     db 2, PURRLOIN
-    db 2, JOLTIK
+    db 2, BLIPBUG
     db 3, FARFETCHD
     db 4, BLIPBUG
     db 4, BLIPBUG
@@ -349,7 +349,7 @@ JohtoGrassWildMons:
     db 9, ORICORIO_BAILE
     db 9, SOLOSIS
     db 8, GROWLITHE
-    db 8, JOLTIK
+    db 8, YANMA
     db 8, SHROOMISH
     db 8, STUNKY
     db 12, MEOWTH
@@ -358,7 +358,7 @@ JohtoGrassWildMons:
     db 9, ORICORIO_BAILE
     db 9, SOLOSIS
     db 8, GROWLITHE
-    db 8, JOLTIK
+    db 8, YANMA
     db 8, SHROOMISH
     db 8, STUNKY
     db 12, MEOWTH
@@ -367,7 +367,7 @@ JohtoGrassWildMons:
     db 9, ORICORIO_BAILE
     db 9, SOLOSIS
     db 8, GROWLITHE
-    db 8, JOLTIK
+    db 8, YANMA
     db 8, SHROOMISH
     db 8, STUNKY
     db 12, MEOWTH

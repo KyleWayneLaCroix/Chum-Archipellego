@@ -1,7 +1,5 @@
 JohtoFrames: ; used only for BANK(JohtoFrames)
 
-StoutlandFrames:  INCLUDE "gfx/pokemon/stoutland/frames.asm"
-
 Salandit2Frames:  INCLUDE "gfx/pokemon/salandit2/frames.asm"
 
 Salazzle2Frames:  INCLUDE "gfx/pokemon/salazzle2/frames.asm"
@@ -77,6 +75,8 @@ GlaceonFrames:    INCLUDE "gfx/pokemon/glaceon/frames.asm"
 LeafeonFrames:    INCLUDE "gfx/pokemon/leafeon/frames.asm"
 
 SylveonFrames:    INCLUDE "gfx/pokemon/sylveon/frames.asm"
+
+BuzzeonFrames:    INCLUDE "gfx/pokemon/buzzeon/frames.asm"
 
 DurantFrames:     INCLUDE "gfx/pokemon/durant/frames.asm"
 
