@@ -432,8 +432,7 @@ Script_ReceivePhoneCall:
 	end
 
 Script_SpecialBillCall::
-	callasm .LoadBillScript
-	sjump Script_ReceivePhoneCall
+	end
 
 .LoadBillScript:
 	end
