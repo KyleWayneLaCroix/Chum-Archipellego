@@ -1,11 +1,11 @@
 
-    db "AnchorShark@" ; species name
-    dw 1, 1 ; height, weight
+	db "AnchorShark@" ; species name
+	dw 1, 1 ; height, weight
 
-    db   "There is much to"
+	db   "There is much to"
     next "learn about this"
     next "newly discovered"
 
-    page "little freak."
-    next "Temporary dex"
+    page "#MON."
+    next "Temporary #dex"
     next "entry.@"

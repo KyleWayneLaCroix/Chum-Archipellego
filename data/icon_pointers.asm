@@ -2,44 +2,35 @@ IconPointers:
 ; entries correspond to ICON_* constants (see constants/icon_constants.asm)
 	table_width 2, IconPointers
 	dw NullIcon
-	dw PoliwagIcon
-	dw JigglypuffIcon
-	dw DiglettIcon
-	dw PikachuIcon
-	dw StaryuIcon
-	dw FishIcon
-	dw BirdIcon
-	dw MonsterIcon
-	dw ClefairyIcon
-	dw OddishIcon
-	dw BugIcon
-	dw GhostIcon
-	dw LaprasIcon
-	dw HumanshapeIcon
-	dw FoxIcon
-	dw EquineIcon
-	dw ShellIcon
-	dw BlobIcon
-	dw SerpentIcon
-	dw VoltorbIcon
-	dw SquirtleIcon
-	dw BulbasaurIcon
-	dw CharmanderIcon
-	dw CaterpillarIcon
-	dw UnownIcon
-	dw GeodudeIcon
-	dw FighterIcon
 	dw EggIcon
-	dw JellyfishIcon
-	dw MothIcon
+	dw GhostIcon
+	dw BirdIcon
+	dw FoxIcon
+	dw DogIcon
 	dw BatIcon
-	dw SnorlaxIcon
-	dw HoOhIcon
-	dw LugiaIcon
-	dw GyaradosIcon
-	dw SlowpokeIcon
-	dw SudowoodoIcon
+	dw CaterpillarIcon
+	dw MothIcon
+	dw BugIcon
+	dw SerpentIcon
+	dw EquineIcon
+	dw HumanshapeIcon
+	dw FighterIcon
+	dw FishIcon
+	dw SealIcon
+	dw BallIcon
+	dw MonsterIcon
+	dw BlobIcon
+	dw CatIcon
+	dw BearIcon
 	dw BigmonIcon
+	dw OddishIcon
+	dw PorygonIcon
+	dw TangelaIcon
+	dw SpirripIcon
+	dw UnownIcon
+	dw LotadIcon
+	dw MareanieIcon
+	dw LaprasIcon
 	dw EeveeIcon
 	dw VaporeonIcon
 	dw JolteonIcon
@@ -49,4 +40,6 @@ IconPointers:
 	dw GlaceonIcon
 	dw LeafeonIcon
 	dw SylveonIcon
+	dw BuzzeonIcon
+	dw SnorlaxIcon
 	assert_table_length NUM_ICONS + 1
