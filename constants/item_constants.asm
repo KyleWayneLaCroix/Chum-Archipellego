@@ -184,7 +184,7 @@
 	const SWEET_APPLE  ; b0
 	const CHAINSAW     ; b1
 	const PDA          ; b2
-	const ITEM_B3      ; b3
+	const FLASHLIGHT   ; b3
 	const ITEM_B4      ; b4
 	const ITEM_B5      ; b5
 	const ITEM_B6      ; b6

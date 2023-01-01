@@ -174,6 +174,7 @@ AwakeningLabHealingMachine:
 	setflag ENGINE_UNLOCKED_UNOWNS_S_TO_W
 	setflag ENGINE_UNLOCKED_UNOWNS_X_TO_Z
 	giveitem CHAINSAW
+	giveitem FLASHLIGHT
 	giveitem PDA
 	giveitem ICE_STONE
 	giveitem LEAF_STONE

@@ -192,7 +192,7 @@ ItemEffects:
 	dw EvoStoneEffect      ; SWEET_APPLE
 	dw ChainsawEffect      ; CHAINSAW
 	dw PocketPCEffect      ; POCKET_PC
-	dw NoEffect            ; ITEM_ B3
+	dw FlashlightEffect    ; FLASHLIGHT
 	dw NoEffect            ; ITEM_ B4
 	dw NoEffect            ; ITEM_ B5
 	dw NoEffect            ; ITEM_ B6
@@ -2917,4 +2917,8 @@ ChainsawEffect:
 
 PocketPCEffect:
 	farcall PocketPCFunction
+	ret
+
+FlashlightEffect:
+	farcall FlashFunction
 	ret

@@ -270,12 +270,6 @@ FlashFunction:
 	ret
 
 .CheckUseFlash:
-	ld de, ENGINE_ZEPHYRBADGE
-	farcall CheckBadge
-	jr c, .nozephyrbadge
-	push hl
-	farcall SpecialAerodactylChamber
-	pop hl
 	jr c, .useflash
 	ld a, [wTimeOfDayPalset]
 	cp DARKNESS_PALSET
@@ -287,10 +281,6 @@ FlashFunction:
 
 .notadarkcave
 	call FieldMoveFailed
-	ld a, $80
-	ret
-
-.nozephyrbadge
 	ld a, $80
 	ret
 

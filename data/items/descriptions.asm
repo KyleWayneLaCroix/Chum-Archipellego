@@ -179,7 +179,7 @@ ItemDescriptions:
 	dw SweetAppleDesc
 	dw ChainsawDesc
 	dw PDADesc
-	dw TeruSama14Desc
+	dw FlashlightDesc
 	dw TeruSama15Desc
 	dw TeruSama16Desc
 	dw TeruSama17Desc
@@ -829,8 +829,9 @@ DragonFangDesc:
 	db   "Powers up dragon-"
 	next "type moves. (HOLD)@"
 
-TeruSama14Desc:
-	db   "?@"
+FlashlightDesc:
+	db   "Lights up dark"
+	next "areas.@"
 
 LeftoversDesc:
 	db   "Restores HP during"

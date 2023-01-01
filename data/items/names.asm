@@ -178,7 +178,7 @@ ItemNames::
 	li "SWEET APPLE"
 	li "CHAINSAW"
 	li "PDA"
-	li "TERU-SAMA"
+	li "FLASHLIGHT"
 	li "TERU-SAMA"
 	li "TERU-SAMA"
 	li "TERU-SAMA"
