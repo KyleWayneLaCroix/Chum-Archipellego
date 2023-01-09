@@ -463,7 +463,6 @@ CheckTimeEvents:
 .do_daily
 	farcall CheckDailyResetTimer
 	farcall CheckPokerusTick
-	farcall CheckPhoneCall
 	ret c
 
 .nothing

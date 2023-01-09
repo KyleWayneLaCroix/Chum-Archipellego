@@ -190,6 +190,7 @@ ENDM
 	map_attributes EeveeRanchPokecenter1F, EEVEE_RANCH_POKECENTER_1F, $00, 0
 	map_attributes EeveeRanchInterior, EEVEE_RANCH_INTERIOR, $00, 0
 	map_attributes EeveeRanchGroomers, EEVEE_RANCH_GROOMERS, $00, 0
+	map_attributes EeveeRanchHives, EEVEE_RANCH_HIVES, $28, 0
 
 	map_attributes JungleGate, JUNGLE_GATE, $00, 0
 	map_attributes MuscleJungle, MUSCLE_JUNGLE, $01, NORTH

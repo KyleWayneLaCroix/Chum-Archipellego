@@ -162,6 +162,7 @@ DEF SPRITE_POKEMON EQU const_value
 	const SPRITE_GLACEON
 	const SPRITE_LEAFEON
 	const SPRITE_SYLVEON
+	const SPRITE_BUZZEON
 DEF NUM_POKEMON_SPRITES EQU const_value - SPRITE_POKEMON
 
 ; special GetMonSprite values (see engine/overworld/overworld.asm)

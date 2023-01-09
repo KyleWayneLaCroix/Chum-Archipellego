@@ -2,9 +2,9 @@ TrainerClassNames::
 ; entries correspond to trainer classes (see constants/trainer_constants.asm)
 	list_start TrainerClassNames
 	li "LEADER"
-	li "LEADER"
-	li "LEADER"
-	li "LEADER"
+	li "RANCHER"
+	li "FURRY"
+	li "LOAFER"
 	li "LEADER"
 	li "LEADER"
 	li "LEADER"
@@ -77,4 +77,5 @@ TrainerClassNames::
 	li "GHOST OF"
 	li "UNDEAD"
 	li "BRIAN"
+	li "BUG"
 	assert_list_length NUM_TRAINER_CLASSES

@@ -25,7 +25,7 @@
 	const EVENT_GOT_HM02_FLY
 	const EVENT_GOT_HM03_SURF
 	const EVENT_GOT_HM04_STRENGTH
-	const EVENT_GOT_HM05_FLASH
+	const EVENT_GOT_FLASHLIGHT
 	const EVENT_GOT_HM06_WHIRLPOOL
 	const_skip ; unused
 ; Rods
@@ -67,24 +67,24 @@
 	const EVENT_LAKE_OF_RAGE_EXPLAINED_WEIRD_MAGIKARP
 	const EVENT_LAKE_OF_RAGE_ASKED_FOR_MAGIKARP
 	const EVENT_LAKE_OF_RAGE_ELIXIR_ON_STANDBY
+	const EVENT_BEAT_ELITE_FOUR
 	const_skip ; unused
 	const_skip ; unused
 	const EVENT_GAVE_EEVEE_TWIN_ICE_STONE
 	const EVENT_GAVE_EEVEE_TWIN_LEAF_STONE
-	const EVENT_TALKED_TO_FARMER_ABOUT_MOOMOO
-	const EVENT_TALKED_TO_MOM_AFTER_MYSTERY_EGG_QUEST
-	const EVENT_DUDE_TALKED_TO_YOU
-	const EVENT_LEARNED_TO_CATCH_POKEMON
-	const EVENT_ELM_CALLED_ABOUT_STOLEN_POKEMON
-	const EVENT_BEAT_ELITE_FOUR
-	const EVENT_GOT_SHUCKIE
-	const EVENT_MANIA_TOOK_SHUCKIE_OR_LET_YOU_KEEP_HIM
-	const EVENT_GOT_SUNNY_DAY_FROM_RADIO_TOWER
-	const EVENT_GOT_PINK_BOW_FROM_MARY
+	const EVENT_FED_EEVEE
+	const EVENT_GOT_UMBREON
+	const EVENT_EARNED_ODD_EGG
+	const EVENT_GAVE_VAPOREON_TEA
+	const EVENT_GAVE_VAPOREON_MONSTER
+	const EVENT_GAVE_VAPOREON_PBR
+	const EVENT_TAUGHT_JOLTEON
+	const EVENT_TAUGHT_FLAREON
+	const EVENT_GOT_LEAFEON_BASIL
 	const EVENT_USED_CGHQ_BASEMENT_KEY
 	const EVENT_RECEIVED_CARD_KEY
-	const EVENT_GOT_TM08_ROCK_SMASH
-	const EVENT_LANCE_HEALED_YOU_IN_TEAM_ROCKET_BASE
+	const EVENT_SATISFIED_SYLVEON
+	const EVENT_GOT_WEED_FROM_SAM
 	const EVENT_GOT_MYSTIC_WATER_IN_CHERRYGROVE
 	const EVENT_GOT_TM05_ROAR
 	const EVENT_GOT_EEVEE
@@ -136,6 +136,12 @@
 	const EVENT_METROID_END_ZOOMER_1
 	const EVENT_METROID_END_ZOOMER_2
 	const EVENT_METROID_END_ZOOMER_3
+	const EVENT_EEVEE_RANCH_HIVES_COMBEE1
+	const EVENT_EEVEE_RANCH_HIVES_COMBEE2
+	const EVENT_EEVEE_RANCH_HIVES_COMBEE3
+	const EVENT_EEVEE_RANCH_HIVES_COMBEE4
+	const EVENT_EEVEE_RANCH_HIVES_COMBEE5
+	const EVENT_EEVEE_RANCH_HIVES_COMBEE6
 ; Johto hidden items
 	const EVENT_NORTHERNFOREST_LEFT_HONEY
 	const EVENT_NORTHERNFOREST_RIGHT_HONEY
@@ -151,11 +157,11 @@
 	const EVENT_ROUTE_C_HIDDEN_FULL_HEAL
 	const EVENT_ROUTE_D_HIDDEN_SUPER_POTION
 	const EVENT_ROUTE_D_HIDDEN_FULL_HEAL
-	const EVENT_GOLDENROD_UNDERGROUND_HIDDEN_PARLYZ_HEAL
-	const EVENT_GOLDENROD_UNDERGROUND_HIDDEN_SUPER_POTION
-	const EVENT_GOLDENROD_UNDERGROUND_HIDDEN_ANTIDOTE
-	const EVENT_GOLDENROD_UNDERGROUND_SWITCH_ROOM_ENTRANCES_HIDDEN_MAX_POTION
-	const EVENT_GOLDENROD_UNDERGROUND_SWITCH_ROOM_ENTRANCES_HIDDEN_REVIVE
+	const EVENT_EEVEE_RANCH_HIVES_HIDDEN_HONEY1
+	const EVENT_EEVEE_RANCH_HIVES_HIDDEN_HONEY2
+	const EVENT_EEVEE_RANCH_HIVES_HIDDEN_HONEY3
+	const EVENT_EEVEE_RANCH_HIVES_HIDDEN_HONEY4
+	const EVENT_EEVEE_RANCH_HIVES_HIDDEN_BASIL
 	const EVENT_MOUNT_MORTAR_1F_OUTSIDE_HIDDEN_HYPER_POTION
 	const EVENT_MOUNT_MORTAR_1F_INSIDE_HIDDEN_MAX_REPEL
 	const EVENT_MOUNT_MORTAR_2F_INSIDE_HIDDEN_FULL_RESTORE
@@ -208,8 +214,11 @@
 	const EVENT_FOREST_IS_RESTLESS
 	const EVENT_ANSWERED_DRAGON_MASTER_QUIZ_WRONG
 ; Unused: next 6 events
-
-	const_next 200
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
 ; Kanto story events
 	const EVENT_RETURNED_MACHINE_PART
 	const EVENT_MET_MANAGER_AT_POWER_PLANT
@@ -291,12 +300,6 @@
 	const_skip ; unused in Crystal
 	const EVENT_HUEY_ASKED_FOR_PHONE_NUMBER
 	const_skip ; unused in Crystal
-	const EVENT_GOT_PROTEIN_FROM_HUEY
-	const EVENT_GOT_HP_UP_FROM_JOEY
-	const EVENT_GOT_CARBOS_FROM_VANCE
-	const EVENT_GOT_IRON_FROM_PARRY
-	const EVENT_GOT_CALCIUM_FROM_ERIN
-	const EVENT_KENJI_ON_BREAK
 	const EVENT_GAVEN_ASKED_FOR_PHONE_NUMBER
 	const_skip ; unused in Crystal
 	const EVENT_BETH_ASKED_FOR_PHONE_NUMBER
@@ -751,8 +754,6 @@
 	const EVENT_BEAT_WHITE_GIRL_VALERIE
 ; Gym Leaders
 	const EVENT_BEAT_FALKNER
-	const EVENT_BEAT_BUGSY
-	const EVENT_BEAT_WHITNEY
 	const EVENT_BEAT_MORTY
 	const EVENT_BEAT_JASMINE
 	const EVENT_BEAT_CHUCK
@@ -764,6 +765,13 @@
 	const EVENT_BEAT_SABRINA
 	const EVENT_BEAT_BLAINE
 	const EVENT_BEAT_BLUE
+; Furries
+	const EVENT_BEAT_FURRY_VICTORIA
+; Jordan
+	const EVENT_BEAT_RANCHER_JORDAN
+	const EVENT_BEAT_JORDAN_2
+; Loafers
+	const EVENT_BEAT_SAM_1
 ; Pastors
 	const EVENT_BEAT_PASTOR_JOELEO
 ; Supervisors
@@ -790,11 +798,15 @@
 	const EVENT_BEAT_POKEFANF_GEORGIA
 ; Kimono Girl
 	const_skip ; unused
-	const EVENT_BEAT_KIMONO_GIRL_NAOKO
-	const EVENT_BEAT_KIMONO_GIRL_SAYO
-	const EVENT_BEAT_KIMONO_GIRL_ZUKI
-	const EVENT_BEAT_KIMONO_GIRL_KUNI
-	const EVENT_BEAT_KIMONO_GIRL_MIKI
+	const EVENT_BEAT_KIMONO_GIRL_SUI
+	const EVENT_BEAT_KIMONO_GIRL_AKANE
+	const EVENT_BEAT_KIMONO_GIRL_RIKO
+	const EVENT_BEAT_KIMONO_GIRL_KIMI
+	const EVENT_BEAT_KIMONO_GIRL_KARI
+	const EVENT_BEAT_KIMONO_GIRL_HIKA
+	const EVENT_BEAT_KIMONO_GIRL_HANA
+	const EVENT_BEAT_KIMONO_GIRL_SEN
+	const EVENT_BEAT_KIMONO_GIRL_HACHI
 ; Weirdo
 	const EVENT_BEAT_WEIRDO_NICK
 	const EVENT_BEAT_WEIRDO_ANDREW
@@ -837,10 +849,6 @@
 	const EVENT_BEAT_ROCKET_GRUNTM_25
 	const EVENT_BEAT_ROCKET_GRUNTM_26
 	const EVENT_BEAT_ROCKET_GRUNTM_27
-	const EVENT_BEAT_ROCKET_GRUNTM_28
-	const EVENT_BEAT_ROCKET_GRUNTM_29
-	const EVENT_BEAT_ROCKET_GRUNTM_30
-	const EVENT_BEAT_ROCKET_GRUNTM_31
 ; GruntF
 	const EVENT_BEAT_ROCKET_GRUNTF_1
 	const EVENT_BEAT_ROCKET_GRUNTF_2
@@ -1035,8 +1043,6 @@
 	const EVENT_BEAT_BUG_CATCHER_WAYNE
 	const EVENT_BEAT_WHITE_GIRL_OLIVIA
 	const EVENT_BEAT_CAMPER_QUENTIN
-	const EVENT_BEAT_WEIRDO_MILLER
-	const EVENT_BEAT_SUPER_NERD_HUGH
 ; Ball Brian
 	const EVENT_BEAT_BALL_BRIAN_1
 	const EVENT_BEAT_BALL_BRIAN_2
@@ -1057,9 +1063,113 @@
 	const EVENT_BEAT_UNDEAD_CLAY
 ; Brian64
 	const EVENT_BEAT_BRIAN_64_1
-; Unused: next 116 events
-
-	const_next 1600
+; BugBrian
+	const EVENT_BEAT_BUG_BRIAN_1
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
 ; Sprite visibility flags
 ; When these events are cleared, the sprite becomes visible; when set, the sprite is hidden.
 ; The map script command macros `disappear` and `appear` set/clear these flags and immediately apply the effect on visibility.
@@ -1093,7 +1203,7 @@
 	const EVENT_ROUTE_C_X_ATTACK
 	const EVENT_ROUTE_D_DIRE_HIT
 	const EVENT_ROUTE_D_REVIVE
-	const EVENT_UNION_CAVE_1F_POTION
+	const EVENT_EEVEE_RANCH_HIVES_X_SPECIAL
 	const EVENT_UNION_CAVE_1F_AWAKENING
 	const EVENT_UNION_CAVE_B1F_TM_SWIFT
 	const EVENT_UNION_CAVE_B1F_X_DEFEND

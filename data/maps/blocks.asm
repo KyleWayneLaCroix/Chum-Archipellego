@@ -196,6 +196,9 @@ EeveeRanchInterior_Blocks:
 EeveeRanchGroomers_Blocks:
 	INCBIN "maps/EeveeRanchGroomers.blk"
 
+EeveeRanchHives_Blocks:
+	INCBIN "maps/EeveeRanchHives.blk"
+
 MuscleJungle_Blocks:
 	INCBIN "maps/Jungle.blk"
 

@@ -31,14 +31,15 @@ DEF KRIS EQU __trainer_class__
 	trainerclass FALKNER ; 1
 	const FALKNER1
 
-	trainerclass WHITNEY ; 2
-	const WHITNEY1
+	trainerclass JORDAN ; 2
+	const JORDAN1
+	const JORDAN2
 
-	trainerclass BUGSY ; 3
-	const BUGSY1
+	trainerclass FURRY ; 3
+	const VICTORIA1
 
-	trainerclass MORTY ; 4
-	const MORTY1
+	trainerclass LOAFER ; 4
+	const SAM1
 
 	trainerclass PRYCE ; 5
 	const PRYCE1
@@ -657,12 +658,15 @@ DEF KRIS EQU __trainer_class__
 	const ALLAN
 
 	trainerclass KIMONO_GIRL ; 3c
-	const NAOKO_UNUSED ; unused
-	const NAOKO
-	const SAYO
-	const ZUKI
-	const KUNI
-	const MIKI
+	const SUI   ; vaporeon
+	const AKANE ; flareon
+	const RIKO  ; jolteon
+	const KIMI  ; umbreon
+	const KARI  ; espeon
+	const HIKA  ; glaceon
+	const HANA  ; leafeon
+	const SEN   ; sylveon
+	const HACHI ; honeon
 
 	trainerclass TWINS ; 3d
 	const AMYANDMAY1
@@ -734,5 +738,8 @@ DEF KRIS EQU __trainer_class__
 
 	trainerclass BRIAN_64 ;
 	const BRIAN_64_1
+
+	trainerclass BUG_BRIAN ;
+	const BUGBRIAN_1
 
 DEF NUM_TRAINER_CLASSES EQU __trainer_class__ - 1

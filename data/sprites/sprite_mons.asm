@@ -45,4 +45,5 @@ SpriteMons:
 	db GLACEON
 	db LEAFEON
 	db SYLVEON
+	db BUZZEON
 	assert_table_length NUM_POKEMON_SPRITES

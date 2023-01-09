@@ -16,8 +16,8 @@ Marts:
 	dw MartUnivercityStats
 	dw MartUnivercityOverworld
 	dw MartUnivercityLocal
-	dw MartViridian
-	dw MartPewter
+	dw MartEeveeRanch1
+	dw MartEeveeRanch2
 	dw MartCerulean
 	dw MartLavender
 	dw MartVermilion
@@ -211,28 +211,29 @@ MartUnivercityTM3:
 	db TM_TOXIC
 	db -1 ; end
 
-MartViridian:
-	db 9 ; # items
-	db ULTRA_BALL
-	db HYPER_POTION
-	db FULL_HEAL
-	db REVIVE
-	db ANTIDOTE
-	db PARLYZ_HEAL
-	db AWAKENING
-	db BURN_HEAL
-	db FLOWER_MAIL
+MartEeveeRanch1:
+	db 8 ; # items
+	db FIRE_STONE
+	db THUNDERSTONE
+	db WATER_STONE
+	db LEAF_STONE
+	db ICE_STONE
+	db HONEY
+	db BASIL
+	db GREAT_BALL
 	db -1 ; end
 
-MartPewter:
-	db 7 ; # items
+MartEeveeRanch2:
+	db 9 ; # items
+	db LOVE_STONE
+	db FIRE_STONE
+	db THUNDERSTONE
+	db WATER_STONE
+	db LEAF_STONE
+	db ICE_STONE
+	db HONEY
+	db BASIL
 	db GREAT_BALL
-	db SUPER_POTION
-	db SUPER_REPEL
-	db ANTIDOTE
-	db PARLYZ_HEAL
-	db AWAKENING
-	db BURN_HEAL
 	db -1 ; end
 
 MartCerulean:

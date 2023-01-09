@@ -5,20 +5,7 @@
 ; accounted for prior to the list check.
 
 GymLeaders:
-	db FALKNER
-	db WHITNEY
-	db BUGSY
-	db MORTY
-	db PRYCE
-	db JASMINE
-	db CHUCK
-	db CLAIR
-	db WILL
-	db BRUNO
-	db KAREN
-	db KOGA
-	db CHAMPION
-	db RED
+	db JORDAN
 ; fallthrough
 KantoGymLeaders:
 	db BROCK

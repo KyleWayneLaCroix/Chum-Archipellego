@@ -35,6 +35,7 @@ CutTreeBlockPointers:
 .forest:
 ; facing block, replacement block, animation
 	db $0f, $17, 0
+	db $44, $15, 0
 	db -1 ; end
 
 

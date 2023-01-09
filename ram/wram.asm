@@ -3062,7 +3062,9 @@ wCityGearHQBasementSceneID::        db
 wCemetaryLabSceneID::               db
 wMetroidCyberspaceExitSceneID::     db
 wUnivercityMart1FSceneID::          db
-	ds 105
+wEeveeRanchExteriorSceneID::        db
+wEeveeRanchInteriorSceneID::        db
+	ds 103
 
 ; fight counts
 wJackFightCount::    db

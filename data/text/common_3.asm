@@ -627,17 +627,13 @@ _PharmacyComeAgainText::
 	done
 
 _LocalIntroText::
-	text "Hey sweat pea,"
-	line "thanks for comin'"
-	cont "to our booth!"
+	text "Hey sweetpea!"
+	line "Thanks for coming"
+	cont "to the shop!"
 
-	para "Ah'm from the"
-	line "EEVEE RANCH over"
-	cont "to the east."
-
-	para "All ah'm sellin"
-	line "is from the"
-	cont "ranch!"
+	para "All we offer is"
+	line "from the EEVEE"
+	cont "RANCH itself!"
 	done
 
 _LocalHowManyText::

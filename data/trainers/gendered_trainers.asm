@@ -35,6 +35,7 @@ MaleTrainers:
 	db GHOST_T
 	db UNDEAD
 	db BRIAN_64
+	db BUG_BRIAN
 .End
 
 FemaleTrainers:

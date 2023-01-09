@@ -5,9 +5,9 @@ TrainerEncounterMusic::
 	table_width 1, TrainerEncounterMusic
 	db MUSIC_HIKER_ENCOUNTER       ; none
 	db MUSIC_YOUNGSTER_ENCOUNTER   ; falkner
-	db MUSIC_LASS_ENCOUNTER        ; whitney
-	db MUSIC_YOUNGSTER_ENCOUNTER   ; bugsy
-	db MUSIC_OFFICER_ENCOUNTER     ; morty
+	db MUSIC_LASS_ENCOUNTER        ; jordan
+	db MUSIC_BEAUTY_ENCOUNTER      ; furry
+	db MUSIC_OFFICER_ENCOUNTER     ; loafer
 	db MUSIC_OFFICER_ENCOUNTER     ; pryce
 	db MUSIC_LASS_ENCOUNTER        ; jasmine
 	db MUSIC_OFFICER_ENCOUNTER     ; chuck
@@ -80,4 +80,5 @@ TrainerEncounterMusic::
 	db MUSIC_SAGE_ENCOUNTER        ; ghost_t
 	db MUSIC_SAGE_ENCOUNTER        ; undead
 	db MUSIC_RIVAL_ENCOUNTER       ; brian 64
+	db MUSIC_RIVAL_ENCOUNTER       ; bug brian
 	assert_table_length NUM_TRAINER_CLASSES + 1

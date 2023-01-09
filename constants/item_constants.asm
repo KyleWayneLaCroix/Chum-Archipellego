@@ -269,7 +269,7 @@ DEF TM01 EQU const_value
 	add_tm TOXIC        ; f0
 	add_tm WATER_PULSE  ; f1
 	add_tm ZEN_HEADBUTT ; f2
-
+	add_tm SINGE        ; f3
 DEF NUM_TMS EQU __tmhm_value__ - 1
 
 MACRO add_hm

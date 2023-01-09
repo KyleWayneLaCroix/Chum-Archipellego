@@ -10,9 +10,9 @@ PlayerPalette: ; Chris uses the same colors as Cal
 INCBIN "gfx/trainers/cal.gbcpal", middle_colors
 KrisPalette: ; Kris shares Falkner's palette
 INCBIN "gfx/trainers/falkner.gbcpal", middle_colors
-INCBIN "gfx/trainers/whitney.gbcpal", middle_colors
-INCBIN "gfx/trainers/bugsy.gbcpal", middle_colors
-INCBIN "gfx/trainers/morty.gbcpal", middle_colors
+INCBIN "gfx/trainers/jordan.gbcpal", middle_colors
+INCBIN "gfx/trainers/victoria.gbcpal", middle_colors
+INCBIN "gfx/trainers/loafer.gbcpal", middle_colors
 INCBIN "gfx/trainers/pryce.gbcpal", middle_colors
 INCBIN "gfx/trainers/jasmine.gbcpal", middle_colors
 INCBIN "gfx/trainers/chuck.gbcpal", middle_colors
@@ -85,5 +85,6 @@ INCBIN "gfx/trainers/brian.gbcpal", middle_colors
 INCBIN "gfx/trainers/ghost.gbcpal", middle_colors
 INCBIN "gfx/trainers/undead.gbcpal", middle_colors
 INCBIN "gfx/trainers/brian64.gbcpal", middle_colors
+INCBIN "gfx/trainers/bug_brian.gbcpal", middle_colors
 
 	assert_table_length NUM_TRAINER_CLASSES + 1

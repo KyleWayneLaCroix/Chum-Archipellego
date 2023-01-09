@@ -125,7 +125,7 @@ ItemEffects:
 	dw RevivalHerbEffect   ; REVIVAL_HERB
 	dw ReviveEffect        ; REVIVE
 	dw ReviveEffect        ; MAX_REVIVE
-	dw SacredAshEffect     ; SACRED_ASH
+	dw SacredAshEffect     ; WEED
 	dw VitaminEffect       ; HP_UP
 	dw VitaminEffect       ; PROTEIN
 	dw VitaminEffect       ; IRON

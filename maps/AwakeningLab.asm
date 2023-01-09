@@ -178,6 +178,14 @@ AwakeningLabHealingMachine:
 	giveitem PDA
 	giveitem ICE_STONE
 	giveitem LEAF_STONE
+	giveitem BERRY
+	giveitem MOON_BALL
+	giveitem SODA_POP
+	giveitem FRESH_WATER
+	giveitem LEMONADE
+	giveitem BERRY, 20
+	giveitem TM_SOLARBEAM
+	giveitem TM_RAIN_DANCE
 	giveitem MASTER_BALL, 99
 	giveitem RARE_CANDY, 99
 	giveitem NUGGET, 99
@@ -186,7 +194,6 @@ AwakeningLabHealingMachine:
 	givepoke JUNGELA, 50
 	givepoke STRAIGAR, 50
 	givepoke SHELLOS, 50
-	givepoke GASTRODON, 12
 	closetext
 	end
 

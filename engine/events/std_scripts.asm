@@ -162,7 +162,6 @@ PokecenterNurseScript:
 
 .pokerus_done
 	setflag ENGINE_CAUGHT_POKERUS
-	specialphonecall SPECIALCALL_POKERUS
 	end
 
 DifficultBookshelfScript:

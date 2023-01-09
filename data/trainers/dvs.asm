@@ -3,9 +3,9 @@ TrainerClassDVs:
 	table_width 2, TrainerClassDVs
 	;  atk,def,spd,spc
 	dn  9, 10,  7,  7 ; FALKNER
-	dn  8,  8,  8,  8 ; WHITNEY
-	dn  9,  8,  8,  8 ; BUGSY
-	dn  9,  8,  8,  8 ; MORTY
+	dn  8,  8,  8,  8 ; JORDAN
+	dn  9,  8,  8,  8 ; Furry
+	dn  9,  8,  8,  8 ; LOAFER
 	dn  9,  8,  8,  8 ; PRYCE
 	dn  9,  8,  8,  8 ; JASMINE
 	dn  9,  8,  8,  8 ; CHUCK
@@ -78,4 +78,5 @@ TrainerClassDVs:
 	dn  9,  8,  8, 12 ; GHOST_T
 	dn 13,  9, 10,  8 ; UNDEAD
 	dn  6,  8, 10, 12 ; BRIAN 64
+	dn  9,  8,  8,  8 ; BUG_BRIAN
 	assert_table_length NUM_TRAINER_CLASSES

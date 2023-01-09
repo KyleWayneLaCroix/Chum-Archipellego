@@ -88,18 +88,18 @@ INCLUDE "maps/RouteDNameRaterHouse.asm"
 INCLUDE "maps/RouteE.asm"
 INCLUDE "maps/RouteF.asm"
 INCLUDE "maps/RouteG.asm"
-INCLUDE "maps/EeveeRanchExterior.asm"
-INCLUDE "maps/EeveeRanchPokecenter1F.asm"
-INCLUDE "maps/EeveeRanchInterior.asm"
-INCLUDE "maps/EeveeRanchGroomers.asm"
 INCLUDE "maps/JungleGate.asm"
 INCLUDE "maps/Jungle.asm"
 INCLUDE "maps/VolcanoExterior.asm"
 
 SECTION "Map Scripts 9", ROMX
-
+INCLUDE "maps/EeveeRanchExterior.asm"
+INCLUDE "maps/EeveeRanchPokecenter1F.asm"
+INCLUDE "maps/EeveeRanchInterior.asm"
+INCLUDE "maps/EeveeRanchGroomers.asm"
 
 SECTION "Map Scripts 10", ROMX
+INCLUDE "maps/EeveeRanchHives.asm"
 
 
 SECTION "Map Scripts 11", ROMX

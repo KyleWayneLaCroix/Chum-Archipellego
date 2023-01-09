@@ -622,22 +622,22 @@ _CGB_TrainerCard:
 	ld a, FALKNER ; KRIS
 	call GetTrainerPalettePointer
 	call LoadPalette_White_Col1_Col2_Black
-	ld a, BUGSY
+	ld a, JORDAN
 	call GetTrainerPalettePointer
 	call LoadPalette_White_Col1_Col2_Black
-	ld a, WHITNEY
+	ld a, JORDAN
 	call GetTrainerPalettePointer
 	call LoadPalette_White_Col1_Col2_Black
-	ld a, MORTY
+	ld a, JORDAN
 	call GetTrainerPalettePointer
 	call LoadPalette_White_Col1_Col2_Black
-	ld a, CHUCK
+	ld a, JORDAN
 	call GetTrainerPalettePointer
 	call LoadPalette_White_Col1_Col2_Black
-	ld a, JASMINE
+	ld a, JORDAN
 	call GetTrainerPalettePointer
 	call LoadPalette_White_Col1_Col2_Black
-	ld a, PRYCE
+	ld a, JORDAN
 	call GetTrainerPalettePointer
 	call LoadPalette_White_Col1_Col2_Black
 	ld a, PREDEFPAL_CGB_BADGE

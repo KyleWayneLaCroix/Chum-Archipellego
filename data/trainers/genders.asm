@@ -78,4 +78,5 @@ BTTrainerClassGenders:
 	db MALE   ; GHOST_T
 	db MALE   ; UNDEAD
 	db MALE   ; BRIAN_64
+	db MALE   ; BUG_BRIAN
 	assert_table_length NUM_TRAINER_CLASSES - 1 ; exclude MYSTICALMAN
