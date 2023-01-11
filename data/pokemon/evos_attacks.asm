@@ -2119,6 +2119,7 @@ MeowthEvosAttacks:
 	db 1, SCRATCH
 	db 8, BITE
 	db 14, PAY_DAY
+	db 16, METAL_CLAW
 	db 19, QUICK_ATTACK
 	db 22, FAINT_ATTACK
 	db 23, ENCORE
