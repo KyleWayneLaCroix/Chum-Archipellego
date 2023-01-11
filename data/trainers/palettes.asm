@@ -13,7 +13,7 @@ INCBIN "gfx/trainers/falkner.gbcpal", middle_colors
 INCBIN "gfx/trainers/jordan.gbcpal", middle_colors
 INCBIN "gfx/trainers/victoria.gbcpal", middle_colors
 INCBIN "gfx/trainers/loafer.gbcpal", middle_colors
-INCBIN "gfx/trainers/pryce.gbcpal", middle_colors
+INCBIN "gfx/trainers/sarah.gbcpal", middle_colors
 INCBIN "gfx/trainers/jasmine.gbcpal", middle_colors
 INCBIN "gfx/trainers/chuck.gbcpal", middle_colors
 INCBIN "gfx/trainers/clair.gbcpal", middle_colors

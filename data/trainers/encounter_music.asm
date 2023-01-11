@@ -8,7 +8,7 @@ TrainerEncounterMusic::
 	db MUSIC_LASS_ENCOUNTER        ; jordan
 	db MUSIC_BEAUTY_ENCOUNTER      ; furry
 	db MUSIC_OFFICER_ENCOUNTER     ; loafer
-	db MUSIC_OFFICER_ENCOUNTER     ; pryce
+	db MUSIC_LASS_ENCOUNTER        ; sarah
 	db MUSIC_LASS_ENCOUNTER        ; jasmine
 	db MUSIC_OFFICER_ENCOUNTER     ; chuck
 	db MUSIC_BEAUTY_ENCOUNTER      ; clair

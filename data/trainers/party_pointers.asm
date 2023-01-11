@@ -7,7 +7,7 @@ TrainerGroups:
 	dw JordanGroup
 	dw FurryGroup
 	dw LoaferGroup
-	dw PryceGroup
+	dw SarahGroup
 	dw JasmineGroup
 	dw ChuckGroup
 	dw ClairGroup

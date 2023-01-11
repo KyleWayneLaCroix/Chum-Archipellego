@@ -189,11 +189,13 @@ AwakeningLabHealingMachine:
 	giveitem MASTER_BALL, 99
 	giveitem RARE_CANDY, 99
 	giveitem NUGGET, 99
+	giveitem HM_FLY
+	setflag ENGINE_STORMBADGE
 	givepoke UNOWN, 89
 	givepoke ANGORE, 50
 	givepoke JUNGELA, 50
 	givepoke STRAIGAR, 50
-	givepoke SHELLOS, 50
+	givepoke TOUCANNON, 50
 	closetext
 	end
 
@@ -528,7 +530,7 @@ AwakeningLab_MapEvents:
 	def_warp_events
 	warp_event 25, 19, AWAKENING_BEACH, 1
 	warp_event 24, 19, AWAKENING_BEACH, 1
-	warp_event 27, 16, EEVEE_RANCH_EXTERIOR, 2
+	warp_event 27, 16, UNIVERCITY, 2
 
 	def_coord_events
 	coord_event 26,  6, SCENE_AWAKENINGLAB_WOKE_UP, WakeUpScript

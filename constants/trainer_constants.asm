@@ -41,8 +41,8 @@ DEF KRIS EQU __trainer_class__
 	trainerclass LOAFER ; 4
 	const SAM1
 
-	trainerclass PRYCE ; 5
-	const PRYCE1
+	trainerclass SARAH ; 5
+	const SARAH1
 
 	trainerclass JASMINE ; 6
 	const JASMINE1

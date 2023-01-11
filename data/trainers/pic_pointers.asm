@@ -7,7 +7,7 @@ TrainerPicPointers::
 	dba JordanPic
 	dba FurryPic
 	dba LoaferPic
-	dba PrycePic
+	dba SarahPic
 	dba JasminePic
 	dba ChuckPic
 	dba ClairPic

@@ -174,6 +174,7 @@ ENDM
 	map_attributes UnivercityMartRoof, UNIVERCITY_MART_ROOF, $24, 0
 	map_attributes UnivercityMartB1F, UNIVERCITY_MART_B1F, $00, 0
 	map_attributes CampusMission, CAMPUS_MISSION, $00, 0
+	map_attributes SarahGym, SARAH_GYM, $00, 0
 	map_attributes RouteC, ROUTE_C, $0A, NORTH |EAST
 	connection north, RouteD, ROUTE_D, 0
 	connection east, Univercity, UNIVERCITY, -4

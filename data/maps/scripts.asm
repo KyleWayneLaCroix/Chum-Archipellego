@@ -80,8 +80,8 @@ INCLUDE "maps/DeptStore5F.asm"
 INCLUDE "maps/DeptStoreRoof.asm"
 INCLUDE "maps/CampusMission.asm"
 
-
 SECTION "Map Scripts 8", ROMX
+INCLUDE "maps/SarahGym.asm"
 INCLUDE "maps/RouteC.asm"
 INCLUDE "maps/RouteD.asm"
 INCLUDE "maps/RouteDNameRaterHouse.asm"

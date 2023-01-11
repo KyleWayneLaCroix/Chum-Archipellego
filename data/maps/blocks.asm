@@ -170,7 +170,10 @@ UnivercityMartB1F_Blocks:
 	INCBIN "maps/DeptStoreB1F.blk"
 
 CampusMission_Blocks:
-	INCBIN "maps/CampusMIssion.blk"
+	INCBIN "maps/CampusMission.blk"
+
+SarahGym_Blocks:
+	INCBIN "maps/SarahGym.blk"
 
 RouteC_Blocks:
 	INCBIN "maps/RouteC.blk"

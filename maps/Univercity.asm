@@ -70,7 +70,8 @@ Univercity_MapEvents:
 	warp_event 15, 17, UNIVERCITY_POKECENTER_1F, 1
 	warp_event 23, 17, UNIVERCITY_MART_1F, 3
 	warp_event 15, 25, CAMPUS_MISSION, 1
-	warp_event 19,  5, JUNGLE_GATE, 1 
+	warp_event 19,  5, JUNGLE_GATE, 1
+	warp_event 34, 29, SARAH_GYM, 1
 
 	def_coord_events
 ;	coord_event x, y, scene_id, script

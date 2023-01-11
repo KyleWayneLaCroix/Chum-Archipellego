@@ -6,7 +6,7 @@ TrainerClassDVs:
 	dn  8,  8,  8,  8 ; JORDAN
 	dn  9,  8,  8,  8 ; Furry
 	dn  9,  8,  8,  8 ; LOAFER
-	dn  9,  8,  8,  8 ; PRYCE
+	dn  9,  8,  8,  8 ; SARAH
 	dn  9,  8,  8,  8 ; JASMINE
 	dn  9,  8,  8,  8 ; CHUCK
 	dn  7, 12, 13, 13 ; CLAIR
