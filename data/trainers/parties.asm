@@ -47,6 +47,15 @@ FurryGroup:
 	db 16, MEOWTH,		"MEOWTH@",	METAL_CLAW,		THIEF,		BITE,			X_SCISSOR
 	db -1 ; end
 
+	; FURRY (2)
+	db "HOLLOWAY@", TRAINERTYPE_NORMAL
+	db 18, LAPRAS
+	db 16, FINNEON
+	db 17, SHELLOS
+	db 18, GRENMAR
+	db 15, SPHEAL
+	db -1 ; end
+
 LoaferGroup:
 	; MORTY (1)
 	db "SAM@", TRAINERTYPE_NICKNAME | TRAINERTYPE_MOVES
@@ -319,6 +328,14 @@ SupervisorGroup:
 	db 11, BLITZLE
 	db 10, DOTTLER
 	db 14, LOMBRE
+	db -1 ; end
+
+	; SCOT (3)
+	db "SCOT@", TRAINERTYPE_NORMAL
+	db 19, HERACROSS
+	db 18, MAKUHITA
+	db 19, CLOBBOPUS
+	db 17, LITWICK
 	db -1 ; end
 
 ITGuyGroup:
@@ -735,10 +752,11 @@ LassGroup:
 	db -1 ; end
 
 	; LASS (3)
-	db "ALICE@", TRAINERTYPE_NORMAL
-	db 30, HATENNA
-	db 34, CHARJABUG
-	db 30, HATENNA
+	db "JASMINE@", TRAINERTYPE_NORMAL
+	db 18, WOOLOO
+	db 19, EMOLGA
+	db 17, SNOM
+	db 17, MUNNA
 	db -1 ; end
 
 	; LASS (4)
@@ -1133,9 +1151,10 @@ WhiteGirlGroup:
 	db -1 ; end
 
 	; WHITE_GIRL (6)
-	db "CASSIE@", TRAINERTYPE_NORMAL
-	db 28, HATTREM
-	db 34, CORVIKNIGHT
+	db "BOOZER@", TRAINERTYPE_NORMAL
+	db 20, MUDBRAY
+	db 21, ROCKRUFF
+	db 19, HERDIER
 	db -1 ; end
 
 	; WHITE_GIRL (7)
@@ -1210,9 +1229,8 @@ WeirdoGroup:
 
 	; Weirdo (2)
 	db "ANDREW@", TRAINERTYPE_NORMAL
-	db 12, ESPURR
-	db 13, ESPURR
-	db 15, ESPURR
+	db 20, KIRLIA
+	db 18, STEENEE
 	db -1 ; end
 
 	; Weirdo (3)
@@ -1221,9 +1239,12 @@ WeirdoGroup:
 	db -1 ; end
 
 	; Weirdo (4)
-	db "SHANE@", TRAINERTYPE_NORMAL
-	db 16, CENTISKORCH
-	db 16, ARON
+	db "JACK SIMON@", TRAINERTYPE_NORMAL
+	db 20, DOTTLER
+	db 16, LOMBRE
+	db 18, BOUFFALANT
+	db 17, CHATOT
+	db 19, BRUXISH
 	db -1 ; end
 
 	; Weirdo (5)
@@ -1489,8 +1510,11 @@ GentlemanGroup:
 	db -1 ; end
 
 	; GENTLEMAN (2)
-	db "EDWARD@", TRAINERTYPE_NORMAL
-	db 33, SAWSBUCK
+	db "JORDANP@", TRAINERTYPE_NICKNAME
+	db 18, CROAGUNK, "KERMIT@"
+	db 19, MEOWTH, "A CAT@"
+	db 18, GRIMER, "JUNG@"
+	db 24, DRAMPA, "CHAOS@"
 	db -1 ; end
 
 	; GENTLEMAN (3)
@@ -1529,9 +1553,11 @@ TeacherGroup:
 	db -1 ; end
 
 	; TEACHER (2)
-	db "HILLARY@", TRAINERTYPE_NORMAL
-	db 32, DURANT
-	db 36, YANMEGA
+	db "JINYANG@", TRAINERTYPE_NORMAL
+	db 18, NOIBAT
+	db 19, DREEPY
+	db 17, DRAMPA
+	db 20, JANGMO_O
 	db -1 ; end
 
 	; TEACHER (3)
@@ -3156,7 +3182,7 @@ PhotographerGroup:
 	db -1 ; end
 
 	; Photographer (3)
-	db "JIN@", TRAINERTYPE_NORMAL
+	db "BRIAN@", TRAINERTYPE_NORMAL
 	db  6, LUDICOLO
 	db -1 ; end
 
@@ -3281,8 +3307,10 @@ BoarderGroup:
 
 PokefanMGroup:
 	; POKEFANM (1)
-	db "WILLIAM@", TRAINERTYPE_ITEM
-	db 14, BLIPBUG,     BERRY
+	db "B. WILLIS@", TRAINERTYPE_ITEM
+	db 17, KOFFING,     BERRY
+	db 17, HOUNDOUR,     BERRY
+	db 17, TEDDIURSA,     BERRY
 	db -1 ; end
 
 	; POKEFANM (2)
@@ -3627,6 +3655,14 @@ TreeBrianGroup:
 	db 10, EXEGGUTOR
 	db  8, BURGELA
 	db 12, FOMANTIS
+	db -1 ; end
+
+	; TREE_BRIAN (3)
+	db "BRIAN@", TRAINERTYPE_NORMAL
+	db 18, LOMBRE
+	db 19, APPLIN
+	db 21, SNOVER
+	db 20, TANGELA
 	db -1 ; end
 
 RockBrianGroup:

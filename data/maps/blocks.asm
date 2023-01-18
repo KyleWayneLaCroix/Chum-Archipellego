@@ -175,6 +175,18 @@ CampusMission_Blocks:
 SarahGym_Blocks:
 	INCBIN "maps/SarahGym.blk"
 
+Meeman1F_Blocks:
+	INCBIN "maps/Meeman1F.blk"
+
+Meeman2F_Blocks:
+	INCBIN "maps/Meeman2F.blk"
+
+MeemanRoof_Blocks:
+	INCBIN "maps/MeemanRoof.blk"
+
+MeemanPool_Blocks:
+	INCBIN "maps/MeemanPool.blk"
+
 RouteC_Blocks:
 	INCBIN "maps/RouteC.blk"
 

@@ -100,7 +100,10 @@ INCLUDE "maps/EeveeRanchGroomers.asm"
 
 SECTION "Map Scripts 10", ROMX
 INCLUDE "maps/EeveeRanchHives.asm"
-
+INCLUDE "maps/Meeman1F.asm"
+INCLUDE "maps/Meeman2F.asm"
+INCLUDE "maps/MeemanRoof.asm"
+INCLUDE "maps/MeemanPool.asm"
 
 SECTION "Map Scripts 11", ROMX
 

@@ -37,6 +37,7 @@ DEF KRIS EQU __trainer_class__
 
 	trainerclass FURRY ; 3
 	const VICTORIA1
+	const HOLLOWAY
 
 	trainerclass LOAFER ; 4
 	const SAM1
@@ -101,6 +102,7 @@ DEF KRIS EQU __trainer_class__
 	trainerclass SUPERVISOR ; 13
 	const JOSH1
 	const STEV
+	const SCOT
 
 	trainerclass IT_GUY ; 14
 	const MIKE_B
@@ -178,7 +180,7 @@ DEF KRIS EQU __trainer_class__
 	trainerclass LASS ; 19
 	const CARRIE
 	const BRIDGET
-	const ALICE
+	const JASMINEH
 	const KRISE
 	const CONNIE1
 	const LINDA
@@ -248,7 +250,7 @@ DEF KRIS EQU __trainer_class__
 	const JULIE ; unused
 	const JACLYN ; unused
 	const BRENDA ; unused
-	const CASSIE
+	const BOOZER
 	const CAROLINE ; unused
 	const CARLENE ; unused
 	const JESSICA ; unused
@@ -265,7 +267,7 @@ DEF KRIS EQU __trainer_class__
 	const NICK
 	const ANDREW
 	const CALVIN
-	const SHANE
+	const JACK_SIMON
 	const BEN
 	const BRENT1
 	const RON
@@ -313,7 +315,7 @@ DEF KRIS EQU __trainer_class__
 
 	trainerclass GENTLEMAN ; 20
 	const NICK_B
-	const EDWARD
+	const JORDANP
 	const GREGORY
 	const VIRGIL ; unused
 	const ALFRED
@@ -324,7 +326,7 @@ DEF KRIS EQU __trainer_class__
 
 	trainerclass TEACHER ; 22
 	const COLETTE
-	const HILLARY
+	const JIN_YANG
 	const SHIRLEY
 
 	trainerclass SABRINA ; 23
@@ -616,7 +618,7 @@ DEF KRIS EQU __trainer_class__
 	trainerclass PHOTOGRAPHER ; 38
 	const JULIAN
 	const NICO
-	const JIN
+	const PBRIAN
 	const TROY
 	const JEFFREY
 	const PING
@@ -642,7 +644,7 @@ DEF KRIS EQU __trainer_class__
 	const DOUGLAS
 
 	trainerclass POKEFANM ; 3b
-	const WILLIAM
+	const WILLIS
 	const DEREK1
 	const ROBERT
 	const JOSHUA
@@ -722,6 +724,7 @@ DEF KRIS EQU __trainer_class__
 	trainerclass TREE_BRIAN ; 47
 	const TREEBRIAN_1
 	const TREEBRIAN_2
+	const TREEBRIAN_3
 
 	trainerclass ROCK_BRIAN ; 48
 	const ROCKBRIAN_1

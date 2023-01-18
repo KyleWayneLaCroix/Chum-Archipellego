@@ -112,11 +112,15 @@ ENDM
 	map_const UNIVERCITY_MART_B1F,             10, 10 ;  9
 	map_const CAMPUS_MISSION,                   8,  5 ; 10
 	map_const SARAH_GYM,                        8, 11 ; 11
-	map_const ROUTE_C,                         19,  9 ; 12
-	map_const ROUTE_D,                          9, 20 ; 13
-	map_const ROUTE_D_NAME_RATER_HOUSE, 		4,  4 ; 14
-	map_const ROUTE_E,                         10, 27 ; 15
-	map_const ROUTE_F,                         10, 27 ; 16
+	map_const MEEMAN_1F,                       15, 14 ; 12
+	map_const MEEMAN_2F,                       15, 14 ; 13
+	map_const MEEMAN_ROOF,                      7,  4 ; 14
+	map_const MEEMAN_POOL,                      5,  5 ; 15
+	map_const ROUTE_C,                         19,  9 ; 16
+	map_const ROUTE_D,                          9, 20 ; 17
+	map_const ROUTE_D_NAME_RATER_HOUSE, 		4,  4 ; 18
+	map_const ROUTE_E,                         10, 27 ; 19
+	map_const ROUTE_F,                         10, 27 ; 20
 	endgroup
 
 	newgroup EEVEE_RANCH                              ;  9

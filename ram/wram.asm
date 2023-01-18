@@ -3064,7 +3064,8 @@ wMetroidCyberspaceExitSceneID::     db
 wUnivercityMart1FSceneID::          db
 wEeveeRanchExteriorSceneID::        db
 wEeveeRanchInteriorSceneID::        db
-	ds 103
+wMeeman2FSceneID::                  db
+	ds 102
 
 ; fight counts
 wJackFightCount::    db

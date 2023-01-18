@@ -59,7 +59,7 @@ TrainerClassNames::
 	li "PHOTO GUY"
 	li "MEDIUM"
 	li "BOARDER"
-	li "#FAN"
+	li "OLD MAN"
 	li "KIMONO GIRL"
 	li "TWINS"
 	li "GRANDMA"

@@ -14,7 +14,8 @@ MeemanPool_MapEvents:
 
 	def_warp_events
 ;	warp_event x, y, map, warp_id
-
+	warp_event  4,  9, MEEMAN_ROOF, 2
+	warp_event  5,  9, MEEMAN_ROOF, 2
 
 	def_coord_events
 ;	coord_event x, y, scene_id, script
