@@ -10,7 +10,19 @@ SarahGym_MapScripts:
 ;	callback type, script
 
 SarahGymGuideScript:
-	jumptextfaceplayer SarahGymGuideText
+	faceplayer
+	opentext
+	checkevent EVENT_BEAT_SARAH1
+	iftrue .BeatSarah
+	writetext SarahGymGuideText
+	waitbutton
+	closetext
+	end
+.BeatSarah:
+	writetext SarahGymGuideAfterText
+	waitbutton
+	closetext
+	end
 
 TrainerLassCarrieScript:
 	trainer LASS, CARRIE, EVENT_BEAT_LASS_CARRIE, LassCarrieSeenText, LassCarrieBeatenText, 0, .Script
@@ -72,6 +84,8 @@ GymLeaderSarahScript:
 	writetext GymLeaderSarahGiveBadgeText
 	waitbutton
 	setflag ENGINE_STORMBADGE
+	setevent EVENT_BEAT_SARAH1
+	setmapscene JUNGLE_GATE, SCENE_JUNGLE_GATE_GOT_BADGE
 	writetext GymLeaderSarahGiveFlyText
 	waitbutton
 	verbosegiveitem HM_FLY
@@ -112,6 +126,7 @@ CooltrainerFLoisAfterText:
 	text "At least this"
 	line "gym pays me to"
 	cont "be here."
+	done
 
 GymLeaderSarahSeenText:
 	text "Ho ho ho ho!"
@@ -283,6 +298,18 @@ LassCarrieAfterText:
 	cont "hire me."
 	done
 
+SarahGymGuideAfterText:
+	text "Hey there champ!"
+
+	para "You did it, you"
+	line "beat SARAH!"
+
+	para "This means you're"
+	line "just a step away"
+	cont "from becoming the"
+	cont "CHAMPION!"
+	done
+
 SarahGymGuideText:
 	text "Hey there champ-"
 	line "in-the-making!"
@@ -346,5 +373,5 @@ SarahGym_MapEvents:
 	object_event  5,  2, SPRITE_LASS, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_PINK, OBJECTTYPE_TRAINER, 1, TrainerLassBridgetScript, 0
 	object_event 11,  5, SPRITE_BEAUTY, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_PINK, OBJECTTYPE_TRAINER, 5, TrainerWhiteGirlJaclynScript, 0
 	object_event 13,  9, SPRITE_BEAUTY, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_PINK, OBJECTTYPE_TRAINER, 5, TrainerWhiteGirlBrendaScript, 0
-	object_event 15, 20, SPRITE_POKEFAN_F, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 4, TrainerCooltrainerFLois, 0
+	object_event 15, 20, SPRITE_POKEFAN_F, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 4, TrainerCooltrainerFLois, 0
 	object_event 13, 17, SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_PINK, OBJECTTYPE_SCRIPT, 0, GymLeaderSarahScript, 0

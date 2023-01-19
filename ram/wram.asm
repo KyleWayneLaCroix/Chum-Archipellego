@@ -3065,7 +3065,8 @@ wUnivercityMart1FSceneID::          db
 wEeveeRanchExteriorSceneID::        db
 wEeveeRanchInteriorSceneID::        db
 wMeeman2FSceneID::                  db
-	ds 102
+wJungleGateSceneID::                db
+	ds 101
 
 ; fight counts
 wJackFightCount::    db

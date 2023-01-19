@@ -52,7 +52,7 @@ DEF KRIS EQU __trainer_class__
 	const CHUCK1
 
 	trainerclass CLAIR ; 8
-	const CLAIR1
+	const LEE1
 
 	trainerclass RIVAL1 ; 9
 	const RIVAL1_1_SPIRRIP

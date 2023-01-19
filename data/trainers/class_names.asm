@@ -8,7 +8,7 @@ TrainerClassNames::
 	li "LEADER"
 	li "LEADER"
 	li "LEADER"
-	li "LEADER"
+	li "DRAGON FAN"
 	li "RIVAL"
 	li "#MON PROF."
 	li "ELITE FOUR"
