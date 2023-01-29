@@ -104,9 +104,15 @@ INCLUDE "maps/Meeman1F.asm"
 INCLUDE "maps/Meeman2F.asm"
 INCLUDE "maps/MeemanRoof.asm"
 INCLUDE "maps/MeemanPool.asm"
+INCLUDE "maps/Dorm1F.asm"
+INCLUDE "maps/Dorm2F.asm"
+INCLUDE "maps/Dorm3F.asm"
+INCLUDE "maps/Dorm4F.asm"
+INCLUDE "maps/Dorm5F.asm"
+INCLUDE "maps/DormRoof.asm"
 
 SECTION "Map Scripts 11", ROMX
-
+INCLUDE "maps/Tracks.asm"
 
 SECTION "Map Scripts 12", ROMX
 

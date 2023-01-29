@@ -1250,8 +1250,9 @@ WeirdoGroup:
 	db -1 ; end
 
 	; Weirdo (5)
-	db "BEN@", TRAINERTYPE_NORMAL
-	db 19, ARAQUANID
+	db "LOGAN@", TRAINERTYPE_NORMAL
+	db 19, SIRFETCHD
+	db 22, GALLADE
 	db -1 ; end
 
 	; Weirdo (6)
@@ -2505,24 +2506,23 @@ HikerGroup:
 BikerGroup:
 	; BIKER (1)
 	db "BENNY@", TRAINERTYPE_NORMAL
-	db 20, TSAREENA
-	db 20, TSAREENA
-	db 20, TSAREENA
+	db 19, KOFFING
+	db 19, KOFFING
+	db 19, KOFFING
 	db -1 ; end
 
 	; BIKER (2)
 	db "KAZU@", TRAINERTYPE_NORMAL
-	db 20, TSAREENA
-	db 20, TSAREENA
-	db 20, TSAREENA
+	db 20, GRIMER
+	db 20, GRIMER
+	db 20, GRIMER
 	db -1 ; end
 
 	; BIKER (3)
 	db "DWAYNE@", TRAINERTYPE_NORMAL
-	db 27, TSAREENA
-	db 28, TSAREENA
-	db 29, TSAREENA
-	db 30, TSAREENA
+	db 20, GASTLY
+	db 20, GASTLY
+	db 20, GASTLY
 	db -1 ; end
 
 	; BIKER (4)

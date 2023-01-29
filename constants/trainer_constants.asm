@@ -268,7 +268,7 @@ DEF KRIS EQU __trainer_class__
 	const ANDREW
 	const CALVIN
 	const JACK_SIMON
-	const BEN
+	const LOGAN
 	const BRENT1
 	const RON
 	const ETHAN

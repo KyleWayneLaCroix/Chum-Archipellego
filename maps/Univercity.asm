@@ -72,6 +72,8 @@ Univercity_MapEvents:
 	warp_event 19,  5, JUNGLE_GATE, 1
 	warp_event 34, 29, SARAH_GYM, 1
 	warp_event 11, 17, MEEMAN_1F, 1
+	warp_event 31, 23, DORM_1F, 1
+	warp_event 33, 11, TRACKS, 1
 
 	def_coord_events
 ;	coord_event x, y, scene_id, script

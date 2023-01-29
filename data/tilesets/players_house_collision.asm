@@ -28,7 +28,7 @@
 	tilecoll WALL, WALL, BOOKSHELF, BOOKSHELF ; 1b
 	tilecoll WALL, FLOOR, WALL, FLOOR ; 1c
 	tilecoll COUNTER, WALL, FLOOR, WALL ; 1d
-	tilecoll WALL, WALL, WALL, FLOOR ; 1e
+	tilecoll WALL, WALL, RADIO, FLOOR ; 1e
 	tilecoll WALL, WALL, PC, RADIO ; 1f
 	tilecoll WALL, WALL, WALL, WALL ; 20
 	tilecoll WALL, WALL, TV, BOOKSHELF ; 21
@@ -54,3 +54,6 @@
 	tilecoll WALL, WALL, FLOOR, FLOOR ; 35
 	tilecoll WALL, WALL, WALL, WALL ; 36
 	tilecoll WALL, FLOOR, WALL, FLOOR ; 37
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 38
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 39
+	tilecoll WALL, WALL, FLOOR, WALL ; 3a

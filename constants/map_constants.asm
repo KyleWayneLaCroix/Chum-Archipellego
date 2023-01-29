@@ -116,11 +116,18 @@ ENDM
 	map_const MEEMAN_2F,                       15, 14 ; 13
 	map_const MEEMAN_ROOF,                      7,  4 ; 14
 	map_const MEEMAN_POOL,                      5,  5 ; 15
-	map_const ROUTE_C,                         19,  9 ; 16
-	map_const ROUTE_D,                          9, 20 ; 17
-	map_const ROUTE_D_NAME_RATER_HOUSE, 		4,  4 ; 18
-	map_const ROUTE_E,                         10, 27 ; 19
-	map_const ROUTE_F,                         10, 27 ; 20
+	map_const DORM_1F,                          6,  7 ; 16
+	map_const DORM_2F,                          6,  7 ; 17
+	map_const DORM_3F,                          6,  7 ; 18
+	map_const DORM_4F,                          6,  7 ; 19
+	map_const DORM_5F,                          6,  7 ; 20
+	map_const DORM_ROOF,                        6,  7 ; 21
+	map_const TRACKS,                          15,  6 ; 22
+	map_const ROUTE_C,                         19,  9 ; 23
+	map_const ROUTE_D,                          9, 20 ; 24
+	map_const ROUTE_D_NAME_RATER_HOUSE, 		4,  4 ; 25
+	map_const ROUTE_E,                         10, 27 ; 26
+	map_const ROUTE_F,                         10, 27 ; 27
 	endgroup
 
 	newgroup EEVEE_RANCH                              ;  9

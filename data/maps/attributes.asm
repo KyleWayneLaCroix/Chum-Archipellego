@@ -179,6 +179,13 @@ ENDM
 	map_attributes Meeman2F, MEEMAN_2F, $00, 0
 	map_attributes MeemanRoof, MEEMAN_ROOF, $48, 0
 	map_attributes MeemanPool, MEEMAN_POOL, $00, 0
+	map_attributes Dorm1F, DORM_1F, $00, 0
+	map_attributes Dorm2F, DORM_2F, $00, 0
+	map_attributes Dorm3F, DORM_3F, $00, 0
+	map_attributes Dorm4F, DORM_4F, $00, 0
+	map_attributes Dorm5F, DORM_5F, $00, 0
+	map_attributes DormRoof, DORM_ROOF, $48, 0
+	map_attributes Tracks, TRACKS, $00, 0
 	map_attributes RouteC, ROUTE_C, $0A, NORTH |EAST
 	connection north, RouteD, ROUTE_D, 0
 	connection east, Univercity, UNIVERCITY, -4

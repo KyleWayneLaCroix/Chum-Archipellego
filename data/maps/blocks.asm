@@ -187,6 +187,27 @@ MeemanRoof_Blocks:
 MeemanPool_Blocks:
 	INCBIN "maps/MeemanPool.blk"
 
+Dorm1F_Blocks:
+	INCBIN "maps/Dorm1F.blk"
+
+Dorm2F_Blocks:
+	INCBIN "maps/Dorm2F.blk"
+
+Dorm3F_Blocks:
+	INCBIN "maps/Dorm3F.blk"
+
+Dorm4F_Blocks:
+	INCBIN "maps/Dorm4F.blk"
+
+Dorm5F_Blocks:
+	INCBIN "maps/Dorm5F.blk"
+
+DormRoof_Blocks:
+	INCBIN "maps/DormRoof.blk"
+
+Tracks_Blocks:
+	INCBIN "maps/Tracks.blk"
+
 RouteC_Blocks:
 	INCBIN "maps/RouteC.blk"
 
