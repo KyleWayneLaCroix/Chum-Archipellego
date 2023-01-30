@@ -357,7 +357,7 @@ DEF KRIS EQU __trainer_class__
 	const JUSTIN
 	const RALPH
 	const ARNOLD
-	const KYLE
+	const GORO
 	const HENRY
 	const MARVIN
 	const TULLY1

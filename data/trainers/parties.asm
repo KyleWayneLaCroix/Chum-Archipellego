@@ -1720,34 +1720,34 @@ FisherGroup:
 	db -1 ; end
 
 	; FISHER (4)
-	db "KYLE@", TRAINERTYPE_NORMAL
-	db 28, SHROOMISH
-	db 31, DUOSION
-	db 31, SHROOMISH
+	db "GORO@", TRAINERTYPE_NORMAL
+	db 18, TIRTOUGA
+	db 17, CLAUNCHER
+	db 16, MOLAMBINO
 	db -1 ; end
 
 	; FISHER (5)
 	db "HENRY@", TRAINERTYPE_NORMAL
-	db  8, SOLOSIS
-	db  8, SOLOSIS
+	db  25, PALPITOAD
 	db -1 ; end
 
 	; FISHER (6)
 	db "MARVIN@", TRAINERTYPE_NORMAL
-	db 10, PYROAR
-	db 10, BARBOACH
-	db 15, PYROAR
-	db 15, BARBOACH
+	db 18, BARBOACH
+	db 17, SKRELP
 	db -1 ; end
 
 	; FISHER (7)
 	db "TULLY@", TRAINERTYPE_NORMAL
-	db 18, SKRELP
+	db 15, FINNEON
+	db 15, FINNEON
+	db 15, FINNEON
+	db 22, BRUXISH
 	db -1 ; end
 
 	; FISHER (8)
 	db "ANDRE@", TRAINERTYPE_NORMAL
-	db 27, BARBOACH
+	db 27, ANGORE
 	db -1 ; end
 
 	; FISHER (9)

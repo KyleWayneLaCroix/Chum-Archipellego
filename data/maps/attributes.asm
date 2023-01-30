@@ -195,6 +195,7 @@ ENDM
 	map_attributes RouteE, ROUTE_E, $13, NORTH | EAST
 	connection north, Univercity, UNIVERCITY, -5
 	connection east, RouteF, ROUTE_F, 17
+	map_attributes GoodFisherFellowHouse, GOOD_FISHER_FELLOW_HOUSE, $00, 0
 	map_attributes RouteF, ROUTE_F, $13, WEST
 	connection west, RouteE, ROUTE_E, -17
 

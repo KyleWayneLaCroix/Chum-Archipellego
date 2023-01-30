@@ -148,6 +148,33 @@ TracksScientistScript:
 TracksGentlemanScript:
 	jumptextfaceplayer TracksGentlemanText
 
+TracksHelmsmenScript:
+	jumptext TracksHelmsmenText
+
+TracksJukeboxScript:
+	jumptext TracksJukeboxText
+
+TracksJukeboxText:
+	text "A jukebox!"
+
+	para "..."
+
+	para "It only takes 50"
+	line "cent pieces."
+
+	done
+
+TracksHelmsmenText:
+	text "A rack full of"
+	line "copies of the"
+	cont "DAILY HELMSMAN."
+
+	para "It doesn't look"
+	line "like anyone has"
+	cont "taken a copy in"
+	cont "years..."
+	done
+
 TracksGentlemanText:
 	text "I'm so glad that"
 	line "I bought this hat"
@@ -413,6 +440,8 @@ Tracks_MapEvents:
 
 	def_bg_events
 ;	bg_event x, y, type, script
+	bg_event 18, 8, BGEVENT_UP, TracksHelmsmenScript
+	bg_event 20,  1, BGEVENT_UP, TracksJukeboxScript
 
 	def_object_events
 ;	object_event x, y, sprite, movement, rx, ry, h1, h2, palette, type, range, script, event_flag

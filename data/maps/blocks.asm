@@ -72,6 +72,7 @@ GearCityMart_Blocks:
 
 GearCityWhiltenHouse_Blocks:
 OldFisherFellowHouse_Blocks:
+GoodFisherFellowHouse_Blocks:
 	INCBIN "maps/House1.blk"
 
 RouteDNameRaterHouse_Blocks:

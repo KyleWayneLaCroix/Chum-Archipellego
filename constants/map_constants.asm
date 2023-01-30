@@ -127,7 +127,8 @@ ENDM
 	map_const ROUTE_D,                          9, 20 ; 24
 	map_const ROUTE_D_NAME_RATER_HOUSE, 		4,  4 ; 25
 	map_const ROUTE_E,                         10, 27 ; 26
-	map_const ROUTE_F,                         10, 27 ; 27
+	map_const GOOD_FISHER_FELLOW_HOUSE,          4,  4 ; 27
+	map_const ROUTE_F,                         10, 27 ; 28
 	endgroup
 
 	newgroup EEVEE_RANCH                              ;  9
