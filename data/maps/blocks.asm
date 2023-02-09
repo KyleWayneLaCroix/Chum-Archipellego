@@ -94,6 +94,9 @@ DangerousCave_Blocks:
 MetroidCyberspaceExit_Blocks:
 	INCBIN "maps/CyberspaceExit.blk"
 
+RyanTrainingHut_Blocks:
+	INCBIN "maps/TrainingRoom.blk"
+
 SECTION "Map Blocks 4", ROMX
 
 AwakeningBeach_Blocks:

@@ -135,8 +135,16 @@ EeveeRanchGroupSprites:
 
 JungleAreaGroupSprites:
 	db SPRITE_BRUNO
-	; 1 of max 9 walking sprites
+	db SPRITE_BUG_CATCHER
+	db SPRITE_FISHER
+	db SPRITE_YOUNGSTER
+	db SPRITE_LASS
+	db SPRITE_BLACK_BELT
+	db SPRITE_ROCKER
+	; 7 of max 9 walking sprites
+	db SPRITE_BIG_ONIX
 	db SPRITE_POKE_BALL
+	db SPRITE_ROCK
 	db SPRITE_FRUIT_TREE
 	db 0 ; end
 

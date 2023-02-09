@@ -82,7 +82,7 @@ DEF KRIS EQU __trainer_class__
 	const CAL3
 
 	trainerclass BRUNO ; d
-	const BRUNO1
+	const RYAN1
 
 	trainerclass KAREN ; e
 	const KAREN1
@@ -97,7 +97,7 @@ DEF KRIS EQU __trainer_class__
 	const JOELEO
 
 	trainerclass MISTY ; 12
-	const MISTY1
+	const MADDIE1
 
 	trainerclass SUPERVISOR ; 13
 	const JOSH1
@@ -531,7 +531,7 @@ DEF KRIS EQU __trainer_class__
 	trainerclass BLACKBELT_T ; 32
 	const DANIEL
 	const YOSHI
-	const KENJI2 ; unused
+	const KENJI ; unused
 	const LAO
 	const NOB
 	const KIYO

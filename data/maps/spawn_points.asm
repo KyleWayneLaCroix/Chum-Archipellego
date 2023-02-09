@@ -15,6 +15,7 @@ SpawnPoints:
 	spawn CEMETARY,                      4, 12
 	spawn UNIVERCITY,                   15, 18
 	spawn EEVEE_RANCH_EXTERIOR,         19, 34
+	spawn MUSCLE_JUNGLE,                22,  8
 	spawn INDIGO_PLATEAU_POKECENTER_1F,  7,  9
 
 	spawn N_A,                          -1, -1

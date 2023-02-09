@@ -144,6 +144,7 @@ ENDM
 	map_const MUSCLE_JUNGLE,                   26, 27 ;  2
 	map_const ROUTE_G,                         30,  9 ;  3
 	map_const VOLCANO_EXTERIOR,                29, 28 ;  4
+	map_const RYAN_TRAINING_HUT,               12,  6 ;  5
 	endgroup
 
 	newgroup DUNGEONS                                 ; 11

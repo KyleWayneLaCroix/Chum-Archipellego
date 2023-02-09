@@ -346,249 +346,280 @@ JohtoGrassWildMons:
     def_grass_wildmons UNIVERCITY
     db 15 percent, 15 percent, 15 percent ; encounter rates: morn/day/nite
     ; morn
-    db 9, ORICORIO_BAILE
-    db 9, SOLOSIS
-    db 8, GROWLITHE
-    db 8, YANMA
-    db 8, SHROOMISH
-    db 8, STUNKY
-    db 12, MEOWTH
-    db 11, CORVISQUIRE
+    db 12, ORICORIO_BAILE
+    db 12, SOLOSIS
+    db 11, GROWLITHE
+    db 11, YANMA
+    db 11, SHROOMISH
+    db 11, STUNKY
+    db 14, MEOWTH
+    db 14, CORVISQUIRE
     ; day
-    db 9, ORICORIO_BAILE
-    db 9, SOLOSIS
-    db 8, GROWLITHE
-    db 8, YANMA
-    db 8, SHROOMISH
-    db 8, STUNKY
-    db 12, MEOWTH
-    db 11, CORVISQUIRE
+    db 12, ORICORIO_BAILE
+    db 12, SOLOSIS
+    db 11, GROWLITHE
+    db 11, YANMA
+    db 11, SHROOMISH
+    db 11, STUNKY
+    db 14, MEOWTH
+    db 14, CORVISQUIRE
     ; nite
-    db 9, ORICORIO_BAILE
-    db 9, SOLOSIS
-    db 8, GROWLITHE
-    db 8, YANMA
-    db 8, SHROOMISH
-    db 8, STUNKY
-    db 12, MEOWTH
-    db 11, CORVISQUIRE
+    db 12, ORICORIO_BAILE
+    db 12, SOLOSIS
+    db 11, GROWLITHE
+    db 11, YANMA
+    db 11, SHROOMISH
+    db 11, STUNKY
+    db 14, MEOWTH
+    db 14, CORVISQUIRE
     end_grass_wildmons
 
     def_grass_wildmons ROUTE_C
     db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
     ; morn
-    db 9, WOOLOO
-    db 9, EMOLGA
-    db 8, STUNKY
-    db 8, TYKER
-    db 8, YANMA
-    db 8, CHERUBI
-    db 12, HOPPIP
-    db 11, BOUFFALANT
+    db 12, WOOLOO
+    db 12, EMOLGA
+    db 11, STUNKY
+    db 11, TYKER
+    db 11, YANMA
+    db 11, CHERUBI
+    db 14, HOPPIP
+    db 14, BOUFFALANT
     ; day
-    db 9, WOOLOO
-    db 9, EMOLGA
-    db 8, STUNKY
-    db 8, TYKER
-    db 8, YANMA
-    db 8, CHERUBI
-    db 12, HOPPIP
-    db 11, BOUFFALANT
+    db 12, WOOLOO
+    db 12, EMOLGA
+    db 11, STUNKY
+    db 11, TYKER
+    db 11, YANMA
+    db 11, CHERUBI
+    db 14, HOPPIP
+    db 14, BOUFFALANT
     ; nite
-    db 9, WOOLOO
-    db 9, EMOLGA
-    db 8, STUNKY
-    db 8, TYKER
-    db 8, YANMA
-    db 8, CHERUBI
-    db 12, HOPPIP
-    db 11, BOUFFALANT
+    db 12, WOOLOO
+    db 12, EMOLGA
+    db 11, STUNKY
+    db 11, TYKER
+    db 11, YANMA
+    db 11, CHERUBI
+    db 14, HOPPIP
+    db 14, BOUFFALANT
     end_grass_wildmons
 
     def_grass_wildmons ROUTE_D
     db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
     ; morn
-    db 9, ORICORIO_BAILE
-    db 9, SKITTY
-    db 8, WOOLOO
-    db 8, GRIMER
-    db 8, SCYTHER
-    db 8, EMOLGA
-    db 12, TRUMBEAK
-    db 11, BOUFFALANT
+    db 13, ORICORIO_BAILE
+    db 13, SKITTY
+    db 12, WOOLOO
+    db 12, GRIMER
+    db 12, SCYTHER
+    db 12, EMOLGA
+    db 16, TRUMBEAK
+    db 15, BOUFFALANT
     ; day
-    db 9, ORICORIO_BAILE
-    db 9, SKITTY
-    db 8, WOOLOO
-    db 8, GRIMER
-    db 8, SCYTHER
-    db 8, EMOLGA
-    db 12, TRUMBEAK
-    db 11, BOUFFALANT
+    db 13, ORICORIO_BAILE
+    db 13, SKITTY
+    db 12, WOOLOO
+    db 12, GRIMER
+    db 12, SCYTHER
+    db 12, EMOLGA
+    db 16, TRUMBEAK
+    db 15, BOUFFALANT
     ; nite
-    db 9, ORICORIO_BAILE
-    db 9, SKITTY
-    db 8, WOOLOO
-    db 8, GRIMER
-    db 8, SCYTHER
-    db 8, EMOLGA
-    db 12, TRUMBEAK
-    db 11, BOUFFALANT
+    db 13, ORICORIO_BAILE
+    db 13, SKITTY
+    db 12, WOOLOO
+    db 12, GRIMER
+    db 12, SCYTHER
+    db 12, EMOLGA
+    db 16, TRUMBEAK
+    db 15, BOUFFALANT
     end_grass_wildmons
 
     def_grass_wildmons EEVEE_RANCH_EXTERIOR
     db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
     ; morn
-    db 9, EEVEE
-    db 9, EEVEE
-    db 8, ESPEON
-    db 8, UMBREON
-    db 8, EEVEE
-    db 8, GLACEON
-    db 12, LEAFEON
-    db 11, SYLVEON
+    db 13, EEVEE
+    db 13, EEVEE
+    db 13, ESPEON
+    db 13, UMBREON
+    db 13, EEVEE
+    db 13, GLACEON
+    db 15, LEAFEON
+    db 16, SYLVEON
     ; day
-    db 9, EEVEE
-    db 9, EEVEE
-    db 8, ESPEON
-    db 8, UMBREON
-    db 8, EEVEE
-    db 8, GLACEON
-    db 12, LEAFEON
-    db 11, SYLVEON
+    db 13, EEVEE
+    db 13, EEVEE
+    db 13, ESPEON
+    db 13, UMBREON
+    db 13, EEVEE
+    db 13, GLACEON
+    db 15, LEAFEON
+    db 16, SYLVEON
     ; nite
-    db 9, EEVEE
-    db 9, EEVEE
-    db 8, ESPEON
-    db 8, UMBREON
-    db 8, EEVEE
-    db 8, GLACEON
-    db 12, LEAFEON
-    db 11, SYLVEON
+    db 13, EEVEE
+    db 13, EEVEE
+    db 13, ESPEON
+    db 13, UMBREON
+    db 13, EEVEE
+    db 13, GLACEON
+    db 15, LEAFEON
+    db 16, SYLVEON
+    end_grass_wildmons
+
+    def_grass_wildmons EEVEE_RANCH_HIVES
+    db 3 percent, 3 percent, 3 percent ; encounter rates: morn/day/nite
+    ; morn
+    db 13, COMBEE
+    db 13, COMBEE
+    db 13, COMBEE
+    db 13, COMBEE
+    db 13, PONYTA
+    db 13, DEERLING
+    db 15, VESPIQUEN
+    db 16, BUZZEON
+    ; day
+    db 13, COMBEE
+    db 13, COMBEE
+    db 13, COMBEE
+    db 13, COMBEE
+    db 13, PONYTA
+    db 13, DEERLING
+    db 15, VESPIQUEN
+    db 16, BUZZEON
+    ; nite
+    db 13, COMBEE
+    db 13, COMBEE
+    db 13, COMBEE
+    db 13, COMBEE
+    db 13, PONYTA
+    db 13, DEERLING
+    db 15, VESPIQUEN
+    db 16, BUZZEON
     end_grass_wildmons
 
     def_grass_wildmons ROUTE_F
     db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
     ; morn
-    db 9, ROCKRUFF
-    db 9, DRILBUR
-    db 8, ARON
-    db 8, DWEBBLE
-    db 8, YUNGOOS
-    db 8, ZIGZAGOON
-    db 12, SHROOMISH
-    db 11, LARVITAR
+    db 13, ROCKRUFF
+    db 13, DRILBUR
+    db 13, ARON
+    db 13, DWEBBLE
+    db 13, YUNGOOS
+    db 13, ZIGZAGOON
+    db 15, SHROOMISH
+    db 16, LARVITAR
     ; day
-    db 9, ROCKRUFF
-    db 9, DRILBUR
-    db 8, ARON
-    db 8, DWEBBLE
-    db 8, YUNGOOS
-    db 8, ZIGZAGOON
-    db 12, SHROOMISH
-    db 11, LARVITAR
+    db 13, ROCKRUFF
+    db 13, DRILBUR
+    db 13, ARON
+    db 13, DWEBBLE
+    db 13, YUNGOOS
+    db 13, ZIGZAGOON
+    db 15, SHROOMISH
+    db 16, LARVITAR
     ; nite
-    db 9, ROCKRUFF
-    db 9, DRILBUR
-    db 8, ARON
-    db 8, DWEBBLE
-    db 8, YUNGOOS
-    db 8, ZIGZAGOON
-    db 12, SHROOMISH
-    db 11, LARVITAR
+    db 13, ROCKRUFF
+    db 13, DRILBUR
+    db 13, ARON
+    db 13, DWEBBLE
+    db 13, YUNGOOS
+    db 13, ZIGZAGOON
+    db 15, SHROOMISH
+    db 16, LARVITAR
     end_grass_wildmons
 
     def_grass_wildmons MUSCLE_JUNGLE
     db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
     ; morn
-    db 9, CHATOT
-    db 9, TEDDIURSA
-    db 8, SCYTHER
-    db 8, LOMBRE
-    db 8, EXEGGCUTE
-    db 8, ORANGURU
-    db 12, AMAURA
-    db 11, BURGELA
+    db 15, CHATOT
+    db 15, STUFFUL
+    db 16, HERACROSS
+    db 16, CROAGUNK
+    db 16, EXEGGCUTE
+    db 16, ORANGURU
+    db 18, AMAURA
+    db 17, BURGELA
     ; day
-    db 9, CHATOT
-    db 9, TEDDIURSA
-    db 8, SCYTHER
-    db 8, LOMBRE
-    db 8, EXEGGCUTE
-    db 8, ORANGURU
-    db 12, AMAURA
-    db 11, BURGELA
+    db 15, CHATOT
+    db 15, STUFFUL
+    db 16, HERACROSS
+    db 16, CROAGUNK
+    db 16, EXEGGCUTE
+    db 16, ORANGURU
+    db 18, AMAURA
+    db 17, BURGELA
     ; nite
-    db 9, CHATOT
-    db 9, TEDDIURSA
-    db 8, SCYTHER
-    db 8, LOMBRE
-    db 8, EXEGGCUTE
-    db 8, ORANGURU
-    db 12, AMAURA
-    db 11, BURGELA
+    db 15, CHATOT
+    db 15, STUFFUL
+    db 16, HERACROSS
+    db 16, CROAGUNK
+    db 16, EXEGGCUTE
+    db 16, ORANGURU
+    db 18, AMAURA
+    db 17, BURGELA
     end_grass_wildmons
 
     def_grass_wildmons ROUTE_G
     db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
     ; morn
-    db 9, MEOWTH
-    db 9, SALANDIT
-    db 8, MUDBRAY
-    db 8, SIZZLIPEDE
-    db 8, ROCKRUFF
-    db 8, DWEBBLE
-    db 12, WOOBAT
-    db 11, NOIBAT
+    db 15, MEOWTH
+    db 15, SALANDIT
+    db 16, MUDBRAY
+    db 16, SIZZLIPEDE
+    db 16, ROCKRUFF
+    db 16, DWEBBLE
+    db 18, WOOBAT
+    db 17, NOIBAT
     ; day
-    db 9, MEOWTH
-    db 9, SALANDIT
-    db 8, MUDBRAY
-    db 8, SIZZLIPEDE
-    db 8, ROCKRUFF
-    db 8, DWEBBLE
-    db 12, WOOBAT
-    db 11, NOIBAT
+    db 15, MEOWTH
+    db 15, SALANDIT
+    db 16, MUDBRAY
+    db 16, SIZZLIPEDE
+    db 16, ROCKRUFF
+    db 16, DWEBBLE
+    db 18, WOOBAT
+    db 17, NOIBAT
     ; nite
-    db 9, MEOWTH
-    db 9, SALANDIT
-    db 8, MUDBRAY
-    db 8, SIZZLIPEDE
-    db 8, ROCKRUFF
-    db 8, DWEBBLE
-    db 12, WOOBAT
-    db 11, NOIBAT
+    db 15, MEOWTH
+    db 15, SALANDIT
+    db 16, MUDBRAY
+    db 16, SIZZLIPEDE
+    db 16, ROCKRUFF
+    db 16, DWEBBLE
+    db 18, WOOBAT
+    db 17, NOIBAT
     end_grass_wildmons
 
     def_grass_wildmons VOLCANO_EXTERIOR
     db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
     ; morn
-    db 9, LITLEO
-    db 9, SIZZLIPEDE
-    db 8, ORICORIO_BAILE
-    db 8, HEATMOR
-    db 8, FLAREON
-    db 8, SALANDIT
-    db 12, HOUNDOUR
-    db 11, GRENMAR
+    db 15, LITLEO
+    db 15, SIZZLIPEDE
+    db 16, ORICORIO_BAILE
+    db 16, HEATMOR
+    db 16, FLAREON
+    db 16, SALANDIT
+    db 18, HOUNDOUR
+    db 17, GRENMAR
     ; day
-    db 9, LITLEO
-    db 9, SIZZLIPEDE
-    db 8, ORICORIO_BAILE
-    db 8, HEATMOR
-    db 8, FLAREON
-    db 8, SALANDIT
-    db 12, HOUNDOUR
-    db 11, GRENMAR
+    db 15, LITLEO
+    db 15, SIZZLIPEDE
+    db 16, ORICORIO_BAILE
+    db 16, HEATMOR
+    db 16, FLAREON
+    db 16, SALANDIT
+    db 18, HOUNDOUR
+    db 17, GRENMAR
     ; nite
-    db 9, LITLEO
-    db 9, SIZZLIPEDE
-    db 8, ORICORIO_BAILE
-    db 8, HEATMOR
-    db 8, FLAREON
-    db 8, SALANDIT
-    db 12, HOUNDOUR
-    db 11, GRENMAR
+    db 15, LITLEO
+    db 15, SIZZLIPEDE
+    db 16, ORICORIO_BAILE
+    db 16, HEATMOR
+    db 16, FLAREON
+    db 16, SALANDIT
+    db 18, HOUNDOUR
+    db 17, GRENMAR
     end_grass_wildmons
 
     db -1 ; end

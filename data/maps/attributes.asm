@@ -208,6 +208,7 @@ ENDM
 	map_attributes JungleGate, JUNGLE_GATE, $00, 0
 	map_attributes MuscleJungle, MUSCLE_JUNGLE, $01, NORTH
 	connection north, RouteG, ROUTE_G, 8
+	map_attributes RyanTrainingHut, RYAN_TRAINING_HUT, $00, 0
 	map_attributes RouteG, ROUTE_G, $2a, SOUTH | EAST
 	connection south, MuscleJungle, MUSCLE_JUNGLE, -8
 	connection east, VolcanoExterior, VOLCANO_EXTERIOR, -15

@@ -25,13 +25,13 @@ FishGroups:
 	assert_table_length NUM_FISHGROUPS
 
 .Shore_Old:
-	db  70 percent + 1, FINNEON,     10
-	db  85 percent + 1, ALOMOMOLA,   10
-	db 100 percent,     MOLAMBINO,   10
+	db  70 percent + 1, FINNEON,     8
+	db  85 percent + 1, ALOMOMOLA,   8
+	db 100 percent,     MOLAMBINO,   8
 .Shore_Good:
-	db  35 percent,     ALOMOMOLA,   20
-	db  70 percent,     CLAUNCHER,     20
-	db  90 percent + 1, CLAUNCHER,     20
+	db  35 percent,     ALOMOMOLA,   16
+	db  70 percent,     CLAUNCHER,     16
+	db  90 percent + 1, CLAUNCHER,     16
 	db 100 percent,     time_group 0
 .Shore_Super:
 	db  40 percent,     CLAUNCHER,     40
@@ -40,13 +40,13 @@ FishGroups:
 	db 100 percent,     CLAWITZER,    40
 
 .Ocean_Old:
-	db  70 percent + 1, BARBOACH,   10
-	db  85 percent + 1, CHINCHOU,   10
-	db 100 percent,     SKRELP,     10
+	db  70 percent + 1, BARBOACH,   8
+	db  85 percent + 1, CHINCHOU,   8
+	db 100 percent,     SKRELP,     8
 .Ocean_Good:
-	db  35 percent,     ALOMOMOLA,   20
-	db  70 percent,     SHELLOS,  20
-	db  90 percent + 1, CHINCHOU,   20
+	db  35 percent,     ALOMOMOLA,   16
+	db  70 percent,     SHELLOS,  16
+	db  90 percent + 1, CHINCHOU,   16
 	db 100 percent,     time_group 2
 .Ocean_Super:
 	db  40 percent,     CHINCHOU,   40
@@ -59,9 +59,9 @@ FishGroups:
 	db  85 percent + 1, FINNEON,   10
 	db 100 percent,     TIRTOUGA,    10
 .Lake_Good:
-	db  35 percent,     ALOMOMOLA,   20
-	db  70 percent,     FINNEON,    20
-	db  90 percent + 1, FINNEON,    20
+	db  35 percent,     ALOMOMOLA,   17
+	db  70 percent,     FINNEON,    17
+	db  90 percent + 1, FINNEON,    17
 	db 100 percent,     time_group 4
 .Lake_Super:
 	db  40 percent,     FINNEON,    40
@@ -74,9 +74,9 @@ FishGroups:
 	db  85 percent + 1, LOTAD,   10
 	db 100 percent,     FINNEON,    10
 .Pond_Good:
-	db  35 percent,     ALOMOMOLA,   20
-	db  70 percent,     TYMPOLE,    20
-	db  90 percent + 1, TYMPOLE,    20
+	db  35 percent,     ALOMOMOLA,   17
+	db  70 percent,     TYMPOLE,    17
+	db  90 percent + 1, TYMPOLE,    17
 	db 100 percent,     time_group 6
 .Pond_Super:
 	db  40 percent,     TYMPOLE,    40
