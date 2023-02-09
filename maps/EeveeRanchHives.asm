@@ -36,7 +36,7 @@ EeveeRanchHivesJordanScript:
 	writetext EeveeRanchHivesJordanGiveHoneonText
 	waitbutton
 	disappear EEVEE_RANCH_HIVES_HONEON
-	givepoke BUZZEON, 14
+	givepoke BUZZEON, 20
 	closetext
 	end
 .Refused:

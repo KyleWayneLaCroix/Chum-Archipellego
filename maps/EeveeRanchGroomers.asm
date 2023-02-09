@@ -582,7 +582,7 @@ DaisyOfferGroomingText:
 	text "Hi! I'm still"
 	line "learning, so I"
 	cont "can groom one of"
-	line "your #MON for"
+	cont "your #MON for"
 	cont "free!"
 
 	para "Would you like me"

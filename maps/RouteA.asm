@@ -175,7 +175,7 @@ YoungsterMikeyAfterText:
 	line "cheated."
 
 	para "I'm reporting you"
-	cont "to the mods."
+	line "to the mods."
 	done
 
 RouteACoolTrainerFText:

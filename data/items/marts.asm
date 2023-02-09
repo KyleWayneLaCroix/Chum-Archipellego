@@ -53,10 +53,10 @@ MartRouteBGate:
 	db POKE_BALL
 	db LURE_BALL
 	db REPEL
-	db ENERGYPOWDER
-	db ENERGY_ROOT
-	db HEAL_POWDER
-	db REVIVAL_HERB
+	db POTION
+	db SUPER_POTION
+	db ANTIDOTE
+	db REVIVE
 	db -1 ; end
 
 MartUnivercityBalls:

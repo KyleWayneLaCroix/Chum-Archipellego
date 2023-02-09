@@ -260,6 +260,7 @@ TracksCoolTrainerFText:
 	para "Mostly because"
 	line "it's right by"
 	cont "the dorms!"
+	done
 
 BikerKazuSeenText:
 	text "What are YOU"

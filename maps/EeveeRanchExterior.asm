@@ -501,6 +501,14 @@ EeveeRanchEeveeBrian:
 EeveeRanchGroomerSignScript:
 	jumptext EeveeRanchGroomerSignText
 
+EeveeRanchHiveSignScript:
+	jumptext EeveeRanchHiveSignText
+
+EeveeRanchHiveSignText:
+	text "EEVEE RANCH HIVES"
+	line "      AHEAD      "
+	done
+
 SylveonNeedsPetsText:
 	text "A SYLVEON stands"
 	line "in front of you."
@@ -1140,8 +1148,8 @@ EeveeRanchExterior_MapEvents:
 	warp_event 26, 37, ROUTE_D, 1
 	warp_event 19, 33, EEVEE_RANCH_POKECENTER_1F, 1
 	warp_event 10, 25, EEVEE_RANCH_INTERIOR, 1
-	warp_event  9, 21, EEVEE_RANCH_INTERIOR, 2
-	warp_event 10, 21, EEVEE_RANCH_INTERIOR, 3
+	warp_event  9, 21, EEVEE_RANCH_INTERIOR, 3
+	warp_event 10, 21, EEVEE_RANCH_INTERIOR, 4
 	warp_event  1, 31, EEVEE_RANCH_GROOMERS, 1
 	warp_event  8,  0, EEVEE_RANCH_HIVES, 1
 	warp_event  9,  0, EEVEE_RANCH_HIVES, 2
@@ -1151,6 +1159,7 @@ EeveeRanchExterior_MapEvents:
 	def_bg_events
 ;	bg_event x, y, type, script
 	bg_event 4, 31, BGEVENT_READ, EeveeRanchGroomerSignScript
+	bg_event 9, 3, BGEVENT_READ, EeveeRanchHiveSignScript
 
 	def_object_events
 ;	object_event x, y, sprite, movement, rx, ry, h1, h2, palette, type, range, script, event_flag

@@ -724,7 +724,7 @@ JasmineHunterBeatenText:
 JasmineHunterAfterText:
 	text "JASMINE: Everyone"
 	line "here can be a"
-	line "little bit much"
+	cont "little bit much"
 	cont "sometimes."
 
 	para "But it's a fun"
