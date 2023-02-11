@@ -97,6 +97,9 @@ MetroidCyberspaceExit_Blocks:
 RyanTrainingHut_Blocks:
 	INCBIN "maps/TrainingRoom.blk"
 
+RouteGMetroidCave_Blocks:
+	INCBIN "maps/MetroidCave.blk"
+
 SECTION "Map Blocks 4", ROMX
 
 AwakeningBeach_Blocks:

@@ -91,6 +91,7 @@ INCLUDE "maps/RouteG.asm"
 INCLUDE "maps/JungleGate.asm"
 INCLUDE "maps/Jungle.asm"
 INCLUDE "maps/RyanTrainingHut.asm"
+INCLUDE "maps/RouteGMetroidCave.asm"
 INCLUDE "maps/VolcanoExterior.asm"
 
 SECTION "Map Scripts 9", ROMX

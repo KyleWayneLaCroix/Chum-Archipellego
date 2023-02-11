@@ -212,5 +212,7 @@ ENDM
 	map_attributes RouteG, ROUTE_G, $2a, SOUTH | EAST
 	connection south, MuscleJungle, MUSCLE_JUNGLE, -8
 	connection east, VolcanoExterior, VOLCANO_EXTERIOR, -15
+	map_attributes RouteGMetroidCave, ROUTE_G_METROID_CAVE, $00, 0
 	map_attributes VolcanoExterior, VOLCANO_EXTERIOR, $2a, WEST
 	connection west, RouteG, ROUTE_G, 15
+

@@ -33,10 +33,10 @@ JungleFlypointCallback:
 	endcallback
 
 JungleFruitTree1:
-	fruittree FRUITTREE_JUNGLE_1
+	fruittree FRUITTREE_MUSCLE_JUNGLE_1
 
 JungleFruitTree2:
-	fruittree FRUITTREE_JUNGLE_2
+	fruittree FRUITTREE_MUSCLE_JUNGLE_2
 
 JungleHyperPotion:
 	itemball HYPER_POTION

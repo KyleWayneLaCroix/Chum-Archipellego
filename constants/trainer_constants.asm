@@ -472,7 +472,7 @@ DEF KRIS EQU __trainer_class__
 	const HORACE
 	const PHILLIP
 	const LEONARD
-	const ANTHONY2
+	const ANTHONY1
 	const BENJAMIN
 	const ERIK
 	const MICHAEL
