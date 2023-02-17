@@ -57,6 +57,7 @@ TrainingHutRyanScript:
 	writetext TrainingHutRyanAfterBattle
 	waitbutton
 	verbosegiveitem HM_STRENGTH
+	setflag ENGINE_PLAINBADGE
 	waitbutton
 	writetext TrainingHutRyanExplainStrength
 	waitbutton

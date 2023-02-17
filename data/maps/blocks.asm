@@ -261,3 +261,38 @@ MetroidVerticalHallway_Blocks:
 
 MetroidEnd_Blocks:
 	INCBIN "maps/MetroidEnd.blk"
+
+SECTION "Map Blocks 7", ROMX
+
+VolcanoInteriorB1F_Blocks:
+	INCBIN "maps/VolcanoInteriorB1F.blk"
+
+VolcanoInteriorB1FHall_Blocks:
+	INCBIN "maps/VolcanoInteriorB1FHall.blk"
+
+VolcanoInterior1F_Blocks:
+	INCBIN "maps/VolcanoInterior1F.blk"
+
+VolcanoInterior2F_Blocks:
+	INCBIN "maps/VolcanoInterior2F.blk"
+
+VolcanoInterior3F_Blocks:
+	INCBIN "maps/VolcanoInterior3F.blk"
+
+VolcanoInterior3FHall_Blocks:
+	INCBIN "maps/VolcanoInterior3FHall.blk"
+
+VolcanoInterior4F_Blocks:
+	INCBIN "maps/VolcanoInterior4F.blk"
+
+VolcanoInterior5F_Blocks:
+	INCBIN "maps/VolcanoInterior5F.blk"
+
+VolcanoInterior5FHall_Blocks:
+	INCBIN "maps/VolcanoInterior5FHall.blk"
+
+VolcanoInterior6F_Blocks:
+	INCBIN "maps/VolcanoInterior6F.blk"
+
+VolcanoInterior6FHall_Blocks:
+	INCBIN "maps/VolcanoInterior6FHall.blk"

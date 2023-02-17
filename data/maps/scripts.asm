@@ -118,7 +118,17 @@ INCLUDE "maps/Tracks.asm"
 INCLUDE "maps/GoodFisherFellowHouse.asm"
 
 SECTION "Map Scripts 12", ROMX
-
+INCLUDE "maps/VolcanoInterior1F.asm"
+INCLUDE "maps/VolcanoInterior2F.asm"
+INCLUDE "maps/VolcanoInterior3F.asm"
+INCLUDE "maps/VolcanoInterior4F.asm"
+INCLUDE "maps/VolcanoInterior5F.asm"
+INCLUDE "maps/VolcanoInterior6F.asm"
+INCLUDE "maps/VolcanoInterior3FHall.asm"
+INCLUDE "maps/VolcanoInterior5FHall.asm"
+INCLUDE "maps/VolcanoInterior6FHall.asm"
+INCLUDE "maps/VolcanoInteriorB1F.asm"
+INCLUDE "maps/VolcanoInteriorB1FHall.asm"
 
 SECTION "Map Scripts 13", ROMX
 

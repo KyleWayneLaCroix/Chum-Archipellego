@@ -190,8 +190,10 @@ AwakeningLabHealingMachine:
 	giveitem RARE_CANDY, 99
 	giveitem NUGGET, 99
 	giveitem HM_FLY
+	giveitem HM_STRENGTH
 	setevent EVENT_BEAT_SARAH1
 	setflag ENGINE_STORMBADGE
+	setflag ENGINE_PLAINBADGE
 	givepoke UNOWN, 89
 	givepoke ANGORE, 50
 	givepoke JUNGELA, 50
@@ -531,7 +533,7 @@ AwakeningLab_MapEvents:
 	def_warp_events
 	warp_event 25, 19, AWAKENING_BEACH, 1
 	warp_event 24, 19, AWAKENING_BEACH, 1
-	warp_event 27, 16, ROUTE_G_METROID_CAVE, 1
+	warp_event 27, 16, VOLCANO_EXTERIOR, 1
 
 	def_coord_events
 	coord_event 26,  6, SCENE_AWAKENINGLAB_WOKE_UP, WakeUpScript

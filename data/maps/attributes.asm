@@ -216,3 +216,14 @@ ENDM
 	map_attributes VolcanoExterior, VOLCANO_EXTERIOR, $2a, WEST
 	connection west, RouteG, ROUTE_G, 15
 
+	map_attributes VolcanoInteriorB1F, VOLCANO_INTERIOR_B1F, $00, 0
+	map_attributes VolcanoInteriorB1FHall, VOLCANO_INTERIOR_B1F_HALL, $09, 0
+	map_attributes VolcanoInterior1F, VOLCANO_INTERIOR_1F, $00, 0
+	map_attributes VolcanoInterior2F, VOLCANO_INTERIOR_2F, $09, 0
+	map_attributes VolcanoInterior3F, VOLCANO_INTERIOR_3F, $00, 0
+	map_attributes VolcanoInterior3FHall, VOLCANO_INTERIOR_3F_HALL, $09, 0
+	map_attributes VolcanoInterior4F, VOLCANO_INTERIOR_4F, $09, 0
+	map_attributes VolcanoInterior5F, VOLCANO_INTERIOR_5F, $00, 0
+	map_attributes VolcanoInterior5FHall, VOLCANO_INTERIOR_5F_HALL, $09, 0
+	map_attributes VolcanoInterior6F, VOLCANO_INTERIOR_6F, $64, 0
+	map_attributes VolcanoInterior6FHall, VOLCANO_INTERIOR_6F_HALL, $00, 0

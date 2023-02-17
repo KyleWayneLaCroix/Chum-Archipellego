@@ -45,15 +45,6 @@ INCBIN "data/tilesets/pokecenter_metatiles.bin"
 TilesetPokecenterColl::
 INCLUDE "data/tilesets/pokecenter_collision.asm"
 
-TilesetPortGFX::
-INCBIN "gfx/tilesets/port.2bpp.lz"
-
-TilesetPortMeta::
-INCBIN "data/tilesets/port_metatiles.bin"
-
-TilesetPortColl::
-INCLUDE "data/tilesets/port_collision.asm"
-
 TilesetMansionGFX::
 INCBIN "gfx/tilesets/mansion.2bpp.lz"
 
@@ -304,3 +295,13 @@ INCBIN "data/tilesets/jungle_metatiles.bin"
 
 TilesetJungleColl::
 INCLUDE "data/tilesets/jungle_collision.asm"
+
+
+TilesetPortGFX::
+INCBIN "gfx/tilesets/port.2bpp.lz"
+
+TilesetPortMeta::
+INCBIN "data/tilesets/port_metatiles.bin"
+
+TilesetPortColl::
+INCLUDE "data/tilesets/port_collision.asm"

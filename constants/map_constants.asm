@@ -127,7 +127,7 @@ ENDM
 	map_const ROUTE_D,                          9, 20 ; 24
 	map_const ROUTE_D_NAME_RATER_HOUSE, 		4,  4 ; 25
 	map_const ROUTE_E,                         10, 27 ; 26
-	map_const GOOD_FISHER_FELLOW_HOUSE,          4,  4 ; 27
+	map_const GOOD_FISHER_FELLOW_HOUSE,         4,  4 ; 27
 	map_const ROUTE_F,                         10, 27 ; 28
 	endgroup
 
@@ -154,6 +154,17 @@ ENDM
 	map_const NORTHERN_FOREST,                 20, 30 ;  3
 	map_const CITY_GEAR_HQ,                    12, 19 ;  4
 	map_const CITY_GEAR_HQ_BASEMENT,           17,  8 ;  5
+	map_const VOLCANO_INTERIOR_B1F,            15, 18 ;  6
+	map_const VOLCANO_INTERIOR_B1F_HALL,        9,  7 ;  7
+	map_const VOLCANO_INTERIOR_1F,             27, 18 ;  8
+	map_const VOLCANO_INTERIOR_2F,             14, 18 ;  9
+	map_const VOLCANO_INTERIOR_3F,             18, 21 ; 10
+	map_const VOLCANO_INTERIOR_3F_HALL,        11,  4 ; 11
+	map_const VOLCANO_INTERIOR_4F,             33, 21 ; 12
+	map_const VOLCANO_INTERIOR_5F,             20, 20 ; 13
+	map_const VOLCANO_INTERIOR_5F_HALL,         8,  8 ; 14
+	map_const VOLCANO_INTERIOR_6F,             30, 18 ; 15
+	map_const VOLCANO_INTERIOR_6F_HALL,        10, 20 ; 16
 	endgroup
 
 DEF NUM_MAP_GROUPS EQU const_value ; 8
