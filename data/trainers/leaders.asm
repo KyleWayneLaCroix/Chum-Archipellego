@@ -6,13 +6,12 @@
 
 GymLeaders:
 	db JORDAN
+	db KYLE
+	db CASEY
+	db LEE
+	db RYAN
+	db SANHA
+	db LOAFER
 ; fallthrough
 KantoGymLeaders:
-	db BROCK
-	db MISTY
-	db ERIKA
-	db JANINE
-	db SABRINA
-	db BLAINE
-	db BLUE
 	db -1

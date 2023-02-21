@@ -152,7 +152,7 @@ TrainerPhotographerJulian:
 	end
 
 TrainerCEOLongo:
-	trainer EXECUTIVEM, LONGO, EVENT_BEAT_CEO_LONGO, CEOLongoSeenText, CEOLongoBeatenText, 0, .Script
+	trainer CEO, LONGO, EVENT_BEAT_CEO_LONGO, CEOLongoSeenText, CEOLongoBeatenText, 0, .Script
 
 .Script:
 	opentext

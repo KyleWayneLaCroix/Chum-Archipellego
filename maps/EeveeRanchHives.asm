@@ -374,6 +374,6 @@ EeveeRanchHives_MapEvents:
 ;	object_event x, y, sprite, movement, rx, ry, h1, h2, palette, type, range, script, event_flag
 	object_event  5, 15, SPRITE_BUG_CATCHER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 5, TrainerBugCatcherAl, -1
 	object_event 16, 10, SPRITE_SUPER_NERD, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 2, TrainerBirdKeeperRod, -1
-	object_event  5,  5, SPRITE_WHITNEY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_PINK, OBJECTTYPE_SCRIPT, 0, EeveeRanchHivesJordanScript, -1
-	object_event  6,  5, SPRITE_BUZZEON, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_PINK, OBJECTTYPE_SCRIPT, 0, EeveeRanchHivesHoneonScript, EVENT_BEAT_JORDAN_2
+	object_event  5,  5, SPRITE_WHITNEY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, EeveeRanchHivesJordanScript, -1
+	object_event  6,  5, SPRITE_BUZZEON, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, EeveeRanchHivesHoneonScript, EVENT_BEAT_JORDAN_2
 	object_event 12,  1, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, EeveeRanchHivesXSpecial, EVENT_EEVEE_RANCH_HIVES_X_SPECIAL

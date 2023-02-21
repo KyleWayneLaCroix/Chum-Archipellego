@@ -47,7 +47,7 @@ RouteGMetroidCaveZoomer2:
 	end
 
 TrainerGruntM2:
-	trainer GRUNTM, GRUNTM_2, EVENT_BEAT_ROCKET_GRUNTM_2, RocketGruntM2SeenText, RocketGruntM2BeatenText, 0, .Script
+	trainer GLITCH_T, GLITCH_2, EVENT_BEAT_GLITCH_2, RocketGruntM2SeenText, RocketGruntM2BeatenText, 0, .Script
 
 .Script:
 	opentext
@@ -63,7 +63,7 @@ TrainerGruntM2:
 	end
 
 TrainerGruntM3:
-	trainer GRUNTM, GRUNTM_3, EVENT_BEAT_ROCKET_GRUNTM_3, RocketGruntM3SeenText, RocketGruntM3BeatenText, 0, .Script
+	trainer GLITCH_T, GLITCH_3, EVENT_BEAT_GLITCH_3, RocketGruntM3SeenText, RocketGruntM3BeatenText, 0, .Script
 
 .Script:
 	opentext
@@ -151,9 +151,9 @@ RouteGMetroidCave_MapEvents:
 
 	def_object_events
 ;	object_event x, y, sprite, movement, rx, ry, h1, h2, palette, type, range, script, event_flag
-	object_event 10, 6, SPRITE_SKREE_RIPPER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 3, TrainerGruntM2, EVENT_BEAT_ROCKET_GRUNTM_2
-	object_event 16, 4, SPRITE_SKREE_RIPPER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 2, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 3, TrainerGruntM3, EVENT_BEAT_ROCKET_GRUNTM_3
+	object_event 10, 6, SPRITE_SKREE_RIPPER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 3, TrainerGruntM2, EVENT_BEAT_GLITCH_2
+	object_event 16, 4, SPRITE_SKREE_RIPPER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 2, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 3, TrainerGruntM3, EVENT_BEAT_GLITCH_3
 	object_event 22,  8, SPRITE_ZOOMER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 2, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, RouteGMetroidCaveZoomer1, EVENT_ROUTE_G_METROID_CAVE_ZOOMER_1
 	object_event  4,  4, SPRITE_ZOOMER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 2, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, RouteGMetroidCaveZoomer2, EVENT_ROUTE_G_METROID_CAVE_ZOOMER_2
-	object_event 1, 1, SPRITE_ENERGY_TANK, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_PINK, OBJECTTYPE_ITEMBALL, 0, RouteGMetroidCaveFullRestore, EVENT_ROUTE_G_METROID_CAVE_FULL_RESTORE
+	object_event 1, 1, SPRITE_ENERGY_TANK, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_ITEMBALL, 0, RouteGMetroidCaveFullRestore, EVENT_ROUTE_G_METROID_CAVE_FULL_RESTORE
 	object_event 4, 7, SPRITE_MORPH_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_ITEMBALL, 0, RouteGMetroidCaveTMEnergyBall, EVENT_ROUTE_G_METROID_CAVE_TM_ENERGY_BALL

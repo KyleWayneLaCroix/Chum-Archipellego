@@ -198,6 +198,14 @@ TilesetDarkCaveAnim:
 	dw NULL,  FlickeringCaveEntrancePalette
 	dw vTiles2 tile $40, WriteTileFromAnimBuffer
 	dw NULL,  FlickeringCaveEntrancePalette
+	dw NULL,  AnimateLavaBubbleTile2
+	dw NULL,  WaitTileAnimation
+	dw NULL,  WaitTileAnimation
+	dw NULL,  WaitTileAnimation
+	dw NULL,  WaitTileAnimation
+	dw NULL,  AnimateLavaBubbleTile1
+	dw NULL,  WaitTileAnimation
+	dw NULL,  StandingTileFrame8
 	dw NULL,  DoneTileAnimation
 
 TilesetIcePathAnim:
@@ -705,7 +713,7 @@ AnimateLavaBubbleTile1:
 
 ; Write the tile graphic from hl (now sp) to tile $5b (now hl)
 	ld sp, hl
-	ld hl, vTiles2 tile $5b
+	ld hl, vTiles2 tile $5c
 	jp WriteTile
 
 AnimateLavaBubbleTile2:
@@ -730,7 +738,7 @@ AnimateLavaBubbleTile2:
 
 ; Write the tile graphic from hl (now sp) to tile $38 (now hl)
 	ld sp, hl
-	ld hl, vTiles2 tile $38
+	ld hl, vTiles2 tile $5D
 	jp WriteTile
 
 LavaBubbleTileFrames:

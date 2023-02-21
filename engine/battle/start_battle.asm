@@ -61,7 +61,7 @@ PlayBattleMusic:
 	ld de, MUSIC_JOHTO_WILD_BATTLE
 	ld a, [wTimeOfDay]
 	cp NITE_F
-	jr nz, .done
+	jP nz, .done
 	ld de, MUSIC_JOHTO_WILD_BATTLE_NIGHT
 	jr .done
 
@@ -77,15 +77,21 @@ PlayBattleMusic:
 	jr z, .done
 
 	ld de, MUSIC_ROCKET_BATTLE
-	cp GRUNTM
+	cp BALL_BRIAN
 	jr z, .done
-	cp GRUNTF
+	cp MAD_DOG
 	jr z, .done
-	cp EXECUTIVEM
+	cp BRIAN_F
 	jr z, .done
-	cp EXECUTIVEF
+	cp BRIAN_M
 	jr z, .done
-	cp IT_GUY
+	cp BRIAN_64
+	jr z, .done
+	cp BUG_BRIAN
+	jr z, .done
+	cp ROCK_BRIAN
+	jr z, .done
+	cp TREE_BRIAN
 	jr z, .done
 
 	ld de, MUSIC_KANTO_GYM_LEADER_BATTLE
@@ -106,7 +112,7 @@ PlayBattleMusic:
 	jr nz, .othertrainer
 
 	ld a, [wOtherTrainerID]
-	cp RIVAL2_2_SPIRRIP ; Rival in Indigo Plateau
+	cp RIVAL2_1 ; Rival in Indigo Plateau
 	jr c, .done
 	ld de, MUSIC_CHAMPION_BATTLE
 	jr .done

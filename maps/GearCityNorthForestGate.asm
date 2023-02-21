@@ -134,6 +134,6 @@ GearCityNorthForestGate_MapEvents:
 ;	object_event x, y, sprite, movement, rx, ry, h1, h2, palette, type, range, script, event_flag
 	object_event  8,  7, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, GearCityNorthForestGateOfficerScript, -1
 	object_event  1,  1, SPRITE_PHARMACIST, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, GearCityGateCreepyManScript, -1
-	object_event 13,  2, SPRITE_LASS, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_PINK, OBJECTTYPE_SCRIPT, 0, GearCityGateTMLady, -1
+	object_event 13,  2, SPRITE_LASS, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, GearCityGateTMLady, -1
 	object_event 14,  2, SPRITE_BUTTERFREE, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, GearCityGateFrosmothScript, -1
 	object_event  6,  3, SPRITE_BUG_CATCHER, SPRITEMOVEDATA_WANDER, 4, 2, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, GearCityGateBugCatcherScript, -1

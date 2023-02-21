@@ -216,7 +216,7 @@ AwakeningLabPotions:
 	itemball POTION, 7
 
 TestTrainer:
- trainer RIVAL1, RIVAL1_1_SPIRRIP, -1, TestTrainerSeen, TestTrainerBeaten, 0, .Script
+ trainer RIVAL1, RIVAL1_1, -1, TestTrainerSeen, TestTrainerBeaten, 0, .Script
 
 .Script
 	end
@@ -533,7 +533,7 @@ AwakeningLab_MapEvents:
 	def_warp_events
 	warp_event 25, 19, AWAKENING_BEACH, 1
 	warp_event 24, 19, AWAKENING_BEACH, 1
-	warp_event 27, 16, VOLCANO_EXTERIOR, 1
+	warp_event 27, 16, VOLCANO_INTERIOR_6F, 1
 
 	def_coord_events
 	coord_event 26,  6, SCENE_AWAKENINGLAB_WOKE_UP, WakeUpScript
@@ -567,7 +567,7 @@ AwakeningLab_MapEvents:
 	bg_event 25, 12, BGEVENT_READ, AwakeningLabHealingMachine
 
 	def_object_events
-	object_event 26, 14, SPRITE_RIVAL, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 0, TestTrainer, -1
+	object_event 26, 14, SPRITE_RIVAL, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_TRAINER, 0, TestTrainer, -1
 	object_event 12, 15, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, PorygonPokeBallScript, EVENT_PORYGON_POKEBALL
 	object_event 13, 15, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, BurgelaPokeBallScript, EVENT_BURGELA_POKEBALL
 	object_event 14, 15, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, SpirripPokeBallScript, EVENT_SPIRRIP_POKEBALL

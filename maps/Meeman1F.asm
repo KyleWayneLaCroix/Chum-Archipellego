@@ -19,7 +19,7 @@ Meeman1FAdOfficeSignScript:
 	jumptext Meeman1FAdOfficeSignText
 
 BobWillisScript:
-	trainer POKEFANM, WILLIS, EVENT_BEAT_OLD_MAN_WILLIS, BobWillisSeenText, BobWillisBeatenText, 0, .Script
+	trainer GRAMPS, WILLIS, EVENT_BEAT_GRAMPS_WILLIS, BobWillisSeenText, BobWillisBeatenText, 0, .Script
 
 .Script:
 	endifjustbattled
@@ -30,7 +30,7 @@ BobWillisScript:
 	end
 
 JordanPetersonScript:
-	trainer GENTLEMAN, JORDANP, EVENT_BEAT_GENTLEMAN_JORDANP, JordanPetersonSeenText, JordanPetersonBeatenText, 0, .Script
+	trainer FEDORA_MAN, JORDANP, EVENT_BEAT_GENTLEMAN_JORDANP, JordanPetersonSeenText, JordanPetersonBeatenText, 0, .Script
 
 .Script:
 	endifjustbattled

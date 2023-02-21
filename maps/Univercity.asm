@@ -236,7 +236,7 @@ Univercity_MapEvents:
 
 	def_object_events
 ;	object_event x, y, sprite, movement, rx, ry, h1, h2, palette, type, range, script, event_flag
-	object_event 12, 25, SPRITE_RED, SPRITEMOVEDATA_WALK_UP_DOWN, 4, 4, -1, -1, PAL_NPC_PINK, OBJECTTYPE_SCRIPT, 0, UnivercityRedScript, 0
+	object_event 12, 25, SPRITE_RED, SPRITEMOVEDATA_WALK_UP_DOWN, 4, 4, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, UnivercityRedScript, 0
 	object_event 24, 25, SPRITE_DAISY, SPRITEMOVEDATA_WANDER, 4, 4, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, UnivercityDaisyScript, 0
 	object_event 16, 12, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_WANDER, 2, 1, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, UnivercityCooltrainerMScript, 0
 	object_event  6, 27, SPRITE_BUG_CATCHER, SPRITEMOVEDATA_WANDER, 1, 3, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, UnivercityBugCatcherScript, 0

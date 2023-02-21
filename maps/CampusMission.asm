@@ -46,7 +46,7 @@ CampusMissionPreacher:
 	closetext
 	winlosstext CampusMissionPastorBeatenText, 0
 	setlasttalked CAMPUSMISSION_PREACHER
-	loadtrainer BROCK, JOELEO
+	loadtrainer PASTOR, JOELEO
 	startbattle
 	reloadmapafterbattle
 	setevent EVENT_BEAT_PASTOR_JOELEO
@@ -76,7 +76,7 @@ CampusMissionGranny:
 	closetext
 	end
 .Gay:
-	checkevent EVENT_BEAT_POKEFANF_BEVERLY
+	checkevent EVENT_BEAT_GRANNY_BEVERLY
 	iftrue .BeatenGranny
 	playmusic MUSIC_SAGE_ENCOUNTER
 	writetext CampusMissionGrannySeenText
@@ -84,10 +84,10 @@ CampusMissionGranny:
 	closetext
 	winlosstext CampusMissionGrannyBeatenText, 0
 	setlasttalked CAMPUSMISSION_GRANNY
-	loadtrainer POKEFANF, BEVERLY1
+	loadtrainer GRANNY, BEVERLY1
 	startbattle
 	reloadmapafterbattle
-	setevent EVENT_BEAT_POKEFANF_BEVERLY
+	setevent EVENT_BEAT_GRANNY_BEVERLY
 	opentext
 .BeatenGranny
 	writetext CampusMissionGrannyAfterGayText

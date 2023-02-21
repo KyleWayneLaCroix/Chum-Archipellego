@@ -75,7 +75,7 @@ TrainerYoungsterAlbert:
 	end
 
 TrainerGentlemanNickB:
-	trainer GENTLEMAN, NICK_B, EVENT_BEAT_GENTLEMAN_NICK_B, GentlemanNickBSeenText, GentlemanNickBBeatenText, 0, .Script
+	trainer FEDORA_MAN, NICK_B, EVENT_BEAT_GENTLEMAN_NICK_B, GentlemanNickBSeenText, GentlemanNickBBeatenText, 0, .Script
 
 .Script:
 	endifjustbattled

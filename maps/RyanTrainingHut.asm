@@ -45,7 +45,7 @@ TrainingHutRyanScript:
 	closetext
 	winlosstext TrainingHutRyanWinText, 0
 	setlasttalked TRAINING_HUT_RYAN
-	loadtrainer BRUNO, RYAN1
+	loadtrainer RYAN, RYAN1
 	loadvar VAR_BATTLETYPE, BATTLETYPE_CANLOSE
 	startbattle
 	reloadmap
@@ -83,7 +83,7 @@ TrainingHutMaddieScript:
 	closetext
 	winlosstext TrainingHutMaddieWinText, 0
 	setlasttalked TRAINING_HUT_MADDIE
-	loadtrainer MISTY, MADDIE1
+	loadtrainer MER, MADDIE1
 	loadvar VAR_BATTLETYPE, BATTLETYPE_CANLOSE
 	startbattle
 	reloadmap

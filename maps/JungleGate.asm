@@ -38,7 +38,7 @@ JungleGateLeeScript:
 	closetext
 	winlosstext JungleGateLeeBeatenText, 0
 	setlasttalked JUNGLE_GATE_LEE
-	loadtrainer CLAIR, LEE1
+	loadtrainer LEE, LEE1
 	startbattle
 	reloadmapafterbattle
 	setevent EVENT_BEAT_LEE1

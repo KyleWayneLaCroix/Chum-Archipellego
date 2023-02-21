@@ -16,7 +16,7 @@ AsleepTreeMonsNite:
 	db STUFFUL
 	db FARFETCHD
 	db ORANGURU
-	db WINGULL
+	db ORICORIO_POM
 	db EXEGGCUTE
 	db DEWPIDER
 	db SCYTHER

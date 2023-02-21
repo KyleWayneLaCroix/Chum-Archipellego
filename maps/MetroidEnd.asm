@@ -72,7 +72,7 @@ MetroidEndRipper1:
 	end
 
 MetroidEndRipper2:
-	trainer GRUNTF, GRUNTF_1, EVENT_BEAT_ROCKET_GRUNTF_1, MetroidEndRipperSeenText, MetroidEndRipperBeatenText, 0, .Script
+	trainer GLITCH_T, GLITCH_4, EVENT_BEAT_GLITCH_4, MetroidEndRipperSeenText, MetroidEndRipperBeatenText, 0, .Script
 
 .Script:
 	opentext

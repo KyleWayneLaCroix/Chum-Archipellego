@@ -48,7 +48,7 @@ MetroidVerticalHallwayRipper2:
 	end
 
 MetroidVerticalHallwayRipper3:
-	trainer GRUNTM, GRUNTM_1, EVENT_BEAT_ROCKET_GRUNTM_1, VertHallRipper3SeenText, VertHallRipper3BeatenText, 0, .Script
+	trainer GLITCH_T, GLITCH_1, EVENT_BEAT_GLITCH_1, VertHallRipper3SeenText, VertHallRipper3BeatenText, 0, .Script
 
 .Script:
 	opentext

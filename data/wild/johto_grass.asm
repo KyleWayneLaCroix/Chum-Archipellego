@@ -226,8 +226,8 @@ JohtoGrassWildMons:
     db 9, BUIZEL
     db 8, EXEGGCUTE
     db 9, YANMA
-    db 7, WINGULL
-    db 6, WINGULL
+    db 7, CLAUNCHER
+    db 6, CLAUNCHER
     db 9, SANDYGAST
     db 10, CLAUNCHER
     ; day
@@ -235,8 +235,8 @@ JohtoGrassWildMons:
     db 9, BUIZEL
     db 8, EXEGGCUTE
     db 9, YANMA
-    db 7, WINGULL
-    db 6, WINGULL
+    db 7, CLAUNCHER
+    db 6, CLAUNCHER
     db 9, SANDYGAST
     db 10, CLAUNCHER
     ; nite
@@ -244,8 +244,8 @@ JohtoGrassWildMons:
     db 9, BUIZEL
     db 8, EXEGGCUTE
     db 9, YANMA
-    db 7, WINGULL
-    db 6, WINGULL
+    db 7, CLAUNCHER
+    db 6, CLAUNCHER
     db 9, SANDYGAST
     db 10, CLAUNCHER
     end_grass_wildmons
@@ -620,6 +620,316 @@ JohtoGrassWildMons:
     db 16, SALANDIT
     db 18, HOUNDOUR
     db 17, GRENMAR
+    end_grass_wildmons
+
+    def_grass_wildmons VOLCANO_INTERIOR_1F
+    db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
+    ; morn
+    db 15, DRILBUR
+    db 15, ARON
+    db 16, DWEBBLE
+    db 16, ROCKRUFF
+    db 16, TEDDIURSA
+    db 16, MEOWTH
+    db 18, LARVITAR
+    db 17, LARVESTA
+    ; day
+    db 15, DRILBUR
+    db 15, ARON
+    db 16, DWEBBLE
+    db 16, ROCKRUFF
+    db 16, TEDDIURSA
+    db 16, MEOWTH
+    db 18, LARVITAR
+    db 17, LARVESTA
+    ; nite
+    db 15, DRILBUR
+    db 15, ARON
+    db 16, DWEBBLE
+    db 16, ROCKRUFF
+    db 16, TEDDIURSA
+    db 16, MEOWTH
+    db 18, LARVITAR
+    db 17, LARVESTA
+    end_grass_wildmons
+
+    def_grass_wildmons VOLCANO_INTERIOR_B1F
+    db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
+    ; morn
+    db 15, HOUNDOUR
+    db 15, GRENMAR
+    db 16, BEWEAR
+    db 16, HEATMOR
+    db 16, LITLEO
+    db 16, JANGMO_O
+    db 18, LARVESTA
+    db 17, MINIOR_CORE
+    ; day
+    db 15, HOUNDOUR
+    db 15, GRENMAR
+    db 16, BEWEAR
+    db 16, HEATMOR
+    db 16, LITLEO
+    db 16, JANGMO_O
+    db 18, LARVESTA
+    db 17, LARVESTA
+    ; nite
+    db 15, HOUNDOUR
+    db 15, GRENMAR
+    db 16, BEWEAR
+    db 16, HEATMOR
+    db 16, LITLEO
+    db 16, JANGMO_O
+    db 18, LARVESTA
+    db 17, LARVESTA
+    end_grass_wildmons
+
+    def_grass_wildmons VOLCANO_INTERIOR_B1F_HALL
+    db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
+    ; morn
+    db 15, HOUNDOUR
+    db 15, GRENMAR
+    db 16, BEWEAR
+    db 16, HEATMOR
+    db 16, LITLEO
+    db 16, JANGMO_O
+    db 18, MAWILE
+    db 17, LARVESTA
+    ; day
+    db 15, HOUNDOUR
+    db 15, GRENMAR
+    db 16, BEWEAR
+    db 16, HEATMOR
+    db 16, LITLEO
+    db 16, JANGMO_O
+    db 18, MAWILE
+    db 17, LARVESTA
+    ; nite
+    db 15, HOUNDOUR
+    db 15, GRENMAR
+    db 16, BEWEAR
+    db 16, HEATMOR
+    db 16, LITLEO
+    db 16, JANGMO_O
+    db 18, MAWILE
+    db 17, LARVESTA
+    end_grass_wildmons
+
+    def_grass_wildmons VOLCANO_INTERIOR_2F
+    db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
+    ; morn
+    db 15, SALANDIT
+    db 15, BEWEAR
+    db 16, LITLEO
+    db 16, GROWLITHE
+    db 16, DRILBUR
+    db 16, DRILBUR
+    db 18, NOIBAT
+    db 17, LITWICK
+    ; day
+    db 15, SALANDIT
+    db 15, BEWEAR
+    db 16, LITLEO
+    db 16, GROWLITHE
+    db 16, DRILBUR
+    db 16, DRILBUR
+    db 18, NOIBAT
+    db 17, LITWICK
+    ; nite
+    db 15, SALANDIT
+    db 15, BEWEAR
+    db 16, LITLEO
+    db 16, GROWLITHE
+    db 16, DRILBUR
+    db 16, DRILBUR
+    db 18, NOIBAT
+    db 17, LITWICK
+    end_grass_wildmons
+
+    def_grass_wildmons VOLCANO_INTERIOR_3F
+    db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
+    ; morn
+    db 15, GROWLITHE
+    db 15, SIZZLIPEDE
+    db 16, MAWILE
+    db 16, LITLEO
+    db 16, GRENMAR
+    db 16, GRENMAR
+    db 18, DURANT
+    db 17, LARVESTA
+    ; day
+    db 15, GROWLITHE
+    db 15, SIZZLIPEDE
+    db 16, MAWILE
+    db 16, LITLEO
+    db 16, GRENMAR
+    db 16, GRENMAR
+    db 18, DURANT
+    db 17, LARVESTA
+    ; nite
+    db 15, GROWLITHE
+    db 15, SIZZLIPEDE
+    db 16, MAWILE
+    db 16, LITLEO
+    db 16, GRENMAR
+    db 16, GRENMAR
+    db 18, DURANT
+    db 17, LARVESTA
+    end_grass_wildmons
+
+    def_grass_wildmons VOLCANO_INTERIOR_4F
+    db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
+    ; morn
+    db 15, WOOBAT
+    db 15, SALANDIT
+    db 16, GRENMAR
+    db 16, MEOWTH
+    db 16, HEATMOR
+    db 16, NOIBAT
+    db 18, DURANT
+    db 17, AMAURA
+    ; day
+    db 15, WOOBAT
+    db 15, SALANDIT
+    db 16, GRENMAR
+    db 16, MEOWTH
+    db 16, HEATMOR
+    db 16, NOIBAT
+    db 18, DURANT
+    db 17, AMAURA
+    ; nite
+    db 15, WOOBAT
+    db 15, SALANDIT
+    db 16, GRENMAR
+    db 16, MEOWTH
+    db 16, HEATMOR
+    db 16, NOIBAT
+    db 18, DURANT
+    db 17, AMAURA
+    end_grass_wildmons
+
+    def_grass_wildmons VOLCANO_INTERIOR_5F
+    db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
+    ; morn
+    db 15, DRILBUR
+    db 15, SALANDIT
+    db 16, ARON
+    db 16, TEDDIURSA
+    db 16, MEOWTH
+    db 16, LARVITAR
+    db 18, FLAREON
+    db 17, JANGMO_O
+    ; day
+    db 15, DRILBUR
+    db 15, SALANDIT
+    db 16, ARON
+    db 16, TEDDIURSA
+    db 16, MEOWTH
+    db 16, LARVITAR
+    db 18, FLAREON
+    db 17, JANGMO_O
+    ; nite
+    db 15, DRILBUR
+    db 15, SALANDIT
+    db 16, ARON
+    db 16, TEDDIURSA
+    db 16, MEOWTH
+    db 16, LARVITAR
+    db 18, FLAREON
+    db 17, JANGMO_O
+    end_grass_wildmons
+
+    def_grass_wildmons VOLCANO_INTERIOR_5F_HALL
+    db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
+    ; morn
+    db 15, DRILBUR
+    db 15, SALANDIT
+    db 16, ARON
+    db 16, TEDDIURSA
+    db 16, MEOWTH
+    db 16, LARVITAR
+    db 18, FLAREON
+    db 17, JANGMO_O
+    ; day
+    db 15, DRILBUR
+    db 15, SALANDIT
+    db 16, ARON
+    db 16, TEDDIURSA
+    db 16, MEOWTH
+    db 16, LARVITAR
+    db 18, FLAREON
+    db 17, JANGMO_O
+    ; nite
+    db 15, DRILBUR
+    db 15, SALANDIT
+    db 16, ARON
+    db 16, TEDDIURSA
+    db 16, MEOWTH
+    db 16, LARVITAR
+    db 18, FLAREON
+    db 17, JANGMO_O
+    end_grass_wildmons
+
+    def_grass_wildmons VOLCANO_INTERIOR_6F
+    db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
+    ; morn
+    db 15, GROWLITHE
+    db 15, HOUNDOUR
+    db 16, LITLEO
+    db 16, SALANDIT
+    db 16, HEATMOR
+    db 16, LITWICK
+    db 18, GRENMAR
+    db 17, LARVESTA
+    ; day
+    db 15, GROWLITHE
+    db 15, HOUNDOUR
+    db 16, LITLEO
+    db 16, SALANDIT
+    db 16, HEATMOR
+    db 16, LITWICK
+    db 18, GRENMAR
+    db 17, LARVESTA
+    ; nite
+    db 15, GROWLITHE
+    db 15, HOUNDOUR
+    db 16, LITLEO
+    db 16, SALANDIT
+    db 16, HEATMOR
+    db 16, LITWICK
+    db 18, GRENMAR
+    db 17, LARVESTA
+    end_grass_wildmons
+
+    def_grass_wildmons VOLCANO_INTERIOR_6F_HALL
+    db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
+    ; morn
+    db 15, GROWLITHE
+    db 15, HOUNDOUR
+    db 16, LITLEO
+    db 16, SALANDIT
+    db 16, HEATMOR
+    db 16, LITWICK
+    db 18, GRENMAR
+    db 17, LARVESTA
+    ; day
+    db 15, GROWLITHE
+    db 15, HOUNDOUR
+    db 16, LITLEO
+    db 16, SALANDIT
+    db 16, HEATMOR
+    db 16, LITWICK
+    db 18, GRENMAR
+    db 17, LARVESTA
+    ; nite
+    db 15, GROWLITHE
+    db 15, HOUNDOUR
+    db 16, LITLEO
+    db 16, SALANDIT
+    db 16, HEATMOR
+    db 16, LITWICK
+    db 18, GRENMAR
+    db 17, LARVESTA
     end_grass_wildmons
 
     db -1 ; end
