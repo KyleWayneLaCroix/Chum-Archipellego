@@ -141,7 +141,7 @@ PokedexDataPointerTable:
 	dw MeowthPokedexEntry
 	dw PerrserkerPokedexEntry
 	dw WingullPokedexEntry
-	dw PelipperPokedexEntry
+	dw RegimagmaPokedexEntry
 	dw CroagunkPokedexEntry
 	dw ToxicroakPokedexEntry
 	dw ClobbopusPokedexEntry

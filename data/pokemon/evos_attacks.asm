@@ -14,7 +14,7 @@ SECTION "Evolutions and Attacks", ROMX
 
 INCLUDE "data/pokemon/evos_attacks_pointers.asm"
 SpirripEvosAttacks:
-	db EVOLVE_LEVEL, 20, DOOMSTONE
+	db EVOLVE_LEVEL, 18, DOOMSTONE
 	db 0 ; no more evolutions
 	db 1, ASTONISH
 	db 1, TACKLE
@@ -940,8 +940,8 @@ UnownEvosAttacks:
 	db EVOLVE_LEVEL, 95, SUICUNE
 	db 0 ; no more evolutions
 	db 1, HIDDEN_POWER
-	db 12, GLITCH_M
-	db 24, TRI_ATTACK
+	db 36, GLITCH_M
+	db 18, TRI_ATTACK
 	db 36, GRAVE_SMASH
 	db 0 ; no more level-up moves
 
@@ -2147,34 +2147,24 @@ PerrserkerEvosAttacks:
 	db 0 ; no more level-up moves
 
 WingullEvosAttacks:
-	db EVOLVE_LEVEL, 28, PELIPPER
 	db 0 ; no more evolutions
 	db 1, GROWL
 	db 1, WATER_GUN
-	db 6, SUPERSONIC
-	db 11, WING_ATTACK
-	db 15, MIST
-	db 17, WATER_PULSE
-	db 23, QUICK_ATTACK
-	db 26, AIR_CUTTER
-	db 30, RECOVER
-	db 34, PURSUIT
-	db 37, AERIAL_ACE
-	db 42, AGILITY
-	db 43, AIR_SLASH
-	db 46, AEROBLAST
 	db 0 ; no more level-up moves
 
-PelipperEvosAttacks:
+RegimagmaEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, AIR_SLASH
-	db 1, WING_ATTACK
-	db 1, WATER_PULSE
-	db 1, PROTECT
-	db 34, RECOVER
-	db 39, THIEF
-	db 41, AEROBLAST
-	db 45, HYDRO_PUMP
+	db 1, EARTH_POWER
+	db 1, FLAMETHROWER
+	db 1, STOMP
+	db 1, SANDSTORM
+	db 1, ANCIENTPOWER
+	db 55, POWER_GEM
+	db 58, FIRE_BLAST
+	db 63, EARTH_POWER
+	db 68, SUNNY_DAY
+	db 75, HYPER_BEAM
+	db 80, FLASH_CANNON
 	db 0 ; no more level-up moves
 
 CroagunkEvosAttacks:
@@ -2708,7 +2698,7 @@ LanturnEvosAttacks:
 	db 0 ; no more level-up moves
 
 BurgelaEvosAttacks:
-	db EVOLVE_LEVEL, 20, TANGELA
+	db EVOLVE_LEVEL, 14, TANGELA
 	db 0 ; no more evolutions
 	db 1, WRAP
 	db 4, TACKLE
@@ -3373,7 +3363,7 @@ MismagiusEvosAttacks:
 	db 0 ; no more level-up moves
 
 PorygonEvosAttacks:
-	db EVOLVE_ITEM, 20, PORYGON2
+	db EVOLVE_ITEM, 16, PORYGON2
 	db 0 ; no more evolutions
 	db 1, CONVERSION
 	db 1, CONVERSION2

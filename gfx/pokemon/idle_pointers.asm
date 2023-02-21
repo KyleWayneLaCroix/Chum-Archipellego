@@ -140,7 +140,7 @@ AnimationIdlePointers:
 	dw MeowthAnimationIdle
 	dw PerrserkerAnimationIdle
 	dw WingullAnimationIdle
-	dw PelipperAnimationIdle
+	dw RegimagmaAnimationIdle
 	dw CroagunkAnimationIdle
 	dw ToxicroakAnimationIdle
 	dw ClobbopusAnimationIdle

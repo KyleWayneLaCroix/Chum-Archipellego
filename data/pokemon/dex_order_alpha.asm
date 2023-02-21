@@ -167,7 +167,6 @@ AlphabeticalPokedexOrder:
 	db ORICORIO_SENSU
 	db PALOSSAND
 	db PALPITOAD
-	db PELIPPER
 	db PERRSERKER
 	db PIKIPEK
 	db PILOSWINE
@@ -181,6 +180,7 @@ AlphabeticalPokedexOrder:
 	db PYROAR
 	db RALTS
 	db RAPIDASH
+	db REGIMAGMA
 	db REUNICLUS
 	db ROCKRUFF
 	db ROOKIDEE

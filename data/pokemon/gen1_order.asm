@@ -140,7 +140,7 @@ Pokered_MonIndices:
 	db MEOWTH
 	db PERRSERKER
 	db WINGULL
-	db PELIPPER
+	db REGIMAGMA
 	db CROAGUNK
 	db TOXICROAK
 	db CLOBBOPUS

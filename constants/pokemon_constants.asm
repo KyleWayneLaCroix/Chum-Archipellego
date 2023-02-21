@@ -159,7 +159,7 @@
     const MEOWTH            ; 8A
     const PERRSERKER        ; 8B
     const WINGULL           ; 8C
-    const PELIPPER          ; 8D
+    const REGIMAGMA         ; 8D
     const CROAGUNK          ; 8E
     const TOXICROAK         ; 8F
     const CLOBBOPUS         ; 90

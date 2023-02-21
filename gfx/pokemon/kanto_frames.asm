@@ -280,7 +280,7 @@ PerrserkerFrames: INCLUDE "gfx/pokemon/perrserker/frames.asm"
 
 WingullFrames:    INCLUDE "gfx/pokemon/wingull/frames.asm"
 
-PelipperFrames:   INCLUDE "gfx/pokemon/pelipper/frames.asm"
+RegimagmaFrames:  INCLUDE "gfx/pokemon/regimagma/frames.asm"
 
 CroagunkFrames:   INCLUDE "gfx/pokemon/croagunk/frames.asm"
 

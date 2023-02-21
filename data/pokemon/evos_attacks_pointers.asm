@@ -142,7 +142,7 @@ EvosAttacksPointers::
 	dw MeowthEvosAttacks
 	dw PerrserkerEvosAttacks
 	dw WingullEvosAttacks
-	dw PelipperEvosAttacks
+	dw RegimagmaEvosAttacks
 	dw CroagunkEvosAttacks
 	dw ToxicroakEvosAttacks
 	dw ClobbopusEvosAttacks

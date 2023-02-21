@@ -140,7 +140,7 @@ AnimationPointers:
 	dw MeowthAnimation
 	dw PerrserkerAnimation
 	dw WingullAnimation
-	dw PelipperAnimation
+	dw RegimagmaAnimation
 	dw CroagunkAnimation
 	dw ToxicroakAnimation
 	dw ClobbopusAnimation
