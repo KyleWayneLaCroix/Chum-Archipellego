@@ -41,4 +41,10 @@ MapScenes::
 	scene_var LANCES_ROOM,                  wLancesRoomSceneID
 	scene_var HALL_OF_FAME,                 wHallOfFameSceneID
 
+	scene_var VOLCANO_EXTERIOR,             wVolcanoExteriorSceneID
+	scene_var VOLCANO_INTERIOR_1F,          wVolcanoInterior1FSceneID
+	scene_var VOLCANO_INTERIOR_2F,          wVolcanoInterior2FSceneID
+	scene_var VOLCANO_INTERIOR_3F,          wVolcanoInterior3FSceneID
+	scene_var VOLCANO_INTERIOR_4F,          wVolcanoInterior4FSceneID
+	scene_var VOLCANO_INTERIOR_5F,          wVolcanoInterior5FSceneID
 	db -1 ; end

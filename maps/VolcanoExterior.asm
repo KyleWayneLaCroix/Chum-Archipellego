@@ -18,8 +18,8 @@ VolcanoExterior_MapEvents:
 	warp_event 39, 45, VOLCANO_INTERIOR_1F, 2
 	warp_event 18, 45, VOLCANO_INTERIOR_1F, 3
 	warp_event 31, 45, VOLCANO_INTERIOR_2F, 4
-	warp_event 35, 39, VOLCANO_INTERIOR_3F, 1
-	warp_event 17, 41, VOLCANO_INTERIOR_3F, 2
+	warp_event 35, 39, VOLCANO_INTERIOR_3F, 3
+	warp_event 17, 41, VOLCANO_INTERIOR_3F, 4
 	warp_event 35, 33, VOLCANO_INTERIOR_4F, 1
 	warp_event 53, 33, VOLCANO_INTERIOR_4F, 2
 	warp_event 21, 31, VOLCANO_INTERIOR_5F, 1

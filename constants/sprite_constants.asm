@@ -113,6 +113,8 @@
 	const SPRITE_MORPH_BALL ; 73
 	const SPRITE_ENERGY_TANK ; 74
 	const SPRITE_MISSILES ; 75
+	const SPRITE_LEVER_LEFT ; 76
+	const SPRITE_LEVER_RIGHT ; 76
 DEF NUM_OVERWORLD_SPRITES EQU const_value - 1
 
 ; SpriteMons indexes (see data/sprites/sprite_mons.asm)
@@ -186,3 +188,5 @@ DEF SPRITE_VARS EQU const_value
 	const SPRITE_FUCHSIA_GYM_4 ; fa
 	const SPRITE_COPYCAT ; fb
 	const SPRITE_JANINE_IMPERSONATOR ; fc
+	const SPRITE_VOLCANO_3F_LEVER
+	const SPRITE_VOLCANO_4F_LEVER

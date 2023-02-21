@@ -10,6 +10,7 @@ VolcanoInterior2F_MapScripts:
 ;	callback type, script
 
 Volcano2FBoulder:
+	jumpstd StrengthBoulderScript
 	end
 
 VolcanoInterior2F_MapEvents:

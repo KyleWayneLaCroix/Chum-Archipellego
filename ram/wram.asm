@@ -3066,7 +3066,13 @@ wEeveeRanchExteriorSceneID::        db
 wEeveeRanchInteriorSceneID::        db
 wMeeman2FSceneID::                  db
 wJungleGateSceneID::                db
-	ds 101
+wVolcanoExteriorSceneID::           db
+wVolcanoInterior1FSceneID::         db
+wVolcanoInterior2FSceneID::         db
+wVolcanoInterior3FSceneID::         db
+wVolcanoInterior4FSceneID::         db
+wVolcanoInterior5FSceneID::         db
+	ds 95
 
 ; fight counts
 wJackFightCount::    db
