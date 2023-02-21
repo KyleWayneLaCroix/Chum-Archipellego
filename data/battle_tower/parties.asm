@@ -186,7 +186,7 @@ BattleTowerMons:
 	bigdw 26 ; SDef
 	db "MIRUTANKU@@"
 
-	db PELIPPER
+	db ORICORIO_BAILE
 	db LEFTOVERS
 	db HYPER_BEAM, SUPERSONIC, EARTHQUAKE, BITE
 	dw 0 ; OT ID
@@ -761,7 +761,7 @@ BattleTowerMons:
 	bigdw 46 ; SDef
 	db "NAtuSI-@@@@"
 
-	db PELIPPER
+	db ORICORIO_BAILE
 	db GOLD_BERRY
 	db REST, HYPER_BEAM, EARTHQUAKE, DRAGON_RAGE
 	dw 0 ; OT ID
@@ -2512,7 +2512,7 @@ BattleTowerMons:
 	bigdw 126 ; SDef
 	db "MARUMAIN@@@"
 
-	db PELIPPER
+	db ORICORIO_BAILE
 	db KINGS_ROCK
 	db HYPER_BEAM, EARTHQUAKE, FIRE_BLAST, IRON_TAIL
 	dw 0 ; OT ID
@@ -2931,7 +2931,7 @@ BattleTowerMons:
 	bigdw 122 ; SDef
 	db "SO-NANSU@@@"
 
-	db PELIPPER
+	db ORICORIO_BAILE
 	db LEFTOVERS
 	db HYPER_BEAM, SUPERSONIC, EARTHQUAKE, BITE
 	dw 0 ; OT ID
@@ -4237,7 +4237,7 @@ BattleTowerMons:
 	bigdw 207 ; SDef
 	db "HUaIYA-@@@@"
 
-	db PELIPPER
+	db ORICORIO_BAILE
 	db MIRACLEBERRY
 	db HYPER_BEAM, REST, EARTHQUAKE, ROAR
 	dw 0 ; OT ID
