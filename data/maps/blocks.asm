@@ -1,298 +1,298 @@
 SECTION "Map Blocks 1", ROMX
 
 Pokecenter2F_Blocks:
-	INCBIN "maps/Pokecenter2F.blk"
+	INCBIN "maps/Pokecenter2F.ablk"
 
 TradeCenter_Blocks:
 TimeCapsule_Blocks:
-	INCBIN "maps/TradeCenter.blk"
+	INCBIN "maps/TradeCenter.ablk"
 
 Colosseum_Blocks:
-	INCBIN "maps/Colosseum.blk"
+	INCBIN "maps/Colosseum.ablk"
 
 BattleTowerOutside_Blocks:
-	INCBIN "maps/BattleTowerOutside.blk"
+	INCBIN "maps/BattleTowerOutside.ablk"
 
 BattleTower1F_Blocks:
-	INCBIN "maps/BattleTower1F.blk"
+	INCBIN "maps/BattleTower1F.ablk"
 
 BattleTowerElevator_Blocks:
-	INCBIN "maps/BattleTowerElevator.blk"
+	INCBIN "maps/BattleTowerElevator.ablk"
 
 BattleTowerHallway_Blocks:
-	INCBIN "maps/BattleTowerHallway.blk"
+	INCBIN "maps/BattleTowerHallway.ablk"
 
 BattleTowerBattleRoom_Blocks:
-	INCBIN "maps/BattleTowerBattleRoom.blk"
+	INCBIN "maps/BattleTowerBattleRoom.ablk"
 
 
 SECTION "Map Blocks 2", ROMX
 
 NewBarkTown_Blocks:
-	INCBIN "maps/NewBarkTown.blk"
+	INCBIN "maps/NewBarkTown.ablk"
 
 PlayersHouse1F_Blocks:
-	INCBIN "maps/PlayersHouse1F.blk"
+	INCBIN "maps/PlayersHouse1F.ablk"
 
 PlayersHouse2F_Blocks:
-	INCBIN "maps/PlayersHouse2F.blk"
+	INCBIN "maps/PlayersHouse2F.ablk"
 
 
 SECTION "Map Blocks 3", ROMX
 
 IndigoPlateauPokecenter1F_Blocks:
-	INCBIN "maps/IndigoPlateauPokecenter1F.blk"
+	INCBIN "maps/IndigoPlateauPokecenter1F.ablk"
 
 WillsRoom_Blocks:
-	INCBIN "maps/WillsRoom.blk"
+	INCBIN "maps/WillsRoom.ablk"
 
 KogasRoom_Blocks:
-	INCBIN "maps/KogasRoom.blk"
+	INCBIN "maps/KogasRoom.ablk"
 
 BrunosRoom_Blocks:
-	INCBIN "maps/BrunosRoom.blk"
+	INCBIN "maps/BrunosRoom.ablk"
 
 KarensRoom_Blocks:
-	INCBIN "maps/KarensRoom.blk"
+	INCBIN "maps/KarensRoom.ablk"
 
 LancesRoom_Blocks:
-	INCBIN "maps/LancesRoom.blk"
+	INCBIN "maps/LancesRoom.ablk"
 
 HallOfFame_Blocks:
-	INCBIN "maps/HallOfFame.blk"
+	INCBIN "maps/HallOfFame.ablk"
 
 RouteAPokecenter1F_Blocks:
 UnivercityPokecenter1F_Blocks:
 GearCityPokecenter1F_Blocks:
 EeveeRanchPokecenter1F_Blocks:
-	INCBIN "maps/Pokecenter1F.blk"
+	INCBIN "maps/Pokecenter1F.ablk"
 
 GearCityMart_Blocks:
-	INCBIN "maps/Mart.blk"
+	INCBIN "maps/Mart.ablk"
 
 GearCityWhiltenHouse_Blocks:
 OldFisherFellowHouse_Blocks:
 GoodFisherFellowHouse_Blocks:
-	INCBIN "maps/House1.blk"
+	INCBIN "maps/House1.ablk"
 
 RouteDNameRaterHouse_Blocks:
-	INCBIN "maps/House2.blk"
+	INCBIN "maps/House2.ablk"
 
 GearCityNorthForestGate_Blocks:
-	INCBIN "maps/GateNorthWest.blk"
+	INCBIN "maps/GateNorthWest.ablk"
 
 NorthernForestRouteBGate_Blocks:
 JungleGate_Blocks:
-	INCBIN "maps/GateNorthSouth.blk"
+	INCBIN "maps/GateNorthSouth.ablk"
 
 WardensCabin_Blocks:
-	INCBIN "maps/WardensCabin.blk"
+	INCBIN "maps/WardensCabin.ablk"
 
 DangerousCave_Blocks:
-	INCBIN "maps/Zelda1Cave.blk"
+	INCBIN "maps/Zelda1Cave.ablk"
 
 MetroidCyberspaceExit_Blocks:
-	INCBIN "maps/CyberspaceExit.blk"
+	INCBIN "maps/CyberspaceExit.ablk"
 
 RyanTrainingHut_Blocks:
-	INCBIN "maps/TrainingRoom.blk"
+	INCBIN "maps/TrainingRoom.ablk"
 
 RouteGMetroidCave_Blocks:
-	INCBIN "maps/MetroidCave.blk"
+	INCBIN "maps/MetroidCave.ablk"
 
 SECTION "Map Blocks 4", ROMX
 
 AwakeningBeach_Blocks:
-	INCBIN "maps/AwakeningBeach.blk"
+	INCBIN "maps/AwakeningBeach.ablk"
 
 AwakeningLab_Blocks:
-	INCBIN "maps/AwakeningLab.blk"
+	INCBIN "maps/AwakeningLab.ablk"
 
 DankCave1F_Blocks:
-	INCBIN "maps/DankCave1F.blk"
+	INCBIN "maps/DankCave1F.ablk"
 
 DankCave2F_Blocks:
-	INCBIN "maps/DankCave2F.blk"
+	INCBIN "maps/DankCave2F.ablk"
 
 DrNuggzMDExterior_Blocks:
-	INCBIN "maps/DrNuggzMDExterior.blk"
+	INCBIN "maps/DrNuggzMDExterior.ablk"
 
 DrNuggzMDInterior_Blocks:
-	INCBIN "maps/DrNuggzMDInterior.blk"
+	INCBIN "maps/DrNuggzMDInterior.ablk"
 
 RouteA_Blocks:
-	INCBIN "maps/RouteA.blk"
+	INCBIN "maps/RouteA.ablk"
 
 GearCity_Blocks:
-	INCBIN "maps/GearCity.blk"
+	INCBIN "maps/GearCity.ablk"
 
 CityGearRetail_Blocks:
-	INCBIN "maps/CityGearRetail.blk"
+	INCBIN "maps/CityGearRetail.ablk"
 
 CityGearHQ_Blocks:
-	INCBIN "maps/CityGearHQ.blk"
+	INCBIN "maps/CityGearHQ.ablk"
 
 CityGearHQBasement_Blocks:
-	INCBIN "maps/CityGearHQBasement.blk"
+	INCBIN "maps/CityGearHQBasement.ablk"
 
 NorthernForest_Blocks:
-	INCBIN "maps/NorthernForest.blk"
+	INCBIN "maps/NorthernForest.ablk"
 
 SECTION "Map Blocks 5", ROMX
 
 RouteB_Blocks:
-	INCBIN "maps/RouteB.blk"
+	INCBIN "maps/RouteB.ablk"
 
 RouteBNorth_Blocks:
-	INCBIN "maps/RouteBNorth.blk"
+	INCBIN "maps/RouteBNorth.ablk"
 
 Cemetary_Blocks:
-	INCBIN "maps/Cemetary.blk"
+	INCBIN "maps/Cemetary.ablk"
 
 CemetaryLab_Blocks:
-	INCBIN "maps/CemetaryLab.blk"
+	INCBIN "maps/CemetaryLab.ablk"
 
 Univercity_Blocks:
-	INCBIN "maps/Univercity.blk"
+	INCBIN "maps/Univercity.ablk"
 
 UnivercityMart1F_Blocks:
-	INCBIN "maps/DeptStore1F.blk"
+	INCBIN "maps/DeptStore1F.ablk"
 
 UnivercityMart2F_Blocks:
-	INCBIN "maps/DeptStore2F.blk"
+	INCBIN "maps/DeptStore2F.ablk"
 
 UnivercityMart3F_Blocks:
-	INCBIN "maps/DeptStore3F.blk"
+	INCBIN "maps/DeptStore3F.ablk"
 
 UnivercityMart4F_Blocks:
-	INCBIN "maps/DeptStore4F.blk"
+	INCBIN "maps/DeptStore4F.ablk"
 
 UnivercityMart5F_Blocks:
-	INCBIN "maps/DeptStore5F.blk"
+	INCBIN "maps/DeptStore5F.ablk"
 
 UnivercityMartRoof_Blocks:
-	INCBIN "maps/DeptStoreRoof.blk"
+	INCBIN "maps/DeptStoreRoof.ablk"
 
 UnivercityMartB1F_Blocks:
-	INCBIN "maps/DeptStoreB1F.blk"
+	INCBIN "maps/DeptStoreB1F.ablk"
 
 CampusMission_Blocks:
-	INCBIN "maps/CampusMission.blk"
+	INCBIN "maps/CampusMission.ablk"
 
 SarahGym_Blocks:
-	INCBIN "maps/SarahGym.blk"
+	INCBIN "maps/SarahGym.ablk"
 
 Meeman1F_Blocks:
-	INCBIN "maps/Meeman1F.blk"
+	INCBIN "maps/Meeman1F.ablk"
 
 Meeman2F_Blocks:
-	INCBIN "maps/Meeman2F.blk"
+	INCBIN "maps/Meeman2F.ablk"
 
 MeemanRoof_Blocks:
-	INCBIN "maps/MeemanRoof.blk"
+	INCBIN "maps/MeemanRoof.ablk"
 
 MeemanPool_Blocks:
-	INCBIN "maps/MeemanPool.blk"
+	INCBIN "maps/MeemanPool.ablk"
 
 Dorm1F_Blocks:
-	INCBIN "maps/Dorm1F.blk"
+	INCBIN "maps/Dorm1F.ablk"
 
 Dorm2F_Blocks:
-	INCBIN "maps/Dorm2F.blk"
+	INCBIN "maps/Dorm2F.ablk"
 
 Dorm3F_Blocks:
-	INCBIN "maps/Dorm3F.blk"
+	INCBIN "maps/Dorm3F.ablk"
 
 Dorm4F_Blocks:
-	INCBIN "maps/Dorm4F.blk"
+	INCBIN "maps/Dorm4F.ablk"
 
 Dorm5F_Blocks:
-	INCBIN "maps/Dorm5F.blk"
+	INCBIN "maps/Dorm5F.ablk"
 
 DormRoof_Blocks:
-	INCBIN "maps/DormRoof.blk"
+	INCBIN "maps/DormRoof.ablk"
 
 Tracks_Blocks:
-	INCBIN "maps/Tracks.blk"
+	INCBIN "maps/Tracks.ablk"
 
 RouteC_Blocks:
-	INCBIN "maps/RouteC.blk"
+	INCBIN "maps/RouteC.ablk"
 
 RouteD_Blocks:
-	INCBIN "maps/RouteD.blk"
+	INCBIN "maps/RouteD.ablk"
 
 RouteE_Blocks:
-	INCBIN "maps/RouteE.blk"
+	INCBIN "maps/RouteE.ablk"
 
 RouteF_Blocks:
-	INCBIN "maps/RouteF.blk"
+	INCBIN "maps/RouteF.ablk"
 
 RouteG_Blocks:
-	INCBIN "maps/RouteG.blk"
+	INCBIN "maps/RouteG.ablk"
 
 EeveeRanchExterior_Blocks:
-	INCBIN "maps/EeveeRanchExterior.blk"
+	INCBIN "maps/EeveeRanchExterior.ablk"
 
 EeveeRanchInterior_Blocks:
-	INCBIN "maps/EeveeRanchInterior.blk"
+	INCBIN "maps/EeveeRanchInterior.ablk"
 
 EeveeRanchGroomers_Blocks:
-	INCBIN "maps/EeveeRanchGroomers.blk"
+	INCBIN "maps/EeveeRanchGroomers.ablk"
 
 EeveeRanchHives_Blocks:
-	INCBIN "maps/EeveeRanchHives.blk"
+	INCBIN "maps/EeveeRanchHives.ablk"
 
 MuscleJungle_Blocks:
-	INCBIN "maps/Jungle.blk"
+	INCBIN "maps/Jungle.ablk"
 
 VolcanoExterior_Blocks:
-	INCBIN "maps/VolcanoExterior.blk"
+	INCBIN "maps/VolcanoExterior.ablk"
 
 SECTION "Map Blocks 6", ROMX
 
 MetroidIntro_Blocks:
-	INCBIN "maps/MetroidIntro.blk"
+	INCBIN "maps/MetroidIntro.ablk"
 
 MetroidHallway_Blocks:
-	INCBIN "maps/MetroidHallway.blk"
+	INCBIN "maps/MetroidHallway.ablk"
 
 MetroidVerticalHallway_Blocks:
-	INCBIN "maps/MetroidVerticalHallway.blk"
+	INCBIN "maps/MetroidVerticalHallway.ablk"
 
 MetroidEnd_Blocks:
-	INCBIN "maps/MetroidEnd.blk"
+	INCBIN "maps/MetroidEnd.ablk"
 
 SECTION "Map Blocks 7", ROMX
 
 VolcanoInteriorB1F_Blocks:
-	INCBIN "maps/VolcanoInteriorB1F.blk"
+	INCBIN "maps/VolcanoInteriorB1F.ablk"
 
 VolcanoInteriorB1FHall_Blocks:
-	INCBIN "maps/VolcanoInteriorB1FHall.blk"
+	INCBIN "maps/VolcanoInteriorB1FHall.ablk"
 
 VolcanoInterior1F_Blocks:
-	INCBIN "maps/VolcanoInterior1F.blk"
+	INCBIN "maps/VolcanoInterior1F.ablk"
 
 VolcanoInterior2F_Blocks:
-	INCBIN "maps/VolcanoInterior2F.blk"
+	INCBIN "maps/VolcanoInterior2F.ablk"
 
 VolcanoInterior3F_Blocks:
-	INCBIN "maps/VolcanoInterior3F.blk"
+	INCBIN "maps/VolcanoInterior3F.ablk"
 
 VolcanoInterior3FHall_Blocks:
-	INCBIN "maps/VolcanoInterior3FHall.blk"
+	INCBIN "maps/VolcanoInterior3FHall.ablk"
 
 VolcanoInterior4F_Blocks:
-	INCBIN "maps/VolcanoInterior4F.blk"
+	INCBIN "maps/VolcanoInterior4F.ablk"
 
 VolcanoInterior5F_Blocks:
-	INCBIN "maps/VolcanoInterior5F.blk"
+	INCBIN "maps/VolcanoInterior5F.ablk"
 
 VolcanoInterior5FHall_Blocks:
-	INCBIN "maps/VolcanoInterior5FHall.blk"
+	INCBIN "maps/VolcanoInterior5FHall.ablk"
 
 VolcanoInterior6F_Blocks:
-	INCBIN "maps/VolcanoInterior6F.blk"
+	INCBIN "maps/VolcanoInterior6F.ablk"
 
 VolcanoInterior6FHall_Blocks:
-	INCBIN "maps/VolcanoInterior6FHall.blk"
+	INCBIN "maps/VolcanoInterior6FHall.ablk"

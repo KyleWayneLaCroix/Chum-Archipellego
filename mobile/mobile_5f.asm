@@ -595,54 +595,6 @@ Function17d314:
 	ret
 
 Function17d370:
-	xor a
-	ld [wcd77], a
-	ld [wMobileCrashCheckPointer], a
-	ld [wMobileCrashCheckPointer + 1], a
-	dec a
-	ld [wcd6c], a
-	call ClearBGPalettes
-	call ClearSprites
-	call ClearScreen
-	farcall ReloadMapPart
-	call DisableLCD
-	ld hl, vTiles0 tile $ee
-	ld de, wc608
-	ld bc, 1 tiles
-	call CopyBytes
-	ld a, $1
-	ldh [rVBK], a
-	ld hl, PokemonNewsGFX
-	ld de, vTiles1
-	ld bc, $48 tiles
-	call CopyBytes
-	xor a
-	ld hl, vTiles2 tile $7f
-	ld bc, 1 tiles
-	call ByteFill
-	ld hl, wc608
-	ld de, vTiles0 tile $ee
-	ld bc, 1 tiles
-	call CopyBytes
-	xor a
-	ldh [rVBK], a
-	ld hl, PostalMarkGFX
-	ld de, vTiles2 tile $60
-	ld bc, 1 tiles
-	call CopyBytes
-	call EnableLCD
-	call Function17d60b
-	ld a, $0
-	ld [wBGMapBuffer], a
-	ld a, $d0
-	ld [wcd21], a
-	ld a, BANK(s6_a006)
-	call OpenSRAM
-	ld hl, s6_a006
-	ld de, w4_d000
-	ld bc, $1000
-	call CopyBytes
-	call CloseSRAM
 	ret
 
 Function17d3f6:
@@ -1171,23 +1123,6 @@ Function17d78c:
 	ret
 
 Function17d78d:
-	call IncCrashCheckPointer
-	ld a, [hli]
-	ld c, a
-	ld a, [hli]
-	ld b, a
-	call HlToCrashCheckPointer
-	ld a, BANK(s6_a006)
-	call OpenSRAM
-	ld hl, s6_a006
-	add hl, bc
-	ld de, w4_d000
-	ld bc, $1000
-	call CopyBytes
-	call CloseSRAM
-	xor a
-	ld [wcd77], a
-	call ClearBGPalettes
 	ret
 
 Function17d7b4:

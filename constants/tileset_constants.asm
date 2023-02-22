@@ -34,7 +34,7 @@
 DEF NUM_TILESETS EQU const_value - 1
 
 ; wTileset struct size
-DEF TILESET_LENGTH EQU 15
+DEF TILESET_LENGTH EQU 14
 
 ; roof length (see gfx/tilesets/roofs)
 DEF ROOF_LENGTH EQU 9
@@ -50,13 +50,3 @@ DEF ROOF_LENGTH EQU 9
 	const PAL_BG_BROWN  ; 5
 	const PAL_BG_ROOF   ; 6
 	const PAL_BG_TEXT   ; 7
-
-	const_next $80
-	const PAL_BG_PRIORITY_GRAY   ; 80
-	const PAL_BG_PRIORITY_RED    ; 81
-	const PAL_BG_PRIORITY_GREEN  ; 82
-	const PAL_BG_PRIORITY_WATER  ; 83
-	const PAL_BG_PRIORITY_YELLOW ; 84
-	const PAL_BG_PRIORITY_BROWN  ; 85
-	const PAL_BG_PRIORITY_ROOF   ; 86
-	const PAL_BG_PRIORITY_TEXT   ; 87
