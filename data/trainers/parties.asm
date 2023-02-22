@@ -183,7 +183,9 @@ ArtistGroup:
 BattleGirlGroup:
 	; Battle Girl (1)
 	db "VIDEL@", TRAINERTYPE_NORMAL
-	db  1, MAKUHITA
+	db 25, HARIYAMA
+	db 23, SIRFETCHD
+	db 23, BRELOOM
 	db -1 ; end
 
 BikerGroup:

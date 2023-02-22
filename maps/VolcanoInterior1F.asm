@@ -56,6 +56,15 @@ Volcano1FBoulder:
 Volcano1FBoulder2:
 	jumpstd StrengthBoulderScript
 
+VolcanoInterior1FGuardSpec:
+	itemball GUARD_SPEC, 2
+
+VolcanoInterior1FProtein:
+	itemball PROTEIN
+
+VolcanoInterior1FXSpecial:
+	itemball X_SPECIAL, 2
+
 VolcanoInterior1F_MapEvents:
 	db 0, 0 ; filler
 
@@ -94,6 +103,6 @@ VolcanoInterior1F_MapEvents:
 	;object_event 42, 16, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 4, TrainerFirebreatherNed, -1
 	;object_event 42, 16, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 4, TrainerWeirdoBrent, -1
 	;object_event 40, 20, SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 4, TrainerBattleGirlVidel, -1
-	;object_event 35, 28, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, VolcanoInterior1FGuardSpec, EVENT_VOLCANO_INTERIOR_1F_GUARD_SPEC
-	;object_event 45, 19, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, VolcanoInterior1FProtein, EVENT_VOLCANO_INTERIOR_1F_PROTEIN
-	;object_event  8,  4, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, VolcanoInterior1FXSpecial, EVENT_VOLCANO_INTERIOR_1F_X_SPECIAL
+	object_event 35, 28, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, VolcanoInterior1FGuardSpec, EVENT_VOLCANO_INTERIOR_1F_GUARD_SPEC
+	object_event 45, 19, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, VolcanoInterior1FProtein, EVENT_VOLCANO_INTERIOR_1F_PROTEIN
+	object_event  8,  4, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, VolcanoInterior1FXSpecial, EVENT_VOLCANO_INTERIOR_1F_X_SPECIAL
