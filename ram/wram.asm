@@ -3014,21 +3014,20 @@ wPokegearFlags::
 	db
 wRadioTuningKnob:: db
 wLastDexMode:: db
-	ds 1
+
 wWhichRegisteredItem:: db
 wRegisteredItem:: db
 
 wPlayerState:: db
 
 wHallOfFameCount:: db
-	ds 1
+
 wTradeFlags:: flag_array NUM_NPC_TRADES
-	ds 1
+
 wMooMooBerries:: db
 wUndergroundSwitchPositions:: db
 wFarfetchdPosition:: db
 
-	ds 13
 
 ; map scene ids
 wPokecenter2FSceneID::              db
@@ -3097,7 +3096,7 @@ wKenjiFightCount::   db ; unreferenced
 wParryFightCount::   db
 wErinFightCount::    db
 
-	ds 100
+	ds 49
 
 wEventFlags:: flag_array NUM_EVENTS
 
