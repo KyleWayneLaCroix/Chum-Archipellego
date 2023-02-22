@@ -1,5 +1,6 @@
 ; Tilesets indexes (see data/tilesets.asm)
 	const_def 1
+	const TILESET_CHUMELAGO            ; 02
 	const TILESET_KANTO                ; 03
 	const TILESET_BATTLE_TOWER_OUTSIDE ; 04
 	const TILESET_HOUSE                ; 05
@@ -15,7 +16,7 @@
 	const TILESET_ELITE_FOUR_ROOM      ; 0f
 	const TILESET_TRADITIONAL_HOUSE    ; 10
 	const TILESET_CHAMPIONS_ROOM       ; 12
-	;const TILESET_LIGHTHOUSE           ; 13
+	const TILESET_LIGHTHOUSE           ; 13
 	const TILESET_PLAYERS_ROOM         ; 14
 	const TILESET_POKECOM_CENTER       ; 15
 	const TILESET_BATTLE_TOWER_INSIDE  ; 16
@@ -28,7 +29,6 @@
 	const TILESET_ICE_PATH             ; 1d
 	const TILESET_DARK_CAVE            ; 1e
 	const TILESET_FOREST               ; 1f
-	const TILESET_CHUMELAGO            ; 25
 	const TILESET_METROID
 	const TILESET_JUNGLE
 DEF NUM_TILESETS EQU const_value - 1

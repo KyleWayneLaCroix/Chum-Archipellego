@@ -169,6 +169,10 @@ INCBIN "data/tilesets/battle_tower_inside_metatiles.bin"
 TilesetBattleTowerInsideColl::
 INCLUDE "data/tilesets/battle_tower_inside_collision.asm"
 
+
+SECTION "Tileset Data 6", ROMX
+
+
 TilesetBattleTowerOutsideGFX::
 INCBIN "gfx/tilesets/johto_modern.2bpp.lz"
 
@@ -182,7 +186,7 @@ TilesetTraditionalHouseColl::
 INCLUDE "data/tilesets/traditional_house_collision.asm"
 
 
-SECTION "Tileset Data 6", ROMX
+SECTION "Tileset Data 7", ROMX
 
 TilesetForestGFX::
 INCBIN "gfx/tilesets/forest.2bpp.lz"
@@ -205,35 +209,10 @@ INCBIN "data/tilesets/house_metatiles.bin"
 TilesetHouseColl::
 INCLUDE "data/tilesets/house_collision.asm"
 
-;TilesetLighthouseGFX::
-;INCBIN "gfx/tilesets/lighthouse.2bpp.lz"
-
-;TilesetLighthouseMeta::
-;INCBIN "data/tilesets/lighthouse_metatiles.bin"
-
-;TilesetLighthouseColl::
-;INCLUDE "data/tilesets/lighthouse_collision.asm"
-
 TilesetForestColl::
 INCLUDE "data/tilesets/forest_collision.asm"
 
-TilesetFacilityGFX::
-INCBIN "gfx/tilesets/facility.2bpp.lz"
-
-TilesetFacilityMeta::
-INCBIN "data/tilesets/facility_metatiles.bin"
-
-TilesetFacilityColl::
-INCLUDE "data/tilesets/facility_collision.asm"
-
-TilesetBattleTowerOutsideMeta::
-INCBIN "data/tilesets/battle_tower_outside_metatiles.bin"
-
-TilesetBattleTowerOutsideColl::
-INCLUDE "data/tilesets/battle_tower_outside_collision.asm"
-
-
-SECTION "Tileset Data 7", ROMX
+SECTION "Tileset Data 8", ROMX
 
 TilesetRuinsOfAlphGFX::
 INCBIN "gfx/tilesets/ruins_of_alph.2bpp.lz"
@@ -253,7 +232,7 @@ INCBIN "data/tilesets/players_room_metatiles.bin"
 TilesetPlayersRoomColl::
 INCLUDE "data/tilesets/players_room_collision.asm"
 
-SECTION "Tileset Data 8", ROMX
+SECTION "Tileset Data 9", ROMX
 
 TilesetGateGFX::
 INCBIN "gfx/tilesets/gate.2bpp.lz"
@@ -276,7 +255,7 @@ TilesetChumelagoColl::
 Tileset0Coll::
 INCLUDE "data/tilesets/chumelago_collision.asm"
 
-SECTION "Tileset Data 9", ROMX
+SECTION "Tileset Data 10", ROMX
 
 TilesetMetroidGFX::
 INCBIN "gfx/tilesets/metroid.2bpp.lz"
@@ -308,10 +287,10 @@ INCLUDE "data/tilesets/port_collision.asm"
 
 
 
-SECTION "Tileset Data 10", ROMX
+SECTION "Tileset Data 11", ROMX
 Tileset0Attr::
 TilesetChumelagoAttr::
-INCBIN "data/tilesets/johto_attributes.bin"
+INCBIN "data/tilesets/chumelago_attributes.bin"
 
 TilesetKantoAttr::
 INCBIN "data/tilesets/kanto_attributes.bin"
@@ -338,7 +317,7 @@ TilesetLabAttr::
 INCBIN "data/tilesets/lab_attributes.bin"
 
 
-SECTION "Tileset Data 11", ROMX
+SECTION "Tileset Data 12", ROMX
 
 TilesetFacilityAttr::
 INCBIN "data/tilesets/facility_attributes.bin"
@@ -358,14 +337,11 @@ INCBIN "data/tilesets/elite_four_room_attributes.bin"
 TilesetTraditionalHouseAttr::
 INCBIN "data/tilesets/traditional_house_attributes.bin"
 
-TilesetTrainStationAttr::
-INCBIN "data/tilesets/train_station_attributes.bin"
-
 TilesetChampionsRoomAttr::
 INCBIN "data/tilesets/champions_room_attributes.bin"
 
-;TilesetLighthouseAttr::
-;INCBIN "data/tilesets/lighthouse_attributes.bin"
+TilesetLighthouseAttr::
+INCBIN "data/tilesets/lighthouse_attributes.bin"
 
 TilesetPlayersRoomAttr::
 INCBIN "data/tilesets/players_room_attributes.bin"
@@ -380,7 +356,7 @@ TilesetTowerAttr::
 INCBIN "data/tilesets/tower_attributes.bin"
 
 
-SECTION "Tileset Data 12", ROMX
+SECTION "Tileset Data 13", ROMX
 
 TilesetCaveAttr::
 TilesetDarkCaveAttr::
@@ -409,3 +385,29 @@ INCBIN "data/tilesets/jungle_attributes.bin"
 
 TilesetMetroidAttr::
 INCBIN "data/tilesets/metroid_attributes.bin"
+
+SECTION "Tileset Data 14", ROMX
+
+TilesetBattleTowerOutsideMeta::
+INCBIN "data/tilesets/battle_tower_outside_metatiles.bin"
+
+TilesetBattleTowerOutsideColl::
+INCLUDE "data/tilesets/battle_tower_outside_collision.asm"
+
+TilesetFacilityGFX::
+INCBIN "gfx/tilesets/facility.2bpp.lz"
+
+TilesetFacilityMeta::
+INCBIN "data/tilesets/facility_metatiles.bin"
+
+TilesetFacilityColl::
+INCLUDE "data/tilesets/facility_collision.asm"
+
+TilesetLighthouseGFX::
+INCBIN "gfx/tilesets/lighthouse.2bpp.lz"
+
+TilesetLighthouseMeta::
+INCBIN "data/tilesets/lighthouse_metatiles.bin"
+
+TilesetLighthouseColl::
+INCLUDE "data/tilesets/lighthouse_collision.asm"

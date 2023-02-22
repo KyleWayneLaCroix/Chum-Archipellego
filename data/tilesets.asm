@@ -12,6 +12,7 @@ Tilesets::
 ; entries correspond to TILESET_* constants (see constants/tileset_constants.asm)
 	table_width TILESET_LENGTH, Tilesets
 	tileset Tileset0
+	tileset TilesetChumelago
 	tileset TilesetKanto
 	tileset TilesetBattleTowerOutside
 	tileset TilesetHouse
@@ -27,7 +28,7 @@ Tilesets::
 	tileset TilesetEliteFourRoom
 	tileset TilesetTraditionalHouse
 	tileset TilesetChampionsRoom
-	;tileset TilesetLighthouse
+	tileset TilesetLighthouse
 	tileset TilesetPlayersRoom
 	tileset TilesetPokeComCenter
 	tileset TilesetBattleTowerInside
@@ -40,7 +41,6 @@ Tilesets::
 	tileset TilesetIcePath
 	tileset TilesetDarkCave
 	tileset TilesetForest
-	tileset TilesetChumelago
 	tileset TilesetMetroid
 	tileset TilesetJungle
 	assert_table_length NUM_TILESETS + 1
