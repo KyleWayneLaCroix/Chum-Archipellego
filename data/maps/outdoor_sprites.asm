@@ -14,6 +14,7 @@ OutdoorSprites:
 	dw PalAtollGroupSprites
 	dw EeveeRanchGroupSprites
 	dw JungleAreaGroupSprites
+	dw LinksAwakeningGroupSprites
 	dw DungeonGroupSprites
 	assert_table_length NUM_MAP_GROUPS
 
@@ -145,6 +146,21 @@ JungleAreaGroupSprites:
 	db SPRITE_BIG_ONIX
 	db SPRITE_POKE_BALL
 	db SPRITE_ROCK
+	db SPRITE_FRUIT_TREE
+	db 0 ; end
+
+LinksAwakeningGroupSprites:
+	db SPRITE_COOLTRAINER_F
+	db SPRITE_COOLTRAINER_M
+	db SPRITE_SWIMMER_GIRL
+	db SPRITE_POKEFAN_F
+	db SPRITE_FISHER
+	db SPRITE_GENTLEMAN
+	db SPRITE_BUG_CATCHER
+	db SPRITE_LINK
+	db SPRITE_YOUNGSTER
+	; 9 of max 9 walking sprites
+	db SPRITE_POKE_BALL
 	db SPRITE_FRUIT_TREE
 	db 0 ; end
 

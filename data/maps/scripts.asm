@@ -131,7 +131,10 @@ INCLUDE "maps/VolcanoInteriorB1F.asm"
 INCLUDE "maps/VolcanoInteriorB1FHall.asm"
 
 SECTION "Map Scripts 13", ROMX
-
+INCLUDE "maps/AwakeningBeach2.asm"
+INCLUDE "maps/MaybeVillage.asm"
+INCLUDE "maps/MisplacedWoods.asm"
+INCLUDE "maps/BadEggExterior.asm"
 
 SECTION "Map Scripts 14", ROMX
 

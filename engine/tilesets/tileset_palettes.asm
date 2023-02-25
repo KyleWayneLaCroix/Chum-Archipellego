@@ -12,6 +12,8 @@ LoadSpecialMapPalette:
 	jr z, .radio_tower
 	cp TILESET_MANSION
 	jr z, .mansion_mobile
+	cp TILESET_LINKS_AWAKENING
+	jr z, .links_awakening
 	jr .do_nothing
 
 .pokecom_2f
@@ -48,9 +50,25 @@ LoadSpecialMapPalette:
 	scf
 	ret
 
+.links_awakening
+	call LoadLinksAwakeningPalette
+	scf
+	ret
+
 .do_nothing
 	and a
 	ret
+
+LoadLinksAwakeningPalette:
+	ld a, BANK(wBGPals1)
+	ld de, wBGPals1
+	ld hl, LinksAwakeningPalette
+	ld bc, 8 palettes
+	call FarCopyWRAM
+	ret
+
+LinksAwakeningPalette:
+INCLUDE "gfx/tilesets/linksawakening.pal"
 
 LoadPokeComPalette:
 	ld a, BANK(wBGPals1)

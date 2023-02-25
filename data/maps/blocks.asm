@@ -262,6 +262,18 @@ MetroidVerticalHallway_Blocks:
 MetroidEnd_Blocks:
 	INCBIN "maps/MetroidEnd.ablk"
 
+AwakeningBeach2_Blocks:
+	INCBIN "maps/AwakeningBeach2.ablk"
+
+MaybeVillage_Blocks:
+	INCBIN "maps/MaybeVillage.ablk"
+
+MisplacedWoods_Blocks:
+	INCBIN "maps/MisplacedWoods.ablk"
+
+BadEggExterior_Blocks:
+	INCBIN "maps/BadEggExterior.ablk"
+
 SECTION "Map Blocks 7", ROMX
 
 VolcanoInteriorB1F_Blocks:

@@ -22,7 +22,8 @@ MapGroupRoofs:
 	db -1             ;  8 (Pal Atoll)
 	db ROOF_AZALEA    ;  9 (Eevee Ranch)
 	db -1             ; 10 (Jungle Area)
-	db -1             ; 11 (Dungeons)
+	db -1             ; 11 (Links Awakening)
+	db -1             ; 12 (Dungeons)
 	assert_table_length NUM_MAP_GROUPS + 1
 
 Roofs:

@@ -216,6 +216,15 @@ ENDM
 	map_attributes VolcanoExterior, VOLCANO_EXTERIOR, $2a, WEST
 	connection west, RouteG, ROUTE_G, 15
 
+	map_attributes AwakeningBeach2, AWAKENING_BEACH_2, $00, NORTH
+	connection north, MaybeVillage, MAYBE_VILLAGE, 0
+	map_attributes MaybeVillage, MAYBE_VILLAGE, $00, NORTH | SOUTH
+	connection north, MisplacedWoods, MISPLACED_WOODS, 0
+	connection south, AwakeningBeach2, AWAKENING_BEACH_2, 0
+	map_attributes MisplacedWoods, MISPLACED_WOODS, $00, SOUTH
+	connection south, MaybeVillage, MAYBE_VILLAGE, 0
+	map_attributes BadEggExterior, BAD_EGG_EXTERIOR, $B9, 0
+
 	map_attributes VolcanoInteriorB1F, VOLCANO_INTERIOR_B1F, $00, 0
 	map_attributes VolcanoInteriorB1FHall, VOLCANO_INTERIOR_B1F_HALL, $09, 0
 	map_attributes VolcanoInterior1F, VOLCANO_INTERIOR_1F, $00, 0

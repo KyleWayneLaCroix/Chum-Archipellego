@@ -148,7 +148,14 @@ ENDM
 	map_const ROUTE_G_METROID_CAVE,            13,  5 ;  6
 	endgroup
 
-	newgroup DUNGEONS                                 ; 11
+	newgroup LINKS_AWAKENING                          ; 11
+	map_const AWAKENING_BEACH_2,               30, 22 ;  1
+	map_const MAYBE_VILLAGE,                   30, 17 ;  2
+	map_const MISPLACED_WOODS,                 27, 20 ;  3
+	map_const BAD_EGG_EXTERIOR,               14, 16 ;  4
+	endgroup
+
+	newgroup DUNGEONS                                 ; 12
 	map_const DANK_CAVE_1F,                    22,  7 ;  1
 	map_const DANK_CAVE_2F,                    16, 14 ;  2
 	map_const NORTHERN_FOREST,                 20, 30 ;  3

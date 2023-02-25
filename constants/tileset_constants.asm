@@ -31,6 +31,7 @@
 	const TILESET_FOREST               ; 1f
 	const TILESET_METROID
 	const TILESET_JUNGLE
+	const TILESET_LINKS_AWAKENING
 DEF NUM_TILESETS EQU const_value - 1
 
 ; wTileset struct size

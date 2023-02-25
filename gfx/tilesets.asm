@@ -411,3 +411,17 @@ INCBIN "data/tilesets/lighthouse_metatiles.bin"
 
 TilesetLighthouseColl::
 INCLUDE "data/tilesets/lighthouse_collision.asm"
+
+SECTION "Tileset Data 15", ROMX
+
+TilesetLinksAwakeningGFX::
+INCBIN "gfx/tilesets/linksawakening.2bpp.lz"
+
+TilesetLinksAwakeningMeta::
+INCBIN "data/tilesets/linksawakening_metatiles.bin"
+
+TilesetLinksAwakeningColl::
+INCLUDE "data/tilesets/linksawakening_collision.asm"
+
+TilesetLinksAwakeningAttr::
+INCBIN "data/tilesets/linksawakening_attributes.bin"
