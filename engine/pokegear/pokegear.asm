@@ -1491,7 +1491,7 @@ RadioChannels:
 
 .RuinsOfAlphRadio:
 	ld a, [wPokegearMapPlayerIconLandmark]
-	cp LANDMARK_RUINS_OF_ALPH
+	cp LANDMARK_CYBERSPACE1
 	jr nz, .NoSignal
 	jp LoadStation_UnownRadio
 
@@ -1529,7 +1529,7 @@ RadioChannels:
 	jr z, .ok
 	cp LANDMARK_ROUTE_E
 	jr z, .ok
-	cp LANDMARK_LAKE_OF_RAGE
+	cp LANDMARK_NORTHERN_FOREST
 	jr nz, .NoSignal
 .ok
 	jp LoadStation_EvolutionRadio

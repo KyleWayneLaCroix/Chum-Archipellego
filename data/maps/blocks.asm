@@ -65,16 +65,20 @@ RouteAPokecenter1F_Blocks:
 UnivercityPokecenter1F_Blocks:
 GearCityPokecenter1F_Blocks:
 EeveeRanchPokecenter1F_Blocks:
+IceTownPokecenter1F_Blocks:
 	INCBIN "maps/Pokecenter1F.ablk"
 
 GearCityMart_Blocks:
+IceTownMart_Blocks:
 	INCBIN "maps/Mart.ablk"
 
 GearCityWhiltenHouse_Blocks:
 OldFisherFellowHouse_Blocks:
 GoodFisherFellowHouse_Blocks:
+IceTownHouse1_Blocks:
 	INCBIN "maps/House1.ablk"
 
+IceTownHouse2_Blocks:
 RouteDNameRaterHouse_Blocks:
 	INCBIN "maps/House2.ablk"
 
@@ -99,6 +103,9 @@ RyanTrainingHut_Blocks:
 
 RouteGMetroidCave_Blocks:
 	INCBIN "maps/MetroidCave.ablk"
+
+IceTownTrainerClub_Blocks:
+	INCBIN "maps/TrainerClub.ablk"
 
 SECTION "Map Blocks 4", ROMX
 
@@ -308,3 +315,42 @@ VolcanoInterior6F_Blocks:
 
 VolcanoInterior6FHall_Blocks:
 	INCBIN "maps/VolcanoInterior6FHall.ablk"
+
+SECTION "Map Blocks 8", ROMX
+
+RouteH_Blocks:
+	INCBIN "maps/RouteH.ablk"
+
+OceanDetour_Blocks:
+	INCBIN "maps/OceanDetour.ablk"
+
+IceTown_Blocks:
+	INCBIN "maps/IceTown.ablk"
+
+SanhaHouse_Blocks:
+	INCBIN "maps/SanhaHouse.ablk"
+
+SanhaHouse2F_Blocks:
+	INCBIN "maps/SanhaHouse2F.ablk"
+
+SanhaHouseB1F_Blocks:
+	INCBIN "maps/SanhaHouseB1F.ablk"
+
+SanhaACRoom_Blocks:
+	INCBIN "maps/SanhaACRoom.ablk"
+
+FrozenCavern1F_Blocks:
+	INCBIN "maps/FrozenCavern1F.ablk"
+
+FrozenCavernB1F_Blocks:
+	INCBIN "maps/FrozenCavernB1F.ablk"
+
+FrozenCavern2F_Blocks:
+	INCBIN "maps/FrozenCavern2F.ablk"
+
+FrozenCavern3F_Blocks:
+	INCBIN "maps/FrozenCavern3F.ablk"
+
+FrozenGrotto_Blocks:
+	INCBIN "maps/FrozenGrotto.ablk"
+

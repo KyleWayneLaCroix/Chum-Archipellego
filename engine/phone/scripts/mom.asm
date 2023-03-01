@@ -46,7 +46,7 @@ MomPhoneInTown:
 	getlandmarkname STRING_BUFFER_4, LANDMARK_SLOWPOKE_WELL
 	sjump MomPhoneLandmark
 .goldenrod
-	getlandmarkname STRING_BUFFER_4, LANDMARK_RADIO_TOWER
+	getlandmarkname STRING_BUFFER_4, LANDMARK_AWAKENING_BEACH
 	sjump MomPhoneLandmark
 
 MomPhoneOnRoute:

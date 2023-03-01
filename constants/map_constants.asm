@@ -90,6 +90,18 @@ ENDM
 	map_const CEMETARY,                        14, 14 ; 5
 	map_const CEMETARY_LAB,				        9, 12 ; 6
 	map_const DANGEROUS_CAVE,                   6,  5 ; 7
+	map_const ROUTE_H,                         10, 30 ; 8
+	map_const OCEAN_DETOUR,                    20,  9 ; 9
+	map_const ICE_TOWN,                        20, 27 ; 10
+	map_const ICE_TOWN_POKECENTER_1F,           5,  4 ; 11
+	map_const ICE_TOWN_MART,                    6,  4 ; 12
+	map_const ICE_TOWN_TRAINER_CLUB,           10, 12 ; 13
+	map_const ICE_TOWN_HOUSE_1,                 4,  4 ; 14
+	map_const ICE_TOWN_HOUSE_2,                 4,  4 ; 15
+	map_const SANHA_HOUSE,                     10,  9 ; 16
+	map_const SANHA_HOUSE_2F,                  10,  9 ; 17
+	map_const SANHA_HOUSE_B1F,                 14, 24 ; 18
+	map_const SANHA_AC_ROOM,                    5,  5 ; 19
 	endgroup
 
 	newgroup METROID                                  ; 7
@@ -172,6 +184,11 @@ ENDM
 	map_const VOLCANO_INTERIOR_5F_HALL,         8,  8 ; 14
 	map_const VOLCANO_INTERIOR_6F,             30, 18 ; 15
 	map_const VOLCANO_INTERIOR_6F_HALL,        10, 20 ; 16
+	map_const FROZEN_CAVERN_1F,                19, 17 ; 17
+	map_const FROZEN_CAVERN_B1F,               19, 17 ; 18
+	map_const FROZEN_CAVERN_2F,                19, 17 ; 19
+	map_const FROZEN_CAVERN_3F,                19, 17 ; 20
+	map_const FROZEN_GROTTO,                    5,  5 ; 21
 	endgroup
 
 DEF NUM_MAP_GROUPS EQU const_value ; 8

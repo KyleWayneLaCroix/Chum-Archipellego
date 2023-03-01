@@ -19,34 +19,15 @@
 	const LANDMARK_MUSCLE_JUNGLE     ; 0e
 	const LANDMARK_ROUTE_G           ; 0f
 	const LANDMARK_THE_BROCANO       ; 10
-	const LANDMARK_RADIO_TOWER       ; 11
-	const LANDMARK_ROUTE_35          ; 12
-	const LANDMARK_NATIONAL_PARK     ; 13
-	const LANDMARK_ROUTE_36          ; 14
-	const LANDMARK_ROUTE_37          ; 15
-	const LANDMARK_ECRUTEAK_CITY     ; 16
-	const LANDMARK_TIN_TOWER         ; 17
-	const LANDMARK_BURNED_TOWER      ; 18
-	const LANDMARK_ROUTE_38          ; 19
-	const LANDMARK_ROUTE_39          ; 1a
-	const LANDMARK_OLIVINE_CITY      ; 1b
-	const LANDMARK_LIGHTHOUSE        ; 1c
-	const LANDMARK_BATTLE_TOWER      ; 1d
-	const LANDMARK_ROUTE_40          ; 1e
-	const LANDMARK_WHIRL_ISLANDS     ; 1f
-	const LANDMARK_ROUTE_41          ; 20
-	const LANDMARK_CIANWOOD_CITY     ; 21
-	const LANDMARK_ROUTE_42          ; 22
-	const LANDMARK_MT_MORTAR         ; 23
-	const LANDMARK_ROUTE_43          ; 24
-	const LANDMARK_LAKE_OF_RAGE      ; 25
-	const LANDMARK_RUINS_OF_ALPH     ; 26
-	const LANDMARK_ROUTE_44          ; 27
-	const LANDMARK_ICE_PATH          ; 28
-	const LANDMARK_BLACKTHORN_CITY   ; 29
-	const LANDMARK_DRAGONS_DEN       ; 2a
-	const LANDMARK_ROUTE_45          ; 2b
-	const LANDMARK_DARK_CAVE         ; 2c
+	const LANDMARK_AWAKENING_BEACH_2 ; 11
+	const LANDMARK_MAYBE_VILLAGE     ; 12
+	const LANDMARK_MISPLACED_WOODS   ; 13
+	const LANDMARK_BEACHSIDE_MAW     ; 14
+	const LANDMARK_THE_WINDFISH_EGG  ; 15
+	const LANDMARK_ROUTE_H           ; 16
+	const LANDMARK_OCEAN_DETOUR      ; 17
+	const LANDMARK_ICE_TOWN          ; 18
+	const LANDMARK_FROZEN_CAVERN     ; 19
 	const LANDMARK_CYBERSPACE1       ; 2d
 	const LANDMARK_DR_NUGGZ_MD       ; 2e
 DEF KANTO_LANDMARK EQU const_value

@@ -2,20 +2,20 @@
 ;	const MAPNAME_OBJECTNAME
 
 
-RouteH_MapScripts:
+OceanDetour_MapScripts:
 	def_scene_scripts
 ;	scene_script script, SCENE_MAPNAME_SCENE_NAME
 
 	def_callbacks
 ;	callback type, script
 
-RouteH_MapEvents:
+OceanDetour_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
 ;	warp_event x, y, map, warp_id
-	warp_event  4, 23, OCEAN_DETOUR, 1
-	warp_event 10, 11, OCEAN_DETOUR, 2
+	warp_event  3, 15, ROUTE_H, 1
+	warp_event 31,  3, ROUTE_H, 2
 
 	def_coord_events
 ;	coord_event x, y, scene_id, script

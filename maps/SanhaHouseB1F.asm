@@ -2,21 +2,20 @@
 ;	const MAPNAME_OBJECTNAME
 
 
-RouteH_MapScripts:
+SanhaHouseB1F_MapScripts:
 	def_scene_scripts
 ;	scene_script script, SCENE_MAPNAME_SCENE_NAME
 
 	def_callbacks
 ;	callback type, script
 
-RouteH_MapEvents:
+SanhaHouseB1F_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
 ;	warp_event x, y, map, warp_id
-	warp_event  4, 23, OCEAN_DETOUR, 1
-	warp_event 10, 11, OCEAN_DETOUR, 2
-
+	warp_event 27, 43, SANHA_HOUSE, 4
+	warp_event 13, 11, SANHA_AC_ROOM, 1
 	def_coord_events
 ;	coord_event x, y, scene_id, script
 

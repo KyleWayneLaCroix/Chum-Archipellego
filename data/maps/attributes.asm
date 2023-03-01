@@ -148,13 +148,29 @@ ENDM
 	map_attributes NorthernForestRouteBGate, NORTHERN_FOREST_ROUTE_B_GATE, $00, 0
 	map_attributes RouteB, ROUTE_B, $05, NORTH | EAST
 	connection north, RouteBNorth, ROUTE_B_NORTH, -1
-	connection east, Cemetary, CEMETARY,0
-	map_attributes RouteBNorth, ROUTE_B_NORTH, $05, SOUTH
+	connection east, Cemetary, CEMETARY, 0
+	map_attributes RouteBNorth, ROUTE_B_NORTH, $05, NORTH | SOUTH
+	connection north, RouteH, ROUTE_H, 0
 	connection south, RouteB, ROUTE_B, 1
 	map_attributes Cemetary, CEMETARY, $82, WEST
 	connection west, RouteB, ROUTE_B, 0
 	map_attributes CemetaryLab, CEMETARY_LAB, $00, 0
 	map_attributes DangerousCave, DANGEROUS_CAVE, $00, 0
+	map_attributes RouteH, ROUTE_H, $05, NORTH | SOUTH
+	connection north, IceTown, ICE_TOWN, -5
+	connection south, RouteBNorth, ROUTE_B_NORTH, 0
+	map_attributes OceanDetour, OCEAN_DETOUR, $00, 0
+	map_attributes IceTown, ICE_TOWN, $05, SOUTH
+	connection south, RouteH, ROUTE_H, 5
+	map_attributes IceTownPokecenter1F, ICE_TOWN_POKECENTER_1F, $00, 0
+	map_attributes IceTownHouse1, ICE_TOWN_HOUSE_1, $00, 0
+	map_attributes IceTownHouse2, ICE_TOWN_HOUSE_2, $00, 0
+	map_attributes IceTownMart, ICE_TOWN_MART, $00, 0
+	map_attributes IceTownTrainerClub, ICE_TOWN_TRAINER_CLUB, $00, 0
+	map_attributes SanhaHouse, SANHA_HOUSE, $00, 0
+	map_attributes SanhaHouse2F, SANHA_HOUSE_2F, $00, 0
+	map_attributes SanhaHouseB1F, SANHA_HOUSE_B1F, $00, 0
+	map_attributes SanhaACRoom, SANHA_AC_ROOM, $00, 0
 
 	map_attributes MetroidIntro, METROID_INTRO, $00, 0
 	map_attributes MetroidHallway, METROID_HALLWAY, $00, 0
@@ -236,3 +252,9 @@ ENDM
 	map_attributes VolcanoInterior5FHall, VOLCANO_INTERIOR_5F_HALL, $09, 0
 	map_attributes VolcanoInterior6F, VOLCANO_INTERIOR_6F, $64, 0
 	map_attributes VolcanoInterior6FHall, VOLCANO_INTERIOR_6F_HALL, $00, 0
+
+	map_attributes FrozenCavern1F, FROZEN_CAVERN_1F, $00, 0
+	map_attributes FrozenCavernB1F, FROZEN_CAVERN_B1F, $00, 0
+	map_attributes FrozenCavern2F, FROZEN_CAVERN_2F, $00, 0
+	map_attributes FrozenCavern3F, FROZEN_CAVERN_3F, $00, 0
+	map_attributes FrozenGrotto, FROZEN_GROTTO, $00, 0

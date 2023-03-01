@@ -25,34 +25,15 @@ Landmarks:
 	landmark 116,  44, MuscleJungleName
 	landmark 116,  36, RouteGName
 	landmark 124,  36, TheBrocanoName
-	landmark  50,  92, RadioTowerName
-	landmark  52,  76, Route35Name
-	landmark  52,  60, NationalParkName
-	landmark  64,  60, Route36Name
-	landmark  68,  52, Route37Name
-	landmark  68,  44, EcruteakCityName
-	landmark  70,  42, TinTowerName
-	landmark  66,  42, BurnedTowerName
-	landmark  52,  44, Route38Name
-	landmark  36,  48, Route39Name
-	landmark  36,  60, OlivineCityName
-	landmark  38,  62, LighthouseName
-	landmark  28,  56, BattleTowerName
-	landmark  28,  64, Route40Name
-	landmark  28,  92, WhirlIslandsName
-	landmark  28, 100, Route41Name
-	landmark  20, 100, CianwoodCityName
-	landmark  92,  44, Route42Name
-	landmark  84,  44, MtMortarName
-	landmark 108,  44, MahoganyTownName
-	landmark 108,  36, Route43Name
-	landmark 108,  28, LakeOfRageName
-	landmark 120,  44, Route44Name
-	landmark 130,  38, IcePathName
-	landmark 132,  44, BlackthornCityName
-	landmark 132,  36, DragonsDenName
-	landmark 132,  64, Route45Name
-	landmark 112,  72, DarkCaveName
+	landmark  84, 124, AwakeningBeach2Name
+	landmark  76, 116, MaybeVillageName
+	landmark  76, 108, MisplacedWoodsName
+	landmark  76, 125, BeachsideMawName
+	landmark  92, 100, WindfishEggName
+	landmark  28,  84, RouteHName
+	landmark  20,  84, OceanDetourName
+	landmark  28,  76, IceTownName
+	landmark  28,  68, FrozenCavernName
 	landmark  36,  36, Cyberspace1Name
 	landmark 148,  68, DrNuggzMDName
 	assert_table_length KANTO_LANDMARK
@@ -226,3 +207,12 @@ RouteFName:			 db "ROUTE¯F@"
 MuscleJungleName:    db "MUSCLE¯JUNGLE@"
 RouteGName:          db "ROUTE¯G@"
 TheBrocanoName:      db "THE¯BROCANO@"
+AwakeningBeach2Name: db "LINK'S¯AWAKENING@"
+MaybeVillageName:    db "MAYBE¯VILLAGE@"
+MisplacedWoodsName:  db "MISPLACED¯WOODS@"
+BeachsideMawName:    db "BEACHSIDE¯MAW@"
+WindfishEggName:     db "THE¯WINDFISH¯EGG@"
+RouteHName:          db "ROUTE¯H@"
+OceanDetourName:     db "OCEAN¯DETOUR@"
+IceTownName:         db "ICE¯TOWN@"
+FrozenCavernName:    db "FROZEN¯CAVERN@"
