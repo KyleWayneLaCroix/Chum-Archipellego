@@ -2,19 +2,20 @@
 ;	const MAPNAME_OBJECTNAME
 
 
-AwakeningBeach2_MapScripts:
+MaybeVillagePokemonCenter1F_MapScripts:
 	def_scene_scripts
 ;	scene_script script, SCENE_MAPNAME_SCENE_NAME
 
 	def_callbacks
 ;	callback type, script
 
-AwakeningBeach2_MapEvents:
+MaybeVillagePokemonCenter1F_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
 ;	warp_event x, y, map, warp_id
-	warp_event 35, 23, BEACHFRONT_PROPERTY, 1
+	warp_event 5, 8, MAYBE_VILLAGE, 1
+	warp_event 6, 8, MAYBE_VILLAGE, 1
 
 	def_coord_events
 ;	coord_event x, y, scene_id, script

@@ -281,6 +281,39 @@ MisplacedWoods_Blocks:
 BadEggExterior_Blocks:
 	INCBIN "maps/BadEggExterior.ablk"
 
+AwakeningTrainerClub_Blocks:
+	INCBIN "maps/AwakeningTrainerClub.ablk"
+
+BeachfrontProperty_Blocks:
+	INCBIN "maps/BeachfrontProperty.ablk"
+
+CaseysCabin_Blocks:
+	INCBIN "maps/CaseysCabin.ablk"
+
+DogLadyHouse_Blocks:
+	INCBIN "maps/DogLadyHouse.ablk"
+
+MarinsHouse_Blocks:
+	INCBIN "maps/MarinsHouse.ablk"
+
+MaybeVillageMart_Blocks:
+	INCBIN "maps/MaybeVillageMart.ablk"
+
+MaybeVillagePokemonCenter1F_Blocks:
+	INCBIN "maps/MaybeVillagePokemonCenter1F.ablk"
+
+OldMansHouse_Blocks:
+	INCBIN "maps/OldMansHouse.ablk"
+
+PhoneRoom_Blocks:
+	INCBIN "maps/PhoneRoom.ablk"
+
+QuadrupletsHouse_Blocks:
+	INCBIN "maps/QuadrupletsHouse.ablk"
+
+SuperFisherFellowsHouse_Blocks:
+	INCBIN "maps/SuperFisherFellowsHouse.ablk"
+
 SECTION "Map Blocks 7", ROMX
 
 VolcanoInteriorB1F_Blocks:

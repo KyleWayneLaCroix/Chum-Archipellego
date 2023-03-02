@@ -240,6 +240,17 @@ ENDM
 	map_attributes MisplacedWoods, MISPLACED_WOODS, $00, SOUTH
 	connection south, MaybeVillage, MAYBE_VILLAGE, 0
 	map_attributes BadEggExterior, BAD_EGG_EXTERIOR, $B9, 0
+	map_attributes AwakeningTrainerClub, AWAKENING_TRAINER_CLUB, $00, 0
+	map_attributes BeachfrontProperty, BEACHFRONT_PROPERTY, $00, 0
+	map_attributes CaseysCabin, CASEYS_CABIN, $00, 0
+	map_attributes DogLadyHouse, DOG_LADY_HOUSE, $00, 0
+	map_attributes MarinsHouse, MARINS_HOUSE, $00, 0
+	map_attributes MaybeVillageMart, MAYBE_VILLAGE_MART, $00, 0
+	map_attributes MaybeVillagePokemonCenter1F, MAYBE_VILLAGE_POKEMON_CENTER_1F, $00, 0
+	map_attributes OldMansHouse, OLD_MANS_HOUSE, $00, 0
+	map_attributes PhoneRoom, PHONE_ROOM, $00, 0
+	map_attributes QuadrupletsHouse, QUADRUPLETS_HOUSE, $00, 0
+	map_attributes SuperFisherFellowsHouse, SUPER_FISHER_FELLOWS_HOUSE, $00, 0
 
 	map_attributes VolcanoInteriorB1F, VOLCANO_INTERIOR_B1F, $00, 0
 	map_attributes VolcanoInteriorB1FHall, VOLCANO_INTERIOR_B1F_HALL, $09, 0

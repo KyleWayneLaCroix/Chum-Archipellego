@@ -14,7 +14,8 @@ MisplacedWoods_MapEvents:
 
 	def_warp_events
 ;	warp_event x, y, map, warp_id
-
+	warp_event 43, 5, CASEYS_CABIN, 1
+	
 	def_coord_events
 ;	coord_event x, y, scene_id, script
 

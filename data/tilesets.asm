@@ -5,7 +5,6 @@ ENDM
 
 ; Associated data:
 ; - The *GFX, *Meta, and *Coll are defined in gfx/tilesets.asm
-; - The *PalMap are defined in gfx/tileset_palette_maps.asm
 ; - The *Anim are defined in engine/tilesets/tileset_anims.asm
 
 Tilesets::
@@ -44,4 +43,5 @@ Tilesets::
 	tileset TilesetMetroid
 	tileset TilesetJungle
 	tileset TilesetLinksAwakening
+	tileset TilesetLinksAwakeningInterior
 	assert_table_length NUM_TILESETS + 1

@@ -155,6 +155,18 @@ INCLUDE "maps/FrozenGrotto.asm"
 
 SECTION "Map Scripts 14", ROMX
 
+INCLUDE "maps/AwakeningTrainerClub.asm"
+INCLUDE "maps/BeachfrontProperty.asm"
+INCLUDE "maps/CaseysCabin.asm"
+INCLUDE "maps/DogLadyHouse.asm"
+INCLUDE "maps/MarinsHouse.asm"
+INCLUDE "maps/MaybeVillageMart.asm"
+INCLUDE "maps/MaybeVillagePokemonCenter1F.asm"
+INCLUDE "maps/OldMansHouse.asm"
+INCLUDE "maps/PhoneRoom.asm"
+INCLUDE "maps/QuadrupletsHouse.asm"
+INCLUDE "maps/SuperFisherFellowsHouse.asm"
+
 
 SECTION "Map Scripts 15", ROMX
 

@@ -2,19 +2,20 @@
 ;	const MAPNAME_OBJECTNAME
 
 
-AwakeningBeach2_MapScripts:
+CaseysCabin_MapScripts:
 	def_scene_scripts
 ;	scene_script script, SCENE_MAPNAME_SCENE_NAME
 
 	def_callbacks
 ;	callback type, script
 
-AwakeningBeach2_MapEvents:
+CaseysCabin_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
 ;	warp_event x, y, map, warp_id
-	warp_event 35, 23, BEACHFRONT_PROPERTY, 1
+	warp_event 5, 8, MISPLACED_WOODS, 1
+	warp_event 6, 8, MISPLACED_WOODS, 1
 
 	def_coord_events
 ;	coord_event x, y, scene_id, script

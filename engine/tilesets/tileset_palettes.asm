@@ -14,6 +14,8 @@ LoadSpecialMapPalette:
 	jr z, .mansion_mobile
 	cp TILESET_LINKS_AWAKENING
 	jr z, .links_awakening
+	cp TILESET_LINKS_AWAKENING_INTERIOR
+	jr z, .links_awakening_interior
 	jr .do_nothing
 
 .pokecom_2f
@@ -55,6 +57,11 @@ LoadSpecialMapPalette:
 	scf
 	ret
 
+.links_awakening_interior
+	call LoadLinksAwakeningInteriorPalette
+	scf
+	ret
+
 .do_nothing
 	and a
 	ret
@@ -69,6 +76,17 @@ LoadLinksAwakeningPalette:
 
 LinksAwakeningPalette:
 INCLUDE "gfx/tilesets/linksawakening.pal"
+
+LoadLinksAwakeningInteriorPalette:
+	ld a, BANK(wBGPals1)
+	ld de, wBGPals1
+	ld hl, LinksAwakeningInteriorPalette
+	ld bc, 8 palettes
+	call FarCopyWRAM
+	ret
+
+LinksAwakeningInteriorPalette:
+INCLUDE "gfx/tilesets/linksawakeninginterior.pal"
 
 LoadPokeComPalette:
 	ld a, BANK(wBGPals1)

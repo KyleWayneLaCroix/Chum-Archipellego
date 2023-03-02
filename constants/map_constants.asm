@@ -164,7 +164,18 @@ ENDM
 	map_const AWAKENING_BEACH_2,               30, 22 ;  1
 	map_const MAYBE_VILLAGE,                   30, 17 ;  2
 	map_const MISPLACED_WOODS,                 27, 20 ;  3
-	map_const BAD_EGG_EXTERIOR,               14, 16 ;  4
+	map_const BAD_EGG_EXTERIOR,                14, 16 ;  4
+	map_const AWAKENING_TRAINER_CLUB,           8,  9
+	map_const BEACHFRONT_PROPERTY,              6,  5
+	map_const CASEYS_CABIN,                     6,  5
+	map_const DOG_LADY_HOUSE,                  10,  5
+	map_const MARINS_HOUSE,                     6,  5
+	map_const MAYBE_VILLAGE_MART,               6,  5
+	map_const MAYBE_VILLAGE_POKEMON_CENTER_1F,  6,  5
+	map_const OLD_MANS_HOUSE,                   6,  5
+	map_const PHONE_ROOM,                       6,  5
+	map_const QUADRUPLETS_HOUSE,               10,  5
+	map_const SUPER_FISHER_FELLOWS_HOUSE,        6,  5
 	endgroup
 
 	newgroup DUNGEONS                                 ; 12
