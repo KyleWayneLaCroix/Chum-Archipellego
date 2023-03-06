@@ -16,6 +16,8 @@ LoadSpecialMapPalette:
 	jr z, .links_awakening
 	cp TILESET_LINKS_AWAKENING_INTERIOR
 	jr z, .links_awakening_interior
+	cp TILESET_LINKS_AWAKENING_DUNGEON
+	jr z, .links_awakening_dungeon
 	jr .do_nothing
 
 .pokecom_2f
@@ -62,6 +64,11 @@ LoadSpecialMapPalette:
 	scf
 	ret
 
+.links_awakening_dungeon
+	call LoadLinksAwakeningDungeonPalette
+	scf
+	ret
+
 .do_nothing
 	and a
 	ret
@@ -87,6 +94,17 @@ LoadLinksAwakeningInteriorPalette:
 
 LinksAwakeningInteriorPalette:
 INCLUDE "gfx/tilesets/linksawakeninginterior.pal"
+
+LoadLinksAwakeningDungeonPalette:
+	ld a, BANK(wBGPals1)
+	ld de, wBGPals1
+	ld hl, LinksAwakeningDungeonPalette
+	ld bc, 8 palettes
+	call FarCopyWRAM
+	ret
+
+LinksAwakeningDungeonPalette:
+INCLUDE "gfx/tilesets/linksawakeningdungeon.pal"
 
 LoadPokeComPalette:
 	ld a, BANK(wBGPals1)
