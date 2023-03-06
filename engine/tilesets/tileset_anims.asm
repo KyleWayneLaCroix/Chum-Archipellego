@@ -288,6 +288,7 @@ TilesetAerodactylWordRoomAnim:
 TilesetMetroidAnim:
 TilesetLinksAwakeningAnim:
 TilesetLinksAwakeningInteriorAnim:
+TilesetLinksAwakeningDungeonAnim:
 	dw NULL,  WaitTileAnimation
 	dw NULL,  WaitTileAnimation
 	dw NULL,  WaitTileAnimation

@@ -440,3 +440,18 @@ INCLUDE "data/tilesets/linksawakeninginterior_collision.asm"
 
 TilesetLinksAwakeningInteriorAttr::
 INCBIN "data/tilesets/linksawakeninginterior_attributes.bin"
+
+SECTION "Tileset Data 17", ROMX
+
+
+TilesetLinksAwakeningDungeonGFX::
+INCBIN "gfx/tilesets/linksawakeningdungeon.2bpp.lz"
+
+TilesetLinksAwakeningDungeonMeta::
+INCBIN "data/tilesets/linksawakeningdungeon_metatiles.bin"
+
+TilesetLinksAwakeningDungeonColl::
+INCLUDE "data/tilesets/linksawakeningdungeon_collision.asm"
+
+TilesetLinksAwakeningDungeonAttr::
+INCBIN "data/tilesets/linksawakeningdungeon_attributes.bin"

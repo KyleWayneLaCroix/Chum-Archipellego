@@ -44,4 +44,5 @@ Tilesets::
 	tileset TilesetJungle
 	tileset TilesetLinksAwakening
 	tileset TilesetLinksAwakeningInterior
+	tileset TilesetLinksAwakeningDungeon
 	assert_table_length NUM_TILESETS + 1
