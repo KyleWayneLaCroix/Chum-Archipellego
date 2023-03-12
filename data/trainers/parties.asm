@@ -171,7 +171,9 @@ KeybladerGroup:
 GoronGroup:
 	; GORON (1)
 	db "DARU@", TRAINERTYPE_NORMAL
-	db  1, ARON
+	db 26, PUPITAR
+	db 24, LAIRON
+	db 22, KLEAVOR
 	db -1 ; end
 
 ArtistGroup:
@@ -413,7 +415,7 @@ CooltrainerMGroup:
 	; COOLTRAINERM (2)
 	db "AARON@", TRAINERTYPE_NORMAL
 	db 24, DOOMSTONE
-	db 24, LAMPENT
+	db 24, TANGELA
 	db 24, PORYGON
 	db -1 ; end
 
@@ -471,8 +473,9 @@ FedoraManGroup:
 FeralChildGroup:
 	; FERAL_CHILD (1)
 	db "GAU", TRAINERTYPE_NORMAL
-	db  1, DITTO
-	db  1, DITTO
+	db 25, TIRTOUGA
+	db 24, AMAURA
+	db 25, ORANGURU
 	db -1 ; end
 
 FirebreatherGroup:
@@ -1048,11 +1051,11 @@ SwimmerMGroup:
 
 TamerGroup:
 	; TAMER (1)
-	db "TAMER@", TRAINERTYPE_MOVES
-	db 42, ORICORIO_PAU,    RAZOR_LEAF, WRAP, GIGA_DRAIN, SLEEP_POWDER
-	db 41, SYLVEON,   MEGA_DRAIN, LEECH_SEED, DOUBLE_TEAM, GIGA_DRAIN
-	db 46, LEAFEON, SUNNY_DAY, RECOVER, ACID, RAZOR_LEAF
-	db 46, CHATOT,  SUNNY_DAY, RECOVER, RAZOR_LEAF, SOLARBEAM
+	db "RINGLE@", TRAINERTYPE_NORMAL
+	db 26, MUDBRAY
+	db 25, LYCANROC_MIDNIGHT
+	db 26, URSARING
+	db 25, GRENMAR
 	db -1 ; end
 
 TeacherGroup:
