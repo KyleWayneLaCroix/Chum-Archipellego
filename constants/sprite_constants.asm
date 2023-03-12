@@ -107,14 +107,15 @@
 	const SPRITE_KYLE ; 67
 	const SPRITE_LINK ; 68
 	const SPRITE_BIG_CLAY ; 69
-	const SPRITE_MUSHROOM ; 70
-	const SPRITE_ZOOMER ; 71
-	const SPRITE_SKREE_RIPPER ; 72
-	const SPRITE_MORPH_BALL ; 73
-	const SPRITE_ENERGY_TANK ; 74
-	const SPRITE_MISSILES ; 75
-	const SPRITE_LEVER_LEFT ; 76
-	const SPRITE_LEVER_RIGHT ; 76
+	const SPRITE_MUSHROOM ; 6a
+	const SPRITE_ZOOMER ; 6b
+	const SPRITE_SKREE_RIPPER ; 6c
+	const SPRITE_MORPH_BALL ; 6d
+	const SPRITE_ENERGY_TANK ; 6e
+	const SPRITE_MISSILES ; 6f
+	const SPRITE_LEVER_LEFT ; 70
+	const SPRITE_LEVER_RIGHT ; 71
+	const SPRITE_GORON ; 72
 DEF NUM_OVERWORLD_SPRITES EQU const_value - 1
 
 ; SpriteMons indexes (see data/sprites/sprite_mons.asm)
