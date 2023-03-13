@@ -946,19 +946,26 @@ RedGroup:
 RuffianGroup:
 	; RUFFIAN (1)
 	db "GRENDO@", TRAINERTYPE_NORMAL
-	db 1, DITTO
+	db 19, ZIGZAGOON
+	db 23, LINOONE
+	db 28, OBSTAGOON
 	db -1 ; end
 
 RuinManiacGroup:
 	; RUIN_MANIAC (1)
 	db "NIEL@", TRAINERTYPE_NORMAL
-	db 1, DITTO
+	db 26, DREEPY
+	db 25, AMAURA
+	db 25, TIRTOUGA
 	db -1 ; end
 
 SafariGroup:
 	; SAFARI (1)
 	db "INDY@", TRAINERTYPE_NORMAL
-	db 1, DITTO
+	db 24, LINOONE
+	db 23, MEOWTH
+	db 25, TANGELA
+	db 24, SKARMORY
 	db -1 ; end
 
 SageGroup:
@@ -1362,6 +1369,14 @@ RockBrianGroup:
 	db 25, LYCANROC_MIDDAY
 	db 25, LYCANROC_MIDNIGHT
 	db 25, LYCANROC_DUSK
+	db -1 ; end
+
+	; ROCK_BRIAN (2)
+	db "BRIAN@", TRAINERTYPE_NORMAL
+	db 24, DOOMSTONE
+	db 25, LAIRON
+	db 25, DWEBBLE
+	db 25, KLEAVOR
 	db -1 ; end
 
 TreeBrianGroup:

@@ -396,6 +396,7 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 
 	trainerclass ROCK_BRIAN ; 48
 	const ROCKBRIAN_1
+	const ROCKBRIAN_2
 
 	trainerclass TREE_BRIAN ; 47
 	const TREEBRIAN_1

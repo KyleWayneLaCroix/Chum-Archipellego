@@ -43,7 +43,7 @@ TrainerClassDVs:
 	dn  8,  8,  8,  8 ; FIREBREATHER
 	dn  8,  8,  8,  8 ; FISHER
 	dn  8,  8,  8, 12 ; GHOST
-	dn 10, 10, 10, 10 ; GIRL_BOSS
+	dn 11, 11, 10, 10 ; GIRL_BOSS
 	dn  9,  9,  9,  9 ; GLITCH
 	dn  8,  8,  8,  8 ; GRAMPS
 	dn  8,  8,  8,  8 ; GRANNY
@@ -54,7 +54,7 @@ TrainerClassDVs:
 	dn  8,  8,  8,  8 ; JUGGLER
 	dn 13, 10, 10, 10 ; KARATE_KING
 	dn  9,  9,  9,  9 ; KAREN
-	dn 10, 10, 10, 10 ; KIMONO_GIRL
+	dn 11, 11, 10, 10 ; KIMONO_GIRL
 	dn  7,  8, 15, 14 ; LADY
 	dn  8,  8,  8,  8 ; LASS
 	dn 11, 11, 11, 11 ; MAD_SCIENTIST
@@ -70,7 +70,7 @@ TrainerClassDVs:
 	dn 11, 10, 10, 11 ; PYRO
 	dn 15, 15, 15, 15 ; RED
 	dn 12,  8,  8,  8 ; RUFFIAN
-	dn 10, 10, 10, 10 ; RUIN_MANIAC
+	dn 11, 11, 10, 10 ; RUIN_MANIAC
 	dn 11, 11, 11, 11 ; SAFARI
 	dn  8,  8,  8, 11 ; SAGE
 	dn  8,  8,  8,  8 ; SAILOR
@@ -80,10 +80,10 @@ TrainerClassDVs:
 	dn  9,  9,  9,  7 ; SIGHTSEER_M
 	dn 11,  9, 13,  8 ; SKATER_BOY
 	dn  9,  9,  9,  9 ; SKIER
-	dn 10, 10, 10, 10 ; SUPERVISOR
+	dn 11, 11, 10, 10 ; SUPERVISOR
 	dn  7,  8,  8,  9 ; SWIMMER_F
 	dn  9,  8,  8,  7 ; SWIMMER_M
-	dn 10, 10, 10, 10 ; TAMER
+	dn 11, 11, 10, 10 ; TAMER
 	dn  8,  9,  9,  9 ; TEACHER
 	dn  8,  8,  8,  8 ; TWINS
 	dn 13,  9, 10,  8 ; UNDEAD
