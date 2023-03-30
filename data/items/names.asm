@@ -179,7 +179,7 @@ ItemNames::
 	li "CHAINSAW"
 	li "PDA"
 	li "FLASHLIGHT"
-	li "TERU-SAMA"
+	li "JUMP"
 	li "TERU-SAMA"
 	li "TERU-SAMA"
 	li "TERU-SAMA"

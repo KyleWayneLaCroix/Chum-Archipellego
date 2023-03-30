@@ -180,7 +180,7 @@ ItemDescriptions:
 	dw ChainsawDesc
 	dw PDADesc
 	dw FlashlightDesc
-	dw TeruSama15Desc
+	dw JumpDesc
 	dw TeruSama16Desc
 	dw TeruSama17Desc
 	dw TeruSama18Desc
@@ -837,8 +837,9 @@ LeftoversDesc:
 	db   "Restores HP during"
 	next "battle. (HOLD)@"
 
-TeruSama15Desc:
-	db   "?@"
+JumpDesc:
+	db   "3 of em & a brite"
+	next "card get you in@"
 
 TeruSama16Desc:
 	db   "?@"
