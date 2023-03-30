@@ -121,4 +121,5 @@ OverworldSprites:
 	overworld_sprite LeverLeftSpriteGFX, 4, STILL_SPRITE, PAL_OW_SILVER
 	overworld_sprite LeverRightSpriteGFX, 4, STILL_SPRITE, PAL_OW_SILVER
 	overworld_sprite GoronSpriteGFX, 12, WALKING_SPRITE, PAL_OW_BROWN
+	overworld_sprite RegimagmaSpriteGFX, 12, STANDING_SPRITE, PAL_OW_RED
 	assert_table_length NUM_OVERWORLD_SPRITES
