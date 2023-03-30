@@ -179,7 +179,11 @@ GoronGroup:
 ArtistGroup:
 	; ARTIST (1)
 	db "ANGELO@", TRAINERTYPE_NORMAL
-	db  1, DITTO
+	db 26, DUBWOOL
+	db 25, DITTO
+	db 24, BOUFFALANT
+	db 25, DELCATTY
+	db 28, WYRDEER
 	db -1 ; end
 
 BattleGirlGroup:
@@ -234,6 +238,14 @@ BirdKeeperGroup:
 	db 24, CHATOT
 	db 26, YANMA
 	db 25, JUMPLUFF
+	db -1 ; end
+
+	; BIRD_KEEPER (3)
+	db "THEO@", TRAINERTYPE_NORMAL
+	db 28, ORICORIO_BAILE
+	db 24, CHATOT
+	db 28, LUXWAN
+	db 28, SIRFETCHD
 	db -1 ; end
 
 BlackbeltGroup:
@@ -330,7 +342,11 @@ BugCatcherGroup:
 BugManiacGroup:
 	; BUG_CATCHER (8)
 	db "ARNIE@", TRAINERTYPE_NORMAL
-	db 15, LINOONE
+	db 25, LARVESTA
+	db 24, DWEBBLE
+	db 25, KLEAVOR
+	db 24, DURANT
+	db 28, CENTISKORCH 
 	db -1 ; end
 
 BurglarGroup:
@@ -422,8 +438,12 @@ CooltrainerMGroup:
 CoupleGroup:
 	; COUPLE (1)
 	db "JO & JOE", TRAINERTYPE_NORMAL
-	db  1, DITTO
-	db  1, DITTO
+	db 25, LUXWAN
+	db 25, SIRFETCHD
+	db 25, JUNGELA
+	db 25, TANGROWTH
+	db 25, MEOWSTIC_M
+	db 25, MEOWSTIC_F
 	db -1 ; end
 
 DetectiveFGroup:
@@ -443,15 +463,17 @@ DetectiveMGroup:
 EngineerGroup:
 	; ENGINEER (1)
 	db "DONNY", TRAINERTYPE_NORMAL
-	db  1, DITTO
-	db  1, DITTO
+	db 28, PERRSERKER
+	db 27, SKARMORY
+	db 24, MAWILE
+	db 24, SCIZOR
 	db -1 ; end
 
 FancyLadGroup:
 	; FANCY_LAD (1)
 	db "HAYDEN", TRAINERTYPE_NORMAL
-	db  1, DITTO
-	db  1, DITTO
+	db 25, DITTO
+	db 26, DITTO
 	db -1 ; end
 
 FedoraManGroup:
@@ -498,6 +520,13 @@ FirebreatherGroup:
 	db 24, SALANDIT
 	db 24, SALANDIT
 	db 24, SALANDIT
+	db -1 ; end
+
+	; FIREBREATHER (4)
+	db "BURT@", TRAINERTYPE_NORMAL
+	db 28, HEATMOR
+	db 28, LAMPENT
+	db 26, GRENMAR
 	db -1 ; end
 
 FisherGroup:
@@ -596,10 +625,19 @@ GlitchGroup:
 	db 24, TYKER
 	db -1 ; end
 
-	; GRUNTF (1)
+	; GLITCH (4)
 	db "GRUNT@", TRAINERTYPE_NICKNAME
 	db  9, DEWPIDER, "EMOLGA@"
 	db 11, EMOLGA, "VIKAVOLT@"
+	db -1 ; end
+
+	; GLITCH (5)
+	db "TRNRRNR@", TRAINERTYPE_NICKNAME
+	db 27, ANGORE, "SHARPEDO@"
+	db 25, GRENMAR, "SEEL@"
+	db 28, UNOWN, "PROF. OAK@"
+	db 24, UNOWN, "2684321@"
+	db 27, KIRBY, "JIGGLYPUFF@"
 	db -1 ; end
 
 GrampsGroup:
@@ -628,8 +666,10 @@ GuitaristGroup:
 HexManiacGroup:
 	; HEX_MANIAC (1)
 	db "HANNA", TRAINERTYPE_NORMAL
-	db  1, DITTO
-	db  1, DITTO
+	db 28, LITWICK
+	db 24, HAUNTER
+	db 24, UMBREON
+	db 27, MISDREAVUS
 	db -1 ; end
 
 HikerGroup:
@@ -688,6 +728,15 @@ HikerGroup:
 	db 24, TEDDIURSA
 	db 24, STUFFUL
 	db 24, LARVESTA
+	db -1 ; end
+
+	; HIKER (8)
+	db "PARRY@", TRAINERTYPE_NORMAL
+	db 18, SPIRRIP
+	db 20, LARVITAR
+	db 28, DOOMSTONE
+	db 27, KLEAVOR
+	db 30, PUPITAR
 	db -1 ; end
 
 ITGuyGroup:
@@ -803,8 +852,12 @@ LassGroup:
 MadScientistGroup:
 	; MAD_SCIENTIST (1)
 	db "BROWN", TRAINERTYPE_NORMAL
-	db  1, DITTO
-	db  1, DITTO
+	db 32, ORBEETLE
+	db 28, VIKAVOLT
+	db 32, DUOSION
+	db 26, DITTO
+	db 27, PORYGON2
+	db 25, UNOWN
 	db -1 ; end
 
 MediumGroup:
@@ -819,6 +872,15 @@ MediumGroup:
 	db "GRACE@", TRAINERTYPE_NORMAL
 	db 11, SANDYGAST
 	db 10, LITWICK
+	db -1 ; end
+
+	; MEDIUM (3)
+	db "WELL@", TRAINERTYPE_NORMAL
+	db 27, SANDYGAST
+	db 28, DOOMSTONE
+	db 26, UNOWN
+	db 28, UNOWN
+	db 32, UNOWN
 	db -1 ; end
 
 NinjaFGroup:
@@ -913,6 +975,16 @@ PicnickerGroup:
 	db 28, JUNGELA
 	db -1 ; end
 
+	; PICNICKER (5)
+	db "CINDY@", TRAINERTYPE_NORMAL
+	db 27, YUNGOOS
+	db 26, WOOLOO
+	db 25, YAMPER
+	db 28, EMOLGA
+	db 26, DEERLING
+	db 24, ROCKRUFF
+	db -1 ; end
+
 PsychicGroup:
 	; PSYCHIC_T (1)
 	db "NATHAN@", TRAINERTYPE_NORMAL
@@ -929,7 +1001,19 @@ PsychicGroup:
 PyroGroup:
 	; PYRO (1)
 	db "DENA@", TRAINERTYPE_NORMAL
-	db 1, DITTO
+	db 23, GROWLITHE
+	db 23, HOUNDOUR
+	db 28, ARCANINE
+	db 28, HOUNDOOM
+	db -1 ; end
+
+	; PYRO (1)
+	db "MANNY@", TRAINERTYPE_NORMAL
+	db 25, SALANDIT
+	db 25, SALANDIT
+	db 25, LITLEO
+	db 25, LITLEO
+	db 28, FLAREON
 	db -1 ; end
 
 RedGroup:
@@ -957,6 +1041,13 @@ RuinManiacGroup:
 	db 26, DREEPY
 	db 25, AMAURA
 	db 25, TIRTOUGA
+	db -1 ; end
+
+	; RUIN_MANIAC (1)
+	db "ELVIN@", TRAINERTYPE_NORMAL
+	db 26, DWEBBLE
+	db 25, DRILBUR
+	db 30, GASTRODON
 	db -1 ; end
 
 SafariGroup:
@@ -997,13 +1088,19 @@ SenpaiKouhaiGroup:
 SightseerFGroup:
 	; SIGHTSEER_F (1)
 	db "JILL@", TRAINERTYPE_NORMAL
-	db 1, DITTO
+	db 28, FROSMOTH
+	db 25, SNOVER
+	db 27, GLACEON
+	db 26, SWINUB
 	db -1 ; end
 
 SightseerMGroup:
 	; SIGHTSEER_M (1)
 	db "JACK@", TRAINERTYPE_NORMAL
-	db 1, DITTO
+	db 26, PALPITOAD
+	db 28, FLOATZEL
+	db 26, CLAUNCHER
+	db 31, LUMINEON
 	db -1 ; end
 
 SkaterBoyGroup:
@@ -1310,6 +1407,15 @@ BallBrianGroup:
 	db 11, GASTLY
 	db -1 ; end
 
+
+	; BALL_BRIAN (2)
+	db "BRIAN@", TRAINERTYPE_NORMAL
+	db 28, SNORLAX
+	db 25, KOFFING
+	db 24, DUOSION
+	db 25, MUSHARNA
+	db -1 ; end
+
 MadDogGroup:
 	; MAD_DOG_BRIAN (1)
 	db "BRIAN@", TRAINERTYPE_NORMAL
@@ -1328,20 +1434,28 @@ MadDogGroup:
 
 BrianFGroup:
 	; BRIAN_F (1)
-	db "BRIAN@", TRAINERTYPE_NORMAL
-	db 11, PORYGON
-	db 12, TYKER
-	db  9, UNOWN
-	db 12, DITTO
+	db "ELECTRIC@", TRAINERTYPE_NORMAL
+	db 25, BOLTUND
+	db 26, EMOLGA
+	db 24, TYKER
+	db 25, JOLTEON
+	db -1 ; end
+
+	; BRIAN_F (1)
+	db "FAIRY@", TRAINERTYPE_NORMAL
+	db 25, SYLVEON
+	db 26, SHIINOTIC
+	db 24, MAWILE
+	db 32, GARDEVOIR
 	db -1 ; end
 
 BrianMGroup:
 	; BRIAN_M (1)
-	db "BRIAN@", TRAINERTYPE_NORMAL
-	db 11, PORYGON
-	db 12, TYKER
-	db  9, UNOWN
-	db 12, DITTO
+	db "POISON@", TRAINERTYPE_NORMAL
+	db 25, SALANDIT
+	db 26, STUNKY
+	db 24, TRUBBISH
+	db 25, GASTLY
 	db -1 ; end
 
 Brian64Group:
@@ -1353,6 +1467,14 @@ Brian64Group:
 	db 12, DITTO
 	db -1 ; end
 
+	; BRIAN_64 (2)
+	db ", VIRTUAL@", TRAINERTYPE_NORMAL
+	db 28, VIKAVOLT
+	db 23, UNOWN
+	db 27, CHINCHOU
+	db 24, KIRBY
+	db -1 ; end
+
 
 BugBrianGroup:
 	; BUG_BRIAN (1)
@@ -1360,6 +1482,16 @@ BugBrianGroup:
 	db 13, COMBEE
 	db 15, LARVESTA
 	db 14, YANMA
+	db -1 ; end
+
+	; BUG_BRIAN (2)
+	db "BRIAN@", TRAINERTYPE_NORMAL
+	db 24, SIZZLIPEDE
+	db 25, DWEBBLE
+	db 26, LARVESTA
+	db 27, DURANT
+	db 28, CENTISKORCH
+	db 28, KLEAVOR
 	db -1 ; end
 
 RockBrianGroup:
@@ -1401,4 +1533,13 @@ TreeBrianGroup:
 	db 19, APPLIN
 	db 21, SNOVER
 	db 20, TANGELA
+	db -1 ; end
+
+	; TREE_BRIAN (4)
+	db "BRIAN@", TRAINERTYPE_NORMAL
+	db 24, APPLIN
+	db 24, EXEGGCUTE
+	db 30, APPLETUN
+	db 30, FLAPPLE
+	db 30, EXEGGUTOR
 	db -1 ; end

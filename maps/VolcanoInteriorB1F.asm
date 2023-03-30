@@ -9,6 +9,34 @@ VolcanoInteriorB1F_MapScripts:
 	def_callbacks
 ;	callback type, script
 
+VolcanoInteriorB1FMiniorSpot:
+	random 250
+	ifequal 0, VolcanoInteriorB1FMiniorCoreTrap
+	ifequal 1, VolcanoInteriorB1FMiniorCoreTrap
+	end
+
+VolcanoInteriorB1FMiniorCoreTrap:
+	special FadeOutPalettes
+	cry MINIOR_CORE
+	special FadeInPalettes
+	setlasttalked -1
+	loadvar VAR_BATTLETYPE, BATTLETYPE_TRAP
+	loadwildmon MINIOR_CORE, 27
+	startbattle
+	reloadmapafterbattle
+	end
+
+VolcanoInteriorB1FMiniorMeteorTrap:
+	special FadeOutPalettes
+	cry MINIOR_METEOR
+	special FadeInPalettes
+	setlasttalked -1
+	loadvar VAR_BATTLETYPE, BATTLETYPE_TRAP
+	loadwildmon MINIOR_METEOR, 27
+	startbattle
+	reloadmapafterbattle
+	end
+
 VolcanoInteriorB1F_MapEvents:
 	db 0, 0 ; filler
 
@@ -24,6 +52,10 @@ VolcanoInteriorB1F_MapEvents:
 
 	def_bg_events
 ;	bg_event x, y, type, script
+	bg_event 27, 25, BGEVENT_READ, VolcanoInteriorB1FMiniorSpot
+	bg_event 27, 24, BGEVENT_READ, VolcanoInteriorB1FMiniorSpot
+	bg_event 26, 24, BGEVENT_READ, VolcanoInteriorB1FMiniorSpot
+	bg_event 26, 25, BGEVENT_READ, VolcanoInteriorB1FMiniorSpot
 
 	def_object_events
 ;	object_event x, y, sprite, movement, rx, ry, h1, h2, palette, type, range, script, event_flag

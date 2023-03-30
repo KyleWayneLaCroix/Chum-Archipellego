@@ -173,6 +173,13 @@ AwakeningLabHealingMachine:
 	setflag ENGINE_UNLOCKED_UNOWNS_L_TO_R
 	setflag ENGINE_UNLOCKED_UNOWNS_S_TO_W
 	setflag ENGINE_UNLOCKED_UNOWNS_X_TO_Z
+	setflag ENGINE_FLYPOINT_PLAYERS_HOUSE
+	setflag ENGINE_FLYPOINT_AWAKENING_BEACH
+	setflag ENGINE_FLYPOINT_GEAR_CITY
+	setflag ENGINE_FLYPOINT_UNIVERCITY
+	setflag ENGINE_FLYPOINT_EEVEE_RANCH
+	setflag ENGINE_FLYPOINT_JUNGLE
+	setflag ENGINE_FLYPOINT_INDIGO
 	giveitem CHAINSAW
 	giveitem FLASHLIGHT
 	giveitem PDA
@@ -537,7 +544,7 @@ AwakeningLab_MapEvents:
 	def_warp_events
 	warp_event 25, 19, AWAKENING_BEACH, 1
 	warp_event 24, 19, AWAKENING_BEACH, 1
-	warp_event 27, 16, VOLCANO_INTERIOR_2F, 2
+	warp_event 27, 16, VOLCANO_INTERIOR_4F, 2
 
 	def_coord_events
 	coord_event 26,  6, SCENE_AWAKENINGLAB_WOKE_UP, WakeUpScript

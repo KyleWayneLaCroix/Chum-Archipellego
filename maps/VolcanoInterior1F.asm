@@ -329,6 +329,33 @@ HikerMichaelAfterText:
 	done
 
 
+VolcanoInterior1FMiniorSpot:
+	random 250
+	ifequal 0, VolcanoInterior1FMiniorCoreTrap
+	ifequal 1, VolcanoInterior1FMiniorCoreTrap
+	end
+
+VolcanoInterior1FMiniorCoreTrap:
+	special FadeOutPalettes
+	cry MINIOR_CORE
+	special FadeInPalettes
+	setlasttalked -1
+	loadvar VAR_BATTLETYPE, BATTLETYPE_TRAP
+	loadwildmon MINIOR_CORE, 27
+	startbattle
+	reloadmapafterbattle
+	end
+
+VolcanoInterior1FMiniorMeteorTrap:
+	special FadeOutPalettes
+	cry MINIOR_METEOR
+	special FadeInPalettes
+	setlasttalked -1
+	loadvar VAR_BATTLETYPE, BATTLETYPE_TRAP
+	loadwildmon MINIOR_METEOR, 27
+	startbattle
+	reloadmapafterbattle
+	end
 
 VolcanoInterior1F_MapEvents:
 	db 0, 0 ; filler
@@ -362,6 +389,30 @@ VolcanoInterior1F_MapEvents:
 	bg_event  4, 10, BGEVENT_ITEM, VolcanoInterior1FHiddenRareCandy
 	bg_event 38, 24, BGEVENT_ITEM, VolcanoInterior1FHiddenUltraBall
 	bg_event 26,  8, BGEVENT_ITEM, VolcanoInterior1FHiddenFullRestore
+	bg_event 33, 27, BGEVENT_READ, VolcanoInterior1FMiniorSpot
+	bg_event 33, 26, BGEVENT_READ, VolcanoInterior1FMiniorSpot
+	bg_event 32, 26, BGEVENT_READ, VolcanoInterior1FMiniorSpot
+	bg_event 32, 27, BGEVENT_READ, VolcanoInterior1FMiniorSpot
+	bg_event 37, 19, BGEVENT_READ, VolcanoInterior1FMiniorSpot
+	bg_event 37, 18, BGEVENT_READ, VolcanoInterior1FMiniorSpot
+	bg_event 36, 18, BGEVENT_READ, VolcanoInterior1FMiniorSpot
+	bg_event 36, 19, BGEVENT_READ, VolcanoInterior1FMiniorSpot
+	bg_event 35, 11, BGEVENT_READ, VolcanoInterior1FMiniorSpot
+	bg_event 35, 10, BGEVENT_READ, VolcanoInterior1FMiniorSpot
+	bg_event 34, 10, BGEVENT_READ, VolcanoInterior1FMiniorSpot
+	bg_event 34, 11, BGEVENT_READ, VolcanoInterior1FMiniorSpot
+	bg_event 17, 23, BGEVENT_READ, VolcanoInterior1FMiniorSpot
+	bg_event 17, 22, BGEVENT_READ, VolcanoInterior1FMiniorSpot
+	bg_event 16, 22, BGEVENT_READ, VolcanoInterior1FMiniorSpot
+	bg_event 16, 23, BGEVENT_READ, VolcanoInterior1FMiniorSpot
+	bg_event 15, 17, BGEVENT_READ, VolcanoInterior1FMiniorSpot
+	bg_event 15, 16, BGEVENT_READ, VolcanoInterior1FMiniorSpot
+	bg_event 14, 16, BGEVENT_READ, VolcanoInterior1FMiniorSpot
+	bg_event 14, 17, BGEVENT_READ, VolcanoInterior1FMiniorSpot
+	bg_event 15,  5, BGEVENT_READ, VolcanoInterior1FMiniorSpot
+	bg_event 15,  4, BGEVENT_READ, VolcanoInterior1FMiniorSpot
+	bg_event 14,  4, BGEVENT_READ, VolcanoInterior1FMiniorSpot
+	bg_event 14,  5, BGEVENT_READ, VolcanoInterior1FMiniorSpot
 
 	def_object_events
 ;	object_event x, y, sprite, movement, rx, ry, h1, h2, palette, type, range, script, event_flag
@@ -372,7 +423,7 @@ VolcanoInterior1F_MapEvents:
 	object_event 42, 16, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 4, TrainerFirebreatherNed, -1
 	object_event 42,  2, SPRITE_SUPER_NERD, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 4, TrainerWeirdoBrent, -1
 	object_event 40, 20, SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 2, TrainerBattleGirlVidel, -1
-	object_event 15,  9, SPRITE_GORON, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 2, TrainerGoronDaru, -1
+	object_event 15,  8, SPRITE_GORON, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 2, TrainerGoronDaru, -1
 	object_event 49, 26, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, 0, OBJECTTYPE_TRAINER, 1, TrainerFeralChildGau, -1
 	object_event 32, 25, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_WANDER, 1, 3, -1, -1, 0, OBJECTTYPE_TRAINER, 2, TrainerTamerRingle, -1
 	object_event 35, 28, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, VolcanoInterior1FGuardSpec, EVENT_VOLCANO_INTERIOR_1F_GUARD_SPEC

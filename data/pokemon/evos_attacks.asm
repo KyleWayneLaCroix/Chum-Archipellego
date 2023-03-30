@@ -3363,7 +3363,7 @@ MismagiusEvosAttacks:
 	db 0 ; no more level-up moves
 
 PorygonEvosAttacks:
-	db EVOLVE_ITEM, 16, PORYGON2
+	db EVOLVE_LEVEL, 16, PORYGON2
 	db 0 ; no more evolutions
 	db 1, CONVERSION
 	db 1, CONVERSION2

@@ -91,6 +91,7 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 	const ROD
 	const ABE
 	const BRYAN
+	const THEO
 
 	trainerclass BLACKBELT_T ; 32
 	const DANIEL
@@ -166,6 +167,7 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 	const OTIS
 	const DICK
 	const NED
+	const BURT
 
 	trainerclass FISHER ; 25
 	const JUSTIN
@@ -188,6 +190,7 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 	const GLITCH_2
 	const GLITCH_3
 	const GLITCH_4
+	const GLITCH_5
 
 	trainerclass GRAMPS ; 3b
 	const WILLIS
@@ -210,6 +213,7 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 	const BENJAMIN
 	const ERIK
 	const MICHAEL
+	const PARRY
 
 	trainerclass IT_GUY ; 14
 	const MIKE_B
@@ -248,6 +252,7 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 	trainerclass MEDIUM ; 39
 	const MARTHA
 	const GRACE
+	const WELL
 
 	trainerclass NINJA_F
 	const HINATA
@@ -275,6 +280,7 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 	const GINA1
 	const BROOKE
 	const KIM
+	const CINDY
 
 
 	trainerclass PSYCHIC_T ; 34
@@ -283,6 +289,7 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 
 	trainerclass PYRO
 	const DENA
+	const MANNY
 
 	trainerclass RED ; 3f
 	const RED1
@@ -292,6 +299,7 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 
 	trainerclass RUIN_MANIAC
 	const NIEL
+	const ELVIN
 
 	trainerclass SAFARI
 	const INDY
@@ -377,6 +385,7 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 	trainerclass BALL_BRIAN ; 46
 	const BALLBRIAN_1
 	const BALLBRIAN_2
+	const BALLBRIAN_3
 
 	trainerclass MAD_DOG ; 49
 	const BRIAN_1
@@ -384,15 +393,19 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 
 	trainerclass BRIAN_F
 	const BRIAN_F_1
+	const BRIAN_F_2
 
 	trainerclass BRIAN_M
 	const BRIAN_M_1
+	const BRIAN_M_2
 
 	trainerclass BRIAN_64 ;
 	const BRIAN_64_1
+	const BRIAN_64_2
 
 	trainerclass BUG_BRIAN ;
 	const BUGBRIAN_1
+	const BUGBRIAN_2
 
 	trainerclass ROCK_BRIAN ; 48
 	const ROCKBRIAN_1
@@ -402,6 +415,7 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 	const TREEBRIAN_1
 	const TREEBRIAN_2
 	const TREEBRIAN_3
+	const TREEBRIAN_4
 
 DEF KRIS EQU __trainer_class__
 

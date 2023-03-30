@@ -242,6 +242,34 @@ RuinManiacNielAfterText:
 	line "find one to know"
 	cont "for sure..."
 	done
+	
+VolcanoInterior2FMiniorSpot:
+	random 250
+	ifequal 0, VolcanoInterior2FMiniorCoreTrap
+	ifequal 1, VolcanoInterior2FMiniorCoreTrap
+	end
+
+VolcanoInterior2FMiniorCoreTrap:
+	special FadeOutPalettes
+	cry MINIOR_CORE
+	special FadeInPalettes
+	setlasttalked -1
+	loadvar VAR_BATTLETYPE, BATTLETYPE_TRAP
+	loadwildmon MINIOR_CORE, 27
+	startbattle
+	reloadmapafterbattle
+	end
+
+VolcanoInterior2FMiniorMeteorTrap:
+	special FadeOutPalettes
+	cry MINIOR_METEOR
+	special FadeInPalettes
+	setlasttalked -1
+	loadvar VAR_BATTLETYPE, BATTLETYPE_TRAP
+	loadwildmon MINIOR_METEOR, 27
+	startbattle
+	reloadmapafterbattle
+	end
 
 VolcanoInterior2F_MapEvents:
 	db 0, 0 ; filler
@@ -261,7 +289,11 @@ VolcanoInterior2F_MapEvents:
 	def_bg_events
 ;	bg_event x, y, type, script
 	bg_event 22, 25, BGEVENT_ITEM, VolcanoInterior2FHiddenDireHit
-	bg_event  2,  3, BGEVENT_ITEM, VolcanoInterior1FHiddenUltraBall
+	bg_event  2,  3, BGEVENT_ITEM, VolcanoInterior2FHiddenUltraBall
+	bg_event 15,  9, BGEVENT_READ, VolcanoInterior2FMiniorSpot
+	bg_event 15,  8, BGEVENT_READ, VolcanoInterior2FMiniorSpot
+	bg_event 14,  8, BGEVENT_READ, VolcanoInterior2FMiniorSpot
+	bg_event 14,  9, BGEVENT_READ, VolcanoInterior2FMiniorSpot
 	
 	def_object_events
 ;	object_event x, y, sprite, movement, rx, ry, h1, h2, palette, type, range, script, event_flag

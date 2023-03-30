@@ -1,6 +1,12 @@
 	object_const_def
 ;	const MAPNAME_OBJECTNAME
 	const VOLCANO_INTERIOR_3F_LEVER
+	const VOLCANO_INTERIOR_3F_BRIAN_GRUNT_M
+	const VOLCANO_INTERIOR_3F_BRIAN_GRUNT_F
+	const VOLCANO_INTERIOR_3F_ARTIST_ANGELO
+	const VOLCANO_INTERIOR_3F_BUG_MANIAC_ARNIE
+	const VOLCANO_INTERIOR_3F_HEX_MANIAC_HANNA
+	const VOLCANO_INTERIOR_3F_PYRO_DENA
 
 
 VolcanoInterior3F_MapScripts:
@@ -84,6 +90,286 @@ VolcanoInterior3FLeverScript:
 	closetext
 	end
 
+VolcanoInterior3FHiddenMaxPotion:
+	hiddenitem MAX_POTION, EVENT_VOLCANO_INTERIOR_3F_HIDDEN_MAX_POTION
+
+VolcanoInterior3FHiddenMaxElixer:
+	hiddenitem MAX_ELIXER, EVENT_VOLCANO_INTERIOR_3F_HIDDEN_MAX_ELIXER
+
+VolcanoInterior3FSmokeBall:
+	itemball SMOKE_BALL
+
+VolcanoInterior3FCharcoal:
+	itemball CHARCOAL
+
+VolcanoInterior3FEther:
+	itemball ETHER, 3
+
+TrainerPicnickerCindy:
+	trainer PICNICKER, CINDY, EVENT_BEAT_PICNICKER_CINDY, PicnickerCindySeenText, PicnickerCindyBeatenText, 0, .Script
+
+.Script:
+	endifjustbattled
+	opentext
+	writetext PicnickerCindyAfterText
+	waitbutton
+	closetext
+	end
+
+PicnickerCindySeenText:
+	text "I'm inventing a"
+	line "new hobby!"
+
+	para "    X-treme     "
+	line "   Picnicking   "
+	done
+
+PicnickerCindyBeatenText:
+	text "#MON are much"
+	line "cuter before they"
+	cont "evolve."
+
+	para "They are much"
+	line "worse at fighting"
+	cont "though."
+	done
+
+PicnickerCindyAfterText:
+	text "My boyfriend was"
+	line "camping with me,"
+	cont "but he was too"
+	cont "close to a lava-"
+	cont "-fall."
+	done
+
+TrainerBugManiacArnie:
+	trainer BUG_MANIAC, ARNIE, EVENT_BEAT_BUG_MANIAC_ARNIE, BugManiacArnieSeenText, BugManiacArnieBeatenText, 0, .Script
+
+.Script:
+	endifjustbattled
+	opentext
+	writetext BugManiacArnieAfterText
+	waitbutton
+	closetext
+	end
+
+BugManiacArnieSeenText:
+	text "I'm Bug Maniac"
+	line "Arnie."
+
+	para "Bugs are great,"
+	line "but fire-type"
+	cont "bugs?"
+
+	para "Even better!"
+	line "Heh heh."
+	done
+
+BugManiacArnieBeatenText:
+	text "My bugs burned"
+	line "out..."
+
+	para "I'll be back,"
+	line "with even stron-"
+	cont "-ger bugs!"
+	done
+
+BugManiacArnieAfterText:
+	text "Thanks for the"
+	line "match! I'm going"
+	cont "to bug out now."
+	done
+
+TrainerArtistAngelo:
+	trainer ARTIST, ANGELO, EVENT_BEAT_ARTIST_ANGELO, ArtistAngeloSeenText, ArtistAngeloBeatenText, 0, .Script
+
+.Script:
+	endifjustbattled
+	opentext
+	writetext ArtistAngeloAfterText
+	waitbutton
+	closetext
+	end
+
+ArtistAngeloSeenText:
+	text "I'm Angelo, the"
+	line "volcanic artist."
+
+	para "I capture the"
+	line "raw power of this"
+	cont "volcano on"
+	cont "canvas."
+	done
+
+ArtistAngeloBeatenText:
+	text "My masterpiece"
+	line "remains unfin-"
+	cont "-ished."
+
+	para "I'll be back to"
+	line "paint my triumph!"
+	done
+
+ArtistAngeloAfterText:
+	text "My next work will"
+	line "capture this epic"
+	cont "battle. Thanks!"
+	done
+
+TrainerHexManiacHanna:
+	trainer HEX_MANIAC, HANNA, EVENT_BEAT_HEX_MANIAC_HANNA, HexManiacHannaSeenText, HexManiacHannaBeatenText, 0, .Script
+
+.Script:
+	endifjustbattled
+	opentext
+	writetext HexManiacHannaAfterText
+	waitbutton
+	closetext
+	end
+
+HexManiacHannaSeenText:
+	text "I'm here to see"
+	line "if I can turn"
+	cont "glitches into new"
+	cont "hexes."
+	done
+
+HexManiacHannaBeatenText:
+	text "I guess I over-"
+	line "estimated my"
+	cont "power."
+	done
+
+HexManiacHannaAfterText:
+	text "Thanks for the fun,"
+	line "hope to see you"
+	cont "again soon"
+	done
+
+TrainerPyroDena:
+	trainer PYRO, DENA, EVENT_BEAT_PYRO_DENA, PyroDenaSeenText, PyroDenaBeatenText, 0, .Script
+
+.Script:
+	endifjustbattled
+	opentext
+	writetext PyroDenaAfterText
+	waitbutton
+	closetext
+	end
+
+PyroDenaSeenText:
+	text "Heh heh heh!"
+	line "I love fire."
+
+	para "It's beautiful,"
+	line "and powerful."
+
+	para "Do you like it?"
+	line "I find you hot..."
+	done
+
+PyroDenaBeatenText:
+	text "You put out my"
+	line "flames..."
+
+	para "But you're still"
+	line "burning hot! Want"
+	cont "to battle again?"
+	done
+
+PyroDenaAfterText:
+	text "That was fun,"
+	line "you're pretty hot"
+	cont "yourself, heh heh."
+	done
+
+TrainerBrianGruntM1:
+	trainer BRIAN_M, BRIAN_M_1, EVENT_BEAT_BRIAN_M_1, BrianM1SeenText, BrianM1BeatenText, 0, .Script
+
+.Script:
+	opentext
+	writetext BrianM1AfterText
+	waitbutton
+	disappear VOLCANO_INTERIOR_3F_BRIAN_GRUNT_M
+	refreshscreen
+	closetext
+	end
+
+BrianM1SeenText:
+	text "Glitches at top"
+	line "of volcano..."
+
+	para "Nintendo needs"
+	line "to fix them."
+	done
+
+BrianM1BeatenText:
+	text "What caused those"
+	line "glitches?"
+
+	para "I'll find out."
+	line "See you soon!"
+	done
+
+BrianM1AfterText:
+	text "I'm leaving now,"
+	line "just like Spider-"
+	cont "-Man in Endgame."
+	para "I hope to return,"
+	line "to a glitch-free"
+	cont "volcano."
+	done
+
+TrainerBrianGruntF1:
+	trainer BRIAN_F, BRIAN_F_1, EVENT_BEAT_BRIAN_F_1, BrianF1SeenText, BrianF1BeatenText, 0, .BrianF1Script
+
+.BrianF1Script:
+	endifjustbattled
+	opentext
+	writetext BrianF1AfterText
+	waitbutton
+	disappear VOLCANO_INTERIOR_3F_BRIAN_GRUNT_F
+	refreshscreen
+	closetext
+	end
+
+BrianF1SeenText:
+	text "A glitch in the"
+	line "volcano? Need help!"
+
+	para "I'm Brian but I"
+	line "never felt like I"
+	cont "fit in with my"
+	cont "assigned gender."
+
+	para "girl? boy?"
+
+	para "I dont understand"
+	done
+
+BrianF1BeatenText:
+	text "Please, help me."
+	done
+
+BrianF1AfterText:
+	text "Phew, that was"
+	line "close. I hope to"
+	cont "never see another"
+	cont "volcano again!"
+
+	para "What am I here"
+
+	para "The top is danger"
+
+	para "There is another"
+	line "me."
+
+	para "Beware."
+
+	para "careful from the"
+	line "other."
+	done
+
 VolcanoInterior3FLeverText:
 	text "A lever sits in"
 	line "the middle of the"
@@ -140,6 +426,34 @@ VolcanoInterior3FLeverFlashbackText:
 	line "Time must go on."
 	done
 
+VolcanoInterior3FMiniorSpot:
+	random 250
+	ifequal 0, VolcanoInterior3FMiniorCoreTrap
+	ifequal 1, VolcanoInterior3FMiniorCoreTrap
+	end
+
+VolcanoInterior3FMiniorCoreTrap:
+	special FadeOutPalettes
+	cry MINIOR_CORE
+	special FadeInPalettes
+	setlasttalked -1
+	loadvar VAR_BATTLETYPE, BATTLETYPE_TRAP
+	loadwildmon MINIOR_CORE, 27
+	startbattle
+	reloadmapafterbattle
+	end
+
+VolcanoInterior3FMiniorMeteorTrap:
+	special FadeOutPalettes
+	cry MINIOR_METEOR
+	special FadeInPalettes
+	setlasttalked -1
+	loadvar VAR_BATTLETYPE, BATTLETYPE_TRAP
+	loadwildmon MINIOR_METEOR, 27
+	startbattle
+	reloadmapafterbattle
+	end
+
 VolcanoInterior3F_MapEvents:
 	db 0, 0 ; filler
 
@@ -159,7 +473,27 @@ VolcanoInterior3F_MapEvents:
 
 	def_bg_events
 ;	bg_event x, y, type, script
+	bg_event  9, 13, BGEVENT_ITEM, VolcanoInterior3FHiddenMaxPotion
+	bg_event  8,  8, BGEVENT_ITEM, VolcanoInterior3FHiddenMaxElixer
+	bg_event 34, 23, BGEVENT_READ, VolcanoInterior3FMiniorSpot
+	bg_event 34, 22, BGEVENT_READ, VolcanoInterior3FMiniorSpot
+	bg_event 35, 22, BGEVENT_READ, VolcanoInterior3FMiniorSpot
+	bg_event 35, 23, BGEVENT_READ, VolcanoInterior3FMiniorSpot
+	bg_event 31, 26, BGEVENT_READ, VolcanoInterior3FMiniorSpot
+	bg_event 30, 26, BGEVENT_READ, VolcanoInterior3FMiniorSpot
+	bg_event 31, 27, BGEVENT_READ, VolcanoInterior3FMiniorSpot
+	bg_event 30, 27, BGEVENT_READ, VolcanoInterior3FMiniorSpot
 
 	def_object_events
 ;	object_event x, y, sprite, movement, rx, ry, h1, h2, palette, type, range, script, event_flag
 	object_event 12, 24, SPRITE_VOLCANO_3F_LEVER, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, VolcanoInterior3FLeverScript, 0
+	object_event  7, 34, SPRITE_ROCKET, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 3, TrainerBrianGruntM1, EVENT_BEAT_BRIAN_M_1
+	object_event 25, 39, SPRITE_ROCKET_GIRL, SPRITEMOVEDATA_WANDER, 2, 3, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 2, TrainerBrianGruntF1, EVENT_BEAT_BRIAN_F_1
+	object_event 19, 26, SPRITE_BUGSY, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_TRAINER, 1, TrainerArtistAngelo, -1
+	object_event 30, 13, SPRITE_ELM, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 4, TrainerBugManiacArnie, -1
+	object_event 20,  1, SPRITE_CLAIR, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 3, 3, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_TRAINER, 2, TrainerHexManiacHanna, -1
+	object_event  6, 16, SPRITE_BRUNO, SPRITEMOVEDATA_WALK_UP_DOWN, 2, 2, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 1, TrainerPyroDena, -1
+	object_event 14, 18, SPRITE_LASS, SPRITEMOVEDATA_WANDER, 2, 1, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 2, TrainerPicnickerCindy, -1
+	object_event  6,  4, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, VolcanoInterior3FSmokeBall, EVENT_VOLCANO_INTERIOR_3F_SMOKE_BALL
+	object_event 31, 12, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, VolcanoInterior3FCharcoal, EVENT_VOLCANO_INTERIOR_3F_CHARCOAL
+	object_event  0, 11, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, VolcanoInterior3FEther, EVENT_VOLCANO_INTERIOR_3F_ETHER
