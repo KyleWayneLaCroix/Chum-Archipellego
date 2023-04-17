@@ -117,6 +117,7 @@
 	const SPRITE_LEVER_RIGHT ; 71
 	const SPRITE_GORON ; 72
 	const SPRITE_REGIMAGMA ; 73
+	const SPRITE_ROLLY_BALL
 DEF NUM_OVERWORLD_SPRITES EQU const_value - 1
 
 ; SpriteMons indexes (see data/sprites/sprite_mons.asm)
