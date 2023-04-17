@@ -114,16 +114,6 @@ TrainerFirebreatherNed:
 	closetext
 	end
 
-TrainerWeirdoBrent:
-	trainer WEIRDO, BRENT, EVENT_BEAT_WEIRDO_BRENT, WeirdoBrentSeenText, WeirdoBrentBeatenText, 0, .Script
-
-.Script:
-	endifjustbattled
-	opentext
-	writetext WeirdoBrentAfterText
-	waitbutton
-	closetext
-	end
 
 TrainerBattleGirlVidel:
 	trainer BATTLE_GIRL, VIDEL, EVENT_BEAT_BATTLE_GIRL_VIDEL, BattleGirlVidelSeenText, BattleGirlVidelBeatenText, 0, .Script
@@ -241,27 +231,6 @@ BattleGirlVidelBeatenText:
 BattleGirlVidelAfterText:
 	text "At least I'm not"
 	line "Yamcha."
-	done
-
-WeirdoBrentSeenText:
-	text "YOU WANT TO TAKE"
-	line "MY METEORS DON'T"
-	cont "YOU!?!?"
-	done
-
-WeirdoBrentBeatenText:
-	text "THEY'RE MINE!"
-	done
-
-WeirdoBrentAfterText:
-	text "Actually, meteors"
-	line "are considered"
-	cont "meteorites once"
-	cont "they enter the"
-	cont "atmsophere."
-
-	para "These things are"
-	line "worthless..."
 	done
 
 FirebreatherNedSeenText:
@@ -421,7 +390,6 @@ VolcanoInterior1F_MapEvents:
 	object_event 26, 21, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 3, TrainerHikerMichael, -1
 	object_event 33,  8, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 2, 2, -1, -1, 0, OBJECTTYPE_TRAINER, 2, TrainerCooltrainerMAaron, -1
 	object_event 42, 16, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 4, TrainerFirebreatherNed, -1
-	object_event 42,  2, SPRITE_SUPER_NERD, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 4, TrainerWeirdoBrent, -1
 	object_event 40, 20, SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 2, TrainerBattleGirlVidel, -1
 	object_event 15,  8, SPRITE_GORON, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 2, TrainerGoronDaru, -1
 	object_event 49, 26, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, 0, OBJECTTYPE_TRAINER, 1, TrainerFeralChildGau, -1

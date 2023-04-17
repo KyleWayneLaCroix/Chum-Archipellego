@@ -63,15 +63,23 @@ MerGroup:
 	db 30, KIRBY, SLASH, MIRROR_MOVE, METRONOME, HYPER_VOICE
 	db -1 ; end
 
+	; BRIAN (2)
+	db "BRIAN@", TRAINERTYPE_NORMAL
+	db 25, LUDICOLO
+	db 25, LUDICOLO
+	db 25, LUDICOLO
+	db 25, LUDICOLO
+	db 25, LUDICOLO
+	db 25, LUDICOLO
+	db -1 ; end
+
 Rival1Group:
 	; RIVAL1 (1)
-	db "?@", TRAINERTYPE_NORMAL
-	db  5, BUZZEON
-	db  5, COMBEE
-	db  5, VESPIQUEN
-	db  5, LARVESTA
-	db  5, VOLCARONA
-	db  5, UNOWN
+	db "?@", TRAINERTYPE_NICKNAME | TRAINERTYPE_DVS
+	db 27, UNOWN, "LORELAI@", $F0, $0F
+	db 27, UNOWN, "BRUNO@", $0F, $F0
+	db 28, UNOWN, "AGATHA@", $AA, $AA
+	db 28, UNOWN, "LANCE@", $83, $37
 	db -1 ; end
 
 Rival2Group:
@@ -640,6 +648,14 @@ GlitchGroup:
 	db 27, KIRBY, "JIGGLYPUFF@"
 	db -1 ; end
 
+	; GLITCH (5)
+	db "E4@", TRAINERTYPE_NICKNAME | TRAINERTYPE_DVS
+	db 27, UNOWN, "LORELAI@", $F0, $0F
+	db 27, UNOWN, "BRUNO@", $0F, $F0
+	db 28, UNOWN, "AGATHA@", $AA, $AA
+	db 28, UNOWN, "LANCE@", $83, $37
+	db -1 ; end
+
 GrampsGroup:
 	; GRAMPS (1)
 	db "B. WILLIS@", TRAINERTYPE_ITEM
@@ -851,7 +867,7 @@ LassGroup:
 
 MadScientistGroup:
 	; MAD_SCIENTIST (1)
-	db "BROWN", TRAINERTYPE_NORMAL
+	db "BR@", TRAINERTYPE_NORMAL
 	db 32, ORBEETLE
 	db 28, VIKAVOLT
 	db 32, DUOSION
@@ -1028,11 +1044,21 @@ RedGroup:
 	db -1 ; end
 
 RuffianGroup:
-	; RUFFIAN (1)
+	; GRENDO (1)
 	db "GRENDO@", TRAINERTYPE_NORMAL
 	db 19, ZIGZAGOON
 	db 23, LINOONE
 	db 28, OBSTAGOON
+	db -1 ; end
+
+	; BRIAN (1)
+	db "GRENDO@", TRAINERTYPE_NICKNAME
+	db 24, UMBREON, "SNEAKY@"
+	db 26, STUNKY, "STINKY@"
+	db 25, GRIMER, "SLIMY@"
+	db 27, LIEPARD, "SLINKY@"
+	db 28, HOUNDOOM, "SMOKEY@"
+	db 30, OBSTAGOON, "SNIDELY@"
 	db -1 ; end
 
 RuinManiacGroup:
@@ -1407,13 +1433,20 @@ BallBrianGroup:
 	db 11, GASTLY
 	db -1 ; end
 
-
-	; BALL_BRIAN (2)
+	; BALL_BRIAN (3)
 	db "BRIAN@", TRAINERTYPE_NORMAL
 	db 28, SNORLAX
 	db 25, KOFFING
 	db 24, DUOSION
 	db 25, MUSHARNA
+	db -1 ; end
+
+	; BALL_BRIAN (4)
+	db "BRIAN@", TRAINERTYPE_NORMAL
+	db 28, EXEGGCUTE
+	db 25, MINIOR_CORE
+	db 24, MINIOR_METEOR
+	db 28, TANGELA
 	db -1 ; end
 
 MadDogGroup:
@@ -1441,7 +1474,7 @@ BrianFGroup:
 	db 25, JOLTEON
 	db -1 ; end
 
-	; BRIAN_F (1)
+	; BRIAN_F (2)
 	db "FAIRY@", TRAINERTYPE_NORMAL
 	db 25, SYLVEON
 	db 26, SHIINOTIC
@@ -1456,6 +1489,23 @@ BrianMGroup:
 	db 26, STUNKY
 	db 24, TRUBBISH
 	db 25, GASTLY
+	db -1 ; end
+
+	; BRIAN_M (2)
+	db "NORMAL@", TRAINERTYPE_NORMAL
+	db 28, PORYGON2
+	db 28, DRAMPA
+	db 25, HERDIER
+	db 28, DUBWOOL
+	db -1 ; end
+
+
+	; BRIAN_M (3)
+	db "PSYCHIC@", TRAINERTYPE_NORMAL
+	db 28, PONYTA
+	db 28, MEOWSTIC_F
+	db 32, MEOWSTIC_M
+	db 28, WYRDEER
 	db -1 ; end
 
 Brian64Group:
@@ -1505,10 +1555,18 @@ RockBrianGroup:
 
 	; ROCK_BRIAN (2)
 	db "BRIAN@", TRAINERTYPE_NORMAL
-	db 24, DOOMSTONE
-	db 25, LAIRON
+	db 24, DWEBBLE
+	db 25, KLEAVOR
 	db 25, DWEBBLE
 	db 25, KLEAVOR
+	db -1 ; end
+
+	; ROCK_BRIAN (3)
+	db "BRIAN@", TRAINERTYPE_NORMAL
+	db 24, DOOMSTONE
+	db 25, LAIRON
+	db 25, TIRTOUGA
+	db 25, AMAURA
 	db -1 ; end
 
 TreeBrianGroup:

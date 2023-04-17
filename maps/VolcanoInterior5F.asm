@@ -7,8 +7,6 @@
 	const VOLCANO_INTERIOR_5F_SIGHTSEER_M
 	const VOLCANO_INTERIOR_5F_SIGHTSEER_F
 	const VOLCANO_INTERIOR_5F_WAIFU_MIKU
-	const VOLCANO_INTERIOR_5F_BIRDKEEPER_THEO
-	const VOLCANO_INTERIOR_5F_HIKER
 	const VOLCANO_INTERIOR_5F_MAD_SCIENTIST
 	const VOLCANO_INTERIOR_5F_ITEMBALL_1
 	const VOLCANO_INTERIOR_5F_ITEMBALL_2
@@ -164,7 +162,7 @@ FirebreatherBurtAfterText:
 
 
 TrainerGlitch5:
-    trainer GLITCH, GLITCH_5, EVENT_BEAT_GLITCH_5, Glitch5SeenText, Glitch5BeatenText, 0, .Script
+    trainer GLITCH_T, GLITCH_5, EVENT_BEAT_GLITCH_5, Glitch5SeenText, Glitch5BeatenText, 0, .Script
 
 .Script:
     opentext
@@ -420,96 +418,6 @@ WaifuMikuAfterText:
 	para "WWW.VOCALOID.COM"
 	done
 
-TrainerBirdkeeperTheo:
-	trainer BIRD_KEEPER, THEO, EVENT_BEAT_BIRD_KEEPER_THEO, BirdkeeperTheoSeenText, BirdkeeperTheoBeatenText, 0, .Script
-
-.Script:
-	endifjustbattled
-	opentext
-	writetext BirdkeeperTheoAfterText
-	waitbutton
-	closetext
-	end
-
-BirdkeeperTheoSeenText:
-	text "I heard some nerd"
-	line "talking about a"
-	cont "LEGENDARY #-"
-	cont "-MON in this here"
-	cont "volcano."
-
-	para "That can only be"
-	line "one #MON:"
-
-	para "MOLTRES"
-	done
-
-BirdkeeperTheoBeatenText:
-	text "Maybe I won't be"
-	line "able to take on"
-	cont "MOLTRES..."
-	done
-
-BirdkeeperTheoAfterText:
-	text "I suppose a LEG-"
-	line "-ENDARY in a"
-	cont "volcano could be"
-	cont "a HEATRAN."
-
-	para "or a GROUDON."
-
-	para "or a VOLCANION."
-
-	para "or even a VICTINI"
-
-	para "But I'm betting"
-	line "on a MOLTRES."
-	done
-
-TrainerHikerParry:
-	trainer HIKER, PARRY, EVENT_BEAT_HIKER_PARRY, HikerParrySeenText, HikerParryBeatenText, 0, .Script
-
-.Script:
-	endifjustbattled
-	opentext
-	writetext HikerParryAfterText
-	waitbutton
-	closetext
-	end
-
-HikerParrySeenText:
-	text "I'm one of the"
-	line "best Hikers in"
-	cont "the ARCHIPELAGO!"
-
-	para "Prepare to get"
-	line "STOMPED!"
-	done
-
-HikerParryBeatenText:
-	text "I guess I got a"
-	line "bit carried away."
-
-	para "I'll be humbler"
-	line "from now on."
-	done
-
-HikerParryAfterText:
-	text "Thanks for show-"
-	line "-ing me a new way"
-	cont "forward."
-
-	para "figuratively."
-
-	para "Now, if you could"
-	line "do that literally"
-	cont "as well, I'd be"
-	cont "very grateful."
-
-	para "I've been lost"
-	line "for 2 weeks."
-	done
-
 VolcanoInterior5FIronHeadTM:
 	itemball TM_IRON_HEAD
 
@@ -664,12 +572,10 @@ VolcanoInterior5F_MapEvents:
 	object_event 10, 23, SPRITE_FISHER, SPRITEMOVEDATA_WANDER, 2, 2, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 2, TrainerFirebreatherBurt, -1
 	object_event 17, 15, SPRITE_BIRD, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_TRAINER, 5, TrainerGlitch5, EVENT_BEAT_GLITCH_5
 	object_event 36,  3, SPRITE_OFFICER, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 3, TrainerEngineerDonny, -1
-	object_event 16, 10, SPRITE_WEEDLE, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 3, TrainerBugBrian2, EVENT_BEAT_BUG_BRIAN_2
+	object_event 37, 15, SPRITE_WEEDLE, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 3, TrainerBugBrian2, EVENT_BEAT_BUG_BRIAN_2
 	object_event 26, 21, SPRITE_CAL, SPRITEMOVEDATA_WANDER, 2, 2, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 2, TrainerSightseerJack, -1
 	object_event  4,  9, SPRITE_BEAUTY, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 0, TrainerSightseerJill, -1
 	object_event  4, 10, SPRITE_JASMINE, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 0, TrainerWaifuMiku, -1
-	object_event 35, 14, SPRITE_BROCK, SPRITEMOVEDATA_SPINCLOCKWISE, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 3, TrainerBirdkeeperTheo, -1
-	object_event 33, 29, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 3, TrainerHikerParry, -1
 	object_event  8, 32, SPRITE_ELM, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_SILVER, OBJECTTYPE_TRAINER, 1, TrainerMadScientistBrown, -1
 	object_event  0, 20, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_ITEMBALL, 0, VolcanoInterior5FIronHeadTM, EVENT_GOT_TM24_IRON_HEAD
 	object_event  2, 37, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, VolcanoInterior5FPPUp, EVENT_VOLCANO_INTERIOR_5F_PP_UP

@@ -105,43 +105,6 @@ VolcanoInterior3FCharcoal:
 VolcanoInterior3FEther:
 	itemball ETHER, 3
 
-TrainerPicnickerCindy:
-	trainer PICNICKER, CINDY, EVENT_BEAT_PICNICKER_CINDY, PicnickerCindySeenText, PicnickerCindyBeatenText, 0, .Script
-
-.Script:
-	endifjustbattled
-	opentext
-	writetext PicnickerCindyAfterText
-	waitbutton
-	closetext
-	end
-
-PicnickerCindySeenText:
-	text "I'm inventing a"
-	line "new hobby!"
-
-	para "    X-treme     "
-	line "   Picnicking   "
-	done
-
-PicnickerCindyBeatenText:
-	text "#MON are much"
-	line "cuter before they"
-	cont "evolve."
-
-	para "They are much"
-	line "worse at fighting"
-	cont "though."
-	done
-
-PicnickerCindyAfterText:
-	text "My boyfriend was"
-	line "camping with me,"
-	cont "but he was too"
-	cont "close to a lava-"
-	cont "-fall."
-	done
-
 TrainerBugManiacArnie:
 	trainer BUG_MANIAC, ARNIE, EVENT_BEAT_BUG_MANIAC_ARNIE, BugManiacArnieSeenText, BugManiacArnieBeatenText, 0, .Script
 
@@ -493,7 +456,6 @@ VolcanoInterior3F_MapEvents:
 	object_event 30, 13, SPRITE_ELM, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 4, TrainerBugManiacArnie, -1
 	object_event 20,  1, SPRITE_CLAIR, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 3, 3, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_TRAINER, 2, TrainerHexManiacHanna, -1
 	object_event  6, 16, SPRITE_BRUNO, SPRITEMOVEDATA_WALK_UP_DOWN, 2, 2, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 1, TrainerPyroDena, -1
-	object_event 14, 18, SPRITE_LASS, SPRITEMOVEDATA_WANDER, 2, 1, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 2, TrainerPicnickerCindy, -1
 	object_event  6,  4, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, VolcanoInterior3FSmokeBall, EVENT_VOLCANO_INTERIOR_3F_SMOKE_BALL
 	object_event 31, 12, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, VolcanoInterior3FCharcoal, EVENT_VOLCANO_INTERIOR_3F_CHARCOAL
 	object_event  0, 11, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, VolcanoInterior3FEther, EVENT_VOLCANO_INTERIOR_3F_ETHER

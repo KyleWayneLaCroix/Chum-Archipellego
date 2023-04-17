@@ -42,6 +42,7 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 
 	trainerclass MER       ; 4
 	const MADDIE1
+	const MERBRIAN
 
 	trainerclass RIVAL1 ; 9
 	const RIVAL1_1
@@ -191,6 +192,7 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 	const GLITCH_3
 	const GLITCH_4
 	const GLITCH_5
+	const TROPHY
 
 	trainerclass GRAMPS ; 3b
 	const WILLIS
@@ -296,6 +298,7 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 
 	trainerclass RUFFIAN
 	const GRENDO
+	const RUFF_BRIAN
 
 	trainerclass RUIN_MANIAC
 	const NIEL
@@ -386,6 +389,7 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 	const BALLBRIAN_1
 	const BALLBRIAN_2
 	const BALLBRIAN_3
+	const BALLBRIAN_4
 
 	trainerclass MAD_DOG ; 49
 	const BRIAN_1
@@ -398,6 +402,7 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 	trainerclass BRIAN_M
 	const BRIAN_M_1
 	const BRIAN_M_2
+	const BRIAN_M_3
 
 	trainerclass BRIAN_64 ;
 	const BRIAN_64_1
@@ -410,6 +415,7 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 	trainerclass ROCK_BRIAN ; 48
 	const ROCKBRIAN_1
 	const ROCKBRIAN_2
+	const ROCKBRIAN_3
 
 	trainerclass TREE_BRIAN ; 47
 	const TREEBRIAN_1
