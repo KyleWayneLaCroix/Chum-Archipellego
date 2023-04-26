@@ -255,6 +255,9 @@ MuscleJungle_Blocks:
 VolcanoExterior_Blocks:
 	INCBIN "maps/VolcanoExterior.ablk"
 
+VolcanoRestStop_Blocks:
+	INCBIN "maps/VolcanoRestStop.ablk"
+
 SECTION "Map Blocks 6", ROMX
 
 MetroidIntro_Blocks:

@@ -231,6 +231,7 @@ ENDM
 	map_attributes RouteGMetroidCave, ROUTE_G_METROID_CAVE, $00, 0
 	map_attributes VolcanoExterior, VOLCANO_EXTERIOR, $2a, WEST
 	connection west, RouteG, ROUTE_G, 15
+	map_attributes VolcanoRestStop, VOLCANO_REST_STOP, $00, 0
 
 	map_attributes AwakeningBeach2, AWAKENING_BEACH_2, $00, NORTH
 	connection north, MaybeVillage, MAYBE_VILLAGE, 0

@@ -23,6 +23,7 @@ OpenMartDialog::
 	dw Pharmacist
 	dw RooftopSale
 	dw LocalShop
+	dw ShadyShop
 
 MartDialog:
 	ld a, MARTTYPE_STANDARD
@@ -80,6 +81,15 @@ LocalShop:
 	call MartTextbox
 	call BuyMenu
 	ld hl, LocalShopComeAgainText
+	jp MartTextbox
+
+ShadyShop:
+	call FarReadMart
+	call LoadStandardMenuHeader
+	ld hl, ShadyShopIntroText
+	call MartTextbox
+	call BuyMenu
+	ld hl, ShadyShopComeAgainText
 	jp MartTextbox
 
 RooftopSale:
@@ -446,6 +456,7 @@ GetMartDialogGroup:
 	dwb .PharmacyPointers, 0
 	dwb .StandardMartPointers, 2
 	dwb .LocalPointers, 0
+	dwb .ShadyPointers, 0
 
 .StandardMartPointers:
 	dw MartHowManyText
@@ -485,6 +496,14 @@ GetMartDialogGroup:
 	dw LocalShopNoMoneyText
 	dw LocalShopPackFullText
 	dw LocalShopThanksText
+	dw BuyMenuLoop
+
+.ShadyPointers:
+	dw ShadyShopHowManyText
+	dw ShadyShopFinalPriceText
+	dw ShadyShopNoMoneyText
+	dw ShadyShopPackFullText
+	dw ShadyShopThanksText
 	dw BuyMenuLoop
 
 BuyMenuLoop:
@@ -793,6 +812,34 @@ LocalShopNoMoneyText:
 
 LocalShopComeAgainText:
 	text_far _LocalComeAgainText
+	text_end
+
+ShadyShopIntroText:
+	text_far _ShadyIntroText
+	text_end
+
+ShadyShopHowManyText:
+	text_far _ShadyHowManyText
+	text_end
+
+ShadyShopFinalPriceText:
+	text_far _ShadyFinalPriceText
+	text_end
+
+ShadyShopThanksText:
+	text_far _ShadyThanksText
+	text_end
+
+ShadyShopPackFullText:
+	text_far _ShadyPackFullText
+	text_end
+
+ShadyShopNoMoneyText:
+	text_far _ShadyNoMoneyText
+	text_end
+
+ShadyShopComeAgainText:
+	text_far _ShadyComeAgainText
 	text_end
 
 SellMenu:

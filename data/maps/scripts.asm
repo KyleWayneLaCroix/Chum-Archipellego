@@ -116,6 +116,7 @@ INCLUDE "maps/DormRoof.asm"
 SECTION "Map Scripts 11", ROMX
 INCLUDE "maps/Tracks.asm"
 INCLUDE "maps/GoodFisherFellowHouse.asm"
+INCLUDE "maps/VolcanoRestStop.asm"
 
 SECTION "Map Scripts 12", ROMX
 INCLUDE "maps/VolcanoInteriorB1F.asm"

@@ -670,6 +670,46 @@ _LocalComeAgainText::
 	line "business!"
 	done
 
+_ShadyIntroText::
+	text "Psssssst..."
+
+	para "Hey kid..."
+	
+	para "What're ya buyin?"
+	done
+
+_ShadyHowManyText::
+	text "How many ya want?"
+	done
+
+_ShadyFinalPriceText::
+	text_decimal wItemQuantityChange, 1, 2
+	text " @"
+	text_ram wStringBuffer2
+	text "(S)"
+	line "will run ya ¥@"
+	text_decimal hMoneyTemp, 3, 6
+	text "."
+	done
+
+_ShadyThanksText::
+	text "Cha-ching!"
+	done
+
+_ShadyPackFullText::
+	text "Your bag's full,"
+	line "idiot."
+	done
+
+_ShadyNoMoneyText::
+	text "That ain't enough!"
+	done
+
+_ShadyComeAgainText::
+	text "Remember: we never"
+	line "talked."
+	done
+
 _NothingToSellText::
 	text "You don't have"
 	line "anything to sell."

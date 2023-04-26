@@ -158,6 +158,7 @@ ENDM
 	map_const VOLCANO_EXTERIOR,                29, 28 ;  4
 	map_const RYAN_TRAINING_HUT,               12,  6 ;  5
 	map_const ROUTE_G_METROID_CAVE,            13,  5 ;  6
+	map_const VOLCANO_REST_STOP,                5,  5 ;  7
 	endgroup
 
 	newgroup LINKS_AWAKENING                          ; 11

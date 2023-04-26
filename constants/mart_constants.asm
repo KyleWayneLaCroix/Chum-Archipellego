@@ -6,6 +6,7 @@
 	const MARTTYPE_PHARMACY
 	const MARTTYPE_ROOFTOP
 	const MARTTYPE_LOCAL
+	const MARTTYPE_SHADY
 ; Marts indexes (see data/items/marts.asm)
 	const_def
 	const MART_GEARCITY
@@ -25,7 +26,7 @@
 	const MART_UNIVERCITY_LOCAL
 	const MART_RANCH_1
 	const MART_RANCH_2
-	const MART_CERULEAN
+	const MART_SHADY_GUY_BROCANO
 	const MART_LAVENDER
 	const MART_VERMILION
 	const MART_CELADON_2F_1

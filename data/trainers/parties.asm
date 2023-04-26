@@ -162,6 +162,15 @@ HeroOfTimeGroup:
 	db 2, HOPPIP, "TEKTITE@"
 	db -1 ; end
 
+	; HERO_OF_TIME (1)
+	db "GUST@", TRAINERTYPE_NICKNAME
+	db 30, HOPPIP, "M@"
+	db 25, BLIPBUG, "A@"
+	db 25, DITTO, "R@"
+	db 25, UNOWN, "I@"
+	db 25, EEVEE, "N@"
+	db -1 ; end
+
 KeybladerGroup:
 	; KEYBLADER (1)
 	db "SORA@", TRAINERTYPE_NICKNAME
