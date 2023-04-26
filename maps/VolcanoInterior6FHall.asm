@@ -1,5 +1,8 @@
 	object_const_def
 ;	const MAPNAME_OBJECTNAME
+	const VOLCANO_INTERIOR_6F_HALL_ZOOMER
+	const VOLCANO_INTERIOR_6F_HALL_POKE_BALL_1
+	const VOLCANO_INTERIOR_6F_HALL_POKE_BALL_2
 
 
 VolcanoInterior6FHall_MapScripts:
@@ -37,6 +40,51 @@ VolcanoInterior6FHallMiniorMeteorTrap:
 	reloadmapafterbattle
 	end
 
+TrainerGlitchLink:
+	trainer HEROOFTIME, GLITCH_LINK, EVENT_BEAT_GLITCH_LINK,GlitchLinkSeenText, GlitchLinkBeatenText, 0, .Script
+
+.Script:
+	opentext
+	writetext GlitchLinkAfterText
+	waitbutton
+	closetext
+	playsound SFX_STRENGTH
+	earthquake 250
+	waitsfx
+	disappear VOLCANO_INTERIOR_6F_HALL_ZOOMER
+	end
+
+GlitchLinkSeenText:
+	text "You were tossing"
+	line "and turning..."
+
+	para "What? Zelda?"
+
+	para "No, my name's"
+	line "marin You must still be feeling a little woozy. You are on Koholint Island!"
+	done
+
+GlitchLinkBeatenText:
+	text "Whoah, boy! Where"
+	line "ya off to in such"
+	cont "a hurry?"
+
+	para "Sit a spell, I"
+	line "got somethin' to"
+	cont "tell ya!"
+	done
+
+GlitchLinkAfterText:
+	text "Here Sleeps The"
+	line "Flying Rooster."
+	done
+
+VolcanoInterio6FHallDragonScale:
+	itemball DRAGON_SCALE
+
+VolcanoInterio6FHallElixer:
+	itemball ELIXER
+
 VolcanoInterior6FHall_MapEvents:
 	db 0, 0 ; filler
 
@@ -57,3 +105,6 @@ VolcanoInterior6FHall_MapEvents:
 
 	def_object_events
 ;	object_event x, y, sprite, movement, rx, ry, h1, h2, palette, type, range, script, event_flag
+	object_event 13, 34, SPRITE_ZOOMER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 3, 2, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_TRAINER, 3, TrainerGlitchLink, EVENT_BEAT_GLITCH_LINK
+	object_event 10, 14, SPRITE_RECEPTIONIST, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_SILVER, OBJECTTYPE_ITEMBALL, 0, VolcanoInterio6FHallDragonScale, EVENT_VOLCANO_INTERIOR_6F_HALL_DRAGON_SCALE
+	object_event 13, 22, SPRITE_BIG_SNORLAX, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_SILVER, OBJECTTYPE_ITEMBALL, 0, VolcanoInterio6FHallElixer, EVENT_VOLCANO_INTERIOR_6F_HALL_ELIXER
