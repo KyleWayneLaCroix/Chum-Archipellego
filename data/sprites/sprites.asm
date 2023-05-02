@@ -123,4 +123,5 @@ OverworldSprites:
 	overworld_sprite GoronSpriteGFX, 12, WALKING_SPRITE, PAL_OW_BROWN
 	overworld_sprite RegimagmaSpriteGFX, 12, STANDING_SPRITE, PAL_OW_RED
 	overworld_sprite RollyBallSpriteGFX, 12, WALKING_SPRITE, PAL_OW_BLUE
+	overworld_sprite MBlockSpriteGFX, 12, STANDING_SPRITE, PAL_OW_PURPLE
 	assert_table_length NUM_OVERWORLD_SPRITES

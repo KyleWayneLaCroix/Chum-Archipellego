@@ -250,7 +250,7 @@ PokemonNames::
 	db "DAISY@@@@@"
 	db "BOOMER@@@@"
 	db "KIRBY@@@@@"
-	db "M BLOCK@@@"
+	db "3TRNRPOKE@"
 	db "BAD EGG@@@"
 	db "FURIOUS B@"
 	assert_table_length NUM_POKEMON

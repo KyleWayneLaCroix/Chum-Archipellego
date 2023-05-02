@@ -92,13 +92,13 @@ INCLUDE "maps/JungleGate.asm"
 INCLUDE "maps/Jungle.asm"
 INCLUDE "maps/RyanTrainingHut.asm"
 INCLUDE "maps/RouteGMetroidCave.asm"
-INCLUDE "maps/VolcanoExterior.asm"
 
 SECTION "Map Scripts 9", ROMX
 INCLUDE "maps/EeveeRanchExterior.asm"
 INCLUDE "maps/EeveeRanchPokecenter1F.asm"
 INCLUDE "maps/EeveeRanchInterior.asm"
 INCLUDE "maps/EeveeRanchGroomers.asm"
+INCLUDE "maps/VolcanoExterior.asm"
 
 SECTION "Map Scripts 10", ROMX
 INCLUDE "maps/EeveeRanchHives.asm"

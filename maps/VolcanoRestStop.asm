@@ -12,7 +12,8 @@ VolcanoRestStop_MapScripts:
 
 
 VolcanoRestStopFlypointCallback:
-	setflag ENGINE_FLYPOINT_JUNGLE
+	setflag ENGINE_FLYPOINT_VOLCANO_EXTERIOR
+	blackoutmod VOLCANO_EXTERIOR
 	endcallback
 
 VolcanoRestStopNurseScript:
