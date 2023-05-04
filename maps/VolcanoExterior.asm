@@ -11,10 +11,23 @@
 VolcanoExterior_MapScripts:
 	def_scene_scripts
 ;	scene_script script, SCENE_MAPNAME_SCENE_NAME
+	scene_script VolcanoExteriorInit, SCENE_VOLCANO_EXTERIOR_INIT
+	scene_script VolcanoExteriorAfterGlitchFight, SCENE_VOLCANO_FOUGHT_GLITCH
+	scene_script VolcanoExteriorAfterVolcanoFall, SCENE_VOLCANO_EXTERIOR_LINKS_AWAKENING
 
 	def_callbacks
 ;	callback type, script
 	callback MAPCALLBACK_TILES, VolcanoLadderCallback
+
+VolcanoExteriorAfterGlitchFight:
+VolcanoExteriorAfterVolcanoFall:
+	end
+
+VolcanoExteriorInit:
+	disappear VOLCANO_EXTERIOR_GOLLUM_BRIAN
+	disappear VOLCANO_EXTERIOR_RYAN
+	refreshscreen
+	end
 
 VolcanoLadderCallback:
 	checkevent EVENT_VOLCANO_LADDER_OPTIONAL
@@ -192,16 +205,149 @@ MBlockOverworld:
 	disappear VOLCANO_EXTERIOR_M_BLOCK
 	reloadmapafterbattle
 	setevent EVENT_FOUGHT_M_BLOCK
+	setscene SCENE_VOLCANO_FOUGHT_GLITCH
+	opentext
 	verbosegiveitem ITEM_C0
+	closetext
+	appear VOLCANO_EXTERIOR_GOLLUM_BRIAN
+	refreshscreen
+	applymovement VOLCANO_EXTERIOR_GOLLUM_BRIAN, GollumBrianMoveUp
+	pause 25
+	applymovement VOLCANO_EXTERIOR_GOLLUM_BRIAN, GollumBrianMoveUp
+	pause 30
+	applymovement VOLCANO_EXTERIOR_GOLLUM_BRIAN, GollumBrianMoveUp
+	pause 15
+	turnobject PLAYER, DOWN
+	showemote EMOTE_SHOCK, PLAYER, 15
+	playsound SFX_TWINKLE
+	opentext
+	writetext GollumBrianText1
+	waitbutton
+	closetext
+	follow PLAYER, VOLCANO_EXTERIOR_GOLLUM_BRIAN
+	applymovement PLAYER, GollumBrianPushesUp
+	pause 15
+	applymovement PLAYER, GollumBrianPushesUp
+	stopfollow
+	pause 5
+	appear VOLCANO_EXTERIOR_RYAN
+	refreshscreen
+	applymovement VOLCANO_EXTERIOR_RYAN, VolcanoRyanMovement1
+	opentext
+	writetext VolcanoRyanText1
+	waitbutton
+	closetext
+	showemote EMOTE_SHOCK, VOLCANO_EXTERIOR_GOLLUM_BRIAN, 15
+	pause 15
+	applymovement VOLCANO_EXTERIOR_GOLLUM_BRIAN, GollumBrianLookDown
+	pause 20
+	opentext
+	writetext VolcanoRyanText2
+	waitbutton
+	closetext
+	refreshscreen
+	pause 15
+	applymovement VOLCANO_EXTERIOR_GOLLUM_BRIAN, GollumBrianMoveDown
+	pause 30
+	applymovement VOLCANO_EXTERIOR_GOLLUM_BRIAN, GollumBrianLookLeft
+	pause 10
+	applymovement VOLCANO_EXTERIOR_GOLLUM_BRIAN, GollumBrianLookRight
+	pause 15
+	applymovement VOLCANO_EXTERIOR_GOLLUM_BRIAN, GollumBrianLookUp
+	opentext
+	writetext GollumBrianText2
+	waitbutton
+	closetext
+	applymovement VOLCANO_EXTERIOR_GOLLUM_BRIAN, GollumBrianMoveUp
+	pause 5
+	opentext
+	writetext GollumBrianText3
+	waitbutton
+	closetext
+	playsound SFX_TACKLE
+	;follow PLAYER, VOLCANO_EXTERIOR_GOLLUM_BRIAN
+	applymovement PLAYER, GollumBrianShovesYouIntoBrocano
+	disappear PLAYER
+	playsound SFX_RAZOR_WIND
+	applymovement PLAYER, GollumBrianMoveDown
+	opentext
+	writetext GollumBrianText4
+	waitbutton
+	closetext
+	applymovement VOLCANO_EXTERIOR_GOLLUM_BRIAN, GollumBrianJumpsIntoBrocano
+	disappear VOLCANO_EXTERIOR_GOLLUM_BRIAN
+	playsound SFX_RAZOR_WIND
+	pause 10
+	applymovement VOLCANO_EXTERIOR_RYAN, GollumBrianMoveUp
+	pause 20
+	applymovement VOLCANO_EXTERIOR_RYAN, GollumBrianMoveUp
+	pause 30
+	applymovement VOLCANO_EXTERIOR_RYAN, GollumBrianMoveUp
+	pause 20
+	applymovement VOLCANO_EXTERIOR_RYAN, GollumBrianLookDown
+	pause 20
+	showemote EMOTE_SAD, VOLCANO_EXTERIOR_RYAN, 30
+	pause 20
+	special FadeOutPalettes
+	waitsfx
+	warp AWAKENING_BEACH_2, 54, 38
 	end
 
+GollumBrianMoveUp:
+	turn_head UP
+	step UP
+	step_end
+
+GollumBrianLookDown:
+	turn_head DOWN
+	step_end
+
+GollumBrianLookLeft:
+	turn_head LEFT
+	step_end
+
+GollumBrianLookRight:
+	turn_head RIGHT
+	step_end
+
+GollumBrianLookUp:
+	turn_head UP
+	step_end
+
+GollumBrianMoveDown:
+	turn_head DOWN
+	step DOWN
+	step_end
+
+GollumBrianPushesUp:
+	turn_head DOWN
+	fix_facing
+	step UP
+	remove_fixed_facing
+	step_end
+
+VolcanoRyanMovement1:
+	step UP
+	step_end
+
+GollumBrianShovesYouIntoBrocano:
+	turn_head DOWN
+	fix_facing
+	jump_step UP
+	remove_fixed_facing
+	step_end
+
+GollumBrianJumpsIntoBrocano:
+	jump_step UP
+	step_end
+
 MBlockText:
-	text "When you initiate a battle with 3TRAINER#, the battle will continue after catching it, but not defeating it. If 3TRAINER# is captured again, the battle will truly end and the #mon will become Ditto."
-	line "This glitch #mon's encounter flag means that if a 3TRAINER# battle is initiated in the wild, or if 3TRAINER# is sent out by a trainer, then it will duplicate the quantity of item 1 by 128 if less than 128 (unlike MissingNo. and 'M (00) which duplicate item 6 by 128). Currently the only known ways to encounter 3TRAINER# in the wild without a cheating device, hacking or editing the memory are through expanded party encounter table manipulation and arbitrary code execution."
+	text "When you initiate a battle with 3TRAINER#, the battle will continue after catching it, will become Ditto."
+	line "This glitch #mon's encounter flag means that if a 3TRAINER# arbitrary code execution."
 	
 	para "All boys leave"
 	line "home someday,"
-	cont "it said so on TV"
+	cont "it said so on TV."
 	done
 
 GollumBrianText1:
@@ -212,14 +358,35 @@ GollumBrianText1:
 	done
 
 VolcanoRyanText1:
-	text "BRIANSILDUR!"
+	text "RYAN: BRIANSILDUR"
+	done
 
-	para "You must destroy"
-	line "the glitch!"
+VolcanoRyanText2:
+	text "RYAN: CAST IT IN"
+	line "THE FIRE!"
+
+	para "DESTROY THE"
+	line "GLITCH BEFORE"
+	cont "IT CORRUPTS YOU"
+	cont "FURTHER!"
+	done
+
+VolcanoRyanText3:
+	text "RYAN: ..."
 	done
 
 GollumBrianText2:
 	text "GOLLUM BRIAN: No."
+	done
+
+GollumBrianText3:
+	text "GIVES IT TO ME!"
+	done
+
+GollumBrianText4:
+	text "NOOOOOO!!!"
+
+	para "THE PRECIOUS!"
 	done
 
 VolcanoExteriorGollumBrian:
@@ -261,9 +428,9 @@ VolcanoExterior_MapEvents:
 
 	def_object_events
 ;	object_event x, y, sprite, movement, rx, ry, h1, h2, palette, type, range, script, event_flag
-	object_event 36, 12, SPRITE_M_BLOCK, SPRITEMOVEDATA_BIGDOLLSYM, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, MBlockOverworld, 0
-	object_event 36, 20, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, VolcanoExteriorGollumBrian, EVENT_FELL_INTO_BROCANO
-	object_event 36, 20, SPRITE_BRUNO, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, VolcanoExteriorRyan, EVENT_FELL_INTO_BROCANO
+	object_event 36, 12, SPRITE_M_BLOCK, SPRITEMOVEDATA_BIGDOLLSYM, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, MBlockOverworld, 0
+	object_event 36, 18, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, VolcanoExteriorGollumBrian, EVENT_FELL_INTO_BROCANO
+	object_event 36, 16, SPRITE_BRUNO, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, VolcanoExteriorRyan, EVENT_FELL_INTO_BROCANO
 	object_event 13, 36, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_ITEMBALL, 0, VolcanoExteriorBiteTM, EVENT_GOT_TM01_BITE
 	object_event 40, 30, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, VolcanoExteriorHyperPotion, EVENT_VOLCANO_EXTERIOR_HYPER_POTION
 	object_event 43, 42, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, VolcanoExteriorCarbos, EVENT_VOLCANO_EXTERIOR_CARBOS

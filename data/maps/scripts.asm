@@ -98,7 +98,6 @@ INCLUDE "maps/EeveeRanchExterior.asm"
 INCLUDE "maps/EeveeRanchPokecenter1F.asm"
 INCLUDE "maps/EeveeRanchInterior.asm"
 INCLUDE "maps/EeveeRanchGroomers.asm"
-INCLUDE "maps/VolcanoExterior.asm"
 
 SECTION "Map Scripts 10", ROMX
 INCLUDE "maps/EeveeRanchHives.asm"
@@ -117,6 +116,7 @@ SECTION "Map Scripts 11", ROMX
 INCLUDE "maps/Tracks.asm"
 INCLUDE "maps/GoodFisherFellowHouse.asm"
 INCLUDE "maps/VolcanoRestStop.asm"
+INCLUDE "maps/VolcanoExterior.asm"
 
 SECTION "Map Scripts 12", ROMX
 INCLUDE "maps/VolcanoInteriorB1F.asm"

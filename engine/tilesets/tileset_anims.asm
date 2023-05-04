@@ -63,7 +63,6 @@ TilesetParkAnim:
 	dw NULL,  StandingTileFrame8
 	dw NULL,  DoneTileAnimation
 
-TilesetJungleAnim:
 TilesetForestAnim:
 	dw NULL,  ForestTreeLeftAnimation
 	dw NULL,  ForestTreeRightAnimation
@@ -94,18 +93,27 @@ TilesetChumelagoAnim:
 	dw NULL,  StandingTileFrame8
 	dw NULL,  DoneTileAnimation
 
-UnusedTilesetAnim1: ; unreferenced
+TilesetJungleAnim:
 ; Scrolls tile $03 like cave water, but also has the standard $03 flower tile.
-	dw vTiles2 tile $03, ReadTileToAnimBuffer
-	dw wTileAnimBuffer, ScrollTileRightLeft
-	dw vTiles2 tile $03, WriteTileFromAnimBuffer
+	dw vTiles2 tile $6D, ReadTileToAnimBuffer
+	dw wTileAnimBuffer, ScrollTileRight
+	dw vTiles2 tile $6D, WriteTileFromAnimBuffer
 	dw NULL,  WaitTileAnimation
+	dw vTiles2 tile $6E, ReadTileToAnimBuffer
+	dw wTileAnimBuffer, ScrollTileUp
+	dw vTiles2 tile $6E, WriteTileFromAnimBuffer
 	dw NULL,  WaitTileAnimation
+	dw vTiles2 tile $7D, ReadTileToAnimBuffer
+	dw wTileAnimBuffer, ScrollTileLeft
+	dw vTiles2 tile $7D, WriteTileFromAnimBuffer
 	dw NULL,  WaitTileAnimation
+	dw vTiles2 tile $7E, ReadTileToAnimBuffer
+	dw wTileAnimBuffer, ScrollTileDown
+	dw vTiles2 tile $7E, WriteTileFromAnimBuffer
 	dw NULL,  AnimateFlowerTile
-	dw NULL,  WaitTileAnimation
-	dw NULL,  WaitTileAnimation
-	dw NULL,  WaitTileAnimation
+	dw vTiles2 tile $14, AnimateWaterTile
+	dw NULL,  AnimateWaterPalette
+	dw NULL,  StandingTileFrame8
 	dw NULL,  DoneTileAnimation
 
 UnusedTilesetAnim2: ; unreferenced

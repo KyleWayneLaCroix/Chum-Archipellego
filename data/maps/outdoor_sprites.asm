@@ -144,6 +144,7 @@ JungleAreaGroupSprites:
 	db SPRITE_ROCKER
 	; 7 of max 9 walking sprites
 	db SPRITE_BIG_ONIX
+	db SPRITE_M_BLOCK
 	db SPRITE_POKE_BALL
 	db SPRITE_ROCK
 	db SPRITE_FRUIT_TREE
