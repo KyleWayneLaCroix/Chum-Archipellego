@@ -18,6 +18,7 @@ SpawnPoints:
 	spawn MUSCLE_JUNGLE,                22,  8
 	spawn INDIGO_PLATEAU_POKECENTER_1F,  7,  9
 	spawn VOLCANO_EXTERIOR,             22, 38
+	spawn MAYBE_VILLAGE,                27, 22
 	spawn N_A,                          -1, -1
 
 	assert_table_length NUM_SPAWNS + 1

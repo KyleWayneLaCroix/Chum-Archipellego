@@ -119,6 +119,14 @@
 	const SPRITE_REGIMAGMA ; 73
 	const SPRITE_ROLLY_BALL ; 74
 	const SPRITE_M_BLOCK ; 75
+	const SPRITE_MARIN ; 76
+	const SPRITE_TARIN ; 77
+	const SPRITE_SHOPKEEPER ; 78
+	const SPRITE_CHOMP ; 79
+	const SPRITE_OCTOROK ; 7a
+	const SPRITE_LA_BIRDS ; 7b
+	const SPRITE_LA_YOUNGSTER_DOG ; 7c
+	const SPRITE_MOBLIN ; 7d
 DEF NUM_OVERWORLD_SPRITES EQU const_value - 1
 
 ; SpriteMons indexes (see data/sprites/sprite_mons.asm)

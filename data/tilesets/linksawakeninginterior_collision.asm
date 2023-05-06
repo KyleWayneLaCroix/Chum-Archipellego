@@ -1,7 +1,7 @@
 	tilecoll WALL, WALL, WALL, WALL ; 00
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 01
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 02
-	tilecoll WALL, WALL, WALL, WALL ; 03
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 03
 	tilecoll WALL, WALL, WALL, FLOOR ; 04
 	tilecoll WALL, WALL, WALL, WALL ; 05
 	tilecoll WALL, WALL, WALL, WALL ; 06
@@ -13,7 +13,7 @@
 	tilecoll WALL, WALL, WALL, WALL ; 0c
 	tilecoll WALL, WALL, WALL, WALL ; 0d
 	tilecoll WALL, WALL, WALL, WALL ; 0e
-	tilecoll FLOOR, FLOOR, FLOOR, WALL ; 0f
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 0f
 	tilecoll FLOOR, FLOOR, FLOOR, COUNTER ; 10
 	tilecoll WALL, WALL, WALL, WALL ; 11
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 12

@@ -538,6 +538,12 @@ AwakeningLabHealingMachineText:
 	line "have power."
 	done
 
+AwakeningLabTeleport:
+	special FadeOutPalettes
+	waitsfx
+	warp MARINS_HOUSE, 4, 3
+	end
+
 AwakeningLab_MapEvents:
 	db 0, 0 ; filler
 
@@ -576,6 +582,7 @@ AwakeningLab_MapEvents:
 	bg_event  5, 14, BGEVENT_READ, AwakeningLabComputerScript
 	bg_event 24, 12, BGEVENT_READ, AwakeningLabHealingMachine
 	bg_event 25, 12, BGEVENT_READ, AwakeningLabHealingMachine
+	bg_event 15, 15, BGEVENT_READ, AwakeningLabTeleport
 
 	def_object_events
 	object_event 26, 14, SPRITE_RIVAL, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_TRAINER, 0, TestTrainer, -1

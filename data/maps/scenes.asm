@@ -47,4 +47,6 @@ MapScenes::
 	scene_var VOLCANO_INTERIOR_3F,          wVolcanoInterior3FSceneID
 	scene_var VOLCANO_INTERIOR_4F,          wVolcanoInterior4FSceneID
 	scene_var VOLCANO_INTERIOR_5F,          wVolcanoInterior5FSceneID
+
+	scene_var MARINS_HOUSE,                 wMarinsHouseSceneID
 	db -1 ; end

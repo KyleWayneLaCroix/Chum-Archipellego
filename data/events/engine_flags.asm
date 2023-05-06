@@ -80,6 +80,7 @@ EngineFlags:
 	engine_flag wVisitedSpawns, SPAWN_EEVEE_RANCH
 	engine_flag wVisitedSpawns, SPAWN_MUSCLE_JUNGLE
 	engine_flag wVisitedSpawns, SPAWN_VOLCANO_EXTERIOR
+	engine_flag wVisitedSpawns, SPAWN_MAYBE_VILLAGE
 	engine_flag wVisitedSpawns, SPAWN_INDIGO
 
 	engine_flag wLuckyNumberShowFlag, LUCKYNUMBERSHOW_GAME_OVER_F

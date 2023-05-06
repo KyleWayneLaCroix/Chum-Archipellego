@@ -124,4 +124,12 @@ OverworldSprites:
 	overworld_sprite RegimagmaSpriteGFX, 12, STANDING_SPRITE, PAL_OW_RED
 	overworld_sprite RollyBallSpriteGFX, 12, WALKING_SPRITE, PAL_OW_BLUE
 	overworld_sprite MBlockSpriteGFX, 12, STANDING_SPRITE, PAL_OW_PURPLE
+	overworld_sprite MarinSpriteGFX, 12, WALKING_SPRITE, PAL_OW_RED
+	overworld_sprite TarinSpriteGFX, 12, WALKING_SPRITE, PAL_OW_RED
+	overworld_sprite ShopkeeperSpriteGFX, 12, WALKING_SPRITE, PAL_OW_GREEN
+	overworld_sprite ChompSpriteGFX, 12, WALKING_SPRITE, PAL_OW_SILVER
+	overworld_sprite OctorokSpriteGFX, 12, WALKING_SPRITE, PAL_OW_RED
+	overworld_sprite LABirdsSpriteGFX, 12, WALKING_SPRITE, PAL_OW_BROWN
+	overworld_sprite LAYoungsterDogSpriteGFX, 12, WALKING_SPRITE, PAL_OW_BROWN
+	overworld_sprite MoblinSpriteGFX, 12, WALKING_SPRITE, PAL_OW_GREEN
 	assert_table_length NUM_OVERWORLD_SPRITES

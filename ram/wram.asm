@@ -3064,7 +3064,8 @@ wVolcanoInterior2FSceneID::         db
 wVolcanoInterior3FSceneID::         db
 wVolcanoInterior4FSceneID::         db
 wVolcanoInterior5FSceneID::         db
-	ds 95
+wMarinsHouseSceneID::               db
+	ds 94
 
 ; fight counts
 wJackFightCount::    db
