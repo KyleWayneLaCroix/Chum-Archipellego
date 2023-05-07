@@ -319,7 +319,6 @@ BugContestResultsScript:
 	clearevent EVENT_CONTEST_OFFICER_HAS_EVERSTONE
 	clearevent EVENT_CONTEST_OFFICER_HAS_GOLD_BERRY
 	clearevent EVENT_CONTEST_OFFICER_HAS_BERRY
-	end
 	opentext
 	farwritetext ContestResults_ReadyToJudgeText
 	waitbutton
