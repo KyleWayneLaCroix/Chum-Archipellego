@@ -222,7 +222,7 @@
 	const_skip
 	const_skip
 ; Kanto story events
-	const EVENT_RETURNED_MACHINE_PART
+	const EVENT_LA_PHONE_1
 	const EVENT_MET_MANAGER_AT_POWER_PLANT
 	const EVENT_MET_ROCKET_GRUNT_AT_CERULEAN_GYM
 	const EVENT_MET_REDS_MOM

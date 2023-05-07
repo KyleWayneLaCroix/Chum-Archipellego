@@ -3065,7 +3065,9 @@ wVolcanoInterior3FSceneID::         db
 wVolcanoInterior4FSceneID::         db
 wVolcanoInterior5FSceneID::         db
 wMarinsHouseSceneID::               db
-	ds 94
+wPhoneRoomSceneID::                 db
+wBadEggExteriorSceneID::            db
+	ds 92
 
 ; fight counts
 wJackFightCount::    db

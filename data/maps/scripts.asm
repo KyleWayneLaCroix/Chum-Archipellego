@@ -133,8 +133,6 @@ SECTION "Map Scripts 13", ROMX
 INCLUDE "maps/VolcanoInterior6F.asm"
 INCLUDE "maps/VolcanoInterior6FHall.asm"
 INCLUDE "maps/AwakeningBeach2.asm"
-INCLUDE "maps/MaybeVillage.asm"
-INCLUDE "maps/MisplacedWoods.asm"
 INCLUDE "maps/BadEggExterior.asm"
 INCLUDE "maps/RouteH.asm"
 INCLUDE "maps/OceanDetour.asm"
@@ -171,8 +169,10 @@ INCLUDE "maps/SuperFisherFellowsHouse.asm"
 
 SECTION "Map Scripts 15", ROMX
 
-
 SECTION "Map Scripts 16", ROMX
+INCLUDE "maps/MaybeVillage.asm"
+INCLUDE "maps/MisplacedWoods.asm"
+
 
 
 SECTION "Map Scripts 17", ROMX

@@ -129,9 +129,11 @@ MarinsHouseMarin:
 	opentext
 	checkitem CHAINSAW
 	iffalse .YourStuff
+	faceplayer
 	writetext MarinNeutralText
 
 .YourStuff
+	faceplayer
 	writetext MarinYourStuffText
 	waitbutton
 	closetext
@@ -142,6 +144,10 @@ MarinNeutralText:
 	done
 
 MarinsHouseTarin:
+	jumptextfaceplayer MarinsHouseTarinText
+	end
+
+MarinsHouseTarinText:
 	text "Well, <PLAYER>,"
 	line "ya finally"
 	cont "snapped out of it"
@@ -160,7 +166,7 @@ MarinsHouseTarin:
 	para "Well, lotsa"
 	line "weird stuff can"
 	cont "happen."
-	end
+	done
 
 MarinsHouseShelf:
 	jumptext MarinsHouseShelfText

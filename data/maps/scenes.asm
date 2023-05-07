@@ -49,4 +49,7 @@ MapScenes::
 	scene_var VOLCANO_INTERIOR_5F,          wVolcanoInterior5FSceneID
 
 	scene_var MARINS_HOUSE,                 wMarinsHouseSceneID
+	scene_var PHONE_ROOM,                   wPhoneRoomSceneID
+	scene_var BAD_EGG_EXTERIOR,             wBadEggExteriorSceneID
+
 	db -1 ; end
