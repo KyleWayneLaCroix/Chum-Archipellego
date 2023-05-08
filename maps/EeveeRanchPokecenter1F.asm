@@ -214,7 +214,7 @@ EeveeRanchPokecenter1F_MapEvents:
 	def_bg_events
 
 	def_object_events
-	object_event  3,  1, SPRITE_REDS_MOM, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, EeveeRanchPokecenter1FNurseScript, -1
+	object_event  3,  1, SPRITE_MOM, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, EeveeRanchPokecenter1FNurseScript, -1
 	object_event  7,  5, SPRITE_TWIN, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, EeveeRanchPokecenter1FTwin1Script, -1
 	object_event  8,  5, SPRITE_TWIN, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, EeveeRanchPokecenter1FTwin2Script, -1
 	object_event  1,  4, SPRITE_JASMINE, SPRITEMOVEDATA_WANDER, 1, 2, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, EeveeRanchPokecenter1FJasmineScript, -1
