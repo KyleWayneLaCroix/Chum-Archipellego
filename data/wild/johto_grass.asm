@@ -932,4 +932,35 @@ JohtoGrassWildMons:
     db 17, LARVESTA
     end_grass_wildmons
 
+    def_grass_wildmons MAYBE_VILLAGE
+    db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
+    ; morn
+    db 15, ORICORIO_PAU
+    db 15, EXEGGCUTE
+    db 16, HERDIER
+    db 16, HERACROSS
+    db 16, TYKER
+    db 16, APPLIN
+    db 18, RALTS
+    db 17, RALTS
+    ; day
+    db 15, ORICORIO_PAU
+    db 15, EXEGGCUTE
+    db 16, HERDIER
+    db 16, HERACROSS
+    db 16, TYKER
+    db 16, APPLIN
+    db 18, RALTS
+    db 17, RALTS
+    ; nite
+    db 15, ORICORIO_PAU
+    db 15, EXEGGCUTE
+    db 16, HERDIER
+    db 16, HERACROSS
+    db 16, TYKER
+    db 16, APPLIN
+    db 18, RALTS
+    db 17, RALTS
+    end_grass_wildmons
+
     db -1 ; end
