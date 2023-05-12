@@ -194,8 +194,8 @@ ItemEffects:
 	dw PocketPCEffect      ; POCKET_PC
 	dw FlashlightEffect    ; FLASHLIGHT
 	dw NoEffect            ; JUMP
-	dw NoEffect            ; ITEM_ B5
-	dw NoEffect            ; ITEM_ B6
+	dw NoEffect            ; RUPEE
+	dw RestoreHPEffect     ; HEART
 	dw NoEffect            ; ITEM_ B7
 	dw NoEffect            ; ITEM_ B8
 	dw NoEffect            ; ITEM_ B9

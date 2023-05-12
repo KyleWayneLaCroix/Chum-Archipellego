@@ -14,4 +14,5 @@ HealingHPAmounts:
 	dbw ENERGY_ROOT,  200
 	dbw BASIL,         20
 	dbw BERRY_JUICE,   25
+	dbw HEART,        120
 	dbw -1, 0 ; end

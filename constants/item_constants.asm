@@ -186,8 +186,8 @@
 	const PDA          ; b2
 	const FLASHLIGHT   ; b3
 	const JUMP         ; b4
-	const ITEM_B5      ; b5
-	const ITEM_B6      ; b6
+	const RUPEE        ; b5
+	const HEART        ; b6
 	const ITEM_B7      ; b7
 	const ITEM_B8      ; b8
 	const ITEM_B9      ; b9

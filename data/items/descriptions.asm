@@ -181,8 +181,8 @@ ItemDescriptions:
 	dw PDADesc
 	dw FlashlightDesc
 	dw JumpDesc
-	dw TeruSama16Desc
-	dw TeruSama17Desc
+	dw RupeeDesc
+	dw HeartDesc
 	dw TeruSama18Desc
 	dw TeruSama19Desc
 	dw TeruSama20Desc
@@ -841,11 +841,13 @@ JumpDesc:
 	db   "3 of em & a brite"
 	next "card get you in@"
 
-TeruSama16Desc:
-	db   "?@"
+RupeeDesc:
+	db   "A shiny currency"
+	next "from beyond.@"
 
-TeruSama17Desc:
-	db   "?@"
+HeartDesc:
+	db   "A heart that@"
+	next "restores 120 HP"
 
 MysteryBerryDesc:
 	db   "A self-restore"
