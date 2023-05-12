@@ -101,4 +101,5 @@ TrainerGroups:
 	dw BugBrianGroup
 	dw RockBrianGroup
 	dw TreeBrianGroup
+	dw OctorokGroup
 	assert_table_length NUM_TRAINER_CLASSES

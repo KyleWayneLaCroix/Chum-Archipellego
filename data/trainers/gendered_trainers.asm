@@ -75,6 +75,7 @@ MaleTrainers:
 	db BUG_BRIAN
 	db ROCK_BRIAN
 	db TREE_BRIAN
+	db OCTOROK_T
 .End
 
 FemaleTrainers:

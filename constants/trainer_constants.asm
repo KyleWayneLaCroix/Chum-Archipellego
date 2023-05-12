@@ -424,6 +424,16 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 	const TREEBRIAN_3
 	const TREEBRIAN_4
 
+	trainerclass OCTOROK_T
+	const OCTOROK_1
+	const OCTOROK_2
+	const OCTOROK_3
+	const OCTOROK_4
+	const OCTOROK_5
+	const OCTOROK_6
+	const OCTOROK_7
+	const OCTOROK_8
+
 DEF KRIS EQU __trainer_class__
 
 DEF NUM_TRAINER_CLASSES EQU __trainer_class__ - 1

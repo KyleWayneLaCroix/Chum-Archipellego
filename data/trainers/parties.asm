@@ -1610,3 +1610,56 @@ TreeBrianGroup:
 	db 30, FLAPPLE
 	db 30, EXEGGUTOR
 	db -1 ; end
+
+OctorokGroup:
+	; OCTOROK (1)
+	db " @", TRAINERTYPE_NORMAL
+	db 30, CLOBBOPUS
+	db 27, SANDYGAST
+	db 28, FLOATZEL
+	db -1 ; end
+
+	; OCTOROK (2)
+	db " @", TRAINERTYPE_NORMAL
+	db 30, CLOBBOPUS
+	db 27, LAIRON
+	db 28, GUMSHOOS
+	db -1 ; end
+
+	; OCTOROK (3)
+	db " @", TRAINERTYPE_NORMAL
+	db 30, CLOBBOPUS
+	db 28, LINOONE
+	db -1 ; end
+
+	; OCTOROK (4)
+	db " @", TRAINERTYPE_NORMAL
+	db 30, CLOBBOPUS
+	db 28, MUDSDALE
+	db -1 ; end
+
+	; OCTOROK (5)
+	db " @", TRAINERTYPE_NORMAL
+	db 35, GRAPPLOCT
+	db -1 ; end
+
+	; OCTOROK (6)
+	db " @", TRAINERTYPE_NORMAL
+	db 30, CLOBBOPUS
+	db 27, DWEBBLE
+	db 28, JUMPLUFF
+	db -1 ; end
+
+	; OCTOROK (7)
+	db " @", TRAINERTYPE_NORMAL
+	db 30, CLOBBOPUS
+	db 24, STUNKY
+	db 28, DUOSION
+	db -1 ; end
+
+	; OCTOROK (8)
+	db " @", TRAINERTYPE_NORMAL
+	db 30, CLOBBOPUS
+	db 30, KOFFING
+	db 28, SALANDIT
+	db -1 ; end

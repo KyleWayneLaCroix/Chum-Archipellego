@@ -101,4 +101,5 @@ BTTrainerClassGenders:
 	db MALE ; BUG_BRIAN
 	db MALE ; ROCK_BRIAN
 	db MALE ; TREE_BRIAN
+	db MALE ; OCTOROK
 	assert_table_length NUM_TRAINER_CLASSES

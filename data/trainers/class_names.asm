@@ -99,5 +99,6 @@ TrainerClassNames::
 	li "BUG" ; BUG_BRIAN
 	li "SILVER ROCK" ; ROCK_BRIAN
 	li "SECRET TREE" ; TREE_BRIAN
+	li "OCTOROK" ; OCTOROK
 
 	assert_list_length NUM_TRAINER_CLASSES

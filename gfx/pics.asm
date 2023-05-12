@@ -97,7 +97,7 @@ RuinManiacPic:        INCBIN "gfx/trainers/ruin_maniac.2bpp.lz"
 SafariPic:        INCBIN "gfx/trainers/safari.2bpp.lz"
 SagePic:        INCBIN "gfx/trainers/sage.2bpp.lz"
 SailorPic:        INCBIN "gfx/trainers/sailor.2bpp.lz"
-
+OctorokPic:       INCBIN "gfx/trainers/octorok.2bpp.lz"
 
 SECTION "Pics 4", ROMX
 UnownAFrontpic:      INCBIN "gfx/pokemon/unown_A/front.animated.2bpp.lz"
