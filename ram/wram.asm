@@ -2925,11 +2925,11 @@ endr
 
 
 wStoneTableAddress:: dw
-	ds 22
+	ds 5
 
 wMapObjects::
 wPlayerObject:: map_object wPlayer ; player is map object 0
-; wMap1Object - wMap15Object
+; wMap1Object - wMap20Object
 for n, 1, NUM_OBJECTS
 wMap{d:n}Object:: map_object wMap{d:n}
 endr
@@ -3067,7 +3067,7 @@ wVolcanoInterior5FSceneID::         db
 wMarinsHouseSceneID::               db
 wPhoneRoomSceneID::                 db
 wBadEggExteriorSceneID::            db
-	ds 92
+	ds 58
 
 ; fight counts
 wJackFightCount::    db
@@ -3099,7 +3099,7 @@ wKenjiFightCount::   db ; unreferenced
 wParryFightCount::   db
 wErinFightCount::    db
 
-	ds 49
+	ds 15
 
 wEventFlags:: flag_array NUM_EVENTS
 

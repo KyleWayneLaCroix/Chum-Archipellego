@@ -161,7 +161,7 @@ LinksAwakeningGroupSprites:
 	db SPRITE_LA_GIRL
 	; 9 of max 9 walking sprites
 	db SPRITE_KAEPORA
-	db SPRITE_GRANNY
+	db SPRITE_LA_GRANNY
 	db SPRITE_FRUIT_TREE
 	db 0 ; end
 
