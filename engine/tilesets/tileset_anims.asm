@@ -255,13 +255,17 @@ TilesetTowerAnim:
 	dw NULL,  WaitTileAnimation
 	dw NULL,  DoneTileAnimation
 
-UnusedTilesetAnim5: ; unreferenced
-; Scrolls tile $4f like cave water.
-	dw vTiles2 tile $4f, ReadTileToAnimBuffer
+
+TilesetLinksAwakeningAnim:
+	dw vTiles2 tile $39, ReadTileToAnimBuffer
+	dw wTileAnimBuffer, ScrollTileUp
+	dw vTiles2 tile $39, WriteTileFromAnimBuffer
+	dw vTiles2 tile $29, ReadTileToAnimBuffer
+	dw wTileAnimBuffer, ScrollTileUp
+	dw vTiles2 tile $29, WriteTileFromAnimBuffer
+	dw vTiles2 tile $3c, ReadTileToAnimBuffer
 	dw wTileAnimBuffer, ScrollTileRightLeft
-	dw vTiles2 tile $4f, WriteTileFromAnimBuffer
-	dw NULL,  WaitTileAnimation
-	dw NULL,  WaitTileAnimation
+	dw vTiles2 tile $3c, WriteTileFromAnimBuffer
 	dw NULL,  WaitTileAnimation
 	dw NULL,  WaitTileAnimation
 	dw NULL,  WaitTileAnimation
@@ -294,7 +298,6 @@ TilesetKabutoWordRoomAnim:
 TilesetOmanyteWordRoomAnim:
 TilesetAerodactylWordRoomAnim:
 TilesetMetroidAnim:
-TilesetLinksAwakeningAnim:
 TilesetLinksAwakeningInteriorAnim:
 TilesetLinksAwakeningDungeonAnim:
 	dw NULL,  WaitTileAnimation

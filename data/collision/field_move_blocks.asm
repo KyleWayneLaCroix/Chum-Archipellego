@@ -1,10 +1,11 @@
 ; these blocks all use COLL_CUT_TREE in one quadrant
 CutTreeBlockPointers:
 ; tileset, block list pointer
-	dbw TILESET_CHUMELAGO,    .chumelago
-	dbw TILESET_KANTO,        .kanto
-	dbw TILESET_PARK,         .park
-	dbw TILESET_FOREST,       .forest
+	dbw TILESET_CHUMELAGO,                .chumelago
+	dbw TILESET_KANTO,                    .kanto
+	dbw TILESET_PARK,                     .park
+	dbw TILESET_FOREST,                   .forest
+	dbw TILESET_LINKS_AWAKENING,          .la
 	db -1 ; end
 
 .chumelago:
@@ -38,6 +39,25 @@ CutTreeBlockPointers:
 	db $44, $15, 0
 	db -1 ; end
 
+.la:
+; facing block, replacement block, animation
+	db $34, $30, 1 ; grass
+	db $40, $30, 1 ; grass
+	db $43, $3e, 1 ; grass
+	db $2a, $0a, 1 ; tree
+	db $2b, $0a, 1 ; tree
+	db $2e, $0a, 1 ; tree
+	db $49, $db, 1 ; tree
+	db $4f, $de, 1 ; tree
+	db $77, $dc, 1 ; tree
+	db $88, $30, 1 ; tree
+	db $8c, $dd, 1 ; tree
+	db $8d, $d9, 1 ; tree
+	db $8e, $d8, 1 ; tree
+	db $8f, $da, 1 ; tree
+	db $93, $df, 1 ; tree
+	db $a6, $e0, 1 ; tree
+	db -1 ; end
 
 ; these blocks all use COLL_WHIRLPOOL in one quadrant
 WhirlpoolBlockPointers:
