@@ -14,7 +14,7 @@ CardLargeSpriteAndFolderGFX::
 INCBIN "gfx/mobile/card_large_sprite.2bpp"
 INCBIN "gfx/mobile/card_folder.2bpp"
 
-CardSpriteGFX::
+Card343SpriteGFX::
 INCBIN "gfx/mobile/card_sprite.2bpp"
 
 Function17a68f::

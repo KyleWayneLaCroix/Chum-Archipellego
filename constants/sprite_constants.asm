@@ -115,6 +115,11 @@
 	const SPRITE_LA_GRANNY ; 6e
 	const SPRITE_LA_FISHER ; 6f
 	const SPRITE_BLADE_TRAP ; 70
+	const SPRITE_CARD ; 71
+	const SPRITE_HEART ; 72
+	const SPRITE_EGG ; 73
+	const SPRITE_TM ; 74
+	const SPRITE_BAG ; 75
 DEF NUM_OVERWORLD_SPRITES EQU const_value - 1
 
 ; SpriteMons indexes (see data/sprites/sprite_mons.asm)

@@ -188,7 +188,7 @@
 	const JUMP         ; b4
 	const RUPEE        ; b5
 	const HEART        ; b6
-	const ITEM_B7      ; b7
+	const BRITE_CARD   ; b7
 	const ITEM_B8      ; b8
 	const ITEM_B9      ; b9
 	const ITEM_BA      ; ba
