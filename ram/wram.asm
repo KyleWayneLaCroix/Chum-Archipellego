@@ -3028,6 +3028,9 @@ wMooMooBerries:: db
 wUndergroundSwitchPositions:: db
 wFarfetchdPosition:: db
 
+wShopItemX:: db
+wShopItemY:: db
+wShopDirection:: db
 
 ; map scene ids
 wPokecenter2FSceneID::              db
@@ -3067,7 +3070,7 @@ wVolcanoInterior5FSceneID::         db
 wMarinsHouseSceneID::               db
 wPhoneRoomSceneID::                 db
 wBadEggExteriorSceneID::            db
-	ds 58
+	ds 55
 
 ; fight counts
 wJackFightCount::    db
