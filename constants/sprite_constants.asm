@@ -119,7 +119,7 @@
 	const SPRITE_HEART ; 72
 	const SPRITE_EGG ; 73
 	const SPRITE_TM ; 74
-	const SPRITE_BAG ; 75
+	const SPRITE_LA_GRAMPS ; 75
 DEF NUM_OVERWORLD_SPRITES EQU const_value - 1
 
 ; SpriteMons indexes (see data/sprites/sprite_mons.asm)
