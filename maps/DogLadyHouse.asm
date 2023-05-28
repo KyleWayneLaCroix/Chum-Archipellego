@@ -9,6 +9,21 @@ DogLadyHouse_MapScripts:
 	def_callbacks
 ;	callback type, script
 
+DogLadyHouseDogLady:
+	jumptextfaceplayer DogLadyHouseDogLadyText
+
+DogLadyHouseDogLadyText:
+	text "Ho ho ho!"
+
+	para "My BowWow is so"
+	line "proud of his fine"
+	cont "fur coat!"
+	done
+
+; Add passage to grate guy's casino later
+DogLadyHouseChomp:
+	end
+
 DogLadyHouse_MapEvents:
 	db 0, 0 ; filler
 
@@ -26,3 +41,5 @@ DogLadyHouse_MapEvents:
 
 	def_object_events
 ;	object_event x, y, sprite, movement, rx, ry, h1, h2, palette, type, range, script, event_flag
+	object_event  7,  5, SPRITE_LA_GIRL, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, DogLadyHouseDogLady, 0
+	object_event 15, 5, SPRITE_CHOMP, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, DogLadyHouseChomp, 0
