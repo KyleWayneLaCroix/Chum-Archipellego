@@ -103,4 +103,5 @@ TrainerGroups:
 	dw TreeBrianGroup
 	dw OctorokGroup
 	dw ShopkeeperGroup
+	dw MoblinGroup
 	assert_table_length NUM_TRAINER_CLASSES

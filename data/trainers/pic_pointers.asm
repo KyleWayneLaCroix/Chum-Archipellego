@@ -103,4 +103,5 @@ TrainerPicPointers::
 	dba TreeBrianPic
 	dba OctorokPic
 	dba ShopkeeperPic
+	dba MoblinPic
 	assert_table_length NUM_TRAINER_CLASSES

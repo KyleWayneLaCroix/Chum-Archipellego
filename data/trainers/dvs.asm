@@ -102,4 +102,5 @@ TrainerClassDVs:
 	dn  8,  9,  8, 10 ; TREE_BRIAN
 	dn  8,  8,  8,  8 ; OCTOROK
 	dn 15, 15, 15, 15 ; SHOPKEEPER
+	dn 11,  8,  8,  8 ; MOBLIN
 	assert_table_length NUM_TRAINER_CLASSES

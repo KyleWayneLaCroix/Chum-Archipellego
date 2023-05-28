@@ -437,6 +437,8 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 	trainerclass SHOPKEEPER_T
 	const SHOPKEEPER_1
 
+	trainerclass MOBLIN
+	const MOBLIN_1
 
 DEF KRIS EQU __trainer_class__
 

@@ -99,6 +99,7 @@ SagePic:            INCBIN "gfx/trainers/sage.2bpp.lz"
 SailorPic:          INCBIN "gfx/trainers/sailor.2bpp.lz"
 OctorokPic:         INCBIN "gfx/trainers/octorok.2bpp.lz"
 ShopkeeperPic:      INCBIN "gfx/trainers/shopkeeper.2bpp.lz"
+MoblinPic:          INCBIN "gfx/trainers/moblin.2bpp.lz"
 
 SECTION "Pics 4", ROMX
 UnownAFrontpic:      INCBIN "gfx/pokemon/unown_A/front.animated.2bpp.lz"

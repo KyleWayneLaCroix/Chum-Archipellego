@@ -103,4 +103,5 @@ BTTrainerClassGenders:
 	db MALE ; TREE_BRIAN
 	db MALE ; OCTOROK
 	db MALE ; SHOPKEEPER
+	db MALE ; MOBLIN
 	assert_table_length NUM_TRAINER_CLASSES

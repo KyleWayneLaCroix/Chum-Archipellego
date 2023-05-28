@@ -1674,3 +1674,11 @@ ShopkeeperGroup:
 	db 150, METAGROSS, $ee, $ee
 	db 150, VOLCARONA, $ee, $ee
 	db -1 ; end
+
+MoblinGroup:
+	; MOBLIN (1)
+	db "GRAGNOB", TRAINERTYPE_NORMAL
+	db 30, LARVITAR
+	db 30, UMBREON
+	db 28, LINOONE
+	db -1 ; end

@@ -77,6 +77,7 @@ MaleTrainers:
 	db TREE_BRIAN
 	db OCTOROK_T
 	db SHOPKEEPER_T
+	db MOBLIN
 .End
 
 FemaleTrainers:

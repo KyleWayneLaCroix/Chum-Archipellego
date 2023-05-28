@@ -101,4 +101,5 @@ TrainerClassNames::
 	li "SECRET TREE" ; TREE_BRIAN
 	li "OCTOROK" ; OCTOROK
 	li "SHOP" ; SHOPKEEPER
+	li "MOBLIN" ; MOBLIN
 	assert_list_length NUM_TRAINER_CLASSES
