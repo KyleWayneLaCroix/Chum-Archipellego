@@ -107,6 +107,7 @@ INCBIN "gfx/trainers/bug_brian.gbcpal", middle_colors
 INCBIN "gfx/trainers/rock_brian.gbcpal", middle_colors
 INCBIN "gfx/trainers/tree_brian.gbcpal", middle_colors
 INCBIN "gfx/trainers/octorok.gbcpal", middle_colors
+INCBIN "gfx/trainers/shopkeeper.gbcpal", middle_colors
 KrisPalette:
 INCLUDE "gfx/trainers/kris.pal"
 	assert_table_length NUM_TRAINER_CLASSES + 2

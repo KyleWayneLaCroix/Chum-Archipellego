@@ -1663,3 +1663,14 @@ OctorokGroup:
 	db 30, KOFFING
 	db 28, SALANDIT
 	db -1 ; end
+
+ShopkeeperGroup:
+	; SHOPKEEPER (1)
+	db "KEEPER@", TRAINERTYPE_DVS ;| TRAINERTYPE_MOVES
+	db 150, TYRANITAR, $ee, $ee
+	db 150, SUICUNE, $ee, $ee
+	db 150, ZACIAN, $ee, $ee
+	db 150, DRAGAPULT, $ee, $ee
+	db 150, METAGROSS, $ee, $ee
+	db 150, VOLCARONA, $ee, $ee
+	db -1 ; end

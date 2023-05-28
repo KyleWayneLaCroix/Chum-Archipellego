@@ -5,10 +5,83 @@
 MaybeVillage_MapScripts:
 	def_scene_scripts
 ;	scene_script script, SCENE_MAPNAME_SCENE_NAME
+	scene_script MaybeVillageNoop1, SCENE_MAYBE_VILLAGE_NORMAL
+	scene_script MaybeVillageJustStole, SCENE_MAYBE_VILLAGE_JUST_STOLE
 
 	def_callbacks
 ;	callback type, script
 
+MaybeVillageNoop1:
+	end
+
+MaybeVillageJustStole:
+	opentext
+	setmapscene MAYBE_VILLAGE_MART, SCENE_MAYBE_VILLAGE_MART_JUST_STOLE
+	readmem wStolenItem
+	ifequal 1, .Card
+	ifequal 2, .Ball
+	ifequal 3, .Heart
+	ifequal 4, .LuckyEgg
+	ifequal 5, .TM
+.Card:
+	setevent EVENT_BOUGHT_BRIGHT_CARD
+	verbosegiveitem BRITE_CARD
+	sjump .Proud
+.Ball:
+	verbosegiveitem ULTRA_BALL
+	sjump .Proud
+.Heart:
+	verbosegiveitem HEART
+	sjump .Proud
+.LuckyEgg:
+	verbosegiveitem LUCKY_EGG
+	sjump .Proud
+.TM:
+	checkevent EVENT_BOUGHT_PSYCHIC
+	iffalse .Psychic
+	checkevent EVENT_BOUGHT_SIGNAL_BEAM
+	iffalse .SignalBeam
+	checkevent EVENT_BOUGHT_OMINOUS_WIND
+	iffalse .OminousWind
+	checkevent EVENT_BOUGHT_PLAY_ROUGH
+	iffalse .PlayRough
+	sjump .Proud
+.Psychic:
+	verbosegiveitem TM_PSYCHIC_M
+	setevent EVENT_BOUGHT_PSYCHIC
+	sjump .Proud
+.SignalBeam:
+	verbosegiveitem TM_SIGNAL_BEAM
+	setevent EVENT_BOUGHT_SIGNAL_BEAM
+	sjump .Proud
+.OminousWind:
+	verbosegiveitem TM_OMINOUS_WIND
+	setevent EVENT_BOUGHT_OMINOUS_WIND
+	sjump .Proud
+.PlayRough:
+	verbosegiveitem TM_PLAY_ROUGH
+	setevent EVENT_BOUGHT_PLAY_ROUGH
+	sjump .Proud
+.Proud:
+	waitbutton
+	writetext MaybeVillageTheftText
+	waitbutton
+	closetext
+	; Rename the player to THIEF later
+	setscene SCENE_MAYBE_VILLAGE_NORMAL
+	setval 0
+	writemem wStolenItem
+	setevent EVENT_HAS_STOLEN
+	end
+MaybeVillageTheftText:
+	text "Guess what?"
+
+	para "You got it for"
+	line "free."
+
+	para "Are you proud of"
+	line "yourself?"
+	done
 
 ChickenStatue:
 	jumptext ChickenStatueText

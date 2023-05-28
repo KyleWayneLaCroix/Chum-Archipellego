@@ -6,20 +6,77 @@ DEF MAYBE_VILLAGE_TM_PRICE EQU 4800
 
 	object_const_def
 ;	const MAPNAME_OBJECTNAME
-	const MAYBE_VILLAGE_MART_Shopkeeper
+	const MAYBE_VILLAGE_MART_SHOPKEEPER
 	const MAYBE_VILLAGE_MART_BRIGHT_CARD
 	const MAYBE_VILLAGE_MART_ULTRA_BALL
 	const MAYBE_VILLAGE_MART_HEART
 	const MAYBE_VILLAGE_MART_LUCKY_EGG
 	const MAYBE_VILLAGE_MART_TM
+	const MAYBE_VILLAGE_MART_ANGRY_SHOPKEEPER
 
 
 MaybeVillageMart_MapScripts:
 	def_scene_scripts
 ;	scene_script script, SCENE_MAPNAME_SCENE_NAME
+	scene_script MaybeVillageMartNotStolen, SCENE_MAYBE_VILLAGE_MART_NOT_STOLEN
+	scene_script MaybeVillageMartJustStole, SCENE_MAYBE_VILLAGE_MART_JUST_STOLE
+	scene_script MaybeVillageMartHaveStolen, SCENE_MAYBE_VILLAGE_MART_HAVE_STOLEN
+	scene_script MaybeVillageMartBeatShopkeeper, SCENE_MAYBE_VILLAGE_MART_BEAT_SHOPKEEPER
 
 	def_callbacks
 ;	callback type, script
+
+MaybeVillageMartNotStolen:
+MaybeVillageMartHaveStolen:
+MaybeVillageMartBeatShopkeeper:
+	end
+
+MaybeVillageMartJustStole:
+	appear MAYBE_VILLAGE_MART_ANGRY_SHOPKEEPER
+	clearevent EVENT_HAS_STOLEN
+	setevent EVENT_HAVE_NOT_STOLEN
+	setscene SCENE_MAYBE_VILLAGE_MART_HAVE_STOLEN
+	end
+
+AngryShopkeeper:
+	trainer SHOPKEEPER_T, SHOPKEEPER_1, EVENT_BEAT_SHOPKEEPER, AngryShopkeeperSeenText, AngryShopkeeperBeatenText, 0, .Script
+.Script:
+	opentext
+	writetext AngryShopkeeperAfterText
+	waitbutton
+	closetext
+	disappear MAYBE_VILLAGE_MART_ANGRY_SHOPKEEPER
+	pause 60
+	opentext
+	verbosegiveitem MASTER_BALL, 99
+	waitbutton
+	closetext
+	setscene SCENE_MAYBE_VILLAGE_MART_BEAT_SHOPKEEPER
+	end
+
+AngryShopkeeperSeenText:
+	text "I wasn't kidding"
+	line "when I said pay!"
+
+	para "Now, you'll pay"
+	line "the ultimate"
+	cont "price!!"
+	done
+
+AngryShopkeeperBeatenText:
+	text "It looks like I"
+	line "was the one to"
+	cont "pay the ultimate"
+	cont "price."
+	done
+
+AngryShopkeeperAfterText:
+	text "You have defeated"
+	line "me in capitalism."
+
+	para "The store is now"
+	line "yours..."
+	done
 
 LAShopkeeper:
 	opentext
@@ -198,6 +255,8 @@ MaybeVillageMartUltraBall:
 	applymovement MAYBE_VILLAGE_MART_ULTRA_BALL, MaybeVillageMartItemDown
 	follow PLAYER, MAYBE_VILLAGE_MART_ULTRA_BALL
 	setevent EVENT_FOLLOWED_BY_ULTRA_BALL
+	setval 2 ; Right
+	writemem wShopDirection
 	end
 .Got:
 	readmem wShopDirection
@@ -252,6 +311,8 @@ MaybeVillageMartHeart:
 	applymovement MAYBE_VILLAGE_MART_HEART, MaybeVillageMartItemDown
 	follow PLAYER, MAYBE_VILLAGE_MART_HEART
 	setevent EVENT_FOLLOWED_BY_HEART
+	setval 2 ; Right
+	writemem wShopDirection
 	end
 .Got:
 	readmem wShopDirection
@@ -306,6 +367,8 @@ MaybeVillageMartLuckyEgg:
 	applymovement MAYBE_VILLAGE_MART_LUCKY_EGG, MaybeVillageMartItemDown
 	follow PLAYER, MAYBE_VILLAGE_MART_LUCKY_EGG
 	setevent EVENT_FOLLOWED_BY_LUCKY_EGG
+	setval 2 ; Right
+	writemem wShopDirection
 	end
 .Got:
 	readmem wShopDirection
@@ -360,6 +423,8 @@ MaybeVillageMartTM:
 	applymovement MAYBE_VILLAGE_MART_TM, MaybeVillageMartItemDown
 	follow PLAYER, MAYBE_VILLAGE_MART_TM
 	setevent EVENT_FOLLOWED_BY_TM
+	setval 2 ; Right
+	writemem wShopDirection
 	end
 .Got:
 	readmem wShopDirection
@@ -414,6 +479,8 @@ MaybeVillageMartBrightCard:
 	applymovement MAYBE_VILLAGE_MART_BRIGHT_CARD, MaybeVillageMartItemDown
 	follow PLAYER, MAYBE_VILLAGE_MART_BRIGHT_CARD
 	setevent EVENT_FOLLOWED_BY_CARD
+	setval 2 ; Right
+	writemem wShopDirection
 	end
 .Got:
 	readmem wShopDirection
@@ -484,9 +551,7 @@ MaybeVillageMart55:
 	writemem wShopDirection
 	sjump .Facing
 .Facing:
-	turnobject MAYBE_VILLAGE_MART_Shopkeeper, LEFT
-	setevent LA_SHOPKEEPER_LEFT
-	clearevent LA_SHOPKEEPER_DOWN
+	sjump MaybeVillageMartShopkeeperLeft
 	readvar VAR_XCOORD
 	writemem wShopItemX
 	readvar VAR_YCOORD
@@ -515,9 +580,7 @@ MaybeVillageMart56:
 	writemem wShopDirection
 	sjump .Facing
 .Facing:
-	turnobject MAYBE_VILLAGE_MART_Shopkeeper, LEFT
-	setevent LA_SHOPKEEPER_LEFT
-	clearevent LA_SHOPKEEPER_DOWN
+	sjump MaybeVillageMartShopkeeperLeft
 	readvar VAR_XCOORD
 	writemem wShopItemX
 	readvar VAR_YCOORD
@@ -525,6 +588,7 @@ MaybeVillageMart56:
 	end
 
 MaybeVillageMart57:
+	setmapscene MAYBE_VILLAGE, SCENE_MAYBE_VILLAGE_NORMAL
 	readmem wShopItemX
 	ifless 5, .Left
 	readmem wShopItemY
@@ -541,16 +605,14 @@ MaybeVillageMart57:
 	writemem wShopDirection
 	sjump .Facing
 .Facing:
-	turnobject MAYBE_VILLAGE_MART_Shopkeeper, DOWN
-	setevent LA_SHOPKEEPER_DOWN
-	clearevent LA_SHOPKEEPER_LEFT
+	sjump MaybeVillageMartShopkeeperDown
 	readvar VAR_XCOORD
 	writemem wShopItemX
 	readvar VAR_YCOORD
 	writemem wShopItemY
 	end
 
-MaybeVillageMartShopUpLeft:
+MaybeVillageMartShop65:
 	readmem wShopItemX
 	ifless 6, .Left
 	setval 2 ; Right
@@ -566,14 +628,14 @@ MaybeVillageMartShopUpLeft:
 	readvar VAR_YCOORD
 	writemem wShopItemY
 	random 5
-	ifequal 0, MaybeVillageMartShopNoChange
-	ifequal 1, MaybeVillageMartShopUp
-	ifequal 2, MaybeVillageMartShopUp
-	ifequal 3, MaybeVillageMartShopLeft
-	ifequal 4, MaybeVillageMartShopLeft
+	ifequal 0, MaybeVillageMartShopkeeperNoChange
+	ifequal 1, MaybeVillageMartShopkeeperUp
+	ifequal 2, MaybeVillageMartShopkeeperUp
+	ifequal 3, MaybeVillageMartShopkeeperLeft
+	ifequal 4, MaybeVillageMartShopkeeperLeft
 	end
 
-MaybeVillageMartShopUp:
+MaybeVillageMartShop75:
 	readmem wShopItemX
 	ifless 7, .Left
 	setval 2 ; Right
@@ -589,13 +651,11 @@ MaybeVillageMartShopUp:
 	readvar VAR_YCOORD
 	writemem wShopItemY
 	random 5
-	ifequal 0, MaybeVillageMartShopNoChange
-	turnobject MAYBE_VILLAGE_MART_Shopkeeper, UP
-	clearevent LA_SHOPKEEPER_LEFT
-	clearevent LA_SHOPKEEPER_DOWN
+	ifequal 0, MaybeVillageMartShopkeeperNoChange
+	sjump MaybeVillageMartShopkeeperUp
 	end
 
-MaybeVillageMartShopUp2:
+MaybeVillageMartShop85:
 	readmem wShopItemX
 	ifless 8, .Left
 	setval 2 ; Right
@@ -611,13 +671,11 @@ MaybeVillageMartShopUp2:
 	readvar VAR_YCOORD
 	writemem wShopItemY
 	random 5
-	ifequal 0, MaybeVillageMartShopNoChange
-	turnobject MAYBE_VILLAGE_MART_Shopkeeper, UP
-	clearevent LA_SHOPKEEPER_LEFT
-	clearevent LA_SHOPKEEPER_DOWN
+	ifequal 0, MaybeVillageMartShopkeeperNoChange
+	sjump MaybeVillageMartShopkeeperUp
 	end
 
-MaybeVillageMartShopUpRight:
+MaybeVillageMartShop95:
 	readmem wShopItemX
 	ifless 9, .Left
 	setval 3 ; Down
@@ -633,14 +691,14 @@ MaybeVillageMartShopUpRight:
 	readvar VAR_YCOORD
 	writemem wShopItemY
 	random 5
-	ifequal 0, MaybeVillageMartShopNoChange
-	ifequal 1, MaybeVillageMartShopUp
-	ifequal 2, MaybeVillageMartShopUp
-	ifequal 3, MaybeVillageMartShopRight
-	ifequal 4, MaybeVillageMartShopRight
+	ifequal 0, MaybeVillageMartShopkeeperNoChange
+	ifequal 1, MaybeVillageMartShopkeeperUp
+	ifequal 2, MaybeVillageMartShopkeeperUp
+	ifequal 3, MaybeVillageMartShopkeeperRight
+	ifequal 4, MaybeVillageMartShopkeeperRight
 	end
 
-MaybeVillageMartShopRight:
+MaybeVillageMartShop96:
 	readmem wShopItemY
 	ifless 6, .Up
 	setval 3 ; Down
@@ -656,13 +714,11 @@ MaybeVillageMartShopRight:
 	readvar VAR_YCOORD
 	writemem wShopItemY
 	random 5
-	ifequal 0, MaybeVillageMartShopNoChange
-	turnobject MAYBE_VILLAGE_MART_Shopkeeper, RIGHT
-	clearevent LA_SHOPKEEPER_LEFT
-	clearevent LA_SHOPKEEPER_DOWN
+	ifequal 0, MaybeVillageMartShopkeeperNoChange
+	sjump MaybeVillageMartShopkeeperRight
 	end
 
-MaybeVillageMartShopDownRight:
+MaybeVillageMartShop97:
 	readmem wShopItemX
 	ifless 9, .Left
 	setval 1 ; Up
@@ -678,14 +734,14 @@ MaybeVillageMartShopDownRight:
 	readvar VAR_YCOORD
 	writemem wShopItemY
 	random 5
-	ifequal 0, MaybeVillageMartShopNoChange
-	ifequal 1, MaybeVillageMartShopDown
-	ifequal 2, MaybeVillageMartShopDown
-	ifequal 3, MaybeVillageMartShopRight
-	ifequal 4, MaybeVillageMartShopRight
+	ifequal 0, MaybeVillageMartShopkeeperNoChange
+	ifequal 1, MaybeVillageMartShopkeeperDown
+	ifequal 2, MaybeVillageMartShopkeeperDown
+	ifequal 3, MaybeVillageMartShopkeeperRight
+	ifequal 4, MaybeVillageMartShopkeeperRight
 	end
 
-MaybeVillageMartShopDown2:
+MaybeVillageMartShop87:
 	readmem wShopItemX
 	ifless 8, .Left
 	setval 2 ; Right
@@ -701,13 +757,11 @@ MaybeVillageMartShopDown2:
 	readvar VAR_YCOORD
 	writemem wShopItemY
 	random 2
-	ifequal 0, MaybeVillageMartShopNoChange
-	turnobject MAYBE_VILLAGE_MART_Shopkeeper, DOWN
-	clearevent LA_SHOPKEEPER_LEFT
-	setevent LA_SHOPKEEPER_DOWN
+	ifequal 0, MaybeVillageMartShopkeeperNoChange
+	sjump MaybeVillageMartShopkeeperDown
 	end
 
-MaybeVillageMartShopDown:
+MaybeVillageMartShop77:
 	readmem wShopItemX
 	ifless 7, .Left
 	setval 2 ; Right
@@ -723,13 +777,12 @@ MaybeVillageMartShopDown:
 	readvar VAR_YCOORD
 	writemem wShopItemY
 	random 2
-	ifequal 0, MaybeVillageMartShopNoChange
-	turnobject MAYBE_VILLAGE_MART_Shopkeeper, DOWN
-	clearevent LA_SHOPKEEPER_LEFT
-	setevent LA_SHOPKEEPER_DOWN
+	ifequal 0, MaybeVillageMartShopkeeperNoChange
+	sjump MaybeVillageMartShopkeeperDown
 	end
 
-MaybeVillageMartShopDownLeft:
+MaybeVillageMartShop67:
+	setmapscene MAYBE_VILLAGE, SCENE_MAYBE_VILLAGE_NORMAL
 	readmem wShopItemX
 	ifless 6, .Left
 	setval 2 ; Right
@@ -745,14 +798,14 @@ MaybeVillageMartShopDownLeft:
 	readvar VAR_YCOORD
 	writemem wShopItemY
 	random 5
-	ifequal 0, MaybeVillageMartShopNoChange
-	ifequal 1, MaybeVillageMartShopDown
-	ifequal 2, MaybeVillageMartShopNoChange
-	ifequal 3, MaybeVillageMartShopLeft
-	ifequal 4, MaybeVillageMartShopNoChange
+	ifequal 0, MaybeVillageMartShopkeeperNoChange
+	ifequal 1, MaybeVillageMartShopkeeperDown
+	ifequal 2, MaybeVillageMartShopkeeperNoChange
+	ifequal 3, MaybeVillageMartShopkeeperNoChange
+	ifequal 4, MaybeVillageMartShopkeeperNoChange
 	end
 
-MaybeVillageMartShopLeft:
+MaybeVillageMartShop66:
 	readmem wShopItemY
 	ifless 6, .Up
 	setval 3 ; Down
@@ -768,13 +821,37 @@ MaybeVillageMartShopLeft:
 	readvar VAR_YCOORD
 	writemem wShopItemY
 	random 5
-	ifequal 0, MaybeVillageMartShopNoChange
-	turnobject MAYBE_VILLAGE_MART_Shopkeeper, LEFT
-	setevent LA_SHOPKEEPER_LEFT
-	clearevent LA_SHOPKEEPER_DOWN
+	ifequal 0, MaybeVillageMartShopkeeperNoChange
+	sjump MaybeVillageMartShopkeeperLeft
 	end
 
-MaybeVillageMartShopNoChange:
+MaybeVillageMartShopkeeperUp:
+	turnobject MAYBE_VILLAGE_MART_SHOPKEEPER, UP
+	setval 1
+	writemem wShopkeeperFacing
+	end
+
+MaybeVillageMartShopkeeperRight:
+	turnobject MAYBE_VILLAGE_MART_SHOPKEEPER, RIGHT
+	setval 2
+	writemem wShopkeeperFacing
+	end
+
+MaybeVillageMartShopkeeperDown:
+	readmem wShopkeeperFacing
+	ifequal 1, MaybeVillageMartShopkeeperRight
+	turnobject MAYBE_VILLAGE_MART_SHOPKEEPER, DOWN
+	setval 3
+	writemem wShopkeeperFacing
+	end
+
+MaybeVillageMartShopkeeperLeft:
+	turnobject MAYBE_VILLAGE_MART_SHOPKEEPER, LEFT
+	setval 4
+	writemem wShopkeeperFacing
+	end
+
+MaybeVillageMartShopkeeperNoChange:
 	end
 
 MaybeVillageMart45:
@@ -996,27 +1073,47 @@ MaybeVillageMart27:
 
 MaybeVillageMartTryingToLeave:
 	checkevent EVENT_FOLLOWED_BY_CARD
-	iftrue .HaveItem
+	iftrue .HaveCard
 	checkevent EVENT_FOLLOWED_BY_ULTRA_BALL
-	iftrue .HaveItem
+	iftrue .HaveBall
 	checkevent EVENT_FOLLOWED_BY_HEART
-	iftrue .HaveItem
+	iftrue .HaveHeart
 	checkevent EVENT_FOLLOWED_BY_LUCKY_EGG
-	iftrue .HaveItem
+	iftrue .HaveLuckyEgg
 	checkevent EVENT_FOLLOWED_BY_TM
-	iftrue .HaveItem
+	iftrue .HaveTM
 	end
+.HaveCard
+	setval 1
+	writemem wStolenItem
+	sjump .HaveItem
+.HaveBall
+	setval 2
+	writemem wStolenItem
+	sjump .HaveItem
+.HaveHeart
+	setval 3
+	writemem wStolenItem
+	sjump .HaveItem
+.HaveLuckyEgg
+	setval 4
+	writemem wStolenItem
+	sjump .HaveItem
+.HaveTM
+	setval 5
+	writemem wStolenItem
+	sjump .HaveItem
 .HaveItem:
-	checkevent LA_SHOPKEEPER_LEFT
-	iftrue .Caught
-	checkevent LA_SHOPKEEPER_DOWN
-	iftrue .Caught
+	readmem wShopkeeperFacing
+	ifequal 3, .Caught
+	ifequal 4, .Caught
 	stopfollow
 	clearevent EVENT_FOLLOWED_BY_CARD
 	clearevent EVENT_FOLLOWED_BY_ULTRA_BALL
 	clearevent EVENT_FOLLOWED_BY_HEART
 	clearevent EVENT_FOLLOWED_BY_LUCKY_EGG
 	clearevent EVENT_FOLLOWED_BY_TM
+	setmapscene MAYBE_VILLAGE, SCENE_MAYBE_VILLAGE_JUST_STOLE
 	end
 .Caught:
 	opentext
@@ -1192,6 +1289,8 @@ LAShopkeeperNoMoreTMs:
 
 MaybeVillageMartItemDown:
 	step DOWN
+	step RIGHT
+	step DOWN
 	step_end
 
 MaybeVillageMartLeftSwap:
@@ -1359,16 +1458,16 @@ MaybeVillageMart_MapEvents:
 
 	def_coord_events
 ;	coord_event x, y, scene_id, script
-	coord_event  8,  5, -1, MaybeVillageMartShopUp2
-	coord_event  7,  5, -1, MaybeVillageMartShopUp
-	coord_event  9,  5, -1, MaybeVillageMartShopUpRight
-	coord_event  6,  6, -1, MaybeVillageMartShopLeft
-	coord_event  6,  5, -1, MaybeVillageMartShopUpLeft
-	coord_event  6,  7, -1, MaybeVillageMartShopDownLeft
-	coord_event  9,  6, -1, MaybeVillageMartShopRight
-	coord_event  9,  7, -1, MaybeVillageMartShopDownRight
-	coord_event  8,  7, -1, MaybeVillageMartShopDown2
-	coord_event  7,  7, -1, MaybeVillageMartShopDown
+	coord_event  8,  5, -1, MaybeVillageMartShop85
+	coord_event  7,  5, -1, MaybeVillageMartShop75
+	coord_event  9,  5, -1, MaybeVillageMartShop95
+	coord_event  6,  6, -1, MaybeVillageMartShop66
+	coord_event  6,  5, -1, MaybeVillageMartShop65
+	coord_event  6,  7, -1, MaybeVillageMartShop67
+	coord_event  9,  6, -1, MaybeVillageMartShop96
+	coord_event  9,  7, -1, MaybeVillageMartShop97
+	coord_event  8,  7, -1, MaybeVillageMartShop87
+	coord_event  7,  7, -1, MaybeVillageMartShop77
 	coord_event  5,  8, -1, MaybeVillageMartTryingToLeave
 	coord_event  6,  8, -1, MaybeVillageMartTryingToLeave
 	coord_event 2, 5, -1, MaybeVillageMart25
@@ -1394,9 +1493,10 @@ MaybeVillageMart_MapEvents:
 
 	def_object_events
 ;	object_event x, y, sprite, movement, rx, ry, h1, h2, palette, type, range, script, event_flag
-	object_event  8,  6, SPRITE_SHOPKEEPER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, LAShopkeeper, -1
+	object_event  8,  6, SPRITE_SHOPKEEPER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, LAShopkeeper, EVENT_HAS_STOLEN
 	object_event  2,  3, SPRITE_CARD, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_SCRIPT, 0, MaybeVillageMartBrightCard, EVENT_BOUGHT_BRIGHT_CARD
-	object_event  3,  3, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_SCRIPT, 0, MaybeVillageMartUltraBall, -1
-	object_event  4,  3, SPRITE_HEART, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_SCRIPT, 0, MaybeVillageMartHeart, -1
-	object_event  6,  3, SPRITE_EGG, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_SCRIPT, 0, MaybeVillageMartLuckyEgg, -1
+	object_event  3,  3, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, MaybeVillageMartUltraBall, -1
+	object_event  4,  3, SPRITE_HEART, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, MaybeVillageMartHeart, -1
+	object_event  6,  3, SPRITE_EGG, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, MaybeVillageMartLuckyEgg, -1
 	object_event  8,  3, SPRITE_TM, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_SCRIPT, 0, MaybeVillageMartTM, EVENT_BOUGHT_PLAY_ROUGH
+	object_event  5,  5, SPRITE_SHOPKEEPER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 3, AngryShopkeeper, EVENT_HAVE_NOT_STOLEN

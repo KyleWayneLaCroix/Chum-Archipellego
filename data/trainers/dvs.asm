@@ -101,4 +101,5 @@ TrainerClassDVs:
 	dn  8, 10,  7, 11 ; ROCK_BRIAN
 	dn  8,  9,  8, 10 ; TREE_BRIAN
 	dn  8,  8,  8,  8 ; OCTOROK
+	dn 15, 15, 15, 15 ; SHOPKEEPER
 	assert_table_length NUM_TRAINER_CLASSES

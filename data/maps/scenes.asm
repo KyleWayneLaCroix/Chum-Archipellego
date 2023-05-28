@@ -49,6 +49,8 @@ MapScenes::
 	scene_var VOLCANO_INTERIOR_5F,          wVolcanoInterior5FSceneID
 
 	scene_var MARINS_HOUSE,                 wMarinsHouseSceneID
+	scene_var MAYBE_VILLAGE,                wMaybeVillageSceneID
+	scene_var MAYBE_VILLAGE_MART,           wMaybeVillageMartSceneID
 	scene_var PHONE_ROOM,                   wPhoneRoomSceneID
 	scene_var BAD_EGG_EXTERIOR,             wBadEggExteriorSceneID
 

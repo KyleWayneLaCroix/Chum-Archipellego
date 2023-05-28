@@ -76,6 +76,7 @@ MaleTrainers:
 	db ROCK_BRIAN
 	db TREE_BRIAN
 	db OCTOROK_T
+	db SHOPKEEPER_T
 .End
 
 FemaleTrainers:

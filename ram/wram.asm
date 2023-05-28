@@ -3031,6 +3031,8 @@ wFarfetchdPosition:: db
 wShopItemX:: db
 wShopItemY:: db
 wShopDirection:: db
+wShopkeeperFacing:: db
+wStolenItem:: db
 
 ; map scene ids
 wPokecenter2FSceneID::              db
@@ -3068,9 +3070,11 @@ wVolcanoInterior3FSceneID::         db
 wVolcanoInterior4FSceneID::         db
 wVolcanoInterior5FSceneID::         db
 wMarinsHouseSceneID::               db
+wMaybeVillageSceneID::              db
+wMaybeVillageMartSceneID::          db
 wPhoneRoomSceneID::                 db
 wBadEggExteriorSceneID::            db
-	ds 55
+	ds 51
 
 ; fight counts
 wJackFightCount::    db
