@@ -82,6 +82,13 @@ MaybeVillageJustStole:
 	setval 0
 	writemem wStolenItem
 	setevent EVENT_HAS_STOLEN
+	checkevent EVENT_HAS_STOLEN_EVER
+	iffalse .FirstTime
+	end
+.FirstTime:
+	setevent EVENT_HAS_STOLEN_EVER
+	clearevent EVENT_BEAT_DETECTIVE_GUM
+	clearevent EVENT_BEAT_DETECTIVE_JANE
 	end
 MaybeVillageTheftText:
 	text "Guess what?"

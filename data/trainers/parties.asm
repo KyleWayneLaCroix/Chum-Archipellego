@@ -466,15 +466,21 @@ CoupleGroup:
 DetectiveFGroup:
 	; DETECTIVE_F (1)
 	db "JANE", TRAINERTYPE_NORMAL
-	db  1, DITTO
-	db  1, DITTO
+	db 36, RAPIDASH
+	db 34, ESPEON
+	db 36, ORICORIO_PAU
+	db 34, MUSHARNA
+	db 36, LUMINEON
 	db -1 ; end
 
 DetectiveMGroup:
 	; DETECTIVE_M (1)
 	db "GUM", TRAINERTYPE_NORMAL
-	db  1, DITTO
-	db  1, DITTO
+	db 36, BOLTUND
+	db 34, LEAFEON
+	db 34, NOIVERN
+	db 36, SEISMITOAD
+	db 35, ANGORE
 	db -1 ; end
 
 EngineerGroup:
@@ -1141,7 +1147,10 @@ SightseerMGroup:
 SkaterBoyGroup:
 	; SKATER_BOY (1)
 	db "TONY@", TRAINERTYPE_NORMAL
-	db 1, DITTO
+	db 32, JOLTEON
+	db 30, ZEBSTRIKA
+	db 31, SALAZZLE
+	db 34, FLOATZEL
 	db -1 ; end
 
 SkierGroup:
