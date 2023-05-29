@@ -443,6 +443,7 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 	const MOBLIN_3
 	const MOBLIN_4
 	const MOBLIN_5
+	const WILKEN
 
 DEF KRIS EQU __trainer_class__
 

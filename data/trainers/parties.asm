@@ -1719,3 +1719,10 @@ MoblinGroup:
 	db 30, LAIRON
 	db 28, GALLADE
 	db -1 ; end
+
+	; MOBLIN (6)
+	db "WILKEN@", TRAINERTYPE_NORMAL
+	db 30, SNORLAX
+	db 30, OBSTAGOON
+	db 30, URSALUNA
+	db -1 ; end

@@ -1144,13 +1144,13 @@
 	const EVENT_BEAT_MOBLIN_3
 	const EVENT_BEAT_MOBLIN_4
 	const EVENT_BEAT_MOBLIN_5
+	const EVENT_BEAT_MOBLIN_WILKEN
 ; Detective M
 	const EVENT_BEAT_DETECTIVE_GUM
 ; Detective F
 	const EVENT_BEAT_DETECTIVE_JANE
 ; Skater Boys
 	const EVENT_BEAT_SKATER_BOY_TONY
-	const_skip
 	const_skip
 	const_skip
 	const_skip
