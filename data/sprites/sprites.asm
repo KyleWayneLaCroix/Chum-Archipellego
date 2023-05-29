@@ -125,4 +125,5 @@ OverworldSprites:
 	overworld_sprite EggSpriteGFX, 4, STILL_SPRITE, PAL_OW_GREEN
 	overworld_sprite TMSpriteGFX, 4, STILL_SPRITE, PAL_OW_PURPLE
 	overworld_sprite LAGrampsSpriteGFX, 4, STILL_SPRITE, PAL_OW_RED
+	overworld_sprite GreatFairySpriteGFX, 12, STANDING_SPRITE, PAL_OW_RED
 	assert_table_length NUM_OVERWORLD_SPRITES

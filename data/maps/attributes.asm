@@ -252,6 +252,10 @@ ENDM
 	map_attributes PhoneRoom, PHONE_ROOM, $00, 0
 	map_attributes QuadrupletsHouse, QUADRUPLETS_HOUSE, $00, 0
 	map_attributes SuperFisherFellowsHouse, SUPER_FISHER_FELLOWS_HOUSE, $00, 0
+	map_attributes MisplacedCavern1F, MISPLACED_CAVERN_1F, $00, 0
+	map_attributes MisplacedCavern2F, MISPLACED_CAVERN_2F, $00, 0
+	map_attributes MisplacedCavernB1F, MISPLACED_CAVERN_B1F, $00, 0
+	map_attributes MoblinWilkensHouse, MOBLIN_WILKENS_HOUSE, $00, 0
 
 	map_attributes VolcanoInteriorB1F, VOLCANO_INTERIOR_B1F, $00, 0
 	map_attributes VolcanoInteriorB1FHall, VOLCANO_INTERIOR_B1F_HALL, $09, 0

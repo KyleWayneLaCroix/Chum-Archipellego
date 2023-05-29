@@ -390,3 +390,14 @@ FrozenCavern3F_Blocks:
 FrozenGrotto_Blocks:
 	INCBIN "maps/FrozenGrotto.ablk"
 
+MoblinWilkensHouse_Blocks:
+	INCBIN "maps/MoblinWilkensHouse.ablk"
+
+MisplacedCavern1F_Blocks:
+	INCBIN "maps/MisplacedCavern1F.ablk"
+
+MisplacedCavern2F_Blocks:
+	INCBIN "maps/MisplacedCavern2F.ablk"
+
+MisplacedCavernB1F_Blocks:
+	INCBIN "maps/GreatFairyFountain.ablk"

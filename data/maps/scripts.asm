@@ -172,7 +172,10 @@ SECTION "Map Scripts 15", ROMX
 SECTION "Map Scripts 16", ROMX
 INCLUDE "maps/MaybeVillage.asm"
 INCLUDE "maps/MisplacedWoods.asm"
-
+INCLUDE "maps/MisplacedCavern1F.asm"
+INCLUDE "maps/MisplacedCavern2F.asm"
+INCLUDE "maps/MisplacedCavernB1F.asm"
+INCLUDE "maps/MoblinWilkensHouse.asm"
 
 
 SECTION "Map Scripts 17", ROMX

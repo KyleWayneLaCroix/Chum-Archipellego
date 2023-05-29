@@ -176,7 +176,11 @@ ENDM
 	map_const OLD_MANS_HOUSE,                   6,  5
 	map_const PHONE_ROOM,                       6,  5
 	map_const QUADRUPLETS_HOUSE,               10,  5
-	map_const SUPER_FISHER_FELLOWS_HOUSE,        6,  5
+	map_const SUPER_FISHER_FELLOWS_HOUSE,       6,  5
+	map_const MISPLACED_CAVERN_1F,             10, 10
+	map_const MISPLACED_CAVERN_2F,             10, 10
+	map_const MISPLACED_CAVERN_B1F,            10, 10
+	map_const MOBLIN_WILKENS_HOUSE,             6,  5
 	endgroup
 
 	newgroup DUNGEONS                                 ; 12
