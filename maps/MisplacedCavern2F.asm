@@ -317,7 +317,7 @@ MisplacedCavern2F_MapEvents:
 	def_warp_events
 ;	warp_event x, y, map, warp_id
 	warp_event 17, 2, MISPLACED_CAVERN_1F, 2
-	warp_event  5, 19, MISPLACED_WOODS, 3
+	warp_event  5, 18, MISPLACED_WOODS, 3
 
 	def_coord_events
 ;	coord_event x, y, scene_id, script
