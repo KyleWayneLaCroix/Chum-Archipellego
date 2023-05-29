@@ -348,6 +348,23 @@ MisplacedWoodsRevive:
 .End:
 	end
 
+MisplacedWoodsLedge:
+	applymovement PLAYER, MisplacedWoodsLedgeMovement
+	end
+
+MisplacedWoodsLedgeMovement:
+	jump_step DOWN
+	step_end
+
+MisplacedWoodsHiddenXAccuracy:
+	hiddenitem X_ACCURACY, EVENT_MISPLACED_WOODS_HIDDEN_X_ACCURACY
+
+MisplacedWoodsHiddenXDefend:
+	hiddenitem X_DEFEND, EVENT_MISPLACED_WOODS_HIDDEN_X_DEFEND
+
+MisplacedWoodsHiddenXAccuracy:
+	hiddenitem MAX_POTION, EVENT_MISPLACED_WOODS_HIDDEN_MAX_POTION
+
 MisplacedWoods_MapEvents:
 	db 0, 0 ; filler
 
@@ -361,6 +378,8 @@ MisplacedWoods_MapEvents:
 	
 	def_coord_events
 ;	coord_event x, y, scene_id, script
+	coord_event 42, 30, -1, MisplacedWoodsLedge
+	coord_event 40, 34, -1, MisplacedWoodsLedge
 
 	def_bg_events
 ;	bg_event x, y, type, script
@@ -369,15 +388,18 @@ MisplacedWoods_MapEvents:
 	bg_event 28, 36, BGEVENT_READ, MisplacedWoodsElixer
 	bg_event 38, 26, BGEVENT_READ, MisplacedWoodsIron
 	bg_event 20, 30, BGEVENT_READ, MisplacedWoodsRevive
+	bg_event 35,  8, BGEVENT_ITEM, MisplacedWoodsHiddenXAccuracy
+	bg_event  7,  9, BGEVENT_ITEM, MisplacedWoodsHiddenXDefend
+	bg_event 38,  2, BGEVENT_ITEM, MisplacedWoodsHiddenMaxPotion
 
 	def_object_events
 ;	object_event x, y, sprite, movement, rx, ry, h1, h2, palette, type, range, script, event_flag
 	object_event 44, 17, SPRITE_MOBLIN, SPRITEMOVEDATA_WANDER, 3, 3, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 2, MisplacedWoodsMoblin1, EVENT_BEAT_MOBLIN_1
-	object_event 50, 32, SPRITE_MOBLIN, SPRITEMOVEDATA_WANDER, 3, 3, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 2, MisplacedWoodsMoblin2, EVENT_BEAT_MOBLIN_2
-	object_event 14,  3, SPRITE_MOBLIN, SPRITEMOVEDATA_WANDER, 3, 3, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 2, MisplacedWoodsMoblin3, EVENT_BEAT_MOBLIN_3
-	object_event 35, 31, SPRITE_MOBLIN, SPRITEMOVEDATA_WANDER, 3, 3, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 2, MisplacedWoodsMoblin4, EVENT_BEAT_MOBLIN_4
-	object_event 13, 35, SPRITE_MOBLIN, SPRITEMOVEDATA_WANDER, 3, 3, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 2, MisplacedWoodsMoblin5, EVENT_BEAT_MOBLIN_5
-	object_event 42, 37, SPRITE_GEL, SPRITEMOVEDATA_WANDER, 2, 2, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, MisplacedWoodsGel1, EVENT_MISPLACED_WOODS_GEL_1
+	object_event 48, 37, SPRITE_MOBLIN, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 2, 2, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 2, MisplacedWoodsMoblin2, EVENT_BEAT_MOBLIN_2
+	object_event 14,  3, SPRITE_MOBLIN, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 3, 3, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 1, MisplacedWoodsMoblin3, EVENT_BEAT_MOBLIN_3
+	object_event 35, 33, SPRITE_MOBLIN, SPRITEMOVEDATA_WALK_UP_DOWN, 2, 2, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 2, MisplacedWoodsMoblin4, EVENT_BEAT_MOBLIN_4
+	object_event 15, 36, SPRITE_MOBLIN, SPRITEMOVEDATA_WANDER, 3, 3, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 2, MisplacedWoodsMoblin5, EVENT_BEAT_MOBLIN_5
+	object_event 50, 31, SPRITE_GEL, SPRITEMOVEDATA_WANDER, 2, 2, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, MisplacedWoodsGel1, EVENT_MISPLACED_WOODS_GEL_1
 	object_event 22,  8, SPRITE_GEL, SPRITEMOVEDATA_WANDER, 2, 2, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, MisplacedWoodsGel2, EVENT_MISPLACED_WOODS_GEL_2
 	object_event 13, 17, SPRITE_GEL, SPRITEMOVEDATA_WANDER, 2, 2, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, MisplacedWoodsGel3, EVENT_MISPLACED_WOODS_GEL_3
 	object_event 33, 14, SPRITE_GEL, SPRITEMOVEDATA_WANDER, 2, 2, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_SCRIPT, 0, MisplacedWoodsGel4, EVENT_MISPLACED_WOODS_GEL_4
