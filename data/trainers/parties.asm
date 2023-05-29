@@ -1682,3 +1682,31 @@ MoblinGroup:
 	db 30, UMBREON
 	db 28, LINOONE
 	db -1 ; end
+	
+	; MOBLIN (2)
+	db "NOGBRAB", TRAINERTYPE_NORMAL
+	db 30, CORVISQUIRE
+	db 32, GRIMER
+	db 28, LIEPARD
+	db -1 ; end
+	
+	; MOBLIN (3)
+	db "GROP", TRAINERTYPE_NORMAL
+	db 30, PERRSERKER
+	db 30, URSARING
+	db 28, HOUNDOOM
+	db -1 ; end
+	
+	; MOBLIN (4)
+	db "NAGRAM", TRAINERTYPE_NORMAL
+	db 30, SNORLAX
+	db 30, MAWILE
+	db 28, BEWEAR
+	db -1 ; end
+	
+	; MOBLIN (5)
+	db "GRECK", TRAINERTYPE_NORMAL
+	db 30, DUBWOOL
+	db 30, LAIRON
+	db 28, GALLADE
+	db -1 ; end
