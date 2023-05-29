@@ -362,7 +362,7 @@ MisplacedWoodsHiddenXAccuracy:
 MisplacedWoodsHiddenXDefend:
 	hiddenitem X_DEFEND, EVENT_MISPLACED_WOODS_HIDDEN_X_DEFEND
 
-MisplacedWoodsHiddenXAccuracy:
+MisplacedWoodsHiddenMaxPotion:
 	hiddenitem MAX_POTION, EVENT_MISPLACED_WOODS_HIDDEN_MAX_POTION
 
 MisplacedWoods_MapEvents:
