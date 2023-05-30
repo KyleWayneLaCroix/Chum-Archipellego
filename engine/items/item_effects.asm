@@ -196,8 +196,8 @@ ItemEffects:
 	dw NoEffect            ; JUMP
 	dw NoEffect            ; RUPEE
 	dw RestoreHPEffect     ; HEART
-	dw NoEffect            ; ITEM_ B7
-	dw NoEffect            ; ITEM_ B8
+	dw NoEffect            ; BRITE_CARD
+	dw BombEffect          ; BOMBS
 	dw NoEffect            ; ITEM_ B9
 	dw NoEffect            ; ITEM_ BA
 	dw NoEffect            ; ITEM_ BB
@@ -2913,6 +2913,12 @@ ChainsawEffect:
 	ld a, 1
 	ld [wUsingHMItem], a
 	farcall CutFunction
+	ret
+
+BombEffect:
+	ld a, 1
+	ld [wUsingHMItem], a
+	farcall RockSmashFunction
 	ret
 
 PocketPCEffect:

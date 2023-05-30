@@ -459,22 +459,21 @@ _AskHeadbuttText::
 	done
 
 _UseRockSmashText::
-	text_ram wStringBuffer2
-	text " used"
-	line "ROCK SMASH!"
+	text "You set off a"
+	line "BOMB!"
 	prompt
 
 _MaySmashText::
-	text "Maybe a #MON"
+	text "Maybe a BOMB"
 	line "can break this."
 	done
 
 _AskRockSmashText::
-	text "This rock looks"
+	text "This looks"
 	line "breakable."
 
-	para "Want to use ROCK"
-	line "SMASH?"
+	para "Want to use a"
+	line "BOMB?"
 	done
 
 _RodBiteText::

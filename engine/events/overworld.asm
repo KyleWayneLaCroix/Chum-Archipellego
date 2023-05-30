@@ -1460,7 +1460,6 @@ RockSmashFromMenuScript:
 	special UpdateTimePals
 
 RockSmashScript:
-	callasm GetPartyNickname
 	writetext UseRockSmashText
 	closetext
 	special WaitSFX
@@ -1516,14 +1515,17 @@ AskRockSmashText:
 	text_end
 
 HasRockSmash:
-	ld d, ROCK_SMASH
+	ld a, BOMBS
+	ld [wCurItem], a
+	ld hl, wNumItems
+	call CheckItem
 	call CheckPartyMove
-	jr nc, .yes
-; no
-	ld a, 1
-	jr .done
-.yes
+	jr nc, .no
+; yes
 	xor a
+	jr .done
+.no:
+	ld a, 1
 	jr .done
 .done
 	ld [wScriptVar], a

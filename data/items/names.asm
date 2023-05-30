@@ -183,7 +183,7 @@ ItemNames::
 	li "RUPEE"
 	li "HEART"
 	li "BRITE CARD"
-	li "TERU-SAMA"
+	li "BOMBS"
 	li "TERU-SAMA"
 	li "TERU-SAMA"
 	li "TERU-SAMA"

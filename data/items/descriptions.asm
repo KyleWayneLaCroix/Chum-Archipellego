@@ -183,8 +183,8 @@ ItemDescriptions:
 	dw JumpDesc
 	dw RupeeDesc
 	dw HeartDesc
-	dw TeruSama18Desc
-	dw TeruSama19Desc
+	dw BriteCardDesc
+	dw BombsDesc
 	dw TeruSama20Desc
 	dw TeruSama21Desc
 	dw TeruSama22Desc
@@ -861,11 +861,13 @@ BerserkGeneDesc:
 	db   "Boosts ATTACK but"
 	next "causes confusion.@"
 
-TeruSama18Desc:
-	db   "?@"
+BriteCardDesc:
+	db   "This and 3 JUMPS"
+	next "Gets you in.@"
 
-TeruSama19Desc:
-	db   "?@"
+BombsDesc:
+	db   "Blow up rocks and"
+	next "some walls!@"
 
 TeruSama20Desc:
 	db   "?@"

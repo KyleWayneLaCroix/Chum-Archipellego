@@ -189,8 +189,8 @@
 	const RUPEE        ; b5
 	const HEART        ; b6
 	const BRITE_CARD   ; b7
-	const ITEM_B8      ; b8
-	const ITEM_B9      ; b9
+	const BOMBS        ; b8
+	const MEDICAL_CARD ; b9
 	const ITEM_BA      ; ba
 	const ITEM_BB      ; bb
 	const ITEM_BC      ; bc
