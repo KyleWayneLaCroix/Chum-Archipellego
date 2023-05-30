@@ -185,7 +185,7 @@ ItemDescriptions:
 	dw HeartDesc
 	dw BriteCardDesc
 	dw BombsDesc
-	dw TeruSama20Desc
+	dw MedicalcardDesc
 	dw TeruSama21Desc
 	dw TeruSama22Desc
 	dw TeruSama23Desc
@@ -869,8 +869,9 @@ BombsDesc:
 	db   "Blow up rocks and"
 	next "some walls!@"
 
-TeruSama20Desc:
-	db   "?@"
+MedicalcardDesc:
+	db   "DR. NUGGZ MD says"
+	next "you can buy weed@"
 
 SacredAshDesc:
 	db   "Fully revives all"

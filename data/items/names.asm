@@ -184,7 +184,7 @@ ItemNames::
 	li "HEART"
 	li "BRITE CARD"
 	li "BOMBS"
-	li "TERU-SAMA"
+	li "MEDICAL CARD"
 	li "TERU-SAMA"
 	li "TERU-SAMA"
 	li "TERU-SAMA"

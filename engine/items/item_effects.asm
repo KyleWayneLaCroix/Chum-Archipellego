@@ -198,7 +198,7 @@ ItemEffects:
 	dw RestoreHPEffect     ; HEART
 	dw NoEffect            ; BRITE_CARD
 	dw BombEffect          ; BOMBS
-	dw NoEffect            ; ITEM_ B9
+	dw NoEffect            ; MEDICAL_CARD
 	dw NoEffect            ; ITEM_ BA
 	dw NoEffect            ; ITEM_ BB
 	dw NoEffect            ; ITEM_ BC
