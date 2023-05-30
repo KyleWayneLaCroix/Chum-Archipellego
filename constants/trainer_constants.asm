@@ -28,7 +28,7 @@ DEF CHRIS EQU __trainer_class__
 DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 
 	trainerclass CASEY
-	const CASEY1
+	const CASEY_1
 
 	trainerclass JORDAN    ; 1
 	const JORDAN1

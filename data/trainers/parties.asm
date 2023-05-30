@@ -13,7 +13,9 @@ Trainers:
 CaseyGroup:
 	; CASEY (1)
 	db "CASEY@", TRAINERTYPE_NORMAL
-	db  1, DITTO
+	db 33, POPPY
+	db 34, DAISY
+	db 36, BOOMER
 	db -1 ; end
 
 JordanGroup:

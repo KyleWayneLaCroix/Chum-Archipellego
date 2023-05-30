@@ -1151,7 +1151,8 @@
 	const EVENT_BEAT_DETECTIVE_JANE
 ; Skater Boys
 	const EVENT_BEAT_SKATER_BOY_TONY
-	const_skip
+; Casey
+	const EVENT_BEAT_CASEY_1
 	const_skip
 	const_skip
 	const_skip
