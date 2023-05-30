@@ -454,7 +454,7 @@ CooltrainerMGroup:
 
 CoupleGroup:
 	; COUPLE (1)
-	db "JO & JOE", TRAINERTYPE_NORMAL
+	db "JO & JOE@", TRAINERTYPE_NORMAL
 	db 25, LUXWAN
 	db 25, SIRFETCHD
 	db 25, JUNGELA
@@ -465,7 +465,7 @@ CoupleGroup:
 
 DetectiveFGroup:
 	; DETECTIVE_F (1)
-	db "JANE", TRAINERTYPE_NORMAL
+	db "JANE@", TRAINERTYPE_NORMAL
 	db 36, RAPIDASH
 	db 34, ESPEON
 	db 36, ORICORIO_PAU
@@ -475,7 +475,7 @@ DetectiveFGroup:
 
 DetectiveMGroup:
 	; DETECTIVE_M (1)
-	db "GUM", TRAINERTYPE_NORMAL
+	db "GUM@", TRAINERTYPE_NORMAL
 	db 36, BOLTUND
 	db 34, LEAFEON
 	db 34, NOIVERN
@@ -485,7 +485,7 @@ DetectiveMGroup:
 
 EngineerGroup:
 	; ENGINEER (1)
-	db "DONNY", TRAINERTYPE_NORMAL
+	db "DONNY@", TRAINERTYPE_NORMAL
 	db 28, PERRSERKER
 	db 27, SKARMORY
 	db 24, MAWILE
@@ -494,7 +494,7 @@ EngineerGroup:
 
 FancyLadGroup:
 	; FANCY_LAD (1)
-	db "HAYDEN", TRAINERTYPE_NORMAL
+	db "HAYDEN@", TRAINERTYPE_NORMAL
 	db 25, DITTO
 	db 26, DITTO
 	db -1 ; end
@@ -517,7 +517,7 @@ FedoraManGroup:
 
 FeralChildGroup:
 	; FERAL_CHILD (1)
-	db "GAU", TRAINERTYPE_NORMAL
+	db "GAU@", TRAINERTYPE_NORMAL
 	db 25, TIRTOUGA
 	db 24, AMAURA
 	db 25, ORANGURU
@@ -617,7 +617,7 @@ GhostTGroup:
 
 GirlBossGroup:
 	; GIRL_BOSS (1)
-	db "LINA", TRAINERTYPE_NORMAL
+	db "LINA@", TRAINERTYPE_NORMAL
 	db  1, DITTO
 	db  1, DITTO
 	db -1 ; end
@@ -696,7 +696,7 @@ GuitaristGroup:
 
 HexManiacGroup:
 	; HEX_MANIAC (1)
-	db "HANNA", TRAINERTYPE_NORMAL
+	db "HANNA@", TRAINERTYPE_NORMAL
 	db 28, LITWICK
 	db 24, HAUNTER
 	db 24, UMBREON
@@ -791,14 +791,14 @@ JugglerGroup:
 
 KarateKingGroup:
 	; KARATE_KING (1)
-	db "JET", TRAINERTYPE_NORMAL
+	db "JET@", TRAINERTYPE_NORMAL
 	db  1, DITTO
 	db  1, DITTO
 	db -1 ; end
 
 KarenGroup:
 	; KAREN (1)
-	db "KAREN", TRAINERTYPE_NORMAL
+	db "KAREN@", TRAINERTYPE_NORMAL
 	db  1, DITTO
 	db  1, DITTO
 	db -1 ; end
@@ -851,7 +851,7 @@ KimonoGirlGroup:
 
 LadyGroup:
 	; LADY (1)
-	db "PEACOCK", TRAINERTYPE_NORMAL
+	db "PEACOCK@", TRAINERTYPE_NORMAL
 	db  1, DITTO
 	db  1, DITTO
 	db -1 ; end
@@ -916,14 +916,14 @@ MediumGroup:
 
 NinjaFGroup:
 	; NINJA_F (1)
-	db "HINATA", TRAINERTYPE_NORMAL
+	db "HINATA@", TRAINERTYPE_NORMAL
 	db  1, DITTO
 	db  1, DITTO
 	db -1 ; end
 
 NinjaMGroup:
 	; NINJA_M (1)
-	db "NARUTO", TRAINERTYPE_NORMAL
+	db "NARUTO@", TRAINERTYPE_NORMAL
 	db  1, DITTO
 	db  1, DITTO
 	db -1 ; end
