@@ -179,7 +179,7 @@ ENDM
 	map_const SUPER_FISHER_FELLOWS_HOUSE,       6,  5
 	map_const MISPLACED_CAVERN_1F,             10, 10
 	map_const MISPLACED_CAVERN_2F,             10, 10
-	map_const MISPLACED_CAVERN_B1F,            10, 10
+	map_const MISPLACED_CAVERN_B1F,             5,  4
 	map_const MOBLIN_WILKENS_HOUSE,             6,  5
 	endgroup
 

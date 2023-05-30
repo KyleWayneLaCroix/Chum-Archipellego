@@ -53,6 +53,16 @@ MoblinWilkenSeenText:
 	cont "belongings in my"
 	cont "pants when out"
 	cont "and about."
+
+	para "Speaking of pants"
+	line "you better not be"
+	cont "with that guy who"
+	cont "peed on my suit."
+
+	para "I wouldn't have"
+	line "been caught if I"
+	cont "had my suit"
+	cont "pockets..."
 	done
 
 MoblinWilkenBeatenText:

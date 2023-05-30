@@ -36,8 +36,12 @@ MisplacedWoodsChestCallback:
 	changeblock 8, 2, $33
 .Revive:
 	checkevent EVENT_MISPLACED_WOODS_REVIVE
-	iffalse .CallbackEnd
+	iffalse .Bomb
 	changeblock 20, 30, $33
+.Bomb:
+	checkevent EVENT_BOMBED_MISPLACED_WOODS_WALL
+	iffalse .CallbackEnd
+	changeblock 46, 34, $21
 .CallbackEnd:
 	endcallback
 
@@ -365,6 +369,65 @@ MisplacedWoodsHiddenXDefend:
 MisplacedWoodsHiddenMaxPotion:
 	hiddenitem MAX_POTION, EVENT_MISPLACED_WOODS_HIDDEN_MAX_POTION
 
+MisplacedWoodsBombWall:
+	checkevent EVENT_BOMBED_MISPLACED_WOODS_WALL
+	iftrue .End
+	opentext
+	writetext MisplacedWoodsBombWallText1
+	waitbutton
+	checkitem BOMBS
+	iffalse .NoBombs
+	writetext MisplacedWoodsBombWallText2
+	yesorno
+	iffalse .End
+	closetext
+	applymovement PLAYER, MisplacedWoodsMoveFromBomb
+	pause 30
+	playsound SFX_STRENGTH
+	earthquake 40
+	waitsfx
+	changeblock 46, 34, $21
+	reloadmappart
+	applymovement PLAYER, MisplacedWoodsReturnFromBomb
+	turnobject PLAYER, UP
+	opentext
+	writetext MisplacedWoodsBlownUp
+	waitbutton
+	setevent EVENT_BOMBED_MISPLACED_WOODS_WALL
+.End:
+	closetext
+	end
+.NoBombs
+	closetext
+	end
+
+MisplacedWoodsBombWallText1:
+	text "This wall looks"
+	line "bombable..."
+	done
+
+MisplacedWoodsBombWallText2:
+	text "Blow it up with"
+	line "a BOMB?"
+	done
+
+MisplacedWoodsBlownUp:
+	text "A new cavern has"
+	line "been discovered."
+	done
+
+MisplacedWoodsMoveFromBomb:
+	step RIGHT
+	step RIGHT
+	step UP
+	step_end
+
+MisplacedWoodsReturnFromBomb:
+	step DOWN
+	step LEFT
+	step LEFT
+	step_end
+
 MisplacedWoods_MapEvents:
 	db 0, 0 ; filler
 
@@ -391,6 +454,7 @@ MisplacedWoods_MapEvents:
 	bg_event 35,  8, BGEVENT_ITEM, MisplacedWoodsHiddenXAccuracy
 	bg_event  7,  9, BGEVENT_ITEM, MisplacedWoodsHiddenXDefend
 	bg_event 38,  2, BGEVENT_ITEM, MisplacedWoodsHiddenMaxPotion
+	bg_event 47, 35, BGEVENT_READ, MisplacedWoodsBombWall
 
 	def_object_events
 ;	object_event x, y, sprite, movement, rx, ry, h1, h2, palette, type, range, script, event_flag
