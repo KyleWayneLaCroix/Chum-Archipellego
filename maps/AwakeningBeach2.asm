@@ -16,7 +16,7 @@
 	const AWAKENING_BEACH_CRAB_6
 	const AWAKENING_BEACH_CRAB_7
 	const AWAKENING_BEACH_CRAB_8
-	const AWAKENING_BEACH_YOUNGSTER
+	const AWAKENING_BEACH_SWORD
 	const AWAKENING_BEACH_GIRL
 	const AWAKENING_BEACH_KAEPORA
 
@@ -234,11 +234,92 @@ BeachOctorokBeatenText:
 	text "Brrrrrrwwwr"
 	done
 
-AwakeningBeachYoungster:
 AwakeningBeachGirl:
 AwakeningBeachKaepora:
 	end
 
+AwakeningBeachSword:
+	opentext
+	writetext AwakeningBeach2FoundYourSword
+	waitbutton
+	verbosegiveitem CHAINSAW
+	disappear AWAKENING_BEACH_SWORD
+	closetext
+	setevent EVENT_GOT_SWORD_ON_BEACH
+	clearevent EVENT_SAW_KAEPORA_ON_BEACH
+	appear AWAKENING_BEACH_KAEPORA
+	applymovement AWAKENING_BEACH_KAEPORA, AwakeningBeachKaeporaDown
+	refreshscreen
+	opentext
+	writetext AwakeningBeachKaeporaIntro
+	waitbutton
+	closetext
+	special FadeBlackQuickly
+	disappear AWAKENING_BEACH_KAEPORA
+	playsound SFX_RAZOR_WIND
+	waitsfx
+	setevent EVENT_SAW_KAEPORA_ON_BEACH
+	special FadeInQuickly
+	refreshscreen
+	special RestartMapMusic
+	end
+
+AwakeningBeachKaeporaIntro:
+	text "KAEPORA: Hoot!"
+	line "Hoot!"
+
+	para "So you are the"
+	line "one who owns the"
+	cont "SWORD..."
+	line "CHAINSAW..."
+
+	para "Now I understand"
+	line "why the pocket"
+	cont "monsters have"
+	cont "appeared..."
+
+	para "A corageous young"
+	line "trainer has come"
+	cont "to crack the BAD"
+	cont "EGG..."
+
+	para "It is said you"
+	line "cannot solve this"
+	cont "glitch unless you"
+	cont "enter the EGG..."
+
+	para "To leave this"
+	line "island or reach"
+	cont "the BAD EGG, you"
+	cont "must have a way"
+	cont "to break through"
+	cont "the rocks that"
+	cont "block your path."
+
+	para "You should now go"
+	line "north, to the"
+	cont "MISPLACED WOODS."
+
+	para "A man named CASEY"
+	line "will be able to"
+	cont "provide a way to"
+	cont "open a path."
+
+	para "I will meet you"
+	line "again soon!"
+
+	para "Hoot!"
+	done
+
+AwakeningBeachKaeporaDown:
+	step DOWN
+	step_end
+
+AwakeningBeach2FoundYourSword:
+	text "You found your"
+	line "SWORD"
+	line "CHAINSAW"
+	done
 
 AwakeningBeach2Ledge:
 	applymovement PLAYER, AwakeningBeach2LedgeMovement
@@ -326,6 +407,66 @@ AwakeningBeach2ShadowBall:
 .End:
 	end
 
+AwakeningBeach2BombWall:
+	checkevent EVENT_BOMBED_AWAKENING_BEACH_2_WALL
+	iftrue .End
+	opentext
+	writetext AwakeningBeach2BombableWallText1
+	waitbutton
+	checkitem BOMBS
+	iffalse .NoBombs
+	writetext AwakeningBeach2BombableWallText2
+	yesorno
+	iffalse .End
+	closetext
+	applymovement PLAYER, AwakeningBeach2MoveFromBomb
+	pause 30
+	playsound SFX_STRENGTH
+	earthquake 40
+	waitsfx
+	special FadeBlackQuickly
+	changeblock 46, 34, $21
+	reloadmap
+	special FadeInQuickly
+	applymovement PLAYER, AwakeningBeach2ReturnFromBomb
+	turnobject PLAYER, UP
+	opentext
+	writetext AwakeningBeach2BlownUp
+	waitbutton
+	setevent EVENT_BOMBED_AWAKENING_BEACH_2_WALL
+.End:
+	closetext
+	end
+.NoBombs
+	closetext
+	end
+
+AwakeningBeach2BombableWallText1:
+	text "This wall looks"
+	line "bombable..."
+	done
+
+AwakeningBeach2BombableWallText2:
+	text "Blow it up with"
+	line "a BOMB?"
+	done
+
+AwakeningBeach2BlownUp:
+	text "A new cavern has"
+	line "been discovered."
+	done
+
+AwakeningBeach2MoveFromBomb:
+	step RIGHT
+	step RIGHT
+	step UP
+	step_end
+
+AwakeningBeach2ReturnFromBomb:
+	step DOWN
+	step LEFT
+	step LEFT
+	step_end
 
 AwakeningBeach2_MapEvents:
 	db 0, 0 ; filler
@@ -333,6 +474,7 @@ AwakeningBeach2_MapEvents:
 	def_warp_events
 ;	warp_event x, y, map, warp_id
 	warp_event 35, 23, BEACHFRONT_PROPERTY, 1
+	warp_event 41, 31, BEACHFRONT_CAVERN, 1
 
 	def_coord_events
 ;	coord_event x, y, scene_id, script
@@ -352,6 +494,7 @@ AwakeningBeach2_MapEvents:
 	bg_event 37, 32, BGEVENT_READ, AwakeningBeach2Nugget
 	bg_event 50,  6, BGEVENT_READ, AwakeningBeach2RareCandy
 	bg_event 40,  2, BGEVENT_READ, AwakeningBeach2ShadowBall
+	bg_event 41, 31, BGEVENT_READ, AwakeningBeach2BombWall
 
 	def_object_events
 ;	object_event x, y, sprite, movement, rx, ry, h1, h2, palette, type, range, script, event_flag
@@ -371,6 +514,6 @@ AwakeningBeach2_MapEvents:
 	object_event 52, 23, SPRITE_CRAB, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 3, 3, -1, -1, 0, OBJECTTYPE_SCRIPT, 2, AwakeningBeachCrab6, EVENT_BEAT_CRAB_6
 	object_event 48, 26, SPRITE_CRAB, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 3, 3, -1, -1, 0, OBJECTTYPE_SCRIPT, 2, AwakeningBeachCrab7, EVENT_BEAT_CRAB_7
 	object_event 55, 30, SPRITE_CRAB, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 3, 3, -1, -1, 0, OBJECTTYPE_SCRIPT, 2, AwakeningBeachCrab8, EVENT_BEAT_CRAB_8
-	object_event  9, 22, SPRITE_LA_YOUNGSTER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 4, AwakeningBeachYoungster, -1
+	object_event 54, 37, SPRITE_SWORD, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, AwakeningBeachSword, EVENT_GOT_SWORD_ON_BEACH
 	object_event 31, 33, SPRITE_LA_GIRL, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 4, AwakeningBeachGirl, -1
-	object_event 54, 34, SPRITE_KAEPORA, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, AwakeningBeachKaepora, -1
+	object_event 54, 34, SPRITE_KAEPORA, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, AwakeningBeachKaepora, EVENT_SAW_KAEPORA_ON_BEACH

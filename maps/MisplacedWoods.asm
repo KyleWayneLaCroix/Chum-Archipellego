@@ -11,16 +11,91 @@
 	const MISPLACED_WOODS_GEL_4
 	const MISPLACED_WOODS_GEL_5
 	const MISPLACED_WOODS_GEL_6
-
+	const MISPLACED_WOODS_KAEPORA
 
 MisplacedWoods_MapScripts:
 	def_scene_scripts
 ;	scene_script script, SCENE_MAPNAME_SCENE_NAME
+	scene_script MisplacedWoodsNoop1, SCENE_MISPLACED_WOODS_NORMAL
+	scene_script MisplacedWoodsKaepora, SCENE_MISPLACED_WOODS_KAEPORA
 
 	def_callbacks
 ;	callback type, script
 	callback MAPCALLBACK_TILES, MisplacedWoodsChestCallback
 
+MisplacedWoodsNoop1:
+	end
+
+MisplacedWoodsKaepora:
+	special FadeOutMusic
+	playmusic MUSIC_POKEMON_TALK
+	appear MISPLACED_WOODS_KAEPORA
+	applymovement PLAYER, MisplacedWoodsKaeporaMovement
+	turnobject PLAYER, UP
+	opentext
+	writetext MisplacedWoodsKaeporaText
+	waitbutton
+	closetext
+	special FadeBlackQuickly
+	disappear MISPLACED_WOODS_KAEPORA
+	playsound SFX_RAZOR_WIND
+	waitsfx
+	setevent EVENT_SAW_KAEPORA_IN_WOODS
+	special FadeInQuickly
+	refreshscreen
+	special RestartMapMusic
+	setscene SCENE_MISPLACED_WOODS_NORMAL
+	end
+
+MisplacedWoodsKaeporaText:
+	text "Hoot! Ho, brave"
+	line "trainer, on your"
+	cont "quest to wake the"
+	cont "dreamer!"
+
+	para "I'm afraid you"
+	line "may find it a"
+	cont "trifle difficult"
+	cont "to leave the is-"
+	cont "-land without"
+	cont "SURF or another"
+	cont "way to swim."
+
+	para "The BAD EGG lies"
+	line "beyond your"
+	cont "current reach..."
+
+	para "By the way, have"
+	line "you ever visited"
+	cont "The DUNGEON,"
+	cont "which is south of"
+	cont "the village?"
+
+	para "Go there."
+
+	para "The key for entry"
+	line "can be found in a"
+	cont "strange tomb in"
+	cont "MAYBE VILLAGE."
+
+	para "Use the bombs you"
+	line "just acquired to"
+	cont "find your way..."
+
+	para "The BAD EGG is"
+	line "watching..."
+
+	para "Hoot!"
+	done
+
+MisplacedWoodsKaeporaMovement:
+	step DOWN
+	step DOWN
+	step DOWN
+	step DOWN
+	step DOWN
+	step RIGHT
+	step_end
 
 MisplacedWoodsChestCallback:
 	checkevent EVENT_MISPLACED_WOODS_ELIXER
@@ -386,8 +461,10 @@ MisplacedWoodsBombWall:
 	playsound SFX_STRENGTH
 	earthquake 40
 	waitsfx
+	special FadeBlackQuickly
 	changeblock 46, 34, $21
-	reloadmappart
+	reloadmap
+	special FadeInQuickly
 	applymovement PLAYER, MisplacedWoodsReturnFromBomb
 	turnobject PLAYER, UP
 	opentext
@@ -469,3 +546,4 @@ MisplacedWoods_MapEvents:
 	object_event 33, 14, SPRITE_GEL, SPRITEMOVEDATA_WANDER, 2, 2, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_SCRIPT, 0, MisplacedWoodsGel4, EVENT_MISPLACED_WOODS_GEL_4
 	object_event 23, 28, SPRITE_GEL, SPRITEMOVEDATA_WANDER, 2, 2, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, MisplacedWoodsGel5, EVENT_MISPLACED_WOODS_GEL_5
 	object_event 10, 24, SPRITE_GEL, SPRITEMOVEDATA_WANDER, 2, 2, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, MisplacedWoodsGel6, EVENT_MISPLACED_WOODS_GEL_6
+	object_event 44,  8, SPRITE_KAEPORA, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, MisplacedWoodsKaepora, EVENT_SAW_KAEPORA_IN_WOODS

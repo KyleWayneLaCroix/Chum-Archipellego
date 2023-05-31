@@ -176,6 +176,7 @@ INCLUDE "maps/MisplacedCavern1F.asm"
 INCLUDE "maps/MisplacedCavern2F.asm"
 INCLUDE "maps/MisplacedCavernB1F.asm"
 INCLUDE "maps/MoblinWilkensHouse.asm"
+INCLUDE "maps/BeachfrontCavern.asm"
 
 
 SECTION "Map Scripts 17", ROMX

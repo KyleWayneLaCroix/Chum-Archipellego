@@ -35,6 +35,7 @@ CaseysCabinCasey:
     writetext CaseysCabinCaseyAfterVictoryText
     waitbutton
     verbosegiveitem BOMBS
+    setmapscene MISPLACED_WOODS, SCENE_MISPLACED_WOODS_KAEPORA
     waitbutton
     closetext
     end

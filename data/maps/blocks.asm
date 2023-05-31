@@ -401,3 +401,6 @@ MisplacedCavern2F_Blocks:
 
 MisplacedCavernB1F_Blocks:
 	INCBIN "maps/GreatFairyFountain.ablk"
+
+BeachfrontCavern_Blocks:
+	INCBIN "maps/BeachfrontCavern.ablk"

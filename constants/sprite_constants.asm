@@ -121,6 +121,7 @@
 	const SPRITE_TM ; 74
 	const SPRITE_LA_GRAMPS ; 75
 	const SPRITE_GREAT_FAIRY ; 76
+	const SPRITE_SWORD ; 77
 DEF NUM_OVERWORLD_SPRITES EQU const_value - 1
 
 ; SpriteMons indexes (see data/sprites/sprite_mons.asm)

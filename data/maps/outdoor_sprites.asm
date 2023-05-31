@@ -163,6 +163,7 @@ LinksAwakeningGroupSprites:
 	db SPRITE_KAEPORA
 	db SPRITE_LA_GRANNY
 	db SPRITE_FRUIT_TREE
+	db SPRITE_SWORD
 	db 0 ; end
 
 DungeonGroupSprites:

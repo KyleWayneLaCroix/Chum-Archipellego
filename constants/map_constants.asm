@@ -181,6 +181,7 @@ ENDM
 	map_const MISPLACED_CAVERN_2F,             10, 10
 	map_const MISPLACED_CAVERN_B1F,             5,  4
 	map_const MOBLIN_WILKENS_HOUSE,             6,  5
+	map_const BEACHFRONT_CAVERN,               12, 13
 	endgroup
 
 	newgroup DUNGEONS                                 ; 12
