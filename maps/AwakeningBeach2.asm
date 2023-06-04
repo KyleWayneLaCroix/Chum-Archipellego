@@ -468,6 +468,26 @@ AwakeningBeach2ReturnFromBomb:
 	step LEFT
 	step_end
 
+DungeonEntranceDoor:
+	checkevent EVENT_UNLOCKED_DUNGEON
+	iftrue .End
+	opentext
+	checkitem DUNGEON_KEY
+	iftrue .Unlock
+	writetext DungeonEntranceNeedKey
+	waitbutton
+	closetext
+	end
+.Unlock:
+	writetext OpenDungeonEntrace
+	waitbutton
+	setevent EVENT_UNLOCKED_DUNGEON
+	changeblock 40, 14, $62
+	reloadmappart
+.End
+	closetext
+	end
+
 AwakeningBeach2_MapEvents:
 	db 0, 0 ; filler
 
@@ -495,6 +515,7 @@ AwakeningBeach2_MapEvents:
 	bg_event 50,  6, BGEVENT_READ, AwakeningBeach2RareCandy
 	bg_event 40,  2, BGEVENT_READ, AwakeningBeach2ShadowBall
 	bg_event 41, 31, BGEVENT_READ, AwakeningBeach2BombWall
+	bg_event 40, 14, BGEVENT_READ, DungeonEntranceDoor
 
 	def_object_events
 ;	object_event x, y, sprite, movement, rx, ry, h1, h2, palette, type, range, script, event_flag

@@ -162,21 +162,21 @@ MaybeVillageShrineRoom2Block:
 	jumpstd StrengthBoulderScript
 
 
-MaybeVillageMonsterroomEntrance:
-	checkevent EVENT_MAYBE_VILLAGE_SHRINE_DEFEATED_ENEMY
-	iftrue .End
-	playsound SFX_EXIT_BUILDING
-	earthquake 30
-	waitsfx
-	changeblock 4, 24, $B8
-	changeblock 6, 24, $B9
-	changeblock 4, 26, $00
-	changeblock 6, 26, $00
-	opentext
-	reloadmappart
-	closetext
-.End:
-	end
+;MaybeVillageMonsterroomEntrance:
+;	checkevent EVENT_MAYBE_VILLAGE_SHRINE_DEFEATED_ENEMY
+;	iftrue .End
+;	playsound SFX_EXIT_BUILDING
+;	earthquake 30
+;	waitsfx
+;	changeblock 4, 24, $B8
+;	changeblock 6, 24, $B9
+;	changeblock 4, 26, $00
+;	changeblock 6, 26, $00
+;	opentext
+;	reloadmappart
+;	closetext
+;.End:
+;	end
 
 TrainerOctorok9:
     trainer OCTOROK_T, OCTOROK_9, EVENT_BEAT_OCTOROK_9, MaybeVillageShrineOctorokSeenText, MaybeVillageShrineOctorokBeatenText, 0, .Script
@@ -672,10 +672,10 @@ MaybeVillageShrine_MapEvents:
 	def_coord_events
 ;	coord_event x, y, scene_id, script
 	coord_event 19, 33, -1, MaybeVillageShrineOpeningRoomButton
-	coord_event  4, 23, -1, MaybeVillageMonsterroomEntrance
-	coord_event  5, 23, -1, MaybeVillageMonsterroomEntrance
-	coord_event  6, 23, -1, MaybeVillageMonsterroomEntrance
-	coord_event  7, 23, -1, MaybeVillageMonsterroomEntrance
+	;coord_event  4, 23, -1, MaybeVillageMonsterroomEntrance
+	;coord_event  5, 23, -1, MaybeVillageMonsterroomEntrance
+	;coord_event  6, 23, -1, MaybeVillageMonsterroomEntrance
+	;coord_event  7, 23, -1, MaybeVillageMonsterroomEntrance
 	coord_event 22,  6, -1, MaybeVillageShrineFinalButton
 	coord_event 16,  3, -1, MaybeVillageShrineWallTrap1Down1
 	coord_event 16,  4, -1, MaybeVillageShrineWallTrap1Down2
