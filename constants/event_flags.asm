@@ -10,23 +10,27 @@
 	const EVENT_TEMPORARY_UNTIL_MAP_RELOAD_6
 	const EVENT_TEMPORARY_UNTIL_MAP_RELOAD_7
 	const EVENT_TEMPORARY_UNTIL_MAP_RELOAD_8
+; marks initialized events
+	const EVENT_INITIALIZED_EVENTS
+; base game events
+	const EVENT_BEAT_ELITE_FOUR
 ; TM events
 	const EVENT_GOT_TM05_DARK_PULSE
 	const EVENT_GOT_TM06_DAZZLE_BEAM
 	const EVENT_GOT_TM17_HEADBUTT
 	const EVENT_GOT_TM44_SWIFT
-	const EVENT_GOT_TM45_ATTRACT
-	const EVENT_GOT_TM30_SHADOW_BALL
+	const_skip
+	const_skip
 	const EVENT_GOT_TM23_IRON_TAIL
 	const EVENT_GOT_TM16_ICY_WIND
 	const EVENT_GOT_TM24_DRAGONBREATH
 ; HMs (EVENT_GOT_HM07_WATERFALL is with the Johto itemballs)
-	const EVENT_GOT_HM01_CUT
-	const EVENT_GOT_HM02_FLY
-	const EVENT_GOT_HM03_SURF
-	const EVENT_GOT_HM04_STRENGTH
+	const_skip
+	const_skip
+	const_skip
+	const_skip
 	const EVENT_GOT_FLASHLIGHT
-	const EVENT_GOT_HM06_WHIRLPOOL
+	const_skip
 	const_skip ; unused
 ; Rods
 	const EVENT_GOT_OLD_ROD
@@ -52,22 +56,6 @@
 	const EVENT_GOT_SLOWPOKETAIL_FROM_MISSION
 	const EVENT_IS_GAY
 	const EVENT_GOT_SAVED
-	; skip following
-	const EVENT_GOT_TOGEPI_EGG_FROM_ELMS_AIDE
-	const EVENT_MADE_UNOWN_APPEAR_IN_RUINS
-	const EVENT_FAST_SHIP_DESTINATION_OLIVINE
-	const EVENT_FAST_SHIP_FIRST_TIME
-	const EVENT_FAST_SHIP_HAS_ARRIVED
-	const EVENT_FAST_SHIP_FOUND_GIRL
-	const EVENT_FAST_SHIP_LAZY_SAILOR
-	const EVENT_FAST_SHIP_INFORMED_ABOUT_LAZY_SAILOR
-	const EVENT_KURT_GAVE_YOU_LURE_BALL
-	const EVENT_INITIALIZED_EVENTS
-	const EVENT_JASMINE_EXPLAINED_AMPHYS_SICKNESS
-	const EVENT_LAKE_OF_RAGE_EXPLAINED_WEIRD_MAGIKARP
-	const EVENT_LAKE_OF_RAGE_ASKED_FOR_MAGIKARP
-	const EVENT_LAKE_OF_RAGE_ELIXIR_ON_STANDBY
-	const EVENT_BEAT_ELITE_FOUR
 	const EVENT_GAVE_EEVEE_TWIN_ICE_STONE
 	const EVENT_GAVE_EEVEE_TWIN_LEAF_STONE
 	const EVENT_FED_EEVEE
@@ -94,39 +82,52 @@
 	const EVENT_VOLCANO_LADDER_3
 	const EVENT_VOLCANO_LADDER_4
 	const EVENT_FELL_INTO_BROCANO
-	const EVENT_TOGEPI_HATCHED
-	const EVENT_SHOWED_TOGEPI_TO_ELM
-	const EVENT_GOT_EVERSTONE_FROM_ELM
-	const EVENT_GOT_TM10_HIDDEN_POWER
-	const EVENT_GOT_TM36_SLUDGE_BOMB
-	const EVENT_GOT_ITEMFINDER
-	const EVENT_GOT_BICYCLE
-	const EVENT_GOT_SQUIRTBOTTLE
-	const EVENT_GOT_MIRACLE_SEED_IN_ROUTE_32
-	const EVENT_GOT_CHARCOAL_IN_CHARCOAL_KILN
-	const EVENT_GOT_TM02_HEADBUTT
-	const EVENT_DECIDED_TO_HELP_LANCE
-	const EVENT_GOT_TYROGUE_FROM_KIYO
-	const EVENT_MET_FRIEDA_OF_FRIDAY
-	const EVENT_GOT_POISON_BARB_FROM_FRIEDA
-	const EVENT_MET_TUSCANY_OF_TUESDAY
-	const EVENT_GOT_PINK_BOW_FROM_TUSCANY
-	const EVENT_MET_ARTHUR_OF_THURSDAY
-	const EVENT_GOT_HARD_STONE_FROM_ARTHUR
-	const EVENT_MET_SUNNY_OF_SUNDAY
-	const EVENT_GOT_MAGNET_FROM_SUNNY
-	const EVENT_MET_WESLEY_OF_WEDNESDAY
-	const EVENT_GOT_BLACKBELT_FROM_WESLEY
-	const EVENT_MET_SANTOS_OF_SATURDAY
-	const EVENT_GOT_SPELL_TAG_FROM_SANTOS
-	const EVENT_MET_MONICA_OF_MONDAY
-	const EVENT_GOT_METAL_COAT_FROM_GRANDPA_ON_SS_AQUA
-	const EVENT_GOT_BLACKGLASSES_IN_DARK_CAVE
-	const EVENT_GOT_SS_TICKET_FROM_ELM
-	const EVENT_FIRST_TIME_BANKING_WITH_MOM
-	const EVENT_TOLD_ELM_ABOUT_TOGEPI_OVER_THE_PHONE
-	const EVENT_RELEASED_THE_BEASTS
-	const EVENT_GOT_MASTER_BALL_FROM_ELM
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
 ; Overworld Pokemon
 	const EVENT_NORTHERNFOREST_MORELULL1
 	const EVENT_NORTHERNFOREST_MORELULL2
@@ -215,7 +216,6 @@
 	const EVENT_VOLCANO_INTERIOR_5F_HIDDEN_GREAT_BALL
 	const EVENT_VOLCANO_INTERIOR_B1F_HIDDEN_SUPER_POTION
 	const EVENT_VOLCANO_INTERIOR_B1F_HIDDEN_RARE_CANDY
-	const EVENT_ROUTE_34_HIDDEN_SUPER_POTION
 	const EVENT_VOLCANO_INTERIOR_B1F_HIDDEN_ETHER
 	const EVENT_VOLCANO_INTERIOR_B1F_HIDDEN_NUGGET
 	const EVENT_VOLCANO_INTERIOR_6F_HIDDEN_HYPER_POTION
@@ -232,16 +232,17 @@
 	const EVENT_LAKE_OF_RAGE_HIDDEN_RARE_CANDY
 	const EVENT_LAKE_OF_RAGE_HIDDEN_MAX_POTION
 	const EVENT_SILVER_CAVE_OUTSIDE_HIDDEN_FULL_RESTORE
+	const_skip
 ; Crystal-exclusive events in Johto
-	const EVENT_MET_FLORIA
-	const EVENT_TALKED_TO_FLORIA_AT_FLOWER_SHOP
-	const EVENT_BUGGING_KURT_TOO_MUCH
-	const EVENT_TALKED_TO_RUINS_COWARD
-	const EVENT_GOT_DRATINI
-	const EVENT_CAN_GIVE_GS_BALL_TO_KURT
-	const EVENT_GAVE_GS_BALL_TO_KURT
-	const EVENT_FOREST_IS_RESTLESS
-	const EVENT_ANSWERED_DRAGON_MASTER_QUIZ_WRONG
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
+	const_skip
 ; Jumpes
 	const EVENT_GOT_VOLCANO_JUMP
 	const_skip
@@ -308,9 +309,19 @@
 	const EVENT_DANA_GAVE_THUNDERSTONE
 	const EVENT_TULLY_GAVE_WATER_STONE
 	const EVENT_TIFFANY_GAVE_PINK_BOW
-; Unused: next 338 events
 	const EVENT_AWAKENING_BEACH_HYPER_POTION
-
+; Maybe Village Shrine Events
+	const EVENT_MAYBE_VILLAGE_SHRINE_BUTTON_PRESSED
+	const EVENT_MAYBE_VILLAGE_SHRINE_BLOCK_ON_BLUE
+	const EVENT_MAYBE_VILLAGE_SHRINE_DEFEATED_ENEMY
+	const EVENT_MAYBE_VILLAGE_SHRINE_PUSHED_QUESTION_BLOCK
+	const EVENT_MAYBE_VILLAGE_SHRINE_PRESSED_LAST_BUTTON
+	const EVENT_BEAT_SHRINE_WALL_TRAP_1
+	const EVENT_BEAT_SHRINE_WALL_TRAP_2
+	const EVENT_BEAT_SHRINE_WALL_TRAP_3
+	const EVENT_BEAT_SHRINE_WALL_TRAP_4
+	const EVENT_GOT_DUNGEON_KEY
+; Unused: next 328 events
 	const_next 600
 ; Kurt Apricorn events
 	const EVENT_GAVE_KURT_RED_APRICORN
@@ -321,65 +332,8 @@
 	const EVENT_GAVE_KURT_BLK_APRICORN
 	const EVENT_GAVE_KURT_PNK_APRICORN
 ; Phone events
-	const EVENT_JACK_ASKED_FOR_PHONE_NUMBER
-	const_skip ; unused in Crystal
-	const EVENT_BEVERLY_ASKED_FOR_PHONE_NUMBER
-	const_skip ; unused in Crystal
-	const EVENT_HUEY_ASKED_FOR_PHONE_NUMBER
-	const_skip ; unused in Crystal
-	const EVENT_GAVEN_ASKED_FOR_PHONE_NUMBER
-	const_skip ; unused in Crystal
-	const EVENT_BETH_ASKED_FOR_PHONE_NUMBER
-	const_skip ; unused in Crystal
-	const EVENT_JOSE_ASKED_FOR_PHONE_NUMBER
-	const_skip ; unused in Crystal
-	const EVENT_REENA_ASKED_FOR_PHONE_NUMBER
-	const_skip ; unused in Crystal
-	const EVENT_JOEY_ASKED_FOR_PHONE_NUMBER
-	const_skip ; unused in Crystal
-	const EVENT_WADE_ASKED_FOR_PHONE_NUMBER
-	const_skip ; unused in Crystal
-	const EVENT_RALPH_ASKED_FOR_PHONE_NUMBER
-	const_skip ; unused in Crystal
-	const EVENT_LIZ_ASKED_FOR_PHONE_NUMBER
-	const_skip ; unused in Crystal
-	const EVENT_ANTHONY_ASKED_FOR_PHONE_NUMBER
-	const_skip ; unused in Crystal
-	const EVENT_TODD_ASKED_FOR_PHONE_NUMBER
-	const_skip ; unused in Crystal
-	const EVENT_GINA_ASKED_FOR_PHONE_NUMBER
-	const_skip ; unused in Crystal
-	const EVENT_IRWIN_ASKED_FOR_PHONE_NUMBER
-	const_skip ; unused in Crystal
-	const EVENT_ARNIE_ASKED_FOR_PHONE_NUMBER
-	const_skip ; unused in Crystal
-	const EVENT_ALAN_ASKED_FOR_PHONE_NUMBER
-	const_skip ; unused in Crystal
-	const_skip ; unused
-	const_skip ; unused
-	const EVENT_DANA_ASKED_FOR_PHONE_NUMBER
-	const_skip ; unused in Crystal
-	const EVENT_CHAD_ASKED_FOR_PHONE_NUMBER
-	const_skip ; unused in Crystal
-	const EVENT_DEREK_ASKED_FOR_PHONE_NUMBER
-	const_skip ; unused in Crystal
-	const EVENT_TULLY_ASKED_FOR_PHONE_NUMBER
-	const_skip ; unused in Crystal
-	const EVENT_BRENT_ASKED_FOR_PHONE_NUMBER
-	const_skip ; unused
-	const EVENT_TIFFANY_ASKED_FOR_PHONE_NUMBER
-	const_skip ; unused in Crystal
-	const EVENT_VANCE_ASKED_FOR_PHONE_NUMBER
-	const_skip ; unused in Crystal
-	const EVENT_WILTON_ASKED_FOR_PHONE_NUMBER
-	const_skip ; unused in Crystal
-	const EVENT_KENJI_ASKED_FOR_PHONE_NUMBER
-	const_skip ; unused in Crystal
-	const EVENT_PARRY_ASKED_FOR_PHONE_NUMBER
-	const_skip ; unused in Crystal
-	const EVENT_ERIN_ASKED_FOR_PHONE_NUMBER
-	const EVENT_BUENA_OFFERED_HER_PHONE_NUMBER_NO_BLUE_CARD
-	const_skip ; unused
+; Unused: next 60 events
+	const_next 666
 ; Ruins of Alph puzzles
 	const EVENT_SOLVED_HO_OH_PUZZLE
 	const EVENT_SOLVED_KABUTO_PUZZLE
@@ -1084,6 +1038,7 @@
 	const EVENT_BEAT_BALL_BRIAN_2
 	const EVENT_BEAT_BALL_BRIAN_3
 	const EVENT_BEAT_BALL_BRIAN_4
+	const EVENT_BEAT_BALL_BRIAN_5
 ; Tree Brian
 	const EVENT_BEAT_TREE_BRIAN_1
 	const EVENT_BEAT_TREE_BRIAN_2
@@ -1145,6 +1100,8 @@
 	const EVENT_BEAT_MOBLIN_4
 	const EVENT_BEAT_MOBLIN_5
 	const EVENT_BEAT_MOBLIN_WILKEN
+	const EVENT_BEAT_MOBLIN_6
+	const EVENT_BEAT_MOBLIN_7
 ; Detective M
 	const EVENT_BEAT_DETECTIVE_GUM
 ; Detective F
@@ -1153,11 +1110,8 @@
 	const EVENT_BEAT_SKATER_BOY_TONY
 ; Casey
 	const EVENT_BEAT_CASEY_1
-	const_skip
-	const_skip
-	const_skip
-	const_skip
-	const_skip
+; Other
+	const EVENT_BEAT_OCTOROK_9
 	const_skip
 	const_skip
 	const_skip
@@ -1532,7 +1486,6 @@
 ; (In pokegold the previous 4 event flags were not defined,
 ; but in pokecrystal the 'const_next 1900' is redundant.)
 
-	const_next 1900
 ; Kanto people
 	const EVENT_ROUTE_24_ROCKET
 	const EVENT_CERULEAN_GYM_ROCKET
@@ -1560,7 +1513,7 @@
 	const EVENT_ROCK_TUNNEL_1F_TM_STEEL_WING
 	const EVENT_MISPLACED_CAVERN_2F_DIRE_HIT
 	const EVENT_MISPLACED_CAVERN_2F_MAX_POTION
-	const EVENT_ROUTE_2_CARBOS
+	const EVENT_MAYBE_VILLAGE_WELL_PP_UP
 	const EVENT_ROUTE_2_ELIXER
 	const EVENT_ROUTE_4_HP_UP
 	const EVENT_ROUTE_12_CALCIUM

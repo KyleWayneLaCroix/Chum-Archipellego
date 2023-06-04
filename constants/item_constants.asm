@@ -191,7 +191,7 @@
 	const BRITE_CARD   ; b7
 	const BOMBS        ; b8
 	const MEDICAL_CARD ; b9
-	const ITEM_BA      ; ba
+	const DUNGEON_KEY  ; ba
 	const ITEM_BB      ; bb
 	const ITEM_BC      ; bc
 	const ITEM_BD      ; bd

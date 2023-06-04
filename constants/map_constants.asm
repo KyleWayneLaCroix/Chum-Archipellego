@@ -182,6 +182,7 @@ ENDM
 	map_const MISPLACED_CAVERN_B1F,             5,  4
 	map_const MOBLIN_WILKENS_HOUSE,             6,  5
 	map_const BEACHFRONT_CAVERN,               12, 13
+	map_const MAYBE_VILLAGE_WELL,               6,  5
 	endgroup
 
 	newgroup DUNGEONS                                 ; 12
@@ -206,6 +207,7 @@ ENDM
 	map_const FROZEN_CAVERN_2F,                19, 17 ; 19
 	map_const FROZEN_CAVERN_3F,                19, 17 ; 20
 	map_const FROZEN_GROTTO,                    5,  5 ; 21
+	map_const MAYBE_VILLAGE_SHRINE,            13, 20 ; 22
 	endgroup
 
 DEF NUM_MAP_GROUPS EQU const_value ; 8

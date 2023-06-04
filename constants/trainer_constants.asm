@@ -194,6 +194,7 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 	const GLITCH_4
 	const GLITCH_5
 	const TROPHY
+	const GLITCH_7
 
 	trainerclass GRAMPS ; 3b
 	const WILLIS
@@ -391,6 +392,7 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 	const BALLBRIAN_2
 	const BALLBRIAN_3
 	const BALLBRIAN_4
+	const BALLBRIAN_5
 
 	trainerclass MAD_DOG ; 49
 	const BRIAN_1
@@ -433,6 +435,7 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 	const OCTOROK_6
 	const OCTOROK_7
 	const OCTOROK_8
+	const OCTOROK_9
 
 	trainerclass SHOPKEEPER_T
 	const SHOPKEEPER_1
@@ -444,6 +447,7 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 	const MOBLIN_4
 	const MOBLIN_5
 	const WILKEN
+	const MOBLIN_7
 
 DEF KRIS EQU __trainer_class__
 

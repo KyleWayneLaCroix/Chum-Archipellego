@@ -7,7 +7,7 @@ NewBarkTown_MapScripts:
 	callback MAPCALLBACK_NEWMAP, NewBarkTownFlypointCallback
 
 NewBarkTownFlypointCallback:
-	clearevent EVENT_FIRST_TIME_BANKING_WITH_MOM
+;	clearevent EVENT_FIRST_TIME_BANKING_WITH_MOM
 	endcallback
 
 NewBarkTown_MapEvents:

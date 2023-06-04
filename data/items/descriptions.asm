@@ -186,7 +186,7 @@ ItemDescriptions:
 	dw BriteCardDesc
 	dw BombsDesc
 	dw MedicalcardDesc
-	dw TeruSama21Desc
+	dw DungeonKeyDesc
 	dw TeruSama22Desc
 	dw TeruSama23Desc
 	dw TeruSama24Desc
@@ -897,8 +897,9 @@ FastBallDesc:
 	db   "A BALL for catch-"
 	next "ing fast #MON.@"
 
-TeruSama21Desc:
-	db   "?@"
+DungeonKeyDesc:
+	db   "The key to the"
+	next "DECEPTIVE DUNGEON@"
 
 LightBallDesc:
 	db   "An odd, electrical"

@@ -437,7 +437,7 @@ AwakeningBeach2BombWall:
 .End:
 	closetext
 	end
-.NoBombs
+.NoBombs:
 	closetext
 	end
 

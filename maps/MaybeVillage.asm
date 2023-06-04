@@ -17,7 +17,6 @@ MaybeVillageChestCallback:
 	checkevent EVENT_MAYBE_VILLAGE_FOCUS_BAND
 	iffalse .CallbackEnd
 	changeblock 38, 20, $33
-	reloadmappart
 .CallbackEnd:
 	endcallback
 
@@ -175,6 +174,7 @@ MaybeVillageGrannyText:
 
 MaybeVillageLedge:
 	applymovement PLAYER, MaybeVillageLedgeMovement
+	warp MAYBE_VILLAGE_WELL, 5, 3
 	end
 
 MaybeVillageLedgeMovement:
@@ -322,6 +322,9 @@ MaybeVillage_MapEvents:
 	warp_event 27,  4, QUADRUPLETS_HOUSE, 2
 	warp_event 17,  3, SUPER_FISHER_FELLOWS_HOUSE, 1
 	warp_event 56,  7, BAD_EGG_EXTERIOR, 1
+	warp_event  4, 20, MAYBE_VILLAGE_WELL, 1
+	warp_event  4, 21, MAYBE_VILLAGE_WELL, 1
+	warp_event 33,  3, MAYBE_VILLAGE_SHRINE, 1
 
 	def_coord_events
 ;	coord_event x, y, scene_id, script
@@ -337,7 +340,7 @@ MaybeVillage_MapEvents:
 
 	def_object_events
 ;	object_event x, y, sprite, movement, rx, ry, h1, h2, palette, type, range, script, event_flag
-	object_event 16, 22, SPRITE_CHOMP, SPRITEMOVEDATA_WANDER, 1, 2, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, MaybeVillageChomp, -1
+	object_event 20, 22, SPRITE_CHOMP, SPRITEMOVEDATA_WANDER, 1, 2, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, MaybeVillageChomp, -1
 	object_event 25, 20, SPRITE_CUCCO, SPRITEMOVEDATA_WANDER, 2, 2, -1, -1, PAL_NPC_SILVER, OBJECTTYPE_SCRIPT, 0, MaybeVillageCuccoo, -1
 	object_event 16, 14, SPRITE_CUCCO, SPRITEMOVEDATA_WANDER, 3, 3, -1, -1, PAL_NPC_SILVER, OBJECTTYPE_SCRIPT, 0, MaybeVillageCuccoo, -1
 	object_event 42, 24, SPRITE_CUCCO, SPRITEMOVEDATA_WANDER, 2, 2, -1, -1, PAL_NPC_SILVER, OBJECTTYPE_SCRIPT, 0, MaybeVillageCuccoo, -1

@@ -665,12 +665,17 @@ GlitchGroup:
 	db 27, KIRBY, "JIGGLYPUFF@"
 	db -1 ; end
 
-	; GLITCH (5)
+	; TROPHY
 	db "E4@", TRAINERTYPE_NICKNAME | TRAINERTYPE_DVS
 	db 27, UNOWN, "LORELAI@", $F0, $0F
 	db 27, UNOWN, "BRUNO@", $0F, $F0
 	db 28, UNOWN, "AGATHA@", $AA, $AA
 	db 28, UNOWN, "LANCE@", $83, $37
+	db -1 ; end
+
+	; GLITTCH (7)
+	db "TRAP@", TRAINERTYPE_MOVES
+	db 36, UNOWN, EXPLOSION, EXPLOSION, EXPLOSION, EXPLOSION
 	db -1 ; end
 
 GrampsGroup:
@@ -1469,6 +1474,14 @@ BallBrianGroup:
 	db 28, TANGELA
 	db -1 ; end
 
+	; BALL_BRIAN (5)
+	db "BRIAN@", TRAINERTYPE_NORMAL
+	db 36, DUOSION
+	db 34, MUSHARNA
+	db 32, JUMPLUFF
+	db 36, GENGAR
+	db -1 ; end
+
 MadDogGroup:
 	; MAD_DOG_BRIAN (1)
 	db "BRIAN@", TRAINERTYPE_NORMAL
@@ -1675,6 +1688,11 @@ OctorokGroup:
 	db 28, SALANDIT
 	db -1 ; end
 
+	; OCTOROK (9)
+	db " @", TRAINERTYPE_NORMAL
+	db 36, TRUMBEAK
+	db -1 ; end
+
 ShopkeeperGroup:
 	; SHOPKEEPER (1)
 	db "KEEPER@", TRAINERTYPE_DVS ;| TRAINERTYPE_MOVES
@@ -1727,4 +1745,9 @@ MoblinGroup:
 	db 30, SNORLAX
 	db 30, OBSTAGOON
 	db 30, URSALUNA
+	db -1 ; end
+
+	; MOBLIN (7)
+	db "GRACK@", TRAINERTYPE_NORMAL
+	db 36, OBSTAGOON
 	db -1 ; end

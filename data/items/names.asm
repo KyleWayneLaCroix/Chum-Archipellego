@@ -185,7 +185,7 @@ ItemNames::
 	li "BRITE CARD"
 	li "BOMBS"
 	li "MEDICAL CARD"
-	li "TERU-SAMA"
+	li "DUNGEON KEY"
 	li "TERU-SAMA"
 	li "TERU-SAMA"
 	li "TERU-SAMA"

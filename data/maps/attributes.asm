@@ -257,6 +257,7 @@ ENDM
 	map_attributes MisplacedCavernB1F, MISPLACED_CAVERN_B1F, $00, 0
 	map_attributes MoblinWilkensHouse, MOBLIN_WILKENS_HOUSE, $00, 0
 	map_attributes BeachfrontCavern, BEACHFRONT_CAVERN, $00, 0
+	map_attributes MaybeVillageWell, MAYBE_VILLAGE_WELL, $00, 0
 
 	map_attributes VolcanoInteriorB1F, VOLCANO_INTERIOR_B1F, $00, 0
 	map_attributes VolcanoInteriorB1FHall, VOLCANO_INTERIOR_B1F_HALL, $09, 0
@@ -275,3 +276,4 @@ ENDM
 	map_attributes FrozenCavern2F, FROZEN_CAVERN_2F, $00, 0
 	map_attributes FrozenCavern3F, FROZEN_CAVERN_3F, $00, 0
 	map_attributes FrozenGrotto, FROZEN_GROTTO, $00, 0
+	map_attributes MaybeVillageShrine, MAYBE_VILLAGE_SHRINE, $00, 0

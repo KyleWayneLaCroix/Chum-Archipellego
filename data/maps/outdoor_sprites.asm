@@ -164,6 +164,7 @@ LinksAwakeningGroupSprites:
 	db SPRITE_LA_GRANNY
 	db SPRITE_FRUIT_TREE
 	db SPRITE_SWORD
+	db SPRITE_ROCK
 	db 0 ; end
 
 DungeonGroupSprites:

@@ -404,3 +404,9 @@ MisplacedCavernB1F_Blocks:
 
 BeachfrontCavern_Blocks:
 	INCBIN "maps/BeachfrontCavern.ablk"
+
+MaybeVillageWell_Blocks:
+	INCBIN "maps/MaybeVillageWell.ablk"
+
+MaybeVillageShrine_Blocks:
+	INCBIN "maps/MaybeVillageShrine.ablk"

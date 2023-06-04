@@ -1423,7 +1423,7 @@ MaybeVillageMartLuckyEggReturn:
 MaybeVillageMartTMReturn:
 	checkevent EVENT_FOLLOWED_BY_TM
 	stopfollow
-	clearevent EVENT_FOLLOWED_BY_LUCKY_EGG
+	clearevent EVENT_FOLLOWED_BY_TM
 	readmem wShopDirection
 	ifequal 1, .Up
 	ifequal 2, .Right
