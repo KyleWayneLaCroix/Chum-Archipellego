@@ -123,6 +123,7 @@
 	const SPRITE_GREAT_FAIRY ; 76
 	const SPRITE_SWORD ; 77
 	const SPRITE_BLOCK ; 78
+	const SPRITE_ARMOS ; 79
 DEF NUM_OVERWORLD_SPRITES EQU const_value - 1
 
 ; SpriteMons indexes (see data/sprites/sprite_mons.asm)

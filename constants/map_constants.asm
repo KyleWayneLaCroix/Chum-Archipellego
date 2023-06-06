@@ -208,6 +208,10 @@ ENDM
 	map_const FROZEN_CAVERN_3F,                19, 17 ; 20
 	map_const FROZEN_GROTTO,                    5,  5 ; 21
 	map_const MAYBE_VILLAGE_SHRINE,            13, 20 ; 22
+	map_const AWAKENING_DUNGEON,               28, 24 ; 23
+	map_const AWAKENING_DUNGEON_B1F,           28, 24 ; 24
+	map_const AWAKENING_DUNGEON_BOSS_ROOM,      8, 10 ; 25
+	map_const AWAKENING_DUNGEON_TREASURE_ROOM,  8,  7 ; 26
 	endgroup
 
 DEF NUM_MAP_GROUPS EQU const_value ; 8

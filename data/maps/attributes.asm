@@ -277,3 +277,7 @@ ENDM
 	map_attributes FrozenCavern3F, FROZEN_CAVERN_3F, $00, 0
 	map_attributes FrozenGrotto, FROZEN_GROTTO, $00, 0
 	map_attributes MaybeVillageShrine, MAYBE_VILLAGE_SHRINE, $00, 0
+	map_attributes AwakeningDungeon, AWAKENING_DUNGEON, $00, 0
+	map_attributes AwakeningDungeonB1F, AWAKENING_DUNGEON_B1F, $00, 0
+	map_attributes AwakeningDungeonBossRoom, AWAKENING_DUNGEON_BOSS_ROOM, $00, 0
+	map_attributes AwakeningDungeonTreasureRoom, AWAKENING_DUNGEON_TREASURE_ROOM, $00, 0

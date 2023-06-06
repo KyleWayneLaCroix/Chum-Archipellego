@@ -75,7 +75,7 @@ MisplacedWoodsKaeporaText:
 
 	para "The key for entry"
 	line "can be found in a"
-	cont "strange tomb in"
+	cont "strange shrine in"
 	cont "MAYBE VILLAGE."
 
 	para "Use the bombs you"

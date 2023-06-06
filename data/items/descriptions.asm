@@ -187,8 +187,8 @@ ItemDescriptions:
 	dw BombsDesc
 	dw MedicalcardDesc
 	dw DungeonKeyDesc
-	dw TeruSama22Desc
-	dw TeruSama23Desc
+	dw BigKeyDesc
+	dw SmallKeyDesc
 	dw TeruSama24Desc
 	dw TeruSama25Desc
 	dw TeruSama26Desc
@@ -933,8 +933,9 @@ PolkadotBowDesc:
 	db   "Powers up fairy-"
 	next "type moves. (HOLD)@"
 
-TeruSama22Desc:
-	db   "?@"
+BigKeyDesc:
+	db   "A Key to the BOSS"
+	next "ROOM.@"
 
 UpGradeDesc:
 	db   "A mysterious box"
@@ -952,8 +953,9 @@ SquirtBottleDesc:
 	db   "A bottle used for"
 	next "watering plants.@"
 
-TeruSama23Desc:
-	db   "?@"
+SmallKeyDesc:
+	db   "A small key for"
+	next "general use.@"
 
 ParkBallDesc:
 	db   "The Bug-Catching"

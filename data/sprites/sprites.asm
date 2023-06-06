@@ -128,4 +128,5 @@ OverworldSprites:
 	overworld_sprite GreatFairySpriteGFX, 12, STANDING_SPRITE, PAL_OW_RED
 	overworld_sprite SwordSpriteGFX, 4, STANDING_SPRITE, PAL_OW_BROWN
 	overworld_sprite BlockSpriteGFX, 4, STANDING_SPRITE, PAL_OW_PURPLE
+	overworld_sprite ArmosSpriteGFX, 12, STANDING_SPRITE, PAL_OW_BLUE
 	assert_table_length NUM_OVERWORLD_SPRITES

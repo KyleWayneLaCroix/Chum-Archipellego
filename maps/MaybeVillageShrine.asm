@@ -657,6 +657,7 @@ MaybeVillageShrineChest:
 	changeblock 20, 24, $87
 	changeblock 20, 26, $87
 	changeblock 20, 28, $87
+	setevent EVENT_GOT_DUNGEON_KEY
 .End:
 	end
 

@@ -206,11 +206,12 @@ AwakeningLabHealingMachine:
 	setflag ENGINE_STORMBADGE
 	setflag ENGINE_PLAINBADGE
 	setflag ENGINE_FOGBADGE
-	givepoke UNOWN, 89
-	givepoke ANGORE, 50
-	givepoke JUNGELA, 50
-	givepoke STRAIGAR, 50
-	givepoke TOUCANNON, 50
+	giveitem DUNGEON_KEY
+	givepoke UNOWN, 150
+	givepoke ANGORE, 150
+	givepoke JUNGELA, 150
+	givepoke STRAIGAR, 150
+	givepoke TOUCANNON, 150
 	closetext
 	end
 
@@ -551,7 +552,7 @@ AwakeningLab_MapEvents:
 	def_warp_events
 	warp_event 25, 19, AWAKENING_BEACH, 1
 	warp_event 24, 19, AWAKENING_BEACH, 1
-	warp_event 27, 16, MAYBE_VILLAGE_SHRINE, 1
+	warp_event 27, 16, AWAKENING_DUNGEON_TREASURE_ROOM, 1
 
 	def_coord_events
 	coord_event 26,  6, SCENE_AWAKENINGLAB_WOKE_UP, WakeUpScript

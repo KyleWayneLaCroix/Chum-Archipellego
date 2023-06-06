@@ -192,8 +192,8 @@
 	const BOMBS        ; b8
 	const MEDICAL_CARD ; b9
 	const DUNGEON_KEY  ; ba
-	const ITEM_BB      ; bb
-	const ITEM_BC      ; bc
+	const BIG_KEY      ; bb
+	const SMALL_KEY    ; bc
 	const ITEM_BD      ; bd
 	const ITEM_BE      ; be
 	const ITEM_BF      ; bf

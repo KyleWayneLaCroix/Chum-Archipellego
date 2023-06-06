@@ -40,7 +40,7 @@ AwakeningBeach2ChestCallback:
 .Calcium:
 	checkevent EVENT_AWAKENING_BEACH_2_CALCIUM
 	iffalse .Nugget
-	changeblock 24, 34, $33
+	changeblock 24, 10, $33
 .Nugget:
 	checkevent EVENT_AWAKENING_BEACH_2_NUGGET
 	iffalse .RareCandy
@@ -361,7 +361,7 @@ AwakeningBeach2Calcium:
 	opentext
 	verbosegiveitem CALCIUM
 	waitbutton
-	changeblock 24, 34, $33
+	changeblock 24, 10, $33
 	reloadmappart
 	closetext
 	setevent EVENT_AWAKENING_BEACH_2_CALCIUM
@@ -488,6 +488,18 @@ DungeonEntranceDoor:
 	closetext
 	end
 
+DungeonEntranceNeedKey:
+	text "You need a"
+	line "DUNGEON KEY to"
+	cont "open this."
+	done
+
+OpenDungeonEntrace:
+	text "The door of the"
+	line "DUNGEON opens"
+	cont "before you."
+	done
+
 AwakeningBeach2_MapEvents:
 	db 0, 0 ; filler
 
@@ -495,6 +507,7 @@ AwakeningBeach2_MapEvents:
 ;	warp_event x, y, map, warp_id
 	warp_event 35, 23, BEACHFRONT_PROPERTY, 1
 	warp_event 41, 31, BEACHFRONT_CAVERN, 1
+	warp_event 40, 14, AWAKENING_DUNGEON, 1
 
 	def_coord_events
 ;	coord_event x, y, scene_id, script

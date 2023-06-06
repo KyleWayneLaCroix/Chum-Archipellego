@@ -179,6 +179,10 @@ INCLUDE "maps/MoblinWilkensHouse.asm"
 INCLUDE "maps/BeachfrontCavern.asm"
 INCLUDE "maps/MaybeVillageWell.asm"
 INCLUDE "maps/MaybeVillageShrine.asm"
+INCLUDE "maps/AwakeningDungeon.asm"
+INCLUDE "maps/AwakeningDungeonB1F.asm"
+INCLUDE "maps/AwakeningDungeonBossRoom.asm"
+INCLUDE "maps/AwakeningDungeonTreasureRoom.asm"
 
 
 SECTION "Map Scripts 17", ROMX

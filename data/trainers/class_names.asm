@@ -102,4 +102,5 @@ TrainerClassNames::
 	li "OCTOROK" ; OCTOROK
 	li "SHOP" ; SHOPKEEPER
 	li "MOBLIN" ; MOBLIN
+	li "ARMOS," ; ARMOS
 	assert_list_length NUM_TRAINER_CLASSES

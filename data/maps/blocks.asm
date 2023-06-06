@@ -36,8 +36,6 @@ PlayersHouse1F_Blocks:
 
 PlayersHouse2F_Blocks:
 	INCBIN "maps/PlayersHouse2F.ablk"
-
-
 SECTION "Map Blocks 3", ROMX
 
 IndigoPlateauPokecenter1F_Blocks:
@@ -410,3 +408,17 @@ MaybeVillageWell_Blocks:
 
 MaybeVillageShrine_Blocks:
 	INCBIN "maps/MaybeVillageShrine.ablk"
+
+AwakeningDungeon_Blocks:
+	INCBIN "maps/AwakeningDungeon.ablk"
+
+AwakeningDungeonB1F_Blocks:
+	INCBIN "maps/AwakeningDungeonB1F.ablk"
+
+
+AwakeningDungeonBossRoom_Blocks:
+	INCBIN "maps/AwakeningDungeonBossRoom.ablk"
+
+AwakeningDungeonTreasureRoom_Blocks:
+	INCBIN "maps/AwakeningDungeonTreasureRoom.ablk"
+

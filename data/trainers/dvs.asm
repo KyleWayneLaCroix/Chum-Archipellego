@@ -103,4 +103,5 @@ TrainerClassDVs:
 	dn  8,  8,  8,  8 ; OCTOROK
 	dn 15, 15, 15, 15 ; SHOPKEEPER
 	dn 11,  8,  8,  8 ; MOBLIN
+	dn 11, 11, 10, 10 ; ARMOS
 	assert_table_length NUM_TRAINER_CLASSES

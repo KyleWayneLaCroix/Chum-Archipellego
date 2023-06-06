@@ -9,7 +9,7 @@
 	tilecoll WALL, WALL, WALL, WALL ; 08
 	tilecoll WALL, WALL, WALL, WALL ; 09
 	tilecoll WALL, WALL, WALL, WALL ; 0a
-	tilecoll WALL, WALL, WALL, WALL ; 0b
+	tilecoll FLOOR, FLOOR, WALL, WALL ; 0b
 	tilecoll WALL, WALL, WALL, WALL ; 0c
 	tilecoll FLOOR, WALL, WALL, WALL ; 0d
 	tilecoll WALL, WALL, WALL, WALL ; 0e
@@ -50,7 +50,7 @@
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 31
 	tilecoll FLOOR, FLOOR, FLOOR, WALL ; 32
 	tilecoll FLOOR, FLOOR, WALL, FLOOR ; 33
-	tilecoll WALL, WALL, WALL, WALL ; 34
+	tilecoll WALL, WARP_CARPET_DOWN, WALL, WALL ; 34
 	tilecoll WARP_CARPET_DOWN, WALL, WALL, WALL ; 35
 	tilecoll FLOOR, WALL, FLOOR, FLOOR ; 36
 	tilecoll WALL, FLOOR, FLOOR, FLOOR ; 37
@@ -64,7 +64,7 @@
 	tilecoll WALL, FLOOR, FLOOR, FLOOR ; 3f
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 40
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 41
-	tilecoll WALL, FLOOR, WALL, FLOOR ; 42
+	tilecoll FLOOR, FLOOR, WALL, FLOOR ; 42
 	tilecoll FLOOR, WALL, FLOOR, WALL ; 43
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 44
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 45
@@ -132,7 +132,7 @@
 	tilecoll WALL, WALL, WALL, WALL ; 83
 	tilecoll FLOOR, FLOOR, WALL, FLOOR ; 84
 	tilecoll FLOOR, FLOOR, FLOOR, WALL ; 85
-	tilecoll WALL, FLOOR, FLOOR, FLOOR ; 86
+	tilecoll WALL, FLOOR, WALL, FLOOR ; 86
 	tilecoll FLOOR, WALL, FLOOR, WALL ; 87
 	tilecoll FLOOR, FLOOR, WALL, FLOOR ; 88
 	tilecoll FLOOR, FLOOR, FLOOR, WALL ; 89
@@ -190,3 +190,15 @@
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; bd
 	tilecoll WALL, FLOOR, FLOOR, FLOOR ; be
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; bf
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; c0
+	tilecoll WALL, FLOOR, WALL, FLOOR ; c1
+	tilecoll WALL, WALL, WALL, WARP_CARPET_UP ; c2
+	tilecoll WALL, WALL, WARP_CARPET_UP, WALL ; c3
+	tilecoll FLOOR, FLOOR, WALL, FLOOR ; c4
+	tilecoll WALL, WALL, WALL, WALL ; c5
+	tilecoll WALL, WALL, WALL, WALL ; c6
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; c7
+	tilecoll FLOOR, FLOOR, WALL, WALL ; c8
+	tilecoll FLOOR, WALL, FLOOR, FLOOR ; c9
+	tilecoll WALL, HOP_LEFT, WALL, FLOOR ; ca
+	tilecoll WALL, FLOOR, WALL, HOP_LEFT ; cb

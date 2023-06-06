@@ -43,6 +43,7 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 	trainerclass MER       ; 4
 	const MADDIE1
 	const MERBRIAN
+	const MARTHA2
 
 	trainerclass RIVAL1 ; 9
 	const RIVAL1_1
@@ -76,6 +77,10 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 
 	trainerclass GORON
 	const DARU
+	const KOGO
+	const ZUDO
+	const TODO
+	const GRAMRO
 
 	trainerclass ARTIST
 	const ANGELO
@@ -410,6 +415,7 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 	trainerclass BRIAN_64 ;
 	const BRIAN_64_1
 	const BRIAN_64_2
+	const BRIAN_64_3
 
 	trainerclass BUG_BRIAN ;
 	const BUGBRIAN_1
@@ -436,6 +442,10 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 	const OCTOROK_7
 	const OCTOROK_8
 	const OCTOROK_9
+	const OCTOROK_10
+	const OCTOROK_11
+	const OCTOROK_12
+	const OCTOROK_13
 
 	trainerclass SHOPKEEPER_T
 	const SHOPKEEPER_1
@@ -448,6 +458,16 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 	const MOBLIN_5
 	const WILKEN
 	const MOBLIN_7
+	const MOBLIN_8
+	const MOBLIN_9
+	const MOBLIN_10
+	const MOBLIN_11
+
+	trainerclass ARMOS
+	const ARMOS_1
+	const ARMOS_2
+	const ARMOS_3
+	const ARMOS_4
 
 DEF KRIS EQU __trainer_class__
 
