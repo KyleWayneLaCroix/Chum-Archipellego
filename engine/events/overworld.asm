@@ -589,14 +589,21 @@ TrySurfOW::
 	call CheckDirection
 	jr c, .quit
 
-	ld de, ENGINE_FOGBADGE
-	call CheckEngineFlag
-	jr c, .quit
+	ld a, HM_SURF
+	ld [wCurItem], a
+	ld hl, wNumItems
+	call CheckItem
+	jr z, .quit
+
+  	ld d, SURF
+	call CheckPartyCanLearnMove
+	and a
+	jr z, .yes
 
 	ld d, SURF
 	call CheckPartyMove
 	jr c, .quit
-
+.yes
 	ld hl, wBikeFlags
 	bit BIKEFLAGS_ALWAYS_ON_BIKE_F, [hl]
 	jr nz, .quit
