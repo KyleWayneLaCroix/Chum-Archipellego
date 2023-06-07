@@ -202,3 +202,4 @@
 	tilecoll FLOOR, WALL, FLOOR, FLOOR ; c9
 	tilecoll WALL, HOP_LEFT, WALL, FLOOR ; ca
 	tilecoll WALL, FLOOR, WALL, HOP_LEFT ; cb
+	tilecoll FLOOR, FLOOR, FLOOR, LADDER ; cc

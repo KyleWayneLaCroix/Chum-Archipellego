@@ -15,6 +15,10 @@
 	const AWAKENING_DUNGEON_BLADE_TRAP_3
 	const AWAKENING_DUNGEON_BLADE_TRAP_4
 	const AWAKENING_DUNGEON_BLADE_TRAP_5
+	const AWAKENING_DUNGEON_BLOCK_1
+	const AWAKENING_DUNGEON_BLOCK_2
+	const AWAKENING_DUNGEON_BLOCK_3
+	const AWAKENING_DUNGEON_LINK
 
 AwakeningDungeon_MapScripts:
 	def_scene_scripts
@@ -853,6 +857,24 @@ AwakeningDungeonMoveDown:
 	step DOWN
 	step_end
 
+
+AwakeningDungeonLink:
+    trainer HEROOFTIME, LINK_2, EVENT_BEAT_DUNGEON_LINK, AwakeningDungeonLinkSeenText, AwakeningDungeonLinkBeatenText, 0, .Script
+
+.Script:
+    opentext
+    verbosegiveitem JUMP
+    waitbutton
+    closetext
+    disappear AWAKENING_DUNGEON_LINK
+    end
+
+AwakeningDungeonLinkSeenText:
+AwakeningDungeonLinkBeatenText:
+	text "..."
+	done
+
+
 AwakeningDungeon_MapEvents:
 	db 0, 0 ; filler
 
@@ -865,7 +887,7 @@ AwakeningDungeon_MapEvents:
 	warp_event 21, 27, AWAKENING_DUNGEON_B1F, 3
 	warp_event  9, 21, AWAKENING_DUNGEON_B1F, 4
 	warp_event 53, 33, AWAKENING_DUNGEON_B1F, 5
-	warp_event  3, 29, AWAKENING_DUNGEON_B1F, 6
+	warp_event  3, 31, AWAKENING_DUNGEON_B1F, 6
 	warp_event 37, 42, AWAKENING_DUNGEON, 10
 	warp_event 49,  5, AWAKENING_DUNGEON, 9
 	warp_event  5,  1, AWAKENING_DUNGEON_BOSS_ROOM, 1
@@ -928,5 +950,5 @@ AwakeningDungeon_MapEvents:
 	object_event 18, 22, SPRITE_BLADE_TRAP, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, AwakeningDungeonBladeTrap5, 0, EVEN_BEAT_AWAKENING_DUNGEON_BLADE_TRAP_5
 	object_event  4, 19, SPRITE_BLOCK, SPRITEMOVEDATA_STRENGTH_BOULDER, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, AwakeningDungeonBlock, 0, 0
 	object_event  8, 16, SPRITE_BLOCK, SPRITEMOVEDATA_STRENGTH_BOULDER, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, AwakeningDungeonBlock, 0, 0
-	object_event  2, 16, SPRITE_BLOCK, SPRITEMOVEDATA_STRENGTH_BOULDER, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, AwakeningDungeonBlock, 0, 0
 	object_event  7, 19, SPRITE_BLOCK, SPRITEMOVEDATA_STRENGTH_BOULDER, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, AwakeningDungeonBlock, 0, 0
+	object_event  5, 29, SPRITE_LINK, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 0, AwakeningDungeonLink, 0, EVENT_BEAT_DUNGEON_LINK

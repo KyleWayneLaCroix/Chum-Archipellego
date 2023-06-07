@@ -70,6 +70,7 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 	trainerclass HEROOFTIME ; 44
 	const LINK
 	const GLITCH_LINK
+	const LINK_2
 
 	trainerclass KEYBLADER ; 45
 	const SORA
@@ -356,6 +357,7 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 	const COLETTE
 	const JIN_YANG
 	const SHIRLEY
+	const ASHLEY
 
 	trainerclass TWINS ; 3d
 	const AMYANDMAY

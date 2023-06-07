@@ -173,13 +173,23 @@ HeroOfTimeGroup:
 	db 2, HOPPIP, "TEKTITE@"
 	db -1 ; end
 
-	; HERO_OF_TIME (1)
+	; HERO_OF_TIME (2)
 	db "GUST@", TRAINERTYPE_NICKNAME
 	db 30, HOPPIP, "M@"
 	db 25, BLIPBUG, "A@"
 	db 25, DITTO, "R@"
 	db 25, UNOWN, "I@"
 	db 25, EEVEE, "N@"
+	db -1 ; end
+
+	; HERO_OF_TIME (3)
+	db "LINK@", TRAINERTYPE_NICKNAME
+	db 43, SIRFETCHD, "SWORDSMAN@"
+	db 48, FROSMOTH, "NAVI@"
+	db 48, MUDSDALE, "EPONA@"
+	db 48, EXEGGUTOR, "KOROK@"
+	db 48, VAPOREON, "ZORA@"
+	db 50, MEGA_GENGAR, "POL@"
 	db -1 ; end
 
 KeybladerGroup:
@@ -1269,6 +1279,16 @@ TeacherGroup:
 	; TEACHER (3)
 	db "SHIRLEY@", TRAINERTYPE_NORMAL
 	db 35, SWOOBAT
+	db -1 ; end
+
+	; TEACHER (3)
+	db "ASHLEY@", TRAINERTYPE_NORMAL
+	db 35, SHIINOTIC
+	db 35, TSAREENA
+	db 35, MEOWSTIC_F
+	db 35, STRAIGAR
+	db 35, DRAGAPULT
+	db 35, MEGA_MAWILE
 	db -1 ; end
 
 TwinsGroup:

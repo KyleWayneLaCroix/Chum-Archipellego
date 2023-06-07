@@ -1085,6 +1085,7 @@
 ; Hero of Time
 	const EVENT_BEAT_AWAKENING_BEACH_LINK
 	const EVENT_BEAT_GLITCH_LINK
+	const EVENT_BEAT_DUNGEON_LINK
 ; Keyblader
 	const EVENT_BEAT_AWAKENING_BEACH_SORA
 	const EVENT_BEAT_KEYBLADER_OAK
@@ -1156,7 +1157,6 @@
 	const EVENT_BEAT_ARMOS_4
 	const EVENT_BEAT_OWL_BRIAN
 	const EVENT_BEAT_MER_MARTHA
-	const_skip
 	const_skip
 	const_skip
 	const_skip
