@@ -15,6 +15,7 @@ OutdoorSprites:
 	dw EeveeRanchGroupSprites
 	dw JungleAreaGroupSprites
 	dw LinksAwakeningGroupSprites
+	dw IvyRoadGroupSprites
 	dw DungeonGroupSprites
 	assert_table_length NUM_MAP_GROUPS
 
@@ -165,6 +166,22 @@ LinksAwakeningGroupSprites:
 	db SPRITE_FRUIT_TREE
 	db SPRITE_SWORD
 	db SPRITE_ROCK
+	db 0 ; end
+
+IvyRoadGroupSprites:
+	db SPRITE_RED
+	; 1 of max 9 walking sprites
+	db SPRITE_DOG
+	db SPRITE_FOX
+	db SPRITE_JOLTEON
+	db SPRITE_FLAREON
+	db SPRITE_ESPEON
+	db SPRITE_UMBREON
+	db SPRITE_GLACEON
+	db SPRITE_LEAFEON
+	db SPRITE_SYLVEON
+	db SPRITE_POKE_BALL
+	db SPRITE_FRUIT_TREE
 	db 0 ; end
 
 DungeonGroupSprites:

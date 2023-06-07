@@ -130,8 +130,8 @@ DEF NUM_OVERWORLD_SPRITES EQU const_value - 1
 	const_next $80
 DEF SPRITE_POKEMON EQU const_value
 	const SPRITE_UNOWN ; 80
-	const SPRITE_GEODUDE ; 81
-	const SPRITE_GROWLITHE ; 82
+	const SPRITE_CAT ; 81
+	const SPRITE_DOG ; 82
 	const SPRITE_WEEDLE ; 83
 	const SPRITE_SHELLDER ; 84
 	const SPRITE_ODDISH ; 85
@@ -174,6 +174,7 @@ DEF SPRITE_POKEMON EQU const_value
 	const SPRITE_LEAFEON
 	const SPRITE_SYLVEON
 	const SPRITE_BUZZEON
+	const SPRITE_FOX
 DEF NUM_POKEMON_SPRITES EQU const_value - SPRITE_POKEMON
 
 ; special GetMonSprite values (see engine/overworld/overworld.asm)

@@ -23,7 +23,8 @@ MapGroupRoofs:
 	db ROOF_AZALEA    ;  9 (Eevee Ranch)
 	db ROOF_AZALEA    ; 10 (Jungle Area)
 	db -1             ; 11 (Links Awakening)
-	db -1             ; 12 (Dungeons)
+	db ROOF_NEW_BARK  ; 12 (IvyRoad)
+	db -1             ; 13 (Dungeons)
 	assert_table_length NUM_MAP_GROUPS + 1
 
 Roofs:

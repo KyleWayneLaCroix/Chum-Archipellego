@@ -185,7 +185,16 @@ ENDM
 	map_const MAYBE_VILLAGE_WELL,               6,  5
 	endgroup
 
-	newgroup DUNGEONS                                 ; 12
+	newgroup IVY_ROAD                                 ; 12
+	map_const IVY_ROAD,                        32, 14 ; 1
+	map_const CASEYS_HOUSE,                    11,  9 ; 2
+	map_const BRIANS_HOUSE,                     7,  7 ; 3
+	map_const KYLES_HOUSE,                      7,  7 ; 4
+	map_const HAUNTED_ATTIC,                    6,  6 ; 5
+	map_const SAMS_HOUSE,                      11,  8 ; 6
+	endgroup
+
+	newgroup DUNGEONS                                 ; 13
 	map_const DANK_CAVE_1F,                    22,  7 ;  1
 	map_const DANK_CAVE_2F,                    16, 14 ;  2
 	map_const NORTHERN_FOREST,                 20, 30 ;  3

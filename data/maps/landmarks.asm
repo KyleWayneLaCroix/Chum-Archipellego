@@ -36,8 +36,8 @@ Landmarks:
 	landmark  28,  68, FrozenCavernName
 	landmark  36,  36, Cyberspace1Name
 	landmark 148,  68, DrNuggzMDName
+	landmark  52, 108, IvyRoadName
 	assert_table_length KANTO_LANDMARK
-	landmark  52, 108, PalletTownName
 	landmark  52,  92, Route1Name
 	landmark  52,  76, ViridianCityName
 	landmark  52,  64, Route2Name
@@ -114,7 +114,7 @@ MtMortarName:        db "MT.MORTAR@"
 DragonsDenName:      db "DRAGON'S¯DEN@"
 IcePathName:         db "ICE PATH@"
 NotApplicableName:   db "N/A@" ; unreferenced ; "オバケやしき" ("HAUNTED HOUSE") in Japanese
-PalletTownName:      db "PALLET TOWN@"
+IvyRoadName:         db "IVY¯ROAD@"
 ViridianCityName:    db "VIRIDIAN¯CITY@"
 PewterCityName:      db "PEWTER CITY@"
 CeruleanCityName:    db "CERULEAN¯CITY@"

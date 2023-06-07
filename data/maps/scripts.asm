@@ -186,7 +186,12 @@ INCLUDE "maps/AwakeningDungeonTreasureRoom.asm"
 
 
 SECTION "Map Scripts 17", ROMX
-
+INCLUDE "maps/IvyRoad.asm"
+INCLUDE "maps/CaseysHouse.asm"
+INCLUDE "maps/BriansHouse.asm"
+INCLUDE "maps/KylesHouse.asm"
+INCLUDE "maps/HauntedAttic.asm"
+INCLUDE "maps/SamsHouse.asm"
 
 SECTION "Map Scripts 18", ROMX
 

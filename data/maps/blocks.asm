@@ -415,10 +415,26 @@ AwakeningDungeon_Blocks:
 AwakeningDungeonB1F_Blocks:
 	INCBIN "maps/AwakeningDungeonB1F.ablk"
 
-
 AwakeningDungeonBossRoom_Blocks:
 	INCBIN "maps/AwakeningDungeonBossRoom.ablk"
 
 AwakeningDungeonTreasureRoom_Blocks:
 	INCBIN "maps/AwakeningDungeonTreasureRoom.ablk"
 
+IvyRoad_Blocks:
+	INCBIN "maps/IvyRoad.ablk"
+
+CaseysHouse_Blocks:
+	INCBIN "maps/CaseysHouse.ablk"
+
+BriansHouse_Blocks:
+	INCBIN "maps/BriansHouse.ablk"
+
+KylesHouse_Blocks:
+	INCBIN "maps/KylesHouse.ablk"
+
+HauntedAttic_Blocks:
+	INCBIN "maps/HauntedAttic.ablk"
+
+SamsHouse_Blocks:
+	INCBIN "maps/SamsHouse.ablk"

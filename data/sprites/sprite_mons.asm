@@ -2,7 +2,7 @@ SpriteMons:
 ; entries correspond to SPRITE_* constants past SPRITE_POKEMON
 	table_width 1, SpriteMons
 	db UNOWN
-	db ARON
+	db MEOWTH
 	db GROWLITHE
 	db BLIPBUG
 	db PUPITAR
@@ -46,4 +46,5 @@ SpriteMons:
 	db LEAFEON
 	db SYLVEON
 	db BUZZEON
+	db YUNGOOS
 	assert_table_length NUM_POKEMON_SPRITES

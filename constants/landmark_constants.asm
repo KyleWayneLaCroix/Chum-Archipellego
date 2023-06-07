@@ -30,8 +30,8 @@
 	const LANDMARK_FROZEN_CAVERN     ; 19
 	const LANDMARK_CYBERSPACE1       ; 2d
 	const LANDMARK_DR_NUGGZ_MD       ; 2e
+	const LANDMARK_IVY_ROAD          ; 2f
 DEF KANTO_LANDMARK EQU const_value
-	const LANDMARK_PALLET_TOWN       ; 2f
 	const LANDMARK_ROUTE_1           ; 30
 	const LANDMARK_VIRIDIAN_CITY     ; 31
 	const LANDMARK_ROUTE_2           ; 32

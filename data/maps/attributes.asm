@@ -281,3 +281,14 @@ ENDM
 	map_attributes AwakeningDungeonB1F, AWAKENING_DUNGEON_B1F, $00, 0
 	map_attributes AwakeningDungeonBossRoom, AWAKENING_DUNGEON_BOSS_ROOM, $00, 0
 	map_attributes AwakeningDungeonTreasureRoom, AWAKENING_DUNGEON_TREASURE_ROOM, $00, 0
+	
+	map_attributes IvyRoad, IVY_ROAD, $00, NORTH | SOUTH | WEST | EAST
+	connection north, IvyRoad, IVY_ROAD, 0
+	connection south, IvyRoad, IVY_ROAD, 0
+	connection west, IvyRoad, IVY_ROAD, 0
+	connection east, IvyRoad, IVY_ROAD, 0
+	map_attributes CaseysHouse, CASEYS_HOUSE, $00, 0
+	map_attributes BriansHouse, BRIANS_HOUSE, $00, 0
+	map_attributes KylesHouse, KYLES_HOUSE, $00, 0
+	map_attributes HauntedAttic, HAUNTED_ATTIC, $00, 0
+	map_attributes SamsHouse, SAMS_HOUSE, $00, 0

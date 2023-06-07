@@ -8,7 +8,7 @@
 	tilecoll FLOOR, WALL, FLOOR, WALL ; 07
 	tilecoll WALL, WINDOW, FLOOR, FLOOR ; 08
 	tilecoll WALL, WALL, FLOOR, BOOKSHELF ; 09
-	tilecoll WALL, WALL, WALL, WALL ; 0a
+	tilecoll DOOR, WALL, FLOOR, FLOOR ; 0a
 	tilecoll FLOOR, FLOOR, WARP_CARPET_DOWN, WARP_CARPET_DOWN ; 0b
 	tilecoll FLOOR, WALL, FLOOR, FLOOR ; 0c
 	tilecoll WALL, FLOOR, FLOOR, FLOOR ; 0d
@@ -65,7 +65,7 @@
 	tilecoll WALL, WALL, FLOOR, FLOOR ; 40
 	tilecoll FLOOR, WALL, FLOOR, WALL ; 41
 	tilecoll WALL, WALL, FLOOR, WALL ; 42
-	tilecoll WALL, WALL, WALL, PC ; 43
+	tilecoll WALL, WALL, PC, PC ; 43
 	tilecoll PIT, PIT, PIT, PIT ; 44
 	tilecoll PIT, PIT, PIT, PIT ; 45
 	tilecoll WALL, WALL, PIT, PIT ; 46
@@ -74,3 +74,5 @@
 	tilecoll WALL, WALL, WALL, WALL ; 49
 	tilecoll FLOOR, FLOOR, FLOOR, WALL ; 4a
 	tilecoll WALL, FLOOR, WALL, FLOOR ; 4b
+	tilecoll WALL, WALL, STAIRCASE, WALL ; 4c
+	tilecoll FLOOR, FLOOR, FLOOR, WALL ; 4d

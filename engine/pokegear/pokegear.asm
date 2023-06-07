@@ -731,7 +731,7 @@ TownMap_GetKantoLandmarkLimits:
 	bit STATUSFLAGS_HALL_OF_FAME_F, a
 	jr z, .not_hof
 	ld d, LANDMARK_ROUTE_28
-	ld e, LANDMARK_PALLET_TOWN
+	ld e, LANDMARK_VIRIDIAN_CITY
 	ret
 
 .not_hof
