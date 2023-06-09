@@ -9,6 +9,28 @@ HauntedAttic_MapScripts:
 	def_callbacks
 ;	callback type, script
 
+HauntedAtticChamberPuzzle:
+	refreshscreen
+	setval UNOWNPUZZLE_KABUTO
+	special UnownPuzzle
+	closetext
+	iftrue .PuzzleComplete
+	end
+
+.PuzzleComplete:
+	setevent EVENT_SOLVED_KABUTO_PUZZLE
+	earthquake 30
+	showemote EMOTE_SHOCK, PLAYER, 15
+	special FadeOutPalettes
+	cry BOOMER
+	special FadeInPalettes
+	setlasttalked -1
+	loadvar VAR_BATTLETYPE, BATTLETYPE_TRAP
+	loadwildmon BOOMER, 45
+	startbattle
+	reloadmapafterbattle
+	end
+
 HauntedAttic_MapEvents:
 	db 0, 0 ; filler
 
@@ -21,6 +43,8 @@ HauntedAttic_MapEvents:
 
 	def_bg_events
 ;	bg_event x, y, type, script
+	bg_event 5, 0, BGEVENT_READ, HauntedAtticChamberPuzzle
+	bg_event  6,  0, BGEVENT_READ, HauntedAtticChamberPuzzle
 
 	def_object_events
 ;	object_event , y, sprite, movement, rx, ry, h1, h2, palette, type, range, script, event_flag

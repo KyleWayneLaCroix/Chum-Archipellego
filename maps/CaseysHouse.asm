@@ -24,8 +24,171 @@ CaseysHouseBookshelfText:
 	done
 
 CaseysHouseCasey:
-CaseysHouseAshley:
+	faceplayer
+	opentext
+	writetext CaseysHouseCaseyIntro
+	yesorno
+	iffalse .Refused
+	writetext CaseysHouseCaseySeen
+	waitbutton
+	closetext
+	winlosstext CaseysHouseCaseyBeatenText, 0
+	loadtrainer CASEY, CASEY_2
+	startbattle
+	reloadmapafterbattle
+	opentext
+	writetext CaseysHouseCaseyAfterText
+	waitbutton
+	closetext
 	end
+.Refused
+	writetext CaseysHouseCaseyRefused
+	waitbutton
+.End:
+	closetext
+	end
+
+CaseysHouseCaseyBeatenText:
+	text "CASEY: If it were"
+	line "a game of chance,"
+	cont "maybe I'd have"
+	cont "one."
+	done
+
+CaseysHouseCaseyAfterText:
+	text "CASEY: Damn."
+
+	para "I guess I'll get"
+	line "ya next time."
+	done
+
+CaseysHouseCaseySeen:
+	text "CASEY: You see I"
+	line "Figured out this"
+	cont "POKEY MON fightin"
+
+	para "It's not a game"
+	line "of chance."
+
+	para "It's a game of"
+	line "skill."
+	done
+
+CaseysHouseCaseyIntro:
+	text "CASEY: Yeah buddy!"
+
+	para "You did something"
+	line "with that egg!"
+
+	para "I don't know what"
+	line "that means or how"
+	cont "we got here, but"
+	cont "KYLE said he's got"
+	cont "it handled."
+
+	para "Oh by the way."
+
+	para "Wanna touch dogs?"
+	done
+
+CaseysHouseCaseyRefused:
+	text "CASEY: You got it"
+	line "bud."
+
+	para "We'll do it next"
+	line "time."
+	done
+
+CaseysHouseAshley:
+	faceplayer
+	opentext
+	writetext CaseysHouseAshleyIntro
+	yesorno
+	iffalse .Refused
+	writetext CaseysHouseAshleySeen
+	waitbutton
+	closetext
+	winlosstext CaseysHouseAshleyBeatenText, 0
+	loadtrainer TEACHER, ASHLEY
+	startbattle
+	reloadmapafterbattle
+	opentext
+	writetext CaseysHouseAshleyAfterText
+	waitbutton
+	closetext
+	end
+.Refused
+	writetext CaseysHouseAshleyRefused
+	waitbutton
+.End:
+	closetext
+	end
+
+CaseysHouseAshleySeen:
+	text "ASHLEY: Great!"
+
+	para "I may not have my"
+	line "full team because"
+	cont "someone decided"
+	cont "I'm not part of"
+	cont "his deep plot,"
+	cont "but I bet I can"
+	cont "beat you."
+	done
+
+CaseysHouseAshleyBeatenText:
+	text "ASHLEY: Where's"
+	line "my MILOTIC, KYLE?"
+	done
+
+CaseysHouseAshleyAfterText:
+	text "ASHLEY: Good game"
+
+	para "Come back if you"
+	line "want a distraction"
+	cont "again."
+
+	para "Things have been"
+	line "weird lately and I"
+	cont "know I could use"
+	cont "one."
+
+	para "Be careful."
+	done
+
+CaseysHouseAshleyRefused:
+	text "ASHLEY: Let me"
+	line "know if you"
+	cont "change your mind"
+	cont "later."
+	done
+
+CaseysHouseAshleyIntro:
+	text "ASHLEY: You must"
+	line "be the new guy"
+	cont "CASEY was talking"
+	cont "about."
+
+	para "You know KYLE"
+	line "said he was just"
+	cont "gonna make us GYM"
+	cont "LEADERS & change"
+	cont "up the dialog,"
+	cont "but this seems"
+	cont "like it got a bit"
+	cont "off the rails."
+
+	para "I don't even"
+	line "have anything to"
+	cont "do!"
+
+	para "Since I haven't"
+	line "had a chance to"
+	cont "yet,"
+
+	para "Wanna have a"
+	line "#MON battle?"
+	done
 
 CaseysHouse_MapEvents:
 	db 0, 0 ; filler

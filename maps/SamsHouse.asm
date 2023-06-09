@@ -10,17 +10,53 @@ SamsHouse_MapScripts:
 ;	callback type, script
 
 SamsHouseBookshelf:
-SamsHouseSamScript:
-	end
+	jumptext SamsHouseBookshelfText
 
+SamsHouseBookshelfText:
+	text "Takeout menus,"
+	line "WARHAMMER, STAR"
+	cont "WARS, and HALO."
+
+	para "That's most of"
+	line "what's in there."
+	done
+
+SamsHouseSamScript:
+	jumptextfaceplayer SamsHouseSamIntro
+
+SamsHouseSamIntro:
+	text "SAM: Hey dude."
+
+	para "I guess you're in"
+	line "my house now."
+
+	para "Make yourself at"
+	line "home."
+
+	para "If you're lookin'"
+	line "for KYLE, he's at"
+	cont "his place."
+
+	para "He's obsessed"
+	line "with fixing up"
+	cont "BRO ISLAND."
+	done
+
+SamsHouseCassidy:
+	jumptext SamsHouseCassidyMeow
+
+SamsHouseCassidyMeow:
+	text "CASSIDY: ... mow"
+	done
+	
 SamsHouse_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
 ;	warp_event x, y, map, warp_id
-	warp_event 18, 15, IVY_ROAD, 10
-	warp_event 19, 15, IVY_ROAD, 10
-	warp_event 20,  0, IVY_ROAD, 11
+	warp_event 18, 15, IVY_ROAD, 8
+	warp_event 19, 15, IVY_ROAD, 8
+	warp_event 20,  0, IVY_ROAD, 9
 
 	def_coord_events
 ;	coord_event x, y, scene_id, script
@@ -34,3 +70,4 @@ SamsHouse_MapEvents:
 	def_object_events
 ;	object_event x, y, sprite, movement, rx, ry, h1, h2, palette, type, range, script, event_flag
 	object_event 10,  4, SPRITE_MORTY, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, SamsHouseSamScript, 0
+	object_event 11, 12, SPRITE_CAT, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_SCRIPT, 0, SamsHouseCassidy, 0

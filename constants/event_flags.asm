@@ -82,8 +82,7 @@
 	const EVENT_VOLCANO_LADDER_3
 	const EVENT_VOLCANO_LADDER_4
 	const EVENT_FELL_INTO_BROCANO
-	const_skip
-	const_skip
+	const EVENT_KYLES_HOUSE_KYLE_DISAPPEARED
 	const_skip
 	const_skip
 	const_skip
@@ -175,6 +174,8 @@
 	const EVENT_BEAT_MISPLACED_CAVERN_1F_KEESE_1
 	const EVENT_BEAT_MISPLACED_CAVERN_1F_KEESE_2
 	const EVENT_BEAT_MISPLACED_CAVERN_2F_KEESE_1
+	const EVENT_GOT_POPPY
+	const EVENT_GOT_DAISY
 ; Johto hidden items
 	const EVENT_NORTHERNFOREST_LEFT_HONEY
 	const EVENT_NORTHERNFOREST_RIGHT_HONEY
@@ -234,7 +235,6 @@
 	const EVENT_SILVER_CAVE_OUTSIDE_HIDDEN_FULL_RESTORE
 	const_skip
 ; Crystal-exclusive events in Johto
-	const_skip
 	const_skip
 	const_skip
 	const_skip

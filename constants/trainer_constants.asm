@@ -29,10 +29,12 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 
 	trainerclass CASEY
 	const CASEY_1
+	const CASEY_2
 
 	trainerclass JORDAN    ; 1
 	const JORDAN1
 	const JORDAN2
+	const JORDAN3
 
 	trainerclass KYLE      ; 2
 	const KYLE1
