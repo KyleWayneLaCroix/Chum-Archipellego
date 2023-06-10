@@ -3075,7 +3075,9 @@ wMaybeVillageMartSceneID::          db
 wPhoneRoomSceneID::                 db
 wBadEggExteriorSceneID::            db
 wMisplacedWoodsSceneID::            db
-	ds 50
+wIvyRoadSceneID::                   db
+wBriansHouseSceneID::				db
+	ds 48
 
 ; fight counts
 wJackFightCount::    db

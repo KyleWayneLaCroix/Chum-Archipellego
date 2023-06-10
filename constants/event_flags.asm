@@ -83,8 +83,8 @@
 	const EVENT_VOLCANO_LADDER_4
 	const EVENT_FELL_INTO_BROCANO
 	const EVENT_KYLES_HOUSE_KYLE_DISAPPEARED
-	const_skip
-	const_skip
+	const EVENT_CHAIR_BRIAN_DISAPPEARED
+	const EVENT_CHAIR_BRIAN_2_DISAPPEARED
 	const_skip
 	const_skip
 	const_skip

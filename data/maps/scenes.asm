@@ -54,4 +54,6 @@ MapScenes::
 	scene_var PHONE_ROOM,                   wPhoneRoomSceneID
 	scene_var BAD_EGG_EXTERIOR,             wBadEggExteriorSceneID
 	scene_var MISPLACED_WOODS,              wMisplacedWoodsSceneID
+	scene_var IVY_ROAD,                     wIvyRoadSceneID
+	scene_var BRIANS_HOUSE,                 wBriansHouseSceneID
 	db -1 ; end
