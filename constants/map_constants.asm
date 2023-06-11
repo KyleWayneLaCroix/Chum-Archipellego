@@ -221,6 +221,7 @@ ENDM
 	map_const AWAKENING_DUNGEON_B1F,           28, 24 ; 24
 	map_const AWAKENING_DUNGEON_BOSS_ROOM,      8, 10 ; 25
 	map_const AWAKENING_DUNGEON_TREASURE_ROOM,  8,  7 ; 26
+	map_const THE_DARK_LAB,                    15, 10 ; 27
 	endgroup
 
 DEF NUM_MAP_GROUPS EQU const_value ; 8

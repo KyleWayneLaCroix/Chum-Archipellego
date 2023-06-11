@@ -105,4 +105,5 @@ TrainerGroups:
 	dw ShopkeeperGroup
 	dw MoblinGroup
 	dw ArmosGroup
+	dw TheEmptyGroup
 	assert_table_length NUM_TRAINER_CLASSES

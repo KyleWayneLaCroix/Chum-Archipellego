@@ -473,6 +473,10 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 	const ARMOS_3
 	const ARMOS_4
 
+	trainerclass THE_EMPTY
+	const THE_EMPTY_1
+	const THE_EMPTY_2
+
 DEF KRIS EQU __trainer_class__
 
 DEF NUM_TRAINER_CLASSES EQU __trainer_class__ - 1

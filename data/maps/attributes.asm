@@ -292,3 +292,5 @@ ENDM
 	map_attributes KylesHouse, KYLES_HOUSE, $00, 0
 	map_attributes HauntedAttic, HAUNTED_ATTIC, $00, 0
 	map_attributes SamsHouse, SAMS_HOUSE, $00, 0
+
+	map_attributes TheDarkLab, THE_DARK_LAB, $00, 0

@@ -70,6 +70,7 @@ GrannyPic:          INCBIN "gfx/trainers/granny.2bpp.lz"
 GuitaristPic:       INCBIN "gfx/trainers/guitarist.2bpp.lz"
 HexManiacPic:       INCBIN "gfx/trainers/hex_maniac.2bpp.lz"
 HikerPic:           INCBIN "gfx/trainers/hiker.2bpp.lz"
+TheEmptyPic:        INCBIN "gfx/trainers/the_empty.2bpp.lz"
 
 SECTION "Pics 3", ROMX
 

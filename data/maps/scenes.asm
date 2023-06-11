@@ -56,4 +56,5 @@ MapScenes::
 	scene_var MISPLACED_WOODS,              wMisplacedWoodsSceneID
 	scene_var IVY_ROAD,                     wIvyRoadSceneID
 	scene_var BRIANS_HOUSE,                 wBriansHouseSceneID
+	scene_var THE_DARK_LAB,                 wTheDarkLabSceneID
 	db -1 ; end

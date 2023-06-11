@@ -212,6 +212,11 @@ YouCannotLeaveBriansHouseTop:
 	cry FURIOUSB
 	waitsfx
 	applymovement PLAYER, BriansTossYouIntoPit
+	playsound SFX_WARP_TO
+	special FadeBlackQuickly
+	playsound SFX_WARP_FROM
+	special FadeInQuickly
+	warp THE_DARK_LAB, 15, 3
 	end
 
 YouCannotLeaveBriansHouseBottomLeft:
@@ -228,6 +233,11 @@ YouCannotLeaveBriansHouseBottomLeft:
 	cry FURIOUSB
 	waitsfx
 	applymovement PLAYER, BriansTossYouIntoPit
+	playsound SFX_WARP_TO
+	special FadeBlackQuickly
+	playsound SFX_WARP_FROM
+	special FadeInQuickly
+	warp THE_DARK_LAB, 15, 3
 	end
 
 YouCannotLeaveBriansHouseBottomRight:
@@ -246,6 +256,11 @@ YouCannotLeaveBriansHouseBottomRight:
 	cry FURIOUSB
 	waitsfx
 	applymovement PLAYER, BriansTossYouIntoPit
+	playsound SFX_WARP_TO
+	special FadeBlackQuickly
+	playsound SFX_WARP_FROM
+	special FadeInQuickly
+	warp THE_DARK_LAB, 15, 3
 	end
 
 WhatAreYouDoingBrian:
@@ -328,12 +343,12 @@ BriansHouse_MapEvents:
 	warp_event  6, 13, IVY_ROAD, 3
 	warp_event  7, 13, IVY_ROAD, 3
 	warp_event 12,  0, IVY_ROAD, 5
-	;warp_event  3,  1, DARK_BASEMENT, 1
-	;warp_event  3,  2, DARK_BASEMENT, 1
-	;warp_event  3,  3, DARK_BASEMENT, 1
-	;warp_event  2,  3, DARK_BASEMENT, 1
-	;warp_event  1,  3, DARK_BASEMENT, 1
-	;warp_event  0,  3, DARK_BASEMENT, 1
+	warp_event  3,  1, THE_DARK_LAB, 1
+	warp_event  3,  2, THE_DARK_LAB, 1
+	warp_event  3,  3, THE_DARK_LAB, 1
+	warp_event  2,  3, THE_DARK_LAB, 1
+	warp_event  1,  3, THE_DARK_LAB, 1
+	warp_event  0,  3, THE_DARK_LAB, 1
 
 	def_coord_events
 ;	coord_event x, y, scene_id, script

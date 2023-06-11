@@ -1930,3 +1930,14 @@ ArmosGroup:
 	db 42, FLAPPLE
 	db 42, APPLETUN
 	db -1 ; end
+
+TheEmptyGroup:
+	; THE_EMPTY (1)
+	db "VESSEL@", TRAINERTYPE_NORMAL
+	db 50, FURIOUSB
+	db -1 ; end
+
+	; THE_EMPTY (2)
+	db "VESSEL@", TRAINERTYPE_NORMAL
+	db 50, FURIOUSB
+	db -1 ; end

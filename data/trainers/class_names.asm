@@ -103,4 +103,5 @@ TrainerClassNames::
 	li "SHOP" ; SHOPKEEPER
 	li "MOBLIN" ; MOBLIN
 	li "ARMOS," ; ARMOS
+	li "EMPTY" ; EMPTY
 	assert_list_length NUM_TRAINER_CLASSES

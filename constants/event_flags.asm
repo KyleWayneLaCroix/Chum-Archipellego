@@ -85,13 +85,13 @@
 	const EVENT_KYLES_HOUSE_KYLE_DISAPPEARED
 	const EVENT_CHAIR_BRIAN_DISAPPEARED
 	const EVENT_CHAIR_BRIAN_2_DISAPPEARED
-	const_skip
-	const_skip
-	const_skip
-	const_skip
-	const_skip
-	const_skip
-	const_skip
+	const EVENT_SAW_DARK_LAB_INTRO
+	const EVENT_THE_DARK_LAB_LEFT_TANK
+	const EVENT_THE_DARK_LAB_RIGHT_TANK
+	const EVENT_READ_STICKY_NOTE_PASSWORD
+	const EVENT_THE_DARK_LAB_BOMBED_WALL
+	const EVENT_GOT_MASTER_BALL
+	const EVENT_GOT_A_SECOND_STARTER
 	const_skip
 	const_skip
 	const_skip
@@ -1157,8 +1157,8 @@
 	const EVENT_BEAT_ARMOS_4
 	const EVENT_BEAT_OWL_BRIAN
 	const EVENT_BEAT_MER_MARTHA
-	const_skip
-	const_skip
+	const EVENT_BEAT_THE_EMPTY_1
+	const EVENT_BEAT_THE_EMPTY_2
 	const_skip
 	const_skip
 	const_skip

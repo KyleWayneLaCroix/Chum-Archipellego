@@ -3077,7 +3077,8 @@ wBadEggExteriorSceneID::            db
 wMisplacedWoodsSceneID::            db
 wIvyRoadSceneID::                   db
 wBriansHouseSceneID::				db
-	ds 48
+wTheDarkLabSceneID::                db
+	ds 47
 
 ; fight counts
 wJackFightCount::    db

@@ -105,4 +105,5 @@ TrainerPicPointers::
 	dba ShopkeeperPic
 	dba MoblinPic
 	dba ArmosPic
+	dba TheEmptyPic
 	assert_table_length NUM_TRAINER_CLASSES

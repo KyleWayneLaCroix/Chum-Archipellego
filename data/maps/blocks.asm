@@ -438,3 +438,6 @@ HauntedAttic_Blocks:
 
 SamsHouse_Blocks:
 	INCBIN "maps/SamsHouse.ablk"
+
+TheDarkLab_Blocks:
+	INCBIN "maps/TheDarkLab.ablk"

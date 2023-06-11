@@ -79,6 +79,7 @@ MaleTrainers:
 	db SHOPKEEPER_T
 	db MOBLIN
 	db ARMOS
+	db THE_EMPTY
 .End
 
 FemaleTrainers:
