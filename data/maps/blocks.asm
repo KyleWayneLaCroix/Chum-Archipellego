@@ -441,3 +441,6 @@ SamsHouse_Blocks:
 
 TheDarkLab_Blocks:
 	INCBIN "maps/TheDarkLab.ablk"
+
+TheDarkLabBrianRoom_Blocks:
+	INCBIN "maps/TheDarkLabBrianRoom.ablk"

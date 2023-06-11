@@ -406,6 +406,7 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 	trainerclass MAD_DOG ; 49
 	const BRIAN_1
 	const BRIANEON
+	const BRIAN_3
 
 	trainerclass BRIAN_F
 	const BRIAN_F_1

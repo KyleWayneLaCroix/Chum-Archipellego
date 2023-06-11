@@ -193,6 +193,7 @@ INCLUDE "maps/KylesHouse.asm"
 INCLUDE "maps/HauntedAttic.asm"
 INCLUDE "maps/SamsHouse.asm"
 INCLUDE "maps/TheDarkLab.asm"
+INCLUDE "maps/TheDarkLabBrianRoom.asm"
 
 SECTION "Map Scripts 18", ROMX
 

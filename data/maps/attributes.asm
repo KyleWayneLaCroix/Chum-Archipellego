@@ -294,3 +294,4 @@ ENDM
 	map_attributes SamsHouse, SAMS_HOUSE, $00, 0
 
 	map_attributes TheDarkLab, THE_DARK_LAB, $00, 0
+	map_attributes TheDarkLabBrianRoom, THE_DARK_LAB_BRIAN_ROOM, $00, 0

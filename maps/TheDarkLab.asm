@@ -890,6 +890,8 @@ TheDarkLab_MapEvents:
 
 	def_warp_events
 ;	warp_event x, y, map, warp_id
+	warp_event 24, 19, THE_DARK_LAB_BRIAN_ROOM , 1
+	warp_event 25, 19, THE_DARK_LAB_BRIAN_ROOM , 2
 
 	def_coord_events
 ;	coord_event x, y, scene_id, script
