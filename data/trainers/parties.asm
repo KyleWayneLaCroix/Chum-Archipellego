@@ -174,6 +174,14 @@ FurryGroup:
 	db 15, SPHEAL
 	db -1 ; end
 
+	; FURRY (3)
+	db "KRISTY@", TRAINERTYPE_NORMAL
+	db 38, GARDEVOIR
+	db 38, TSAREENA
+	db 38, LURANTIS
+	db 38, MEOWSTIC_F
+	db -1 ; end
+
 LoaferGroup:
 	; LOAFER (1)
 	db "SAM@", TRAINERTYPE_NICKNAME | TRAINERTYPE_MOVES
@@ -563,8 +571,9 @@ EngineerGroup:
 FancyLadGroup:
 	; FANCY_LAD (1)
 	db "HAYDEN@", TRAINERTYPE_NORMAL
-	db 25, DITTO
-	db 26, DITTO
+	db 40, GARDEVOIR
+	db 40, GALLADE
+	db 40, SYLVEON
 	db -1 ; end
 
 FedoraManGroup:
@@ -744,6 +753,20 @@ GlitchGroup:
 	db 36, UNOWN, EXPLOSION, EXPLOSION, EXPLOSION, EXPLOSION
 	db -1 ; end
 
+	; GLITCH (8)
+	db "SKREE@", TRAINERTYPE_NICKNAME
+	db 45, GARBODOR, "MUK@"
+	db 75, HOPPIP, "JUMPLUFF@"
+	db 40, BAD_EGG, "TOGEPI@"
+	db -1 ; end
+
+	; GLITCH (9)
+	db "SKREE@", TRAINERTYPE_NORMAL
+	db 45, POPPY
+	db 45, KIRBY
+	db 45, FURIOUSB
+	db -1 ; end
+
 GrampsGroup:
 	; GRAMPS (1)
 	db "B. WILLIS@", TRAINERTYPE_ITEM
@@ -872,8 +895,9 @@ KarateKingGroup:
 KarenGroup:
 	; KAREN (1)
 	db "KAREN@", TRAINERTYPE_NORMAL
-	db  1, DITTO
-	db  1, DITTO
+	db 38, GUMSHOOS
+	db 40, LUXWAN
+	db 48, FROSMOTH
 	db -1 ; end
 
 KimonoGirlGroup:
@@ -1950,4 +1974,19 @@ TheEmptyGroup:
 	; THE_EMPTY (2)
 	db "VESSEL@", TRAINERTYPE_NORMAL
 	db 50, FURIOUSB
+	db -1 ; end
+
+	; THE_EMPTY (1)
+	db "VESSEL@", TRAINERTYPE_NORMAL
+	db 50, UNOWN
+	db 50, BAD_EGG
+	db 50, M_BLOCK
+	db -1 ; end
+
+	; THE_EMPTY (2)
+	db "VESSEL@", TRAINERTYPE_DVS
+	db 45, UNOWN,  $AA, $AA
+	db 45, UNOWN,  $83, $37
+	db 45, UNOWN,  $F0, $0F
+	db 45, UNOWN,  $0F, $F0
 	db -1 ; end

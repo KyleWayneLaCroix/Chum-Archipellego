@@ -65,6 +65,7 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 	trainerclass FURRY ; 3
 	const VICTORIA1
 	const HOLLOWAY
+	const KRISTY
 
 	trainerclass LOAFER ; 4
 	const SAM1
@@ -203,6 +204,8 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 	const GLITCH_5
 	const TROPHY
 	const GLITCH_7
+	const GLITCH_8
+	const GLITCH_9
 
 	trainerclass GRAMPS ; 3b
 	const WILLIS
@@ -237,7 +240,7 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 	const JET
 
 	trainerclass KAREN
-	const KAREN1
+	const KAREN_1
 
 	trainerclass KIMONO_GIRL ; 3c
 	const SUI   ; vaporeon
@@ -477,6 +480,8 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 	trainerclass THE_EMPTY
 	const THE_EMPTY_1
 	const THE_EMPTY_2
+	const THE_EMPTY_3
+	const THE_EMPTY_4
 
 DEF KRIS EQU __trainer_class__
 

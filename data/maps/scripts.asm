@@ -194,6 +194,8 @@ INCLUDE "maps/HauntedAttic.asm"
 INCLUDE "maps/SamsHouse.asm"
 INCLUDE "maps/TheDarkLab.asm"
 INCLUDE "maps/TheDarkLabBrianRoom.asm"
+INCLUDE "maps/TheBetweensSafariZone.asm"
+INCLUDE "maps/TheBetweensMetroid.asm"
 
 SECTION "Map Scripts 18", ROMX
 

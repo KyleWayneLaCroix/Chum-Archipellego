@@ -295,3 +295,5 @@ ENDM
 
 	map_attributes TheDarkLab, THE_DARK_LAB, $00, 0
 	map_attributes TheDarkLabBrianRoom, THE_DARK_LAB_BRIAN_ROOM, $00, 0
+	map_attributes TheBetweensSafariZone, THE_BETWEENS_SAFARI_ZONE, $00, 0
+	map_attributes TheBetweensMetroid, THE_BETWEENS_METROID, $00, 0

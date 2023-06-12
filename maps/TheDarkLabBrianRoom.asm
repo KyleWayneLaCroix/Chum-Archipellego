@@ -11,6 +11,7 @@ TheDarkLabBrianRoom_MapScripts:
 ;	callback type, script
 
 TheDarkLabBrianRoomBrian:
+	faceplayer
 	opentext
 	writetext TheDarkLabBrianRoomBrianExposition1
 	waitbutton
@@ -22,6 +23,7 @@ TheDarkLabBrianRoomBrian:
 	pause 30
 	turnobject THE_DARK_LAB_BRAIN_ROOM_BRIAN, UP
 	pause 30
+	faceplayer
 	writetext TheDarkLabBrianRoomBrianExposition2
 	waitbutton
 	showemote EMOTE_BOLT, THE_DARK_LAB_BRAIN_ROOM_BRIAN, 30
@@ -281,6 +283,7 @@ StopLeavingBrainRoom:
 	opentext
 	writetext CantLeaveBrianRoomText
 	waitbutton
+	closetext
 	applymovement PLAYER, CantLeaveBrianRoomMovement
 .End:
 	end
@@ -302,10 +305,12 @@ TheDarkLabBrianRoom_MapEvents:
 ;	warp_event x, y, map, warp_id
 	warp_event  4, 0, THE_DARK_LAB, 1
 	warp_event  5, 0, THE_DARK_LAB, 2
+	warp_event  4, 9, THE_BETWEENS_SAFARI_ZONE, 1
+	warp_event  5, 9, THE_BETWEENS_SAFARI_ZONE, 1
 
 	def_coord_events
 ;	coord_event x, y, scene_id, script
-	coord_event 4, 9, -1, StopLeavingBrainRoom
+	coord_event  4, 9, -1, StopLeavingBrainRoom
 	coord_event  5,  9, -1, StopLeavingBrainRoom
 
 	def_bg_events

@@ -223,6 +223,8 @@ ENDM
 	map_const AWAKENING_DUNGEON_TREASURE_ROOM,  8,  7 ; 26
 	map_const THE_DARK_LAB,                    15, 10 ; 27
 	map_const THE_DARK_LAB_BRIAN_ROOM,          5,  5 ; 28
+	map_const THE_BETWEENS_SAFARI_ZONE,        16, 13 ; 29
+	map_const THE_BETWEENS_METROID,            17,  5 ; 30
 	endgroup
 
 DEF NUM_MAP_GROUPS EQU const_value ; 8

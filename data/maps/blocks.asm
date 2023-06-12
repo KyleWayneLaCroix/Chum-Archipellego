@@ -444,3 +444,9 @@ TheDarkLab_Blocks:
 
 TheDarkLabBrianRoom_Blocks:
 	INCBIN "maps/TheDarkLabBrianRoom.ablk"
+
+TheBetweensSafariZone_Blocks:
+	INCBIN "maps/TheBetweensSafariZone.ablk"
+
+TheBetweensMetroid_Blocks:
+	INCBIN "maps/TheBetweensMetroid.ablk"
