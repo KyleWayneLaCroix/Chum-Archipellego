@@ -212,6 +212,7 @@ AwakeningLabHealingMachine:
 	givepoke JUNGELA, 150
 	givepoke STRAIGAR, 150
 	givepoke TOUCANNON, 150
+	setevent EVENT_BEAT_KYLES_DESKTOP_ROOM_KYLE
 	closetext
 	end
 
@@ -552,7 +553,7 @@ AwakeningLab_MapEvents:
 	def_warp_events
 	warp_event 25, 19, AWAKENING_BEACH, 1
 	warp_event 24, 19, AWAKENING_BEACH, 1
-	warp_event 27, 16, THE_BETWEENS_SAFARI_ZONE, 1
+	warp_event 27, 16, THE_BETWEENS_TRADITIONAL_HOUSE, 1
 
 	def_coord_events
 	coord_event 26,  6, SCENE_AWAKENINGLAB_WOKE_UP, WakeUpScript
@@ -587,7 +588,7 @@ AwakeningLab_MapEvents:
 	bg_event 15, 15, BGEVENT_READ, AwakeningLabTeleport
 
 	def_object_events
-	object_event 26, 14, SPRITE_RIVAL, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_TRAINER, 0, TestTrainer, -1
+	object_event 26, 14, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_TRAINER, 0, TestTrainer, -1
 	object_event 12, 15, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, PorygonPokeBallScript, EVENT_GOT_A_STARTER
 	object_event 13, 15, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, BurgelaPokeBallScript, EVENT_GOT_A_STARTER
 	object_event 14, 15, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, SpirripPokeBallScript, EVENT_GOT_A_STARTER

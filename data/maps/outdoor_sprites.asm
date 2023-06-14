@@ -38,7 +38,7 @@ BattleTowerGroupSprites:
 
 
 NewBarkGroupSprites:
-	db SPRITE_RIVAL
+	db SPRITE_COOLTRAINER_M
 	db SPRITE_TEACHER
 	db SPRITE_FISHER
 	db SPRITE_COOLTRAINER_M

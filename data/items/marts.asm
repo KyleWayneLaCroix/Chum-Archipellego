@@ -18,9 +18,9 @@ Marts:
 	dw MartUnivercityLocal
 	dw MartEeveeRanch1
 	dw MartEeveeRanch2
-	dw MartCerulean
+	dw MartShadyVolcano
 	dw MartLavender
-	dw MartVermilion
+	dw MartTheBetweens
 	dw MartCeladon2F1
 	dw MartCeladon2F2
 	dw MartCeladon3F
@@ -236,7 +236,7 @@ MartEeveeRanch2:
 	db GREAT_BALL
 	db -1 ; end
 
-MartCerulean:
+MartShadyVolcano:
 	db 9 ; # items
 	db GREAT_BALL
 	db ULTRA_BALL
@@ -261,16 +261,16 @@ MartLavender:
 	db BURN_HEAL
 	db -1 ; end
 
-MartVermilion:
+MartTheBetweens:
 	db 8 ; # items
 	db ULTRA_BALL
-	db SUPER_POTION
+	db FULL_RESTORE
 	db HYPER_POTION
 	db REVIVE
 	db PARLYZ_HEAL
 	db AWAKENING
 	db BURN_HEAL
-	db LITEBLUEMAIL
+	db ETHER
 	db -1 ; end
 
 MartCeladon2F1:

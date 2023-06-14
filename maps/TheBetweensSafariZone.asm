@@ -220,6 +220,7 @@ TheBetweensSafariZone_MapEvents:
 	warp_event 29,  0, THE_BETWEENS_SAFARI_ZONE, 3
 	warp_event 31, 22, THE_BETWEENS_METROID, 1
 	warp_event 31, 23, THE_BETWEENS_METROID, 1
+	warp_event 12, 11, THE_BETWEENS_POKECENTER_1F, 1
 
 	def_coord_events
 ;	coord_event x, y, scene_id, script

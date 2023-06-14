@@ -680,12 +680,12 @@ TympoleFrontpic:      INCBIN "gfx/pokemon/tympole/front.animated.2bpp.lz"
 TympoleBackpic:      INCBIN "gfx/pokemon/tympole/back.2bpp.lz"
 TyranitarFrontpic:      INCBIN "gfx/pokemon/tyranitar/front.animated.2bpp.lz"
 TyranitarBackpic:      INCBIN "gfx/pokemon/tyranitar/back.2bpp.lz"
-UmbreonFrontpic:      INCBIN "gfx/pokemon/umbreon/front.animated.2bpp.lz"
-UmbreonBackpic:      INCBIN "gfx/pokemon/umbreon/back.2bpp.lz"
 
 
 SECTION "Pics 19", ROMX
 
+UmbreonFrontpic:      INCBIN "gfx/pokemon/umbreon/front.animated.2bpp.lz"
+UmbreonBackpic:      INCBIN "gfx/pokemon/umbreon/back.2bpp.lz"
 UrsalunaFrontpic:      INCBIN "gfx/pokemon/ursaluna/front.animated.2bpp.lz"
 UrsalunaBackpic:      INCBIN "gfx/pokemon/ursaluna/back.2bpp.lz"
 UrsaringFrontpic:      INCBIN "gfx/pokemon/ursaring/front.animated.2bpp.lz"

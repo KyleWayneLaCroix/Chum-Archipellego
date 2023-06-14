@@ -124,10 +124,11 @@
 	const SPRITE_SWORD ; 77
 	const SPRITE_BLOCK ; 78
 	const SPRITE_ARMOS ; 79
+	const SPRITE_BIG_FURIOUSB ; 80
 DEF NUM_OVERWORLD_SPRITES EQU const_value - 1
 
 ; SpriteMons indexes (see data/sprites/sprite_mons.asm)
-	const_next $80
+	const_next $81
 DEF SPRITE_POKEMON EQU const_value
 	const SPRITE_UNOWN ; 80
 	const SPRITE_CAT ; 81
@@ -164,17 +165,17 @@ DEF SPRITE_POKEMON EQU const_value
 	const SPRITE_GYARADOS ; a0
 	const SPRITE_LUGIA ; a1
 	const SPRITE_HO_OH ; a2
-	const SPRITE_EEVEE
-	const SPRITE_VAPOREON
-	const SPRITE_JOLTEON
-	const SPRITE_FLAREON
-	const SPRITE_ESPEON
-	const SPRITE_UMBREON
-	const SPRITE_GLACEON
-	const SPRITE_LEAFEON
-	const SPRITE_SYLVEON
-	const SPRITE_BUZZEON
-	const SPRITE_FOX
+	const SPRITE_EEVEE ; a3
+	const SPRITE_VAPOREON ; a4
+	const SPRITE_JOLTEON ; a5
+	const SPRITE_FLAREON ; a6
+	const SPRITE_ESPEON ; a7
+	const SPRITE_UMBREON ; a8
+	const SPRITE_GLACEON ; a9
+	const SPRITE_LEAFEON ; aa
+	const SPRITE_SYLVEON ; ab
+	const SPRITE_BUZZEON ; ac
+	const SPRITE_FOX ;ad
 DEF NUM_POKEMON_SPRITES EQU const_value - SPRITE_POKEMON
 
 ; special GetMonSprite values (see engine/overworld/overworld.asm)

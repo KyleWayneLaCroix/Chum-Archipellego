@@ -194,37 +194,48 @@ ENDM
 	map_const SAMS_HOUSE,                      11,  8 ; 6
 	endgroup
 
-	newgroup DUNGEONS                                 ; 13
-	map_const DANK_CAVE_1F,                    22,  7 ;  1
-	map_const DANK_CAVE_2F,                    16, 14 ;  2
-	map_const NORTHERN_FOREST,                 20, 30 ;  3
-	map_const CITY_GEAR_HQ,                    12, 19 ;  4
-	map_const CITY_GEAR_HQ_BASEMENT,           17,  8 ;  5
-	map_const VOLCANO_INTERIOR_B1F,            15, 18 ;  6
-	map_const VOLCANO_INTERIOR_B1F_HALL,        9,  7 ;  7
-	map_const VOLCANO_INTERIOR_1F,             27, 18 ;  8
-	map_const VOLCANO_INTERIOR_2F,             14, 18 ;  9
-	map_const VOLCANO_INTERIOR_3F,             18, 21 ; 10
-	map_const VOLCANO_INTERIOR_3F_HALL,        11,  4 ; 11
-	map_const VOLCANO_INTERIOR_4F,             33, 21 ; 12
-	map_const VOLCANO_INTERIOR_5F,             20, 20 ; 13
-	map_const VOLCANO_INTERIOR_5F_HALL,         8,  8 ; 14
-	map_const VOLCANO_INTERIOR_6F,             30, 18 ; 15
-	map_const VOLCANO_INTERIOR_6F_HALL,        10, 20 ; 16
-	map_const FROZEN_CAVERN_1F,                19, 17 ; 17
-	map_const FROZEN_CAVERN_B1F,               19, 17 ; 18
-	map_const FROZEN_CAVERN_2F,                19, 17 ; 19
-	map_const FROZEN_CAVERN_3F,                19, 17 ; 20
-	map_const FROZEN_GROTTO,                    5,  5 ; 21
-	map_const MAYBE_VILLAGE_SHRINE,            13, 20 ; 22
-	map_const AWAKENING_DUNGEON,               28, 24 ; 23
-	map_const AWAKENING_DUNGEON_B1F,           28, 24 ; 24
-	map_const AWAKENING_DUNGEON_BOSS_ROOM,      8, 10 ; 25
-	map_const AWAKENING_DUNGEON_TREASURE_ROOM,  8,  7 ; 26
-	map_const THE_DARK_LAB,                    15, 10 ; 27
-	map_const THE_DARK_LAB_BRIAN_ROOM,          5,  5 ; 28
-	map_const THE_BETWEENS_SAFARI_ZONE,        16, 13 ; 29
-	map_const THE_BETWEENS_METROID,            17,  5 ; 30
+	newgroup DUNGEONS                                      ; 13
+	map_const DANK_CAVE_1F,                         22,  7 ;  1
+	map_const DANK_CAVE_2F,                         16, 14 ;  2
+	map_const NORTHERN_FOREST,                      20, 30 ;  3
+	map_const CITY_GEAR_HQ,                         12, 19 ;  4
+	map_const CITY_GEAR_HQ_BASEMENT,                17,  8 ;  5
+	map_const VOLCANO_INTERIOR_B1F,                 15, 18 ;  6
+	map_const VOLCANO_INTERIOR_B1F_HALL,             9,  7 ;  7
+	map_const VOLCANO_INTERIOR_1F,                  27, 18 ;  8
+	map_const VOLCANO_INTERIOR_2F,                  14, 18 ;  9
+	map_const VOLCANO_INTERIOR_3F,                  18, 21 ; 10
+	map_const VOLCANO_INTERIOR_3F_HALL,             11,  4 ; 11
+	map_const VOLCANO_INTERIOR_4F,                  33, 21 ; 12
+	map_const VOLCANO_INTERIOR_5F,                  20, 20 ; 13
+	map_const VOLCANO_INTERIOR_5F_HALL,              8,  8 ; 14
+	map_const VOLCANO_INTERIOR_6F,                  30, 18 ; 15
+	map_const VOLCANO_INTERIOR_6F_HALL,             10, 20 ; 16
+	map_const FROZEN_CAVERN_1F,                     19, 17 ; 17
+	map_const FROZEN_CAVERN_B1F,                    19, 17 ; 18
+	map_const FROZEN_CAVERN_2F,                     19, 17 ; 19
+	map_const FROZEN_CAVERN_3F,                     19, 17 ; 20
+	map_const FROZEN_GROTTO,                         5,  5 ; 21
+	map_const MAYBE_VILLAGE_SHRINE,                 13, 20 ; 22
+	map_const AWAKENING_DUNGEON,                    28, 24 ; 23
+	map_const AWAKENING_DUNGEON_B1F,                28, 24 ; 24
+	map_const AWAKENING_DUNGEON_BOSS_ROOM,           8, 10 ; 25
+	map_const AWAKENING_DUNGEON_TREASURE_ROOM,       8,  7 ; 26
+	map_const THE_DARK_LAB,                         15, 10 ; 27
+	map_const THE_DARK_LAB_BRIAN_ROOM,               5,  5 ; 28
+	map_const THE_BETWEENS_SAFARI_ZONE,             16, 13 ; 29
+	map_const THE_BETWEENS_METROID,                 17,  5 ; 30
+	map_const THE_BETWEENS_POKECENTER_1F,            5,  4 ; 31
+	map_const THE_BETWEENS_VICTORY_ROAD,            13, 12 ; 32
+	map_const THE_BETWEENS_ICE_PATH,                13, 12 ; 33
+	map_const THE_BETWEENS_TOWN,                    19, 18 ; 34
+	map_const THE_BETWEENS_MART,                     5,  5 ; 35
+	map_const THE_BETWEENS_FACILITY,                 7, 10 ; 36
+	map_const THE_BETWEENS_ELITE_FOUR_ROOM,          5,  5 ; 37
+	map_const THE_BETWEENS_FOREST,                   8,  8 ; 38
+	map_const THE_BETWEENS_TRADITIONAL_HOUSE,        5,  5 ; 39
+	map_const THE_BETWEENS_LINKS_AWAKENING_INTERIOR, 6,  5 ; 40
+	map_const KYLES_DESKTOP_ROOM,                    5,  5 ; 41
 	endgroup
 
 DEF NUM_MAP_GROUPS EQU const_value ; 8

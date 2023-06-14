@@ -64,6 +64,7 @@ UnivercityPokecenter1F_Blocks:
 GearCityPokecenter1F_Blocks:
 EeveeRanchPokecenter1F_Blocks:
 IceTownPokecenter1F_Blocks:
+TheBetweensPokecenter1F_Blocks:
 	INCBIN "maps/Pokecenter1F.ablk"
 
 GearCityMart_Blocks:
@@ -450,3 +451,33 @@ TheBetweensSafariZone_Blocks:
 
 TheBetweensMetroid_Blocks:
 	INCBIN "maps/TheBetweensMetroid.ablk"
+
+TheBetweensVictoryRoad_Blocks:
+	INCBIN "maps/TheBetweensVictoryRoad.ablk"
+
+TheBetweensIcePath_Blocks:
+	INCBIN "maps/TheBetweensIcePath.ablk"
+
+TheBetweensTown_Blocks:
+	INCBIN "maps/TheBetweensTown.ablk"
+
+TheBetweensMart_Blocks:
+	INCBIN "maps/TheBetweensMart.ablk"
+
+TheBetweensFacility_Blocks:
+	INCBIN "maps/TheBetweensFacility.ablk"
+
+TheBetweensEliteFourRoom_Blocks:
+	INCBIN "maps/TheBetweensEliteFourRoom.ablk"
+
+TheBetweensForest_Blocks:
+	INCBIN "maps/TheBetweensForest.ablk"
+
+TheBetweensTraditionalHouse_Blocks:
+	INCBIN "maps/TheBetweensTraditionalHouse.ablk"
+
+TheBetweensLinksAwakeningInterior_Blocks:
+	INCBIN "maps/TheBetweensLinksAwakeningInterior.ablk"
+
+KylesDesktopRoom_Blocks:
+	INCBIN "maps/KylesDesktopRoom.ablk"

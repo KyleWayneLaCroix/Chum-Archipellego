@@ -196,9 +196,19 @@ INCLUDE "maps/TheDarkLab.asm"
 INCLUDE "maps/TheDarkLabBrianRoom.asm"
 INCLUDE "maps/TheBetweensSafariZone.asm"
 INCLUDE "maps/TheBetweensMetroid.asm"
+INCLUDE "maps/TheBetweensPokecenter1F.asm"
 
 SECTION "Map Scripts 18", ROMX
-
+INCLUDE "maps/TheBetweensVictoryRoad.asm"
+INCLUDE "maps/TheBetweensIcePath.asm"
+INCLUDE "maps/TheBetweensTown.asm"
+INCLUDE "maps/TheBetweensMart.asm"
+INCLUDE "maps/TheBetweensFacility.asm"
+INCLUDE "maps/TheBetweensEliteFourRoom.asm"
+INCLUDE "maps/TheBetweensForest.asm"
+INCLUDE "maps/TheBetweensTraditionalHouse.asm"
+INCLUDE "maps/TheBetweensLinksAwakeningInterior.asm"
+INCLUDE "maps/KylesDesktopRoom.asm"
 
 SECTION "Map Scripts 19", ROMX
 

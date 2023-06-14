@@ -38,6 +38,7 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 
 	trainerclass KYLE      ; 2
 	const KYLE1
+	const KYLE2
 
 	trainerclass LEE       ; 3
 	const LEE1
@@ -126,6 +127,7 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 
 	trainerclass BUG_MANIAC
 	const ARNIE
+	const KEN
 
 	trainerclass BURGLAR ; 2f
 	const DUNCAN
@@ -140,6 +142,7 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 
 	trainerclass CEO ; 33
 	const LONGO
+	const MOLLUSK
 
 	trainerclass CHAMPION ; 10
 	const LANCE
@@ -209,9 +212,11 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 
 	trainerclass GRAMPS ; 3b
 	const WILLIS
+	const DEREK
 
 	trainerclass GRANNY ; 3e
 	const BEVERLY1
+	const RUTH
 
 	trainerclass GUITARIST ; 2b
 	const CLYDE
@@ -268,6 +273,7 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 	const MARTHA
 	const GRACE
 	const WELL
+	const MARGRET
 
 	trainerclass NINJA_F
 	const HINATA
@@ -433,12 +439,14 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 	const ROCKBRIAN_1
 	const ROCKBRIAN_2
 	const ROCKBRIAN_3
+	const ROCKBRIAN_4
 
 	trainerclass TREE_BRIAN ; 47
 	const TREEBRIAN_1
 	const TREEBRIAN_2
 	const TREEBRIAN_3
 	const TREEBRIAN_4
+	const TREEBRIAN_5
 
 	trainerclass OCTOROK_T
 	const OCTOROK_1
@@ -482,6 +490,8 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 	const THE_EMPTY_2
 	const THE_EMPTY_3
 	const THE_EMPTY_4
+	const THE_EMPTY_5
+	const THE_EMPTY_6
 
 DEF KRIS EQU __trainer_class__
 

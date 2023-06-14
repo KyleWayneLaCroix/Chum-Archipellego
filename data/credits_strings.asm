@@ -106,7 +106,7 @@ CreditsStringsPointers:
 	dw .PaadTesting
 	assert_table_length NUM_CREDITS_STRINGS
 
-.SatoshiTajiri:       db "   SATOSHI TAJIRI@"         ; "たじり　さとし@"
+.SatoshiTajiri:       db "     KYLE LACROIX@"         ; "たじり　さとし@"
 .JunichiMasuda:       db "   JUNICHI MASUDA@"         ; "ますだ　じゅんいち@"
 .TetsuyaWatanabe:     db "  TETSUYA WATANABE@"        ; "わたなべ　てつや@"
 .ShigekiMorimoto:     db "  SHIGEKI MORIMOTO@"        ; "もりもと　しげき@"
@@ -181,7 +181,7 @@ CreditsStringsPointers:
 .KazuyoshiOsawa:      db "  KAZUYOSHI OSAWA@"
 .KimikoNakamichi:     db "  KIMIKO NAKAMICHI@"
 .Staff:               db "      #MON"                 ; "ポケットモンスター"
-                    next "  CRYSTAL VERSION"          ; "　　クりスタル　バージョン"
+                    next " CHUM ARCHIPELAGO"          ; "　　クりスタル　バージョン"
                     next "       STAFF@"              ; "　　　　スタッフ@"
 .Director:            db "      DIRECTOR@"            ; "エグゼクティブ　ディレクター@"
 .CoDirector:          db "    CO-DIRECTOR@"           ; "ディレクター@"

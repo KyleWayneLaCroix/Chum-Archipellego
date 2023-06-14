@@ -297,3 +297,14 @@ ENDM
 	map_attributes TheDarkLabBrianRoom, THE_DARK_LAB_BRIAN_ROOM, $00, 0
 	map_attributes TheBetweensSafariZone, THE_BETWEENS_SAFARI_ZONE, $00, 0
 	map_attributes TheBetweensMetroid, THE_BETWEENS_METROID, $00, 0
+	map_attributes TheBetweensPokecenter1F, THE_BETWEENS_POKECENTER_1F, $00, 0
+	map_attributes TheBetweensVictoryRoad, THE_BETWEENS_VICTORY_ROAD, $00, 0
+	map_attributes TheBetweensIcePath, THE_BETWEENS_ICE_PATH, $00, 0
+	map_attributes TheBetweensTown, THE_BETWEENS_TOWN, $00, 0
+	map_attributes TheBetweensMart, THE_BETWEENS_MART, $00, 0
+	map_attributes TheBetweensFacility, THE_BETWEENS_FACILITY, $00, 0
+	map_attributes TheBetweensEliteFourRoom, THE_BETWEENS_ELITE_FOUR_ROOM, $00, 0
+	map_attributes TheBetweensForest, THE_BETWEENS_FOREST, $00, 0
+	map_attributes TheBetweensTraditionalHouse, THE_BETWEENS_TRADITIONAL_HOUSE, $00, 0
+	map_attributes TheBetweensLinksAwakeningInterior, THE_BETWEENS_LINKS_AWAKENING_INTERIOR, $00, 0
+	map_attributes KylesDesktopRoom, KYLES_DESKTOP_ROOM, $00, 0

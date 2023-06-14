@@ -1273,7 +1273,7 @@ Meeman2F_MapEvents:
 
 	def_object_events
 ;	object_event x, y, sprite, movement, rx, ry, h1, h2, palette, type, range, script, event_flag
-	object_event 23,  9, SPRITE_RIVAL, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 4, 4, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Meeman2FStudentScript, 0
+	object_event 23,  9, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 4, 4, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Meeman2FStudentScript, 0
 	object_event  6, 11, SPRITE_LASS, SPRITEMOVEDATA_WALK_UP_DOWN, 3, 3, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Meeman2FStudent2Script, 0
 	object_event 16, 18, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ChrisWhinpinScript, EVENT_SAW_WHINPIN_APOLOGY
 	object_event 27, 24, SPRITE_FAIRY, SPRITEMOVEDATA_WANDER, 1, 3, -1, -1, 0, OBJECTTYPE_TRAINER, 2, TrainerPhotographerBrian, EVENT_BEAT_PHOTOGRAPHER_BRIAN
