@@ -3,7 +3,7 @@
 	db 255, 255, 255, 255, 255, 255
 	;   hp  atk  def  spd  sat  sdf
 
-	db ELECTRIC, NORMAL ; type
+	db ELECTRIC, GLITCH ; type
 	db 1 ; catch rate
 	db 255 ; base exp
 	db NO_ITEM, NO_ITEM ; items
