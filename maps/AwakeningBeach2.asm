@@ -577,6 +577,12 @@ AwakeningBeach2_MapEvents:
 	warp_event 35, 23, BEACHFRONT_PROPERTY, 1
 	warp_event 41, 31, BEACHFRONT_CAVERN, 1
 	warp_event 40, 14, AWAKENING_DUNGEON, 1
+	warp_event  6,  3, AWAKENING_BEACH_2, 4
+	warp_event 16,  9, AWAKENING_BEACH_2, 4
+	warp_event 26,  8, AWAKENING_BEACH_2, 4
+	warp_event 27,  8, AWAKENING_BEACH_2, 4
+	warp_event 28,  8, AWAKENING_BEACH_2, 4
+	warp_event 26,  7, AWAKENING_BEACH_2, 4
 
 	def_coord_events
 ;	coord_event x, y, scene_id, script
