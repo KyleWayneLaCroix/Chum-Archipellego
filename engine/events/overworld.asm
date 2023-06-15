@@ -1526,7 +1526,6 @@ HasRockSmash:
 	ld [wCurItem], a
 	ld hl, wNumItems
 	call CheckItem
-	call CheckPartyMove
 	jr nc, .no
 ; yes
 	xor a
