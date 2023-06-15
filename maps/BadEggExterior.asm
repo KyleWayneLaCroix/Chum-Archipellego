@@ -75,6 +75,13 @@ BadEggExteriorHide:
 BadEggExteriorMoveUp:
 	step UP
 	step_end
+BadEggExteriorMoveDown:
+	step DOWN
+	step DOWN
+	step DOWN
+	step DOWN
+	step DOWN
+	step_end
 
 BadEggExteriorSign:
 	jumptext BadEggExteriorSignText
@@ -85,6 +92,93 @@ BadEggExteriorSignText:
 	para "    DO NOT EAT   "
 	done
 
+BadEggInteraction:
+	checkevent EVENT_CRACKED_BAD_EGG
+	iftrue .End
+	opentext
+	writetext BadEggBeforeYou
+	yesorno
+	iffalse .End
+	closetext
+	applymovement PLAYER, BadEggExteriorMoveDown
+	playsound SFX_STRENGTH
+	waitsfx
+	earthquake 120
+	playsound SFX_STRENGTH
+	waitsfx
+	applymovement PLAYER, BadEggExteriorMoveUp
+	applymovement PLAYER, BadEggExteriorMoveUp
+	earthquake 10
+	waitsfx
+	applymovement PLAYER, BadEggExteriorMoveUp
+	earthquake 10
+	waitsfx
+	applymovement PLAYER, BadEggExteriorMoveUp
+	earthquake 10
+	waitsfx
+	applymovement PLAYER, BadEggExteriorMoveUp
+	earthquake 10
+	waitsfx
+	opentext
+	writetext BadEggNoDamage
+	special FadeOutPalettes
+	cry BAD_EGG
+	waitsfx
+	special FadeInPalettes
+	earthquake 120
+	special FadeOutPalettes
+	playsound SFX_TOXIC
+	waitsfx
+	special FadeInPalettes
+	closetext
+	setlasttalked -1
+	loadvar VAR_BATTLETYPE, BATTLETYPE_TRAP
+	loadwildmon BAD_EGG, 45
+	startbattle
+	changeblock 14, 6, $e4
+	reloadmapafterbattle
+	setevent EVENT_CRACKED_BAD_EGG
+	playsound SFX_RAZOR_WIND
+	waitsfx
+	opentext
+	writetext AfterBadEggText
+	waitbutton
+	closetext
+	special FadeOutPalettes
+	applymovement PLAYER, BadEggExteriorMoveUp
+	playsound SFX_WARP_TO
+	waitsfx
+	special FadeInPalettes
+	warp IVY_ROAD, 14,  7
+	end
+.End:
+	closetext
+	end
+
+AfterBadEggText:
+	text "The egg cracks"
+	line "open, revealing"
+	cont "a vacuum inside,"
+	cont "sucking you in!"
+	done
+
+BadEggNoDamage:
+	text "It doesn't look"
+	line "like it has a"
+	cont "scratch on it."
+
+	para "It does seem to"
+	line "    ...shake..."
+	cont "though."
+	done
+
+BadEggBeforeYou:
+	text "The BAD EGG is"
+	line "before you."
+
+	para "You ready to try"
+	line "blowing it up?"
+	done
 BadEggExterior_MapEvents:
 	db 0, 0 ; filler
 
@@ -100,6 +194,7 @@ BadEggExterior_MapEvents:
 	def_bg_events
 ;	bg_event x, y, type, script
 	bg_event 13, 24, BGEVENT_READ, BadEggExteriorSign
+	bg_event 14,  7, BGEVENT_READ, BadEggInteraction
 
 	def_object_events
 ;	object_event x, y, sprite, movement, rx, ry, h1, h2, palette, type, range, script, event_flag

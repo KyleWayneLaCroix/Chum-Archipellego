@@ -213,6 +213,7 @@ AwakeningLabHealingMachine:
 	givepoke STRAIGAR, 150
 	givepoke TOUCANNON, 150
 	setevent EVENT_BEAT_KYLES_DESKTOP_ROOM_KYLE
+	setmapscene BAD_EGG_EXTERIOR, SCENE_BAD_EGG_NONE
 	closetext
 	end
 

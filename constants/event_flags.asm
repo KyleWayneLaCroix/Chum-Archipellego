@@ -97,7 +97,7 @@
 	const EVENT_BEAT_KYLES_DESKTOP_ROOM_KYLE
 	const EVENT_BEAT_BIG_FURIOUS_B
 	const EVENT_BEAT_THE_BETWEENS_TOWN_SNORLAX
-	const_skip
+	const EVENT_CRACKED_BAD_EGG
 	const_skip
 	const_skip
 	const_skip
