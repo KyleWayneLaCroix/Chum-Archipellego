@@ -331,9 +331,9 @@ CemetaryLabExpositionText:
 
 	para "I need you to go"
 	line "to these places"
-	cont "and bring these"
-	cont "objects back so I"
-	cont "can patch them."
+	cont "and investigate"
+	cont "so that I can"
+	cont "patch them."
 
 	para "Once enough are"
 	line "stable I can open"
@@ -346,13 +346,16 @@ CemetaryLabExpositionText:
 	line "managed to open a"
 
 	para "CYBERSPACE link"
-	line "to ATOLL"
+	line "to the PAL ATOLL"
 
 	para "Find my brother,"
 	line "RYAN there."
 
 	para "He's in the"
-	line "MONHUNGLE and can"
+	line "JUNGLE at the"
+
+	para "foot of the"
+	line "BROCANO and can"
 
 	para "direct you to a"
 	line "TERU-SAMA glitch"
@@ -396,7 +399,7 @@ CemetaryLabTheMachineExpositionText:
 
 	para "I'm going to turn"
 	line "it on and set it"
-	cont "to ATOLL"
+	cont "to PAL ATOLL"
 	done
 
 CemetaryLabGiveTourText:
