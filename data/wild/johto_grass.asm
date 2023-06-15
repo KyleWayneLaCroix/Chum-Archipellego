@@ -940,7 +940,7 @@ JohtoGrassWildMons:
     db 16, HERDIER
     db 16, HERACROSS
     db 16, TYKER
-    db 16, APPLIN
+    db 16, DEERLING
     db 18, RALTS
     db 17, RALTS
     ; day
@@ -949,7 +949,7 @@ JohtoGrassWildMons:
     db 16, HERDIER
     db 16, HERACROSS
     db 16, TYKER
-    db 16, APPLIN
+    db 16, DEERLING
     db 18, RALTS
     db 17, RALTS
     ; nite
@@ -958,9 +958,536 @@ JohtoGrassWildMons:
     db 16, HERDIER
     db 16, HERACROSS
     db 16, TYKER
-    db 16, APPLIN
+    db 16, DEERLING
     db 18, RALTS
     db 17, RALTS
+    end_grass_wildmons
+
+    def_grass_wildmons MISPLACED_WOODS
+    db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
+    ; morn
+    db 15, LEAFEON
+    db 15, VESPIQUEN
+    db 16, ORICORIO_POM
+    db 16, HERACROSS
+    db 16, TEDDIURSA
+    db 16, PONYTA
+    db 18, ORANGURU
+    db 17, SAWSBUCK
+    ; day
+    db 15, LEAFEON
+    db 15, VESPIQUEN
+    db 16, ORICORIO_POM
+    db 16, HERACROSS
+    db 16, TEDDIURSA
+    db 16, PONYTA
+    db 18, ORANGURU
+    db 17, SAWSBUCK
+    ; nite
+    db 15, LEAFEON
+    db 15, VESPIQUEN
+    db 16, ORICORIO_POM
+    db 16, HERACROSS
+    db 16, TEDDIURSA
+    db 16, PONYTA
+    db 18, ORANGURU
+    db 17, SAWSBUCK
+    end_grass_wildmons
+
+    def_grass_wildmons MISPLACED_CAVERN_1F
+    db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
+    ; morn
+    db 15, CLOBBOPUS
+    db 15, CROAGUNK
+    db 16, DRILBUR
+    db 16, HEATMOR
+    db 16, JANGMO_O
+    db 16, MEOWTH
+    db 18, PUPITAR
+    db 17, DOOMSTONE
+    ; day
+    db 15, CLOBBOPUS
+    db 15, CROAGUNK
+    db 16, DRILBUR
+    db 16, HEATMOR
+    db 16, JANGMO_O
+    db 16, MEOWTH
+    db 18, PUPITAR
+    db 17, DOOMSTONE
+    ; nite
+    db 15, CLOBBOPUS
+    db 15, CROAGUNK
+    db 16, DRILBUR
+    db 16, HEATMOR
+    db 16, JANGMO_O
+    db 16, MEOWTH
+    db 18, PUPITAR
+    db 17, DOOMSTONE
+    end_grass_wildmons
+
+    def_grass_wildmons MISPLACED_CAVERN_2F
+    db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
+    ; morn
+    db 15, CLOBBOPUS
+    db 15, CROAGUNK
+    db 16, DRILBUR
+    db 16, HEATMOR
+    db 16, JANGMO_O
+    db 16, MEOWTH
+    db 18, PUPITAR
+    db 17, DOOMSTONE
+    ; day
+    db 15, CLOBBOPUS
+    db 15, CROAGUNK
+    db 16, DRILBUR
+    db 16, HEATMOR
+    db 16, JANGMO_O
+    db 16, MEOWTH
+    db 18, PUPITAR
+    db 17, DOOMSTONE
+    ; nite
+    db 15, CLOBBOPUS
+    db 15, CROAGUNK
+    db 16, DRILBUR
+    db 16, HEATMOR
+    db 16, JANGMO_O
+    db 16, MEOWTH
+    db 18, PUPITAR
+    db 17, DOOMSTONE
+    end_grass_wildmons
+
+    def_grass_wildmons FROZEN_PASSAGE
+    db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
+    ; morn
+    db 28, SNOM
+    db 28, SPHEAL
+    db 28, SWINUB
+    db 28, SNOVER
+    db 28, PILOSWINE
+    db 28, SEALEO
+    db 28, AMAURA
+    db 28, AMAURA
+    ; day
+    db 28, SNOM
+    db 28, SPHEAL
+    db 28, SWINUB
+    db 28, SNOVER
+    db 28, PILOSWINE
+    db 28, SEALEO
+    db 28, AMAURA
+    db 28, AMAURA
+    ; nite
+    db 28, SNOM
+    db 28, SPHEAL
+    db 28, SWINUB
+    db 28, SNOVER
+    db 28, PILOSWINE
+    db 28, SEALEO
+    db 28, AMAURA
+    db 28, AMAURA
+    end_grass_wildmons
+
+    def_grass_wildmons FROZEN_PASSAGE_2
+    db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
+    ; morn
+    db 28, SNOM
+    db 28, SWINUB
+    db 28, SNOVER
+    db 28, SPHEAL
+    db 28, PILOSWINE
+    db 28, SEALEO
+    db 28, FROSMOTH
+    db 28, AMAURA
+    ; day
+    db 28, SNOM
+    db 28, SWINUB
+    db 28, SNOVER
+    db 28, SPHEAL
+    db 28, PILOSWINE
+    db 28, SEALEO
+    db 28, FROSMOTH
+    db 28, AMAURA
+    ; nite
+    db 28, SNOM
+    db 28, SWINUB
+    db 28, SNOVER
+    db 28, SPHEAL
+    db 28, PILOSWINE
+    db 28, SEALEO
+    db 28, FROSMOTH
+    db 28, AMAURA
+    end_grass_wildmons
+
+    def_grass_wildmons FROZEN_PASSAGE_3
+    db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
+    ; morn
+    db 28, SWINUB
+    db 28, SNOVER
+    db 28, SPHEAL
+    db 28, SNOM
+    db 28, PILOSWINE
+    db 28, SEALEO
+    db 28, FROSMOTH
+    db 28, AMAURA
+    ; day
+    db 28, SWINUB
+    db 28, SNOVER
+    db 28, SPHEAL
+    db 28, SNOM
+    db 28, PILOSWINE
+    db 28, SEALEO
+    db 28, AMAURA
+    db 28, AMAURA
+    ; nite
+    db 28, SWINUB
+    db 28, SNOVER
+    db 28, SPHEAL
+    db 28, SNOM
+    db 28, PILOSWINE
+    db 28, SEALEO
+    db 28, AMAURA
+    db 28, AMAURA
+    end_grass_wildmons
+
+    def_grass_wildmons IVY_ROAD
+    db 8 percent, 8 percent, 8 percent ; encounter rates: morn/day/nite
+    ; morn
+    db 28, HOUNDOOM
+    db 28, KOFFING
+    db 28, TYKER
+    db 28, HERDIER
+    db 28, GRIMER
+    db 28, CROAGUNK
+    db 28, HERACROSS
+    db 28, TANGELA
+    ; day
+    db 28, HOUNDOOM
+    db 28, KOFFING
+    db 28, TYKER
+    db 28, HERDIER
+    db 28, GRIMER
+    db 28, CROAGUNK
+    db 28, HERACROSS
+    db 28, TANGELA
+    ; nite
+    db 28, HOUNDOOM
+    db 28, KOFFING
+    db 28, TYKER
+    db 28, HERDIER
+    db 28, GRIMER
+    db 28, CROAGUNK
+    db 28, HERACROSS
+    db 28, TANGELA
+    end_grass_wildmons
+
+    def_grass_wildmons HAUNTED_ATTIC
+    db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
+    ; morn
+    db 28, LAMPENT
+    db 28, HAUNTER
+    db 28, MISDREAVUS
+    db 28, DREEPY
+    db 28, GASTLY
+    db 28, GASTLY
+    db 28, GASTLY
+    db 28, DOOMSTONE
+    ; day
+    db 28, LAMPENT
+    db 28, HAUNTER
+    db 28, MISDREAVUS
+    db 28, DREEPY
+    db 28, GASTLY
+    db 28, GASTLY
+    db 28, GASTLY
+    db 28, DOOMSTONE
+    ; nite
+    db 28, LAMPENT
+    db 28, HAUNTER
+    db 28, MISDREAVUS
+    db 28, DREEPY
+    db 28, GASTLY
+    db 28, GASTLY
+    db 28, GASTLY
+    db 28, DOOMSTONE
+    end_grass_wildmons
+
+    def_grass_wildmons THE_DARK_LAB
+    db 1 percent, 1 percent, 1 percent ; encounter rates: morn/day/nite
+    ; morn
+    db 28, UNOWN
+    db 28, UNOWN
+    db 28, UNOWN
+    db 28, M_BLOCK
+    db 28, KIRBY
+    db 28, GRENMAR
+    db 28, STRAIGAR
+    db 28, BAD_EGG
+    ; day
+    db 28, UNOWN
+    db 28, UNOWN
+    db 28, UNOWN
+    db 28, M_BLOCK
+    db 28, KIRBY
+    db 28, GRENMAR
+    db 28, STRAIGAR
+    db 28, BAD_EGG
+    ; nite
+    db 28, UNOWN
+    db 28, UNOWN
+    db 28, UNOWN
+    db 28, M_BLOCK
+    db 28, KIRBY
+    db 28, GRENMAR
+    db 28, STRAIGAR
+    db 28, BAD_EGG
+    end_grass_wildmons
+
+    def_grass_wildmons THE_BETWEENS_SAFARI_ZONE
+    db 5 percent, 5 percent, 5 percent ; encounter rates: morn/day/nite
+    ; morn
+    db 28, LUXWAN
+    db 28, SAWSBUCK
+    db 28, YANMEGA
+    db 28, STEENEE
+    db 28, SCYTHER
+    db 28, ORANGURU
+    db 28, ORANGURU
+    db 28, TANGELA
+    ; day
+    db 28, LUXWAN
+    db 28, SAWSBUCK
+    db 28, YANMEGA
+    db 28, STEENEE
+    db 28, SCYTHER
+    db 28, ORANGURU
+    db 28, ORANGURU
+    db 28, TANGELA
+    ; nite
+    db 28, LUXWAN
+    db 28, SAWSBUCK
+    db 28, YANMEGA
+    db 28, STEENEE
+    db 28, SCYTHER
+    db 28, ORANGURU
+    db 28, ORANGURU
+    db 28, TANGELA
+    end_grass_wildmons
+
+    def_grass_wildmons THE_BETWEENS_METROID
+    db 1 percent, 1 percent, 1 percent ; encounter rates: morn/day/nite
+    ; morn
+    db 28, UNOWN
+    db 28, UNOWN
+    db 28, UNOWN
+    db 28, KIRBY
+    db 28, M_BLOCK
+    db 28, BAD_EGG
+    db 28, PORYGON
+    db 28, PORYGON2
+    ; day
+    db 28, UNOWN
+    db 28, UNOWN
+    db 28, UNOWN
+    db 28, KIRBY
+    db 28, M_BLOCK
+    db 28, BAD_EGG
+    db 28, PORYGON
+    db 28, PORYGON2
+    db 28, PORYGON2
+    ; nite
+    db 28, UNOWN
+    db 28, UNOWN
+    db 28, UNOWN
+    db 28, KIRBY
+    db 28, M_BLOCK
+    db 28, BAD_EGG
+    db 28, PORYGON
+    end_grass_wildmons
+
+    def_grass_wildmons THE_BETWEENS_VICTORY_ROAD
+    db 1 percent, 1 percent, 1 percent ; encounter rates: morn/day/nite
+    ; morn
+    db 28, SWOOBAT
+    db 28, MUDSDALE
+    db 28, LAIRON
+    db 28, HARIYAMA
+    db 28, LYCANROC_MIDDAY
+    db 28, LYCANROC_DUSK
+    db 28, LYCANROC_MIDNIGHT
+    db 28, EXCADRILL
+    ; day
+    db 28, SWOOBAT
+    db 28, MUDSDALE
+    db 28, LAIRON
+    db 28, HARIYAMA
+    db 28, LYCANROC_MIDDAY
+    db 28, LYCANROC_DUSK
+    db 28, LYCANROC_MIDNIGHT
+    db 28, EXCADRILL
+    ; nite
+    db 28, EXCADRILL
+    db 28, SWOOBAT
+    db 28, MUDSDALE
+    db 28, LAIRON
+    db 28, HARIYAMA
+    db 28, LYCANROC_MIDDAY
+    db 28, LYCANROC_DUSK
+    db 28, LYCANROC_MIDNIGHT
+    end_grass_wildmons
+
+    def_grass_wildmons THE_BETWEENS_ICE_PATH
+    db 3 percent, 3 percent, 3 percent ; encounter rates: morn/day/nite
+    ; morn
+    db 28, SNOVER
+    db 28, SPHEAL
+    db 28, SNOM
+    db 28, PILOSWINE
+    db 28, SEALEO
+    db 28, FROSMOTH
+    db 28, AMAURA
+    db 28, SWINUB
+    ; day
+    db 28, SNOVER
+    db 28, SPHEAL
+    db 28, SNOM
+    db 28, PILOSWINE
+    db 28, SEALEO
+    db 28, AMAURA
+    db 28, AMAURA
+    db 28, SWINUB
+    ; nite
+    db 28, SWINUB
+    db 28, SNOVER
+    db 28, SPHEAL
+    db 28, SNOM
+    db 28, PILOSWINE
+    db 28, SEALEO
+    db 28, AMAURA
+    db 28, AMAURA
+    end_grass_wildmons
+
+    def_grass_wildmons THE_BETWEENS_TOWN
+    db 3 percent, 3 percent, 3 percent ; encounter rates: morn/day/nite
+    ; morn
+    db 36, WEEZING
+    db 36, EEVEE
+    db 36, STOUTLAND
+    db 36, VIKAVOLT
+    db 36, OBSTAGOON
+    db 36, SKUNTANK
+    db 36, POPPY
+    db 36, GARBODOR
+    ; day
+    db 36, WEEZING
+    db 36, EEVEE
+    db 36, STOUTLAND
+    db 36, VIKAVOLT
+    db 36, OBSTAGOON
+    db 36, SKUNTANK
+    db 36, POPPY
+    db 36, GARBODOR
+    ; nite
+    db 36, GARBODOR
+    db 36, WEEZING
+    db 36, EEVEE
+    db 36, STOUTLAND
+    db 36, VIKAVOLT
+    db 36, OBSTAGOON
+    db 36, SKUNTANK
+    db 36, POPPY
+    end_grass_wildmons
+
+    def_grass_wildmons THE_BETWEENS_FOREST
+    db 3 percent, 3 percent, 3 percent ; encounter rates: morn/day/nite
+    ; morn
+    db 36, BUZZEON
+    db 36, ORBEETLE
+    db 36, SHIINOTIC
+    db 36, BRELOOM
+    db 36, TSAREENA
+    db 36, LURANTIS
+    db 36, JUNGELA
+    db 36, WYRDEER
+    ; day
+    db 36, BUZZEON
+    db 36, ORBEETLE
+    db 36, SHIINOTIC
+    db 36, BRELOOM
+    db 36, TSAREENA
+    db 36, LURANTIS
+    db 36, JUNGELA
+    db 36, WYRDEER
+    ; nite
+    db 36, WYRDEER
+    db 36, BUZZEON
+    db 36, ORBEETLE
+    db 36, SHIINOTIC
+    db 36, BRELOOM
+    db 36, TSAREENA
+    db 36, LURANTIS
+    db 36, JUNGELA
+    end_grass_wildmons
+
+    def_grass_wildmons ROUTE_H
+    db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+    ; morn
+    db 28, FLOATZEL
+    db 28, EXEGGUTOR
+    db 28, YANMEGA
+    db 28, CLAUNCHER
+    db 28, CLAUNCHER
+    db 28, SANDYGAST
+    db 28, CLAUNCHER
+    db 28, SHELLOS
+    ; day
+    db 28, FLOATZEL
+    db 28, EXEGGUTOR
+    db 28, YANMEGA
+    db 28, CLAUNCHER
+    db 28, CLAUNCHER
+    db 28, SANDYGAST
+    db 28, CLAUNCHER
+    db 28, SHELLOS
+    ; nite
+    db 28, SHELLOS
+    db 28, FLOATZEL
+    db 28, EXEGGUTOR
+    db 28, YANMEGA
+    db 28, CLAUNCHER
+    db 28, CLAUNCHER
+    db 28, SANDYGAST
+    db 10, CLAUNCHER
+    end_grass_wildmons
+
+    def_grass_wildmons OCEAN_DETOUR
+    db 3 percent, 3 percent, 3 percent ; encounter rates: morn/day/nite
+    ; morn
+    db 28, KLEAVOR
+    db 28, EXCADRILL
+    db 28, CLOBBOPUS
+    db 28, JANGMO_O
+    db 28, TIRTOUGA
+    db 28, AMAURA
+    db 28, PUPITAR
+    db 28, DWEBBLE
+    ; day
+    db 28, KLEAVOR
+    db 28, EXCADRILL
+    db 28, CLOBBOPUS
+    db 28, JANGMO_O
+    db 28, TIRTOUGA
+    db 28, AMAURA
+    db 28, PUPITAR
+    db 28, DWEBBLE
+    ; nite
+    db 28, DWEBBLE
+    db 28, KLEAVOR
+    db 28, EXCADRILL
+    db 28, CLOBBOPUS
+    db 28, JANGMO_O
+    db 28, TIRTOUGA
+    db 28, AMAURA
+    db 28, PUPITAR
     end_grass_wildmons
 
     db -1 ; end
