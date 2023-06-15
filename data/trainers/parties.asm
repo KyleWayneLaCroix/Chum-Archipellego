@@ -387,9 +387,23 @@ BlueGroup:
 BoarderGroup:
 	; BOARDER (1)
 	db "RONALD@", TRAINERTYPE_NORMAL
-	db 24, LARVESTA
-	db 25, VESPIQUEN
-	db 24, LARVESTA
+	db 34, SNOVER
+	db 32, PILOSWINE
+	db 32, PILOSWINE
+	db -1 ; end
+
+	; BOARDER (1)
+	db "BRAD@", TRAINERTYPE_NORMAL
+	db 34, AMAURA
+	db 34, AMAURA
+	db 36, LAPRAS
+	db -1 ; end
+
+	; BOARDER (1)
+	db "DOUGLAS@", TRAINERTYPE_NORMAL
+	db 34, SEALEO
+	db 32, GLACEON
+	db 32, PILOSWINE
 	db -1 ; end
 
 BugCatcherGroup:
@@ -1319,6 +1333,14 @@ SkierGroup:
 	db 11, GRENMAR
 	db  1, MEGA_GENGAR
 	db 10, UNOWN
+	db -1 ; end
+
+	; SKIER (1)
+	db "CLARISSA@", TRAINERTYPE_NORMAL
+	db 25, SNOM
+	db 32, AMAURA
+	db 36, FROSMOTH
+	db 32, GLACEON
 	db -1 ; end
 
 SupervisorGroup:

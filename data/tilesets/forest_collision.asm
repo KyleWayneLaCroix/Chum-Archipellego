@@ -41,8 +41,8 @@
 	tilecoll WALL, WALL, WALL, WALL ; 28
 	tilecoll WALL, FLOOR, WALL, FLOOR ; 29
 	tilecoll WATER, WATER, WATER, WATER ; 2a
-	tilecoll WARP_CARPET_RIGHT, WALL, WALL, WALL ; 2b
-	tilecoll WALL, WALL, WARP_CARPET_RIGHT, WALL ; 2c
+	tilecoll STAIRCASE, WALL, WALL, WALL ; 2b
+	tilecoll WALL, WALL, STAIRCASE, WALL ; 2c
 	tilecoll WALL, WALL, WALL, WALL ; 2d
 	tilecoll WALL, WALL, WALL, WALL ; 2e
 	tilecoll WALL, WALL, WALL, WALL ; 2f

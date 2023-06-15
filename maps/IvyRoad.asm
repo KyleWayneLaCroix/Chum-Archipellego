@@ -178,6 +178,7 @@ IvyRoad_MapEvents:
 	warp_event 57, 15, SAMS_HOUSE, 1
 	warp_event 58, 11, SAMS_HOUSE, 3
 	warp_event 59, 11, SAMS_HOUSE, 3
+	warp_event 38,  5, BAD_EGG_EXTERIOR, 2
 	;warp_event 27, 10, BRIANS_SHED, 1
 	;warp_event 43,  6, KYLES_SHED, 1
 

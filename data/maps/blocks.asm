@@ -481,3 +481,15 @@ TheBetweensLinksAwakeningInterior_Blocks:
 
 KylesDesktopRoom_Blocks:
 	INCBIN "maps/KylesDesktopRoom.ablk"
+
+DampCave_Blocks:
+	INCBIN "maps/DampCave.ablk"
+
+FrozenPassage_Blocks:
+	INCBIN "maps/FrozenPassage.ablk"
+
+FrozenPassage2_Blocks:
+	INCBIN "maps/FrozenPassage2.ablk"
+
+FrozenPassage3_Blocks:
+	INCBIN "maps/FrozenPassage3.ablk"

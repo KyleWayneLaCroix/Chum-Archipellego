@@ -304,6 +304,27 @@ MaybeVillageFocusBand:
 MaybeVillageRock:
 	jumpstd SmashRockScript
 
+MaybeVillageBadEggSign:
+	jumptext MaybeVillageBadEggSignText
+
+MaybeVillageBadEggSignText:
+	text "Beware!"
+
+	para "BAD EGG ahead!"
+	done
+
+MaybeVillageOceanDetourSign:
+	jumptext MaybeVillageOceanDetourSignText
+
+MaybeVillageOceanDetourSignText:
+	text "OCEAN DETOUR CAVE"
+	
+	para "CONNECTIONS TO"
+	cont "ROUTE H AND"
+	cont "ICE TOWN"
+	done
+
+
 MaybeVillage_MapEvents:
 	db 0, 0 ; filler
 
@@ -321,10 +342,11 @@ MaybeVillage_MapEvents:
 	warp_event 25,  4, QUADRUPLETS_HOUSE, 1
 	warp_event 27,  4, QUADRUPLETS_HOUSE, 2
 	warp_event 17,  3, SUPER_FISHER_FELLOWS_HOUSE, 1
-	warp_event 56,  7, BAD_EGG_EXTERIOR, 1
+	warp_event 56,  7, DAMP_CAVE, 1
 	warp_event  4, 20, MAYBE_VILLAGE_WELL, 1
 	warp_event  4, 21, MAYBE_VILLAGE_WELL, 1
 	warp_event 33,  3, MAYBE_VILLAGE_SHRINE, 1
+	warp_event 56, 25, OCEAN_DETOUR, 3
 
 	def_coord_events
 ;	coord_event x, y, scene_id, script
@@ -337,6 +359,8 @@ MaybeVillage_MapEvents:
 	bg_event 27, 13, BGEVENT_READ, ChickenStatue
 	bg_event 26, 13, BGEVENT_READ, ChickenStatue
 	bg_event 38, 20, BGEVENT_READ, MaybeVillageFocusBand
+	bg_event 55,  9, BGEVENT_READ, MaybeVillageBadEggSign
+	bg_event 58, 26, BGEVENT_READ, MaybeVillageOceanDetourSign
 
 	def_object_events
 ;	object_event x, y, sprite, movement, rx, ry, h1, h2, palette, type, range, script, event_flag

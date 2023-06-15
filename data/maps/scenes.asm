@@ -57,4 +57,5 @@ MapScenes::
 	scene_var IVY_ROAD,                     wIvyRoadSceneID
 	scene_var BRIANS_HOUSE,                 wBriansHouseSceneID
 	scene_var THE_DARK_LAB,                 wTheDarkLabSceneID
+	scene_var AWAKENING_BEACH_2,			wAwakeningBeach2SceneID
 	db -1 ; end

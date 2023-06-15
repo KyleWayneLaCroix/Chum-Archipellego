@@ -7,6 +7,7 @@ BadEggExterior_MapScripts:
 ;	scene_script script, SCENE_MAPNAME_SCENE_NAME
 	scene_script BadEggExteriorPhoneCutscene, SCENE_BAD_EGG_PHONE
 	scene_script BadEggExteriorNoop1, SCENE_BAD_EGG_NONE
+
 	def_callbacks
 ;	callback type, script
 
@@ -75,18 +76,30 @@ BadEggExteriorMoveUp:
 	step UP
 	step_end
 
+BadEggExteriorSign:
+	jumptext BadEggExteriorSignText
+
+BadEggExteriorSignText:
+	text "     BAD EGG     "
+
+	para "    DO NOT EAT   "
+	done
+
 BadEggExterior_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
 ;	warp_event x, y, map, warp_id
-	warp_event 9, 23, MAYBE_VILLAGE, 1
+	warp_event 23, 25, FROZEN_PASSAGE_3, 2
+	warp_event 14,  7, IVY_ROAD, 11
+
 
 	def_coord_events
 ;	coord_event x, y, scene_id, script
 
 	def_bg_events
 ;	bg_event x, y, type, script
+	bg_event 13, 24, BGEVENT_READ, BadEggExteriorSign
 
 	def_object_events
 ;	object_event x, y, sprite, movement, rx, ry, h1, h2, palette, type, range, script, event_flag

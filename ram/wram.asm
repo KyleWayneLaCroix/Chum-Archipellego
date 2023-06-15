@@ -3078,7 +3078,8 @@ wMisplacedWoodsSceneID::            db
 wIvyRoadSceneID::                   db
 wBriansHouseSceneID::				db
 wTheDarkLabSceneID::                db
-	ds 47
+wAwakeningBeach2SceneID::			db
+	ds 46
 
 ; fight counts
 wJackFightCount::    db

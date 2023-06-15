@@ -21,6 +21,7 @@ AwakeningDungeonTreasure:
 	waitsfx
 	playsound SFX_WARP_FROM
 	waitsfx
+	setmapscene AWAKENING_BEACH_2, SCENE_AWAKENING_BEACH_2_JUST_BEAT_DUNGEON
 	warp AWAKENING_BEACH_2, 40, 15
 	end
 

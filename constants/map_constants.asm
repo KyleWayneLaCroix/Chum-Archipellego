@@ -183,6 +183,10 @@ ENDM
 	map_const MOBLIN_WILKENS_HOUSE,             6,  5
 	map_const BEACHFRONT_CAVERN,               12, 13
 	map_const MAYBE_VILLAGE_WELL,               6,  5
+	map_const DAMP_CAVE,                       11, 10
+	map_const FROZEN_PASSAGE,                  18, 11
+	map_const FROZEN_PASSAGE_2,                28, 10
+	map_const FROZEN_PASSAGE_3,                14, 13
 	endgroup
 
 	newgroup IVY_ROAD                                 ; 12

@@ -258,6 +258,10 @@ ENDM
 	map_attributes MoblinWilkensHouse, MOBLIN_WILKENS_HOUSE, $00, 0
 	map_attributes BeachfrontCavern, BEACHFRONT_CAVERN, $00, 0
 	map_attributes MaybeVillageWell, MAYBE_VILLAGE_WELL, $00, 0
+	map_attributes DampCave, DAMP_CAVE, $00, 0
+	map_attributes FrozenPassage, FROZEN_PASSAGE, $00, 0
+	map_attributes FrozenPassage2, FROZEN_PASSAGE_2, $00, 0
+	map_attributes FrozenPassage3, FROZEN_PASSAGE_3, $00, 0
 
 	map_attributes VolcanoInteriorB1F, VOLCANO_INTERIOR_B1F, $00, 0
 	map_attributes VolcanoInteriorB1FHall, VOLCANO_INTERIOR_B1F_HALL, $09, 0

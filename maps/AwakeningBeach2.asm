@@ -23,11 +23,79 @@
 AwakeningBeach2_MapScripts:
 	def_scene_scripts
 ;	scene_script script, SCENE_MAPNAME_SCENE_NAME
+	scene_script AwakeningBeach2NoopScene1, SCENE_AWAKENING_BEACH_2_NORMAL
+	scene_script AwakeningBeach2JustFinishedDungeon, SCENE_AWAKENING_BEACH_2_JUST_BEAT_DUNGEON
 
 	def_callbacks
 ;	callback type, script
 	callback MAPCALLBACK_TILES, AwakeningBeach2ChestCallback
 
+AwakeningBeach2NoopScene1:
+	end
+
+AwakeningBeach2JustFinishedDungeon:
+	special FadeOutPalettes
+	moveobject AWAKENING_BEACH_KAEPORA, 38, 13
+	appear AWAKENING_BEACH_KAEPORA
+	giveitem HM_FLY
+	special FadeOutMusic
+	special FadeInPalettes
+	opentext
+	reloadmappart
+	writetext AwakeningBeach2JustFinishedKaepora
+	waitbutton
+	special FadeBlackQuickly
+	disappear AWAKENING_BEACH_KAEPORA
+	setscene SCENE_AWAKENING_BEACH_2_NORMAL
+	special FadeInQuickly
+	special RestartMapMusic
+	closetext
+	end
+
+AwakeningBeach2JustFinishedKaepora:
+	text "KYLE: Hello, is"
+	line "this thing on?"
+
+	para "Oh good, I did"
+	line "get control of"
+	cont "the owl."
+
+	para "Anyway, it's me,"
+	line "KYLE."
+
+	para "Good news, I"
+	line "managed to get"
+	cont "the island hooked"
+	cont "up to the rest of"
+	cont "the ARCHIPELAGO"
+	cont "again, so you"
+	cont "can fly again!"
+
+	para "Also, you've got"
+	line "the tools you"
+	cont "need to reach the"
+	cont "BAD EGG."
+
+	para "I don't know for"
+	line "sure what's in"
+	cont "there, but it's"
+	cont "the source of"
+	cont "all of these"
+	cont "glitches."
+
+	para "Your BOMBS should"
+	line "be able to crack"
+	cont "it open, but be"
+	cont "careful."
+
+	para "May be a good"
+	line "idea to stock up"
+	cont "on supplies and"
+	cont "#MON first."
+
+	para "I'm hooting for"
+	line "you!"
+	done
 
 AwakeningBeach2ChestCallback:
 	checkevent EVENT_AWAKENING_BEACH_2_FULL_RESTORE
@@ -260,6 +328,7 @@ AwakeningBeachSword:
 	waitsfx
 	setevent EVENT_SAW_KAEPORA_ON_BEACH
 	special FadeInQuickly
+
 	refreshscreen
 	special RestartMapMusic
 	end

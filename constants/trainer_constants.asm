@@ -115,6 +115,8 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 
 	trainerclass BOARDER ; 3a
 	const RONALD
+	const BRAD
+	const DOUGLAS
 
 	trainerclass BUG_CATCHER ; 24
 	const DON
@@ -349,6 +351,7 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 
 	trainerclass SKIER ; 21
 	const ROXANNE
+	const CLARISSA
 
 	trainerclass SUPERVISOR ; 13
 	const JOSH1

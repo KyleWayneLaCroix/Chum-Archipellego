@@ -211,7 +211,10 @@ INCLUDE "maps/TheBetweensLinksAwakeningInterior.asm"
 INCLUDE "maps/KylesDesktopRoom.asm"
 
 SECTION "Map Scripts 19", ROMX
-
+INCLUDE "maps/DampCave.asm"
+INCLUDE "maps/FrozenPassage.asm"
+INCLUDE "maps/FrozenPassage2.asm"
+INCLUDE "maps/FrozenPassage3.asm"
 
 SECTION "Map Scripts 20", ROMX
 
