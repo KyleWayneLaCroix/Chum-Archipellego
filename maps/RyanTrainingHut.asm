@@ -15,6 +15,7 @@ RyanTrainingHut_MapScripts:
 
 JungleHutFlypointCallback:
 	setflag ENGINE_FLYPOINT_JUNGLE
+	blackoutmod MUSCLE_JUNGLE
 	endcallback
 
 TrainingHutRyanScript:
@@ -50,15 +51,9 @@ TrainingHutRyanScript:
 	winlosstext TrainingHutRyanWinText, TrainingHutRyanLossText
 	setlasttalked TRAINING_HUT_RYAN
 	loadtrainer RYAN, RYAN1
-	loadvar VAR_BATTLETYPE, BATTLETYPE_CANLOSE
 	startbattle
-	iftrue .Beaten
+	reloadmapafterbattle
 	special HealParty
-	opentext
-	writetext LostBattleAgainstRyan
-	waitbutton
-	sjump .Battle
-	end
 .Beaten:
 	setevent EVENT_BEAT_RYAN1
 	opentext
@@ -94,9 +89,8 @@ TrainingHutMaddieScript:
 	winlosstext TrainingHutMaddieWinText, 0
 	setlasttalked TRAINING_HUT_MADDIE
 	loadtrainer MER, MADDIE1
-	loadvar VAR_BATTLETYPE, BATTLETYPE_CANLOSE
 	startbattle
-	reloadmap
+	reloadmapafterbattle
 	setevent EVENT_BEAT_MADDIE1
 	opentext
 .Beaten:
@@ -219,6 +213,7 @@ TrainingHutRyanIntroText:
 TrainingHutRyanIntroText2:
 	text "THE TRAINING DOME"
 	done
+
 TrainingHutRyanIntroText3:
 	text "RYAN: You must be"
 	line "the one KYLE sent"
@@ -239,7 +234,7 @@ TrainingHutRyanIntroText3:
 	done
 
 TrainingHutRyanReadyForBattle:
-	para "Before you go any"
+	text "Before you go any"
 	line "further, you must"
 	cont "prove yourself in"
 	cont "battle."

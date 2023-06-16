@@ -164,9 +164,8 @@ EeveeGroomersVictoriaScript:
 	winlosstext GroomersVictoriaWinText, 0
 	setlasttalked EEVEE_RANCH_GROOMERS_VICTORIA
 	loadtrainer FURRY, VICTORIA1
-	loadvar VAR_BATTLETYPE, BATTLETYPE_CANLOSE
 	startbattle
-	reloadmap
+	reloadmapafterbattle
 	setevent EVENT_BEAT_FURRY_VICTORIA
 .AfterVictorious:
 	opentext
