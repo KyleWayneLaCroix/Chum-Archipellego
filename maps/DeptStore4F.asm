@@ -339,9 +339,10 @@ UnivercityMart4FElevatorText:
 	line "their own unique"
 	cont "code and handling"
 
-	para "And with needing"
-	line "to release on NYE"
-	cont "gotta make a call"
+	para "And I've already"
+	line "missed like two"
+	cont "deadlines, so I"
+	cont "gotta make cuts."
 	done
 
 

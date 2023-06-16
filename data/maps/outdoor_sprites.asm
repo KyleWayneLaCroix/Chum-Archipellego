@@ -141,7 +141,8 @@ JungleAreaGroupSprites:
 	db SPRITE_LASS
 	db SPRITE_BLACK_BELT
 	db SPRITE_ROCKER
-	; 7 of max 9 walking sprites
+	db SPRITE_SUPER_NERD
+	; 8 of max 9 walking sprites
 	db SPRITE_BIG_ONIX
 	db SPRITE_M_BLOCK
 	db SPRITE_POKE_BALL

@@ -64,7 +64,6 @@ TrainerPhotographerTroy:
 	closetext
 	end
 
-
 TrainerCamperIvan:
 	trainer CAMPER, IVAN, EVENT_BEAT_CAMPER_IVAN, CamperIvanSeenText, CamperIvanBeatenText, 0, .Script
 
@@ -80,7 +79,6 @@ TrainerBirdKeeperAbe:
 	trainer BIRD_KEEPER, ABE, EVENT_BEAT_BIRD_KEEPER_ABE, BirdKeeperAbeSeenText, BirdKeeperAbeBeatenText, 0, .Script
 
 .Script:
-	endifjustbattled
 	opentext
 	writetext BirdKeeperAbeAfterBattleText
 	waitbutton
@@ -294,6 +292,7 @@ BirdKeeperAbeBeatenText:
 	line "seven seconds"
 	cont "ago, I lost this"
 	cont "battle."
+	done
 
 BirdKeeperAbeAfterBattleText:
 	text "If you want a"

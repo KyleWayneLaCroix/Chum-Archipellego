@@ -116,56 +116,67 @@ UnivercityMartRoofBerryMachineScript:
 
 .NotEnoughMoney:
 	writetext UnivercityBerryGachaponNoMoneyText
+	waitbutton
 	closetext
 	end
 
 UnivercityBerryGachaponBerryScript:
 	verbosegiveitem BERRY
+	waitbutton
 	closetext
 	end
 
 UnivercityBerryGachaponGoldBerryScript:
 	verbosegiveitem GOLD_BERRY
+	waitbutton
 	closetext
 	end
 
 UnivercityBerryGachaponMysteryBerryScript:
 	verbosegiveitem MYSTERYBERRY
+	waitbutton
 	closetext
 	end
 
 UnivercityBerryGachaponMiracleBerryScript:
 	verbosegiveitem MIRACLEBERRY
+	waitbutton
 	closetext
 	end
 
 UnivercityBerryGachaponPSNCureBerryScript:
 	verbosegiveitem PSNCUREBERRY
+	waitbutton
 	closetext
 	end
 
 UnivercityBerryGachaponPRZCureBerryScript:
 	verbosegiveitem PRZCUREBERRY
+	waitbutton
 	closetext
 	end
 
 UnivercityBerryGachaponBurntBerryScript:
 	verbosegiveitem BURNT_BERRY
+	waitbutton
 	closetext
 	end
 
 UnivercityBerryGachaponIceBerryScript:
 	verbosegiveitem ICE_BERRY
+	waitbutton
 	closetext
 	end
 
 UnivercityBerryGachaponBitterBerryScript:
 	verbosegiveitem BITTER_BERRY
+	waitbutton
 	closetext
 	end
 
 UnivercityBerryGachaponMintBerryScript:
 	verbosegiveitem MINT_BERRY
+	waitbutton
 	closetext
 	end
 

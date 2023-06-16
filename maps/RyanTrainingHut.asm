@@ -32,26 +32,36 @@ TrainingHutRyanScript:
 	pause 5
 	turnobject TRAINING_HUT_RYAN, DOWN
 	pause 5
+	faceplayer
 	writetext TrainingHutRyanIntroText2
 	waitbutton
 	earthquake 60
 	playsound SFX_STRENGTH
 	waitsfx
 	writetext TrainingHutRyanIntroText3
+	waitbutton
+.Battle
+	writetext TrainingHutRyanReadyForBattle
 	yesorno
 	iffalse .BackToTraining
 	writetext TrainingHutRyanSeenText
 	waitbutton
 	closetext
-	winlosstext TrainingHutRyanWinText, 0
+	winlosstext TrainingHutRyanWinText, TrainingHutRyanLossText
 	setlasttalked TRAINING_HUT_RYAN
 	loadtrainer RYAN, RYAN1
 	loadvar VAR_BATTLETYPE, BATTLETYPE_CANLOSE
 	startbattle
-	reloadmap
+	iftrue .Beaten
+	special HealParty
+	opentext
+	writetext LostBattleAgainstRyan
+	waitbutton
+	sjump .Battle
+	end
+.Beaten:
 	setevent EVENT_BEAT_RYAN1
 	opentext
-.Beaten:
 	checkitem HM_STRENGTH
 	iftrue .AfterStrength
 	writetext TrainingHutRyanAfterBattle
@@ -226,7 +236,9 @@ TrainingHutRyanIntroText3:
 	cont "it through the"
 	cont "heat and heavy"
 	cont "rocks within."
+	done
 
+TrainingHutRyanReadyForBattle:
 	para "Before you go any"
 	line "further, you must"
 	cont "prove yourself in"
@@ -312,6 +324,15 @@ TrainingHutRyanBackToTraining:
 	cont "thing."
 	done
 
+TrainingHutRyanLossText:
+	text "RYAN: You need to"
+	line "train harder."
+	done
+
+LostBattleAgainstRyan:
+	text "RYAN: Not quite"
+	line "good enough."
+	done
 RyanTrainingHut_MapEvents:
 	db 0, 0 ; filler
 
