@@ -506,5 +506,5 @@ CemetaryLab_MapEvents:
 
 	def_object_events
 ;	object_event x, y, sprite, movement, rx, ry, h1, h2, palette, type, range, script, event_flag
-	object_event  8, 18, SPRITE_KYLE, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, CemetaryLabKyleScript, -1
+	object_event  8, 18, SPRITE_KYLE, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_SCRIPT, 0, CemetaryLabKyleScript, -1
 	object_event 14, 18, SPRITE_LINK_RECEPTIONIST, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, CemetaryLabHealerScript, -1
