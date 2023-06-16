@@ -96,10 +96,11 @@ Meeman1FTreeBrianScript:
 	opentext
 	writetext Meeman1FTreeBrianAfterText
 	waitbutton
+	changeblock 8, 8, $0D ; No tree
+	reloadmappart
 	closetext
 	playsound SFX_TOXIC
 	earthquake 40
-	changeblock 8, 8, $0D ; No tree
 	waitsfx
 .Done:
 	end

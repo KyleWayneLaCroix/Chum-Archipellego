@@ -49,7 +49,7 @@ RouteBGateRouteBScript:
 
 NorthForestGateBitterMartScript:
 	opentext
-	pokemart MARTTYPE_BITTER, MART_ROUTE_B_GATE
+	pokemart MARTTYPE_STANDARD, MART_ROUTE_B_GATE
 	closetext
 	end
 
@@ -111,4 +111,4 @@ NorthernForestRouteBGate_MapEvents:
 	object_event  8,  5, SPRITE_NURSE, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, NorthForestGateNurseScript, -1
 	object_event  8,  4, SPRITE_FAIRY, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, NorthForestGateChanseyScript, -1
 	object_event  3,  1, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, NorthForestGateOfficerScript, -1
-	object_event  0,  5, SPRITE_GRANNY, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_SILVER, OBJECTTYPE_SCRIPT, 0, NorthForestGateBitterMartScript, -1
+	object_event  0,  5, SPRITE_GRANNY, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, NorthForestGateBitterMartScript, -1

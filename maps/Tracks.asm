@@ -120,11 +120,13 @@ TracksWaitressBikers:
 	verbosegiveitem ITEMFINDER
 	waitbutton
 .After:
+	faceplayer
 	writetext TracksWaitressBikersAfterText
 	waitbutton
 	closetext
 	end
 .NotYet:
+	faceplayer
 	writetext TracksWaitressBikersText
 	waitbutton
 	closetext
