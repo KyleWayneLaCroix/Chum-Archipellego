@@ -26,7 +26,6 @@ VolcanoExteriorAfterVolcanoFall:
 VolcanoExteriorInit:
 	disappear VOLCANO_EXTERIOR_GOLLUM_BRIAN
 	disappear VOLCANO_EXTERIOR_RYAN
-	refreshscreen
 	end
 
 VolcanoLadderCallback:
@@ -184,6 +183,9 @@ VolcanoLadderText2:
 VolcanoExteriorBiteTM:
 	itemball TM_BITE
 
+VolcanoExteriorSingeTM:
+	itemball TM_SINGE
+
 VolcanoExteriorHyperPotion:
 	itemball HYPER_POTION
 
@@ -290,7 +292,7 @@ MBlockOverworld:
 	pause 20
 	special FadeOutPalettes
 	waitsfx
-	warp AWAKENING_BEACH_2, 54, 38
+	warp MARINS_HOUSE, 4, 3
 	end
 
 GollumBrianMoveUp:
@@ -435,3 +437,4 @@ VolcanoExterior_MapEvents:
 	object_event 40, 30, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, VolcanoExteriorHyperPotion, EVENT_VOLCANO_EXTERIOR_HYPER_POTION
 	object_event 43, 42, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, VolcanoExteriorCarbos, EVENT_VOLCANO_EXTERIOR_CARBOS
 	object_event 37,  3, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, VolcanoExteriorMaxPotion, EVENT_VOLCANO_EXTERIOR_MAX_POTION
+	object_event 18, 47, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_ITEMBALL, 0, VolcanoExteriorSingeTM, EVENT_GOT_TM51_SINGE

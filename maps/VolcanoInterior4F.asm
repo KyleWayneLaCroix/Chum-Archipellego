@@ -182,10 +182,10 @@ VolcanoInterior4OldManAfterText:
 DrampaOverworldScript:
 	opentext
 	writetext DrampaOverworldText
-	cry REGIMAGMA
+	cry DRAMPA
 	pause 15
 	closetext
-	loadvar VAR_BATTLETYPE, BATTLETYPE_FORCEITEM
+	loadvar VAR_BATTLETYPE, BATTLETYPE_SHINY
 	loadwildmon DRAMPA, 60
 	startbattle
 	disappear VOLCANO_INTERIOR_4F_DRAMPA

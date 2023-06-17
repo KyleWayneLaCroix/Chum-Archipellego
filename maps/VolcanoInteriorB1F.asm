@@ -269,8 +269,8 @@ VolcanoInteriorB1F_MapEvents:
 ;	warp_event x, y, map, warp_id
 	warp_event 23, 29, VOLCANO_INTERIOR_1F, 4
 	warp_event 25, 15, VOLCANO_INTERIOR_1F, 5
-	warp_event  9, 21, VOLCANO_INTERIOR_B1F_HALL, 2
 	warp_event 27, 21, VOLCANO_INTERIOR_B1F_HALL, 1
+	warp_event  9, 21, VOLCANO_INTERIOR_B1F_HALL, 2
 
 	def_coord_events
 ;	coord_event x, y, scene_id, script
