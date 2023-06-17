@@ -261,6 +261,11 @@ EvoSexText:
 
 	para "So it can also be"
 	line "convenient!"
+
+	para "The local GENDER"
+	line "CLINIC can be"
+	cont "Found south of"
+	cont "town."
 	done
 
 EvoHappinessText:

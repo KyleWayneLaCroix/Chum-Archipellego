@@ -752,6 +752,15 @@ CampusMissionGrannyWelcomeText:
 	cont "souls here in the"
 	cont "UNIVERCITY."
 
+	para "We've already"
+	line "made a big diff-"
+	cont "-erence in this"
+	cont "town by getting"
+	cont "the GENDER CLINIC"
+	cont "to have to move"
+	cont "SOUTH, outside of"
+	cont "city limits."
+
 	para "Here, have some"
 	line "food and enjoy"
 	cont "the sermon!"

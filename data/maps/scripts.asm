@@ -86,7 +86,6 @@ INCLUDE "maps/RouteC.asm"
 INCLUDE "maps/RouteD.asm"
 INCLUDE "maps/RouteDNameRaterHouse.asm"
 INCLUDE "maps/RouteE.asm"
-INCLUDE "maps/RouteF.asm"
 INCLUDE "maps/RouteG.asm"
 INCLUDE "maps/JungleGate.asm"
 INCLUDE "maps/Jungle.asm"
@@ -168,6 +167,7 @@ INCLUDE "maps/SuperFisherFellowsHouse.asm"
 
 
 SECTION "Map Scripts 15", ROMX
+INCLUDE "maps/RouteF.asm"
 
 SECTION "Map Scripts 16", ROMX
 INCLUDE "maps/MaybeVillage.asm"
@@ -216,6 +216,7 @@ INCLUDE "maps/FrozenPassage.asm"
 INCLUDE "maps/FrozenPassage2.asm"
 INCLUDE "maps/FrozenPassage3.asm"
 INCLUDE "maps/GrateGuyCasino.asm"
+INCLUDE "maps/GenderClinic.asm"
 
 SECTION "Map Scripts 20", ROMX
 

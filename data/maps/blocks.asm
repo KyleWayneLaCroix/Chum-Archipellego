@@ -496,3 +496,6 @@ FrozenPassage3_Blocks:
 
 GrateGuyCasino_Blocks:
 	INCBIN "maps/GrateGuyCasino.ablk"
+
+GenderClinic_Blocks:
+	INCBIN "maps/GenderClinic.ablk"

@@ -226,7 +226,7 @@ TownMap_InitCursorAndPlayerIconPositions:
 
 .FastShip:
 	ld [wPokegearMapPlayerIconLandmark], a
-	ld a, LANDMARK_NEW_BARK_TOWN
+	ld a, LANDMARK_AWAKENING_BEACH
 	ld [wPokegearMapCursorLandmark], a
 	ret
 
@@ -566,7 +566,7 @@ PokegearMap_KantoMap:
 
 PokegearMap_JohtoMap:
 ; TODO: Change these to the last and first landmarks of the Johto region.
-	ld d, LANDMARK_DR_NUGGZ_MD
+	ld d, LANDMARK_FROZEN_CAVERN
 	ld e, LANDMARK_AWAKENING_BEACH
 PokegearMap_ContinueMap:
 	ld hl, hJoyLast

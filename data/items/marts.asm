@@ -21,7 +21,7 @@ Marts:
 	dw MartShadyVolcano
 	dw MartLavender
 	dw MartTheBetweens
-	dw MartCeladon2F1
+	dw MartGenderClinic
 	dw MartCeladon2F2
 	dw MartCeladon3F
 	dw MartCeladon4F
@@ -272,8 +272,13 @@ MartTheBetweens:
 	db BURN_HEAL
 	db ETHER
 	db -1 ; end
+MartGenderClinic:
+	db 2 ; # items
+	db ESTRADIOL
+	db TESTOSTERONE
+	db -1 ; end
 
-MartCeladon2F1:
+MartCeladon2F2:
 	db 7 ; # items
 	db POTION
 	db SUPER_POTION
@@ -284,19 +289,6 @@ MartCeladon2F1:
 	db MAX_REPEL
 	db -1 ; end
 
-MartCeladon2F2:
-	db 10 ; # items
-	db POKE_BALL
-	db GREAT_BALL
-	db ULTRA_BALL
-	db ESCAPE_ROPE
-	db FULL_HEAL
-	db ANTIDOTE
-	db BURN_HEAL
-	db ICE_HEAL
-	db AWAKENING
-	db PARLYZ_HEAL
-	db -1 ; end
 
 MartCeladon3F:
 	db 5 ; # items

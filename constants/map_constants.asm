@@ -141,6 +141,7 @@ ENDM
 	map_const ROUTE_E,                         10, 27 ; 26
 	map_const GOOD_FISHER_FELLOW_HOUSE,         4,  4 ; 27
 	map_const ROUTE_F,                         10, 27 ; 28
+	map_const GENDER_CLINIC,                    5,  5 ; 29
 	endgroup
 
 	newgroup EEVEE_RANCH                              ;  9

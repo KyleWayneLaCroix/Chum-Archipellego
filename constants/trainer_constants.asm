@@ -222,6 +222,7 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 
 	trainerclass GUITARIST ; 2b
 	const CLYDE
+	const VINCENT
 
 	trainerclass HEX_MANIAC
 	const HANNA
@@ -242,6 +243,7 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 
 	trainerclass JUGGLER ; 31
 	const IRWIN1
+	const FRITZ
 
 	trainerclass KARATE_KING
 	const JET
@@ -267,6 +269,7 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 	const CARRIE
 	const BRIDGET
 	const JASMINEH
+	const KRISE
 
 	trainerclass MAD_SCIENTIST
 	const BROWN
@@ -291,6 +294,7 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 
 	trainerclass PASTOR ; 11
 	const JOELEO
+	const HOVIND
 
 	trainerclass PHOTOGRAPHER ; 38
 	const JULIAN
@@ -333,6 +337,7 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 
 	trainerclass SAILOR ; 28
 	const EUGENE
+	const HUEY
 
 	trainerclass SCIENTIST
 	const TYSE
