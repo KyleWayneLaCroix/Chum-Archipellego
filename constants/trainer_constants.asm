@@ -347,12 +347,15 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 
 	trainerclass SIGHTSEER_F
 	const JILL
+	const JANEY
 
 	trainerclass SIGHTSEER_M
 	const JACK
+	const JONNY
 
 	trainerclass SKATER_BOY
 	const TONY
+	const HAWK
 
 	trainerclass SKIER ; 21
 	const ROXANNE

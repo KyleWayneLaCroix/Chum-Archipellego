@@ -1352,6 +1352,14 @@ SightseerFGroup:
 	db 25, SWINUB
 	db -1 ; end
 
+	; SIGHTSEER_F (1)
+	db "JANEY@", TRAINERTYPE_NORMAL
+	db 18, SIZZLIPEDE
+	db 16, GRENMAR
+	db 18, SALANDIT
+	db 16, SALANDIT
+	db -1 ; end
+
 SightseerMGroup:
 	; SIGHTSEER_M (1)
 	db "JACK@", TRAINERTYPE_NORMAL
@@ -1361,6 +1369,13 @@ SightseerMGroup:
 	db 26, LUMINEON
 	db -1 ; end
 
+	; SIGHTSEER_M (1)
+	db "JONNY@", TRAINERTYPE_NORMAL
+	db 16, GROWLITHE
+	db 16, LITLEO
+	db 16, HEATMOR
+	db 16, FLAREON
+	db -1 ; end
 SkaterBoyGroup:
 	; SKATER_BOY (1)
 	db "TONY@", TRAINERTYPE_NORMAL
@@ -1368,6 +1383,14 @@ SkaterBoyGroup:
 	db 30, ZEBSTRIKA
 	db 31, SALAZZLE
 	db 34, FLOATZEL
+	db -1 ; end
+
+	; SKATER_BOY (1)
+	db "HAWK@", TRAINERTYPE_NORMAL
+	db 28, JOLTEON
+	db 24, BLITZLE
+	db 24, TYKER
+	db 24, JANGMO_O
 	db -1 ; end
 
 SkierGroup:

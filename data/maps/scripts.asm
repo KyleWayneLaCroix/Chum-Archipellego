@@ -168,6 +168,8 @@ INCLUDE "maps/SuperFisherFellowsHouse.asm"
 
 SECTION "Map Scripts 15", ROMX
 INCLUDE "maps/RouteF.asm"
+INCLUDE "maps/RouteFCave.asm"
+INCLUDE "maps/TonyHawkHouse.asm"
 
 SECTION "Map Scripts 16", ROMX
 INCLUDE "maps/MaybeVillage.asm"

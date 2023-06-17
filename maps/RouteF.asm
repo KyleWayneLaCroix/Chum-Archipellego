@@ -231,6 +231,13 @@ SailorHueyAfterText:
 	line "with me?"
 	done
 
+TonyHawkSign:
+	jumptext TonyHawkSignText
+
+TonyHawkSignText:
+	text "TONY HAWK'S"
+	line "   HOUSE   "
+	done
 
 RouteF_MapEvents:
 	db 0, 0 ; filler
@@ -238,6 +245,10 @@ RouteF_MapEvents:
 	def_warp_events
 ;	warp_event x, y, map, warp_id
 	warp_event 13, 35, GENDER_CLINIC, 1
+	warp_event  8,  7, ROUTE_F_CAVE, 1
+	warp_event 18,  9, ROUTE_F_CAVE, 2
+	warp_event 15, 23, TONY_HAWK_HOUSE, 2
+
 
 	def_coord_events
 ;	coord_event x, y, scene_id, script
@@ -245,6 +256,7 @@ RouteF_MapEvents:
 	def_bg_events
 ;	bg_event x, y, type, script
 	bg_event 11, 35, BGEVENT_READ, GenderClinicSign
+	bg_event 16, 24, BGEVENT_READ, TonyHawkSign
 
 	def_object_events
 ;	object_event x, y, sprite, movement, rx, ry, h1, h2, palette, type, range, script, event_flag

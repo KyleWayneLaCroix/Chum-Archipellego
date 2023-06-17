@@ -284,7 +284,7 @@ FoampositesDesc:
 	next "You got style now.@"
 
 BicycleDesc:
-	db   "A collapsible bike"
+	db   "A cool skateboard"
 	next "for fast movement.@"
 
 MoonStoneDesc:
@@ -899,7 +899,7 @@ FastBallDesc:
 
 DungeonKeyDesc:
 	db   "The key to the"
-	next "DECEPTIVE DUNGEON@"
+	next "AWAKENING DUNGEON@"
 
 LightBallDesc:
 	db   "An odd, electrical"

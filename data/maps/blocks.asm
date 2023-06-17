@@ -499,3 +499,9 @@ GrateGuyCasino_Blocks:
 
 GenderClinic_Blocks:
 	INCBIN "maps/GenderClinic.ablk"
+
+RouteFCave_Blocks:
+	INCBIN "maps/RouteFCave.ablk"
+
+TonyHawkHouse_Blocks:
+	INCBIN "maps/TonyHawkHouse.ablk"

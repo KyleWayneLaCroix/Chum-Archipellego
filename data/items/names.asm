@@ -131,7 +131,7 @@ ItemNames::
 	li "SILVER LEAF"
 	li "GOLD LEAF"
 	li "SLOWPOKETAIL"
-	li "BICYCLE"
+	li "SKATEBOARD"
 	li "COIN CASE"
 	li "ITEMFINDER"
 	li "OLD ROD"

@@ -215,6 +215,8 @@ ENDM
 	map_attributes RouteF, ROUTE_F, $13, WEST
 	connection west, RouteE, ROUTE_E, -17
 	map_attributes GenderClinic, GENDER_CLINIC, $00, 0
+	map_attributes RouteFCave, ROUTE_F_CAVE, $09, 0
+	map_attributes TonyHawkHouse, TONY_HAWK_HOUSE, $00, 0
 
 	map_attributes EeveeRanchExterior, EEVEE_RANCH_EXTERIOR, $80, 0 
 	map_attributes EeveeRanchPokecenter1F, EEVEE_RANCH_POKECENTER_1F, $00, 0
