@@ -215,6 +215,7 @@ INCLUDE "maps/DampCave.asm"
 INCLUDE "maps/FrozenPassage.asm"
 INCLUDE "maps/FrozenPassage2.asm"
 INCLUDE "maps/FrozenPassage3.asm"
+INCLUDE "maps/GrateGuyCasino.asm"
 
 SECTION "Map Scripts 20", ROMX
 

@@ -493,3 +493,6 @@ FrozenPassage2_Blocks:
 
 FrozenPassage3_Blocks:
 	INCBIN "maps/FrozenPassage3.ablk"
+
+GrateGuyCasino_Blocks:
+	INCBIN "maps/GrateGuyCasino.ablk"

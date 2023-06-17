@@ -187,6 +187,7 @@ ENDM
 	map_const FROZEN_PASSAGE,                  18, 11
 	map_const FROZEN_PASSAGE_2,                28, 10
 	map_const FROZEN_PASSAGE_3,                14, 13
+	map_const GRATE_GUY_CASINO,                13,  8
 	endgroup
 
 	newgroup IVY_ROAD                                 ; 12

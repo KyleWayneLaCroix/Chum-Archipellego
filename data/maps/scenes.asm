@@ -58,4 +58,5 @@ MapScenes::
 	scene_var BRIANS_HOUSE,                 wBriansHouseSceneID
 	scene_var THE_DARK_LAB,                 wTheDarkLabSceneID
 	scene_var AWAKENING_BEACH_2,			wAwakeningBeach2SceneID
+	scene_var GRATE_GUY_CASINO,				wGrateGuyCasinoSceneID
 	db -1 ; end

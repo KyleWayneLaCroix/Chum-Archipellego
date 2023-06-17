@@ -3026,7 +3026,7 @@ wTradeFlags:: flag_array NUM_NPC_TRADES
 
 wMooMooBerries:: db
 wUndergroundSwitchPositions:: db
-wFarfetchdPosition:: db
+wGrateGuyWins:: db
 
 wShopItemX:: db
 wShopItemY:: db
@@ -3079,7 +3079,8 @@ wIvyRoadSceneID::                   db
 wBriansHouseSceneID::				db
 wTheDarkLabSceneID::                db
 wAwakeningBeach2SceneID::			db
-	ds 46
+wGrateGuyCasinoSceneID::            db
+	ds 45
 
 ; fight counts
 wJackFightCount::    db
