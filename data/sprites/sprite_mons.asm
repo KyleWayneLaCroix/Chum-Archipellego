@@ -34,7 +34,7 @@ SpriteMons:
 	db HOPPIP
 	db SNORLAX
 	db ANGORE
-	db BUZZWOLE
+	db MEWTHREE
 	db FURIOUSB
 	db EEVEE
 	db VAPOREON

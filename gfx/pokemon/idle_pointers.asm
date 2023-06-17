@@ -245,7 +245,7 @@ AnimationIdlePointers:
 	dw PupitarAnimationIdle
 	dw TyranitarAnimationIdle
 	dw ZacianAnimationIdle
-	dw BuzzwoleAnimationIdle
+	dw MewthreeAnimationIdle
 	dw PoppyAnimationIdle
 	dw DaisyAnimationIdle
 	dw BoomerAnimationIdle

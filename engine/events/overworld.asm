@@ -1148,12 +1148,10 @@ BouldersMayMoveText:
 	text_end
 
 TryStrengthOW:
-	ld d, STRENGTH
-	call CheckPartyMove
-	jr c, .nope
-
-	ld de, ENGINE_PLAINBADGE
-	call CheckEngineFlag
+	ld a, HM_STRENGTH
+	ld [wCurItem], a
+	ld hl, wNumItems
+	call CheckItem
 	jr c, .nope
 
 	ld hl, wBikeFlags

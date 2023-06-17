@@ -486,7 +486,10 @@ AwakeningBeach2BombWall:
 	iffalse .NoBombs
 	writetext AwakeningBeach2BombableWallText2
 	yesorno
-	iffalse .End
+	iftrue .Bomb
+	closetext
+	end
+.Bomb:
 	closetext
 	applymovement PLAYER, AwakeningBeach2MoveFromBomb
 	pause 30
@@ -494,12 +497,14 @@ AwakeningBeach2BombWall:
 	earthquake 40
 	waitsfx
 	special FadeBlackQuickly
-	changeblock 46, 34, $21
+	changeblock 40, 30, $21
 	reloadmap
 	special FadeInQuickly
 	applymovement PLAYER, AwakeningBeach2ReturnFromBomb
 	turnobject PLAYER, UP
 	opentext
+	changeblock 40, 30, $21
+	reloadmappart
 	writetext AwakeningBeach2BlownUp
 	waitbutton
 	setevent EVENT_BOMBED_AWAKENING_BEACH_2_WALL

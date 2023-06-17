@@ -164,7 +164,7 @@ DEF SPRITE_POKEMON EQU const_value
 	const SPRITE_SNORLAX ; 9f
 	const SPRITE_GYARADOS ; a0
 	const SPRITE_LUGIA ; a1
-	const SPRITE_HO_OH ; a2
+	const SPRITE_HUMANOID ; a2
 	const SPRITE_EEVEE ; a3
 	const SPRITE_VAPOREON ; a4
 	const SPRITE_JOLTEON ; a5

@@ -931,13 +931,7 @@ UnownEvosAttacks:
 	db EVOLVE_ITEM, LOVE_STONE, KIRBY
 	db EVOLVE_ITEM, DAWN_STONE, POPPY
 	db EVOLVE_ITEM, MOON_STONE, DAISY
-	db EVOLVE_LEVEL, 100, BOOMER
-	db EVOLVE_LEVEL, 99, BUZZWOLE
-	db EVOLVE_LEVEL, 98, ZACIAN
 	db EVOLVE_HAPPINESS, TR_ANYTIME, UNOWN
-	db EVOLVE_LEVEL, 97, MEGA_MAWILE
-	db EVOLVE_LEVEL, 96, MEGA_GENGAR
-	db EVOLVE_LEVEL, 95, SUICUNE
 	db 0 ; no more evolutions
 	db 1, HIDDEN_POWER
 	db 36, GLITCH_M
@@ -1035,8 +1029,6 @@ HoppipEvosAttacks:
 	db 27, MEGA_DRAIN
 	db 28, AERIAL_ACE
 	db 31, POISONPOWDER
-	db 35, THUNDERPUNCH
-	db 38, HEAL_BELL
 	db 0 ; no more level-up moves
 
 SkiploomEvosAttacks:
@@ -1051,10 +1043,7 @@ SkiploomEvosAttacks:
 	db 31, MEGA_DRAIN
 	db 32, AERIAL_ACE
 	db 36, POISONPOWDER
-	db 41, THUNDERPUNCH
-	db 45, HEAL_BELL
 	db 49, GIGA_DRAIN
-	db 57, EXPLOSION
 	db 0 ; no more level-up moves
 
 JumpluffEvosAttacks:
@@ -1066,7 +1055,6 @@ JumpluffEvosAttacks:
 	db 34, AERIAL_ACE
 	db 35, MEGA_DRAIN
 	db 39, POISONPOWDER
-	db 44, THUNDERPUNCH
 	db 49, HEAL_BELL
 	db 54, GIGA_DRAIN
 	db 63, EXPLOSION
@@ -3218,6 +3206,9 @@ BewearEvosAttacks:
 	db 0 ; no more level-up moves
 
 Oricorio_baileEvosAttacks:
+	db EVOLVE_ITEM, THUNDERSTONE, ORICORIO_POM
+	db EVOLVE_ITEM, MOON_STONE, ORICORIO_PAU
+	db EVOLVE_ITEM, DUSK_STONE, ORICORIO_SENSU
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 4, GROWL
@@ -3237,6 +3228,9 @@ Oricorio_baileEvosAttacks:
 	db 0 ; no more level-up moves
 
 Oricorio_pomEvosAttacks:
+	db EVOLVE_ITEM, FIRE_STONE, ORICORIO_BAILE
+	db EVOLVE_ITEM, MOON_STONE, ORICORIO_PAU
+	db EVOLVE_ITEM, DUSK_STONE, ORICORIO_SENSU
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 4, GROWL
@@ -3286,6 +3280,9 @@ HoundoomEvosAttacks:
 	db 0 ; no more level-up moves
 
 Oricorio_pauEvosAttacks:
+	db EVOLVE_ITEM, FIRE_STONE, ORICORIO_BAILE
+	db EVOLVE_ITEM, THUNDERSTONE, ORICORIO_POM
+	db EVOLVE_ITEM, DUSK_STONE, ORICORIO_SENSU
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 4, GROWL
@@ -3305,6 +3302,9 @@ Oricorio_pauEvosAttacks:
 	db 0 ; no more level-up moves
 
 Oricorio_sensuEvosAttacks:
+	db EVOLVE_ITEM, FIRE_STONE, ORICORIO_BAILE
+	db EVOLVE_ITEM, THUNDERSTONE, ORICORIO_POM
+	db EVOLVE_ITEM, MOON_STONE, ORICORIO_PAU
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 4, GROWL
@@ -3753,9 +3753,12 @@ ZacianEvosAttacks:
 	db 1, GIGA_IMPACT
 	db 0 ; no more level-up moves
 
-BuzzwoleEvosAttacks:
+MewthreeEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, DEFENSE_CURL
+	db 1, ZEN_HEADBUTT
+	db 2, PSYCHIC_M
+	db 3, HI_JUMP_KICK
+	db 4, MIRROR_COAT
 	db 0 ; no more level-up moves
 
 PoppyEvosAttacks:

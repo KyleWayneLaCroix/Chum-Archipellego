@@ -247,7 +247,7 @@ EvosAttacksPointers::
 	dw PupitarEvosAttacks
 	dw TyranitarEvosAttacks
 	dw ZacianEvosAttacks
-	dw BuzzwoleEvosAttacks
+	dw MewthreeEvosAttacks
 	dw PoppyEvosAttacks
 	dw DaisyEvosAttacks
 	dw BoomerEvosAttacks

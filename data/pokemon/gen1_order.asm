@@ -246,7 +246,7 @@ Pokered_MonIndices:
 	db PUPITAR
 	db TYRANITAR
 	db ZACIAN
-	db BUZZWOLE
+	db MEWTHREE
 	db POPPY
 	db DAISY
 	db BOOMER

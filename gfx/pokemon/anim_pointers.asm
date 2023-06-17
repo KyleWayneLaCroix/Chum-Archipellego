@@ -245,7 +245,7 @@ AnimationPointers:
 	dw PupitarAnimation
 	dw TyranitarAnimation
 	dw ZacianAnimation
-	dw BuzzwoleAnimation
+	dw MewthreeAnimation
 	dw PoppyAnimation
 	dw DaisyAnimation
 	dw BoomerAnimation

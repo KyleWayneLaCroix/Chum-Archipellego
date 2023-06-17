@@ -245,7 +245,7 @@ FramesPointers:
 	dw PupitarFrames
 	dw TyranitarFrames
 	dw ZacianFrames
-	dw BuzzwoleFrames
+	dw MewthreeFrames
 	dw PoppyFrames
 	dw DaisyFrames
 	dw BoomerFrames

@@ -188,7 +188,7 @@ TyranitarFrames:  INCLUDE "gfx/pokemon/tyranitar/frames.asm"
 
 ZacianFrames:     INCLUDE "gfx/pokemon/zacian/frames.asm"
 
-BuzzwoleFrames:   INCLUDE "gfx/pokemon/buzzwole/frames.asm"
+MewthreeFrames:   INCLUDE "gfx/pokemon/mewthree/frames.asm"
 
 PoppyFrames:      INCLUDE "gfx/pokemon/poppy/frames.asm"
 

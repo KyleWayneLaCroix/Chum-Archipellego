@@ -245,7 +245,7 @@ BitmasksPointers:
 	dw PupitarBitmasks
 	dw TyranitarBitmasks
 	dw ZacianBitmasks
-	dw BuzzwoleBitmasks
+	dw MewthreeBitmasks
 	dw PoppyBitmasks
 	dw DaisyBitmasks
 	dw BoomerBitmasks

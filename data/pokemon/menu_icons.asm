@@ -247,7 +247,7 @@ MonMenuIcons:
 	db ICON_BUG         ; PUPITAR
 	db ICON_BIGMON      ; TYRANITAR
 	db ICON_DOG         ; ZACIAN
-	db ICON_BUG         ; BUZZWOLE
+	db ICON_HUMANSHAPE  ; MEWTHREE
 	db ICON_DOG         ; POPPY
 	db ICON_DOG         ; DAISY
 	db ICON_DOG         ; BOOMER

@@ -593,13 +593,13 @@ DayCare_InitBreeding:
 
 ; Nidoran♀ can give birth to either gender of Nidoran
 	ld a, [wCurPartySpecies]
-	cp BUZZWOLE
+	cp SPIRRIP
 	jr nz, .GotEggSpecies
 	call Random
 	cp 50 percent + 1
-	ld a, BUZZWOLE
+	ld a, SPIRRIP
 	jr c, .GotEggSpecies
-	ld a, BUZZWOLE
+	ld a, SPIRRIP
 .GotEggSpecies:
 	ld [wCurPartySpecies], a
 	ld [wCurSpecies], a

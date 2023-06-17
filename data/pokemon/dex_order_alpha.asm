@@ -28,7 +28,6 @@ AlphabeticalPokedexOrder:
 	db BUIZEL
 	db BURGELA
 	db BUZZEON
-	db BUZZWOLE
 	db CARRACOSTA
 	db CENTISKORCH
 	db CHANDELURE
@@ -144,6 +143,7 @@ AlphabeticalPokedexOrder:
 	db MEOWTH
 	db METAGROSS
 	db METANG
+	db MEWTHREE
 	db MINIOR_CORE
 	db MINIOR_METEOR
 	db MISDREAVUS

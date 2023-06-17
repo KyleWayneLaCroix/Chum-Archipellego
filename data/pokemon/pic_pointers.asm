@@ -497,8 +497,8 @@ PokemonPicPointers::
 	dba TyranitarBackpic
 	dba ZacianFrontpic
 	dba ZacianBackpic
-	dba BuzzwoleFrontpic
-	dba BuzzwoleBackpic
+	dba MewthreeFrontpic
+	dba MewthreeBackpic
 	dba PoppyFrontpic
 	dba PoppyBackpic
 	dba DaisyFrontpic

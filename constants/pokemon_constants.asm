@@ -265,7 +265,7 @@ DEF JOHTO_POKEMON EQU const_value
     const PUPITAR           ; F3
     const TYRANITAR         ; F4
     const ZACIAN            ; F5
-    const BUZZWOLE          ; F6
+    const MEWTHREE          ; F6
     const POPPY             ; F7
     const DAISY             ; F8
     const BOOMER            ; F9

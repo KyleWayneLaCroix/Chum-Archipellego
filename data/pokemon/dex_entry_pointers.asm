@@ -246,7 +246,7 @@ PokedexDataPointerTable:
 	dw PupitarPokedexEntry
 	dw TyranitarPokedexEntry
 	dw ZacianPokedexEntry
-	dw BuzzwolePokedexEntry
+	dw MewthreePokedexEntry
 	dw PoppyPokedexEntry
 	dw DaisyPokedexEntry
 	dw BoomerPokedexEntry
