@@ -2,7 +2,6 @@
 	const_def
 	const LANDMARK_SPECIAL           ; 00
 ; Johto landmarks
-	const LANDMARK_NEW_BARK_TOWN     ; 01
 	const LANDMARK_AWAKENING_BEACH   ; 01
 	const LANDMARK_ROUTE_A           ; 02
 	const LANDMARK_GEAR_CITY         ; 03
@@ -10,6 +9,7 @@
 	const LANDMARK_ROUTE_B           ; 05
 	const LANDMARK_CEMETARY          ; 06
 	const LANDMARK_ROUTE_B_N         ; 07
+	const LANDMARK_CYBERSPACE1       ; 1a
 	const LANDMARK_UNIVERCITY        ; 08
 	const LANDMARK_ROUTE_C           ; 09
 	const LANDMARK_ROUTE_D           ; 0a
@@ -19,18 +19,19 @@
 	const LANDMARK_MUSCLE_JUNGLE     ; 0e
 	const LANDMARK_ROUTE_G           ; 0f
 	const LANDMARK_THE_BROCANO       ; 10
-	const LANDMARK_AWAKENING_BEACH_2 ; 11
-	const LANDMARK_MAYBE_VILLAGE     ; 12
+	const LANDMARK_MAYBE_VILLAGE     ; 11
+	const LANDMARK_AWAKENING_BEACH_2 ; 12
 	const LANDMARK_MISPLACED_WOODS   ; 13
-	const LANDMARK_BEACHSIDE_MAW     ; 14
+	const LANDMARK_AWAKENING_DUNGEON ; 14
 	const LANDMARK_THE_WINDFISH_EGG  ; 15
 	const LANDMARK_ROUTE_H           ; 16
 	const LANDMARK_OCEAN_DETOUR      ; 17
+	const LANDMARK_DR_NUGGZ_MD       ; 1b
+	const LANDMARK_IVY_ROAD          ; 1c
+	const LANDMARK_THE_BETWEENS      ; 1d
+	const LANDMARK_GRATE_GUY_CASINO  ; 1e
 	const LANDMARK_ICE_TOWN          ; 18
 	const LANDMARK_FROZEN_CAVERN     ; 19
-	const LANDMARK_CYBERSPACE1       ; 2d
-	const LANDMARK_DR_NUGGZ_MD       ; 2e
-	const LANDMARK_IVY_ROAD          ; 2f
 DEF KANTO_LANDMARK EQU const_value
 	const LANDMARK_ROUTE_1           ; 30
 	const LANDMARK_VIRIDIAN_CITY     ; 31

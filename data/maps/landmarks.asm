@@ -8,16 +8,16 @@ Landmarks:
 ; entries correspond to constants/landmark_constants.asm
 	table_width 4, Landmarks
 	landmark  -8, -16, SpecialMapName
-	landmark 140, 100, NewBarkTownName
-	landmark  44, 124, AwakeningBeachName
-	landmark  36, 116, RouteAName
-	landmark  28, 116, GearCityName
-	landmark  28, 108, NorthernForestName
-	landmark  28, 100, RouteBName
-	landmark  36,  92, CemetaryName
-	landmark  28,  92, RouteBName
+	landmark  84, 108, AwakeningBeachName
+	landmark  76, 108, RouteAName
+	landmark  68, 108, GearCityName
+	landmark  68, 100, NorthernForestName
+	landmark  68,  92, RouteBName
+	landmark  76,  92, CemetaryName
+	landmark  68,  84, RouteBName
+	landmark 132, 100, Cyberspace1Name
 	landmark 116,  52, UnivercityName
-	landmark 108,  15, RouteCName
+	landmark 108,  52, RouteCName
 	landmark 108,  44, RouteDName
 	landmark 100,  44, EeveeRanchName
 	landmark 116,  60, RouteEName
@@ -25,18 +25,19 @@ Landmarks:
 	landmark 116,  44, MuscleJungleName
 	landmark 116,  36, RouteGName
 	landmark 124,  36, TheBrocanoName
-	landmark  84, 124, AwakeningBeach2Name
-	landmark  76, 116, MaybeVillageName
-	landmark  76, 108, MisplacedWoodsName
-	landmark  76, 125, BeachsideMawName
-	landmark  92, 100, WindfishEggName
-	landmark  28,  84, RouteHName
-	landmark  20,  84, OceanDetourName
-	landmark  28,  76, IceTownName
-	landmark  28,  68, FrozenCavernName
-	landmark  36,  36, Cyberspace1Name
-	landmark 148,  68, DrNuggzMDName
-	landmark  52, 108, IvyRoadName
+	landmark  28,  76, MaybeVillageName
+	landmark  20,  84, AwakeningBeach2Name
+	landmark  20,  68, MisplacedWoodsName
+	landmark  28,  84, BeachsideMawName
+	landmark  36,  60, WindfishEggName
+	landmark  68,  76, RouteHName
+	landmark  52,  76, OceanDetourName
+	landmark  92, 108, DrNuggzMDName
+	landmark  28, 116, IvyRoadName
+	landmark 140, 132, TheBetweensName
+	landmark  28,  36, GrateGuyCasinoName
+	landmark  68,  68, IceTownName
+	landmark  68,  60, FrozenCavernName
 	assert_table_length KANTO_LANDMARK
 	landmark  52,  92, Route1Name
 	landmark  52,  76, ViridianCityName
@@ -191,28 +192,30 @@ UndergroundName:     db "UNDERGROUND@"
 BattleTowerName:     db "BATTLE¯TOWER@"
 SpecialMapName:      db "SPECIAL@"
 AwakeningBeachName:  db "AWAKENING¯BEACH@"
-RouteAName:          db "Route¯A@"
-GearCityName:        db "Gear¯City@"
+RouteAName:          db "Route A@"
+GearCityName:        db "Gear City@"
 NorthernForestName:  db "Northern¯Forest@"
-DrNuggzMDName:       db "NUGGZ@"
-RouteBName:          db "ROUTE¯B@"
+DrNuggzMDName:       db "DR. NUGGZ¯M.D.@"
+RouteBName:          db "ROUTE B@"
 CemetaryName:		 db "Code¯Graveyard@"
-Cyberspace1Name:     db "CYBER¯SPACE@"
+Cyberspace1Name:     db "CYBER SPACE@"
 UnivercityName:      db "UNIVERCITY@"
-RouteCName:          db "ROUTE¯C@"
-RouteDName:          db "ROUTE¯D@"
-EeveeRanchName:      db "RANCHALUTIONS@"
-RouteEName:          db "ROUTE¯E@"
-RouteFName:			 db "ROUTE¯F@"
+RouteCName:          db "ROUTE C@"
+RouteDName:          db "ROUTE D@"
+EeveeRanchName:      db "RANCH-¯-ALUTIONS@"
+RouteEName:          db "ROUTE E@"
+RouteFName:			 db "ROUTE F@"
 MuscleJungleName:    db "MUSCLE¯JUNGLE@"
-RouteGName:          db "ROUTE¯G@"
-TheBrocanoName:      db "THE¯BROCANO@"
+RouteGName:          db "ROUTE G@"
+TheBrocanoName:      db "THE BROCANO@"
 AwakeningBeach2Name: db "LINK'S¯AWAKENING@"
 MaybeVillageName:    db "MAYBE¯VILLAGE@"
 MisplacedWoodsName:  db "MISPLACED¯WOODS@"
-BeachsideMawName:    db "BEACHSIDE¯MAW@"
-WindfishEggName:     db "THE¯WINDFISH¯EGG@"
-RouteHName:          db "ROUTE¯H@"
+BeachsideMawName:    db "AWAKENING¯DUNGEON@"
+WindfishEggName:     db "WINDFISH¯EGG@"
+RouteHName:          db "ROUTE H@"
 OceanDetourName:     db "OCEAN¯DETOUR@"
 IceTownName:         db "ICE¯TOWN@"
 FrozenCavernName:    db "FROZEN¯CAVERN@"
+TheBetweensName:     db "THE¯BETWEENS@"
+GrateGuyCasinoName:  db "GRATE GUY¯CASINO@"
