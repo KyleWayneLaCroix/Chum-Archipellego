@@ -1152,7 +1152,7 @@ TryStrengthOW:
 	ld [wCurItem], a
 	ld hl, wNumItems
 	call CheckItem
-	jr c, .nope
+	jr nc, .nope
 
 	ld hl, wBikeFlags
 	bit BIKEFLAGS_STRENGTH_ACTIVE_F, [hl]

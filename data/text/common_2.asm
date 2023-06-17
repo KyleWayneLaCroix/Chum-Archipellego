@@ -389,14 +389,12 @@ _AlreadyUsingStrengthText::
 	prompt
 
 _UseStrengthText::
-	text_ram wStringBuffer2
-	text " used"
-	line "STRENGTH!"
+	text "Your #MON"
+	line "used STRENGTH!"
 	done
 
 _MoveBoulderText::
-	text_ram wStringBuffer1
-	text " can"
+	text "Your #MON can"
 	line "move boulders."
 	prompt
 
