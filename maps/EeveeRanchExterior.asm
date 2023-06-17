@@ -327,8 +327,7 @@ EeveeRanchExteriorEspeon:
 	closetext
 	playsound SFX_WARP_TO
 	waitsfx
-	; temp, replace with error room
-	warp AWAKENING_LAB, 5, 5
+	warp ERROR_ROOM, 5, 5
 	end
 
 .PickUpEgg:
@@ -339,8 +338,7 @@ EeveeRanchExteriorEspeon:
 	closetext
 	playsound SFX_WARP_TO
 	waitsfx
-	; temp, replace with error room
-	warp AWAKENING_LAB, 5, 5
+	warp ERROR_ROOM, 5, 5
 	end
 
 .TalkToEspeon:

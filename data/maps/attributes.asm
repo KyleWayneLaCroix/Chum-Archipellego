@@ -316,3 +316,5 @@ ENDM
 	map_attributes TheBetweensTraditionalHouse, THE_BETWEENS_TRADITIONAL_HOUSE, $00, 0
 	map_attributes TheBetweensLinksAwakeningInterior, THE_BETWEENS_LINKS_AWAKENING_INTERIOR, $00, 0
 	map_attributes KylesDesktopRoom, KYLES_DESKTOP_ROOM, $00, 0
+	map_attributes ErrorRoom, ERROR_ROOM, $00, 0
+	map_attributes ForestCave, FOREST_CAVE, $00, 0

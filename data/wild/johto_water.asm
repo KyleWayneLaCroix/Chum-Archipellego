@@ -82,6 +82,14 @@ JohtoWaterWildMons:
     db 28, BARBOACH
     end_water_wildmons
 
+    def_water_wildmons ROUTE_F
+    db 6 percent ; encounter rate
+    db 28, BARBOACH
+    db 28, BARBOACH
+    db 28, BARBOACH
+    db 28, BARBOACH
+    end_water_wildmons
+
     def_water_wildmons MUSCLE_JUNGLE
     db 6 percent ; encounter rate
     db 28, YANMA

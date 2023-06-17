@@ -347,7 +347,7 @@ JohtoGrassWildMons:
     db 15 percent, 15 percent, 15 percent ; encounter rates: morn/day/nite
     ; morn
     db 10, ORICORIO_BAILE
-    db 10, SOLOSIS
+    db 10, YAMPER
     db 9, GROWLITHE
     db 9, YANMA
     db 9, SHROOMISH
@@ -356,7 +356,7 @@ JohtoGrassWildMons:
     db 12, CORVISQUIRE
     ; day
     db 10, ORICORIO_BAILE
-    db 10, SOLOSIS
+    db 10, YAMPER
     db 9, GROWLITHE
     db 9, YANMA
     db 9, SHROOMISH
@@ -365,7 +365,7 @@ JohtoGrassWildMons:
     db 12, CORVISQUIRE
     ; nite
     db 10, ORICORIO_BAILE
-    db 10, SOLOSIS
+    db 10, YAMPER
     db 9, GROWLITHE
     db 9, YANMA
     db 9, SHROOMISH
@@ -527,6 +527,37 @@ JohtoGrassWildMons:
     db 9, ZIGZAGOON
     db 12, SHROOMISH
     db 12, LARVITAR
+    end_grass_wildmons
+
+    def_grass_wildmons ROUTE_F_CAVE
+    db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
+    ; morn
+    db 10, KOFFING
+    db 10, MAKUHITA
+    db 9, STUFFUL
+    db 9, SKARMORY
+    db 9, CLOBBOPUS
+    db 9, MAKUHITA
+    db 12, SKARMORY
+    db 12, AMAURA
+    ; day
+    db 10, KOFFING
+    db 10, MAKUHITA
+    db 9, STUFFUL
+    db 9, SKARMORY
+    db 9, CLOBBOPUS
+    db 9, MAKUHITA
+    db 12, SKARMORY
+    db 12, AMAURA
+    ; nite
+    db 10, KOFFING
+    db 10, MAKUHITA
+    db 9, STUFFUL
+    db 9, SKARMORY
+    db 9, CLOBBOPUS
+    db 9, MAKUHITA
+    db 12, SKARMORY
+    db 12, AMAURA
     end_grass_wildmons
 
     def_grass_wildmons MUSCLE_JUNGLE
@@ -1488,6 +1519,37 @@ JohtoGrassWildMons:
     db 28, TIRTOUGA
     db 28, AMAURA
     db 28, PUPITAR
+    end_grass_wildmons
+
+    def_grass_wildmons ERROR_ROOM
+    db 50 percent, 50 percent, 50 percent ; encounter rates: morn/day/nite
+    ; morn
+    db 12, UNOWN
+    db 12, UNOWN
+    db 12, UNOWN
+    db 12, UNOWN
+    db 12, UNOWN
+    db 12, UNOWN
+    db 12, SALAZZLE2
+    db 12, SALANDIT2
+    db 12, UNOWN
+    ; day
+    db 12, UNOWN
+    db 12, UNOWN
+    db 12, UNOWN
+    db 12, UNOWN
+    db 12, UNOWN
+    db 12, SALAZZLE2
+    db 12, SALANDIT2
+    db 12, UNOWN
+    ; nite
+    db 12, UNOWN
+    db 12, UNOWN
+    db 12, UNOWN
+    db 12, UNOWN
+    db 12, UNOWN
+    db 12, SALAZZLE2
+    db 12, SALANDIT2
     end_grass_wildmons
 
     db -1 ; end

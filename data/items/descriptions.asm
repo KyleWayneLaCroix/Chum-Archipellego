@@ -189,8 +189,8 @@ ItemDescriptions:
 	dw DungeonKeyDesc
 	dw BigKeyDesc
 	dw SmallKeyDesc
-	dw TeruSama24Desc
-	dw TeruSama25Desc
+	dw JumpDesc
+	dw JumpDesc
 	dw TeruSama26Desc
 	dw TeruSama27Desc
 	assert_table_length NUM_ITEMS

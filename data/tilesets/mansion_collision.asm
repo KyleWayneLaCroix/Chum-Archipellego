@@ -89,3 +89,4 @@
 	tilecoll FLOOR, WALL, FLOOR, FLOOR ; 58
 	tilecoll WALL, FLOOR, FLOOR, FLOOR ; 59
 	tilecoll STAIRCASE, WALL, FLOOR, FLOOR ; 5a
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 5b

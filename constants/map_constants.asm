@@ -244,6 +244,8 @@ ENDM
 	map_const THE_BETWEENS_TRADITIONAL_HOUSE,        5,  5 ; 39
 	map_const THE_BETWEENS_LINKS_AWAKENING_INTERIOR, 6,  5 ; 40
 	map_const KYLES_DESKTOP_ROOM,                    5,  5 ; 41
+	map_const ERROR_ROOM,                            6,  5 ; 42
+	map_const FOREST_CAVE,                          10,  8 ; 43
 	endgroup
 
 DEF NUM_MAP_GROUPS EQU const_value ; 8

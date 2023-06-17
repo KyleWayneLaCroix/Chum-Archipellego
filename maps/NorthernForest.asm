@@ -39,6 +39,9 @@ NorthernForestSuicuneScript:
 	loadvar VAR_BATTLETYPE, BATTLETYPE_TRAP
 	loadwildmon SUICUNE, 60
 	startbattle
+	reloadmapafterbattle
+	setevent EVENT_NORTHERNFOREST_SUICUNE
+	disappear NORTHFOREST_SUICUNE
 	end
 
 NorthernForestTinyMushroom1:
@@ -320,7 +323,8 @@ NorthernForest_MapEvents:
 	warp_event 25, 57, GEAR_CITY_NORTH_FOREST_GATE, 4
 	warp_event  7, 11, NORTHERN_FOREST_ROUTE_B_GATE, 1
 	warp_event  1, 25, WARDENS_CABIN, 1
-
+	warp_event 32, 45, FOREST_CAVE, 1
+	warp_event 32, 46, FOREST_CAVE, 2
 
 	def_coord_events
 

@@ -16,6 +16,7 @@ MeemanRoof_MapEvents:
 ;	warp_event x, y, map, warp_id
 	warp_event 12,  1, MEEMAN_2F, 2
 	warp_event  2,  5, MEEMAN_POOL, 1
+	warp_event  6,  3, ERROR_ROOM, 1
 
 	def_coord_events
 ;	coord_event x, y, scene_id, script

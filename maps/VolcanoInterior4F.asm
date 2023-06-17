@@ -158,7 +158,7 @@ VolcanoInterior4FOldMan:
 	iftrue .After
 	writetext VolcanoInterior4OldManBeforeText
 	waitbutton
-	verbosegiveitem JUMP
+	verbosegiveitem JUMP_1
 	setevent EVENT_GOT_VOLCANO_JUMP
 	waitbutton
 	closetext

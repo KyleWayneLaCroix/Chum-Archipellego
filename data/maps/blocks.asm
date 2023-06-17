@@ -505,3 +505,9 @@ RouteFCave_Blocks:
 
 TonyHawkHouse_Blocks:
 	INCBIN "maps/TonyHawkHouse.ablk"
+
+ErrorRoom_Blocks:
+	INCBIN "maps/ErrorRoom.ablk"
+
+ForestCave_Blocks:
+	INCBIN "maps/ForestCave.ablk"

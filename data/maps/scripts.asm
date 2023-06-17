@@ -20,6 +20,7 @@ SECTION "Map Scripts 3", ROMX
 INCLUDE "maps/NewBarkTown.asm"
 INCLUDE "maps/PlayersHouse1F.asm"
 INCLUDE "maps/PlayersHouse2F.asm"
+INCLUDE "maps/CityGearHQBasement.asm"
 
 
 SECTION "Map Scripts 4", ROMX
@@ -47,7 +48,6 @@ INCLUDE "maps/CityGearRetail.asm"
 INCLUDE "maps/GearCityPokecenter1F.asm"
 INCLUDE "maps/GearCityMart.asm"
 INCLUDE "maps/CityGearHQ.asm"
-INCLUDE "maps/CityGearHQBasement.asm"
 
 
 SECTION "Map Scripts 6", ROMX
@@ -170,6 +170,8 @@ SECTION "Map Scripts 15", ROMX
 INCLUDE "maps/RouteF.asm"
 INCLUDE "maps/RouteFCave.asm"
 INCLUDE "maps/TonyHawkHouse.asm"
+INCLUDE "maps/ErrorRoom.asm"
+INCLUDE "maps/ForestCave.asm"
 
 SECTION "Map Scripts 16", ROMX
 INCLUDE "maps/MaybeVillage.asm"

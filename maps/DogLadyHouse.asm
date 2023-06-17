@@ -29,9 +29,10 @@ DogLadyHouse_MapEvents:
 
 	def_warp_events
 ;	warp_event x, y, map, warp_id
-	warp_event 5, 8, MAYBE_VILLAGE, 2
+	warp_event  5, 8, MAYBE_VILLAGE, 2
 	warp_event  6,  8, MAYBE_VILLAGE, 2
 	warp_event 15,  8, MAYBE_VILLAGE, 3
+	warp_event 16,  3, GRATE_GUY_CASINO, 1
 
 	def_coord_events
 ;	coord_event x, y, scene_id, script

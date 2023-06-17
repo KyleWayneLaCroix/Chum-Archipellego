@@ -185,7 +185,7 @@
 	const CHAINSAW     ; b1
 	const PDA          ; b2
 	const FLASHLIGHT   ; b3
-	const JUMP         ; b4
+	const JUMP_1       ; b4
 	const RUPEE        ; b5
 	const HEART        ; b6
 	const BRITE_CARD   ; b7
@@ -194,8 +194,8 @@
 	const DUNGEON_KEY  ; ba
 	const BIG_KEY      ; bb
 	const SMALL_KEY    ; bc
-	const ITEM_BD      ; bd
-	const ITEM_BE      ; be
+	const JUMP_2       ; bd
+	const JUMP_3       ; be
 	const ITEM_BF      ; bf
 	const ITEM_C0      ; c0
 DEF NUM_ITEMS EQU const_value - 1

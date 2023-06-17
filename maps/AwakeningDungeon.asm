@@ -863,7 +863,7 @@ AwakeningDungeonLink:
 
 .Script:
     opentext
-    verbosegiveitem JUMP
+    verbosegiveitem JUMP_2
     waitbutton
     closetext
     disappear AWAKENING_DUNGEON_LINK

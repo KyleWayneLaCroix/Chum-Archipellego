@@ -128,3 +128,4 @@
 	tilecoll FLOOR, WALL, WALL, WALL ; 7f
 	tilecoll FLOOR, FLOOR, FLOOR, PIT ; 80
 	tilecoll FLOOR, WALL, FLOOR, WALL ; 81
+	tilecoll LADDER, WATER, LADDER, WATER ; 82

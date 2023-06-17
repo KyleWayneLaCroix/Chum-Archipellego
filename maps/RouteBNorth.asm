@@ -8,6 +8,16 @@ RouteBNorth_MapScripts:
 	def_callbacks
 ;	callback type, script
 
+RouteBNorthSign:
+	jumptext RouteBNorthSignText
+
+RouteBNorthSignText:
+	text "ROUTE B"
+
+	para "ICE TOWN to"
+	line "NORTH."
+	done
+
 RouteBNorth_MapEvents:
 	db 0, 0 ; filler
 
@@ -19,6 +29,7 @@ RouteBNorth_MapEvents:
 
 	def_bg_events
 ;	bg_event x, y, type, script
+	bg_event 8, 34, BGEVENT_READ, RouteBNorthSign
 
 	def_object_events
 ;	object_event x, y, sprite, movement, rx, ry, h1, h2, palette, type, range, script, event_flag

@@ -17,7 +17,7 @@ INCLUDE "audio/music/elmslab.asm"
 INCLUDE "audio/music/darkcave.asm"
 INCLUDE "audio/music/johtogymbattle.asm"
 INCLUDE "audio/music/championbattle.asm"
-INCLUDE "audio/music/ssaqua.asm"
+;INCLUDE "audio/music/ssaqua.asm"
 INCLUDE "audio/music/newbarktown.asm"
 INCLUDE "audio/music/goldenrodcity.asm"
 INCLUDE "audio/music/vermilioncity.asm"
@@ -124,6 +124,10 @@ INCLUDE "audio/music/battletowertheme.asm"
 INCLUDE "audio/music/suicunebattle.asm"
 INCLUDE "audio/music/battletowerlobby.asm"
 INCLUDE "audio/music/mobilecenter.asm"
+
+SECTION "Songs 6", ROMX
+
+INCLUDE "audio/music/ssaqua.asm"
 
 
 SECTION "Extra Songs 1", ROMX

@@ -1,5 +1,5 @@
 	object_const_def
-	const AWAKENINGLAB_TEST_TRAINER
+	;const AWAKENINGLAB_TEST_TRAINER
 	const AWAKENINGLAB_POKE_BALL1
 	const AWAKENINGLAB_POKE_BALL2
 	const AWAKENINGLAB_POKE_BALL3
@@ -13,6 +13,25 @@ AwakeningLab_MapScripts:
 	scene_script AwakeningLabNoop3Scene, SCENE_AWAKENINGLAB_PICKED_POKEMON
 
 	def_callbacks
+	callback MAPCALLBACK_TILES, AwakeningLabTileCallback
+	callback MAPCALLBACK_NEWMAP, AwakeningLabFlypointCallback
+
+AwakeningLabFlypointCallback:
+	blackoutmod AWAKENING_LAB
+	endcallback
+
+AwakeningLabTileCallback:
+	checkevent EVENT_AWAKENING_LAB_BOMBED_WALL
+	iffalse .End
+	changeblock 0, 0, $11
+	changeblock 2, 0, $12
+	changeblock 0, 2, $47
+	changeblock 2, 2, $10
+	changeblock 0, 4, $47
+	changeblock 2, 4, $48
+	changeblock 2, 6, $46
+.End:
+	endcallback
 
 AwakeningLabNoop1Scene:
 	end
@@ -542,11 +561,186 @@ AwakeningLabHealingMachineText:
 	line "have power."
 	done
 
-AwakeningLabTeleport:
-	special FadeOutPalettes
+;AwakeningLabTeleport:
+;	special FadeOutPalettes
+;	waitsfx
+;	warp MARINS_HOUSE, 4, 3
+;	end
+
+
+AwakeningLabBombableWall:
+	checkitem BOMBS
+	iffalse .End
+	checkevent EVENT_AWAKENING_LAB_BOMBED_WALL
+	iftrue .End
+	opentext
+	writetext AwakeningLabBombableWallText
+	yesorno
+	iffalse .Refused
+	closetext
+	applymovement PLAYER, AwakeningLabBombWallMovement
+	pause 10
+	playsound SFX_STRENGTH
+	earthquake 60
 	waitsfx
-	warp MARINS_HOUSE, 4, 3
+	setevent EVENT_AWAKENING_LAB_BOMBED_WALL
+	changeblock 0, 0, $11
+	changeblock 2, 0, $12
+	changeblock 0, 2, $47
+	changeblock 2, 2, $10
+	changeblock 0, 4, $47
+	changeblock 2, 4, $48
+	changeblock 2, 6, $46
+	applymovement PLAYER, AwakeningLabBombWallMovementBack
+.Refused:
+	closetext
+.End:
 	end
+
+AwakeningLabBombableWallText:
+	text "The wall here"
+	line "looks like it was"
+	cont "recently repaired"
+
+	para "You could blow it"
+	line "open with a BOMB"
+	cont "if you want."
+
+	para "Blow it up?"
+	done
+
+AwakeningLabBombWallMovement:
+	step DOWN
+	step DOWN
+	step DOWN
+	step DOWN
+	step RIGHT
+	step_end
+
+AwakeningLabBombWallMovementBack:
+	step LEFT
+	step UP
+	step UP
+	step UP
+	step UP
+	step_end
+
+AwakeningLabJump:
+	opentext
+    special FadeOutMusic
+    playmusic MUSIC_SS_AQUA
+	writetext VanHalenJump
+	waitbutton
+	checkevent EVENT_GOT_AWAKENING_LAB_JUMP
+	iftrue .After
+	verbosegiveitem JUMP_3
+	setevent EVENT_GOT_AWAKENING_LAB_JUMP
+.After:
+	special RestartMapMusic
+	closetext
+	end
+
+VanHalenJump:
+	text "There's a note"
+	line "that says:"
+
+	para "JUMP"
+
+	para "By Van Halen"
+
+	para "I get up, and"
+	line "nothin' gets me"
+	cont "down."
+	
+	para "You got it tough"
+	line "I've seen the"
+	cont "toughest around."
+
+	para "And I know, baby,"
+	line "just how you feel."
+	
+	para "You got to roll"
+	line "withthe punches."
+
+	para "And get to what's"
+	line "real."
+
+	para "Ah, can't you see"
+	line "me standin' here?"
+
+	para "I got my back"
+	line "against the record"
+	cont "machine."
+
+	para "I ain't the worst"
+	line "that you've seen"
+
+	para "Ah, can't you see"
+	line "what I mean?"
+
+	para "Ah, might as well"
+	line "jump      (jump!)"
+
+	para "Might as well"
+	line "jump"
+
+	para "Go ahead and jump"
+	line "          (jump!)"
+
+	para "Go ahead and jump"
+
+	para "Ah-oh, hey you!"
+
+	para "Who said that?"
+
+	para "Baby, how you"
+	line "been?"
+
+	para "You say you don't"
+	line "know."
+
+	para "You won't know"
+	line "until you begin."
+
+	para "So, can't you see"
+	line "me standing here?"
+
+	para "I got my back"
+	line "against the record"
+	cont "machine."
+
+	para "I ain't the worst"
+	line "that you've seen"
+
+	para "Ah, can't you see"
+	line "what I mean?"
+
+	para "Ah, might as well"
+	line "jump      (jump!)"
+
+	para "Go ahead and jump"
+
+	para "Might as well"
+	line "jump      (jump!)"
+
+	para "Go ahead and jump"
+	line "Jump!"
+
+	para "Might as well"
+	line "jump      (jump!)"
+
+	para "Go ahead and jump"
+
+	para "Might as well"
+	line "jump      (jump!)"
+	
+	para "Go ahead and jump"
+
+	para "Jump!"
+	para "Jump!"
+	para "Jump!"
+	para "Jump!"
+	done
 
 AwakeningLab_MapEvents:
 	db 0, 0 ; filler
@@ -554,7 +748,7 @@ AwakeningLab_MapEvents:
 	def_warp_events
 	warp_event 25, 19, AWAKENING_BEACH, 1
 	warp_event 24, 19, AWAKENING_BEACH, 1
-	warp_event 27, 16, VOLCANO_EXTERIOR, 1
+	warp_event 27, 16, EEVEE_RANCH_EXTERIOR, 2
 
 	def_coord_events
 	coord_event 26,  6, SCENE_AWAKENINGLAB_WOKE_UP, WakeUpScript
@@ -586,10 +780,12 @@ AwakeningLab_MapEvents:
 	bg_event  5, 14, BGEVENT_READ, AwakeningLabComputerScript
 	bg_event 24, 12, BGEVENT_READ, AwakeningLabHealingMachine
 	bg_event 25, 12, BGEVENT_READ, AwakeningLabHealingMachine
-	bg_event 15, 15, BGEVENT_READ, AwakeningLabTeleport
+	bg_event  2,  7, BGEVENT_READ, AwakeningLabBombableWall
+	;bg_event 15, 15, BGEVENT_READ, AwakeningLabTeleport
+	bg_event 2, 4, BGEVENT_READ, AwakeningLabJump
 
 	def_object_events
-	object_event 26, 14, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_TRAINER, 0, TestTrainer, -1
+	;object_event 26, 14, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_TRAINER, 0, TestTrainer, -1
 	object_event 12, 15, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, PorygonPokeBallScript, EVENT_GOT_A_STARTER
 	object_event 13, 15, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, BurgelaPokeBallScript, EVENT_GOT_A_STARTER
 	object_event 14, 15, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, SpirripPokeBallScript, EVENT_GOT_A_STARTER
