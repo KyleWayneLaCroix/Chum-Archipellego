@@ -140,7 +140,7 @@ PokedexDataPointerTable:
 	dw HariyamaPokedexEntry
 	dw MeowthPokedexEntry
 	dw PerrserkerPokedexEntry
-	dw WingullPokedexEntry
+	dw ChompPokedexEntry
 	dw RegimagmaPokedexEntry
 	dw CroagunkPokedexEntry
 	dw ToxicroakPokedexEntry

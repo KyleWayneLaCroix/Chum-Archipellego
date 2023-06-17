@@ -1,6 +1,6 @@
 ; CreditsStringsPointers indexes (see data/credits_strings.asm)
 	const_def
-	const SATOSHI_TAJIRI
+	const KYLE_LACROIX
 	const JUNICHI_MASUDA
 	const TETSUYA_WATANABE
 	const SHIGEKI_MORIMOTO
@@ -73,7 +73,7 @@
 	const CREDIT_END
 	const CREDIT_UNKNOWN
 	const STAFF
-	const DIRECTOR
+	const CREATOR
 	const CODIRECTOR
 	const PROGRAMMERS
 	const GRAPHICS_DIRECTOR

@@ -380,7 +380,7 @@ JohtoGrassWildMons:
     db 10, WOOLOO
     db 10, EMOLGA
     db 9, STUNKY
-    db 9, TYKER
+    db 9, BLITZLE
     db 9, YANMA
     db 9, CHERUBI
     db 12, HOPPIP
@@ -389,7 +389,7 @@ JohtoGrassWildMons:
     db 10, WOOLOO
     db 10, EMOLGA
     db 9, STUNKY
-    db 9, TYKER
+    db 9, BLITZLE
     db 9, YANMA
     db 9, CHERUBI
     db 12, HOPPIP
@@ -398,7 +398,7 @@ JohtoGrassWildMons:
     db 10, WOOLOO
     db 10, EMOLGA
     db 9, STUNKY
-    db 9, TYKER
+    db 9, BLITZLE
     db 9, YANMA
     db 9, CHERUBI
     db 12, HOPPIP
@@ -968,27 +968,27 @@ JohtoGrassWildMons:
     ; morn
     db 15, ORICORIO_PAU
     db 15, EXEGGCUTE
-    db 16, HERDIER
+    db 16, ESPURR
     db 16, HERACROSS
-    db 16, TYKER
+    db 16, HERDIER
     db 16, DEERLING
     db 18, RALTS
     db 17, RALTS
     ; day
     db 15, ORICORIO_PAU
     db 15, EXEGGCUTE
-    db 16, HERDIER
+    db 16, ESPURR
     db 16, HERACROSS
-    db 16, TYKER
+    db 16, HERDIER
     db 16, DEERLING
     db 18, RALTS
     db 17, RALTS
     ; nite
     db 15, ORICORIO_PAU
     db 15, EXEGGCUTE
-    db 16, HERDIER
+    db 16, ESPURR
     db 16, HERACROSS
-    db 16, TYKER
+    db 16, HERDIER
     db 16, DEERLING
     db 18, RALTS
     db 17, RALTS
@@ -1324,7 +1324,6 @@ JohtoGrassWildMons:
     db 28, BAD_EGG
     db 28, PORYGON
     db 28, PORYGON2
-    db 28, PORYGON2
     ; nite
     db 28, UNOWN
     db 28, UNOWN
@@ -1332,12 +1331,14 @@ JohtoGrassWildMons:
     db 28, KIRBY
     db 28, M_BLOCK
     db 28, BAD_EGG
+    db 28, PORYGON2
     db 28, PORYGON
     end_grass_wildmons
 
     def_grass_wildmons THE_BETWEENS_VICTORY_ROAD
     db 1 percent, 1 percent, 1 percent ; encounter rates: morn/day/nite
     ; morn
+    db 28, EXCADRILL
     db 28, SWOOBAT
     db 28, MUDSDALE
     db 28, LAIRON
@@ -1345,8 +1346,8 @@ JohtoGrassWildMons:
     db 28, LYCANROC_MIDDAY
     db 28, LYCANROC_DUSK
     db 28, LYCANROC_MIDNIGHT
-    db 28, EXCADRILL
     ; day
+    db 28, EXCADRILL
     db 28, SWOOBAT
     db 28, MUDSDALE
     db 28, LAIRON
@@ -1354,7 +1355,6 @@ JohtoGrassWildMons:
     db 28, LYCANROC_MIDDAY
     db 28, LYCANROC_DUSK
     db 28, LYCANROC_MIDNIGHT
-    db 28, EXCADRILL
     ; nite
     db 28, EXCADRILL
     db 28, SWOOBAT
@@ -1369,6 +1369,7 @@ JohtoGrassWildMons:
     def_grass_wildmons THE_BETWEENS_ICE_PATH
     db 3 percent, 3 percent, 3 percent ; encounter rates: morn/day/nite
     ; morn
+    db 28, SWINUB
     db 28, SNOVER
     db 28, SPHEAL
     db 28, SNOM
@@ -1376,8 +1377,8 @@ JohtoGrassWildMons:
     db 28, SEALEO
     db 28, FROSMOTH
     db 28, AMAURA
-    db 28, SWINUB
     ; day
+    db 28, SWINUB
     db 28, SNOVER
     db 28, SPHEAL
     db 28, SNOM
@@ -1385,7 +1386,6 @@ JohtoGrassWildMons:
     db 28, SEALEO
     db 28, AMAURA
     db 28, AMAURA
-    db 28, SWINUB
     ; nite
     db 28, SWINUB
     db 28, SNOVER
@@ -1400,6 +1400,7 @@ JohtoGrassWildMons:
     def_grass_wildmons THE_BETWEENS_TOWN
     db 3 percent, 3 percent, 3 percent ; encounter rates: morn/day/nite
     ; morn
+    db 36, GARBODOR
     db 36, WEEZING
     db 36, EEVEE
     db 36, STOUTLAND
@@ -1407,8 +1408,8 @@ JohtoGrassWildMons:
     db 36, OBSTAGOON
     db 36, SKUNTANK
     db 36, POPPY
-    db 36, GARBODOR
     ; day
+    db 36, GARBODOR
     db 36, WEEZING
     db 36, EEVEE
     db 36, STOUTLAND
@@ -1416,7 +1417,6 @@ JohtoGrassWildMons:
     db 36, OBSTAGOON
     db 36, SKUNTANK
     db 36, POPPY
-    db 36, GARBODOR
     ; nite
     db 36, GARBODOR
     db 36, WEEZING
@@ -1431,6 +1431,7 @@ JohtoGrassWildMons:
     def_grass_wildmons THE_BETWEENS_FOREST
     db 3 percent, 3 percent, 3 percent ; encounter rates: morn/day/nite
     ; morn
+    db 36, WYRDEER
     db 36, BUZZEON
     db 36, ORBEETLE
     db 36, SHIINOTIC
@@ -1438,8 +1439,8 @@ JohtoGrassWildMons:
     db 36, TSAREENA
     db 36, LURANTIS
     db 36, JUNGELA
-    db 36, WYRDEER
     ; day
+    db 36, WYRDEER
     db 36, BUZZEON
     db 36, ORBEETLE
     db 36, SHIINOTIC
@@ -1447,7 +1448,6 @@ JohtoGrassWildMons:
     db 36, TSAREENA
     db 36, LURANTIS
     db 36, JUNGELA
-    db 36, WYRDEER
     ; nite
     db 36, WYRDEER
     db 36, BUZZEON
@@ -1462,6 +1462,7 @@ JohtoGrassWildMons:
     def_grass_wildmons ROUTE_H
     db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
     ; morn
+    db 28, SHELLOS
     db 28, FLOATZEL
     db 28, EXEGGUTOR
     db 28, YANMEGA
@@ -1469,8 +1470,8 @@ JohtoGrassWildMons:
     db 28, CLAUNCHER
     db 28, SANDYGAST
     db 28, CLAUNCHER
-    db 28, SHELLOS
     ; day
+    db 28, SHELLOS
     db 28, FLOATZEL
     db 28, EXEGGUTOR
     db 28, YANMEGA
@@ -1478,7 +1479,6 @@ JohtoGrassWildMons:
     db 28, CLAUNCHER
     db 28, SANDYGAST
     db 28, CLAUNCHER
-    db 28, SHELLOS
     ; nite
     db 28, SHELLOS
     db 28, FLOATZEL
@@ -1493,6 +1493,7 @@ JohtoGrassWildMons:
     def_grass_wildmons OCEAN_DETOUR
     db 3 percent, 3 percent, 3 percent ; encounter rates: morn/day/nite
     ; morn
+    db 28, DWEBBLE
     db 28, KLEAVOR
     db 28, EXCADRILL
     db 28, CLOBBOPUS
@@ -1500,8 +1501,8 @@ JohtoGrassWildMons:
     db 28, TIRTOUGA
     db 28, AMAURA
     db 28, PUPITAR
-    db 28, DWEBBLE
     ; day
+    db 28, DWEBBLE
     db 28, KLEAVOR
     db 28, EXCADRILL
     db 28, CLOBBOPUS
@@ -1511,7 +1512,6 @@ JohtoGrassWildMons:
     db 28, PUPITAR
     db 28, DWEBBLE
     ; nite
-    db 28, DWEBBLE
     db 28, KLEAVOR
     db 28, EXCADRILL
     db 28, CLOBBOPUS
@@ -1532,8 +1532,8 @@ JohtoGrassWildMons:
     db 12, UNOWN
     db 12, SALAZZLE2
     db 12, SALANDIT2
-    db 12, UNOWN
     ; day
+    db 12, UNOWN
     db 12, UNOWN
     db 12, UNOWN
     db 12, UNOWN
@@ -1550,6 +1550,130 @@ JohtoGrassWildMons:
     db 12, UNOWN
     db 12, SALAZZLE2
     db 12, SALANDIT2
+    end_grass_wildmons
+
+    def_grass_wildmons DANK_CAVE_1F
+    db 3 percent, 3 percent, 3 percent ; encounter rates: morn/day/nite
+    ; morn
+    db 2, SWOOBAT
+    db 3, KOFFING
+    db 4, DRILBUR
+    db 3, MUDBRAY
+    db 2, STUFFUL
+    db 4, MAKUHITA
+    db 6, ROCKRUFF
+    db 2, SWINUB
+    ; day
+    db 2, SWOOBAT
+    db 3, KOFFING
+    db 4, DRILBUR
+    db 3, MUDBRAY
+    db 2, STUFFUL
+    db 4, MAKUHITA
+    db 6, ROCKRUFF
+    db 2, SWINUB
+    ; nite
+    db 2, SWOOBAT
+    db 3, KOFFING
+    db 4, DRILBUR
+    db 3, MUDBRAY
+    db 2, STUFFUL
+    db 4, MAKUHITA
+    db 6, ROCKRUFF
+    db 2, SWINUB
+    end_grass_wildmons
+
+    def_grass_wildmons DANK_CAVE_B1F
+    db 3 percent, 3 percent, 3 percent ; encounter rates: morn/day/nite
+    ; morn
+    db 2, SWOOBAT
+    db 3, KOFFING
+    db 4, DRILBUR
+    db 3, MUDBRAY
+    db 2, STUFFUL
+    db 4, MAKUHITA
+    db 6, ROCKRUFF
+    db 2, SWINUB
+    ; day
+    db 2, SWOOBAT
+    db 3, KOFFING
+    db 4, DRILBUR
+    db 3, MUDBRAY
+    db 2, STUFFUL
+    db 4, MAKUHITA
+    db 6, ROCKRUFF
+    db 2, SWINUB
+    ; nite
+    db 2, SWOOBAT
+    db 3, KOFFING
+    db 4, DRILBUR
+    db 3, MUDBRAY
+    db 2, STUFFUL
+    db 4, MAKUHITA
+    db 6, ROCKRUFF
+    db 2, SWINUB
+    end_grass_wildmons
+
+    def_grass_wildmons DANK_CAVE_2F
+    db 1 percent, 1 percent, 1 percent ; encounter rates: morn/day/nite
+    ; morn
+    db 16, MAWILE
+    db 16, SWINUB
+    db 16, SWOOBAT
+    db 16, LAIRON
+    db 16, MAKUHITA
+    db 16, LYCANROC_MIDDAY
+    db 16, LYCANROC_DUSK
+    db 16, LYCANROC_MIDNIGHT
+    ; day
+    db 16, MAWILE
+    db 16, SWINUB
+    db 16, SWOOBAT
+    db 16, LAIRON
+    db 16, MAKUHITA
+    db 16, LYCANROC_MIDDAY
+    db 16, LYCANROC_DUSK
+    db 16, LYCANROC_MIDNIGHT
+    ; nite
+    db 16, MAWILE
+    db 16, SWINUB
+    db 16, SWOOBAT
+    db 16, LAIRON
+    db 16, MAKUHITA
+    db 16, LYCANROC_MIDDAY
+    db 16, LYCANROC_DUSK
+    db 16, LYCANROC_MIDNIGHT
+    end_grass_wildmons
+
+    def_grass_wildmons DR_NUGGZ_MD_EXTERIOR
+    db 1 percent, 1 percent, 1 percent ; encounter rates: morn/day/nite
+    ; morn
+    db 16, SKIPLOOM
+    db 16, SHROOMISH
+    db 16, CHERRIM
+    db 16, STEENEE
+    db 16, LURANTIS
+    db 16, SNOVER
+    db 16, EXEGGUTOR
+    db 16, JUNGELA
+    ; day
+    db 16, SKIPLOOM
+    db 16, SHROOMISH
+    db 16, CHERRIM
+    db 16, STEENEE
+    db 16, LURANTIS
+    db 16, SNOVER
+    db 16, EXEGGUTOR
+    db 16, JUNGELA
+    ; nite
+    db 16, SKIPLOOM
+    db 16, SHROOMISH
+    db 16, CHERRIM
+    db 16, STEENEE
+    db 16, LURANTIS
+    db 16, SNOVER
+    db 16, EXEGGUTOR
+    db 16, JUNGELA
     end_grass_wildmons
 
     db -1 ; end

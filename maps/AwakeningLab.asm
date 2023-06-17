@@ -186,53 +186,16 @@ DidntChooseStarterScript:
 	end
 
 AwakeningLabHealingMachine:
-	;jumptext AwakeningLabHealingMachineText
 	opentext
-	setflag ENGINE_UNLOCKED_UNOWNS_A_TO_K
-	setflag ENGINE_UNLOCKED_UNOWNS_L_TO_R
-	setflag ENGINE_UNLOCKED_UNOWNS_S_TO_W
-	setflag ENGINE_UNLOCKED_UNOWNS_X_TO_Z
-	setflag ENGINE_FLYPOINT_PLAYERS_HOUSE
-	setflag ENGINE_FLYPOINT_AWAKENING_BEACH
-	setflag ENGINE_FLYPOINT_GEAR_CITY
-	setflag ENGINE_FLYPOINT_UNIVERCITY
-	setflag ENGINE_FLYPOINT_EEVEE_RANCH
-	setflag ENGINE_FLYPOINT_JUNGLE
-	setflag ENGINE_FLYPOINT_INDIGO
-	giveitem CHAINSAW
-	giveitem FLASHLIGHT
-	giveitem PDA
-	giveitem ICE_STONE
-	giveitem LEAF_STONE
-	giveitem BERRY
-	giveitem MOON_BALL
-	giveitem SODA_POP
-	giveitem FRESH_WATER
-	giveitem LEMONADE
-	giveitem BERRY, 20
-	giveitem TM_SOLARBEAM
-	giveitem TM_RAIN_DANCE
-	giveitem MASTER_BALL, 99
-	giveitem RARE_CANDY, 99
-	giveitem NUGGET, 99
-	giveitem MAX_REPEL, 99
-	giveitem HM_FLY
-	giveitem HM_STRENGTH
-	giveitem HM_SURF
-	giveitem HM_WATERFALL
-	giveitem BOMBS
-	setevent EVENT_BEAT_SARAH1
-	setflag ENGINE_STORMBADGE
-	setflag ENGINE_PLAINBADGE
-	setflag ENGINE_FOGBADGE
-	giveitem DUNGEON_KEY
-	givepoke UNOWN, 150
-	givepoke ANGORE, 150
-	givepoke JUNGELA, 150
-	givepoke STRAIGAR, 150
-	givepoke TOUCANNON, 150
-	setevent EVENT_BEAT_KYLES_DESKTOP_ROOM_KYLE
-	setmapscene BAD_EGG_EXTERIOR, SCENE_BAD_EGG_NONE
+	writetext AwakeningLabHealingMachineText
+	waitbutton
+	special FadeBlackQuickly
+	playsound SFX_FULL_HEAL
+	waitsfx
+	special HealParty
+	special FadeInQuickly
+	writetext AwakeningLabHealingMachineHealedText
+	waitbutton
 	closetext
 	end
 
@@ -249,11 +212,11 @@ AwakeningLabPokeballs:
 AwakeningLabPotions:
 	itemball POTION, 7
 
-TestTrainer:
- trainer RIVAL1, RIVAL1_1, -1, TestTrainerSeen, TestTrainerBeaten, 0, .Script
+;TestTrainer:
+; trainer RIVAL1, RIVAL1_1, -1, TestTrainerSeen, TestTrainerBeaten, 0, .Script
 
-.Script
-	end
+;.Script
+;	end
 
 WalkToStartingItemsMovement:
 	step DOWN
@@ -556,9 +519,11 @@ AwakeningLabHealingMachineText:
 	text "This appears to be"
 	line "a healing machine"
 	cont "for #MON."
+	done
 
-	para "It doesn't seem to"
-	line "have power."
+AwakeningLabHealingMachineHealedText:
+	text "Your #MON"
+	line "are healed!"
 	done
 
 ;AwakeningLabTeleport:
@@ -748,7 +713,7 @@ AwakeningLab_MapEvents:
 	def_warp_events
 	warp_event 25, 19, AWAKENING_BEACH, 1
 	warp_event 24, 19, AWAKENING_BEACH, 1
-	warp_event 27, 16, EEVEE_RANCH_EXTERIOR, 2
+	;warp_event 27, 16, DR_NUGGZ_MD_EXTERIOR, 1
 
 	def_coord_events
 	coord_event 26,  6, SCENE_AWAKENINGLAB_WOKE_UP, WakeUpScript

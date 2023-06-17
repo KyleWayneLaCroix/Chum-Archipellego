@@ -58,7 +58,6 @@ INCLUDE "maps/NorthernForest.asm"
 INCLUDE "maps/WardensCabin.asm"
 INCLUDE "maps/NorthernForestRouteBGate.asm"
 INCLUDE "maps/RouteB.asm"
-INCLUDE "maps/RouteBNorth.asm"
 INCLUDE "maps/DangerousCave.asm"
 INCLUDE "maps/Cemetary.asm"
 INCLUDE "maps/CemetaryLab.asm"
@@ -221,6 +220,8 @@ INCLUDE "maps/FrozenPassage2.asm"
 INCLUDE "maps/FrozenPassage3.asm"
 INCLUDE "maps/GrateGuyCasino.asm"
 INCLUDE "maps/GenderClinic.asm"
+INCLUDE "maps/RouteBNorth.asm"
+INCLUDE "maps/DankCaveB1F.asm"
 
 SECTION "Map Scripts 20", ROMX
 

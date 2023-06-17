@@ -22,7 +22,7 @@ Marts:
 	dw MartLavender
 	dw MartTheBetweens
 	dw MartGenderClinic
-	dw MartCeladon2F2
+	dw MartDrNuggz
 	dw MartCeladon3F
 	dw MartCeladon4F
 	dw MartCeladon5F1
@@ -272,21 +272,20 @@ MartTheBetweens:
 	db BURN_HEAL
 	db ETHER
 	db -1 ; end
+
 MartGenderClinic:
 	db 2 ; # items
 	db ESTRADIOL
 	db TESTOSTERONE
 	db -1 ; end
 
-MartCeladon2F2:
-	db 7 ; # items
-	db POTION
-	db SUPER_POTION
-	db HYPER_POTION
-	db MAX_POTION
-	db REVIVE
-	db SUPER_REPEL
-	db MAX_REPEL
+MartDrNuggz:
+	db 5 ; # items
+	db ENERGYPOWDER
+	db ENERGY_ROOT
+	db HEAL_POWDER
+	db REVIVAL_HERB
+	db SACRED_ASH
 	db -1 ; end
 
 

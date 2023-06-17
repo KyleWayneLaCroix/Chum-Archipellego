@@ -511,3 +511,6 @@ ErrorRoom_Blocks:
 
 ForestCave_Blocks:
 	INCBIN "maps/ForestCave.ablk"
+
+DankCaveB1F_Blocks:
+	INCBIN "maps/DankCaveB1F.ablk"

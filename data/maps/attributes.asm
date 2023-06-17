@@ -125,7 +125,7 @@ ENDM
 	connection west, RouteA, ROUTE_A, -2
 	map_attributes AwakeningLab, AWAKENING_LAB, $00, 0
 	map_attributes DrNuggzMDExterior, DR_NUGGZ_MD_EXTERIOR, $05, 0
-	map_attributes DrNuggzMDInterior, DR_NUGGZ_MD_INTERIOR, $05, 0
+	map_attributes DrNuggzMDInterior, DR_NUGGZ_MD_INTERIOR, $00, 0
 	map_attributes RouteA, ROUTE_A, $05, WEST | EAST
 	connection west, GearCity, GEAR_CITY, -13
 	connection east, AwakeningBeach, AWAKENING_BEACH, 2
@@ -318,3 +318,4 @@ ENDM
 	map_attributes KylesDesktopRoom, KYLES_DESKTOP_ROOM, $00, 0
 	map_attributes ErrorRoom, ERROR_ROOM, $00, 0
 	map_attributes ForestCave, FOREST_CAVE, $00, 0
+	map_attributes DankCaveB1F, DANK_CAVE_B1F, $09, 0

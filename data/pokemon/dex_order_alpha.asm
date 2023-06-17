@@ -36,6 +36,7 @@ AlphabeticalPokedexOrder:
 	db CHERRIM
 	db CHERUBI
 	db CHINCHOU
+	db CHOMP
 	db CLAUNCHER
 	db CLAWITZER
 	db CLOBBOPUS
@@ -244,7 +245,6 @@ AlphabeticalPokedexOrder:
 	db WALREIN
 	db WEEZING
 	db WHISCASH
-	db WINGULL
 	db WOOBAT
 	db WOOLOO
 	db WYRDEER

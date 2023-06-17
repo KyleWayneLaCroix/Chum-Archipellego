@@ -141,7 +141,7 @@ NewPokedexOrder:
 	db HARIYAMA
 	db MEOWTH
 	db PERRSERKER
-	db WINGULL
+	db CHOMP
 	db REGIMAGMA
 	db CROAGUNK
 	db TOXICROAK

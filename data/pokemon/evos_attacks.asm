@@ -2134,10 +2134,12 @@ PerrserkerEvosAttacks:
 	db 54, THRASH
 	db 0 ; no more level-up moves
 
-WingullEvosAttacks:
+ChompEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, GROWL
-	db 1, WATER_GUN
+	db 1, CRUNCH
+	db 1, SCREECH
+	db 1, BITE
+	db 1, IRON_HEAD
 	db 0 ; no more level-up moves
 
 RegimagmaEvosAttacks:

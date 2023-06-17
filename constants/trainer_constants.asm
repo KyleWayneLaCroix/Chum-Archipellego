@@ -367,10 +367,18 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 	const SCOT
 
 	trainerclass SWIMMER_F ; 27
-	const ELAINE
+	const KAYLEE
+	const SUSIE
+	const DENISE
+	const KARA
+	const WENDY
 
 	trainerclass SWIMMER_M ; 26
-	const HAROLD
+	const CHARLIE
+	const GEORGE
+	const BERKE
+	const KIRK
+	const MATHEW
 
 	trainerclass TAMER
 	const RINGLE

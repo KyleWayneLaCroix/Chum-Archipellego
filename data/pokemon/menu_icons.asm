@@ -141,7 +141,7 @@ MonMenuIcons:
 	db ICON_FIGHTER     ; HARIYAMA
 	db ICON_CAT         ; MEOWTH
 	db ICON_CAT         ; PERRSERKER
-	db ICON_BIRD        ; WINGULL
+	db ICON_BALL        ; CHOMP
 	db ICON_MONSTER     ; REGIMAGMA
 	db ICON_MONSTER     ; CROAGUNK
 	db ICON_MONSTER     ; TOXICROAK

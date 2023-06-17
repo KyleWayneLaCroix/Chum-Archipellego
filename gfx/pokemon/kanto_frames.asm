@@ -278,7 +278,7 @@ MeowthFrames:     INCLUDE "gfx/pokemon/meowth/frames.asm"
 
 PerrserkerFrames: INCLUDE "gfx/pokemon/perrserker/frames.asm"
 
-WingullFrames:    INCLUDE "gfx/pokemon/wingull/frames.asm"
+ChompFrames:      INCLUDE "gfx/pokemon/chomp/frames.asm"
 
 RegimagmaFrames:  INCLUDE "gfx/pokemon/regimagma/frames.asm"
 

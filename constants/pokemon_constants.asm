@@ -158,7 +158,7 @@
     const HARIYAMA          ; 89
     const MEOWTH            ; 8A
     const PERRSERKER        ; 8B
-    const WINGULL           ; 8C
+    const CHOMP             ; 8C
     const REGIMAGMA         ; 8D
     const CROAGUNK          ; 8E
     const TOXICROAK         ; 8F

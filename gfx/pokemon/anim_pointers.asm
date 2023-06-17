@@ -139,7 +139,7 @@ AnimationPointers:
 	dw HariyamaAnimation
 	dw MeowthAnimation
 	dw PerrserkerAnimation
-	dw WingullAnimation
+	dw ChompAnimation
 	dw RegimagmaAnimation
 	dw CroagunkAnimation
 	dw ToxicroakAnimation

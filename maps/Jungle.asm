@@ -406,6 +406,9 @@ PicnickerKimAfterBattleText:
 	cont "battling."
 	done
 
+JungleTMShockWave:
+	itemball TM_SHOCK_WAVE
+
 MuscleJungle_MapEvents:
 	db 0, 0 ; filler
 
@@ -442,3 +445,4 @@ MuscleJungle_MapEvents:
 	object_event  1, 52, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, JungleSuperRepel, EVENT_JUNGLE_SUPER_REPEL
 	object_event 37, 33, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, JungleFruitTree1, 0
 	object_event  6, 33, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, JungleFruitTree2, 0
+	object_event 46, 11, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, JungleTMShockWave, EVENT_GOT_TM38_SHOCK_WAVE

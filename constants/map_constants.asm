@@ -246,6 +246,7 @@ ENDM
 	map_const KYLES_DESKTOP_ROOM,                    5,  5 ; 41
 	map_const ERROR_ROOM,                            6,  5 ; 42
 	map_const FOREST_CAVE,                          10,  8 ; 43
+	map_const DANK_CAVE_B1F,                         8,  8 ; 44
 	endgroup
 
 DEF NUM_MAP_GROUPS EQU const_value ; 8

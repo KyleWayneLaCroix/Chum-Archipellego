@@ -139,7 +139,7 @@ FramesPointers:
 	dw HariyamaFrames
 	dw MeowthFrames
 	dw PerrserkerFrames
-	dw WingullFrames
+	dw ChompFrames
 	dw RegimagmaFrames
 	dw CroagunkFrames
 	dw ToxicroakFrames

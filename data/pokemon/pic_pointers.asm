@@ -285,8 +285,8 @@ PokemonPicPointers::
 	dba MeowthBackpic
 	dba PerrserkerFrontpic
 	dba PerrserkerBackpic
-	dba WingullFrontpic
-	dba WingullBackpic
+	dba ChompFrontpic
+	dba ChompBackpic
 	dba RegimagmaFrontpic
 	dba RegimagmaBackpic
 	dba CroagunkFrontpic

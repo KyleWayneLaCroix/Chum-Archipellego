@@ -139,7 +139,7 @@ BitmasksPointers:
 	dw HariyamaBitmasks
 	dw MeowthBitmasks
 	dw PerrserkerBitmasks
-	dw WingullBitmasks
+	dw ChompBitmasks
 	dw RegimagmaBitmasks
 	dw CroagunkBitmasks
 	dw ToxicroakBitmasks

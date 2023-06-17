@@ -141,7 +141,7 @@ EvosAttacksPointers::
 	dw HariyamaEvosAttacks
 	dw MeowthEvosAttacks
 	dw PerrserkerEvosAttacks
-	dw WingullEvosAttacks
+	dw ChompEvosAttacks
 	dw RegimagmaEvosAttacks
 	dw CroagunkEvosAttacks
 	dw ToxicroakEvosAttacks

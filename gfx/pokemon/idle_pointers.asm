@@ -139,7 +139,7 @@ AnimationIdlePointers:
 	dw HariyamaAnimationIdle
 	dw MeowthAnimationIdle
 	dw PerrserkerAnimationIdle
-	dw WingullAnimationIdle
+	dw ChompAnimationIdle
 	dw RegimagmaAnimationIdle
 	dw CroagunkAnimationIdle
 	dw ToxicroakAnimationIdle

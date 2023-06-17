@@ -188,8 +188,8 @@ ItemNames::
 	li "DUNGEON KEY"
 	li "BOSS KEY"
 	li "SMALL KEY"
-	li "TERU-SAMA"
-	li "TERU-SAMA"
+	li "JUMP"
+	li "JUMP"
 	li "TERU-SAMA"
 	li "TERU-SAMA"
 	assert_list_length NUM_ITEMS
