@@ -25,7 +25,7 @@ Other disassembly projects:
 [pokered]: https://github.com/pret/pokered
 [pokeyellow]: https://github.com/pret/pokeyellow
 [pokegold]: https://github.com/pret/pokegold
-[pokered]: https://github.com/pret/pokecrystal
+[pokecrystal]: https://github.com/pret/pokecrystal
 [pokepinball]: https://github.com/pret/pokepinball
 [poketcg]: https://github.com/pret/poketcg
 [pokeruby]: https://github.com/pret/pokeruby
