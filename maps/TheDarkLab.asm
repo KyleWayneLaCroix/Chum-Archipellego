@@ -22,6 +22,7 @@ TheDarkLab_MapScripts:
 
 TheDarkLabFlypointCallback:
 	blackoutmod THE_DARK_LAB
+	setflag ENGINE_FLYPOINT_THE_DARK_LAB
 	endcallback
 
 TheDarkLabTileCallback:

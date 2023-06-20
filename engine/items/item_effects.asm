@@ -74,7 +74,7 @@ ItemEffects:
 	dw NoEffect            ; MAGNET
 	dw NoEffect            ; SPELL_TAG
 	dw NoEffect            ; MIRACLE_SEED
-	dw NoEffect            ; METAL_COAT
+	dw EvoStoneEffect      ; METAL_COAT
 	dw NoEffect            ; DRAGON_FANG
 	dw NoEffect            ; POLKADOT_BOW
 	dw NoEffect            ; CHARCOAL
@@ -95,7 +95,7 @@ ItemEffects:
 	dw NoEffect            ; CLEANSE_TAG
 	dw NoEffect            ; SMOKE_BALL
 	dw NoEffect            ; EVERSTONE
-	dw NoEffect            ; UP_GRADE
+	dw EvoStoneEffect      ; UP_GRADE
 	dw NoEffect            ; DRAGON_SCALE
 	dw RestoreHPEffect     ; BERRY_JUICE
 	dw RestoreHPEffect     ; FRESH_WATER

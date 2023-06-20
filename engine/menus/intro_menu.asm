@@ -648,7 +648,7 @@ OakSpeech:
 	call RotateThreePalettesRight
 	xor a
 	ld [wCurPartySpecies], a
-	ld a, PSYCHIC_T
+	ld a, KYLE
 	ld [wTrainerClass], a
 	call Intro_PrepTrainerPic
 
@@ -686,7 +686,7 @@ OakSpeech:
 
 	xor a
 	ld [wCurPartySpecies], a
-	ld a, PSYCHIC_T
+	ld a, KYLE
 	ld [wTrainerClass], a
 	call Intro_PrepTrainerPic
 
