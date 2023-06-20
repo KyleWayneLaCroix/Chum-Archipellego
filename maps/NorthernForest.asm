@@ -315,6 +315,17 @@ RouteBGateSignText:
 	text "Route B ahead."
 	done
 
+NorthForestSign:
+	jumptext NorthForestSignText
+
+NorthForestSignText:
+	text "NORTHERN FOREST"
+
+	para "The forest named"
+	line "by those south of"
+	cont "it."
+	done
+
 NorthernForest_MapEvents:
 	db 0, 0 ; filler
 
@@ -337,6 +348,7 @@ NorthernForest_MapEvents:
 	bg_event 20, 25, BGEVENT_ITEM, NorthernForestHiddenEther
 	bg_event  0,  0, BGEVENT_READ, NorthForestGraveScript
 	bg_event  1,  0, BGEVENT_READ, NorthForestGraveScript
+	bg_event 18, 55, BGEVENT_READ, NorthForestSign
 
 	def_object_events
 	object_event  3, 56, SPRITE_BUG_CATCHER, SPRITEMOVEDATA_SPINCLOCKWISE, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 3, TrainerBugCatcherJim, -1

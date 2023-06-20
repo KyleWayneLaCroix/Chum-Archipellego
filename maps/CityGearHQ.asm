@@ -178,11 +178,23 @@ TrainerWhiteGirlTaylor:
 	writetext WhiteGirlTaylorPostBattleText
 	waitbutton
 	verbosegiveitem BASEMENT_KEY
+	waitbutton
+	writetext WhiteGirlTaylorHealText
+	waitbutton
+	special FadeBlackQuickly
+	special HealParty
+	playsound SFX_FULL_HEAL
+	waitsfx
+	special FadeInQuickly
 	closetext
 	setevent EVENT_GOT_BASEMENT_KEY
 	end
 
-
+WhiteGirlTaylorHealText:
+	text "Here, I got some"
+	line "stuff for healing"
+	cont "your #MON."
+	done
 ;TrainerWhiteGirlTaylor:
 ;	faceplayer
 ;	opentext

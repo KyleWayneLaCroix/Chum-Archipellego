@@ -997,94 +997,94 @@ JohtoGrassWildMons:
     def_grass_wildmons MISPLACED_WOODS
     db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
     ; morn
-    db 15, LEAFEON
-    db 15, VESPIQUEN
-    db 16, ORICORIO_POM
-    db 16, HERACROSS
-    db 16, TEDDIURSA
-    db 16, PONYTA
+    db 18, LEAFEON
+    db 18, VESPIQUEN
+    db 19, ORICORIO_POM
+    db 19, HERACROSS
+    db 18, TEDDIURSA
+    db 17, PONYTA
     db 18, ORANGURU
-    db 17, SAWSBUCK
+    db 18, SAWSBUCK
     ; day
-    db 15, LEAFEON
-    db 15, VESPIQUEN
-    db 16, ORICORIO_POM
-    db 16, HERACROSS
-    db 16, TEDDIURSA
-    db 16, PONYTA
+    db 18, LEAFEON
+    db 18, VESPIQUEN
+    db 19, ORICORIO_POM
+    db 19, HERACROSS
+    db 18, TEDDIURSA
+    db 17, PONYTA
     db 18, ORANGURU
-    db 17, SAWSBUCK
+    db 18, SAWSBUCK
     ; nite
-    db 15, LEAFEON
-    db 15, VESPIQUEN
-    db 16, ORICORIO_POM
-    db 16, HERACROSS
-    db 16, TEDDIURSA
-    db 16, PONYTA
+    db 18, LEAFEON
+    db 18, VESPIQUEN
+    db 19, ORICORIO_POM
+    db 19, HERACROSS
+    db 18, TEDDIURSA
+    db 17, PONYTA
     db 18, ORANGURU
-    db 17, SAWSBUCK
+    db 18, SAWSBUCK
     end_grass_wildmons
 
     def_grass_wildmons MISPLACED_CAVERN_1F
     db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
     ; morn
-    db 15, CLOBBOPUS
-    db 15, CROAGUNK
-    db 16, DRILBUR
-    db 16, HEATMOR
-    db 16, JANGMO_O
-    db 16, MEOWTH
+    db 18, CLOBBOPUS
+    db 18, CROAGUNK
+    db 19, DRILBUR
+    db 19, HEATMOR
+    db 18, JANGMO_O
+    db 17, MEOWTH
     db 18, PUPITAR
-    db 17, DOOMSTONE
+    db 18, DOOMSTONE
     ; day
-    db 15, CLOBBOPUS
-    db 15, CROAGUNK
-    db 16, DRILBUR
-    db 16, HEATMOR
-    db 16, JANGMO_O
-    db 16, MEOWTH
+    db 18, CLOBBOPUS
+    db 18, CROAGUNK
+    db 19, DRILBUR
+    db 19, HEATMOR
+    db 18, JANGMO_O
+    db 17, MEOWTH
     db 18, PUPITAR
-    db 17, DOOMSTONE
+    db 18, DOOMSTONE
     ; nite
-    db 15, CLOBBOPUS
-    db 15, CROAGUNK
-    db 16, DRILBUR
-    db 16, HEATMOR
-    db 16, JANGMO_O
-    db 16, MEOWTH
+    db 18, CLOBBOPUS
+    db 18, CROAGUNK
+    db 19, DRILBUR
+    db 19, HEATMOR
+    db 18, JANGMO_O
+    db 17, MEOWTH
     db 18, PUPITAR
-    db 17, DOOMSTONE
+    db 18, DOOMSTONE
     end_grass_wildmons
 
     def_grass_wildmons MISPLACED_CAVERN_2F
     db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
     ; morn
-    db 15, CLOBBOPUS
-    db 15, CROAGUNK
-    db 16, DRILBUR
-    db 16, HEATMOR
-    db 16, JANGMO_O
-    db 16, MEOWTH
+    db 18, CLOBBOPUS
+    db 18, CROAGUNK
+    db 19, DRILBUR
+    db 19, HEATMOR
+    db 18, JANGMO_O
+    db 17, MEOWTH
     db 18, PUPITAR
-    db 17, DOOMSTONE
+    db 18, DOOMSTONE
     ; day
-    db 15, CLOBBOPUS
-    db 15, CROAGUNK
-    db 16, DRILBUR
-    db 16, HEATMOR
-    db 16, JANGMO_O
-    db 16, MEOWTH
+    db 18, CLOBBOPUS
+    db 18, CROAGUNK
+    db 19, DRILBUR
+    db 19, HEATMOR
+    db 18, JANGMO_O
+    db 17, MEOWTH
     db 18, PUPITAR
-    db 17, DOOMSTONE
+    db 18, DOOMSTONE
     ; nite
-    db 15, CLOBBOPUS
-    db 15, CROAGUNK
-    db 16, DRILBUR
-    db 16, HEATMOR
-    db 16, JANGMO_O
-    db 16, MEOWTH
+    db 18, CLOBBOPUS
+    db 18, CROAGUNK
+    db 19, DRILBUR
+    db 19, HEATMOR
+    db 18, JANGMO_O
+    db 17, MEOWTH
     db 18, PUPITAR
-    db 17, DOOMSTONE
+    db 18, DOOMSTONE
     end_grass_wildmons
 
     def_grass_wildmons FROZEN_PASSAGE
@@ -1555,7 +1555,7 @@ JohtoGrassWildMons:
     def_grass_wildmons DANK_CAVE_1F
     db 3 percent, 3 percent, 3 percent ; encounter rates: morn/day/nite
     ; morn
-    db 2, SWOOBAT
+    db 2, WOOBAT
     db 3, KOFFING
     db 4, DRILBUR
     db 3, MUDBRAY
@@ -1564,7 +1564,7 @@ JohtoGrassWildMons:
     db 6, ROCKRUFF
     db 2, SWINUB
     ; day
-    db 2, SWOOBAT
+    db 2, WOOBAT
     db 3, KOFFING
     db 4, DRILBUR
     db 3, MUDBRAY
@@ -1573,7 +1573,7 @@ JohtoGrassWildMons:
     db 6, ROCKRUFF
     db 2, SWINUB
     ; nite
-    db 2, SWOOBAT
+    db 2, WOOBAT
     db 3, KOFFING
     db 4, DRILBUR
     db 3, MUDBRAY
@@ -1586,7 +1586,7 @@ JohtoGrassWildMons:
     def_grass_wildmons DANK_CAVE_B1F
     db 3 percent, 3 percent, 3 percent ; encounter rates: morn/day/nite
     ; morn
-    db 2, SWOOBAT
+    db 2, WOOBAT
     db 3, KOFFING
     db 4, DRILBUR
     db 3, MUDBRAY
@@ -1595,7 +1595,7 @@ JohtoGrassWildMons:
     db 6, ROCKRUFF
     db 2, SWINUB
     ; day
-    db 2, SWOOBAT
+    db 2, WOOBAT
     db 3, KOFFING
     db 4, DRILBUR
     db 3, MUDBRAY
@@ -1604,7 +1604,7 @@ JohtoGrassWildMons:
     db 6, ROCKRUFF
     db 2, SWINUB
     ; nite
-    db 2, SWOOBAT
+    db 2, WOOBAT
     db 3, KOFFING
     db 4, DRILBUR
     db 3, MUDBRAY

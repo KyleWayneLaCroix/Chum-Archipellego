@@ -134,7 +134,7 @@ CampusMissionTeacher:
 	writetext CampusMissionTeacherWhyNotSaved
 	yesorno
 	iftrue .NoHomo
-
+	sjump .AntiChristian
 .GotSaved:
 	writetext CampusMissionTeacherGotSaved
 	setevent EVENT_GOT_SAVED
@@ -156,6 +156,7 @@ CampusMissionTeacher:
 	waitbutton
 	writetext CampusMissionTeacherAfterNotSaved
 	waitbutton
+	closetext
 	end
 .HereticBattle:
 	setevent EVENT_IS_GAY

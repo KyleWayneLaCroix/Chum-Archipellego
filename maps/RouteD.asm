@@ -306,6 +306,12 @@ YoungsterAlbertAfterText:
 	cont "#MON to not"
 	cont "learn SOLARBEAM."
 	done
+RouteDEeveeRanchSignScript:
+	jumptext RouteDEeveeRanchSignText
+ RouteDEeveeRanchSignText:
+ 	text "RANCHALUTIONS"
+ 	line " EEVEE RANCH"
+ 	done
 
 RouteD_MapEvents:
 	db 0, 0 ; filler
@@ -322,6 +328,7 @@ RouteD_MapEvents:
 ;	bg_event x, y, type, script
 	bg_event 12, 27, BGEVENT_ITEM, RouteDHiddenSuperPotion
 	bg_event  9,  4, BGEVENT_ITEM, RouteDHiddenFullHeal
+	bg_event  9,  5, BGEVENT_READ, RouteDEeveeRanchSignScript
 
 	def_object_events
 ;	object_event x, y, sprite, movement, rx, ry, h1, h2, palette, type, range, script, event_flag

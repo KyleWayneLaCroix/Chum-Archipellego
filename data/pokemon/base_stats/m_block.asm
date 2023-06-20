@@ -3,7 +3,7 @@
 	db  65, 155, 120, 105,  65,  90
 	;   hp  atk  def  spd  sat  sdf
 
-	db STEEL, FAIRY ; type
+	db FLYING, GLITCH ; type
 	db 50 ; catch rate
 	db 255 ; base exp
 	db NO_ITEM, NO_ITEM ; items

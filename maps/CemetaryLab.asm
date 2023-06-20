@@ -453,7 +453,7 @@ CemetaryLabKyleMetroidCyberspaceText:
 	line "to ATOLL"
 
 	para "try to find RYAN"
-	line "in the MONHUNGLE."
+	line "in the JUNGLE."
 
 	para "You need to find"
 	line "the TERU-SAMA and"

@@ -238,7 +238,7 @@ KeybladerGroup:
 	db "OAK@", TRAINERTYPE_NICKNAME
 	db 8, ORICORIO_BAILE, "BULBASAUR@"
 	db 8, ORICORIO_PAU, "STUFFUL@"
-	db 3, STUNKY, "YANMA@"
+	db 7, STUNKY, "YANMA@"
 	db -1 ; end
 
 GoronGroup:
@@ -415,11 +415,11 @@ BugCatcherGroup:
 
 	; BUG_CATCHER (2)
 	db "JIM@", TRAINERTYPE_NORMAL
-	db 8, YANMA
-	db 7, BLIPBUG
-	db 9, DEWPIDER
-	db 7, GRUBBIN
-	db 6, COMBEE
+	db 7, YANMA
+	db 6, BLIPBUG
+	db 8, DEWPIDER
+	db 6, GRUBBIN
+	db 5, COMBEE
 	db -1 ; end
 
 	; BUG_CATCHER (3)
@@ -494,7 +494,7 @@ CalGroup:
 CamperGroup:
 	; CAMPER (1)
 	db "ROLAND@", TRAINERTYPE_NORMAL
-	db  9, RALTS
+	db  8, RALTS
 	db  7, ZIGZAGOON
 	db  8, EEVEE
 	db -1 ; end
@@ -629,7 +629,7 @@ FedoraManGroup:
 	db 17, CROAGUNK, "KERMIT@"
 	db 18, MEOWTH, "A CAT@"
 	db 17, GRIMER, "JUNG@"
-	db 21, DRAMPA, "CHAOS@"
+	db 20, DRAMPA, "CHAOS@"
 	db -1 ; end
 
 FeralChildGroup:

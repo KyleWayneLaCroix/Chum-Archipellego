@@ -335,6 +335,7 @@ EeveeRanchExteriorEspeon:
 	yesorno
 	iftrue .AvoidEgg
 	writetext HoldOntoEspeonEggText
+	waitbutton
 	closetext
 	playsound SFX_WARP_TO
 	waitsfx
@@ -915,7 +916,7 @@ GrabEspeonEggText:
 
 	para "Do you put the"
 	line "EGG down?"
-	text 
+	done
 
 HoldOntoEspeonEggText:
 	text "You hold onto"

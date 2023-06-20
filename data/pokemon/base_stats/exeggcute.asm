@@ -4,7 +4,7 @@
 	;   hp  atk  def  spd  sat  sdf
 
 	db GRASS, PSYCHIC_TYPE ; type
-	db 90 ; catch rate
+	db 110 ; catch rate
 	db 65 ; base exp
 	db NO_ITEM, NO_ITEM ; items
 	db GENDER_F50 ; gender ratio

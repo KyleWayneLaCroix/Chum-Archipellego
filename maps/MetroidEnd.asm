@@ -44,7 +44,7 @@ MetroidEndZoomerTrap:
 	special FadeInPalettes
 	setlasttalked -1
 	loadvar VAR_BATTLETYPE, BATTLETYPE_TRAP
-	loadwildmon PORYGON, 11
+	loadwildmon FARFETCHD, 11
 	startbattle
 	end
 
