@@ -11,6 +11,11 @@ MaybeVillage_MapScripts:
 	def_callbacks
 ;	callback type, script
 	callback MAPCALLBACK_TILES, MaybeVillageChestCallback
+	callback MAPCALLBACK_NEWMAP, MaybeVillageFlyPointCallback
+
+MaybeVillageFlyPointCallback:
+	setflag ENGINE_FLYPOINT_MAYBE_VILLAGE
+	endcallback
 
 
 MaybeVillageChestCallback:

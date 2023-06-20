@@ -8,6 +8,11 @@ IvyRoad_MapScripts:
 
 	def_callbacks
 ;	callback type, script
+	callback MAPCALLBACK_NEWMAP, IvyRoadFlypointCallback
+
+IvyRoadFlypointCallback:
+	setflag ENGINE_FLYPOINT_IVY_ROAD
+	endcallback
 
 CaseysMailbox:
 	jumptext CaseysMailboxText

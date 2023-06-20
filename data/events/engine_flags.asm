@@ -81,6 +81,7 @@ EngineFlags:
 	engine_flag wVisitedSpawns, SPAWN_MUSCLE_JUNGLE
 	engine_flag wVisitedSpawns, SPAWN_VOLCANO_EXTERIOR
 	engine_flag wVisitedSpawns, SPAWN_MAYBE_VILLAGE
+	engine_flag wVisitedSpawns, SPAWN_IVY_ROAD
 	engine_flag wVisitedSpawns, SPAWN_THE_DARK_LAB
 	engine_flag wVisitedSpawns, SPAWN_INDIGO
 
