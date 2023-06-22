@@ -118,7 +118,7 @@ ItemEffects:
 	dw RestorePPEffect     ; ETHER
 	dw RestorePPEffect     ; MAX_ETHER
 	dw RestoreHPEffect     ; HONEY
-	dw FullRestoreEffect   ; BASIL
+	dw BasilEffect         ; BASIL
 	dw EnergypowderEffect  ; ENERGYPOWDER
 	dw EnergyRootEffect    ; ENERGY_ROOT
 	dw HealPowderEffect    ; HEAL_POWDER
@@ -1590,6 +1590,40 @@ FullRestoreEffect:
 	call ItemActionTextWaitButton
 	call UseDisposableItem
 	ld a, 0
+	ret
+
+BasilEffect:
+	ld b, PARTYMENUACTION_HEALING_ITEM
+	call UseItem_SelectMon
+	jp c, StatusHealer_ExitMenu
+
+	call IsMonFainted
+	jp z, StatusHealer_NoEffect
+
+	call IsMonAtFullHealth
+	jr c, .NotAtFullHealth
+
+	jp FullyHealStatus
+
+.NotAtFullHealth:
+	call .Basil
+	jp StatusHealer_Jumptable
+
+.Basil:
+	xor a
+	ld [wLowHealthAlarm], a
+	call HealStatus
+	call GetHealingItemAmount
+	call RestoreHealth
+	call BattlemonRestoreHealth
+	call HealHP_SFX_GFX
+	ld a, PARTYMENUTEXT_HEAL_HP
+	ld [wPartyMenuActionText], a
+	call ItemActionTextWaitButton
+	call UseDisposableItem
+	ld a, 0
+	ret
+
 	ret
 
 BitterBerryEffect:
