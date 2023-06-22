@@ -26,9 +26,8 @@ VolcanoInterior3FCallback:
 	changeblock 20, 22, $70
 	changeblock 22, 22, $73
 	turnobject VOLCANO_INTERIOR_3F_LEVER, RIGHT
-	refreshscreen
 .End:
-	end
+	endcallback
 
 VolcanoInterior3FLeverScript:
 	opentext
@@ -253,9 +252,8 @@ TrainerBrianGruntM1:
 	opentext
 	writetext BrianM1AfterText
 	waitbutton
-	disappear VOLCANO_INTERIOR_3F_BRIAN_GRUNT_M
-	refreshscreen
 	closetext
+	disappear VOLCANO_INTERIOR_3F_BRIAN_GRUNT_M
 	end
 
 BrianM1SeenText:
@@ -278,6 +276,7 @@ BrianM1AfterText:
 	text "I'm leaving now,"
 	line "just like Spider-"
 	cont "-Man in Endgame."
+
 	para "I hope to return,"
 	line "to a glitch-free"
 	cont "volcano."
