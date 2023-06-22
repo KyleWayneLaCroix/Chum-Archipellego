@@ -168,6 +168,7 @@ CemetaryLabFirstVisitScript:
 	waitbutton
 	writetext CemetaryLabKyleMetroidCyberspaceText
 	waitbutton
+	reloadmappart
 	closetext
 	turnobject CEMETARY_LAB_KYLE, RIGHT
 	setscene SCENE_CEMETARY_LAB_METROID
@@ -175,7 +176,8 @@ CemetaryLabFirstVisitScript:
 	setflag ENGINE_UNLOCKED_UNOWNS_L_TO_R
 	setflag ENGINE_UNLOCKED_UNOWNS_S_TO_W
 	setflag ENGINE_UNLOCKED_UNOWNS_X_TO_Z
-	reloadmappart
+	setflag ENGINE_FLYPOINT_CEMETARY
+	blackoutmod CEMETARY
 	end
 
 
