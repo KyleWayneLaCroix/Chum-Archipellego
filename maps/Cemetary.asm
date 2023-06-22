@@ -15,6 +15,16 @@ Cemetary_MapScripts:
 
 	def_callbacks
 ;	callback type, script
+	callback MAPCALLBACK_NEWMAP, CemetaryFlypointCallback
+
+CemetaryFlypointCallback:
+	checkmapscene CEMETARY_LAB
+	ifnotequal SCENE_CEMETARY_LAB_METROID, .End
+	setflag ENGINE_FLYPOINT_CEMETARY
+	blackoutmod CEMETARY
+.End:
+	endcallback
+
 CemetaryNugget:
 	itemball NUGGET
 
