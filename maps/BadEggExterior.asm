@@ -133,7 +133,7 @@ BadEggInteraction:
 	closetext
 	setlasttalked -1
 	loadvar VAR_BATTLETYPE, BATTLETYPE_TRAP
-	loadwildmon BAD_EGG, 45
+	loadwildmon BAD_EGG, 60
 	startbattle
 	changeblock 14, 6, $e4
 	reloadmapafterbattle

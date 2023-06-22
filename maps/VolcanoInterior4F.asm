@@ -98,7 +98,7 @@ RegimagmaOverworld:
 	pause 15
 	closetext
 	loadvar VAR_BATTLETYPE, BATTLETYPE_FORCEITEM
-	loadwildmon REGIMAGMA, 50
+	loadwildmon REGIMAGMA, 45
 	startbattle
 	disappear VOLCANO_INTERIOR_4F_REGIMAGMA
 	reloadmapafterbattle
