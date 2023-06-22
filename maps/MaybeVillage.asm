@@ -15,7 +15,6 @@ MaybeVillage_MapScripts:
 
 MaybeVillageFlyPointCallback:
 	setflag ENGINE_FLYPOINT_MAYBE_VILLAGE
-	blackoutmod MAYBE_VILLAGE
 	endcallback
 
 

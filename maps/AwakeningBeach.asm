@@ -17,7 +17,6 @@ AwakeningBeachNoop1Scene:
 
 AwakeningBeachFlypointCallback:
 	setflag ENGINE_FLYPOINT_AWAKENING_BEACH
-	blackoutmod AWAKENING_BEACH
 	endcallback
 
 AwakeningBeachSign:
