@@ -22,12 +22,6 @@ VolcanoInterior5F_MapScripts:
 
 	def_callbacks
 ;	callback type, script
-	callback MAPCALLBACK_NEWMAP, VolcanoInterior5FNewMap
-
-VolcanoInterior5FNewMap:
-	setflag ENGINE_FLYPOINT_VOLCANO_EXTERIOR
-	blackoutmod VOLCANO_EXTERIOR
-	endcallback
 
 VolcanoInterior5FDownstairsSet:
 	setscene VOLCANO_INTERIOR_5F_DOWNSTAIRS
