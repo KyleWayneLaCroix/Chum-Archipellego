@@ -18,6 +18,18 @@ VolcanoInterior4F_MapScripts:
 
 	def_callbacks
 ;	callback type, script
+	callback MAPCALLBACK_TILES, VolcanoInterior4FLeverCallback
+
+VolcanoInterior4FLeverCallback:
+	checkevent EVENT_VOLCANO_INTERIOR_4F_LEVER
+	iffalse .End
+	changeblock 42, 20, $74
+	changeblock 44, 20, $70
+	changeblock 46, 20, $70
+	changeblock 48, 20, $70
+	changeblock 50, 20, $73
+.End:
+	endcallback
 
 VolcanoInterior4FDownstairsSet:
 	setscene VOLCANO_INTERIOR_4F_DOWNSTAIRS
