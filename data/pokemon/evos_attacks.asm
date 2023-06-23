@@ -301,7 +301,7 @@ BoltundEvosAttacks:
 
 EmolgaEvosAttacks:
 	db 0 ; no more evolutions
-	db 3, THUNDERSHOCK
+	db 1, THUNDERSHOCK
 	db 4, QUICK_ATTACK
 	db 6, LEER
 	db 15, SPARK
@@ -2520,7 +2520,7 @@ ClawitzerEvosAttacks:
 BuizelEvosAttacks:
 	db EVOLVE_LEVEL, 26, FLOATZEL
 	db 0 ; no more evolutions
-	db 2, GROWL
+	db 1, GROWL
 	db 7, QUICK_ATTACK
 	db 11, WATER_GUN
 	db 14, PURSUIT
@@ -2712,10 +2712,10 @@ TangelaEvosAttacks:
 TangrowthEvosAttacks:
 	db EVOLVE_ITEM, ESTRADIOL, JUNGELA
 	db 0 ; no more evolutions
-	db 21, RAZOR_LEAF
-	db 21, GROWTH
-	db 21, POISON_GAS
-	db 21, MEGA_DRAIN
+	db 1, RAZOR_LEAF
+	db 1, GROWTH
+	db 1, POISON_GAS
+	db 1, MEGA_DRAIN
 	db 26, STUN_SPORE
 	db 30, THIEF
 	db 35, ANCIENTPOWER
@@ -2729,10 +2729,10 @@ TangrowthEvosAttacks:
 JungelaEvosAttacks:
 	db EVOLVE_ITEM, TESTOSTERONE, TANGROWTH
 	db 0 ; no more evolutions
-	db 21, RAZOR_LEAF
-	db 21, GROWTH
-	db 21, POISON_GAS
-	db 21, MEGA_DRAIN
+	db 1, RAZOR_LEAF
+	db 1, GROWTH
+	db 1, POISON_GAS
+	db 1, MEGA_DRAIN
 	db 26, STUN_SPORE
 	db 30, THIEF
 	db 35, GIGA_DRAIN
