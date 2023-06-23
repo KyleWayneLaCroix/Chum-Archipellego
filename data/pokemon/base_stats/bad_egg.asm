@@ -4,7 +4,7 @@
 	;   hp  atk  def  spd  sat  sdf
 
 	db POISON, GLITCH ; type
-	db 50 ; catch rate
+	db 30 ; catch rate
 	db 255 ; base exp
 	db NO_ITEM, NO_ITEM ; items
 	db GENDER_UNKNOWN ; gender ratio
