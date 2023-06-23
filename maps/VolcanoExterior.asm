@@ -202,7 +202,7 @@ MBlockOverworld:
 	pause 15
 	closetext
 	loadvar VAR_BATTLETYPE, BATTLETYPE_FORCEITEM
-	loadwildmon M_BLOCK, 50
+	loadwildmon M_BLOCK, 56
 	startbattle
 	disappear VOLCANO_EXTERIOR_M_BLOCK
 	reloadmapafterbattle
