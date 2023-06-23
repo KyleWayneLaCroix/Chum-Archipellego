@@ -785,10 +785,10 @@ GlitchGroup:
 
 	; TROPHY
 	db "E4@", TRAINERTYPE_NICKNAME | TRAINERTYPE_DVS
-	db 27, UNOWN, "LORELAI@", $F0, $0F
-	db 27, UNOWN, "BRUNO@", $0F, $F0
-	db 28, UNOWN, "AGATHA@", $AA, $AA
-	db 28, UNOWN, "LANCE@", $83, $37
+	db 32, UNOWN, "LORELAI@", $F0, $0F
+	db 32, UNOWN, "BRUNO@", $0F, $F0
+	db 32, UNOWN, "AGATHA@", $AA, $AA
+	db 32, UNOWN, "LANCE@", $83, $37
 	db -1 ; end
 
 	; GLITTCH (7)
