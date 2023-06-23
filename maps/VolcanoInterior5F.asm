@@ -550,6 +550,8 @@ VolcanoInterior5F_MapEvents:
 	coord_event 35, 25, VOLCANO_INTERIOR_5F_UPSTAIRS, VolcanoInterior5FDownstairsSet
 	coord_event 34, 25, VOLCANO_INTERIOR_5F_MIDSTAIRS, VolcanoInterior5FDownstairsSet
 	coord_event 35, 34, VOLCANO_INTERIOR_5F_MIDSTAIRS, VolcanoInterior5FDownstairsSet
+	coord_event 14, 28, VOLCANO_INTERIOR_5F_DOWNSTAIRS, VolcanoInterior5FMidstairsSet
+	coord_event 14, 29, VOLCANO_INTERIOR_5F_DOWNSTAIRS, VolcanoInterior5FMidstairsSet
 
 	def_bg_events
 ;	bg_event x, y, type, script
