@@ -1806,7 +1806,7 @@ EspurrEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, LEER
 	db 1, SCRATCH
-	db 7, THIEF
+	db 7, FAINT_ATTACK
 	db 9, CONFUSION
 	db 15, QUICK_ATTACK
 	db 16, LIGHT_SCREEN
@@ -1821,7 +1821,7 @@ Meowstic_mEvosAttacks:
 	db 1, MEAN_LOOK
 	db 1, SCRATCH
 	db 3, BATON_PASS
-	db 5, THIEF
+	db 5, FAINT_ATTACK
 	db 6, CONFUSION
 	db 15, QUICK_ATTACK
 	db 17, DISRMNGVOICE
@@ -1839,7 +1839,7 @@ Meowstic_fEvosAttacks:
 	db 1, LEER
 	db 1, MAGICAL_LEAF
 	db 1, SCRATCH
-	db 5, THIEF
+	db 5, FAINT_ATTACK
 	db 6, CONFUSION
 	db 15, QUICK_ATTACK
 	db 17, DISRMNGVOICE
@@ -2079,7 +2079,7 @@ HariyamaEvosAttacks:
 	db 1, KARATE_CHOP
 	db 1, VITAL_THROW
 	db 1, QUICK_ATTACK
-	db 1, THIEF
+	db 1, FAINT_ATTACK
 	db 31, BELLY_DRUM
 	db 41, SEISMIC_TOSS
 	db 44, ENDURE
@@ -2390,7 +2390,7 @@ PikipekEvosAttacks:
 	db 3, GROWL
 	db 9, ROCK_SMASH
 	db 13, SUPERSONIC
-	db 15, THIEF
+	db 15, FAINT_ATTACK
 	db 19, RECOVER
 	db 21, FURY_STRIKES
 	db 25, SCREECH
@@ -2407,7 +2407,7 @@ TrumbeakEvosAttacks:
 	db 1, GROWL
 	db 1, ROCK_SMASH
 	db 1, SUPERSONIC
-	db 16, THIEF
+	db 16, FAINT_ATTACK
 	db 21, RECOVER
 	db 24, FURY_STRIKES
 	db 29, SCREECH
@@ -2421,7 +2421,7 @@ ToucannonEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, PECK
 	db 1, ROCK_BLAST
-	db 1, THIEF
+	db 1, FAINT_ATTACK
 	db 1, FURY_STRIKES
 	db 30, SCREECH
 	db 32, ROCK_BLAST
@@ -2758,7 +2758,7 @@ EeveeEvosAttacks:
 	db 2, LEER
 	db 8, CHARM
 	db 10, DOUBLE_KICK
-	db 11, THIEF
+	db 11, FAINT_ATTACK
 	db 15, SWIFT
 	db 19, QUICK_ATTACK
 	db 26, BITE
@@ -2772,7 +2772,7 @@ VaporeonEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, HYPNOSIS
 	db 1, SWIFT
-	db 1, THIEF
+	db 1, FAINT_ATTACK
 	db 9, WATER_GUN
 	db 10, DOUBLE_KICK
 	db 18, WATER_PULSE
@@ -2790,7 +2790,7 @@ JolteonEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, BITE
 	db 1, SWIFT
-	db 1, THIEF
+	db 1, FAINT_ATTACK
 	db 9, THUNDERSHOCK
 	db 11, CHARM
 	db 17, QUICK_ATTACK
@@ -2807,7 +2807,7 @@ FlareonEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SWIFT
 	db 1, TAKE_DOWN
-	db 1, THIEF
+	db 1, FAINT_ATTACK
 	db 9, EMBER
 	db 10, DOUBLE_KICK
 	db 11, CHARM
@@ -2826,7 +2826,7 @@ EspeonEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, BITE
 	db 1, TACKLE
-	db 1, THIEF
+	db 1, FAINT_ATTACK
 	db 10, CONFUSION
 	db 11, CHARM
 	db 19, QUICK_ATTACK
@@ -2843,7 +2843,7 @@ UmbreonEvosAttacks:
 	db 1, BATON_PASS
 	db 1, BITE
 	db 1, MIRROR_MOVE
-	db 1, THIEF
+	db 1, FAINT_ATTACK
 	db 11, PURSUIT
 	db 19, QUICK_ATTACK
 	db 25, CONFUSE_RAY
@@ -2859,7 +2859,7 @@ GlaceonEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SWIFT
 	db 1, TAKE_DOWN
-	db 1, THIEF
+	db 1, FAINT_ATTACK
 	db 5, ICY_WIND
 	db 11, CHARM
 	db 22, BITE
@@ -2892,7 +2892,7 @@ SylveonEvosAttacks:
 	db 1, BATON_PASS
 	db 1, BITE
 	db 1, DISRMNGVOICE
-	db 1, THIEF
+	db 1, FAINT_ATTACK
 	db 3, FAIRY_WIND
 	db 11, CHARM
 	db 12, QUICK_ATTACK
@@ -2983,7 +2983,7 @@ TeddiursaEvosAttacks:
 	db EVOLVE_LEVEL, 30, URSARING
 	db 0 ; no more evolutions
 	db 1, SCRATCH
-	db 1, THIEF
+	db 1, FAINT_ATTACK
 	db 3, LICK
 	db 7, CHARM
 	db 10, FURY_STRIKES
@@ -2999,7 +2999,7 @@ TeddiursaEvosAttacks:
 UrsaringEvosAttacks:
 	db EVOLVE_LEVEL, 45, URSALUNA
 	db 0 ; no more evolutions
-	db 1, THIEF
+	db 1, FAINT_ATTACK
 	db 1, FURY_STRIKES
 	db 1, FAINT_ATTACK
 	db 1, PLAY_ROUGH
