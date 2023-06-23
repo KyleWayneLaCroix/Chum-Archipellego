@@ -81,7 +81,6 @@ TrainerBrianGruntF2:
 	trainer BRIAN_F, BRIAN_F_2, EVENT_BEAT_BRIAN_F_2, BrianF2SeenText, BrianF2BeatenText, 0, .BrianF2Script
 
 .BrianF2Script:
-	endifjustbattled
 	opentext
 	writetext BrianF2AfterText
 	waitbutton
