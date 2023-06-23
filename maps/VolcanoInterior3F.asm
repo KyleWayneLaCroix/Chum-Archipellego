@@ -286,7 +286,6 @@ TrainerBrianGruntF1:
 	trainer BRIAN_F, BRIAN_F_1, EVENT_BEAT_BRIAN_F_1, BrianF1SeenText, BrianF1BeatenText, 0, .BrianF1Script
 
 .BrianF1Script:
-	endifjustbattled
 	opentext
 	writetext BrianF1AfterText
 	waitbutton

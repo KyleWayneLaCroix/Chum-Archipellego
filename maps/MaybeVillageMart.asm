@@ -91,6 +91,9 @@ LAShopkeeper:
 	checkevent EVENT_FOLLOWED_BY_TM
 	iftrue .TM
 	writetext LAShopkeeperInstructionsText
+	waitbutton
+	closetext
+	end
 .BrightCard:
 	writetext LAShopkeeperBrightCard
 	waitbutton
@@ -147,8 +150,9 @@ LAShopkeeper:
 	waitbutton
 	disappear MAYBE_VILLAGE_MART_HEART
 	closetext
+	appear MAYBE_VILLAGE_MART_HEART
 	refreshscreen
-	clearevent EVENT_FOLLOWED_BY_ULTRA_BALL
+	clearevent EVENT_FOLLOWED_BY_HEART
 	end
 .LuckyEgg:
 	writetext LAShopkeeperLuckyEgg
@@ -166,6 +170,7 @@ LAShopkeeper:
 	waitbutton
 	disappear MAYBE_VILLAGE_MART_LUCKY_EGG
 	closetext
+	appear MAYBE_VILLAGE_MART_LUCKY_EGG
 	refreshscreen
 	clearevent EVENT_FOLLOWED_BY_LUCKY_EGG
 	end
@@ -192,6 +197,7 @@ LAShopkeeper:
 	playsound SFX_TRANSACTION
 	takemoney YOUR_MONEY, MAYBE_VILLAGE_TM_PRICE
 	verbosegiveitem TM_PSYCHIC_M
+	setevent EVENT_BOUGHT_PSYCHIC
 	sjump .PostPurchase
 .SignalBeam:
 	writetext LAShopkeeperSignalBeam
@@ -204,6 +210,7 @@ LAShopkeeper:
 	takemoney YOUR_MONEY, MAYBE_VILLAGE_TM_PRICE
 	ifequal HAVE_LESS, .NotEnoughMoney
 	verbosegiveitem TM_SIGNAL_BEAM
+	setevent EVENT_BOUGHT_SIGNAL_BEAM
 	sjump .PostPurchase
 .OminousWind:
 	writetext LAShopkeeperOminousWind
@@ -216,6 +223,7 @@ LAShopkeeper:
 	takemoney YOUR_MONEY, MAYBE_VILLAGE_TM_PRICE
 	ifequal HAVE_LESS, .NotEnoughMoney
 	verbosegiveitem TM_OMINOUS_WIND
+	setevent EVENT_BOUGHT_OMINOUS_WIND
 	sjump .PostPurchase
 .PlayRough:
 	writetext LAShopkeeperPlayRough
@@ -228,6 +236,7 @@ LAShopkeeper:
 	takemoney YOUR_MONEY, MAYBE_VILLAGE_TM_PRICE
 	ifequal HAVE_LESS, .NotEnoughMoney
 	verbosegiveitem TM_PLAY_ROUGH
+	setevent EVENT_BOUGHT_PLAY_ROUGH
 	sjump .PostPurchase
 .PostPurchase:
 	waitbutton
@@ -235,6 +244,10 @@ LAShopkeeper:
 	waitbutton
 	disappear MAYBE_VILLAGE_MART_TM
 	closetext
+	checkevent EVENT_BOUGHT_PLAY_ROUGH
+	iftrue .LastTM
+	appear MAYBE_VILLAGE_MART_TM
+.LastTM:
 	refreshscreen
 	clearevent EVENT_FOLLOWED_BY_TM
 	end

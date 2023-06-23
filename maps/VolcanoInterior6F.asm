@@ -400,7 +400,7 @@ VolcanoInterior6FRareCandy:
 	itemball RARE_CANDY
 
 VolcanoInterior6FTMPsychic:
-	itemball TM_PSYCHIC_M
+	itemball TM_FIRE_BLAST
 
 VolcanoInterior6FHiddenHyperPotion:
 	hiddenitem HYPER_POTION, EVENT_VOLCANO_INTERIOR_6F_HIDDEN_HYPER_POTION
