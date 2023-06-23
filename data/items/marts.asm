@@ -247,6 +247,7 @@ MartShadyVolcano:
 	db X_ATTACK
 	db DIRE_HIT
 	db SURF_MAIL
+	db EXP_SHARE
 	db -1 ; end
 
 MartLavender:
