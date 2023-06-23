@@ -13,14 +13,6 @@ JohtoGrassWildMons:
     db 3, EXEGGCUTE
     db 2, EXEGGCUTE
     db 5, SANDYGAST
-    db 26, FLOATZEL
-    db 26, ESPURR
-    db 27, CLAUNCHER
-    db 27, BUIZEL
-    db 27, PONYTA
-    db 27, SANDYGAST
-    db 29, ORICORIO_PAU
-    db 28, LARVITAR
     ; day
     db 3, PIKIPEK
     db 3, BOUNSWEET
@@ -30,14 +22,6 @@ JohtoGrassWildMons:
     db 3, BLIPBUG
     db 2, YANMA
     db 5, SANDYGAST
-    db 26, FLOATZEL
-    db 26, ESPURR
-    db 27, CLAUNCHER
-    db 27, BUIZEL
-    db 27, PONYTA
-    db 27, SANDYGAST
-    db 29, ORICORIO_PAU
-    db 28, LARVITAR
     ; nite
     db 3, ORICORIO_SENSU
     db 3, BLIPBUG
@@ -47,14 +31,6 @@ JohtoGrassWildMons:
     db 3, EXEGGCUTE
     db 2, EXEGGCUTE
     db 5, SANDYGAST
-    db 26, FLOATZEL
-    db 26, ESPURR
-    db 27, CLAUNCHER
-    db 27, BUIZEL
-    db 27, PONYTA
-    db 27, SANDYGAST
-    db 29, ORICORIO_PAU
-    db 28, LARVITAR
     end_grass_wildmons
 
     def_grass_wildmons ROUTE_A
@@ -1016,6 +992,37 @@ JohtoGrassWildMons:
     db 27, DEERLING
     db 29, RALTS
     db 28, RALTS
+    end_grass_wildmons
+
+    def_grass_wildmons AWAKENING_BEACH_2
+    db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
+    ; morn
+    db 26, FLOATZEL
+    db 26, ESPURR
+    db 27, CLAUNCHER
+    db 27, BUIZEL
+    db 27, PONYTA
+    db 27, SANDYGAST
+    db 29, ORICORIO_PAU
+    db 28, LARVITAR
+    ; day
+    db 26, FLOATZEL
+    db 26, ESPURR
+    db 27, CLAUNCHER
+    db 27, BUIZEL
+    db 27, PONYTA
+    db 27, SANDYGAST
+    db 29, ORICORIO_PAU
+    db 28, LARVITAR
+    ; nite
+    db 26, FLOATZEL
+    db 26, ESPURR
+    db 27, CLAUNCHER
+    db 27, BUIZEL
+    db 27, PONYTA
+    db 27, SANDYGAST
+    db 29, ORICORIO_PAU
+    db 28, LARVITAR
     end_grass_wildmons
 
     def_grass_wildmons MISPLACED_WOODS
