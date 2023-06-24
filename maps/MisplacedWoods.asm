@@ -467,18 +467,19 @@ MisplacedWoodsBombWall:
 	waitsfx
 	special FadeBlackQuickly
 	changeblock 46, 34, $21
-	reloadmap
+	reloadmappart
 	special FadeInQuickly
 	applymovement PLAYER, MisplacedWoodsReturnFromBomb
 	turnobject PLAYER, UP
 	opentext
 	writetext MisplacedWoodsBlownUp
 	waitbutton
+	reloadmappart
 	setevent EVENT_BOMBED_MISPLACED_WOODS_WALL
 .End:
 	closetext
 	end
-.NoBombs
+.NoBombs:
 	closetext
 	end
 
