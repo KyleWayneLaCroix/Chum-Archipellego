@@ -21,12 +21,14 @@ VolcanoRestStopNurseScript:
 	writetext VolcanoRestStopNurseText1
 	waitbutton
 	closetext
-	special FadeOutPalettes
+	special FadeBlackQuickly
 	special StubbedTrainerRankings_Healings
 	playsound SFX_FULL_HEAL
+	waitsfx
 	special HealParty
-	special FadeInPalettes
+	special FadeInQuickly
 	opentext
+	reloadmappart
 	writetext VolcanoRestStopNurseText2
 	waitbutton
 	closetext
