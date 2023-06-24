@@ -46,4 +46,4 @@ MisplacedCavernB1F_MapEvents:
 
 	def_object_events
 ;	object_event x, y, sprite, movement, rx, ry, h1, h2, palette, type, range, script, event_flag
-	object_event  4,  1, SPRITE_GREAT_FAIRY, SPRITEMOVEDATA_BIGDOLLASYM, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, MisplacedCavernB1FGreatFairy, -1
+	object_event  4,  1, SPRITE_GREAT_FAIRY, SPRITEMOVEDATA_BIGDOLLSYM, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, MisplacedCavernB1FGreatFairy, -1

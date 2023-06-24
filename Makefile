@@ -281,8 +281,6 @@ gfx/overworld/chris_fish.2bpp: tools/gfx += --trim-whitespace
 gfx/overworld/kris_fish.2bpp: tools/gfx += --trim-whitespace
 
 gfx/sprites/big_onix.2bpp: tools/gfx += --remove-whitespace --remove-xflip
-gfx/sprites/regimagma.2bpp: tools/gfx += --remove-whitespace --remove-xflip
-gfx/sprites/great_fairy.2bpp: tools/gfx += --remove-whitespace --remove-xflip
 
 gfx/battle/dude.2bpp: rgbgfx += -Z
 
