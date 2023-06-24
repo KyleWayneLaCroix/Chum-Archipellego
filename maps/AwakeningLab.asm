@@ -527,9 +527,9 @@ AwakeningLabHealingMachineHealedText:
 	done
 
 AwakeningLabTeleport:
-	special FadeOutPalettes
-	waitsfx
-	warp MARINS_HOUSE, 4, 3
+	;special FadeOutPalettes
+	;waitsfx
+	;warp MARINS_HOUSE, 4, 3
 	end
 
 

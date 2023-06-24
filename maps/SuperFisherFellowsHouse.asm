@@ -9,9 +9,6 @@ SuperFisherFellowsHouse_MapScripts:
 	def_callbacks
 ;	callback type, script
 
-SuperFisherFellowsHouse_MapEvents:
-	db 0, 0 ; filler
-
 SuperFisherFellow:
 	opentext
 	checkevent EVENT_GOT_SUPER_ROD
@@ -23,7 +20,6 @@ SuperFisherFellow:
 	waitbutton
 	verbosegiveitem SUPER_ROD
 	waitbutton
-	closetext
 	setevent EVENT_GOT_SUPER_ROD
 .Got:
 	writetext SuperFisherFellowAfter
@@ -85,6 +81,10 @@ SuperFisherFellowRefused:
 	cont "you change your"
 	cont "mind."
 	done
+
+
+SuperFisherFellowsHouse_MapEvents:
+	db 0, 0 ; filler
 
 	def_warp_events
 ;	warp_event x, y, map, warp_id
