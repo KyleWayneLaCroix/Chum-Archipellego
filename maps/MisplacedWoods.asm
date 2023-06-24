@@ -380,12 +380,13 @@ MisplacedWoodsPPUp:
 	iftrue .End
 	opentext
 	verbosegiveitem PP_UP
+	iffalse .End
 	waitbutton
 	changeblock 8, 2, $33
 	reloadmappart
-	closetext
 	setevent EVENT_MISPLACED_WOODS_PP_UP
 .End:
+	closetext
 	end
 
 MisplacedWoodsElixer:
@@ -393,12 +394,13 @@ MisplacedWoodsElixer:
 	iftrue .End
 	opentext
 	verbosegiveitem ELIXER
+	iffalse .End
 	waitbutton
 	changeblock 28, 36, $33
 	reloadmappart
-	closetext
 	setevent EVENT_MISPLACED_WOODS_ELIXER
 .End:
+	closetext
 	end
 
 MisplacedWoodsIron:
@@ -406,12 +408,13 @@ MisplacedWoodsIron:
 	iftrue .End
 	opentext
 	verbosegiveitem IRON
+	iffalse .End
 	waitbutton
 	changeblock 38, 26, $33
 	reloadmappart
-	closetext
 	setevent EVENT_MISPLACED_WOODS_IRON
 .End:
+	closetext
 	end
 
 MisplacedWoodsRevive:
@@ -419,12 +422,13 @@ MisplacedWoodsRevive:
 	iftrue .End
 	opentext
 	verbosegiveitem REVIVE
+	iffalse .End
 	waitbutton
 	changeblock 20, 30, $33
 	reloadmappart
-	closetext
 	setevent EVENT_MISPLACED_WOODS_REVIVE
 .End:
+	closetext
 	end
 
 MisplacedWoodsLedge:

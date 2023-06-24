@@ -366,12 +366,13 @@ AwakeningDungeonHPUpChest:
 	iftrue .End
 	opentext
 	verbosegiveitem HP_UP
+	iffalse .End
 	waitbutton
 	changeblock 50, 18, $AF
 	reloadmappart
-	closetext
 	setevent EVENT_AWAKENING_DUNGEON_HP_UP
 .End:
+	closetext
 	end
 
 AwakeningDungeonCalciumChest:
@@ -379,12 +380,13 @@ AwakeningDungeonCalciumChest:
 	iftrue .End
 	opentext
 	verbosegiveitem CALCIUM
+	iffalse .End
 	waitbutton
 	changeblock 22,  6, $AF
 	reloadmappart
-	closetext
 	setevent EVENT_AWAKENING_DUNGEON_CALCIUM
 .End:
+	closetext
 	end
 
 
@@ -393,12 +395,13 @@ AwakeningDungeonNuggetChest:
 	iftrue .End
 	opentext
 	verbosegiveitem NUGGET
+	iffalse .End
 	waitbutton
 	changeblock 8, 38, $AF
 	reloadmappart
-	closetext
 	setevent EVENT_AWAKENING_DUNGEON_NUGGET
 .End:
+	closetext
 	end
 
 AwakeningDungeonPPUpChest:
@@ -406,12 +409,13 @@ AwakeningDungeonPPUpChest:
 	iftrue .End
 	opentext
 	verbosegiveitem PP_UP
+	iffalse .End
 	waitbutton
 	changeblock 20, 44, $AF
 	reloadmappart
-	closetext
 	setevent EVENT_AWAKENING_DUNGEON_PP_UP
 .End:
+	closetext
 	end
 
 AwakeningDungeonBigKeyChest:
@@ -419,12 +423,13 @@ AwakeningDungeonBigKeyChest:
 	iftrue .End
 	opentext
 	verbosegiveitem BIG_KEY
+	iffalse .End
 	waitbutton
 	changeblock 28, 38, $AF
 	reloadmappart
-	closetext
 	setevent EVENT_AWAKENING_DUNGEON_BIG_KEY
 .End:
+	closetext
 	end
 
 AwakeningDungeonMaxReviveChest:
@@ -432,12 +437,13 @@ AwakeningDungeonMaxReviveChest:
 	iftrue .End
 	opentext
 	verbosegiveitem MAX_REVIVE
+	iffalse .End
 	waitbutton
 	changeblock  8, 14, $AF
 	reloadmappart
-	closetext
 	setevent EVENT_AWAKENING_DUNGEON_MAX_REVIVE
 .End:
+	closetext
 	end
 
 AwakeningDungeonBottomRightButton:

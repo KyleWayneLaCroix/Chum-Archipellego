@@ -250,8 +250,9 @@ MaybeVillageYoungster2:
 	writetext MaybeVillageYoungsterGiveItem
 	waitbutton
 	verbosegiveitem QUICK_CLAW
-	setevent EVENT_GOT_ITEM_FROM_LA_YOUNGSTER
+	iffalse .End
 	waitbutton
+	setevent EVENT_GOT_ITEM_FROM_LA_YOUNGSTER
 .Done:
 	writetext MaybeVillageYoungsterThanks
 	waitbutton
@@ -260,6 +261,7 @@ MaybeVillageYoungster2:
 .NotDone:
 	writetext MaybeVillageYoungsterNotAllowed
 	waitbutton
+.End:
 	closetext
 	end
 
@@ -299,12 +301,13 @@ MaybeVillageFocusBand:
 	iftrue .End
 	opentext
 	verbosegiveitem FOCUS_BAND
+	iffalse .End
 	waitbutton
 	changeblock 38, 20, $33
 	reloadmappart
-	closetext
 	setevent EVENT_MAYBE_VILLAGE_FOCUS_BAND
 .End:
+	closetext
 	end
 
 MaybeVillageRock:
