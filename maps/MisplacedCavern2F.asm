@@ -13,7 +13,7 @@ MisplacedCavern2F_MapScripts:
 
 	def_callbacks
 ;	callback type, script
-	callback MisplacedCavern2FCallback
+	callback MAPCALLBACK_TILES, MisplacedCavern2FCallback
 
 MisplacedCavern2FCallback:
 	checkevent EVENT_MISPLACED_CAVERN_2F_MAX_POTION
@@ -347,13 +347,13 @@ MisplacedCavern2F_MapEvents:
 ;	bg_event x, y, type, script
 	bg_event 10, 12, BGEVENT_READ, MisplacedCavern2FDireHit
 	bg_event  2,  2, BGEVENT_READ, MisplacedCavern2FMaxPotion
-	bg_event  5,  5, BGEVENT_ITEM, MisplacedCavern2FHiddenMoonStone
-	bg_event  5,  5, BGEVENT_ITEM, MisplacedCavern2FHiddenMaxEther
+	bg_event  3, 13, BGEVENT_ITEM, MisplacedCavern2FHiddenMoonStone
+	bg_event 17, 17, BGEVENT_ITEM, MisplacedCavern2FHiddenMaxEther
 
 	def_object_events
 ;	object_event x, y, sprite, movement, rx, ry, h1, h2, palette, type, range, script, event_flag
 	object_event  4,  4, SPRITE_ZUBAT, SPRITEMOVEDATA_POKEMON, 2, 2, -1, -1, PAL_NPC_SILVER, OBJECTTYPE_SCRIPT, 0, MisplacedCavern2FKeese1, EVENT_BEAT_MISPLACED_CAVERN_2F_KEESE_1
 	object_event 14,  6, SPRITE_GENTLEMAN, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 3, TrainerDetectiveGum, 0
 	object_event 14,  7, SPRITE_SABRINA, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_TRAINER, 3, TrainerDetectiveJane, 0
-	object_event 10, 10, SPRITE_GEL, SPRITEMOVEDATA_WANDER, 3, 3, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, MisplacedCavern2FGel1, EVENT_MISPLACED_CAVERN_2F_GEL_1
-	object_event  5,  5, SPRITE_LA_GUY, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 2, 2, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 2, TrainerSkaterBoyTony, -1
+	object_event 14, 15, SPRITE_GEL, SPRITEMOVEDATA_WANDER, 3, 3, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, MisplacedCavern2FGel1, EVENT_MISPLACED_CAVERN_2F_GEL_1
+	object_event 10, 10, SPRITE_LA_GUY, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 2, 2, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 2, TrainerSkaterBoyTony, -1
