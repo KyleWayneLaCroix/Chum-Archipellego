@@ -300,8 +300,8 @@ HikerMichaelAfterText:
 
 VolcanoInterior1FMiniorSpot:
 	random 250
-	ifequal 0, VolcanoInterior1FMiniorCoreTrap
 	ifequal 1, VolcanoInterior1FMiniorCoreTrap
+	ifequal 2, VolcanoInterior1FMiniorMeteorTrap
 	end
 
 VolcanoInterior1FMiniorCoreTrap:
@@ -309,7 +309,7 @@ VolcanoInterior1FMiniorCoreTrap:
 	cry MINIOR_CORE
 	special FadeInPalettes
 	setlasttalked -1
-	loadvar VAR_BATTLETYPE, BATTLETYPE_TRAP
+	loadvar VAR_BATTLETYPE, BATTLETYPE_FORCEITEM
 	loadwildmon MINIOR_CORE, 27
 	startbattle
 	reloadmapafterbattle
@@ -320,7 +320,7 @@ VolcanoInterior1FMiniorMeteorTrap:
 	cry MINIOR_METEOR
 	special FadeInPalettes
 	setlasttalked -1
-	loadvar VAR_BATTLETYPE, BATTLETYPE_TRAP
+	loadvar VAR_BATTLETYPE, BATTLETYPE_FORCEITEM
 	loadwildmon MINIOR_METEOR, 27
 	startbattle
 	reloadmapafterbattle
