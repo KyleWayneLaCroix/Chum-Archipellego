@@ -18,8 +18,8 @@ VolcanoInteriorB1F_MapScripts:
 
 VolcanoInteriorB1FMiniorSpot:
 	random 250
-	ifequal 0, VolcanoInteriorB1FMiniorCoreTrap
 	ifequal 1, VolcanoInteriorB1FMiniorCoreTrap
+	ifequal 2, VolcanoInteriorB1FMiniorMeteorTrap
 	end
 
 VolcanoInteriorB1FMiniorCoreTrap:
@@ -27,7 +27,7 @@ VolcanoInteriorB1FMiniorCoreTrap:
 	cry MINIOR_CORE
 	special FadeInPalettes
 	setlasttalked -1
-	loadvar VAR_BATTLETYPE, BATTLETYPE_TRAP
+	loadvar VAR_BATTLETYPE, BATTLETYPE_FORCEITEM
 	loadwildmon MINIOR_CORE, 27
 	startbattle
 	reloadmapafterbattle
@@ -38,7 +38,7 @@ VolcanoInteriorB1FMiniorMeteorTrap:
 	cry MINIOR_METEOR
 	special FadeInPalettes
 	setlasttalked -1
-	loadvar VAR_BATTLETYPE, BATTLETYPE_TRAP
+	loadvar VAR_BATTLETYPE, BATTLETYPE_FORCEITEM
 	loadwildmon MINIOR_METEOR, 27
 	startbattle
 	reloadmapafterbattle

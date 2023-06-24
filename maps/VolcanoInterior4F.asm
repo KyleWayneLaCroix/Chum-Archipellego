@@ -480,8 +480,8 @@ VolcanoInterior4FHiddenMaxPotion:
 
 VolcanoInterior4FMiniorSpot:
 	random 200
-	ifequal 0, VolcanoInterior4FMiniorCoreTrap
 	ifequal 1, VolcanoInterior4FMiniorCoreTrap
+	ifequal 2, VolcanoInterior4FMiniorMeteorTrap
 	end
 
 VolcanoInterior4FMiniorCoreTrap:
@@ -489,7 +489,7 @@ VolcanoInterior4FMiniorCoreTrap:
 	cry MINIOR_CORE
 	special FadeInPalettes
 	setlasttalked -1
-	loadvar VAR_BATTLETYPE, BATTLETYPE_TRAP
+	loadvar VAR_BATTLETYPE, BATTLETYPE_FORCEITEM
 	loadwildmon MINIOR_CORE, 27
 	startbattle
 	reloadmapafterbattle
@@ -500,7 +500,7 @@ VolcanoInterior4FMiniorMeteorTrap:
 	cry MINIOR_METEOR
 	special FadeInPalettes
 	setlasttalked -1
-	loadvar VAR_BATTLETYPE, BATTLETYPE_TRAP
+	loadvar VAR_BATTLETYPE, BATTLETYPE_FORCEITEM
 	loadwildmon MINIOR_METEOR, 27
 	startbattle
 	reloadmapafterbattle
