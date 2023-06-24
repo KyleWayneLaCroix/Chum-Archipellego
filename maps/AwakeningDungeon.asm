@@ -469,11 +469,13 @@ AwakeningDungeonBottomRightSmallKey:
 	playsound SFX_FANFARE
 	opentext
 	verbosegiveitem SMALL_KEY
+	iffalse .BagFull
 	waitbutton
 	changeblock 50, 40, $2B
 	reloadmappart
-	closetext
 	setevent EVENT_AWAKENING_DUNGEON_BOTTOM_RIGHT_SMALL_KEY
+.BagFull:
+	closetext
 .End:
 	end
 
@@ -501,11 +503,13 @@ AwakeningDungeonSecondBottomRightSmallKey:
 	waitsfx
 	opentext
 	verbosegiveitem SMALL_KEY
+	iffalse .BagFull
 	waitbutton
 	changeblock 46, 26, $2B
 	reloadmappart
+	setevent EVENT_AWAKENING_DUNGEON_SECOND_BOTTOM_RIGHT_KEY 
+.BagFull:
 	closetext
-	setevent EVENT_AWAKENING_DUNGEON_SECOND_BOTTOM_RIGHT_KEY
 .End:
 	end
 
