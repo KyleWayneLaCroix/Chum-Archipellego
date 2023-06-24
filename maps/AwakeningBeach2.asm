@@ -303,6 +303,19 @@ BeachOctorokBeatenText:
 	done
 
 AwakeningBeachGirl:
+	jumptextfaceplayer AwakeningBeachGirlText
+
+AwakeningBeachGirlText:
+	text "I don't know why"
+	line "the beach is full"
+	cont "of weird monsters"
+	cont "who are carrying"
+	cont "around other"
+	cont "monsters."
+
+	para "It's weird."
+	done
+
 AwakeningBeachKaepora:
 	end
 
@@ -403,12 +416,13 @@ AwakeningBeach2FullRestore:
 	iftrue .End
 	opentext
 	verbosegiveitem FULL_RESTORE
+	iffalse .End
 	waitbutton
 	changeblock 2, 34, $D5
 	reloadmappart
-	closetext
 	setevent EVENT_AWAKENING_BEACH_2_FULL_RESTORE
 .End:
+	closetext
 	end
 	
 AwakeningBeach2Carbos:
@@ -416,12 +430,13 @@ AwakeningBeach2Carbos:
 	iftrue .End
 	opentext
 	verbosegiveitem CARBOS
+	iffalse .End
 	waitbutton
 	changeblock 56, 24, $D7
 	reloadmappart
-	closetext
 	setevent EVENT_AWAKENING_BEACH_2_CARBOS
 .End:
+	closetext
 	end
 
 AwakeningBeach2Calcium:
@@ -429,12 +444,13 @@ AwakeningBeach2Calcium:
 	iftrue .End
 	opentext
 	verbosegiveitem CALCIUM
+	iffalse .End
 	waitbutton
 	changeblock 24, 10, $33
 	reloadmappart
-	closetext
 	setevent EVENT_AWAKENING_BEACH_2_CALCIUM
 .End:
+	closetext
 	end
 
 AwakeningBeach2Nugget:
@@ -442,12 +458,13 @@ AwakeningBeach2Nugget:
 	iftrue .End
 	opentext
 	verbosegiveitem NUGGET
+	iffalse .End
 	waitbutton
 	changeblock 36, 32, $D7
 	reloadmappart
-	closetext
 	setevent EVENT_AWAKENING_BEACH_2_NUGGET
 .End:
+	closetext
 	end
 
 AwakeningBeach2RareCandy:
@@ -455,12 +472,13 @@ AwakeningBeach2RareCandy:
 	iftrue .End
 	opentext
 	verbosegiveitem RARE_CANDY, 5
+	iffalse .End
 	waitbutton
 	changeblock 50, 6, $33
 	reloadmappart
-	closetext
 	setevent EVENT_AWAKENING_BEACH_2_RARE_CANDY
 .End:
+	closetext
 	end
 
 AwakeningBeach2ShadowBall:
@@ -468,12 +486,13 @@ AwakeningBeach2ShadowBall:
 	iftrue .End
 	opentext
 	verbosegiveitem TM_SHADOW_BALL
+	iffalse .End
 	waitbutton
 	changeblock 40, 2, $33
 	reloadmappart
-	closetext
 	setevent EVENT_AWAKENING_BEACH_2_SHADOW_BALL
 .End:
+	closetext
 	end
 
 AwakeningBeach2BombWall:
@@ -574,6 +593,52 @@ OpenDungeonEntrace:
 	cont "before you."
 	done
 
+AwakeningBeach2VillageSign:
+	jumptext AwakeningBeach2VillageSignText
+
+AwakeningBeach2VillageSignText:
+	text "      NORTH      "
+	line "  MAYBE VILLAGE  "
+
+	para "      EAST       "
+	line "AWAKENING DUNGEON"
+
+	para "      SOUTH      "
+	line "AWAKENING BEACH 2"
+	done
+
+AwakeningBeach2SouthSign:
+	jumptext AwakeningBeach2SouthSignText
+
+AwakeningBeach2SouthSignText:
+	text "DID YOU KNOW:"
+	line "You can jump down"
+	cont "ledges!"
+
+	para "It's faster than"
+	line "walking around."
+
+	para "Science still has"
+	line "not found a way"
+	cont "to jump up ledges"
+	cont "at this time."
+
+	para "Maybe some day."
+	done
+
+AwakeningBeach2AppleTree:
+	jumptext AwakeningBeach2AppleTreeText
+
+AwakeningBeach2AppleTreeText:
+	text "This banana tree"
+	line "seems to have"
+	cont "greener, rounder"
+	cont "bananas."
+
+	para "Oh wait, those're"
+	line "apples."
+	done
+
 AwakeningBeach2_MapEvents:
 	db 0, 0 ; filler
 
@@ -601,6 +666,11 @@ AwakeningBeach2_MapEvents:
 
 	def_bg_events
 ;	bg_event x, y, type, script
+	bg_event  5,  4, BGEVENT_READ, AwakeningBeach2VillageSign
+	bg_event 13, 22, BGEVENT_READ, AwakeningBeach2SouthSign
+	bg_event 39, 23, BGEVENT_READ, AwakeningBeach2AppleTree
+	bg_event 38, 23, BGEVENT_READ, AwakeningBeach2AppleTree
+	bg_event 38, 22, BGEVENT_READ, AwakeningBeach2AppleTree
 	bg_event  3, 34, BGEVENT_READ, AwakeningBeach2FullRestore
 	bg_event 57, 24, BGEVENT_READ, AwakeningBeach2Carbos
 	bg_event 24, 10, BGEVENT_READ, AwakeningBeach2Calcium
@@ -620,14 +690,14 @@ AwakeningBeach2_MapEvents:
 	object_event  2, 29, SPRITE_OCTOROK, SPRITEMOVEDATA_WANDER, 1, 3, -1, -1, 0, OBJECTTYPE_TRAINER, 3, TrainerOctorok6, EVENT_BEAT_OCTOROK_6
 	object_event 26, 17, SPRITE_OCTOROK, SPRITEMOVEDATA_WANDER, 2, 2, -1, -1, 0, OBJECTTYPE_TRAINER, 3, TrainerOctorok7, EVENT_BEAT_OCTOROK_7
 	object_event 32, 13, SPRITE_OCTOROK, SPRITEMOVEDATA_WANDER, 2, 2, -1, -1, 0, OBJECTTYPE_TRAINER, 3, TrainerOctorok8, EVENT_BEAT_OCTOROK_8
-	object_event  9, 33, SPRITE_CRAB, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 3, 3, -1, -1, 0, OBJECTTYPE_SCRIPT, 2, AwakeningBeachCrab1, EVENT_BEAT_CRAB_1
-	object_event 42, 34, SPRITE_CRAB, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 3, 3, -1, -1, 0, OBJECTTYPE_SCRIPT, 2, AwakeningBeachCrab2, EVENT_BEAT_CRAB_2
-	object_event 29, 36, SPRITE_CRAB, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 3, 3, -1, -1, 0, OBJECTTYPE_SCRIPT, 2, AwakeningBeachCrab3, EVENT_BEAT_CRAB_3
-	object_event 21, 30, SPRITE_CRAB, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 3, 3, -1, -1, 0, OBJECTTYPE_SCRIPT, 2, AwakeningBeachCrab4, EVENT_BEAT_CRAB_4
-	object_event 12, 37, SPRITE_CRAB, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 3, 3, -1, -1, 0, OBJECTTYPE_SCRIPT, 2, AwakeningBeachCrab5, EVENT_BEAT_CRAB_5
-	object_event 52, 23, SPRITE_CRAB, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 3, 3, -1, -1, 0, OBJECTTYPE_SCRIPT, 2, AwakeningBeachCrab6, EVENT_BEAT_CRAB_6
-	object_event 48, 26, SPRITE_CRAB, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 3, 3, -1, -1, 0, OBJECTTYPE_SCRIPT, 2, AwakeningBeachCrab7, EVENT_BEAT_CRAB_7
-	object_event 55, 30, SPRITE_CRAB, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 3, 3, -1, -1, 0, OBJECTTYPE_SCRIPT, 2, AwakeningBeachCrab8, EVENT_BEAT_CRAB_8
+	object_event  9, 33, SPRITE_CRAB, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 3, 3, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, AwakeningBeachCrab1, EVENT_BEAT_CRAB_1
+	object_event 42, 34, SPRITE_CRAB, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 3, 3, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, AwakeningBeachCrab2, EVENT_BEAT_CRAB_2
+	object_event 29, 36, SPRITE_CRAB, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 3, 3, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, AwakeningBeachCrab3, EVENT_BEAT_CRAB_3
+	object_event 21, 30, SPRITE_CRAB, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 3, 3, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, AwakeningBeachCrab4, EVENT_BEAT_CRAB_4
+	object_event 12, 37, SPRITE_CRAB, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 3, 3, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, AwakeningBeachCrab5, EVENT_BEAT_CRAB_5
+	object_event 52, 23, SPRITE_CRAB, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 3, 3, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, AwakeningBeachCrab6, EVENT_BEAT_CRAB_6
+	object_event 48, 26, SPRITE_CRAB, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 3, 3, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, AwakeningBeachCrab7, EVENT_BEAT_CRAB_7
+	object_event 55, 30, SPRITE_CRAB, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 3, 3, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, AwakeningBeachCrab8, EVENT_BEAT_CRAB_8
 	object_event 54, 37, SPRITE_SWORD, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, AwakeningBeachSword, EVENT_GOT_SWORD_ON_BEACH
-	object_event 31, 33, SPRITE_LA_GIRL, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 4, AwakeningBeachGirl, -1
+	object_event 31, 33, SPRITE_LA_GIRL, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, AwakeningBeachGirl, -1
 	object_event 54, 34, SPRITE_KAEPORA, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, AwakeningBeachKaepora, EVENT_SAW_KAEPORA_ON_BEACH

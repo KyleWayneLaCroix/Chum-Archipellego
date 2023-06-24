@@ -9,6 +9,34 @@ AwakeningTrainerClub_MapScripts:
 	def_callbacks
 ;	callback type, script
 
+AwakeningTrainerClubReceptionist:
+	jumptextfaceplayer AwakeningTrainerClubReceptionistSorry
+
+AwakeningTrainerClubReceptionistSorry:
+	text "Oh... welcome to"
+	line "the MAYBE VILLAGE"
+	cont "TRAINER CLUB."
+
+	para "A club for"
+	line "trainers."
+
+	para "In MAYBE VILLAGE."
+
+	para "We don't have too"
+	line "many trainers yet"
+	cont "cause the monster"
+	cont "things just now"
+	cont "showed up."
+
+	para "Also the coding"
+	line "for these wasn't"
+	cont "ever finished."
+
+	para "Maybe try again"
+	line "during some sort"
+	cont "of DLC."
+	done
+
 AwakeningTrainerClub_MapEvents:
 	db 0, 0 ; filler
 
@@ -25,3 +53,4 @@ AwakeningTrainerClub_MapEvents:
 
 	def_object_events
 ;	object_event x, y, sprite, movement, rx, ry, h1, h2, palette, type, range, script, event_flag
+	object_event  8, 13, SPRITE_LA_GUY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_SCRIPT, 0, AwakeningTrainerClubReceptionist, 0

@@ -366,12 +366,13 @@ AwakeningDungeonHPUpChest:
 	iftrue .End
 	opentext
 	verbosegiveitem HP_UP
+	iffalse .End
 	waitbutton
 	changeblock 50, 18, $AF
 	reloadmappart
-	closetext
 	setevent EVENT_AWAKENING_DUNGEON_HP_UP
 .End:
+	closetext
 	end
 
 AwakeningDungeonCalciumChest:
@@ -379,12 +380,13 @@ AwakeningDungeonCalciumChest:
 	iftrue .End
 	opentext
 	verbosegiveitem CALCIUM
+	iffalse .End
 	waitbutton
 	changeblock 22,  6, $AF
 	reloadmappart
-	closetext
 	setevent EVENT_AWAKENING_DUNGEON_CALCIUM
 .End:
+	closetext
 	end
 
 
@@ -393,12 +395,13 @@ AwakeningDungeonNuggetChest:
 	iftrue .End
 	opentext
 	verbosegiveitem NUGGET
+	iffalse .End
 	waitbutton
 	changeblock 8, 38, $AF
 	reloadmappart
-	closetext
 	setevent EVENT_AWAKENING_DUNGEON_NUGGET
 .End:
+	closetext
 	end
 
 AwakeningDungeonPPUpChest:
@@ -406,12 +409,13 @@ AwakeningDungeonPPUpChest:
 	iftrue .End
 	opentext
 	verbosegiveitem PP_UP
+	iffalse .End
 	waitbutton
 	changeblock 20, 44, $AF
 	reloadmappart
-	closetext
 	setevent EVENT_AWAKENING_DUNGEON_PP_UP
 .End:
+	closetext
 	end
 
 AwakeningDungeonBigKeyChest:
@@ -419,12 +423,13 @@ AwakeningDungeonBigKeyChest:
 	iftrue .End
 	opentext
 	verbosegiveitem BIG_KEY
+	iffalse .End
 	waitbutton
 	changeblock 28, 38, $AF
 	reloadmappart
-	closetext
 	setevent EVENT_AWAKENING_DUNGEON_BIG_KEY
 .End:
+	closetext
 	end
 
 AwakeningDungeonMaxReviveChest:
@@ -432,12 +437,13 @@ AwakeningDungeonMaxReviveChest:
 	iftrue .End
 	opentext
 	verbosegiveitem MAX_REVIVE
+	iffalse .End
 	waitbutton
 	changeblock  8, 14, $AF
 	reloadmappart
-	closetext
 	setevent EVENT_AWAKENING_DUNGEON_MAX_REVIVE
 .End:
+	closetext
 	end
 
 AwakeningDungeonBottomRightButton:
@@ -933,9 +939,9 @@ AwakeningDungeon_MapEvents:
 
 	def_object_events
 ;	object_event x, y, sprite, movement, rx, ry, h1, h2, palette, type, range, script, event_flag
-	object_event 50, 28, SPRITE_GEL, SPRITEMOVEDATA_WANDER, 4, 4, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 1, AwakeningDungeonGreenGel, EVENT_BEAT_AWAKENING_DUNGEON_GEL_1
-	object_event  6, 21, SPRITE_GEL, SPRITEMOVEDATA_WANDER, 4, 4, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_SCRIPT, 1, AwakeningDungeonPurpleGel1, EVENT_BEAT_AWAKENING_DUNGEON_GEL_2
-	object_event 28, 31, SPRITE_GEL, SPRITEMOVEDATA_WANDER, 4, 4, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_SCRIPT, 1, AwakeningDungeonPurpleGel2, EVENT_BEAT_AWAKENING_DUNGEON_GEL_3
+	object_event 50, 28, SPRITE_GEL, SPRITEMOVEDATA_WANDER, 4, 4, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, AwakeningDungeonGreenGel, EVENT_BEAT_AWAKENING_DUNGEON_GEL_1
+	object_event  6, 21, SPRITE_GEL, SPRITEMOVEDATA_WANDER, 4, 4, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_SCRIPT, 0, AwakeningDungeonPurpleGel1, EVENT_BEAT_AWAKENING_DUNGEON_GEL_2
+	object_event 28, 31, SPRITE_GEL, SPRITEMOVEDATA_WANDER, 4, 4, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_SCRIPT, 0, AwakeningDungeonPurpleGel2, EVENT_BEAT_AWAKENING_DUNGEON_GEL_3
 	object_event 40, 20, SPRITE_MOBLIN, SPRITEMOVEDATA_WALK_UP_DOWN, 2, 2, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 2, TrainerMoblin8, EVENT_BEAT_MOBLIN_8
 	object_event 29, 17, SPRITE_MOBLIN, SPRITEMOVEDATA_WALK_UP_DOWN, 2, 2, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 2, TrainerMoblin9, EVENT_BEAT_MOBLIN_9
 	object_event 21, 45, SPRITE_MOBLIN, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 2, 2, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 2, TrainerMoblin10, EVENT_BEAT_MOBLIN_10

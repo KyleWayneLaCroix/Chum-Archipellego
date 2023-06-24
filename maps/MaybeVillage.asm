@@ -250,8 +250,9 @@ MaybeVillageYoungster2:
 	writetext MaybeVillageYoungsterGiveItem
 	waitbutton
 	verbosegiveitem QUICK_CLAW
-	setevent EVENT_GOT_ITEM_FROM_LA_YOUNGSTER
+	iffalse .End
 	waitbutton
+	setevent EVENT_GOT_ITEM_FROM_LA_YOUNGSTER
 .Done:
 	writetext MaybeVillageYoungsterThanks
 	waitbutton
@@ -260,6 +261,7 @@ MaybeVillageYoungster2:
 .NotDone:
 	writetext MaybeVillageYoungsterNotAllowed
 	waitbutton
+.End:
 	closetext
 	end
 
@@ -299,12 +301,13 @@ MaybeVillageFocusBand:
 	iftrue .End
 	opentext
 	verbosegiveitem FOCUS_BAND
+	iffalse .End
 	waitbutton
 	changeblock 38, 20, $33
 	reloadmappart
-	closetext
 	setevent EVENT_MAYBE_VILLAGE_FOCUS_BAND
 .End:
+	closetext
 	end
 
 MaybeVillageRock:
@@ -330,6 +333,13 @@ MaybeVillageOceanDetourSignText:
 	cont "ICE TOWN"
 	done
 
+MaybeVillageNorthSign:
+	jumptext MaybeVillageNorthSignText
+
+MaybeVillageNorthSignText:
+	text "      NORTH      "
+	line " MISPLACED WOODS "
+	done
 
 MaybeVillage_MapEvents:
 	db 0, 0 ; filler
@@ -367,6 +377,7 @@ MaybeVillage_MapEvents:
 	bg_event 38, 20, BGEVENT_READ, MaybeVillageFocusBand
 	bg_event 55,  9, BGEVENT_READ, MaybeVillageBadEggSign
 	bg_event 58, 26, BGEVENT_READ, MaybeVillageOceanDetourSign
+	bg_event  3,  9, BGEVENT_READ, MaybeVillageNorthSign
 
 	def_object_events
 ;	object_event x, y, sprite, movement, rx, ry, h1, h2, palette, type, range, script, event_flag

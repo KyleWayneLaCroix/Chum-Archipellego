@@ -526,11 +526,11 @@ AwakeningLabHealingMachineHealedText:
 	line "are healed!"
 	done
 
-;AwakeningLabTeleport:
-;	special FadeOutPalettes
-;	waitsfx
-;	warp MARINS_HOUSE, 4, 3
-;	end
+AwakeningLabTeleport:
+	special FadeOutPalettes
+	waitsfx
+	warp MARINS_HOUSE, 4, 3
+	end
 
 
 AwakeningLabBombableWall:
@@ -746,7 +746,7 @@ AwakeningLab_MapEvents:
 	bg_event 24, 12, BGEVENT_READ, AwakeningLabHealingMachine
 	bg_event 25, 12, BGEVENT_READ, AwakeningLabHealingMachine
 	bg_event  2,  7, BGEVENT_READ, AwakeningLabBombableWall
-	;bg_event 15, 15, BGEVENT_READ, AwakeningLabTeleport
+	bg_event 15, 15, BGEVENT_READ, AwakeningLabTeleport
 	bg_event 2, 4, BGEVENT_READ, AwakeningLabJump
 
 	def_object_events

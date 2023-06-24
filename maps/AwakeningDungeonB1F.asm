@@ -80,12 +80,13 @@ AwakeningDungeonB1FPPUpChest:
 	iftrue .End
 	opentext
 	verbosegiveitem PP_UP
+	iffalse .End
 	waitbutton
 	changeblock 16,  8, $AF
 	reloadmappart
-	closetext
 	setevent EVENT_AWAKENING_DUNGEON_B1F_PP_UP
 .End:
+	closetext
 	end
 
 AwakeningDungeonB1FMaxElixerChest:
@@ -93,12 +94,13 @@ AwakeningDungeonB1FMaxElixerChest:
 	iftrue .End
 	opentext
 	verbosegiveitem MAX_ETHER
+	iffalse .End
 	waitbutton
 	changeblock 30, 20, $AF
 	reloadmappart
-	closetext
 	setevent EVENT_AWAKENING_DUNGEON_B1F_MAX_ELIXER
 .End:
+	closetext
 	end
 
 
@@ -107,12 +109,13 @@ AwakeningDungeonB1FMaxEtherChest:
 	iftrue .End
 	opentext
 	verbosegiveitem MAX_ETHER
+	iffalse .End
 	waitbutton
 	changeblock 40,  2, $AF
 	reloadmappart
-	closetext
 	setevent EVENT_AWAKENING_DUNGEON_B1F_MAX_ETHER
 .End:
+	closetext
 	end
 
 AwakeningDungeonB1FRedGel:

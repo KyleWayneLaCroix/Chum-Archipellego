@@ -22,12 +22,13 @@ MaybeVillageWellPPUp:
 	iftrue .End
 	opentext
 	verbosegiveitem PP_UP
+	iffalse .End
 	waitbutton
 	changeblock 4, 6, $92
 	reloadmappart
-	closetext
 	setevent EVENT_MAYBE_VILLAGE_WELL_PP_UP
 .End:
+	closetext
 	end
 
 MaybeVillageWell_MapEvents:
