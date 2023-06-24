@@ -98,6 +98,10 @@ AwakeningBeach2JustFinishedKaepora:
 	done
 
 AwakeningBeach2ChestCallback:
+	checkevent EVENT_UNLOCKED_DUNGEON
+	iffalse .FullRestore
+	changeblock 40, 14, $62
+.FullRestore:
 	checkevent EVENT_AWAKENING_BEACH_2_FULL_RESTORE
 	iffalse .Carbos
 	changeblock 2, 34, $D5
@@ -543,9 +547,9 @@ AwakeningBeach2ReturnFromBomb:
 	step_end
 
 DungeonEntranceDoor:
+	opentext
 	checkevent EVENT_UNLOCKED_DUNGEON
 	iftrue .End
-	opentext
 	checkitem DUNGEON_KEY
 	iftrue .Unlock
 	writetext DungeonEntranceNeedKey
