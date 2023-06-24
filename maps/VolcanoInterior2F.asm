@@ -245,8 +245,8 @@ RuinManiacNielAfterText:
 	
 VolcanoInterior2FMiniorSpot:
 	random 250
-	ifequal 0, VolcanoInterior2FMiniorCoreTrap
 	ifequal 1, VolcanoInterior2FMiniorCoreTrap
+	ifequal 2, VolcanoInterior2FMiniorMeteorTrap
 	end
 
 VolcanoInterior2FMiniorCoreTrap:
@@ -254,7 +254,7 @@ VolcanoInterior2FMiniorCoreTrap:
 	cry MINIOR_CORE
 	special FadeInPalettes
 	setlasttalked -1
-	loadvar VAR_BATTLETYPE, BATTLETYPE_TRAP
+	loadvar VAR_BATTLETYPE, BATTLETYPE_FORCEITEM
 	loadwildmon MINIOR_CORE, 27
 	startbattle
 	reloadmapafterbattle
@@ -265,7 +265,7 @@ VolcanoInterior2FMiniorMeteorTrap:
 	cry MINIOR_METEOR
 	special FadeInPalettes
 	setlasttalked -1
-	loadvar VAR_BATTLETYPE, BATTLETYPE_TRAP
+	loadvar VAR_BATTLETYPE, BATTLETYPE_FORCEITEM
 	loadwildmon MINIOR_METEOR, 27
 	startbattle
 	reloadmapafterbattle
