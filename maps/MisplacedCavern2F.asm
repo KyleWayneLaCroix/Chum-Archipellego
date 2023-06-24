@@ -13,6 +13,18 @@ MisplacedCavern2F_MapScripts:
 
 	def_callbacks
 ;	callback type, script
+	callback MisplacedCavern2FCallback
+
+MisplacedCavern2FCallback:
+	checkevent EVENT_MISPLACED_CAVERN_2F_MAX_POTION
+	iffalse .DireHit
+	changeblock 2, 2, $92
+.DireHit:
+	checkevent EVENT_MISPLACED_CAVERN_2F_DIRE_HIT
+	iffalse .End
+	changeblock 10, 12, $92
+.End:
+	endcallback
 
 MisplacedCavern2FKeese1WalkDown3:
 	checkevent EVENT_BEAT_MISPLACED_CAVERN_2F_KEESE_1
