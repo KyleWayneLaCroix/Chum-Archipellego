@@ -165,7 +165,7 @@ ENDM
 	endgroup
 
 	newgroup LINKS_AWAKENING                          ; 11
-	map_const AWAKENING_BEACH_2,               30, 22 ;  1
+	map_const AWAKENING_BEACH_2,               30, 21 ;  1
 	map_const MAYBE_VILLAGE,                   30, 17 ;  2
 	map_const MISPLACED_WOODS,                 27, 20 ;  3
 	map_const BAD_EGG_EXTERIOR,                14, 16 ;  4
