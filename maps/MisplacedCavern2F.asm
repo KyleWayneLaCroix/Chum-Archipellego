@@ -340,7 +340,7 @@ MisplacedCavern2F_MapEvents:
 
 	def_object_events
 ;	object_event x, y, sprite, movement, rx, ry, h1, h2, palette, type, range, script, event_flag
-	object_event  4,  4, SPRITE_ZUBAT, SPRITEMOVEDATA_POKEMON, 2, 2, -1, -1, PAL_NPC_SILVER, OBJECTTYPE_SCRIPT, 3, MisplacedCavern2FKeese1, EVENT_BEAT_MISPLACED_CAVERN_2F_KEESE_1
+	object_event  4,  4, SPRITE_ZUBAT, SPRITEMOVEDATA_POKEMON, 2, 2, -1, -1, PAL_NPC_SILVER, OBJECTTYPE_SCRIPT, 0, MisplacedCavern2FKeese1, EVENT_BEAT_MISPLACED_CAVERN_2F_KEESE_1
 	object_event 14,  6, SPRITE_GENTLEMAN, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 3, TrainerDetectiveGum, 0
 	object_event 14,  7, SPRITE_SABRINA, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_TRAINER, 3, TrainerDetectiveJane, 0
 	object_event 10, 10, SPRITE_GEL, SPRITEMOVEDATA_WANDER, 3, 3, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, MisplacedCavern2FGel1, EVENT_MISPLACED_CAVERN_2F_GEL_1
