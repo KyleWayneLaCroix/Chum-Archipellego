@@ -331,7 +331,7 @@ UnivercityMartB1F_MapEvents:
 	object_event 14,  3, SPRITE_BRUNO,        SPRITEMOVEDATA_WANDER,          1, 0, -1, -1, 0,             OBJECTTYPE_SCRIPT, 0, UnivercityMartB1FWarehouseGuy1Script, 0
 	object_event  9, 16, SPRITE_BRUNO,        SPRITEMOVEDATA_WALK_UP_DOWN,    2, 2, -1, -1, 0,             OBJECTTYPE_SCRIPT, 0, UnivercityMartB1FWarehouseGuy2Script, 0
 	object_event 14,  7, SPRITE_BRUNO,        SPRITEMOVEDATA_STANDING_DOWN,   0, 0, -1, -1, 0,             OBJECTTYPE_SCRIPT, 0, UnivercityMartB1FWarehouseGuy3Script, 0
-	object_event 14, 12, SPRITE_BRUNO,        SPRITEMOVEDATA_WALK_LEFT_RIGHT, 3, 0, -1, -1, 0,             OBJECTTYPE_TRAINER, 3, TrainerWorkerKipp, 0
+	object_event 14, 12, SPRITE_BRUNO,        SPRITEMOVEDATA_WALK_LEFT_RIGHT, 3, 0, -1, -1, 0,             OBJECTTYPE_TRAINER, 1, TrainerWorkerKipp, 0
 	object_event  8,  1, SPRITE_BRUNO,        SPRITEMOVEDATA_STANDING_DOWN,   1, 1, -1, -1, 0,             OBJECTTYPE_TRAINER, 5, TrainerWorkerAlan, 0
 	object_event 14, 16, SPRITE_SUPER_NERD,   SPRITEMOVEDATA_STANDING_UP,     0, 0, -1, -1, PAL_NPC_BLUE,  OBJECTTYPE_TRAINER, 0, TrainerSupervisorStev, 0
 	object_event 12, 16, SPRITE_RECEPTIONIST, SPRITEMOVEDATA_STANDING_UP,     0, 0, -1, -1, 0,             OBJECTTYPE_SCRIPT, 0, UnivercityMartB1FSecretaryScript, 0
