@@ -389,8 +389,8 @@ VolcanoInterior3FLeverFlashbackText:
 
 VolcanoInterior3FMiniorSpot:
 	random 250
-	ifequal 0, VolcanoInterior3FMiniorCoreTrap
 	ifequal 1, VolcanoInterior3FMiniorCoreTrap
+	ifequal 2, VolcanoInterior3FMiniorMeteorTrap
 	end
 
 VolcanoInterior3FMiniorCoreTrap:
@@ -398,7 +398,7 @@ VolcanoInterior3FMiniorCoreTrap:
 	cry MINIOR_CORE
 	special FadeInPalettes
 	setlasttalked -1
-	loadvar VAR_BATTLETYPE, BATTLETYPE_TRAP
+	loadvar VAR_BATTLETYPE, BATTLETYPE_FORCEITEM
 	loadwildmon MINIOR_CORE, 27
 	startbattle
 	reloadmapafterbattle
@@ -409,7 +409,7 @@ VolcanoInterior3FMiniorMeteorTrap:
 	cry MINIOR_METEOR
 	special FadeInPalettes
 	setlasttalked -1
-	loadvar VAR_BATTLETYPE, BATTLETYPE_TRAP
+	loadvar VAR_BATTLETYPE, BATTLETYPE_FORCEITEM
 	loadwildmon MINIOR_METEOR, 27
 	startbattle
 	reloadmapafterbattle
