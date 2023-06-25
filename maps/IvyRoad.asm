@@ -12,6 +12,7 @@ IvyRoad_MapScripts:
 
 IvyRoadFlypointCallback:
 	setflag ENGINE_FLYPOINT_IVY_ROAD
+	blackoutmod IVY_ROAD
 	endcallback
 
 CaseysMailbox:
