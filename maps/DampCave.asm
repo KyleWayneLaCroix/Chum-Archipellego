@@ -15,7 +15,7 @@ DampCaveChestCallback:
 	iffalse .End
 	changeblock 18, 2, $92
 .End:
-	end
+	endcallback
 
 DampCaveFullRestore:
 	checkevent EVENT_DAMP_CAVE_FULL_RESTORE
