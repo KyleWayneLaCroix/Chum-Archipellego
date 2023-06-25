@@ -15,6 +15,7 @@ AwakeningDungeonTreasure:
 	writetext YouGotFlippers
 	waitbutton
 	setevent EVENT_GOT_ZORA_FLIPPERS
+	giveitem HM_SURF
 	closetext
 	playsound SFX_WARP_TO
 	special FadeBlackQuickly
