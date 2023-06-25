@@ -527,9 +527,15 @@ AwakeningLabHealingMachineHealedText:
 	done
 
 AwakeningLabTeleport:
-	;special FadeOutPalettes
-	;waitsfx
-	;warp MARINS_HOUSE, 4, 3
+	;givepoke FURIOUSB, 100
+	;giveitem BRITE_CARD
+	;giveitem JUMP_3
+	;giveitem JUMP_2
+	;giveitem JUMP_1
+	;giveitem HM_SURF
+	;giveitem HM_FLY
+	;giveitem HM_STRENGTH
+	;warp KYLES_DESKTOP_ROOM, 3, 3
 	end
 
 
@@ -601,7 +607,6 @@ AwakeningLabJump:
 	verbosegiveitem JUMP_3
 	setevent EVENT_GOT_AWAKENING_LAB_JUMP
 .After:
-	special RestartMapMusic
 	closetext
 	end
 
@@ -625,7 +630,7 @@ VanHalenJump:
 	line "just how you feel."
 	
 	para "You got to roll"
-	line "withthe punches."
+	line "with the punches."
 
 	para "And get to what's"
 	line "real."
