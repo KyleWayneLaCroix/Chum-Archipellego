@@ -68,6 +68,13 @@ FrozenPassage3Up:
 	changeblock 18,  6, $49
 	end
 
+FrozenPassage3SetEgg:
+	checkmapscene BAD_EGG_EXTERIOR, SCENE_BAD_EGG_PHONE
+	iffalse .End
+	setmapscene BAD_EGG_EXTERIOR, SCENE_BAD_EGG_NONE
+.End:
+	end
+
 FrozenPassage3_MapEvents:
 	db 0, 0 ; filler
 
@@ -82,6 +89,7 @@ FrozenPassage3_MapEvents:
 	coord_event 21, 10, -1, FrozenPassage3Down
 	coord_event 21,  8, -1, FrozenPassage3Up
 	coord_event  7, 10, -1, FrozenPassage3Down
+	coord_event 21, 16, -1, FrozenPassage3SetEgg
 
 	def_bg_events
 ;	bg_event x, y, type, script

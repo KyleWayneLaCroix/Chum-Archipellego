@@ -39,6 +39,7 @@ BadEggExteriorPhoneCutscene:
 	applymovement PLAYER, BadEggExteriorMoveUp
 	applymovement PLAYER, BadEggExteriorMoveUp
 	applymovement PLAYER, BadEggExteriorMoveUp
+	setscene SCENE_BAD_EGG_NONE
 	warp PHONE_ROOM, 6, 7
 	end
 
