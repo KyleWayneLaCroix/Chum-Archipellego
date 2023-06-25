@@ -846,8 +846,8 @@ RupeeDesc:
 	next "from beyond.@"
 
 HeartDesc:
-	db   "A heart that@"
-	next "restores 120 HP"
+	db   "A heart that"
+	next "restores 120 HP@"
 
 MysteryBerryDesc:
 	db   "A self-restore"
