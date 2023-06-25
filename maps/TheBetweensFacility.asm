@@ -108,8 +108,8 @@ MolluskBeatenText:
 	cont "problemo."
 
 	para "Sorry pedo guy,"
-	line "you reall did ask"
-	cont "for it."
+	line "you really did"
+	cont "ask for it."
 	done
 
 MolluskAfterText:
