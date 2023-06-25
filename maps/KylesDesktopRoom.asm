@@ -67,10 +67,12 @@ KylesDesktopRoomKyleScript:
 	writetext KylesDesktopRoomKyleSeenText
 	waitbutton
 	closetext
+	special HealParty
 	winlosstext KylesDesktopRoomKyleBeatenText, 0
 	loadtrainer KYLE, KYLE2
 	startbattle
 	reloadmapafterbattle
+	special HealParty
 	special FadeOutMusic
 	opentext
 	writetext KylesDesktopRoomKyleAfterText
