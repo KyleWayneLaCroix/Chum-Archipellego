@@ -98,6 +98,10 @@ AwakeningBeach2JustFinishedKaepora:
 	done
 
 AwakeningBeach2ChestCallback:
+	checkevent EVENT_BOMBED_AWAKENING_BEACH_2_WALL
+	iffalse .UnlockedDungeon
+	changeblock 40, 30, $21
+.UnlockedDungeon
 	checkevent EVENT_UNLOCKED_DUNGEON
 	iffalse .FullRestore
 	changeblock 40, 14, $62
