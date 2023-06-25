@@ -13,7 +13,7 @@ DankCave1F_MapEvents:
 	def_warp_events
 	warp_event 19, 11, AWAKENING_BEACH, 2
 	warp_event  9, 3, DANK_CAVE_2F, 1
-	warp_event  9, 3, DANK_CAVE_B1F, 1
+	warp_event 21,  3, DANK_CAVE_B1F, 1
 
 	def_coord_events
 
