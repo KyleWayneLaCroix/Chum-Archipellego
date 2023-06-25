@@ -626,6 +626,8 @@ TrainerArmos1AfterText:
 
 
 AwakeningDungeonFairyStatue:
+	checkevent EVENT_BEAT_ARMOS_1
+	iffalse .End
 	special FadeBlackQuickly
 	special ReloadSpritesNoPalettes
 	special StubbedTrainerRankings_Healings
@@ -638,6 +640,7 @@ AwakeningDungeonFairyStatue:
 	writetext AwakeningDungeonFairyText
 	waitbutton
 	closetext
+.End:
 	end
 
 AwakeningDungeonFairyText:
@@ -939,7 +942,8 @@ AwakeningDungeon_MapEvents:
 	bg_event 49, 13, BGEVENT_READ, AwakeningDungeonMiniBossDoor
 	bg_event  5,  1, BGEVENT_READ, AwakeningDungeonBossDoor
 	bg_event  6,  1, BGEVENT_READ, AwakeningDungeonBossDoor
-
+	bg_event 50,  5, BGEVENT_READ, AwakeningDungeonFairyStatue
+	bg_event 50,  4, BGEVENT_READ, AwakeningDungeonFairyStatue
 
 	def_object_events
 ;	object_event x, y, sprite, movement, rx, ry, h1, h2, palette, type, range, script, event_flag
