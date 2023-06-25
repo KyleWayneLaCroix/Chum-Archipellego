@@ -10,6 +10,14 @@ BadEggExterior_MapScripts:
 
 	def_callbacks
 ;	callback type, script
+	callback MAPCALLBACK_TILES, BadEggCallback
+
+BadEggCallback:
+	checkevent EVENT_CRACKED_BAD_EGG
+	iffalse .End
+	changeblock 14, 6, $e4
+.End:
+	endcallback
 
 BadEggExteriorNoop1:
 	end
