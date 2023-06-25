@@ -188,7 +188,9 @@ TheDarkLabLeftTank:
 	closetext
 	winlosstext TheDarkLabTheEmpty1BeatenText, 0
 	loadtrainer THE_EMPTY, THE_EMPTY_1
+	disappear THE_DARK_LAB_THE_EMPTY_1
 	startbattle
+	appear THE_DARK_LAB_THE_EMPTY_1
 	reloadmapafterbattle
 	setevent EVENT_BEAT_THE_EMPTY_1
 	setevent EVENT_THE_DARK_LAB_LEFT_TANK
@@ -233,7 +235,9 @@ TheDarkLabRightTank:
 	closetext
 	winlosstext TheDarkLabTheEmpty2BeatenText, 0
 	loadtrainer THE_EMPTY, THE_EMPTY_2
+	disappear THE_DARK_LAB_THE_EMPTY_2
 	startbattle
+	appear THE_DARK_LAB_THE_EMPTY_2
 	reloadmapafterbattle
 	setevent EVENT_THE_DARK_LAB_RIGHT_TANK
 	setevent EVENT_BEAT_THE_EMPTY_2
@@ -519,7 +523,7 @@ TheDarkLabComputer1:
 	db 5 ; items
 	db "BRO ISLAND@"
 	db "CHUM ARCHIPELAGO@"
-	db "BRIAN WILSON@"
+	db "BRIAN@"
 	db "CRYSTAL ROM HACK@"
 	db "DEVELOPER TOOLS@"
 
@@ -577,7 +581,7 @@ ChumArchipelagoText:
 	done
 
 BrianText:
-	text "BRIAN WILSON"
+	text "    BRIAN"
 
 	para "I will complete"
 	line "my friendship-"

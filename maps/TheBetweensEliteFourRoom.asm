@@ -36,7 +36,6 @@ TrainerPokemonTrainerRed:
 	trainer RED, RED1, EVENT_BEAT_POKEMON_TRAINER_RED, RedSeenText, RedBeatenText, 0, .RedScript
 
 .RedScript:
-	endifjustbattled
 	opentext
 	writetext RedAfterText
 	waitbutton
