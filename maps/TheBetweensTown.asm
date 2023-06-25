@@ -63,7 +63,7 @@ TheBetweensTownSnorlax:
 	waitsfx
 	setlasttalked -1
 	loadvar VAR_BATTLETYPE, BATTLETYPE_TRAP
-	loadwildmon SNORLAX, 54
+	loadwildmon SNORLAX, 50
 	startbattle
 	reloadmapafterbattle
 	setevent EVENT_BEAT_THE_BETWEENS_TOWN_SNORLAX
