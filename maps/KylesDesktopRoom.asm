@@ -307,7 +307,10 @@ KylesDesktopRoomKyleAfterText2:
 KylesDesktopRoomKyleAfterText3:
 	text "FURIOUS B!"
 
-	para "Destroy them!"
+	para "Destroy the"
+	line "insolent fool"
+	cont "who is trying to"
+	cont "ruin this game!"
 	done
 
 KylesDesktopRoomKylePaceLeft:
@@ -625,12 +628,55 @@ CreditsText:
 	cont "OF FAME, and the"
 	cont "end of the game."
 	done
+
+MasterBallAppearsInPocket:
+	text "Oh you gotta be"
+	line "kidding me."
+
+	para "You used your"
+	line "MASTER BALL"
+	cont "already?"
+
+	para "Ugh."
+
+	para "Suddenly you can"
+	line "feel a weight in"
+	cont "your pocket."
+
+	para "Like the Mirror"
+	line "of Erised, but"
+	cont "in the work of a"
+	cont "less transphobic"
+	cont "creator."
+
+	para "Don't waste your"
+	line "MASTER BALL again"
+
+	para "It was pretty"
+	line "fucking obvious it"
+	cont "was for a big"
+	cont "moment."
+
+	para "FURIOUSB has max"
+	line "stats. You kind of"
+	cont "have to catch him."
+	done
+
 KylesDesktopRoomBigFuriousBScript:
 	cry FURIOUSB
 	waitsfx
 	opentext
 	writetext BigFuriousBSeenText
 	waitbutton
+	checkitem MASTER_BALL
+	iftrue .Continue
+	opentext
+	writetext MasterBallAppearsInPocket
+	waitbutton
+	verbosegiveitem MASTER_BALL
+	waitbutton
+	closetext
+.Continue:
 	setlasttalked -1
 	loadvar VAR_BATTLETYPE, BATTLETYPE_SUICUNE
 	loadwildmon FURIOUSB, 69
@@ -726,6 +772,12 @@ BigFuriousBSeenText:
 	cont "DRAMATICALLY"
 	cont "APPROPRIATE FINAL" 
 	cont "BATTLE!"
+
+	para "ON THAT COULD"
+	line "ONLY BE SOLVED BY"
+	cont "SOME MASTER"
+	cont "STROKE OF A DEUS"
+	cont "EX MACHINA!"
 	done
 
 KylesDesktopRoomWalkRight:
