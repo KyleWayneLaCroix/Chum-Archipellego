@@ -89,7 +89,7 @@ FrozenPassage3_MapEvents:
 	coord_event 21, 10, -1, FrozenPassage3Down
 	coord_event 21,  8, -1, FrozenPassage3Up
 	coord_event  7, 10, -1, FrozenPassage3Down
-	coord_event 21, 16, -1, FrozenPassage3SetEgg
+	coord_event 20, 16, -1, FrozenPassage3SetEgg
 
 	def_bg_events
 ;	bg_event x, y, type, script
