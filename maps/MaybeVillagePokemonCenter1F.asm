@@ -1,5 +1,8 @@
 	object_const_def
 ;	const MAPNAME_OBJECTNAME
+	const MAYBE_VILLAGE_POKECENTER_GUY
+	const MAYBE_VILLAGE_POKECENTER_BOY
+	const MAYBE_VILLAGE_POKECENTER_MART
 	const MAYBE_VILLAGE_POKECENTER_NURSE
 	const MAYBE_VILLAGE_POKECENTER_POKE_BALL_1
 	const MAYBE_VILLAGE_POKECENTER_POKE_BALL_2
@@ -145,11 +148,11 @@ MaybeVillagePokemonCenter1F_MapEvents:
 
 	def_object_events
 ;	object_event x, y, sprite, movement, rx, ry, h1, h2, palette, type, range, script, event_flag
+	object_event  7,  5, SPRITE_LA_GUY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, MaybePokecenterGuy, -1
+	object_event  2,  6, SPRITE_LA_YOUNGSTER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, MaybePokecenterBoy, -1
+	object_event  2,  2, SPRITE_LA_GUY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, MaybePokecenterMart, -1
 	object_event  5,  2, SPRITE_LA_GIRL, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, MaybeVillagePokemonCenterNurse, -1
 	object_event  6,  2, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, MaybePokeBall, -1
 	object_event  6,  2, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, MaybePokeBall, -1
 	object_event  6,  2, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, MaybePokeBall, -1
 	object_event  6,  2, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_SCRIPT, 0, MaybePokeBall, -1
-	object_event  7,  5, SPRITE_LA_GUY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, MaybePokecenterGuy, -1
-	object_event  2,  6, SPRITE_LA_YOUNGSTER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, MaybePokecenterBoy, -1
-	object_event  2,  2, SPRITE_LA_GUY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_SCRIPT, 0, MaybePokecenterMart, -1
