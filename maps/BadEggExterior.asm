@@ -23,6 +23,8 @@ BadEggExteriorNoop1:
 	end
 
 BadEggExteriorPhoneCutscene:
+	checkitem HM_SURF
+	iftrue .End
 	special FadeBlackQuickly
 	applymovement PLAYER, BadEggExteriorHide
 	special FadeInQuickly
@@ -49,6 +51,8 @@ BadEggExteriorPhoneCutscene:
 	applymovement PLAYER, BadEggExteriorMoveUp
 	setscene SCENE_BAD_EGG_NONE
 	warp PHONE_ROOM, 6, 7
+.End:
+	setscene SCENE_BAD_EGG_NONE
 	end
 
 BadEggExteriorPhone1:
