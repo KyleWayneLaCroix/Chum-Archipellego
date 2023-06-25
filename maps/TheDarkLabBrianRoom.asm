@@ -95,6 +95,7 @@ TheDarkLabBrianRoomBrian:
 	opentext
 	writetext FusionDanceOver
 	waitbutton
+	special HealParty
 	closetext
 	end
 
