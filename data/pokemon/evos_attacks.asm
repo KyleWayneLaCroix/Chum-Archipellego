@@ -42,6 +42,9 @@ DoomstoneEvosAttacks:
 	db 1, BONEMERANG
 	db 1, ROCK_SLIDE
 	db 1, SHADOW_CLAW
+	db 22, BONEMERANG
+	db 26, ROCK_SLIDE
+	db 30, SHADOW_CLAW
 	db 34, BULLDOZE
 	db 37, BODY_SLAM
 	db 40, ROCK_BLAST
@@ -115,7 +118,7 @@ RookideeEvosAttacks:
 	db 8, HONE_CLAWS
 	db 12, FURY_STRIKES
 	db 14, WING_ATTACK
-	db 16, THIEF
+	db 16, FAINT_ATTACK
 	db 20, STEEL_WING
 	db 27, SCARY_FACE
 	db 32, SWAGGER
@@ -129,7 +132,7 @@ CorvisquireEvosAttacks:
 	db 1, HONE_CLAWS
 	db 1, WING_ATTACK
 	db 1, FURY_STRIKES
-	db 1, THIEF
+	db 1, FAINT_ATTACK
 	db 22, STEEL_WING
 	db 26, METAL_CLAW
 	db 28, SCARY_FACE
@@ -158,7 +161,7 @@ FarfetchdEvosAttacks:
 	db 12, FURY_STRIKES
 	db 13, RAZOR_LEAF
 	db 14, AERIAL_ACE
-	db 15, THIEF
+	db 15, FAINT_ATTACK
 	db 21, AIR_CUTTER
 	db 27, SWORDS_DANCE
 	db 29, SLASH
@@ -178,7 +181,7 @@ LuxwanEvosAttacks:
 	db 15, ROCK_SMASH
 	db 20, NIGHT_SLASH
 	db 25, PROTECT
-	db 30, THIEF
+	db 30, FAINT_ATTACK
 	db 35, MIST
 	db 45, SWORDS_DANCE
 	db 50, STRENGTH
@@ -196,7 +199,7 @@ SirfetchdEvosAttacks:
 	db 15, ROCK_SMASH
 	db 20, NIGHT_SLASH
 	db 25, PROTECT
-	db 30, THIEF
+	db 30, FAINT_ATTACK
 	db 35, MIST
 	db 45, SWORDS_DANCE
 	db 50, STRENGTH
@@ -665,7 +668,7 @@ ZigzagoonEvosAttacks:
 	db 12, CHARM
 	db 20, MUD_SLAP
 	db 23, TWINEEDLE
-	db 26, THIEF
+	db 26, FAINT_ATTACK
 	db 29, TAKE_DOWN
 	db 32, FLAIL
 	db 35, REST
@@ -683,7 +686,7 @@ LinooneEvosAttacks:
 	db 21, MUD_SLAP
 	db 26, FURY_STRIKES
 	db 28, TAKE_DOWN
-	db 31, THIEF
+	db 31, FAINT_ATTACK
 	db 35, SLASH
 	db 37, FLAIL
 	db 38, DOUBLE_EDGE
@@ -990,7 +993,7 @@ LombreEvosAttacks:
 	db 14, TRI_ATTACK
 	db 17, FURY_STRIKES
 	db 24, BUBBLEBEAM
-	db 27, THIEF
+	db 27, FAINT_ATTACK
 	db 35, ZEN_HEADBUTT
 	db 36, GIGA_DRAIN
 	db 37, HYPER_VOICE
@@ -1334,7 +1337,7 @@ SolosisEvosAttacks:
 	db 1, PSYWAVE
 	db 6, REFLECT
 	db 7, ROLLOUT
-	db 10, THIEF
+	db 10, FAINT_ATTACK
 	db 14, HIDDEN_POWER
 	db 17, LIGHT_SCREEN
 	db 18, CHARM
@@ -1779,7 +1782,7 @@ GrimerEvosAttacks:
 	db 12, DISABLE
 	db 18, SLUDGE
 	db 19, MINIMIZE
-	db 24, THIEF
+	db 24, FAINT_ATTACK
 	db 26, TOXIC
 	db 32, CRUNCH
 	db 38, SLUDGE_BOMB
@@ -1868,7 +1871,7 @@ PurrloinEvosAttacks:
 	db 30, SLASH
 	db 33, MEAN_LOOK
 	db 36, NIGHT_SLASH
-	db 39, THIEF
+	db 39, FAINT_ATTACK
 	db 40, NASTY_PLOT
 	db 47, PLAY_ROUGH
 	db 0 ; no more level-up moves
@@ -1886,7 +1889,7 @@ LiepardEvosAttacks:
 	db 34, SLASH
 	db 38, ENCORE
 	db 43, NIGHT_SLASH
-	db 47, THIEF
+	db 47, FAINT_ATTACK
 	db 48, NASTY_PLOT
 	db 56, PLAY_ROUGH
 	db 0 ; no more level-up moves
@@ -1904,7 +1907,7 @@ SkittyEvosAttacks:
 	db 17, MIRROR_MOVE
 	db 24, CHARM
 	db 26, FAINT_ATTACK
-	db 33, THIEF
+	db 33, FAINT_ATTACK
 	db 37, HEAL_BELL
 	db 40, DOUBLE_EDGE
 	db 46, PLAY_ROUGH
@@ -2065,7 +2068,7 @@ MakuhitaEvosAttacks:
 	db 13, VITAL_THROW
 	db 14, QUICK_ATTACK
 	db 18, ROAR
-	db 22, THIEF
+	db 22, FAINT_ATTACK
 	db 29, BELLY_DRUM
 	db 36, SEISMIC_TOSS
 	db 38, ENDURE
@@ -2437,7 +2440,7 @@ HeatmorEvosAttacks:
 	db 1, HONE_CLAWS
 	db 1, FURY_STRIKES
 	db 1, FIRE_SPIN
-	db 26, THIEF
+	db 26, FAINT_ATTACK
 	db 31, FLAMETHROWER
 	db 33, STRUGGLE_BUG
 	db 38, SLASH
@@ -2698,7 +2701,7 @@ TangelaEvosAttacks:
 	db 17, POISON_GAS
 	db 21, GROWTH
 	db 26, MEGA_DRAIN
-	db 30, THIEF
+	db 30, FAINT_ATTACK
 	db 31, STUN_SPORE
 	db 35, ANCIENTPOWER
 	db 36, HIDDEN_POWER
@@ -2717,7 +2720,7 @@ TangrowthEvosAttacks:
 	db 1, POISON_GAS
 	db 1, MEGA_DRAIN
 	db 26, STUN_SPORE
-	db 30, THIEF
+	db 30, FAINT_ATTACK
 	db 35, ANCIENTPOWER
 	db 36, HIDDEN_POWER
 	db 37, GIGA_DRAIN
@@ -2734,7 +2737,7 @@ JungelaEvosAttacks:
 	db 1, POISON_GAS
 	db 1, MEGA_DRAIN
 	db 26, STUN_SPORE
-	db 30, THIEF
+	db 30, FAINT_ATTACK
 	db 35, GIGA_DRAIN
 	db 36, HIDDEN_POWER
 	db 37, ANCIENTPOWER
