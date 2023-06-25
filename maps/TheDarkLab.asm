@@ -890,6 +890,32 @@ DarkLabEmptyTankText:
 	text "An empty tank."
 	done
 
+WalkToDarkLabCabinet:
+	checkevent EVENT_GOT_MASTER_BALL
+	iftrue .End
+	applymovement PLAYER, WalkToDarkLabCabinetMovement
+	turnobject PLAYER, UP
+	sjump TheDarkLabCabinet
+.End:
+	end
+
+WalkToDarkLabCabinetMovement:
+	step RIGHT
+	step RIGHT
+	step RIGHT
+	step RIGHT
+	step RIGHT
+	step RIGHT
+	step RIGHT
+	step RIGHT
+	step RIGHT
+	step RIGHT
+	step RIGHT
+	step RIGHT
+	step DOWN
+	step RIGHT
+	step_end
+
 TheDarkLab_MapEvents:
 	db 0, 0 ; filler
 
@@ -900,6 +926,7 @@ TheDarkLab_MapEvents:
 
 	def_coord_events
 ;	coord_event x, y, scene_id, script
+	coord_event 14,  8, -1, WalkToDarkLabCabinet
 
 	def_bg_events
 ;	bg_event x, y, type, script
