@@ -103,7 +103,7 @@ AwakeningDungeonTiles:
 	iffalse .Calcium
 	changeblock 50, 18, $AF
 .Calcium:
-	checkevent EVENT_AWAKENING_DUNGEON_NUGGET
+	checkevent EVENT_AWAKENING_DUNGEON_CALCIUM
 	iffalse .Nugget
 	changeblock 22,  6, $AF
 .Nugget:
