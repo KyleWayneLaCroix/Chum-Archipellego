@@ -48,23 +48,23 @@ IvyRoadDDText:
 
 CaseysMailboxText:
 	text "5333 IVY ROAD"
-	line "HILDER HOUSE"
+	line "CASEY HOUSE"
 	done
 
 BriansMailboxText:
 	text "5335 IVY ROAD"
-	line "WILSON HOUSE"
+	line "BRIAN HOUSE"
 	done
 
 
 KylesMailboxText:
 	text "5337 IVY ROAD"
-	line "LACROIX HOUSE"
+	line "KYLE HOUSE"
 	done
 
 SamsMailboxText:
 	text "5339 IVY ROAD"
-	line "BROWN HOUSE"
+	line "SAM HOUSE"
 	done
 
 IvyRoadPoppy:

@@ -596,7 +596,7 @@ BoozerSeenText:
 	cont "school admins,"
 	cont "the campus police"
 	cont "Action News Five,"
-	cont "Brian Wilson, a"
+	cont "Furious B, a"
 	cont "nest of angry"
 	cont "hornets, and soon"
 	
