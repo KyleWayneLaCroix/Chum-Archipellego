@@ -75,6 +75,7 @@ GearCityWhiltenHouse_Blocks:
 OldFisherFellowHouse_Blocks:
 GoodFisherFellowHouse_Blocks:
 IceTownHouse1_Blocks:
+KameHouse_Blocks:
 	INCBIN "maps/House1.ablk"
 
 IceTownHouse2_Blocks:

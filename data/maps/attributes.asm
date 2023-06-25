@@ -319,3 +319,4 @@ ENDM
 	map_attributes ErrorRoom, ERROR_ROOM, $00, 0
 	map_attributes ForestCave, FOREST_CAVE, $00, 0
 	map_attributes DankCaveB1F, DANK_CAVE_B1F, $09, 0
+	map_attributes KameHouse, KAME_HOUSE, $00, 0

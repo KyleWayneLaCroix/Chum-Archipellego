@@ -80,6 +80,7 @@ ENDM
 	map_const OLD_FISHER_FELLOW_HOUSE,          4,  4 ; 11
 	map_const GEAR_CITY_CHRIS_WHILTEN_HOUSE,    4,  4 ; 12
 	map_const GEAR_CITY_NORTH_FOREST_GATE,      8,  5 ; 13
+	map_const KAME_HOUSE,                       4,  4 ; 14
 	endgroup
 
 	newgroup BROLOGUE_NORTH                           ; 6

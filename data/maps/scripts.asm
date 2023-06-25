@@ -222,6 +222,7 @@ INCLUDE "maps/GrateGuyCasino.asm"
 INCLUDE "maps/GenderClinic.asm"
 INCLUDE "maps/RouteBNorth.asm"
 INCLUDE "maps/DankCaveB1F.asm"
+INCLUDE "maps/KameHouse.asm"
 
 SECTION "Map Scripts 20", ROMX
 

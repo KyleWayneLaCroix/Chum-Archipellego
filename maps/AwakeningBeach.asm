@@ -132,6 +132,31 @@ DankCaveSignText:
 	cont "hopes up."
 	done
 
+GameBeatCheck:
+	checkevent EVENT_BEAT_KYLES_DESKTOP_ROOM_KYLE
+	iftrue .End
+	opentext
+	writetext TryBeatingTheGameFirst
+	waitbutton
+	closetext
+	applymovement PLAYER, AwakeningBeachStepDown
+.End:
+	end
+
+TryBeatingTheGameFirst:
+	text "Something stops"
+	line "you from going"
+	cont "into the house."
+
+	para "It's almost like"
+	line "it wants you to"
+	cont "beat the game"
+	cont "first."
+	done
+
+AwakeningBeachStepDown:
+	step DOWN
+	step_end
 
 AwakeningBeach_MapEvents:
 	db 0, 0 ; filler
@@ -139,8 +164,10 @@ AwakeningBeach_MapEvents:
 	def_warp_events
 	warp_event  1, 27, AWAKENING_LAB, 1
 	warp_event 16, 25, DANK_CAVE_1F, 1
+	warp_event 11, 37, KAME_HOUSE, 1
 
 	def_coord_events
+	coord_event 11, 38, -1, GameBeatCheck
 
 	def_bg_events
 	bg_event  9, 25, BGEVENT_READ, AwakeningBeachSign
