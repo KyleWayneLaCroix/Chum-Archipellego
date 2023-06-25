@@ -49,8 +49,9 @@ DogLadyHouseChomp:
 	closetext
 	cry CHOMP
 	loadvar VAR_BATTLETYPE, BATTLETYPE_TRAP
-	loadwildmon CHOMP, 80
+	loadwildmon CHOMP, 60
 	startbattle
+	reloadmapafterbattle
 	opentext
 	setevent EVENT_BEAT_CHOMP
 	setevent EVENT_OPENED_GRATE_GUY_CASINO
