@@ -19,7 +19,7 @@ Marts:
 	dw MartEeveeRanch1
 	dw MartEeveeRanch2
 	dw MartShadyVolcano
-	dw MartLavender
+	dw MartMaybeVillage
 	dw MartTheBetweens
 	dw MartGenderClinic
 	dw MartDrNuggz
@@ -250,16 +250,14 @@ MartShadyVolcano:
 	db EXP_SHARE
 	db -1 ; end
 
-MartLavender:
-	db 8 ; # items
-	db GREAT_BALL
-	db POTION
-	db SUPER_POTION
-	db MAX_REPEL
-	db ANTIDOTE
-	db PARLYZ_HEAL
-	db AWAKENING
-	db BURN_HEAL
+MartMaybeVillage:
+	db 6 ; # items
+	db REVIVE
+	db ELIXER
+	db FULL_HEAL
+	db FULL_RESTORE
+	db DUSK_STONE
+	db UP_GRADE
 	db -1 ; end
 
 MartTheBetweens:

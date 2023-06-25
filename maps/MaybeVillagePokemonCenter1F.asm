@@ -111,6 +111,23 @@ MaybePokecenterBoyText:
 	line "it..."
 	done
 
+
+MaybePokecenterMart:
+	faceplayer
+	opentext
+	writetext MaybePokecenterMartIntro
+	waitbutton
+	pokemart MARTTYPE_STANDARD, MART_MAYBE_VILLAGE
+	closetext
+	end
+
+MaybePokecenterMartIntro:
+	text "I found a lot of"
+	line "cool stuff on"
+	cont "the beach."
+	done
+
+
 MaybeVillagePokemonCenter1F_MapEvents:
 	db 0, 0 ; filler
 
@@ -135,3 +152,4 @@ MaybeVillagePokemonCenter1F_MapEvents:
 	object_event  6,  2, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_SCRIPT, 0, MaybePokeBall, -1
 	object_event  7,  5, SPRITE_LA_GUY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, MaybePokecenterGuy, -1
 	object_event  2,  6, SPRITE_LA_YOUNGSTER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, MaybePokecenterBoy, -1
+	object_event  2,  2, SPRITE_LA_GUY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_SCRIPT, 0, MaybePokecenterMart, -1
