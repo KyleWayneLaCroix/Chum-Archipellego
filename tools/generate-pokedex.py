@@ -38,6 +38,7 @@ moveDataFiles = {
 itemDataFiles = {
     "constants"             : '../constants/item_constants.asm',
     "names"                 : '../data/items/names.asm',
+    "descriptionPointers"   : '../data/items/descriptions.asm',
     "descriptions"          : '../data/items/descriptions.asm',
     "attributes"            : '../data/items/attributes.asm',
     "effects"               : '../engine/items/item_effects.asm'
@@ -65,6 +66,23 @@ class ItemDataBuilder:
         self.itemData = []
         self.tmData = []
         self.hmData = []
+        self.itemAttributesOrder = [
+            "Price", 
+            "Held Effect", 
+            "Parameter", 
+            "Property", 
+            "Pocket", 
+            "Field Menu", 
+            "Battle Menu"
+        ]
+
+    def buildItemData(self):
+        self.getConstants()
+        self.getNames()
+        self.getAttributes()
+        self.getDescriptionPointers()
+        self.getDescriptions()
+        self.getItemEffects()
 
     def getConstants(self):
         self.getItemConstants()
@@ -122,7 +140,7 @@ class ItemDataBuilder:
         self.getHMNames()
 
     def getItemNames(self):
-        i = 0
+        i = 1  # skip NO_ITEM
         with open(itemDataFiles["names"], "r") as f:
             for line in f:
                 if "assert_list_length NUM_ITEMS" in line:
@@ -134,6 +152,7 @@ class ItemDataBuilder:
                     name = name[1].strip()
                     name = name.replace('"', "")
                     self.itemData[i]["Name"] = name
+                    i += 1
 
     def getTMNames(self):
         i = 0
@@ -150,6 +169,7 @@ class ItemDataBuilder:
                         name = name[1].strip()
                         name = name.replace('"', "")
                         self.tmData[i]["Name"] = name
+                        i += 1
                 else:
                     if "assert_list_length NUM_ITEMS" in line:
                         tms = True
@@ -169,13 +189,150 @@ class ItemDataBuilder:
                         name = name[1].strip()
                         name = name.replace('"', "")
                         self.hmData[i]["Name"] = name
+                        i += 1
                 else:
                     if "assert_list_length NUM_ITEMS + NUM_TMS" in line:
                         hms = True
 
+    def getAttributes(self):
+        self.getItemAttributes()
+        self.getTMAttributes()
+        self.getHMAttributes()
+
+    def getItemAttributes(self):
+        i = 1  # skip NO_ITEM
+        items = False
+        with open(itemDataFiles["attributes"], "r") as f:
+            for line in f:
+                if "length NUM_ITEMS" in line:
+                    break
+                elif line[0] == ";":
+                    continue
+                elif items:
+                    if "item_attribute " in line:
+                        attributes = line.split("item_attribute ")
+                        attributes = attributes[1].split(",")
+                        for j, attr in enumerate(attributes):
+                            attrName = self.itemAttributesOrder[j]
+                            self.itemData[i][attrName] = attr.strip()
+                        i += 1
+                elif "ItemAttributes" in line:
+                    items = True
+
+    def getTMAttributes(self):
+        i = 0
+        tms = False
+        with open(itemDataFiles["attributes"], "r") as f:
+            for line in f:
+                if "assert_table_length NUM_ITEMS + NUM_TMS" in line:
+                    break
+                elif line[0] == ";":
+                    continue
+                elif tms:
+                    if "item_attribute " in line:
+                        attributes = line.split("item_attribute ")
+                        attributes = attributes[1].split(",")
+                        for j, attr in enumerate(attributes):
+                            attrName = self.itemAttributesOrder[j]
+                            self.tmData[i][attrName] = attr.strip()
+                        i += 1
+                elif "assert_table_length NUM_ITEMS" in line:
+                    tms = True
+
+    def getHMAttributes(self):
+        i = 0
+        hms = False
+        with open(itemDataFiles["attributes"], "r") as f:
+            for line in f:
+                if "assert_table_length NUM_ITEMS + NUM_TMS + NUM_HMS" in line:
+                    break
+                elif line[0] == ";":
+                    continue
+                elif hms:
+                    if "item_attribute " in line:
+                        attributes = line.split("item_attribute ")
+                        attributes = attributes[1].split(",")
+                        for j, attr in enumerate(attributes):
+                            attrName = self.itemAttributesOrder[j]
+                            self.hmData[i][attrName] = attr.strip()
+                        i += 1
+                elif "assert_table_length NUM_ITEMS + NUM_TMS" in line:
+                    hms = True
+
+    def getDescriptionPointers(self):
+        with open(itemDataFiles["descriptionPointers"], "r") as f:
+            i = 1  # skip NO_ITEM
+            for line in f:
+                if line[0] == ";":
+                    continue
+                if "assert_table_length NUM_ITEMS" in line:
+                    break
+                elif "dw " in line:
+                    pointer = line.split("dw ")
+                    pointer = pointer[1].strip()
+                    self.itemData[i]["Description Pointer"] = pointer
+                    i += 1
+
+    def getDescriptions(self):
+        descriptions = {}
+        curPointers = []
+        curDescription = ""
+        with open(itemDataFiles["descriptions"], "r") as f:
+            for line in f:
+                if line[0] == ";":
+                    continue
+                elif "dw " in line:
+                    continue
+                # If a pointer...
+                elif "Desc:" in line:
+                    curPointers.append(line.strip().replace(":", ""))
+                # If part of description
+                elif '"' in line:
+                    descrip = line.split('"')
+                    descrip = descrip[1].strip()
+                    # Check if it ends with a hypen
+                    seperator = " "
+                    if descrip[-1] == "-":
+                        seperator = ""
+                        descrip = descrip[0:len(descrip) - 1]
+                    curDescription += seperator + descrip
+                    # Check if end of Description
+                    if descrip[-1] == '@':
+                        for pointer in curPointers:
+                            descriptions[pointer] = curDescription.replace("@", "").strip()
+                        curPointers.clear()
+                        curDescription = ""
+        for i, item in enumerate(self.itemData):
+            if "Description Pointer" in item:
+                if item["Description Pointer"] in descriptions:
+                    itemDescription = descriptions[item["Description Pointer"]]
+                    self.itemData[i]["Description"] = itemDescription
+
+    def getItemEffects(self):
+        i = 1  # skip NO_ITEM
+        with open(itemDataFiles["effects"], "r") as f:
+            for line in f:
+                if "assert_table_length NUM_ITEMS" in line:
+                    break
+                if "dw " in line:
+                    effect = line.split("dw ")
+                    effect = effect[1]
+                    effect = effect.split(";")
+                    effect = effect[0].strip()
+                    self.itemData[i]["Effect"] = effect
+                    i += 1
+
+
 class MoveDataBuilder:
     def __init__(self):
         self.moveData = []
+
+    def buildMoveData(self):
+        self.getConstants()
+        self.getNames()
+        self.getAttributes()
+        self.getDescriptionPointers()
+        self.getDescriptions()
 
     def getConstants(self):
         with open(moveDataFiles["constants"], "r") as f:
@@ -265,7 +422,6 @@ class MoveDataBuilder:
                 elif '"' in line:
                     descrip = line.split('"')
                     descrip = descrip[1].strip()
-                    print(descrip)
                     # Check if it ends with a hypen
                     seperator = " "
                     if descrip[-1] == "-":
@@ -288,6 +444,25 @@ class MoveDataBuilder:
 class PokemonDataBuilder:
     def __init__(self):
         self.pokemonData = []
+
+    def buildPokemonData(self):
+        self.getConstants()
+        self.getNames()
+        self.getBaseStatsDataFiles()
+        self.processBaseStatsDataFiles()
+        self.getEvosAttacksPointers()
+        self.getEvosAttacks()
+        self.getEggMovePointers()
+        self.getEggMoves()
+        self.getMenuIcons()
+        self.getDexEntryPointers()
+        self.getDexEntryFiles()
+        self.processDexEntryFiles()
+        self.getDexOrderNew()
+        self.getDexOrderAlpha()
+        self.getPicPointers()
+        self.getPalettes()
+        self.getPics()
 
     def getConstants(self):
         with open(pokeDataFiles["constants"], "r") as f:
@@ -775,42 +950,11 @@ class PokemonDataBuilder:
                 self.pokemonData[i]["Back Pic"] = picData[poke["Back Pic Pointer"]]
 
 
-# test = PokemonDataBuilder()
+pokemon = PokemonDataBuilder()
+pokemon.buildPokemonData()
 
-# test.getConstants()
-# test.getNames()
-# test.getBaseStatsDataFiles()
-# test.processBaseStatsDataFiles()
-# test.getEvosAttacksPointers()
-# test.getEvosAttacks()
-# test.getEggMovePointers()
-# test.getEggMoves()
-# test.getMenuIcons()
-# test.getDexEntryPointers()
-# test.getDexEntryFiles()
-# test.processDexEntryFiles()
-# test.getDexOrderNew()
-# test.getDexOrderAlpha()
-# test.getPicPointers()
-# test.getPalettes()
-# test.getPics()
-# print(test.pokemonData)
+moves = MoveDataBuilder()
+moves.buildMoveData()
 
-# test2 = MoveDataBuilder()
-
-# test2.getConstants()
-# test2.getNames()
-# test2.getAttributes()
-# test2.getDescriptionPointers()
-# test2.getDescriptions()
-
-# print(test2.moveData)
-
-test3 = ItemDataBuilder()
-
-test3.getConstants()
-test3.getNames()
-
-print(test3.itemData)
-print(test3.tmData)
-print(test3.hmData)
+items = ItemDataBuilder()
+items.buildItemData()
