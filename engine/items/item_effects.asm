@@ -204,7 +204,7 @@ ItemEffects:
 	dw NoEffect            ; ITEM_ BC
 	dw NoEffect            ; ITEM_ BD
 	dw NoEffect            ; ITEM_ BE
-	dw NoEffect            ; ITEM_BF
+	dw EvoStoneEffect      ; BETA_STONE
 	dw NoEffect            ; ITEM_C0
 	assert_table_length NUM_ITEMS
 
