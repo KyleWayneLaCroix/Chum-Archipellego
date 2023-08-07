@@ -3,6 +3,148 @@ import shutil
 import pandas as pd
 import re
 
+pokedexEntryHTML = """
+<article class='pokedex-entry'>
+  <div class='dex-numbers'>
+    <span class='nat-dex-order dex-number'>
+    {natDexOrder}
+    </span>
+    <span class="new-dex-order dex-number">{new-dex-order}</span>
+  </div>
+  <section class="left-screen">
+    <h2 class="name">{Name}</h2>
+    <h3 class="classification">Virtual Pokémon</h3>
+    <div class="types">
+      {types}
+      <span class="type type-normal">Normal</span>
+    </div>
+    <div class="front-sprite {constant}" style="background-image: url('{frontSprite}');"></div>
+    <p class="pokedex-text">{dexEntry}</p>
+  </section>
+  <table class="stats">
+    <tr>
+      <th>HP</th>
+      <td>{HP}</td>
+      <td><progress value=65 max=250>65</progress></td>
+    </tr>
+    <tr>
+      <th>Attack</th>
+      <td>{Attack}</td>
+      <td><progress value=60 max=250>60</progress></td>
+    </tr>
+    <tr>
+      <th>Defense</th>
+      <td>{Defense}</td>
+      <td><progress value=70 max=250>70</progress></td>
+    </tr>
+    <tr>
+      <th>Sp Atk</th>
+      <td>{SpecialAttack}</td>
+      <td><progress value=85 max=250>85</progress></td>
+    </tr>
+    <tr>
+      <th>Sp Def</th>
+      <td>{SpecialDefense}</td>
+      <td><progress value=75 max=250>75</progress></td>
+    </tr>
+    <tr>
+      <th>Speed</th>
+      <td>{Speed}</td>
+      <td><progress value=40 max=250>40</progress></td>
+    </tr>
+  </table>
+  <dl class="size">
+    <dt class="height">Height</dt>
+    <dd class="height">{Height}</dd>
+    <dt class="weight">Weight</dt>
+    <dd class="weight">{Weight}</dd>
+  </dl>
+  <dl class="catch-info">
+    <dt class="catch-rate">Catch Rate</dt>
+    <dd class="catch-rate">{CatchRate}</dd>
+    <dt class="base-xp">Base XP</dt>
+    <dd class="base-xp">{BaseXP}</dd>
+    <dt class="growth-rate">Growth</dt>
+    <dd class="growth-rate">{GrowthRate}</dd>
+    <dt class="held-items">Items</dt>
+    <dd class="held-items">{HeldItems}</dd>
+  </dl>
+  <dl class="breeding-info">
+    <dt class="gender-ratio">Gender</dt>
+    <dd class="gender-ratio">{GenderRate}</dd>
+    <dt class="hatch-counter">Hatch Rate</dt>
+    <dd class="hatch-counter">{HatchRate}</dd>
+    <dt class="egg-groups">Egg Groups</dt>
+    <dd class="egg-groups">{EggGroups}</dd>
+  </dl>
+  <section class="tables">
+    <table class="evolution-chain">
+      {evolutionTable}
+    </table>
+    <details class="level-up-moves" open>
+      <summary>
+        <h2>Level Up Moves</h2>
+      </summary>
+      <table>
+        <thead>
+          <tr>
+            <th>Lvl</th>
+            <th>Move</th>
+            <th>Type</th>
+            <th>Cat.</th>
+            <th>Pow.</th>
+            <th>Acc.</th>
+          </tr>
+        <tbody>
+          {levelUpTableBody}
+        </tbody>
+      </table>
+    </details>
+    <details class="tm-hm-moves" open>
+      <summary>
+        <h2>TM/HM learnset</h2>
+      </summary>
+      <table>
+        <thead>
+          <tr>
+            <th>TM</th>
+            <th>Move</th>
+            <th>Type</th>
+            <th>Cat.</th>
+            <th>Pow.</th>
+            <th>Acc.</th>
+          </tr>
+        <tbody>
+          {tmHMTableBody}
+        </tbody>
+      </table>
+    </details>
+    <details class="locations" open style="display:none;">
+      <summary>
+        <h2>Locations</h2>
+      </summary>
+      <table>
+        <thead>
+          <tr>
+            <th>Location</th>
+            <th>Encounter Type</th>
+            <th>Chance</th>
+            <th>Level</th>
+          </tr>
+        </thead>
+        <tbody>
+          {locationTableBody}
+        </tbody>
+      </table>
+    </details>
+  </section>
+</article>
+"""
+
+typeHTML = """<span class="type type-{typeLC}">{Type}</span>"""
+
+
+
 pokeDataFiles = {
     "constants"             : '../constants/pokemon_constants.asm',
     "names"                 : '../data/pokemon/names.asm',
@@ -60,6 +202,21 @@ evoMethodDataOrder = {
     "EVOLVE_HAPPINESS"  : ["Time", "Species"],
     "EVOLVE_STAT"       : ["LEVEL", "Stat Relationship", "Species"]
 }
+
+dimensionsTranslation = {
+    "U": 40,
+    "f": 48,
+    "w": 56,
+}
+
+# mapDataFiles {
+#   "mapConstants": "../constants/map_constants.asm",
+
+# }
+
+# class pokedexHTMLBuilder:
+#   def __init__(self, itemData, moveData)
+
 
 class ItemDataBuilder:
     def __init__(self):
