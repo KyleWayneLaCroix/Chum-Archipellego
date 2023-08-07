@@ -229,9 +229,14 @@ EvoSexText:
 	cont "if female."
 
 	para "TANGELA evolves"
-	line "to TANGROWTH if"
-	cont "male, and JUNGELA"
-	cont "if female."
+	line "to JUNGELA via a"
+	cont "BETA STONE, but"
+	cont "once evolved"
+	cont "JUNGELA can use"
+	cont "TESTOSTERONE to"
+	cont "become a"
+	cont "TANGROWTH, and"
+	cont "vice versa."
 
 	para "Also ESPURR has a"
 	line "male and female"
