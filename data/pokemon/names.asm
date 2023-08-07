@@ -219,7 +219,7 @@ PokemonNames::
 	db "MISMAGIUS@"
 	db "PORYGON@@@"
 	db "PORYGON2@@"
-	db "PORYGON-Z@"
+	db "PORYGON-X@"
 	db "LAPRAS@@@@"
 	db "AMAURA@@@@"
 	db "AURORUS@@@"
