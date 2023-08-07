@@ -938,8 +938,8 @@ BigKeyDesc:
 	next "ROOM.@"
 
 UpGradeDesc:
-	db   "A mysterious box"
-	next "made by SILPH CO.@"
+	db   "A strange USB"
+	next "device.@"
 
 BerryDesc:
 	db   "A self-restore"
