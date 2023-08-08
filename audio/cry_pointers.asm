@@ -69,4 +69,10 @@ Cries:
 	dba Cry_Aipom
 	dba Cry_Dunsparce
 	dba Cry_Donphan
+	dba	Cry_Unused
+	dba Cry_Gastrodon
+	dba Cry_Chatot
+	dba Cry_Amaura
+	dba Cry_Buneary
+	dba Cry_Crabrawler
 	assert_table_length NUM_CRIES

@@ -2108,3 +2108,148 @@ Cry_Rattata_Ch8:
 	noise_note 1, 10, 2, 57
 	noise_note 8, 9, 1, 73
 	sound_ret
+
+
+Cry_Gastrodon:
+	channel_count 3
+	channel 5, Cry_Gastrodon_Ch5
+	channel 6, Cry_Gastrodon_Ch6
+	channel 8, Cry_Gastrodon_Ch8
+	
+Cry_Gastrodon_Ch5:
+Cry_Gastrodon_branch:
+	square_note  3, 15, 7, $0601
+	square_note  3, 15, 7, $0701
+	sound_loop 8, Cry_Gastrodon_branch
+	sound_ret
+
+Cry_Gastrodon_Ch6: 
+	square_note  2, 15, 7, $ffff
+	square_note  3, 15, 7, $0602
+	square_note  3, 15, 7, $0702
+	sound_loop 8, Cry_Gastrodon_branch
+	
+Cry_Gastrodon_Ch8: 
+Cry_Gastrodon_Ch8_branch: 
+	noise_note 2, 15, 8, $41
+	noise_note 3,  9, 12, $24
+	noise_note 1,  0, 0, $0
+	noise_note 4,  5, 9, $16
+	noise_note 3,  0, 0, $0
+	sound_loop 3, Cry_Gastrodon_Ch8_branch
+	sound_ret
+	
+Cry_Chatot:
+	channel_count 3
+	channel 5, Cry_Chatot_Ch5
+	channel 6, Cry_Chatot_Ch6
+	channel 8, Cry_Chatot_Ch8
+
+Cry_Chatot_Ch5:
+	duty_cycle_pattern 0, 1 ,2 ,3
+	square_note  5, 13, 3, $0740
+	square_note 10, 12, 6, $0720
+	square_note  1,  0, 0, $0000
+	square_note 16, 14, 5, $0760
+	sound_ret
+
+Cry_Chatot_Ch6:
+	sound_duty 1, 0, 0, 2
+	square_note  2, 12, 3, $0701
+	square_note  3, 12, 3, $0708
+	square_note 10, 10, 6, $06f1
+	square_note  1,  0, 0, $0000
+	square_note 16, 13, 7, $0741
+Cry_Chatot_Ch8:
+	sound_ret
+	
+Cry_Amaura:
+	channel_count 2
+	channel 5, Cry_Amaura_Ch5
+	channel 6, Cry_Amaura_Ch6
+
+Cry_Amaura_Ch5:
+	dutycycle 1
+	square_note  5,  6, 8, $075c
+	square_note  3, 14, 8, $0764
+	square_note  3, 14, 8, $076b
+	square_note  3, 14, 8, $0770
+	square_note  4, 15, 4, $076b
+	square_note  5,  7, 9, $075d
+	square_note  7, 14, 8, $0782
+	square_note  7, 14, 8, $0780
+	square_note  7, 15, 1, $077e
+	sound_ret
+
+Cry_Amaura_Ch6:
+	sound_duty 1, 0, 0, 1
+	square_note  5,  6, 8, $0758
+	square_note  3, 14, 8, $0760
+	square_note  3, 14, 8, $0767
+	square_note  3, 14, 8, $076c
+	square_note  4, 15, 4, $0767
+	square_note  5,  7, 9, $0759
+	square_note  7, 14, 8, $077e
+	square_note  7, 14, 8, $077c
+	square_note  7, 15, 1, $077a
+	sound_ret
+
+Cry_Buneary:
+	channel_count 2
+	channel 5, Cry_Buneary_Ch5
+	channel 6, Cry_Buneary_Ch6
+
+Cry_Buneary_Ch5:
+	sound_duty 0, 0, 2, 2
+.loop
+	square_note  4, 15, 2, $0740
+	square_note  3, 12, 4, $073c
+	square_note  2, 10, 4, $0737
+	square_note  2,  8, 4, $0732
+	square_note  2,  5, 4, $072d
+	sound_loop 3, .loop
+	sound_duty 0, 0, 1, 1
+	square_note 12, 13, 8, $0720
+	square_note 16, 13, 8, $0770
+	square_note  1, 14, 8, $0765
+	square_note  1, 14, 8, $075a
+	square_note 16, 14, 5, $0750
+	sound_ret
+
+Cry_Buneary_Ch6:
+	sound_duty 2, 2, 0, 0
+.loop
+	square_note  4, 15, 2, $0744
+	square_note  3, 12, 4, $0740
+	square_note  2, 10, 4, $073b
+	square_note  2,  8, 4, $0736
+	square_note  2,  5, 4, $0731
+	sound_loop 3, .loop
+	sound_duty 0, 0, 0, 0
+	square_note 12, 14, 8, $071c
+	square_note 16, 14, 8, $076c
+	square_note  1, 15, 8, $0763
+	square_note  1, 15, 8, $0759
+	square_note 16, 15, 5, $0750
+	sound_ret
+	
+Cry_Crabrawler:
+	channel_count 2
+	channel 5, Cry_Crabrawler_Ch5
+	channel 6, Cry_Crabrawler_Ch6
+
+Cry_Crabrawler_Ch5:
+	sound_duty 0, 0, 0, 0
+	square_note  2, 15, 1, $0798
+	square_note  8, 15, 4, $072f
+	square_note  8,  0, 0, $0000
+	square_note 17, 15, 4, $07a9
+	sound_ret
+
+Cry_Crabrawler_Ch6:
+	sound_duty 0, 0, 0, 0
+	square_note  2, 15, 1, $0796
+	square_note  8, 15, 4, $072d
+	square_note  8,  0, 0, $0000
+	square_note 17, 15, 4, $07a7
+	sound_ret
