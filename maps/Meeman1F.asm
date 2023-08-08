@@ -18,13 +18,13 @@ ReadingRoomSignScript:
 Meeman1FAdOfficeSignScript:
 	jumptext Meeman1FAdOfficeSignText
 
-BobWillisScript:
-	trainer GRAMPS, WILLIS, EVENT_BEAT_GRAMPS_WILLIS, BobWillisSeenText, BobWillisBeatenText, 0, .Script
+FrankWillisScript:
+	trainer GRAMPS, WILLIS, EVENT_BEAT_GRAMPS_WILLIS, FrankWillisSeenText, FrankWillisBeatenText, 0, .Script
 
 .Script:
 	endifjustbattled
 	opentext
-	writetext BobWillisAfterText
+	writetext FrankWillisAfterText
 	waitbutton
 	closetext
 	end
@@ -63,8 +63,8 @@ TrainerWeirdoCalvin:
 	closetext
 	end
 
-CandyJusticeScript:
-	jumptextfaceplayer CandyJusticeText
+CherryVictoryScript:
+	jumptextfaceplayer CherryVictoryText
 
 Meeman1FReadingRoomStudent2Script:
 	jumptextfaceplayer Meeman1FReadingRoomStudent2Text
@@ -153,7 +153,7 @@ Meeman1FStatueText:
 	para "The display is"
 	line "labeled:"
 
-	para "THE HELMSMAN VS"
+	para "THE FREEMAN VS"
 	line "THE STUDENT GOV."
 	cont "ASSOCIATION"
 
@@ -204,14 +204,15 @@ Meeman1FReadingRoomStudent2Text:
 	line "and 'get a job.'"
 	done
 
-CandyJusticeText:
-	text "CANDY J: I don't"
+CherryVictoryText:
+	text "CHERRY V: I don't"
 	line "know where we'd"
-	cont "be without BOOZER"
+	cont "be without our"
+	cont "team of DRINKER" 
 	cont "and WHINPIN."
 
 	para "Those two keep"
-	line "the HELMSMAN"
+	line "the FREEMAN"
 	cont "going."
 
 	para "Sure, there have"
@@ -301,7 +302,7 @@ Meeman1FAdvertisingStudentText:
 
 	para "We sold enough"
 	line "ads for the"
-	cont "HELMSMAN to have"
+	cont "FREEMAN to have"
 	cont "a front AND back"
 	cont "page next month!"
 	done
@@ -372,25 +373,25 @@ JordanPetersonBeatenText:
 	cont "children trans."
 	done
 
-BobWillisSeenText:
-	text "BOB WILLIS: Well"
+FrankWillisSeenText:
+	text "F. WILLIS: Well"
 	line "how diddly-doo."
 
 	para "Would you like to"
 	line "buy some ad space"
-	cont "in the HELMSMAN?"
+	cont "in the FREEMAN?"
 
 	para "Online ads are"
 	line "just a fad!"
 	done
 
-BobWillisBeatenText:
+FrankWillisBeatenText:
 	text "You could have"
 	line "said no."
 	done
 
-BobWillisAfterText:
-	text "BOB WILLIS: See,"
+FrankWillisAfterText:
+	text "F. WILLIS: See,"
 	line "Advertising is"
 	cont "the beating heart"
 	cont "of Journalism!"
@@ -456,7 +457,7 @@ Meeman1F_MapEvents:
 ;	object_event x, y, sprite, movement, rx, ry, h1, h2, palette, type, range, script, event_flag
 	object_event 14, 19, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_WANDER, 2, 5, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, Meeman1FWanderingStudent1, 0
 	object_event 15,  5, SPRITE_SABRINA, SPRITEMOVEDATA_WANDER, 2, 5, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, Meeman1FWanderingStudent2, 0
-	object_event  2,  2, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 0, BobWillisScript, 0
+	object_event  2,  2, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 0, FrankWillisScript, 0
 	object_event 25,  3, SPRITE_GENTLEMAN, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 0, JordanPetersonScript, 0
 	object_event  9,  6, SPRITE_LASS, SPRITEMOVEDATA_WALK_UP_DOWN, 3, 3, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Meeman1FAdvertisingStudentScript, 0
 	object_event  6, 16, SPRITE_BILL, SPRITEMOVEDATA_WANDER, 4, 1, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Meeman1FReadingRoomStudentScript, 0
@@ -464,4 +465,4 @@ Meeman1F_MapEvents:
 	object_event 21, 23, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Meeman1FPetersonWatcher1Script, 0
 	object_event 21,  9, SPRITE_BEAUTY, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Meeman1FPetersonWatcher2Script, 0
 	object_event 26, 13, SPRITE_SUPER_NERD, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 0, TrainerWeirdoCalvin, 0
-	object_event  8,  2, SPRITE_GRANNY, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, CandyJusticeScript, 0
+	object_event  8,  2, SPRITE_GRANNY, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, CherryVictoryScript, 0

@@ -65,7 +65,7 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 
 	trainerclass FURRY ; 3
 	const VICTORIA1
-	const HOLLOWAY
+	const HOLLOWY
 	const KRISTY
 
 	trainerclass LOAFER ; 4
@@ -385,7 +385,7 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 
 	trainerclass TEACHER ; 22
 	const COLETTE
-	const JIN_YANG
+	const JEN_YANG
 	const SHIRLEY
 	const ASHLEY
 
@@ -412,7 +412,7 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 	const JULIE
 	const JACLYN
 	const BRENDA
-	const BOOZER
+	const DRINKER
 
 	trainerclass WORKER ; 17
 	const CGHQ_Q
