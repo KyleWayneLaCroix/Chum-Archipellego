@@ -854,29 +854,11 @@ Cry_Aipom_Ch8:
 	noise_note 20, 10, 3, 76
 	sound_ret
 
-Cry_Nidoran_M:
-	channel_count 3
-	channel 5, Cry_Nidoran_M_Ch5
-	channel 6, Cry_Nidoran_M_Ch6
-	channel 8, Cry_Nidoran_M_Ch8
-
-Cry_Nidoran_F:
-	channel_count 3
-	channel 5, Cry_Nidoran_F_Ch5
-	channel 6, Cry_Nidoran_F_Ch6
-	channel 8, Cry_Nidoran_F_Ch8
-
 Cry_Slowpoke:
 	channel_count 3
 	channel 5, Cry_Slowpoke_Ch5
 	channel 6, Cry_Slowpoke_Ch6
 	channel 8, Cry_Slowpoke_Ch8
-
-Cry_Kangaskhan:
-	channel_count 3
-	channel 5, Cry_Kangaskhan_Ch5
-	channel 6, Cry_Kangaskhan_Ch6
-	channel 8, Cry_Kangaskhan_Ch8
 
 Cry_Charmander:
 	channel_count 3
@@ -1260,35 +1242,6 @@ Cry_Weepinbell_Ch8:
 	noise_note 8, 9, 1, 28
 	sound_ret
 
-Cry_Kangaskhan_Ch5:
-	duty_cycle_pattern 3, 3, 0, 0
-	square_note 4, 15, 7, 1544
-	square_note 6, 14, 6, 1536
-	square_note 6, 13, 7, 1520
-	square_note 6, 12, 4, 1504
-	square_note 5, 13, 3, 1472
-	square_note 4, 13, 3, 1440
-	square_note 8, 14, 1, 1408
-	sound_ret
-
-Cry_Kangaskhan_Ch6:
-	duty_cycle_pattern 0, 0, 2, 2
-	square_note 4, 12, 7, 1284
-	square_note 6, 10, 6, 1282
-	square_note 6, 9, 7, 1265
-	square_note 4, 11, 4, 1249
-	square_note 5, 10, 3, 1218
-	square_note 4, 11, 3, 1187
-	square_note 8, 12, 1, 1154
-	sound_ret
-
-Cry_Kangaskhan_Ch8:
-	noise_note 12, 14, 4, 76
-	noise_note 10, 12, 7, 92
-	noise_note 12, 11, 6, 76
-	noise_note 15, 10, 2, 92
-	sound_ret
-
 Cry_Bulbasaur_Ch5:
 	duty_cycle_pattern 3, 3, 0, 1
 	square_note 4, 15, 7, 1984
@@ -1345,26 +1298,6 @@ Cry_Spearow_Ch8:
 	noise_note 4, 7, 4, 33
 	noise_note 4, 7, 4, 16
 	noise_note 4, 7, 1, 32
-	sound_ret
-
-Cry_Nidoran_M_Ch5:
-	duty_cycle_pattern 3, 3, 1, 1
-	square_note 4, 15, 3, 1816
-	square_note 15, 14, 5, 1944
-	square_note 8, 9, 1, 1880
-	sound_ret
-
-Cry_Nidoran_M_Ch6:
-	duty_cycle_pattern 2, 2, 0, 0
-	square_note 5, 11, 3, 1800
-	square_note 15, 12, 5, 1928
-	square_note 8, 7, 1, 1864
-	sound_ret
-
-Cry_Nidoran_M_Ch8:
-	noise_note 3, 10, 1, 28
-	noise_note 14, 9, 4, 44
-	noise_note 8, 8, 1, 28
 	sound_ret
 
 Cry_Pidgey_Ch5:
@@ -1563,28 +1496,6 @@ Cry_Drowzee_Ch8:
 	noise_note 4, 10, 1, 60
 	sound_ret
 
-Cry_Nidoran_F_Ch5:
-	duty_cycle_pattern 2, 2, 0, 0
-	square_note 4, 15, 3, 1536
-	square_note 8, 13, 5, 1888
-	square_note 3, 14, 2, 1824
-	square_note 8, 13, 1, 1808
-	sound_ret
-
-Cry_Nidoran_F_Ch6:
-	duty_cycle_pattern 1, 1, 2, 2
-	square_note 5, 11, 3, 1777
-	square_note 7, 12, 5, 1874
-	square_note 3, 10, 2, 1809
-	square_note 8, 11, 1, 1537
-	sound_ret
-
-Cry_Nidoran_F_Ch8:
-	noise_note 3, 10, 2, 60
-	noise_note 12, 9, 4, 44
-	noise_note 3, 8, 2, 28
-	noise_note 8, 7, 1, 44
-	sound_ret
 
 Cry_Nidoqueen_Ch5:
 	duty_cycle_pattern 3, 3, 0, 0
@@ -2192,64 +2103,4 @@ Cry_Amaura_Ch6:
 	square_note  7, 14, 8, $077e
 	square_note  7, 14, 8, $077c
 	square_note  7, 15, 1, $077a
-	sound_ret
-
-Cry_Buneary:
-	channel_count 2
-	channel 5, Cry_Buneary_Ch5
-	channel 6, Cry_Buneary_Ch6
-
-Cry_Buneary_Ch5:
-	sound_duty 0, 0, 2, 2
-.loop
-	square_note  4, 15, 2, $0740
-	square_note  3, 12, 4, $073c
-	square_note  2, 10, 4, $0737
-	square_note  2,  8, 4, $0732
-	square_note  2,  5, 4, $072d
-	sound_loop 3, .loop
-	sound_duty 0, 0, 1, 1
-	square_note 12, 13, 8, $0720
-	square_note 16, 13, 8, $0770
-	square_note  1, 14, 8, $0765
-	square_note  1, 14, 8, $075a
-	square_note 16, 14, 5, $0750
-	sound_ret
-
-Cry_Buneary_Ch6:
-	sound_duty 2, 2, 0, 0
-.loop
-	square_note  4, 15, 2, $0744
-	square_note  3, 12, 4, $0740
-	square_note  2, 10, 4, $073b
-	square_note  2,  8, 4, $0736
-	square_note  2,  5, 4, $0731
-	sound_loop 3, .loop
-	sound_duty 0, 0, 0, 0
-	square_note 12, 14, 8, $071c
-	square_note 16, 14, 8, $076c
-	square_note  1, 15, 8, $0763
-	square_note  1, 15, 8, $0759
-	square_note 16, 15, 5, $0750
-	sound_ret
-	
-Cry_Crabrawler:
-	channel_count 2
-	channel 5, Cry_Crabrawler_Ch5
-	channel 6, Cry_Crabrawler_Ch6
-
-Cry_Crabrawler_Ch5:
-	sound_duty 0, 0, 0, 0
-	square_note  2, 15, 1, $0798
-	square_note  8, 15, 4, $072f
-	square_note  8,  0, 0, $0000
-	square_note 17, 15, 4, $07a9
-	sound_ret
-
-Cry_Crabrawler_Ch6:
-	sound_duty 0, 0, 0, 0
-	square_note  2, 15, 1, $0796
-	square_note  8, 15, 4, $072d
-	square_note  8,  0, 0, $0000
-	square_note 17, 15, 4, $07a7
 	sound_ret

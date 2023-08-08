@@ -2,10 +2,7 @@
 	const_def
 
 ; gen 1
-	const CRY_NIDORAN_M      ;  0
-	const CRY_NIDORAN_F      ;  1
 	const CRY_SLOWPOKE       ;  2
-	const CRY_KANGASKHAN     ;  3
 	const CRY_CHARMANDER     ;  4
 	const CRY_GRIMER         ;  5
 	const CRY_VOLTORB        ;  6
@@ -72,13 +69,10 @@
 	const CRY_AIPOM          ; 41
 	const CRY_DUNSPARCE      ; 42
 	const CRY_DONPHAN        ; 43
-	const CRY_UNUSED         ; 44
 
 ; Gen 3+
 	const CRY_GASTRODON      ; 45
 	const CRY_CHATOT         ; 46
 	const CRY_AMAURA         ; 47
-	const CRY_BUNEARY        ; 48
-	const CRY_CRABRAWLER     ; 49
 	
 NUM_CRIES EQU const_value
