@@ -143,7 +143,7 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 	const IVAN
 
 	trainerclass CEO ; 33
-	const LONGO
+	const SHORTO
 	const MOLLUSK
 
 	trainerclass CHAMPION ; 10
@@ -407,7 +407,7 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 	const BRENT
 
 	trainerclass WHITE_GIRL ; 1d
-	const AIMEE
+	const AYMY
 	const TAYLOR1
 	const JULIE
 	const JACLYN

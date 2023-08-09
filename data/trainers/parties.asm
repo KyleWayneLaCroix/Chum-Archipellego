@@ -513,7 +513,7 @@ CamperGroup:
 
 CeoGroup:
 	; EXECUTIVEM (1)
-	db "LONGO@", TRAINERTYPE_NORMAL
+	db "SHORTO@", TRAINERTYPE_NORMAL
 	db 6, FARFETCHD
 	db 3, BLIPBUG
 	db 5, HOUNDOUR
@@ -1613,7 +1613,7 @@ WeirdoGroup:
 
 WhiteGirlGroup:
 	; WHITE_GIRL (1)
-	db "AIMEE@", TRAINERTYPE_NORMAL
+	db "AYMY@", TRAINERTYPE_NORMAL
 	db  6, SKITTY
 	db  4, SKITTY
 	db  5, SKITTY
