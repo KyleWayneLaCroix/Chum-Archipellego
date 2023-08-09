@@ -15,17 +15,17 @@
 	const MEEMAN2F_DAVID_ANANT
 	const MEEMAN2F_JEN_YANG
 
-Meeman2F_MapScripts:
+Meanman2F_MapScripts:
 	def_scene_scripts
 ;	scene_script script, SCENE_MAPNAME_SCENE_NAME
-	scene_script Meeman2FNoopScene1, SCENE_MEEMAN_2F_WHITTEN
-	scene_script Meeman2FNoopScene2, SCENE_MEEMAN_2F_WHITTEN_GONE
+	scene_script Meanman2FNoopScene1, SCENE_MEEMAN_2F_WHITTEN
+	scene_script Meanman2FNoopScene2, SCENE_MEEMAN_2F_WHITTEN_GONE
 
 	def_callbacks
 ;	callback type, script
 
-Meeman2FNoopScene1:
-Meeman2FNoopScene2:
+Meanman2FNoopScene1:
+Meanman2FNoopScene2:
 ChrisWhinpinScript:
 	end
 
@@ -245,11 +245,11 @@ ChelseaDrinkerScript:
 	end
 
 TrainerPhotographerBrian:
-	trainer PHOTOGRAPHER, PBRIAN, EVENT_BEAT_PHOTOGRAPHER_BRIAN, MeemanPhotoBrianSeenText, MeemanPhotoBrianBeatenText, 0, .Script
+	trainer PHOTOGRAPHER, PBRIAN, EVENT_BEAT_PHOTOGRAPHER_BRIAN, MeanmanPhotoBrianSeenText, MeanmanPhotoBrianBeatenText, 0, .Script
 
 .Script:
 	opentext
-	writetext MeemanPhotoBrianAfterText
+	writetext MeanmanPhotoBrianAfterText
 	waitbutton
 	closetext
 	playsound SFX_ZAP_CANNON
@@ -261,14 +261,14 @@ TrainerPhotographerBrian:
 	refreshscreen
 	end
 
-Meeman2FStudentScript:
-	jumptextfaceplayer Meeman2FStudentText
+Meanman2FStudentScript:
+	jumptextfaceplayer Meanman2FStudentText
 
 DrHrachScript:
 	jumptextfaceplayer DrHrachText
 
-Meeman2FStudent2Script:
-	jumptextfaceplayer Meeman2FStudent2Text
+Meanman2FStudent2Script:
+	jumptextfaceplayer Meanman2FStudent2Text
 
 JenYangSignScript:
 	jumptext JenYangSignText
@@ -294,11 +294,11 @@ FreemanSignScript:
 DrHrachSignScript:
 	jumptext DrHrachSignText
 
-MeemanClassRoomSignScript:
-	jumptext MeemanClassroomSignText
+MeanmanClassRoomSignScript:
+	jumptext MeanmanClassroomSignText
 
-MeemanEmptyOfficeSignScript:
-	jumptext MeemanEmptyOfficeSignText
+MeanmanEmptyOfficeSignScript:
+	jumptext MeanmanEmptyOfficeSignText
 
 JournalismComputerScript:
 	jumptext JournalismComputerText
@@ -489,12 +489,12 @@ JournalismComputerText:
 	cont "courses."
 	done
 
-MeemanPhotoBrianSeenText:
+MeanmanPhotoBrianSeenText:
 	text "BRIAN: WALK AND"
 	line "TALK, BITCH!"
 	done
 
-MeemanPhotoBrianBeatenText:
+MeanmanPhotoBrianBeatenText:
 	text "Oh god, thanks."
 	line "It's like I was"
 	cont "stuck in some"
@@ -502,7 +502,7 @@ MeemanPhotoBrianBeatenText:
 	cont "college."
 	done
 
-MeemanPhotoBrianAfterText:
+MeanmanPhotoBrianAfterText:
 	text "BRIAN: No for"
 	line "real dude, I"
 	cont "appreciate it."
@@ -523,7 +523,7 @@ MeemanPhotoBrianAfterText:
 	line "You look famil-"
 	done
 
-MeemanEmptyOfficeSignText:
+MeanmanEmptyOfficeSignText:
 	text "                 "
 	line "      OFFICE     "
 
@@ -535,7 +535,7 @@ MeemanEmptyOfficeSignText:
 	cont "right now."
 	done
 
-MeemanClassroomSignText:
+MeanmanClassroomSignText:
 	text "  CLASSROOM 2B   "
 	done
 
@@ -645,7 +645,7 @@ DrinkerAfterText:
 	cont "president."
 	done
 
-Meeman2FStudent2Text:
+Meanman2FStudent2Text:
 	text "I left some cool"
 	line "aviators in this"
 	cont "classroom, but I"
@@ -657,7 +657,7 @@ Meeman2FStudent2Text:
 	line "stole them..."
 	done
 
-Meeman2FStudentText:
+Meanman2FStudentText:
 	text "I think today is"
 	line "a holiday or"
 	cont "something."
@@ -1200,7 +1200,7 @@ ChrisWhinpinIntroText:
 	done
 
 
-Meeman2F_MapEvents:
+Meanman2F_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
@@ -1223,8 +1223,8 @@ Meeman2F_MapEvents:
 	bg_event 26, 17, BGEVENT_READ, EICSignScript
 	bg_event 12, 17, BGEVENT_READ, FreemanSignScript
 	bg_event  4, 17, BGEVENT_READ, DrHrachSignScript
-	bg_event  8, 15, BGEVENT_READ, MeemanClassRoomSignScript
-	bg_event  4, 23, BGEVENT_READ, MeemanEmptyOfficeSignScript
+	bg_event  8, 15, BGEVENT_READ, MeanmanClassRoomSignScript
+	bg_event  4, 23, BGEVENT_READ, MeanmanEmptyOfficeSignScript
 	bg_event 19,  7, BGEVENT_UP, JournalismComputerScript
 	bg_event  5,  1, BGEVENT_UP, JournalismComputerScript
 	bg_event  8,  1, BGEVENT_UP, JournalismComputerScript
@@ -1273,8 +1273,8 @@ Meeman2F_MapEvents:
 
 	def_object_events
 ;	object_event x, y, sprite, movement, rx, ry, h1, h2, palette, type, range, script, event_flag
-	object_event 23,  9, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 4, 4, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Meeman2FStudentScript, 0
-	object_event  6, 11, SPRITE_LASS, SPRITEMOVEDATA_WALK_UP_DOWN, 3, 3, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Meeman2FStudent2Script, 0
+	object_event 23,  9, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 4, 4, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Meanman2FStudentScript, 0
+	object_event  6, 11, SPRITE_LASS, SPRITEMOVEDATA_WALK_UP_DOWN, 3, 3, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Meanman2FStudent2Script, 0
 	object_event 16, 18, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ChrisWhinpinScript, EVENT_SAW_WHINPIN_APOLOGY
 	object_event 27, 24, SPRITE_FAIRY, SPRITEMOVEDATA_WANDER, 1, 3, -1, -1, 0, OBJECTTYPE_TRAINER, 2, TrainerPhotographerBrian, EVENT_BEAT_PHOTOGRAPHER_BRIAN
 	object_event 28, 14, SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 0, ChelseaDrinkerScript, 0

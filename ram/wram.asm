@@ -3061,7 +3061,7 @@ wMetroidCyberspaceExitSceneID::     db
 wUnivercityMart1FSceneID::          db
 wEeveeRanchExteriorSceneID::        db
 wEeveeRanchInteriorSceneID::        db
-wMeeman2FSceneID::                  db
+wMeanman2FSceneID::                  db
 wJungleGateSceneID::                db
 wVolcanoExteriorSceneID::           db
 wVolcanoInterior1FSceneID::         db
