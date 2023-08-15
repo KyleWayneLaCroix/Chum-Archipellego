@@ -5,14 +5,14 @@
 
 ; ============================================================================================================
 
-Music_Placeholder:
+Music_KommSusserTod:
 	channel_count 4
-	channel 1, Music_Placeholder_Ch1
-	channel 2, Music_Placeholder_Ch2
-	channel 3, Music_Placeholder_Ch3
-	channel 4, Music_Placeholder_Ch4
+	channel 1, Music_KommSusserTod_Ch1
+	channel 2, Music_KommSusserTod_Ch2
+	channel 3, Music_KommSusserTod_Ch3
+	channel 4, Music_KommSusserTod_Ch4
 
-Music_Placeholder_Ch1:
+Music_KommSusserTod_Ch1:
 	volume 7, 7
 	duty_cycle 2
 	note_type 12, 10, 7
@@ -3149,7 +3149,7 @@ Music_Placeholder_Ch1:
 
 ; ============================================================================================================
 
-Music_Placeholder_Ch2:
+Music_KommSusserTod_Ch2:
 	duty_cycle 1
 	note_type 12, 10, 7
 ;Bar 1
@@ -3925,7 +3925,7 @@ Music_Placeholder_Ch2:
 
 ; ============================================================================================================
 
-Music_Placeholder_Ch3:
+Music_KommSusserTod_Ch3:
 	note_type 12, 1, 0
 ;Bar 1
 	volume_envelope 2, 0
@@ -4616,7 +4616,7 @@ Music_Placeholder_Ch3:
 
 ; ============================================================================================================
 
-Music_Placeholder_Ch4:
+Music_KommSusserTod_Ch4:
 	toggle_noise 1
 	drum_speed 12
 ;Bar 1
