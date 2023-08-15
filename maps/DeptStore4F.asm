@@ -236,7 +236,9 @@ EvoSexText:
 	cont "TESTOSTERONE to"
 	cont "become a"
 	cont "TANGROWTH, and"
-	cont "vice versa."
+	cont "become a JUNGELA"
+	cont "again with some"
+	cont "TESTOSTERONE."
 
 	para "Also ESPURR has a"
 	line "male and female"
