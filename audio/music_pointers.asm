@@ -9,9 +9,9 @@ Music:
 	dba Music_Route3
 	dba Music_Route12
 	; dba Music_MagnetTrain
-	dba Music_KantoGymBattle
-	dba Music_KantoTrainerBattle
-	dba Music_KantoWildBattle
+	; dba Music_KantoGymBattle
+	; dba Music_KantoTrainerBattle
+	; dba Music_KantoWildBattle
 	dba Music_PokemonCenter
 	dba Music_LookHiker
 	dba Music_LookLass
@@ -21,7 +21,7 @@ Music:
 	dba Music_Route2
 	dba Music_MtMoon
 	dba Music_ShowMeAround
-	dba Music_GameCorner
+	; dba Music_GameCorner
 	dba Music_Bicycle
 	dba Music_HallOfFame
 	dba Music_ViridianCity
@@ -33,7 +33,7 @@ Music:
 	dba Music_Gym
 	dba Music_PalletTown
 	dba Music_ProfOaksPokemonTalk
-	dba Music_ProfOak
+	; dba Music_ProfOak
 	dba Music_LookRival
 	dba Music_AfterTheRivalFight
 	dba Music_Surf
@@ -51,7 +51,7 @@ Music:
 	dba Music_VioletCity
 	dba Music_JohtoGymBattle
 	dba Music_ChampionBattle
-	dba Music_RivalBattle
+	; dba Music_RivalBattle
 	dba Music_RocketBattle
 	dba Music_ElmsLab
 	dba Music_DarkCave
@@ -63,7 +63,7 @@ Music:
 	dba Music_LookRocket
 	dba Music_LookPokemaniac
 	dba Music_LookSage
-	dba Music_NewBarkTown
+	; dba Music_NewBarkTown
 	dba Music_GoldenrodCity
 	; dba Music_VermilionCity
 	dba Music_PokemonChannel
@@ -72,7 +72,7 @@ Music:
 	; dba Music_SproutTower
 	; dba Music_BurnedTower
 	dba Music_Lighthouse
-	dba Music_LakeOfRage
+	; dba Music_LakeOfRage
 	dba Music_IndigoPlateau
 	dba Music_Route37
 	dba Music_RocketHideout
@@ -93,15 +93,15 @@ Music:
 	dba Music_DancingHall
 	dba Music_ContestResults
 	; dba Music_BugCatchingContest
-	dba Music_LakeOfRageRocketRadio
-	dba Music_Printer
+	; dba Music_LakeOfRageRocketRadio
+	; dba Music_Printer
 	dba Music_PostCredits
 ; new to Crystal
-	dba Music_Clair
+	; dba Music_Clair
 	dba Music_MobileAdapterMenu
-	dba Music_MobileAdapter
+	; dba Music_MobileAdapter
 	dba Music_BuenasPassword
-	dba Music_LookMysticalMan
+	; dba Music_LookMysticalMan
 	dba Music_CrystalOpening
 	dba Music_BattleTowerTheme
 	dba Music_SuicuneBattle
@@ -121,4 +121,6 @@ Music:
 	dba Music_TailCave
 	dba Music_ViridianForest
 	dba Music_Zelda1Cave
+	dba Music_Megalovania
+	dba Music_KommSusserTod
 	assert_table_length NUM_MUSIC_SONGS
