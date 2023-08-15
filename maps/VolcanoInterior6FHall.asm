@@ -97,9 +97,7 @@ KyleGivesYouEvolveItems:
 	checkevent EVENT_GOT_PORYGON_STARTER
 	iftrue .Porygon
 .Burgela:
-	verbosegiveitem TESTOSTERONE
-	waitbutton
-	verbosegiveitem ESTRADIOL
+	verbosegiveitem BETA_STONE
 	waitbutton
 	sjump .Conclude
 .Spirrip:

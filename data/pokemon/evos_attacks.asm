@@ -2690,8 +2690,7 @@ BurgelaEvosAttacks:
 	db 0 ; no more level-up moves
 
 TangelaEvosAttacks:
-	db EVOLVE_ITEM, TESTOSTERONE, TANGROWTH
-	db EVOLVE_ITEM, ESTRADIOL, JUNGELA
+	db EVOLVE_ITEM, BETA_STONE, JUNGELA
 	db 0 ; no more evolutions
 	db 1, WRAP
 	db 4, RECOVER

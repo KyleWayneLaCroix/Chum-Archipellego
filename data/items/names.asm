@@ -190,7 +190,7 @@ ItemNames::
 	li "SMALL KEY"
 	li "JUMP"
 	li "JUMP"
-	li "TERU-SAMA"
+	li "BETA STONE"
 	li "TERU-SAMA"
 	assert_list_length NUM_ITEMS
 	li "TM01"
