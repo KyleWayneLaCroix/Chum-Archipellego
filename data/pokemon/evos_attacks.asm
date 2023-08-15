@@ -3383,11 +3383,11 @@ Porygon_zEvosAttacks:
 	db 1, PSYBEAM
 	db 1, SHOCK_WAVE
 	db 29, SIGNAL_BEAM
-	db 39, SAFEGUARD
-	db 40, SHOCK_WAVE
-	db 44, ZAP_CANNON
-	db 50, TRI_ATTACK
-	db 66, HYPER_BEAM
+	db 32, SHOCK_WAVE
+	db 36, GLITCH_M
+	db 40, ZAP_CANNON
+	db 42, TRI_ATTACK
+	db 45, HYPER_BEAM
 	db 0 ; no more level-up moves
 
 LaprasEvosAttacks:

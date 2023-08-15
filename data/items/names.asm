@@ -81,7 +81,7 @@ ItemNames::
 	li "CLEANSE TAG"
 	li "SMOKE BALL"
 	li "EVERSTONE"
-	li "UP-GRADE"
+	li "STRANGE USB"
 	li "DRAGON SCALE"
 	li "BERRY JUICE"
 	li "P.B.R."

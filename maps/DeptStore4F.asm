@@ -213,9 +213,10 @@ EvoOtherItemsText:
 	cont "a TART APPLE."
 
 	para "Also PORYGON2"
-	line "uses an UPGRADE"
-	cont "to become PORY-"
-	cont "-GON Z."
+	line "uses a STRANGE USB STRANGE USB STRANGE USB"
+	cont "to become"
+	cont "PORYGON Z."
+	cont "PORYGON X."
 	done
 
 EvoSexText:
