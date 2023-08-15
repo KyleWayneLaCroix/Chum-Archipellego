@@ -1,11 +1,11 @@
-Music_Placeholder:
+Music_MaybeVillage:
 	channel_count 4
-	channel 1, Music_Placeholder_Ch1
-	channel 2, Music_Placeholder_Ch2
-	channel 3, Music_Placeholder_Ch3
-	channel 4, Music_Placeholder_Ch4
+	channel 1, Music_MaybeVillage_Ch1
+	channel 2, Music_MaybeVillage_Ch2
+	channel 3, Music_MaybeVillage_Ch3
+	channel 4, Music_MaybeVillage_Ch4
 
-Music_Placeholder_Ch1:
+Music_MaybeVillage_Ch1:
 	volume 7, 7
 	duty_cycle 2
 	tempo 193
@@ -226,7 +226,7 @@ Music_Placeholder_Ch1:
 	note_type 8, 10, 7
 	sound_ret
 
-Music_Placeholder_Ch2:
+Music_MaybeVillage_Ch2:
 	duty_cycle 1
 	note_type 12, 10, 7
 	octave 3
@@ -549,7 +549,7 @@ Music_Placeholder_Ch2:
 	rest 1
 	sound_ret
 
-Music_Placeholder_Ch3:
+Music_MaybeVillage_Ch3:
 	note_type 12, 1, 0
 	rest 16
 	rest 16
@@ -567,7 +567,7 @@ Music_Placeholder_Ch3:
 	rest 16
 	sound_ret
 
-Music_Placeholder_Ch4:
+Music_MaybeVillage_Ch4:
 	toggle_noise 1
 	drum_speed 12
 	rest 16

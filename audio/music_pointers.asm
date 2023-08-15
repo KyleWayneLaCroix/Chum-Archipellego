@@ -8,7 +8,7 @@ Music:
 	dba Music_Route1
 	dba Music_Route3
 	dba Music_Route12
-	dba Music_MagnetTrain
+	; dba Music_MagnetTrain
 	dba Music_KantoGymBattle
 	dba Music_KantoTrainerBattle
 	dba Music_KantoWildBattle
@@ -17,7 +17,7 @@ Music:
 	dba Music_LookLass
 	dba Music_LookOfficer
 	dba Music_HealPokemon
-	dba Music_LavenderTown
+	; dba Music_LavenderTown
 	dba Music_Route2
 	dba Music_MtMoon
 	dba Music_ShowMeAround
@@ -29,7 +29,7 @@ Music:
 	dba Music_TrainerVictory
 	dba Music_WildPokemonVictory
 	dba Music_GymLeaderVictory
-	dba Music_MtMoonSquare
+	; dba Music_MtMoonSquare
 	dba Music_Gym
 	dba Music_PalletTown
 	dba Music_ProfOaksPokemonTalk
@@ -40,14 +40,14 @@ Music:
 	dba Music_Evolution
 	dba Music_NationalPark
 	dba Music_Credits
-	dba Music_AzaleaTown
+	; dba Music_AzaleaTown
 	dba Music_CherrygroveCity
 	dba Music_LookKimonoGirl
 	dba Music_UnionCave
 	dba Music_JohtoWildBattle
 	dba Music_JohtoTrainerBattle
 	dba Music_Route30
-	dba Music_EcruteakCity
+	; dba Music_EcruteakCity
 	dba Music_VioletCity
 	dba Music_JohtoGymBattle
 	dba Music_ChampionBattle
@@ -56,7 +56,7 @@ Music:
 	dba Music_ElmsLab
 	dba Music_DarkCave
 	dba Music_Route29
-	dba Music_Route36
+	; dba Music_Route36
 	dba Music_SSAqua
 	dba Music_LookYoungster
 	dba Music_LookBeauty
@@ -65,12 +65,12 @@ Music:
 	dba Music_LookSage
 	dba Music_NewBarkTown
 	dba Music_GoldenrodCity
-	dba Music_VermilionCity
+	; dba Music_VermilionCity
 	dba Music_PokemonChannel
 	dba Music_PokeFluteChannel
-	dba Music_TinTower
-	dba Music_SproutTower
-	dba Music_BurnedTower
+	; dba Music_TinTower
+	; dba Music_SproutTower
+	; dba Music_BurnedTower
 	dba Music_Lighthouse
 	dba Music_LakeOfRage
 	dba Music_IndigoPlateau
@@ -85,14 +85,14 @@ Music:
 	dba Music_VictoryRoad
 	dba Music_PokemonLullaby
 	dba Music_PokemonMarch
-	dba Music_GoldSilverOpening
-	dba Music_GoldSilverOpening2
+	; dba Music_GoldSilverOpening
+	; dba Music_GoldSilverOpening2
 	dba Music_MainMenu
 	dba Music_RuinsOfAlphInterior
 	dba Music_RocketTheme
 	dba Music_DancingHall
 	dba Music_ContestResults
-	dba Music_BugCatchingContest
+	; dba Music_BugCatchingContest
 	dba Music_LakeOfRageRocketRadio
 	dba Music_Printer
 	dba Music_PostCredits
@@ -107,4 +107,18 @@ Music:
 	dba Music_SuicuneBattle
 	dba Music_BattleTowerLobby
 	dba Music_MobileCenter
+; new music
+	dba Music_CinnabarIslandFRLG
+	dba Music_BalladOfTheWindfish
+	dba Music_BarrelVolcano
+	dba Music_ContestRSE
+	dba Music_IcePathHGSS
+	dba Music_LavenderTownFRLG
+	dba Music_MaybeVillage
+	dba Music_NimbasaCity
+	dba Music_PyriteTown
+	dba Music_Route225Day
+	dba Music_TailCave
+	dba Music_ViridianForest
+	dba Music_Zelda1Cave
 	assert_table_length NUM_MUSIC_SONGS

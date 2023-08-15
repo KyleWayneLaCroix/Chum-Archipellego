@@ -5,14 +5,14 @@
 
 ; ============================================================================================================
 
-Music_Placeholder:
+Music_BarrelVolcano:
 	channel_count 4
-	channel 1, Music_Placeholder_Ch1
-	channel 2, Music_Placeholder_Ch2
-	channel 3, Music_Placeholder_Ch3
-	channel 4, Music_Placeholder_Ch4
+	channel 1, Music_BarrelVolcano_Ch1
+	channel 2, Music_BarrelVolcano_Ch2
+	channel 3, Music_BarrelVolcano_Ch3
+	channel 4, Music_BarrelVolcano_Ch4
 
-Music_Placeholder_Ch1:
+Music_BarrelVolcano_Ch1:
 	volume 7, 7
 	duty_cycle 2
 	note_type 12, 10, 7
@@ -639,7 +639,7 @@ Music_Placeholder_Ch1:
 
 ; ============================================================================================================
 
-Music_Placeholder_Ch2:
+Music_BarrelVolcano_Ch2:
 	duty_cycle 3
 	note_type 8, 10, -5
 ;Bar 1
@@ -974,7 +974,7 @@ Music_Placeholder_Ch2:
 
 ; ============================================================================================================
 
-Music_Placeholder_Ch3:
+Music_BarrelVolcano_Ch3:
 	note_type 12, 1, 2
 ;Bar 1
 	rest 16
@@ -2058,7 +2058,7 @@ Music_Placeholder_Ch3:
 
 ; ============================================================================================================
 
-Music_Placeholder_Ch4:
+Music_BarrelVolcano_Ch4:
 	toggle_noise 2
 	drum_speed 12
 ;Bar 1
@@ -2693,6 +2693,4 @@ Music_Placeholder_Ch4:
 	drum_note 4, 1
 	drum_note 4, 1
 	sound_ret
-
 ; ============================================================================================================
-
