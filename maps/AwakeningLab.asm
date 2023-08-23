@@ -53,7 +53,7 @@ WakeUpScript:
 	setflag ENGINE_POKEGEAR
 	setflag ENGINE_MAP_CARD
 	setflag ENGINE_RADIO_CARD
-	;setflag ENGINE_POKEDEX
+	setflag ENGINE_POKEDEX
 	promptbutton
 	special SetDayOfWeek
 .SetDayOfWeek:
@@ -556,11 +556,11 @@ AwakeningLabTeleport:
 	; setflag ENGINE_GLACIERBADGE
 	; setflag ENGINE_RISINGBADGE
 	; warp KYLES_DESKTOP_ROOM, 3, 3
-	setflag ENGINE_POKEGEAR
-	setflag ENGINE_MAP_CARD
-	setflag ENGINE_RADIO_CARD
-	setflag ENGINE_POKEDEX
-	givepoke SPIRRIP, 5
+	; setflag ENGINE_POKEGEAR
+	; setflag ENGINE_MAP_CARD
+	; setflag ENGINE_RADIO_CARD
+	; setflag ENGINE_POKEDEX
+	; givepoke SPIRRIP, 5
 	;givepoke FURIOUSB, 100
 	;giveitem BRITE_CARD
 	;giveitem JUMP_3
