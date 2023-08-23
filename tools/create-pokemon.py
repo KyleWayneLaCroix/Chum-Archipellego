@@ -393,7 +393,7 @@ def updateDexEntryPointers(pokeConstants):
     with open("templatesforscripts/dex_entry_pointers.asm", "r") as f:
         newFile = f.read()
     for constant in pokeConstants:
-        formatted.append('	dw ' + constant.capitalize() + 'PokedexEntry')
+        formatted.append('	dba ' + constant.capitalize() + 'PokedexEntry')
     dexPointers = "\n".join(formatted)
     newFile = newFile.replace("<pokedexPointer>", dexPointers)
     print(newFile)
