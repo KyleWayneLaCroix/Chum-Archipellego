@@ -1,11 +1,11 @@
 
 	db "WaterBubble@" ; species name
-	dw 3, 40 ; height, weight
+	dw 12, 88 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "DEWPIDER can only"
+    next "breathe in water,"
+    next "and must bring a"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "bubble full of it"
+    next "on their head when"
+    next "going on land.@"

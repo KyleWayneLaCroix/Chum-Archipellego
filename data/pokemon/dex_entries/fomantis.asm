@@ -1,11 +1,11 @@
 
 	db "SickleGrass@" ; species name
-	dw 3, 15 ; height, weight
+	dw 12, 33 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "FOMANTIS spend"
+    next "the day absorbing"
+    next "sunlight."
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "At night, they"
+    next "search for a new"
+    next "nap spot.@"

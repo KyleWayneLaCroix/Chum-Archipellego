@@ -1,11 +1,11 @@
 
 	db "Puppy@" ; species name
-	dw 7, 190 ; height, weight
+	dw 204, 419 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "A brave and trust-"
+    next "-worthy dog, these"
+    next "GROWLITHE make"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "great pets, but"
+    next "will fiercely bark"
+    next "at strangers.@"

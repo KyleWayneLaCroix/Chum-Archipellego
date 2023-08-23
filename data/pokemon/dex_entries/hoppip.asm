@@ -1,11 +1,11 @@
 
 	db "Cottonweed@" ; species name
-	dw 4, 5 ; height, weight
+	dw 104, 11 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "HOPPIP are so"
+    next "weak, they often"
+    next "lose battles by a"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "stiff breeze"
+    next "blowing them away,"
+    next "losing by default.@"

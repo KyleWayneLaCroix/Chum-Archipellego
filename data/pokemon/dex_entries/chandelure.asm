@@ -1,11 +1,11 @@
 
 	db "Luring@" ; species name
-	dw 10, 343 ; height, weight
+	dw 303, 756 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "CHANDELURE will"
+    next "gather spirits"
+    next "into its flames."
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "These souls are"
+    next "burned away, left"
+    next "to wander.@"

@@ -1,11 +1,11 @@
 
 	db "Stakeout@" ; species name
-	dw 7, 142 ; height, weight
+	dw 204, 313 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "The signature"
+    next "#MON of a"
+    next "world leader."
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "GUMSHOOS has"
+    next "recently lost its"
+    next "popularity.@"

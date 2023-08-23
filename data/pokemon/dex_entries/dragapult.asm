@@ -1,11 +1,11 @@
 
 	db "Stealth@" ; species name
-	dw 30, 500 ; height, weight
+	dw 910, 1103 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Apparently the"
+    next "DREEPY living in"
+    next "its horns eagerly"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "await being"
+    next "launched like"
+    next "missiles.@"

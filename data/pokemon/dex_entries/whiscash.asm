@@ -1,11 +1,11 @@
 
 	db "Whiskers@" ; species name
-	dw 9, 236 ; height, weight
+	dw 211, 520 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "It makes its nest"
+    next "at the bottom of"
+    next "swamps, and will"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "eat anything -"
+    next "if it is alive,"
+    next "WHISCASH eats it.@"

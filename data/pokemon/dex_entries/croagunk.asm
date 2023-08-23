@@ -1,11 +1,11 @@
 
 	db "Toxic Mouth@" ; species name
-	dw 7, 230 ; height, weight
+	dw 204, 507 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Its cheeks hold"
+    next "poison sacs."
+    next "It tries to catch"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "foes off guard and"
+    next "hit them with a"
+    next "poison jab.@"

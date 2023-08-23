@@ -1,11 +1,11 @@
 
 	db "Flailing@" ; species name
-	dw 5, 68 ; height, weight
+	dw 108, 150 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Its fluffy fur is"
+    next "a delight to pet,"
+    next "but it can be very"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "dangerous to do so"
+    next "when it isn't in"
+    next "the mood.@"

@@ -1,11 +1,11 @@
 
 	db "Flame@" ; species name
-	dw 9, 250 ; height, weight
+	dw 211, 551 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "FLAREON's fluffy"
+    next "fur releases the"
+    next "massive amounts"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "of thermal heat"
+    next "and energy that it"
+    next "stores inside.@"

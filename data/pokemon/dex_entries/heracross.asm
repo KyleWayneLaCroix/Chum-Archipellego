@@ -1,11 +1,11 @@
 
 	db "Single Horn@" ; species name
-	dw 15, 540 ; height, weight
+	dw 411, 1191 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Its powerful legs"
+    next "and jaws give it"
+    next "the power to hurl"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "its foes over"
+    next "great distances"
+    next "with ease.@"

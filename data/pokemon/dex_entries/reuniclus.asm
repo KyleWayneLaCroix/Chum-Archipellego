@@ -1,11 +1,11 @@
 
 	db "Multiplying@" ; species name
-	dw 10, 201 ; height, weight
+	dw 303, 443 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Rumors say that"
+    next "drinking the fluid"
+    next "around REUNICLUS'"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "body will grant"
+    next "wisdom, but it is"
+    next "actually toxic.@"

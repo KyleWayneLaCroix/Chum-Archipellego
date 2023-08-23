@@ -1,11 +1,11 @@
 
 	db "Constraint@" ; species name
-	dw 6, 85 ; height, weight
+	dw 112, 187 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "By raising its"
+    next "ears, it releases"
+    next "enough psychic"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "power to grind a"
+    next "10-ton truck into"
+    next "dust.@"

@@ -1,11 +1,11 @@
 
 	db "Caring@" ; species name
-	dw 12, 316 ; height, weight
+	dw 311, 697 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "A special membrane"
+    next "on alomomola can"
+    next "heal the wounds of"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "people & #MON,"
+    next "so they are hunted"
+    next "for medicine.@"

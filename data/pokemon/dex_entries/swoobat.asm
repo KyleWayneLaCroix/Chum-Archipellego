@@ -1,11 +1,11 @@
 
 	db "Courting@" ; species name
-	dw 9, 105 ; height, weight
+	dw 211, 231 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "No one is sure if"
+    next "WOOBAT grow eyes"
+    next "upon evolving or"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "if they were"
+    next "hidden within the"
+    next "WOOBAT fur.@"

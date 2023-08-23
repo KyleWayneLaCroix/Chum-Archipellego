@@ -1,11 +1,11 @@
 
 	db "Constraint@" ; species name
-	dw 6, 85 ; height, weight
+	dw 112, 187 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Female MEOWSTIC"
+    next "are often less"
+    next "friendly than the"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "males, and will"
+    next "use psychic blasts"
+    next "to get their way.@"

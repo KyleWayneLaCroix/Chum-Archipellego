@@ -1,11 +1,11 @@
 
 	db "Twin Tusk@" ; species name
-	dw 25, 2910 ; height, weight
+	dw 802, 6417 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "A frozen one was"
+    next "dug up from soil"
+    next "dating back over"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "10,000 years."
+    next "It woke up to much"
+    next "amazement.@"

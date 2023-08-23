@@ -1,11 +1,11 @@
 
 	db "Cottonweed@" ; species name
-	dw 8, 30 ; height, weight
+	dw 207, 66 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "JUMPLUFF can be"
+    next "found all over the"
+    next "world due to its"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "ability to control"
+    next "its fluff to drift"
+    next "on any wind.@"

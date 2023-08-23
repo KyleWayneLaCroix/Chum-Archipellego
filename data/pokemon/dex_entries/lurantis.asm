@@ -1,11 +1,11 @@
 
 	db "BloomSickle@" ; species name
-	dw 9, 185 ; height, weight
+	dw 211, 408 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "It masquerades as"
+    next "a BUG #MON to"
+    next "lure actual bugs"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "near it, so that"
+    next "it can slice them"
+    next "with its sickles.@"

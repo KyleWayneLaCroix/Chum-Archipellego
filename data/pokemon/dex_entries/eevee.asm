@@ -1,11 +1,11 @@
 
 	db "Evolution@" ; species name
-	dw 3, 65 ; height, weight
+	dw 12, 143 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Its irregularly"
+    next "configured DNA is"
+    next "unstable, causing"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "it to evolve from"
+    next "contact with many"
+    next "evolution stones.@"

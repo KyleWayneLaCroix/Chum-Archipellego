@@ -1,11 +1,11 @@
 
 	db "Brutal Star@" ; species name
-	dw 7, 145 ; height, weight
+	dw 204, 320 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Those attacked by"
+    next "Toxapex's poison"
+    next "will spend three"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "days and nights in"
+    next "intense pain, not"
+    next "able to sleep.@"

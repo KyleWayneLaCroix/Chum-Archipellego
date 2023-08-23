@@ -1,11 +1,11 @@
 
 	db "Big Horn@" ; species name
-	dw 14, 712 ; height, weight
+	dw 407, 1570 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "The strange shape"
+    next "of its antlers can"
+    next "cause dizziness in"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "those who gaze at"
+    next "them for too long."
+    next "nan@"

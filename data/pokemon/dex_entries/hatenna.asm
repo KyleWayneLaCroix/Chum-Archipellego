@@ -1,11 +1,11 @@
 
 	db "Calm@" ; species name
-	dw 4, 34 ; height, weight
+	dw 104, 75 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Via the protrusion"
+    next "on its head, it"
+    next "feels the emotions"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "of all nearby"
+    next "creatures. So it"
+    next "prefers solitude.@"

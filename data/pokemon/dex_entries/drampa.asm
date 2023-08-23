@@ -1,11 +1,11 @@
 
-	db "Placid@" ; species name
-	dw 30, 1850 ; height, weight
+	db "nan@" ; species name
+	dw 910, 4079 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "DRAMPA, much like"
+    next "PUFF, is friend to"
+    next "children and will"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "protect them from"
+    next "danger with its"
+    next "intense power.@"

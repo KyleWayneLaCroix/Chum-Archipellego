@@ -1,11 +1,11 @@
 
 	db "Illuminator@" ; species name
-	dw 10, 115 ; height, weight
+	dw 303, 254 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Its spores flicker"
+    next "with light, luring"
+    next "in prey, putting"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "them to sleep, so"
+    next "it can drain away"
+    next "their vitality.@"

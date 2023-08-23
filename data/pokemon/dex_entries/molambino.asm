@@ -1,11 +1,11 @@
 
 	db "Sunfish@" ; species name
-	dw 1, 1 ; height, weight
+	dw 109, 265 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "This little beta"
+    next "fish #MON has"
+    next "surprisingly hard"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "fins and body, so"
+    next "it is tougher than"
+    next "its cute exterior.@"

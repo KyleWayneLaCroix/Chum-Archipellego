@@ -1,11 +1,11 @@
 
 	db "Gas@" ; species name
-	dw 13, 1 ; height, weight
+	dw 403, 2 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "GASTLY has a body"
+    next "made of poisonous"
+    next "gases that can"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "suffocate any"
+    next "creature that it"
+    next "engulfs.@"

@@ -1,11 +1,11 @@
 
 	db "Candle@" ; species name
-	dw 3, 31 ; height, weight
+	dw 100, 68 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "People and #-"
+    next "MON often follow"
+    next "LITWICK's light as"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "a guide, but it"
+    next "instead is feeding"
+    next "off their energy.@"

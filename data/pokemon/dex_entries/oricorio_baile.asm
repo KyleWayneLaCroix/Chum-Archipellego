@@ -1,11 +1,11 @@
 
 	db "Dancing@" ; species name
-	dw 6, 34 ; height, weight
+	dw 112, 75 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "It wins the heart"
+    next "of its enemies"
+    next "with its dance"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "before striking"
+    next "with its blazing"
+    next "flames.@"

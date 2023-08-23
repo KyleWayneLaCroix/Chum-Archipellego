@@ -1,11 +1,11 @@
 
 	db "Howitzer@" ; species name
-	dw 13, 353 ; height, weight
+	dw 403, 778 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Their enormous"
+    next "claws can launch"
+    next "cannonballs of"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "water powerful"
+    next "enough to pierce"
+    next "tanker hulls.@"

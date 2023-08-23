@@ -1,11 +1,11 @@
 
 	db "Battery@" ; species name
-	dw 5, 105 ; height, weight
+	dw 108, 231 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Its body is full"
+    next "of electricity and"
+    next "it is said that a"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "#MON PROFESSOR"
+    next "has used them to"
+    next "power tech.@"

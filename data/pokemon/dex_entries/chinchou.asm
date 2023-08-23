@@ -1,11 +1,11 @@
 
 	db "Angler@" ; species name
-	dw 5, 120 ; height, weight
+	dw 108, 265 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Its two antennae"
+    next "glow softly to"
+    next "lure in prey,"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "making it a useful"
+    next "#MON for night"
+    next "fishing.@"

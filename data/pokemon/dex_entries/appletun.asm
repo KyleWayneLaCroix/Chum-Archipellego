@@ -1,11 +1,11 @@
 
 	db "AppleNectar@" ; species name
-	dw 4, 130 ; height, weight
+	dw 104, 287 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "The sweet nectar"
+    next "that covers its"
+    next "body is especially"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "yummy on its back."
+    next "Children used to"
+    next "eat it as a treat.@"

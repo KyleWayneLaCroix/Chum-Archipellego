@@ -1,11 +1,11 @@
 
 	db "Poison Gas@" ; species name
-	dw 30, 160 ; height, weight
+	dw 910, 353 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "This WEEZING form"
+    next "can be found in"
+    next "areas where the"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "air is polluted by"
+    next "factories and big"
+    next "businesses.@"

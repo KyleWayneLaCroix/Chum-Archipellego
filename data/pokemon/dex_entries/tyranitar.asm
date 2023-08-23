@@ -1,11 +1,11 @@
 
 	db "Armor@" ; species name
-	dw 20, 2020 ; height, weight
+	dw 607, 4454 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "So overwhelmingly"
+    next "powerful, it can"
+    next "level a mountain"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "to make itself a"
+    next "new nest with no"
+    next "regard for others.@"

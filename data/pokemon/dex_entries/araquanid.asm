@@ -1,11 +1,11 @@
 
 	db "WaterBubble@" ; species name
-	dw 18, 820 ; height, weight
+	dw 511, 1808 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "This water spider"
+    next "will drown its"
+    next "prey with water"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "bubbles in order"
+    next "to eat them later"
+    next "at its leisure.@"

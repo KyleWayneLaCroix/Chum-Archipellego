@@ -1,11 +1,11 @@
 
 	db "Kitten@" ; species name
-	dw 6, 110 ; height, weight
+	dw 112, 243 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Fascinated by"
+    next "moving objects,"
+    next "SKITTY are often"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "seen chasing their"
+    next "own tails for"
+    next "hours and hours.@"

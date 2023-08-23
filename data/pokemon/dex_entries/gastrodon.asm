@@ -1,11 +1,11 @@
 
 	db "Sea Slug@" ; species name
-	dw 9, 299 ; height, weight
+	dw 211, 659 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Its body lacks any"
+    next "bones, making it"
+    next "quite pliable."
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "If any part of its"
+    next "body is torn off,"
+    next "it will grow back.@"

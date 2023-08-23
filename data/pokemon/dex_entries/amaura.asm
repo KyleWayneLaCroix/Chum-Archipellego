@@ -1,11 +1,11 @@
 
 	db "Tundra@" ; species name
-	dw 13, 252 ; height, weight
+	dw 403, 556 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Revived from an"
+    next "ice age fossil,"
+    next "this #MON will"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "likely go extinct"
+    next "again due to"
+    next "global warming.@"

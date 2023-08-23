@@ -1,11 +1,11 @@
 
 	db "Fruit@" ; species name
-	dw 7, 82 ; height, weight
+	dw 204, 181 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "STEENEE bounces"
+    next "through forests"
+    next "energetically."
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "The rind that"
+    next "peels off of its"
+    next "body is medicinal.@"

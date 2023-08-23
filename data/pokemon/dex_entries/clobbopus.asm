@@ -1,11 +1,11 @@
 
 	db "Tantrum@" ; species name
-	dw 6, 40 ; height, weight
+	dw 112, 88 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "A very curious"
+    next "#MON, it will"
+    next "investigate things"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "by punching them"
+    next "with its strong"
+    next "tentacles.@"

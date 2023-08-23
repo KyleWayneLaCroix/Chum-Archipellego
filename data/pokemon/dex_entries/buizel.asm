@@ -1,11 +1,11 @@
 
 	db "Sea Weasel@" ; species name
-	dw 7, 295 ; height, weight
+	dw 204, 650 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "It has a flotation"
+    next "sac that keeps it"
+    next "above water as it"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "sleeps and lazily"
+    next "floats along many"
+    next "rivers.@"

@@ -1,11 +1,11 @@
 
 	db "Prototurtle@" ; species name
-	dw 7, 165 ; height, weight
+	dw 204, 364 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Long extinct, this"
+    next "#MON lives in"
+    next "the ARCHIPELAGO"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "thanks to a glitch"
+    next "letting it swap"
+    next "with SQUIRTLE.@"

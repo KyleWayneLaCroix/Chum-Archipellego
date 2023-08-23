@@ -1,11 +1,11 @@
 
 	db "Tombstones@" ; species name
-	dw 1, 1 ; height, weight
+	dw 350, 2400 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "This #MON poss-"
+    next "-esses entire"
+    next "family plots."
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "No one knows"
+    next "how it can control"
+    next "so many graves.@"

@@ -1,11 +1,11 @@
 
 	db "Sea Slug@" ; species name
-	dw 3, 63 ; height, weight
+	dw 12, 139 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Its colors and"
+    next "shapes vary from"
+    next "region to region."
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "Sinnoh has two,"
+    next "while CHUM ARCHI-"
+    next "-PELAGO has one.@"

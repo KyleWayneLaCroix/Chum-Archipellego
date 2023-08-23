@@ -1,11 +1,11 @@
 
 	db "Fancy Duck@" ; species name
-	dw 1, 1 ; height, weight
+	dw 210, 762 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "This mysterious"
+    next "masked #MON"
+    next "is a symbol of"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "justice adopted by"
+    next "crimefighters from"
+    next "many regions.@"

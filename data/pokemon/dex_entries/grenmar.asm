@@ -1,11 +1,11 @@
 
 	db "Danger Seal@" ; species name
-	dw 1, 1 ; height, weight
+	dw 307, 1984 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "The flaming ball"
+    next "it balances on its"
+    next "nose is actually a"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "bomb from the war."
+    next "Its balance keeps"
+    next "it from exploding.@"

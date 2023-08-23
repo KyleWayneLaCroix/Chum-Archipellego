@@ -1,11 +1,11 @@
 
 	db "Wild Duck@" ; species name
-	dw 8, 1170 ; height, weight
+	dw 207, 2579 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Only by mastering"
+    next "the blade can a"
+    next "FARFETCH'D evolve."
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "It's said that if"
+    next "its leek withers,"
+    next "it will retire.@"

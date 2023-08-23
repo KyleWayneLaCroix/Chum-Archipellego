@@ -1,11 +1,11 @@
 
 	db "Larva@" ; species name
-	dw 4, 44 ; height, weight
+	dw 104, 97 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "It uses its strong"
+    next "jaws to open up"
+    next "trees and suck out"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "the sap inside."
+    next "It defends itself"
+    next "with small jolts.@"

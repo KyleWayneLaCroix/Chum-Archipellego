@@ -1,11 +1,11 @@
 
 	db "Loyal Dog@" ; species name
-	dw 9, 147 ; height, weight
+	dw 211, 324 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "The cape-like fur"
+    next "on its back is"
+    next "very hard, serving"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "as powerful armor"
+    next "and protecting the"
+    next "HERDIER.@"

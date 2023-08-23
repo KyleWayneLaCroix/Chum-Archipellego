@@ -1,11 +1,11 @@
 
 	db "Scratch Cat@" ; species name
-	dw 4, 75 ; height, weight
+	dw 104, 165 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "This meowth has"
+    next "grown so tough"
+    next "from its journeys "
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "that its fur and"
+    next "claws have turned"
+    next "to hard iron.@"

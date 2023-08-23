@@ -1,11 +1,11 @@
 
 	db "Rock Inn@" ; species name
-	dw 3, 145 ; height, weight
+	dw 12, 320 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "When it finds a "
+    next "stone appealing,"
+    next "it will create a"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "hole in it to live"
+    next "inside. This kills"
+    next "the GEODUDE.@"

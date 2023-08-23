@@ -1,11 +1,11 @@
 
 	db "Ogre Darner@" ; species name
-	dw 19, 515 ; height, weight
+	dw 603, 1136 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "This bug is so"
+    next "large that it can"
+    next "transport a full-"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "-grown adult on"
+    next "its back at a very"
+    next "high speed.@"

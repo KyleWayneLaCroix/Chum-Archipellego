@@ -1,11 +1,11 @@
 
 	db "Cell@" ; species name
-	dw 3, 10 ; height, weight
+	dw 12, 22 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Due to the unusal"
+    next "liquid that their"
+    next "bodies float in,"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "they can survive"
+    next "in any environment"
+    next "without suffering.@"

@@ -1,11 +1,11 @@
 
 	db "Sand Castle@" ; species name
-	dw 13, 2500 ; height, weight
+	dw 403, 5513 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Buried beneath the"
+    next "castle are masses"
+    next "of dried-up bones"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "from those whose"
+    next "vitality it has"
+    next "drained.@"

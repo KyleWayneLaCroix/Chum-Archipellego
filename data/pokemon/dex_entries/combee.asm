@@ -1,11 +1,11 @@
 
 	db "Tiny Bee@" ; species name
-	dw 100, 120 ; height, weight
+	dw 3210, 265 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "A trio of COMBEE"
+    next "are together from"
+    next "birth, working to"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "collect sweet"
+    next "nector to their"
+    next "VESPIQUEN.@"

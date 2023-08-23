@@ -1,11 +1,11 @@
 
 	db "Sun@" ; species name
-	dw 1, 1 ; height, weight
+	dw 503, 1014 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "When volcanic ash"
+    next "covered the skies"
+    next "in 1980 WASHINGTON"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "VOLCARONA's fire"
+    next "provided a brief"
+    next "replacement sun.@"
