@@ -413,7 +413,7 @@ GearCity_MapEvents:
 	warp_event 25, 15, OLD_FISHER_FELLOW_HOUSE, 1
 	warp_event 19, 19, GEAR_CITY_CHRIS_WHILTEN_HOUSE, 1
 	warp_event 17,  5, GEAR_CITY_NORTH_FOREST_GATE, 1
-	warp_event 23, 23, GEAR_CITY_HOUSE, 1
+	; warp_event 23, 23, GEAR_CITY_TRAINER_CLUB, 1
 
 	def_coord_events
 	coord_event 17,  6, SCENE_GEARCITY_NEED_FOAMS, GearCityGatekeeperStopsYouScript
