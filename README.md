@@ -1,6 +1,10 @@
 # Pokémon Chum Archipelago
 
-This is a hack of Pokemon Crystal about me, my friend Brian college days, and unfinished projects.
+This is a hack of Pokemon Crystal about me, my friend Brian, college days, and unfinished projects.
+
+It was going to be a single gym leader swap, but it got out of control.
+
+I may make Christmas DLC, but overall this is now complete.
 
 ## Disassembly
 
