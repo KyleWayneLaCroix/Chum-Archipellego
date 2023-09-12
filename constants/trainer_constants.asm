@@ -402,7 +402,7 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 	const NICK
 	const ANDREW
 	const CALVIN
-	const JACK_SIMON
+	const JACK_PETER
 	const LOGAN
 	const BRENT
 

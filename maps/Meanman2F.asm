@@ -9,7 +9,7 @@
 	const MEEMAN2F_JASMINE
 	const MEEMAN2F_SCOTTY
 	const MEEMAN2F_HOLLOWY
-	const MEEMAN2F_JACK_SIMON
+	const MEEMAN2F_JACK_PETER
 	const MEEMAN2F_JOHN_MARTIN
 	const MEEMAN2F_DR_HRACH
 	const MEEMAN2F_DAVID_ANANT
@@ -151,31 +151,31 @@ DrAnantScript:
 	closetext
 	end
 
-JackSimonScript:
-	trainer WEIRDO, JACK_SIMON, EVENT_BEAT_WEIRDO_JACK_SIMON, JackSimonSeenText, JackSimonBeatenText, 0, .Script
+JackPeterScript:
+	trainer WEIRDO, JACK_PETER, EVENT_BEAT_WEIRDO_JACK_PETER, JackPeterSeenText, JackPeterBeatenText, 0, .Script
 
 .Script:
 	opentext
-	writetext JackSimonWantToHear
+	writetext JackPeterWantToHear
 	yesorno
 	iffalse .RefuseRealityCheck
-	writetext JackSimonRealityCheck1
+	writetext JackPeterRealityCheck1
 	yesorno
 	iftrue .RealityCheck2
-	writetext JackSimonDontFeelInControl
+	writetext JackPeterDontFeelInControl
 	waitbutton
 .RealityCheck2:
-	writetext JackSimonRealityCheck2
+	writetext JackPeterRealityCheck2
 	waitbutton
 	closetext
 	pause 255
 	opentext
-	writetext JackSimonRealityCheck3
+	writetext JackPeterRealityCheck3
 	waitbutton
 	closetext
 	end
 .RefuseRealityCheck:
-	writetext JackSimonRealityRefusal
+	writetext JackPeterRealityRefusal
 	waitbutton
 	closetext
 	end
@@ -786,7 +786,7 @@ JohnMartinText:
 	line "-problematic game"
 	done
 
-JackSimonWantToHear:
+JackPeterWantToHear:
 	text "JACK SIMON: Do"
 	line "you want to"
 	cont "hear my magnum"
@@ -796,7 +796,7 @@ JackSimonWantToHear:
 	line "the world."
 	done
 
-JackSimonRealityRefusal:
+JackPeterRealityRefusal:
 	text "This will be the"
 	line "biggest mistake"
 	cont "of your life."
@@ -808,7 +808,7 @@ JackSimonRealityRefusal:
 	cont "universe."
 	done
 
-JackSimonSeenText:
+JackPeterSeenText:
 	text "JACK SIMON: Man,"
 	line "I got writer's"
 	cont "block or somethin"
@@ -820,7 +820,7 @@ JackSimonSeenText:
 	cont "knocked loose."
 	done
 
-JackSimonBeatenText:
+JackPeterBeatenText:
 	text "THAT DID IT."
 
 	para "I have pierced"
@@ -831,12 +831,12 @@ JackSimonBeatenText:
 	line "magnum opus."
 	done
 
-JackSimonRealityCheck1:
+JackPeterRealityCheck1:
 	text "Alright, here's"
 	line "my masterpiece:"
 
 	para "Reality Check"
-	line "    by Jack Simon"
+	line "    by Jack Peter"
 
 	para "Take a deep"
 	line "breath."
@@ -867,14 +867,14 @@ JackSimonRealityCheck1:
 	cont "destiny?"
 	done
 
-JackSimonDontFeelInControl:
+JackPeterDontFeelInControl:
 	text "Well, you better"
 	line "keep listinen'"
 	cont "bud, cause you"
 	cont "will soon."
 	done
 
-JackSimonRealityCheck2:
+JackPeterRealityCheck2:
 	text "You may not"
 	line "believe destiny,"
 	cont "but I do."
@@ -907,7 +907,7 @@ JackSimonRealityCheck2:
 	cont "here are infinite"
 	done
 
-JackSimonRealityCheck3:
+JackPeterRealityCheck3:
 	text "There is no limit"
 	line "to who you can"
 	cont "become...."
@@ -1282,7 +1282,7 @@ Meanman2F_MapEvents:
 	object_event 18, 14, SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 0, JasmineHScript, 0
 	object_event 10, 26, SPRITE_PRYCE, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 0, ScottyScript, 0
 	object_event 23, 21, SPRITE_MOM, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 0, HollowyScript, 0
-	object_event 14, 22, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 0, JackSimonScript, 0
+	object_event 14, 22, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 0, JackPeterScript, 0
 	object_event 18, 26, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, JohnMartinScript, 0
 	object_event  6, 20, SPRITE_GENTLEMAN, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, DrHrachScript, 0
 	object_event  4,  2, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, DrAnantScript, 0
