@@ -1,11 +1,11 @@
 
 	db "Mitosis@" ; species name
-	dw 6, 80 ; height, weight
+	dw 112, 176 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "DUOSION minds are"
+    next "divided in two."
+    next "This can lead to"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "them attempting"
+    next "two different"
+    next "actions at once.@"

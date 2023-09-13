@@ -1,11 +1,11 @@
 
 	db "Rock Skin@" ; species name
-	dw 6, 720 ; height, weight
+	dw 112, 1588 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "It feeds on soil."
+    next "After it has eaten"
+    next "a large mountain's"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "worth, it will"
+    next "fall asleep so it"
+    next "can grow.@"

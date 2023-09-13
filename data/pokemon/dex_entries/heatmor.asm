@@ -1,11 +1,11 @@
 
 	db "Anteater@" ; species name
-	dw 14, 580 ; height, weight
+	dw 407, 1279 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "A flame serves as"
+    next "its tongue, which"
+    next "melts through the"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "hard shell of a"
+    next "DURANT so it can"
+    next "be eaten.@"

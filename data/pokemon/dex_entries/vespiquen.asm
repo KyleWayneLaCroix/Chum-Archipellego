@@ -1,11 +1,11 @@
 
 	db "Beehive@" ; species name
-	dw 311, 849 ; height, weight
+	dw 10200, 1872 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Its abdomen is a"
+    next "honeycomb for its"
+    next "grubs, feeding"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "them on the honey"
+    next "collected by its"
+    next "loyal COMBEE.@"

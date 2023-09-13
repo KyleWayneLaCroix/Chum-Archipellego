@@ -1,11 +1,11 @@
 
 	db "Gas@" ; species name
-	dw 16, 1 ; height, weight
+	dw 503, 2 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "HAUNTER eats away"
+    next "at a foe's life"
+    next "force with each"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "lick of its large,"
+    next "gaseous tongue"
+    next "until death.@"

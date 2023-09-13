@@ -1,11 +1,11 @@
 
 	db "Sword Dog@" ; species name
-	dw 1, 1 ; height, weight
+	dw 902, 7826 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Armed with a"
+    next "weapon it used in"
+    next "ancient times,"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "this #MON "
+    next "needs only one"
+    next "strike to win.@"

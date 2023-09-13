@@ -1,11 +1,11 @@
 
 	db "Strong Arm@" ; species name
-	dw 21, 1350 ; height, weight
+	dw 611, 2977 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "This #MON is"
+    next "so strong that it"
+    next "can crush the"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "spine of trainers"
+    next "with a hug,"
+    next "killing instantly.@"

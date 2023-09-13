@@ -251,13 +251,14 @@ MartShadyVolcano:
 	db -1 ; end
 
 MartMaybeVillage:
-	db 6 ; # items
+	db 7 ; # items
 	db REVIVE
 	db ELIXER
 	db FULL_HEAL
 	db FULL_RESTORE
 	db DUSK_STONE
 	db UP_GRADE
+	db BETA_STONE
 	db -1 ; end
 
 MartTheBetweens:

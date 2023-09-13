@@ -1,11 +1,11 @@
 
 	db "Fruit@" ; species name
-	dw 12, 214 ; height, weight
+	dw 311, 472 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "TSAREENA is very "
+    next "aggressive, but"
+    next "it is unknown if"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "this was always"
+    next "true, or just due"
+    next "to creeps.@"

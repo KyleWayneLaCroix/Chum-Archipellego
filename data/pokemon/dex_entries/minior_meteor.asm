@@ -1,11 +1,11 @@
 
 	db "Meteor@" ; species name
-	dw 1, 1 ; height, weight
+	dw 100, 882 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Originally making"
+    next "its home in the"
+    next "ozone layer, it"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "hurtles down when"
+    next "when its shell"
+    next "grows too heavy.@"

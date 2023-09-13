@@ -1,11 +1,11 @@
 
 	db "Light@" ; species name
-	dw 12, 225 ; height, weight
+	dw 311, 496 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Nicknamed the"
+    next "Deep-Sea Star,"
+    next "this #MON is "
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "known for flashing"
+    next "bright lights to"
+    next "blind its prey.@"

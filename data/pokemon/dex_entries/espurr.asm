@@ -1,11 +1,11 @@
 
 	db "Restraint@" ; species name
-	dw 3, 35 ; height, weight
+	dw 12, 77 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "ESPURR's blank"
+    next "stare is due to"
+    next "it having to spend"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "all of its energy"
+    next "controlling its"
+    next "vast power.@"

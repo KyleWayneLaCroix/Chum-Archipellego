@@ -1,11 +1,11 @@
 
 	db "Neon@" ; species name
-	dw 12, 240 ; height, weight
+	dw 311, 529 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "You can look down"
+    next "into the deep sea"
+    next "to see groups of"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "LUMINEON glowing"
+    next "and looking like"
+    next "shining stars.@"

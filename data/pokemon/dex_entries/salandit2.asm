@@ -1,11 +1,11 @@
 
-	db "ToxicLizard@" ; species name
-	dw 6, 48 ; height, weight
+	db "Warning@" ; species name
+	dw 505, 555 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "It would be really"
+    next "funny if you found"
+    next "this #MON"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "without going to"
+    next "the Campus mission"
+    next "for the event.@"

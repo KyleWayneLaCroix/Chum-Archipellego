@@ -1,11 +1,11 @@
 
 	db "Virtual@" ; species name
-	dw 8, 365 ; height, weight
+	dw 207, 805 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "This digital #-"
+    next "-MON is artificial"
+    next "and moves freely"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "in cyberspace."
+    next "It hospitalized"
+    next "685 children.@"

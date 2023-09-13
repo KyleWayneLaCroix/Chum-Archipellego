@@ -196,7 +196,7 @@
 	const SMALL_KEY    ; bc
 	const JUMP_2       ; bd
 	const JUMP_3       ; be
-	const ITEM_BF      ; bf
+	const BETA_STONE   ; bf
 	const ITEM_C0      ; c0
 DEF NUM_ITEMS EQU const_value - 1
 

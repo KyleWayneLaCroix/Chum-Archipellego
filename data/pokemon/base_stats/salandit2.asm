@@ -3,7 +3,7 @@
 	db  48,  44,  40,  77,  71,  40
 	;   hp  atk  def  spd  sat  sdf
 
-	db POISON, FIRE ; type
+	db GLITCH, NORMAL ; type
 	db 120 ; catch rate
 	db 64 ; base exp
 	db NO_ITEM, NO_ITEM ; items

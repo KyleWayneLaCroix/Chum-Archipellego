@@ -168,7 +168,7 @@ TracksJukeboxText:
 TracksHelmsmenText:
 	text "A rack full of"
 	line "copies of the"
-	cont "DAILY HELMSMAN."
+	cont "DAILY FREEMAN."
 
 	para "It doesn't look"
 	line "like anyone has"

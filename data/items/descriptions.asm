@@ -191,7 +191,7 @@ ItemDescriptions:
 	dw SmallKeyDesc
 	dw JumpDesc
 	dw JumpDesc
-	dw TeruSama26Desc
+	dw BetaStoneDesc
 	dw TeruSama27Desc
 	assert_table_length NUM_ITEMS
 	dw TeruSama26Desc
@@ -358,6 +358,10 @@ WaterStoneDesc:
 LinkCableDesc:
 	db   "Evolves certain"
 	next "kinds of #MON.@"
+
+BetaStoneDesc:
+	db   "A SPACEWORLD"
+	next "souvenier.@"
 
 HPUpDesc:
 	db   "Raises the HP of"
@@ -938,8 +942,8 @@ BigKeyDesc:
 	next "ROOM.@"
 
 UpGradeDesc:
-	db   "A mysterious box"
-	next "made by SILPH CO.@"
+	db   "A strange USB"
+	next "device.@"
 
 BerryDesc:
 	db   "A self-restore"

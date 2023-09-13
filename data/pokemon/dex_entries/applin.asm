@@ -1,11 +1,11 @@
 
 	db "Apple Core@" ; species name
-	dw 2, 5 ; height, weight
+	dw 8, 11 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "It spends its life"
+    next "inside an apple."
+    next "Bird #MON, its"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "natural enemies,"
+    next "are foold by its"
+    next "appearance.@"

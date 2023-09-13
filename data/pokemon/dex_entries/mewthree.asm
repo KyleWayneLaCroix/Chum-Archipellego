@@ -1,11 +1,11 @@
 
 	db "Poke God@" ; species name
-	dw 24, 3336 ; height, weight
+	dw 611, 3100 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "The second attempt"
+    next "at cloning a MEW."
+    next "It uses powerful"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "psychic abilities"
+    next "and fighting"
+    next "techniques.@"

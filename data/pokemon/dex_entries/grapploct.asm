@@ -1,11 +1,11 @@
 
 	db "Jujitsu@" ; species name
-	dw 16, 390 ; height, weight
+	dw 503, 860 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Its body is made"
+    next "of nothing but"
+    next "muscle."
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "Once grappled, no"
+    next "one can escape its"
+    next "suctioned grasp.@"

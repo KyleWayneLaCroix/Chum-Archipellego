@@ -1,11 +1,11 @@
 
 	db "Meteor@" ; species name
-	dw 1, 1 ; height, weight
+	dw 100, 7 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "It eats dust in"
+    next "the atmosphere."
+    next "The composition"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "of the dust is"
+    next "what determines"
+    next "its shell color.@"

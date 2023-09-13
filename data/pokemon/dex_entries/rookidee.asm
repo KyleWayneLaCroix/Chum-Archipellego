@@ -1,11 +1,11 @@
 
 	db "Tiny Bird@" ; species name
-	dw 2, 18 ; height, weight
+	dw 8, 40 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Both reckless and"
+    next "brave, ROOKIDEE"
+    next "will challenge any"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "opponent in"
+    next "order to grow"
+    next "stronger.@"

@@ -1,11 +1,11 @@
 
 	db "Sage@" ; species name
-	dw 15, 760 ; height, weight
+	dw 411, 1676 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Known for its"
+    next "intelligence, this"
+    next "#MON will not"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "obey any trainer"
+    next "it thinks isn't as"
+    next "smart as it.@"

@@ -1,11 +1,11 @@
 
 	db "Arm Thrust@" ; species name
-	dw 23, 2538 ; height, weight
+	dw 707, 5596 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "What appears to be"
+    next "fat is actually"
+    next "pure muscle."
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "A scandal erupted"
+    next "when one became a"
+    next "sumo champion.@"

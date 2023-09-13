@@ -1,11 +1,11 @@
 
 	db "Sea Weasel@" ; species name
-	dw 11, 335 ; height, weight
+	dw 307, 739 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Floatzel is common"
+    next "at summer camps"
+    next "as staff often"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "raise them to help"
+    next "serve as life-"
+    next "-guards.@"

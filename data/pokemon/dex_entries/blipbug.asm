@@ -1,11 +1,11 @@
 
 	db "Larva@" ; species name
-	dw 4, 80 ; height, weight
+	dw 104, 176 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Using microscopic"
+    next "hairs all along"
+    next "its body, BLIPBUG"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "is constantly"
+    next "aware of its"
+    next "surroundings.@"

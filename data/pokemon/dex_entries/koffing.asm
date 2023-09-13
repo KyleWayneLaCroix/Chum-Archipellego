@@ -1,11 +1,11 @@
 
 	db "Poison Gas@" ; species name
-	dw 6, 10 ; height, weight
+	dw 112, 22 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "The lighter-than-"
+    next "-air gases in its"
+    next "body don't just"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "stink, but keep"
+    next "it aloft. They are"
+    next "also explosive.@"

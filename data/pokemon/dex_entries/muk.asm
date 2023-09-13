@@ -1,11 +1,11 @@
 
 	db "Sludge@" ; species name
-	dw 10, 520 ; height, weight
+	dw 303, 1147 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "The vivid colors"
+    next "on this MUK's body"
+    next "is caused by the"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "wide variety of"
+    next "chemicals in its"
+    next "body due to diet.@"

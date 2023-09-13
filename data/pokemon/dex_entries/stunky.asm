@@ -1,11 +1,11 @@
 
 	db "Skunk@" ; species name
-	dw 4, 192 ; height, weight
+	dw 104, 423 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "The stench from"
+    next "a STUNKY's anal"
+    next "glands can stick"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "on another for up"
+    next "to 24 hours and"
+    next "ruins clothes.@"

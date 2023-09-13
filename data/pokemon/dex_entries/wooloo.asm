@@ -1,11 +1,11 @@
 
 	db "Sheep@" ; species name
-	dw 6, 60 ; height, weight
+	dw 200, 132 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Its fleece is so"
+    next "thick that no one"
+    next "knows what a"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "WOOLOO looks"
+    next "like under all the"
+    next "wool.@"

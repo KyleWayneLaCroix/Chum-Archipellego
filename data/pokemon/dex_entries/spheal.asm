@@ -1,11 +1,11 @@
 
 	db "Clap@" ; species name
-	dw 8, 395 ; height, weight
+	dw 207, 871 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "SPHEAL is so fat"
+    next "that it will roll"
+    next "everywhere instead"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "of walking."
+    next "No one knows if it"
+    next "even can walk.@"

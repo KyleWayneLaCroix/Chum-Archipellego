@@ -30,7 +30,7 @@ MapScenes::
 	scene_var UNIVERCITY_MART_1F,           wUnivercityMart1FSceneID
 	scene_var EEVEE_RANCH_EXTERIOR,         wEeveeRanchExteriorSceneID
 	scene_var EEVEE_RANCH_INTERIOR,         wEeveeRanchInteriorSceneID
-	scene_var MEEMAN_2F,                    wMeeman2FSceneID
+	scene_var MEEMAN_2F,                    wMeanman2FSceneID
 	scene_var JUNGLE_GATE,                  wJungleGateSceneID
 
 	scene_var INDIGO_PLATEAU_POKECENTER_1F, wIndigoPlateauPokecenter1FSceneID

@@ -1,11 +1,11 @@
 
 	db "Shadow@" ; species name
-	dw 15, 405 ; height, weight
+	dw 411, 893 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "GENGAR hides in"
+    next "shadows, dropping"
+    next "the temperature by"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "10 degrees. You"
+    next "cannot escape a"
+    next "GENGAR. Give up.@"

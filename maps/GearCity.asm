@@ -162,6 +162,9 @@ CityGearHQSignScript:
 FutureConstructionSignScript:
 	jumptext FutureConstructionSignText
 
+GearCityTrainerClubSignScript:
+	jumptext GearCityTrainerClubSignText
+
 GearCityGateKeeperRunsToYouMovement:
 	step LEFT
 	step LEFT
@@ -400,6 +403,15 @@ GearCityGentlemanText:
 	cont "work."
 	done
 
+GearCityTrainerClubSignText:
+	text "#MON TRAINER"
+	cont "     CLUB"
+
+	para "Opening delayed"
+	line "due to technical"
+	cont "difficulties..."
+	done
+
 GearCity_MapEvents:
 	db 0, 0 ; filler
 
@@ -424,6 +436,7 @@ GearCity_MapEvents:
 	bg_event  4, 16, BGEVENT_READ, CityGearHQSignScript
 	bg_event 19, 10, BGEVENT_READ, FutureConstructionSignScript
 	bg_event  9, 12, BGEVENT_READ, CityGearHQCardKeySlot
+	bg_event 23, 24, BGEVENT_READ, GearCityTrainerClubSignScript
 
 
 	def_object_events

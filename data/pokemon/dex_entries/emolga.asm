@@ -1,11 +1,11 @@
 
 	db "SkySquirrel@" ; species name
-	dw 4, 50 ; height, weight
+	dw 104, 110 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "The PIKACHU of"
+    next "UNOVA, this"
+    next "flying squirrel is"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "valued as a pet"
+    next "for children of"
+    next "all ages.@"

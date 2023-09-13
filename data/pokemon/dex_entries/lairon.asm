@@ -1,11 +1,11 @@
 
 	db "Iron Armor@" ; species name
-	dw 9, 1200 ; height, weight
+	dw 211, 2646 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "When a pair of"
+    next "LAIRONs fight over"
+    next "territory, their"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "steel frames mean"
+    next "they often end in"
+    next "draws.@"

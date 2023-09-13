@@ -1,11 +1,11 @@
 
 	db "Sludge@" ; species name
-	dw 7, 420 ; height, weight
+	dw 204, 926 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "This grimer form"
+    next "developed when"
+    next "they were used to"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "eat garbage in a"
+    next "the ALOLA region's"
+    next "dumps and spread.@"

@@ -1,11 +1,11 @@
 
 	db "Transport@" ; species name
-	dw 25, 2200 ; height, weight
+	dw 802, 4851 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Nearly hunted to"
+    next "extinction, LAPRAS"
+    next "is a very rare,"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "but gentle #MON"
+    next "that understands"
+    next "some human speech.@"

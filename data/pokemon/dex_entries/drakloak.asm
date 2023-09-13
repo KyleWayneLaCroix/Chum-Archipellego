@@ -1,11 +1,11 @@
 
 	db "Caretaker@" ; species name
-	dw 14, 110 ; height, weight
+	dw 407, 243 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Capable of flying"
+    next "120 mph, it will"
+    next "dote on and fight"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "alongisde DREEPY"
+    next "until they succ-"
+    next "-essfully evolve.@"

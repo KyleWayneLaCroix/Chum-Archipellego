@@ -1,11 +1,11 @@
 
 	db "Chomp@" ; species name
-	dw 6, 95 ; height, weight
+	dw 112, 209 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Unstoppable when"
+    next "they're off their"
+    next "chains."
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "Difficult to"
+    next "control and highly"
+    next "destructive.@"

@@ -1,11 +1,11 @@
 
 	db "Swine@" ; species name
-	dw 11, 558 ; height, weight
+	dw 307, 1230 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Because its long"
+    next "hair obscures its"
+    next "sight, it has to"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "charge over and"
+    next "over again when it"
+    next "attacks.@"

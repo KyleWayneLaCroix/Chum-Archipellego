@@ -1,11 +1,11 @@
 
 	db "Happy Dog@" ; species name
-	dw 1, 1 ; height, weight
+	dw 105, 556 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "This rambunctious"
+    next "dog will often"
+    next "knock visitors"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "down when greeting"
+    next "visitors. Has been"
+    next "accused of racism.@"

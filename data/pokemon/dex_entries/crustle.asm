@@ -1,11 +1,11 @@
 
 	db "Stone Home@" ; species name
-	dw 14, 2000 ; height, weight
+	dw 407, 4410 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Its claws are so"
+    next "strong and thick"
+    next "that it can break"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "even the armor"
+    next "of an AGGRON if it"
+    next "can grab hold.@"

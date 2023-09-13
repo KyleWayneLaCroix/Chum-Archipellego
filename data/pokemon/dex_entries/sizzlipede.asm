@@ -1,11 +1,11 @@
 
 	db "Radiator@" ; species name
-	dw 7, 10 ; height, weight
+	dw 204, 22 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "It coils around"
+    next "its prey, both"
+    next "squeezing and"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "cooking them"
+    next "to death for easy"
+    next "meals.@"

@@ -1,11 +1,11 @@
 
 	db "Iron Armor@" ; species name
-	dw 4, 600 ; height, weight
+	dw 104, 1323 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "With a body of"
+    next "steel, ARON eat"
+    next "any metal they can"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "find, making them"
+    next "a menace to miners"
+    next "and skyscrapers.@"

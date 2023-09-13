@@ -1,11 +1,11 @@
 
 	db "Legendary@" ; species name
-	dw 19, 1550 ; height, weight
+	dw 603, 3418 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "A #MON that has"
+    next "long been revered"
+    next "for its regal app-"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "-earance. Kings"
+    next "would ride them"
+    next "into battle.@"

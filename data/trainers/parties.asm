@@ -176,7 +176,7 @@ FurryGroup:
 	db -1 ; end
 
 	; FURRY (2)
-	db "HOLLOWAY@", TRAINERTYPE_NORMAL
+	db "HOLLOWY@", TRAINERTYPE_NORMAL
 	db 17, LAPRAS
 	db 15, FINNEON
 	db 16, SHELLOS
@@ -513,7 +513,7 @@ CamperGroup:
 
 CeoGroup:
 	; EXECUTIVEM (1)
-	db "LONGO@", TRAINERTYPE_NORMAL
+	db "SHORTO@", TRAINERTYPE_NORMAL
 	db 6, FARFETCHD
 	db 3, BLIPBUG
 	db 5, HOUNDOUR
@@ -1613,7 +1613,7 @@ WeirdoGroup:
 
 WhiteGirlGroup:
 	; WHITE_GIRL (1)
-	db "AIMEE@", TRAINERTYPE_NORMAL
+	db "AYMY@", TRAINERTYPE_NORMAL
 	db  6, SKITTY
 	db  4, SKITTY
 	db  5, SKITTY
@@ -1647,7 +1647,7 @@ WhiteGirlGroup:
 	db -1 ; end
 
 	; WHITE_GIRL (6)
-	db "BOOZER@", TRAINERTYPE_NORMAL
+	db "DRINKER@", TRAINERTYPE_NORMAL
 	db 18, MUDBRAY
 	db 19, ROCKRUFF
 	db 17, HERDIER

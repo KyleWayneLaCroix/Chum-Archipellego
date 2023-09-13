@@ -333,7 +333,7 @@ ParseCredits:
 
 .music
 ; Play the credits music.
-	ld de, MUSIC_CREDITS
+	ld de, MUSIC_KOMM_SUSSER_TOD
 	push de
 	ld de, MUSIC_NONE
 	call PlayMusic
@@ -366,11 +366,11 @@ ParseCredits:
 	ld hl, wJumptableIndex
 	set 7, [hl]
 	ld a, 32
-	ld [wMusicFade], a
-	ld a, LOW(MUSIC_POST_CREDITS)
-	ld [wMusicFadeID], a
-	ld a, HIGH(MUSIC_POST_CREDITS)
-	ld [wMusicFadeID + 1], a
+	; ld [wMusicFade], a
+	; ld a, LOW(MUSIC_POST_CREDITS)
+	; ld [wMusicFadeID], a
+	; ld a, HIGH(MUSIC_POST_CREDITS)
+	; ld [wMusicFadeID + 1], a
 	ret
 
 .get

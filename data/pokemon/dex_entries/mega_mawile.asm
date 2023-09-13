@@ -1,11 +1,11 @@
 
 	db "Deceiver@" ; species name
-	dw 10, 235 ; height, weight
+	dw 303, 518 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "The vicious disp-"
+    next "-osition of a MEGA"
+    next "MAWILE is a true"
 
-    page "#MON."
-    next "Temporary #dex"
+    page "terror to behold"
+    next "when it feeds."
     next "entry.@"

@@ -1,11 +1,11 @@
 
 	db "Hard Shell@" ; species name
-	dw 12, 1520 ; height, weight
+	dw 311, 3352 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Even sealed in "
+    next "its shell, it can"
+    next "move freely."
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "It already has"
+    next "arms and legs"
+    next "under its shell.@"

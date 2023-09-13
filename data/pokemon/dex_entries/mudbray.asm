@@ -1,11 +1,11 @@
 
 	db "Donkey@" ; species name
-	dw 10, 1100 ; height, weight
+	dw 303, 2426 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Mudbray are all"
+    next "about mud. They"
+    next "eat mud, make mud,"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "play in mud,"
+    next "and bathe in mud"
+    next "every single day.@"

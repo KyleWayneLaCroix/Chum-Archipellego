@@ -1,11 +1,11 @@
 
 	db "Season@" ; species name
-	dw 6, 195 ; height, weight
+	dw 112, 430 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "DEERLING change"
+    next "with the seasons,"
+    next "but no #MON"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "game has had"
+    next "seasons since"
+    next "Generation V.@"

@@ -2,11 +2,11 @@
 		const CITYGEARHQ_MARYLOUISE
 		const CITYGEARHQ_JULIAN
 		const CITYGEARHQ_JOSH
-		const CITYGEARHQ_LONGO
+		const CITYGEARHQ_SHORTO
 		const CITYGEARHQ_Q
 		const CITYGEARHQ_TAYLOR
 		const CITYGEARHQ_NICK
-		const CITYGEARHQ_AIMEE
+		const CITYGEARHQ_AYMY
 		const CITYGEARHQ_MISS_DD
 		const CITYGEARHQ_MIKE_B
 
@@ -151,12 +151,12 @@ TrainerPhotographerJulian:
 	closetext
 	end
 
-TrainerCEOLongo:
-	trainer CEO, LONGO, EVENT_BEAT_CEO_LONGO, CEOLongoSeenText, CEOLongoBeatenText, 0, .Script
+TrainerCEOShorto:
+	trainer CEO, SHORTO, EVENT_BEAT_CEO_SHORTO, CEOShortoSeenText, CEOShortoBeatenText, 0, .Script
 
 .Script:
 	opentext
-	writetext CEOLongoAfterText
+	writetext CEOShortoAfterText
 	waitbutton
 	closetext
 	end
@@ -205,7 +205,7 @@ WhiteGirlTaylorHealText:
 ;	closetext
 ;	winlosstext WhiteGirlTaylorBeatenText, 0
 ;	setlasttalked CITYGEARHQ_TAYLOR
-;	loadtrainer WHITE_GIRL, AIMEE
+;	loadtrainer WHITE_GIRL, AYMY
 ;	startbattle
 ;	reloadmapafterbattle
 ;	setevent EVENT_BEAT_WHITE_GIRL_TAYLOR
@@ -226,13 +226,13 @@ WhiteGirlTaylorHealText:
 ;	closetext
 ;	end
 
-TrainerWhiteGirlAimee:
-	trainer WHITE_GIRL, AIMEE, EVENT_BEAT_WHITE_GIRL_AIMEE, WhiteGirlAimeeSeenText, WhiteGirlAimeeBeatenText, 0, .Script
+TrainerWhiteGirlAymy:
+	trainer WHITE_GIRL, AYMY, EVENT_BEAT_WHITE_GIRL_AYMY, WhiteGirlAymySeenText, WhiteGirlAymyBeatenText, 0, .Script
 
 .Script:
 	endifjustbattled
 	opentext
-	writetext WhiteGirlAimeeAfterText
+	writetext WhiteGirlAymyAfterText
 	waitbutton
 	closetext
 	end
@@ -325,7 +325,7 @@ WorkerQAfterText:
 	line "wearin' 'em."
 	done
 
-CEOLongoSeenText:
+CEOShortoSeenText:
 	text "BABY WE WERE BORN"
 	line "TO RUUUUNNNN"
 
@@ -341,12 +341,12 @@ CEOLongoSeenText:
 	cont "get in here?"
 	done
 
-CEOLongoBeatenText:
+CEOShortoBeatenText:
 	text "Born in the USA"
 	line "is Republican."
 	done
 
-CEOLongoAfterText:
+CEOShortoAfterText:
 	text "Well, tramps like"
 	line "you, baby, you're"
 	cont "born to run."
@@ -376,7 +376,7 @@ WeirdoNickSeenText:
 	done
 
 WeirdoNickBeatenText:
-	text "AIMEE sabotaged"
+	text "AYMY sabotaged"
 	line "me."
 	done
 
@@ -384,7 +384,7 @@ WeirdoNickAfterText:
 	text "I would have won"
 	line "if they didn't"
 	
-	para "promote AIMEE"
+	para "promote AYMY"
 	line "instead of me."
 	done
 
@@ -498,7 +498,7 @@ CityGearHQMissDDText:
 	line "set you straight!"
 	done
 
-WhiteGirlAimeeSeenText:
+WhiteGirlAymySeenText:
 	text "Oh my god, who"
 	line "are you?"
 
@@ -515,12 +515,12 @@ WhiteGirlAimeeSeenText:
 	cont "DUEL!"
 	done
 
-WhiteGirlAimeeBeatenText:
+WhiteGirlAymyBeatenText:
 	text "Oh no, I knew I"
 	line "couldn't do this."
 	done
 
-WhiteGirlAimeeAfterText:
+WhiteGirlAymyAfterText:
 	text "My life is just"
 	line "ruined."
 
@@ -544,7 +544,7 @@ WhiteGirlTaylorSeenText:
 	line "tomorrow, and Nick"
 	
 	para "is throwing a fit"
-	line "about Aimee get-"
+	line "about Aymy get-"
 	
 	para "-ting the first"
 	line "cupcake at lunch"
@@ -799,10 +799,10 @@ CityGearHQ_MapEvents:
 	object_event  2, 32, SPRITE_GRANNY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, CityGearHQMaryLouiseScript, -1
 	object_event  9, 16, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 4, TrainerPhotographerJulian, -1
 	object_event 19,  2, SPRITE_SURGE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 5, TrainerSupervisorJosh, -1
-	object_event 14, 15, SPRITE_GENTLEMAN, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 0, TrainerCEOLongo, -1
+	object_event 14, 15, SPRITE_GENTLEMAN, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 0, TrainerCEOShorto, -1
 	object_event  7,  4, SPRITE_BILL, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 5, TrainerWorkerQ, -1
 	object_event 20, 35, SPRITE_LASS, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 0, TrainerWhiteGirlTaylor, -1
 	object_event 21, 27, SPRITE_SUPER_NERD, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 5, TrainerWeirdoNick, -1
-	object_event 21, 25, SPRITE_BEAUTY, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 5, TrainerWhiteGirlAimee, -1
+	object_event 21, 25, SPRITE_BEAUTY, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 5, TrainerWhiteGirlAymy, -1
 	object_event 11,  8, SPRITE_GRANNY, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, CityGearHQMissDDScript, -1
 	object_event  6, 25, SPRITE_BLAINE, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 5, TrainerITGuyMikeB, -1

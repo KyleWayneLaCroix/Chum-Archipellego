@@ -1,11 +1,11 @@
 
 	db "Royal@" ; species name
-	dw 15, 815 ; height, weight
+	dw 411, 1797 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Female PYROAR will"
+    next "hunt for the pride"
+    next "as a team."
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "The extreme heat"
+    next "of the male's mane"
+    next "helps hatch eggs.@"

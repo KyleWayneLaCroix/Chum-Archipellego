@@ -1,11 +1,11 @@
 
 	db "TinyRacoon@" ; species name
-	dw 4, 175 ; height, weight
+	dw 104, 386 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Known to zigzag"
+    next "about, wreaking"
+    next "havoc, Galarian"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "ZigZagoon is"
+    next "commonly known"
+    next "as an asshole.@"

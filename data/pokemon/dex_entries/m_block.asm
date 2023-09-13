@@ -1,11 +1,11 @@
 
 	db "Glitch@" ; species name
-	dw 1, 1 ; height, weight
+	dw 4, 2 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   " "
+    next " "
+    next " "
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page " "
+    next " "
+    next " @"

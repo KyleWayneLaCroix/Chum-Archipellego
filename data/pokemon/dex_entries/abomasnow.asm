@@ -1,11 +1,11 @@
 
 	db "Frost Tree@" ; species name
-	dw 22, 1355 ; height, weight
+	dw 703, 2988 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "It lives a quiet"
+    next "life on mountains"
+    next "that are covered"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "in snow. It hides"
+    next "itself by whipping"
+    next "up blizzards.@"

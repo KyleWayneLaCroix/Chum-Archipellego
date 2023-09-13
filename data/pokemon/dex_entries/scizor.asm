@@ -1,11 +1,11 @@
 
 	db "Pincer@" ; species name
-	dw 18, 1180 ; height, weight
+	dw 511, 2602 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "SCIZOR does not"
+    next "use its wings to"
+    next "fly, but instead"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "to regulate the"
+    next "temperature of its"
+    next "steel body.@"

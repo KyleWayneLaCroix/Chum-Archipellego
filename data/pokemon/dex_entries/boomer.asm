@@ -1,11 +1,11 @@
 
 	db "Angry Dog@" ; species name
-	dw 1, 1 ; height, weight
+	dw 4, 2 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Alive after death"
+    next "due to its pure"
+    next "anger and fury,"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "BOOMER has no"
+    next "friend in the"
+    next "world but CASEY.@"

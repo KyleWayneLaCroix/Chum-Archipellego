@@ -1,11 +1,11 @@
 
 	db "Sound Wave@" ; species name
-	dw 5, 80 ; height, weight
+	dw 108, 176 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "They live in pitch"
+    next "black caves. Their"
+    next "massive ears can"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "emit ultrasonic"
+    next "waves of a million"
+    next "billion hertz.@"

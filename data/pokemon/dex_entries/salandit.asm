@@ -1,11 +1,11 @@
 
 	db "ToxicLizard@" ; species name
-	dw 6, 48 ; height, weight
+	dw 112, 106 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Its venom sacs"
+    next "produce a fluid"
+    next "that its fire tail"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "heats up, which"
+    next "creates its poison"
+    next "gas attacks.@"

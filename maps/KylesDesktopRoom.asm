@@ -399,12 +399,9 @@ KylesDesktopRoomKyleIntro2:
 	line "legendaries I"
 	cont "haven't made yet."
 
-	para "Hell, the #DEX"
-	line "still doesn't"
-	cont "work!"
-
-	para "That's why you"
-	line "don't have one!"
+	para "Hell, the trainer"
+	line "clubs aren't even"
+	cont "started yet!"
 	done
 
 KylesDesktopRoomKyleIntro:

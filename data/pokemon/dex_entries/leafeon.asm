@@ -1,11 +1,11 @@
 
 	db "Verdant@" ; species name
-	dw 10, 255 ; height, weight
+	dw 303, 562 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Just like a plant,"
+    next "it utilizes photo-"
+    next "-synthesis."
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "As a result, it is"
+    next "always enveloped"
+    next "in clear air.@"

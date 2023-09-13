@@ -1,11 +1,11 @@
 
 	db "Virtual@" ; species name
-	dw 6, 325 ; height, weight
+	dw 200, 717 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "This upgraded"
+    next "version of PORYGON"
+    next "was designed for"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "space exploration."
+    next "However, it cannot"
+    next "fly.@"

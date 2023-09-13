@@ -1,11 +1,11 @@
 
 	db "Rushing@" ; species name
-	dw 5, 325 ; height, weight
+	dw 108, 717 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "This aggressive"
+    next "#MON will"
+    next "recklessly attack"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "any creature it"
+    next "sees with no"
+    next "regard for safety.@"

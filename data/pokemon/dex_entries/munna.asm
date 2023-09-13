@@ -1,11 +1,11 @@
 
 	db "Dream Eater@" ; species name
-	dw 6, 233 ; height, weight
+	dw 112, 514 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "MUNNA float near"
+    next "those sleeping,"
+    next "eating the dreams"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "and expelling pink"
+    next "gas as it steals"
+    next "the dream to eat.@"

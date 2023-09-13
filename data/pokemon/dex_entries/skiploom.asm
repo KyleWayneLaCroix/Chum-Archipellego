@@ -1,11 +1,11 @@
 
 	db "Cottonweed@" ; species name
-	dw 6, 10 ; height, weight
+	dw 112, 22 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "SKIPLOOM's flower"
+    next "only blossoms when"
+    next "the temperature is"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "above 64 degrees F"
+    next "making it rare in"
+    next "cold regions.@"

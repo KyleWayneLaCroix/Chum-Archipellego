@@ -808,6 +808,33 @@ Text_LikeTheLook:
 	line "style look to you?"
 	done
 
+Pokecenter2FGivePokeDexScript:
+	checkflag ENGINE_POKEDEX
+	iftrue .End
+	setflag ENGINE_POKEDEX
+	opentext
+	writetext Pokecenter2FYouFoundAPokeDexText1
+	waitbutton
+	showemote EMOTE_SHOCK, PLAYER, 35
+	writetext Pokecenter2FYouFoundAPokeDexText2
+	waitbutton
+	playsound SFX_ITEM
+	waitsfx
+	closetext
+.End:
+	end
+
+Pokecenter2FYouFoundAPokeDexText1:
+	text "You almost trip"
+	line "on something on"
+	cont "the floor..."
+	done
+
+Pokecenter2FYouFoundAPokeDexText2:
+	text "You gained a"
+	line "#DEX!"
+	done
+
 Pokecenter2F_MapEvents:
 	db 0, 0 ; filler
 
@@ -818,6 +845,9 @@ Pokecenter2F_MapEvents:
 	warp_event 13,  2, TIME_CAPSULE, 1
 
 	def_coord_events
+	coord_event  1,  6, -1, Pokecenter2FGivePokeDexScript
+	coord_event  1,  7, -1, Pokecenter2FGivePokeDexScript
+	coord_event  0,  6, -1, Pokecenter2FGivePokeDexScript
 
 	def_bg_events
 	bg_event  7,  3, BGEVENT_READ, Pokecenter2FLinkRecordSign

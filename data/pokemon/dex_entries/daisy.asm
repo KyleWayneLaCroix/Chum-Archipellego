@@ -1,11 +1,11 @@
 
 	db "Shy Dog@" ; species name
-	dw 1, 1 ; height, weight
+	dw 100, 455 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "This shy dog has"
+    next "devoted herself"
+    next "to sharpening her"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "psychic abilities."
+    next "She is still a bit"
+    next "scared to act.@"

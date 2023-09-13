@@ -1,11 +1,11 @@
 
 	db "Devious@" ; species name
-	dw 4, 101 ; height, weight
+	dw 104, 223 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "PURRLOIN will use"
+    next "their cute charms"
+    next "in order to trick"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "humans so they can"
+    next "then steal items"
+    next "and food.@"

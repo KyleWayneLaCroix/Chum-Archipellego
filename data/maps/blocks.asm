@@ -189,17 +189,17 @@ CampusMission_Blocks:
 SarahGym_Blocks:
 	INCBIN "maps/SarahGym.ablk"
 
-Meeman1F_Blocks:
-	INCBIN "maps/Meeman1F.ablk"
+Meanman1F_Blocks:
+	INCBIN "maps/Meanman1F.ablk"
 
-Meeman2F_Blocks:
-	INCBIN "maps/Meeman2F.ablk"
+Meanman2F_Blocks:
+	INCBIN "maps/Meanman2F.ablk"
 
-MeemanRoof_Blocks:
-	INCBIN "maps/MeemanRoof.ablk"
+MeanmanRoof_Blocks:
+	INCBIN "maps/MeanmanRoof.ablk"
 
-MeemanPool_Blocks:
-	INCBIN "maps/MeemanPool.ablk"
+MeanmanPool_Blocks:
+	INCBIN "maps/MeanmanPool.ablk"
 
 Dorm1F_Blocks:
 	INCBIN "maps/Dorm1F.ablk"

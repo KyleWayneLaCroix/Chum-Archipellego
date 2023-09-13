@@ -1,11 +1,11 @@
 
 	db "Pincer@" ; species name
-	dw 18, 1180 ; height, weight
+	dw 511, 2602 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "A violent creature"
+    next "that fells trees"
+    next "with its crude,"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "stone axes as it"
+    next "defends itself"
+    next "with hard stone.@"

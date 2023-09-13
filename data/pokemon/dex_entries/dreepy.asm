@@ -1,11 +1,11 @@
 
 	db "Lingering@" ; species name
-	dw 5, 20 ; height, weight
+	dw 108, 44 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "After being reborn"
+    next "as a GHOST #-"
+    next "-MON, DREEPY will"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "wander the areas"
+    next "it inhabited when"
+    next "it was alive.@"

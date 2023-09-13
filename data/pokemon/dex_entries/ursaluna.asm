@@ -1,11 +1,11 @@
 
 	db "BigBear@" ; species name
-	dw 1, 1 ; height, weight
+	dw 710, 6393 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "This massive bear"
+    next "grew from swampy"
+    next "terrain, giving it"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "control of peat"
+    next "as it howls at the"
+    next "moon.@"

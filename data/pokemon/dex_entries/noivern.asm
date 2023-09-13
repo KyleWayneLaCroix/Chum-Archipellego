@@ -1,11 +1,11 @@
 
 	db "Sound Wave@" ; species name
-	dw 15, 850 ; height, weight
+	dw 411, 1874 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "This hot-blooded"
+    next "pokemon can reduce"
+    next "boulders to tiny"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "pebbles with noise"
+    next "it emits from its"
+    next "ears.@"

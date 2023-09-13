@@ -1,11 +1,11 @@
 
 	db "Trash Heap@" ; species name
-	dw 19, 1073 ; height, weight
+	dw 603, 2366 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Scientists like to"
+    next "study GARBODOR as"
+    next "its body produces"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "new toxins and"
+    next "poisons as it eats"
+    next "new foods.@"

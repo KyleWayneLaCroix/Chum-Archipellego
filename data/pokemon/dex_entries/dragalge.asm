@@ -1,11 +1,11 @@
 
 	db "Mock Kelp@" ; species name
-	dw 18, 815 ; height, weight
+	dw 511, 1797 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Their poison is"
+    next "so strong that it"
+    next "has been known to"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "take down ships"
+    next "that pass through"
+    next "their territory.@"
