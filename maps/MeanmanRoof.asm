@@ -2,14 +2,14 @@
 ;	const MAPNAME_OBJECTNAME
 
 
-MeemanRoof_MapScripts:
+MeanmanRoof_MapScripts:
 	def_scene_scripts
 ;	scene_script script, SCENE_MAPNAME_SCENE_NAME
 
 	def_callbacks
 ;	callback type, script
 
-MeemanRoof_MapEvents:
+MeanmanRoof_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events

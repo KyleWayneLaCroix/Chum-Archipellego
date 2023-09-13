@@ -4,28 +4,28 @@
 	const MEEMAN2F_STUDENT2
 	const MEEMAN2F_WHINPIN
 	const MEEMAN2F_BRIAN
-	const MEEMAN2F_BOOZER
-	const MEEMAN2F_COLE_EPLY
+	const MEEMAN2F_DRINKER
+	const MEEMAN2F_COLE
 	const MEEMAN2F_JASMINE
 	const MEEMAN2F_SCOTTY
-	const MEEMAN2F_HOLLOWAY
-	const MEEMAN2F_JACK_SIMON
+	const MEEMAN2F_HOLLOWY
+	const MEEMAN2F_JACK_PETER
 	const MEEMAN2F_JOHN_MARTIN
 	const MEEMAN2F_DR_HRACH
-	const MEEMAN2F_DAVID_ARANT
-	const MEEMAN2F_JIN_YANG
+	const MEEMAN2F_DAVID_ANANT
+	const MEEMAN2F_JEN_YANG
 
-Meeman2F_MapScripts:
+Meanman2F_MapScripts:
 	def_scene_scripts
 ;	scene_script script, SCENE_MAPNAME_SCENE_NAME
-	scene_script Meeman2FNoopScene1, SCENE_MEEMAN_2F_WHITTEN
-	scene_script Meeman2FNoopScene2, SCENE_MEEMAN_2F_WHITTEN_GONE
+	scene_script Meanman2FNoopScene1, SCENE_MEEMAN_2F_WHITTEN
+	scene_script Meanman2FNoopScene2, SCENE_MEEMAN_2F_WHITTEN_GONE
 
 	def_callbacks
 ;	callback type, script
 
-Meeman2FNoopScene1:
-Meeman2FNoopScene2:
+Meanman2FNoopScene1:
+Meanman2FNoopScene2:
 ChrisWhinpinScript:
 	end
 
@@ -110,40 +110,40 @@ ChrisWhinpinApologySceneScript:
 	special RestartMapMusic
 	end
 
-JinYangScript:
-	trainer TEACHER, JIN_YANG, EVENT_BEAT_TEACHER_JIN_YANG, JinYangSeenText, JinYangBeatenText, 0, .Script
+JenYangScript:
+	trainer TEACHER, JEN_YANG, EVENT_BEAT_TEACHER_JEN_YANG, JenYangSeenText, JenYangBeatenText, 0, .Script
 
 .Script:
 	endifjustbattled
 	opentext
-	writetext JinYangAfterText
+	writetext JenYangAfterText
 	waitbutton
 	closetext
 	end
 
-DavidArantScript:
+DrAnantScript:
 	faceplayer
 	opentext
-	writetext DavidArantText
+	writetext DrAnantText
 	yesorno
 	iffalse .NoDavid
-	writetext DavidArantText2
+	writetext DrAnantText2
 	waitbutton
-	checkevent EVENT_GOT_ARANT_NUGGET
+	checkevent EVENT_GOT_ANANT_NUGGET
 	iftrue .After
-	writetext DavidArantGivesNugget
+	writetext DrAnantGivesNugget
 	waitbutton
 	verbosegiveitem NUGGET
 	waitbutton
 	iffalse .PackFull
-	setevent EVENT_GOT_ARANT_NUGGET
+	setevent EVENT_GOT_ANANT_NUGGET
 .After
-	writetext DavidArantText3
+	writetext DrAnantText3
 	waitbutton
 	closetext
 	end
 .NoDavid:
-	writetext DavidArantNoText
+	writetext DrAnantNoText
 	waitbutton
 	closetext
 	end
@@ -151,31 +151,31 @@ DavidArantScript:
 	closetext
 	end
 
-JackSimonScript:
-	trainer WEIRDO, JACK_SIMON, EVENT_BEAT_WEIRDO_JACK_SIMON, JackSimonSeenText, JackSimonBeatenText, 0, .Script
+JackPeterScript:
+	trainer WEIRDO, JACK_PETER, EVENT_BEAT_WEIRDO_JACK_PETER, JackPeterSeenText, JackPeterBeatenText, 0, .Script
 
 .Script:
 	opentext
-	writetext JackSimonWantToHear
+	writetext JackPeterWantToHear
 	yesorno
 	iffalse .RefuseRealityCheck
-	writetext JackSimonRealityCheck1
+	writetext JackPeterRealityCheck1
 	yesorno
 	iftrue .RealityCheck2
-	writetext JackSimonDontFeelInControl
+	writetext JackPeterDontFeelInControl
 	waitbutton
 .RealityCheck2:
-	writetext JackSimonRealityCheck2
+	writetext JackPeterRealityCheck2
 	waitbutton
 	closetext
 	pause 255
 	opentext
-	writetext JackSimonRealityCheck3
+	writetext JackPeterRealityCheck3
 	waitbutton
 	closetext
 	end
 .RefuseRealityCheck:
-	writetext JackSimonRealityRefusal
+	writetext JackPeterRealityRefusal
 	waitbutton
 	closetext
 	end
@@ -195,49 +195,49 @@ ScottyScript:
 	closetext
 	end
 
-ColeEplyScript:
-	jumptextfaceplayer ColeEplyText
+ColeScript:
+	jumptextfaceplayer ColeText
 
 
-JasmineHunterScript:
-	trainer LASS, JASMINEH, EVENT_BEAT_LASS_JASMINE, JasmineHunterSeenText, JasmineHunterBeatenText, 0, .Script
-
-.Script:
-	endifjustbattled
-	opentext
-	writetext JasmineHunterAfterText
-	waitbutton
-	closetext
-	end
-
-ChristinaHollowayScript:
-	trainer FURRY, HOLLOWAY, EVENT_BEAT_FURRY_HOLLOWAY, HollowaySeenText, HollowayBeatenText, 0, .Script
+JasmineHScript:
+	trainer LASS, JASMINEH, EVENT_BEAT_LASS_JASMINE, JasmineHSeenText, JasmineHBeatenText, 0, .Script
 
 .Script:
 	endifjustbattled
 	opentext
-	writetext HollowayAfterText
+	writetext JasmineHAfterText
+	waitbutton
+	closetext
+	end
+
+HollowyScript:
+	trainer FURRY, HOLLOWY, EVENT_BEAT_FURRY_HOLLOWY, HollowySeenText, HollowyBeatenText, 0, .Script
+
+.Script:
+	endifjustbattled
+	opentext
+	writetext HollowyAfterText
 	waitbutton
 	closetext
 	end
 
 
-ChelseaBoozerScript:
-	trainer WHITE_GIRL, BOOZER, EVENT_BEAT_WHITE_GIRL_BOOZER, BoozerSeenText, BoozerBeatenText, 0, .Script
+ChelseaDrinkerScript:
+	trainer WHITE_GIRL, DRINKER, EVENT_BEAT_WHITE_GIRL_DRINKER, DrinkerSeenText, DrinkerBeatenText, 0, .Script
 
 .Script:
 	opentext
-	checkevent EVENT_GOT_BOOZER_BIG_PEARL
+	checkevent EVENT_GOT_DRINKER_BIG_PEARL
 	iftrue .After
-	writetext BoozerRewardText
+	writetext DrinkerRewardText
 	waitbutton
 	verbosegiveitem BIG_PEARL
 	iffalse .BagFull
-	setevent EVENT_GOT_BOOZER_BIG_PEARL
+	setevent EVENT_GOT_DRINKER_BIG_PEARL
 	closetext
 	end
 .After:
-	writetext BoozerAfterText
+	writetext DrinkerAfterText
 	waitbutton
 	closetext
 	end
@@ -245,11 +245,11 @@ ChelseaBoozerScript:
 	end
 
 TrainerPhotographerBrian:
-	trainer PHOTOGRAPHER, PBRIAN, EVENT_BEAT_PHOTOGRAPHER_BRIAN, MeemanPhotoBrianSeenText, MeemanPhotoBrianBeatenText, 0, .Script
+	trainer PHOTOGRAPHER, PBRIAN, EVENT_BEAT_PHOTOGRAPHER_BRIAN, MeanmanPhotoBrianSeenText, MeanmanPhotoBrianBeatenText, 0, .Script
 
 .Script:
 	opentext
-	writetext MeemanPhotoBrianAfterText
+	writetext MeanmanPhotoBrianAfterText
 	waitbutton
 	closetext
 	playsound SFX_ZAP_CANNON
@@ -261,17 +261,17 @@ TrainerPhotographerBrian:
 	refreshscreen
 	end
 
-Meeman2FStudentScript:
-	jumptextfaceplayer Meeman2FStudentText
+Meanman2FStudentScript:
+	jumptextfaceplayer Meanman2FStudentText
 
 DrHrachScript:
 	jumptextfaceplayer DrHrachText
 
-Meeman2FStudent2Script:
-	jumptextfaceplayer Meeman2FStudent2Text
+Meanman2FStudent2Script:
+	jumptextfaceplayer Meanman2FStudent2Text
 
-JinYangSignScript:
-	jumptext JinYangSignText
+JenYangSignScript:
+	jumptext JenYangSignText
 
 CaseyOfficeSignScript:
 	jumptext CaseyOfficeSignText
@@ -288,17 +288,17 @@ DesignSignScript:
 EICSignScript:
 	jumptext EICSignText
 
-HelmsmanSignScript:
-	jumptext HelmsmanSignText
+FreemanSignScript:
+	jumptext FreemanSignText
 
 DrHrachSignScript:
 	jumptext DrHrachSignText
 
-MeemanClassRoomSignScript:
-	jumptext MeemanClassroomSignText
+MeanmanClassRoomSignScript:
+	jumptext MeanmanClassroomSignText
 
-MeemanEmptyOfficeSignScript:
-	jumptext MeemanEmptyOfficeSignText
+MeanmanEmptyOfficeSignScript:
+	jumptext MeanmanEmptyOfficeSignText
 
 JournalismComputerScript:
 	jumptext JournalismComputerText
@@ -317,26 +317,26 @@ CaseyOfficeComputerScript:
 ClassroomComputerScript:
 	jumptext ClassroomComputerText
 
-HelmsmanComputerScript:
-	jumptext HelmsmanComputerText
+FreemanComputerScript:
+	jumptext FreemanComputerText
 
 DesignComputerScript:
 	jumptext DesignComputerText
 
-HelmsmanShelfScript:
-	jumptext HelmsmanShelfText
+FreemanShelfScript:
+	jumptext FreemanShelfText
 
-HelmsmanBoxesScript:
-	jumptext HelmsmanBoxesText
+FreemanBoxesScript:
+	jumptext FreemanBoxesText
 
-BoozerComputerScript:
-	jumptext BoozerComputerText
+DrinkerComputerScript:
+	jumptext DrinkerComputerText
 
-BoozerStatueScript:
-	jumptext BoozerStatueText
+DrinkerStatueScript:
+	jumptext DrinkerStatueText
 
-BoozerShelfScript:
-	jumptext BoozerShelfText
+DrinkerShelfScript:
+	jumptext DrinkerShelfText
 
 EmptyOfficeComputerScript:
 	end
@@ -365,15 +365,15 @@ ChrisWhinpinComeBackMovement:
 	step RIGHT
 	step_end
 
-BoozerShelfText:
+DrinkerShelfText:
 	text "The shelves are"
 	line "lined with news"
 	cont "clippings of"
-	cont "BOOZER's writing."
+	cont "DRINKER's writing."
 	done
 
-BoozerStatueText:
-	text "BOOZER seems to"
+DrinkerStatueText:
+	text "DRINKER seems to"
 	line "had all of her"
 	cont "awards melted"
 	cont "down and cast"
@@ -381,7 +381,7 @@ BoozerStatueText:
 	cont "to her glory."
 	done
 
-BoozerComputerText:
+DrinkerComputerText:
 	text "Her desktop"
 	line "background is"
 	cont "just the word"
@@ -390,7 +390,7 @@ BoozerComputerText:
 	cont "Bible."
 	done
 
-HelmsmanBoxesText:
+FreemanBoxesText:
 	text "Boxes full of old"
 	line "newspapers and"
 	cont "office equipment."
@@ -401,7 +401,7 @@ HelmsmanBoxesText:
 	cont "stuck in them."
 	done
 
-HelmsmanShelfText:
+FreemanShelfText:
 	text "The shelf is full"
 	line "of old press kits"
 	cont "for movies."
@@ -416,7 +416,7 @@ DesignComputerText:
 	cont "ads for."
 	done
 
-HelmsmanComputerText:
+FreemanComputerText:
 	text "An incredibly"
 	line "poorly written"
 	cont "story on a very"
@@ -489,12 +489,12 @@ JournalismComputerText:
 	cont "courses."
 	done
 
-MeemanPhotoBrianSeenText:
+MeanmanPhotoBrianSeenText:
 	text "BRIAN: WALK AND"
 	line "TALK, BITCH!"
 	done
 
-MeemanPhotoBrianBeatenText:
+MeanmanPhotoBrianBeatenText:
 	text "Oh god, thanks."
 	line "It's like I was"
 	cont "stuck in some"
@@ -502,7 +502,7 @@ MeemanPhotoBrianBeatenText:
 	cont "college."
 	done
 
-MeemanPhotoBrianAfterText:
+MeanmanPhotoBrianAfterText:
 	text "BRIAN: No for"
 	line "real dude, I"
 	cont "appreciate it."
@@ -523,7 +523,7 @@ MeemanPhotoBrianAfterText:
 	line "You look famil-"
 	done
 
-MeemanEmptyOfficeSignText:
+MeanmanEmptyOfficeSignText:
 	text "                 "
 	line "      OFFICE     "
 
@@ -535,7 +535,7 @@ MeemanEmptyOfficeSignText:
 	cont "right now."
 	done
 
-MeemanClassroomSignText:
+MeanmanClassroomSignText:
 	text "  CLASSROOM 2B   "
 	done
 
@@ -545,13 +545,13 @@ DrHrachSignText:
 	line "      OFFICE     "
 	done
 
-HelmsmanSignText:
+FreemanSignText:
 	text " THE SEMESTERLY  "
-	line "    HELMSMAN"
+	line "    FREEMAN"
 	done
 
 EICSignText:
-	text " CHELSEA BOOZER  "
+	text " CHELSEA DRINKER  "
 	line " EDITOR IN CHIEF "
 	
 	para "   HERO TO THE   "
@@ -564,7 +564,7 @@ DesignSignText:
 	done
 
 ArantSignText:
-	text " DR. DAVID ARANT "
+	text " DR. DAVID ANANT "
 	line "     OFFICE      "
 	done
 
@@ -580,17 +580,17 @@ CaseyOfficeSignText:
 	line "note is stuck on"
 	cont "the sign and says"
 	
-	para "   K.C. HILBER   "
+	para "   K.C. Smilbur  "
 	line "      OFFICE     "
 	done
 
-JinYangSignText:
-	text "  DR. JIN YANG   "
+JenYangSignText:
+	text "  DR. JEN YANG   "
 	line "      OFFICE     "
 	done
 
-BoozerSeenText:
-	text "BOOZER: I have"
+DrinkerSeenText:
+	text "DRINKER: I have"
 	line "recently defeated"
 	cont "the entire SGA,"
 	cont "school admins,"
@@ -603,15 +603,15 @@ BoozerSeenText:
 	para "you."
 	done
 
-BoozerBeatenText:
+DrinkerBeatenText:
 	text "I still have more"
 	line "journalism awards"
 	cont "than you ever"
 	cont "will in your life"
 	done
 
-BoozerRewardText:
-	text "BOOZER: You have"
+DrinkerRewardText:
+	text "DRINKER: You have"
 	line "done what was"
 	cont "once thought to"
 	cont "be impossible."
@@ -631,8 +631,8 @@ BoozerRewardText:
 	cont "this."
 	done
 
-BoozerAfterText:
-	text "BOOZER: Tireless"
+DrinkerAfterText:
+	text "DRINKER: Tireless"
 	line "reporting is the"
 	cont "only thing that"
 	cont "stands between"
@@ -645,7 +645,7 @@ BoozerAfterText:
 	cont "president."
 	done
 
-Meeman2FStudent2Text:
+Meanman2FStudent2Text:
 	text "I left some cool"
 	line "aviators in this"
 	cont "classroom, but I"
@@ -657,7 +657,7 @@ Meeman2FStudent2Text:
 	line "stole them..."
 	done
 
-Meeman2FStudentText:
+Meanman2FStudentText:
 	text "I think today is"
 	line "a holiday or"
 	cont "something."
@@ -691,37 +691,37 @@ DrHrachText:
 	cont "on Friendster..."
 	done
 
-HollowaySeenText:
-	text "HOLLOWAY: Wanna"
+HollowySeenText:
+	text "HOLLOWY: Wanna"
 	line "hear me make a"
 	cont "noise like a"
 	cont "dolphin?"
 	done
 
-HollowayBeatenText:
+HollowyBeatenText:
 	text "I love to collect"
 	line "mascot costumes!"
 	done
 
-HollowayAfterText:
-	text "HOLLOWAY: ADHD?"
+HollowyAfterText:
+	text "HOLLOWY: ADHD?"
 	line "what's that?"
 	done
 
-JasmineHunterSeenText:
+JasmineHSeenText:
 	text "JASMINE: I'm"
 	line "trying to collect"
 	cont "all of the cutest"
 	cont "#MON!"
 	done
 
-JasmineHunterBeatenText:
+JasmineHBeatenText:
 	text "I prefer to"
 	line "collect #MON"
 	cont "not battle them."
 	done
 
-JasmineHunterAfterText:
+JasmineHAfterText:
 	text "JASMINE: Everyone"
 	line "here can be a"
 	cont "little bit much"
@@ -731,7 +731,7 @@ JasmineHunterAfterText:
 	line "job."
 	done
 
-ColeEplyText:
+ColeText:
 	text "COLE: I do the"
 	line "layouts here."
 
@@ -786,7 +786,7 @@ JohnMartinText:
 	line "-problematic game"
 	done
 
-JackSimonWantToHear:
+JackPeterWantToHear:
 	text "JACK SIMON: Do"
 	line "you want to"
 	cont "hear my magnum"
@@ -796,7 +796,7 @@ JackSimonWantToHear:
 	line "the world."
 	done
 
-JackSimonRealityRefusal:
+JackPeterRealityRefusal:
 	text "This will be the"
 	line "biggest mistake"
 	cont "of your life."
@@ -808,7 +808,7 @@ JackSimonRealityRefusal:
 	cont "universe."
 	done
 
-JackSimonSeenText:
+JackPeterSeenText:
 	text "JACK SIMON: Man,"
 	line "I got writer's"
 	cont "block or somethin"
@@ -820,7 +820,7 @@ JackSimonSeenText:
 	cont "knocked loose."
 	done
 
-JackSimonBeatenText:
+JackPeterBeatenText:
 	text "THAT DID IT."
 
 	para "I have pierced"
@@ -831,12 +831,12 @@ JackSimonBeatenText:
 	line "magnum opus."
 	done
 
-JackSimonRealityCheck1:
+JackPeterRealityCheck1:
 	text "Alright, here's"
 	line "my masterpiece:"
 
 	para "Reality Check"
-	line "    by Jack Simon"
+	line "    by Jack Peter"
 
 	para "Take a deep"
 	line "breath."
@@ -867,14 +867,14 @@ JackSimonRealityCheck1:
 	cont "destiny?"
 	done
 
-JackSimonDontFeelInControl:
+JackPeterDontFeelInControl:
 	text "Well, you better"
 	line "keep listinen'"
 	cont "bud, cause you"
 	cont "will soon."
 	done
 
-JackSimonRealityCheck2:
+JackPeterRealityCheck2:
 	text "You may not"
 	line "believe destiny,"
 	cont "but I do."
@@ -907,7 +907,7 @@ JackSimonRealityCheck2:
 	cont "here are infinite"
 	done
 
-JackSimonRealityCheck3:
+JackPeterRealityCheck3:
 	text "There is no limit"
 	line "to who you can"
 	cont "become...."
@@ -980,8 +980,8 @@ JackSimonRealityCheck3:
 	done
 
 
-DavidArantText:
-	text "ARANT: Well well"
+DrAnantText:
+	text "ANANT: Well well"
 	line "you must be a new"
 	cont "journalist in"
 	cont "training."
@@ -993,7 +993,7 @@ DavidArantText:
 	cont "chair?"
 	done
 
-DavidArantText2:
+DrAnantText2:
 	text "Print journalism"
 	line "is not only alive"
 	cont "but the only real"
@@ -1021,14 +1021,14 @@ DavidArantText2:
 	cont "from me, a pro."
 	done
 
-DavidArantGivesNugget:
+DrAnantGivesNugget:
 	text "For listening to"
 	line "all of my nuggets"
 	cont "of wisdom, here"
 	cont "have this!"
 	done
 
-DavidArantText3:
+DrAnantText3:
 	text "Not enough young"
 	line "people these days"
 	cont "appreciate wisdom"
@@ -1039,7 +1039,7 @@ DavidArantText3:
 	para "Or licorice."
 	done
 
-DavidArantNoText:
+DrAnantNoText:
 	text "Well, it sounds"
 	line "like you should"
 	cont "get the heck out"
@@ -1048,8 +1048,8 @@ DavidArantNoText:
 	para "Pardon my French."
 	done
 
-JinYangSeenText:
-	text "JIN YANG: Oh!"
+JenYangSeenText:
+	text "JEN YANG: Oh!"
 
 	para "You must be a"
 	line "new student here."
@@ -1069,14 +1069,14 @@ JinYangSeenText:
 	cont "tough."
 	done
 
-JinYangBeatenText:
+JenYangBeatenText:
 	text "You have learned"
 	line "the secrets of"
 	cont "DRAGON DROP."
 	done
 
-JinYangAfterText:
-	text "JIN YANG: I'm so"
+JenYangAfterText:
+	text "JEN YANG: I'm so"
 	line "happy to see my"
 	cont "students learn!"
 	done
@@ -1088,7 +1088,7 @@ ChrisWhinpinApology5:
 	cont "you."
 
 	para "It'll be hard for"
-	line "the HELMSMAN to"
+	line "the FREEMAN to"
 	cont "continue without"
 	cont "me, but while it"
 	cont "will never be as"
@@ -1106,7 +1106,7 @@ ChrisWhinpinApology4:
 	text "WHINPIN: On an"
 	line "unrelated note,"
 	cont "I am retiring"
-	cont "from the HELMSMAN"
+	cont "from the FREEMAN"
 
 	para "The timing is just"
 	line "a cooincidence."
@@ -1200,7 +1200,7 @@ ChrisWhinpinIntroText:
 	done
 
 
-Meeman2F_MapEvents:
+Meanman2F_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
@@ -1215,16 +1215,16 @@ Meeman2F_MapEvents:
 
 	def_bg_events
 ;	bg_event x, y, type, script
-	bg_event 22,  3, BGEVENT_READ, JinYangSignScript
+	bg_event 22,  3, BGEVENT_READ, JenYangSignScript
 	bg_event 18,  3, BGEVENT_READ, CaseyOfficeSignScript
 	bg_event 23,  6, BGEVENT_READ, WebClassSignScript
 	bg_event  2,  5, BGEVENT_READ, ArantSignScript
 	bg_event 18, 17, BGEVENT_READ, DesignSignScript
 	bg_event 26, 17, BGEVENT_READ, EICSignScript
-	bg_event 12, 17, BGEVENT_READ, HelmsmanSignScript
+	bg_event 12, 17, BGEVENT_READ, FreemanSignScript
 	bg_event  4, 17, BGEVENT_READ, DrHrachSignScript
-	bg_event  8, 15, BGEVENT_READ, MeemanClassRoomSignScript
-	bg_event  4, 23, BGEVENT_READ, MeemanEmptyOfficeSignScript
+	bg_event  8, 15, BGEVENT_READ, MeanmanClassRoomSignScript
+	bg_event  4, 23, BGEVENT_READ, MeanmanEmptyOfficeSignScript
 	bg_event 19,  7, BGEVENT_UP, JournalismComputerScript
 	bg_event  5,  1, BGEVENT_UP, JournalismComputerScript
 	bg_event  8,  1, BGEVENT_UP, JournalismComputerScript
@@ -1239,51 +1239,51 @@ Meeman2F_MapEvents:
 	bg_event 25,  7, BGEVENT_UP, ClassroomComputerScript
 	bg_event 24,  7, BGEVENT_UP, ClassroomComputerScript
 	bg_event  9,  1, BGEVENT_UP, ClassroomComputerScript
-	bg_event 18,  7, BGEVENT_UP, HelmsmanComputerScript
-	bg_event 10, 21, BGEVENT_UP, HelmsmanComputerScript
-	bg_event 11, 25, BGEVENT_UP, HelmsmanComputerScript
-	bg_event 11, 21, BGEVENT_UP, HelmsmanComputerScript
-	bg_event 10, 25, BGEVENT_UP, HelmsmanComputerScript
-	bg_event 19, 25, BGEVENT_UP, HelmsmanComputerScript
-	bg_event 15, 21, BGEVENT_UP, HelmsmanComputerScript
-	bg_event 15, 25, BGEVENT_UP, HelmsmanComputerScript
-	bg_event 14, 21, BGEVENT_UP, HelmsmanComputerScript
-	bg_event 14, 25, BGEVENT_UP, HelmsmanComputerScript
-	bg_event 12, 21, BGEVENT_UP, HelmsmanComputerScript
-	bg_event 13, 25, BGEVENT_UP, HelmsmanComputerScript
-	bg_event 13, 21, BGEVENT_UP, HelmsmanComputerScript
-	bg_event 28, 18, BGEVENT_UP, HelmsmanShelfScript
-	bg_event 29, 18, BGEVENT_UP, HelmsmanShelfScript
-	bg_event 20, 21, BGEVENT_READ, HelmsmanBoxesScript
-	bg_event 21, 21, BGEVENT_READ, HelmsmanBoxesScript
-	bg_event 19, 21, BGEVENT_READ, HelmsmanBoxesScript
-	bg_event 18, 21, BGEVENT_READ, HelmsmanBoxesScript
-	bg_event 21, 20, BGEVENT_READ, HelmsmanBoxesScript
-	bg_event 20, 20, BGEVENT_READ, HelmsmanBoxesScript
-	bg_event 19, 20, BGEVENT_READ, HelmsmanBoxesScript
-	bg_event 18, 20, BGEVENT_READ, HelmsmanBoxesScript
+	bg_event 18,  7, BGEVENT_UP, FreemanComputerScript
+	bg_event 10, 21, BGEVENT_UP, FreemanComputerScript
+	bg_event 11, 25, BGEVENT_UP, FreemanComputerScript
+	bg_event 11, 21, BGEVENT_UP, FreemanComputerScript
+	bg_event 10, 25, BGEVENT_UP, FreemanComputerScript
+	bg_event 19, 25, BGEVENT_UP, FreemanComputerScript
+	bg_event 15, 21, BGEVENT_UP, FreemanComputerScript
+	bg_event 15, 25, BGEVENT_UP, FreemanComputerScript
+	bg_event 14, 21, BGEVENT_UP, FreemanComputerScript
+	bg_event 14, 25, BGEVENT_UP, FreemanComputerScript
+	bg_event 12, 21, BGEVENT_UP, FreemanComputerScript
+	bg_event 13, 25, BGEVENT_UP, FreemanComputerScript
+	bg_event 13, 21, BGEVENT_UP, FreemanComputerScript
+	bg_event 28, 18, BGEVENT_UP, FreemanShelfScript
+	bg_event 29, 18, BGEVENT_UP, FreemanShelfScript
+	bg_event 20, 21, BGEVENT_READ, FreemanBoxesScript
+	bg_event 21, 21, BGEVENT_READ, FreemanBoxesScript
+	bg_event 19, 21, BGEVENT_READ, FreemanBoxesScript
+	bg_event 18, 21, BGEVENT_READ, FreemanBoxesScript
+	bg_event 21, 20, BGEVENT_READ, FreemanBoxesScript
+	bg_event 20, 20, BGEVENT_READ, FreemanBoxesScript
+	bg_event 19, 20, BGEVENT_READ, FreemanBoxesScript
+	bg_event 18, 20, BGEVENT_READ, FreemanBoxesScript
 	bg_event 19, 13, BGEVENT_UP, DesignComputerScript
 	bg_event 21, 13, BGEVENT_UP, DesignComputerScript
-	bg_event 29, 13, BGEVENT_UP, BoozerComputerScript
+	bg_event 29, 13, BGEVENT_UP, DrinkerComputerScript
 	bg_event  6, 25, BGEVENT_UP, EmptyOfficeComputerScript
-	bg_event 27, 13, BGEVENT_UP, BoozerShelfScript
-	bg_event 26, 13, BGEVENT_UP, BoozerShelfScript
-	bg_event 25, 13, BGEVENT_UP, BoozerStatueScript
-	bg_event 24, 13, BGEVENT_UP, BoozerStatueScript
+	bg_event 27, 13, BGEVENT_UP, DrinkerShelfScript
+	bg_event 26, 13, BGEVENT_UP, DrinkerShelfScript
+	bg_event 25, 13, BGEVENT_UP, DrinkerStatueScript
+	bg_event 24, 13, BGEVENT_UP, DrinkerStatueScript
 
 	def_object_events
 ;	object_event x, y, sprite, movement, rx, ry, h1, h2, palette, type, range, script, event_flag
-	object_event 23,  9, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 4, 4, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Meeman2FStudentScript, 0
-	object_event  6, 11, SPRITE_LASS, SPRITEMOVEDATA_WALK_UP_DOWN, 3, 3, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Meeman2FStudent2Script, 0
+	object_event 23,  9, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 4, 4, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Meanman2FStudentScript, 0
+	object_event  6, 11, SPRITE_LASS, SPRITEMOVEDATA_WALK_UP_DOWN, 3, 3, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Meanman2FStudent2Script, 0
 	object_event 16, 18, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ChrisWhinpinScript, EVENT_SAW_WHINPIN_APOLOGY
 	object_event 27, 24, SPRITE_FAIRY, SPRITEMOVEDATA_WANDER, 1, 3, -1, -1, 0, OBJECTTYPE_TRAINER, 2, TrainerPhotographerBrian, EVENT_BEAT_PHOTOGRAPHER_BRIAN
-	object_event 28, 14, SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 0, ChelseaBoozerScript, 0
-	object_event 20, 14, SPRITE_BILL, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ColeEplyScript, 0
-	object_event 18, 14, SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 0, JasmineHunterScript, 0
+	object_event 28, 14, SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 0, ChelseaDrinkerScript, 0
+	object_event 20, 14, SPRITE_BILL, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ColeScript, 0
+	object_event 18, 14, SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 0, JasmineHScript, 0
 	object_event 10, 26, SPRITE_PRYCE, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 0, ScottyScript, 0
-	object_event 23, 21, SPRITE_MOM, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 0, ChristinaHollowayScript, 0
-	object_event 14, 22, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 0, JackSimonScript, 0
+	object_event 23, 21, SPRITE_MOM, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 0, HollowyScript, 0
+	object_event 14, 22, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 0, JackPeterScript, 0
 	object_event 18, 26, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, JohnMartinScript, 0
 	object_event  6, 20, SPRITE_GENTLEMAN, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, DrHrachScript, 0
-	object_event  4,  2, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, DavidArantScript, 0
-	object_event 24,  2, SPRITE_ERIKA, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 0, JinYangScript, 0
+	object_event  4,  2, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, DrAnantScript, 0
+	object_event 24,  2, SPRITE_ERIKA, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 0, JenYangScript, 0

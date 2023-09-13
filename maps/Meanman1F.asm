@@ -2,29 +2,29 @@
 ;	const MAPNAME_OBJECTNAME
 
 
-Meeman1F_MapScripts:
+Meanman1F_MapScripts:
 	def_scene_scripts
 ;	scene_script script, SCENE_MAPNAME_SCENE_NAME
 
 	def_callbacks
 ;	callback type, script
 
-Meeman1FBigClassroomSignScript:
-	jumptext Meeman1FBigClassroomSignText
+Meanman1FBigClassroomSignScript:
+	jumptext Meanman1FBigClassroomSignText
 
 ReadingRoomSignScript:
 	jumptext ReadingRoomSignText
 
-Meeman1FAdOfficeSignScript:
-	jumptext Meeman1FAdOfficeSignText
+Meanman1FAdOfficeSignScript:
+	jumptext Meanman1FAdOfficeSignText
 
-BobWillisScript:
-	trainer GRAMPS, WILLIS, EVENT_BEAT_GRAMPS_WILLIS, BobWillisSeenText, BobWillisBeatenText, 0, .Script
+FrankWillisScript:
+	trainer GRAMPS, WILLIS, EVENT_BEAT_GRAMPS_WILLIS, FrankWillisSeenText, FrankWillisBeatenText, 0, .Script
 
 .Script:
 	endifjustbattled
 	opentext
-	writetext BobWillisAfterText
+	writetext FrankWillisAfterText
 	waitbutton
 	closetext
 	end
@@ -40,17 +40,17 @@ JordanPetersonScript:
 	closetext
 	end
 
-Meeman1FAdvertisingStudentScript:
-	jumptextfaceplayer Meeman1FAdvertisingStudentText
+Meanman1FAdvertisingStudentScript:
+	jumptextfaceplayer Meanman1FAdvertisingStudentText
 
-Meeman1FReadingRoomStudentScript:
-	jumptextfaceplayer Meeman1FReadingRoomStudentText
+Meanman1FReadingRoomStudentScript:
+	jumptextfaceplayer Meanman1FReadingRoomStudentText
 
-Meeman1FPetersonWatcher1Script:
-	jumptextfaceplayer Meeman1FPetersonWatcher1Text
+Meanman1FPetersonWatcher1Script:
+	jumptextfaceplayer Meanman1FPetersonWatcher1Text
 
-Meeman1FPetersonWatcher2Script:
-	jumptextfaceplayer Meeman1FPetersonWatcher2Text
+Meanman1FPetersonWatcher2Script:
+	jumptextfaceplayer Meanman1FPetersonWatcher2Text
 
 TrainerWeirdoCalvin:
 	trainer WEIRDO, CALVIN, EVENT_BEAT_WEIRDO_CALVIN, WeirdoCalvinSeenText, WeirdoCalvinBeatenText, 0, .Script
@@ -63,38 +63,38 @@ TrainerWeirdoCalvin:
 	closetext
 	end
 
-CandyJusticeScript:
-	jumptextfaceplayer CandyJusticeText
+CherryVictoryScript:
+	jumptextfaceplayer CherryVictoryText
 
-Meeman1FReadingRoomStudent2Script:
-	jumptextfaceplayer Meeman1FReadingRoomStudent2Text
+Meanman1FReadingRoomStudent2Script:
+	jumptextfaceplayer Meanman1FReadingRoomStudent2Text
 
-Meeman1FWanderingStudent1:
-	jumptextfaceplayer Meeman1FWanderingStudent1Text
+Meanman1FWanderingStudent1:
+	jumptextfaceplayer Meanman1FWanderingStudent1Text
 
-Meeman1FWanderingStudent2:
-	jumptextfaceplayer Meeman1FWanderingStudent2Text
+Meanman1FWanderingStudent2:
+	jumptextfaceplayer Meanman1FWanderingStudent2Text
 
-Meeman1FStatueScript:
-	jumptext Meeman1FStatueText
+Meanman1FStatueScript:
+	jumptext Meanman1FStatueText
 
-MeemanReadingRoomShelfScript:
-	jumptext MeemanReadingRoomShelfText
+MeanmanReadingRoomShelfScript:
+	jumptext MeanmanReadingRoomShelfText
 
-Meeman1FTreeBrianScript:
+Meanman1FTreeBrianScript:
 	checkevent EVENT_BEAT_TREE_BRIAN_3
 	iftrue .Done
 	opentext
-	writetext Meeman1FTreeBrianSeenText
+	writetext Meanman1FTreeBrianSeenText
 	waitbutton
 	closetext
-	winlosstext Meeman1FTreeBrianBeatenText, 0
+	winlosstext Meanman1FTreeBrianBeatenText, 0
 	loadtrainer TREE_BRIAN, TREEBRIAN_3
 	startbattle
 	reloadmapafterbattle
 	setevent EVENT_BEAT_TREE_BRIAN_3
 	opentext
-	writetext Meeman1FTreeBrianAfterText
+	writetext Meanman1FTreeBrianAfterText
 	waitbutton
 	changeblock 8, 8, $0D ; No tree
 	reloadmappart
@@ -105,7 +105,7 @@ Meeman1FTreeBrianScript:
 .Done:
 	end
 
-Meeman1FTreeBrianAfterText:
+Meanman1FTreeBrianAfterText:
 	text "I kind of forgot"
 	line "this room existed"
 
@@ -116,7 +116,7 @@ Meeman1FTreeBrianAfterText:
 	line "also be upstairs."
 	done
 
-Meeman1FTreeBrianSeenText:
+Meanman1FTreeBrianSeenText:
 	text "Hahahaha got you"
 	line "bitch!"
 
@@ -124,7 +124,7 @@ Meeman1FTreeBrianSeenText:
 	line "tree too!"
 	done
 
-Meeman1FTreeBrianBeatenText:
+Meanman1FTreeBrianBeatenText:
 	text "Playstation Plus"
 	line "really went down"
 	cont "in value after"
@@ -132,7 +132,7 @@ Meeman1FTreeBrianBeatenText:
 	cont "PS3 and PSP games"
 	done
 
-MeemanReadingRoomShelfText:
+MeanmanReadingRoomShelfText:
 	text "Nothing but very"
 	line "old magazines."
 
@@ -141,7 +141,7 @@ MeemanReadingRoomShelfText:
 	cont "cut out of them."
 	done
 
-Meeman1FStatueText:
+Meanman1FStatueText:
 	text "Two out-of-place"
 	line "statues sit in"
 	cont "the middle of the"
@@ -153,14 +153,14 @@ Meeman1FStatueText:
 	para "The display is"
 	line "labeled:"
 
-	para "THE HELMSMAN VS"
+	para "THE FREEMAN VS"
 	line "THE STUDENT GOV."
 	cont "ASSOCIATION"
 
 	para "Brass sculpture"
 	done
 
-Meeman1FWanderingStudent2Text:
+Meanman1FWanderingStudent2Text:
 	text "Those who can't"
 	line "do JOURNALISM,"
 	cont "major in"
@@ -175,7 +175,7 @@ Meeman1FWanderingStudent2Text:
 	cont "in COMMUNICATIONS"
 	done
 
-Meeman1FWanderingStudent1Text:
+Meanman1FWanderingStudent1Text:
 	text "I didn't know"
 	line "JOURNALISM jobs"
 	cont "still existed!"
@@ -185,7 +185,7 @@ Meeman1FWanderingStudent1Text:
 	cont "a JOURNALISM job."
 	done
 
-Meeman1FReadingRoomStudent2Text:
+Meanman1FReadingRoomStudent2Text:
 	text "Excuse me, but I"
 	line "need to study"
 	cont "for my ALGEBRA"
@@ -204,14 +204,15 @@ Meeman1FReadingRoomStudent2Text:
 	line "and 'get a job.'"
 	done
 
-CandyJusticeText:
-	text "CANDY J: I don't"
+CherryVictoryText:
+	text "CHERRY V: I don't"
 	line "know where we'd"
-	cont "be without BOOZER"
+	cont "be without our"
+	cont "team of DRINKER" 
 	cont "and WHINPIN."
 
 	para "Those two keep"
-	line "the HELMSMAN"
+	line "the FREEMAN"
 	cont "going."
 
 	para "Sure, there have"
@@ -226,7 +227,7 @@ CandyJusticeText:
 	cont "digital!"
 	done
 
-Meeman1FPetersonWatcher1Text:
+Meanman1FPetersonWatcher1Text:
 	text "This guest"
 	line "lecturer started"
 	cont "to cry while"
@@ -239,7 +240,7 @@ Meeman1FPetersonWatcher1Text:
 	cont "the test."
 	done
 
-Meeman1FPetersonWatcher2Text:
+Meanman1FPetersonWatcher2Text:
 	text "This PETERSON guy"
 	line "has some weird"
 	cont "#MON theories."
@@ -274,7 +275,7 @@ WeirdoCalvinAfterText:
 	cont "HAVE INTRINSIC"
 	cont "KNOWLEDGE OF DNA"
 	done
-Meeman1FReadingRoomStudentText:
+Meanman1FReadingRoomStudentText:
 	text "Why is there a"
 	line "room dedicated to"
 	cont "magazines?"
@@ -294,14 +295,14 @@ Meeman1FReadingRoomStudentText:
 	line "   never forget."
 	done
 
-Meeman1FAdvertisingStudentText:
+Meanman1FAdvertisingStudentText:
 	text "I work here in"
 	line "the advertising"
 	cont "office."
 
 	para "We sold enough"
 	line "ads for the"
-	cont "HELMSMAN to have"
+	cont "FREEMAN to have"
 	cont "a front AND back"
 	cont "page next month!"
 	done
@@ -372,25 +373,25 @@ JordanPetersonBeatenText:
 	cont "children trans."
 	done
 
-BobWillisSeenText:
-	text "BOB WILLIS: Well"
+FrankWillisSeenText:
+	text "F. WILLIS: Well"
 	line "how diddly-doo."
 
 	para "Would you like to"
 	line "buy some ad space"
-	cont "in the HELMSMAN?"
+	cont "in the FREEMAN?"
 
 	para "Online ads are"
 	line "just a fad!"
 	done
 
-BobWillisBeatenText:
+FrankWillisBeatenText:
 	text "You could have"
 	line "said no."
 	done
 
-BobWillisAfterText:
-	text "BOB WILLIS: See,"
+FrankWillisAfterText:
+	text "F. WILLIS: See,"
 	line "Advertising is"
 	cont "the beating heart"
 	cont "of Journalism!"
@@ -402,7 +403,7 @@ BobWillisAfterText:
 	cont "journalism!"
 	done
 
-Meeman1FAdOfficeSignText:
+Meanman1FAdOfficeSignText:
 	text "ADVERTISING"
 
 	para "Shop at the"
@@ -415,12 +416,12 @@ ReadingRoomSignText:
 	text "READING ROOM"
 	done
 
-Meeman1FBigClassroomSignText:
+Meanman1FBigClassroomSignText:
 	text "AMPITHEATER"
 	done
 
 
-Meeman1F_MapEvents:
+Meanman1F_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
@@ -434,34 +435,34 @@ Meeman1F_MapEvents:
 
 	def_bg_events
 ;	bg_event x, y, type, script
-	bg_event 24, 25, BGEVENT_UP, Meeman1FBigClassroomSignScript
+	bg_event 24, 25, BGEVENT_UP, Meanman1FBigClassroomSignScript
 	bg_event  6, 25, BGEVENT_UP, ReadingRoomSignScript
-	bg_event  6, 11, BGEVENT_UP, Meeman1FAdOfficeSignScript
-	bg_event 14, 13, BGEVENT_READ, Meeman1FStatueScript
-	bg_event 15, 13, BGEVENT_READ, Meeman1FStatueScript
-	bg_event 15, 12, BGEVENT_READ, Meeman1FStatueScript
-	bg_event 14, 12, BGEVENT_READ, Meeman1FStatueScript
-	bg_event  2, 15, BGEVENT_UP, MeemanReadingRoomShelfScript
-	bg_event  9, 15, BGEVENT_UP, MeemanReadingRoomShelfScript
-	bg_event  8, 15, BGEVENT_UP, MeemanReadingRoomShelfScript
-	bg_event  7, 15, BGEVENT_UP, MeemanReadingRoomShelfScript
-	bg_event  6, 15, BGEVENT_UP, MeemanReadingRoomShelfScript
-	bg_event  5, 15, BGEVENT_UP, MeemanReadingRoomShelfScript
-	bg_event  4, 15, BGEVENT_UP, MeemanReadingRoomShelfScript
-	bg_event  3, 15, BGEVENT_UP, MeemanReadingRoomShelfScript
-	bg_event  8,  8, BGEVENT_READ, Meeman1FTreeBrianScript
-	bg_event  8,  9, BGEVENT_READ, Meeman1FTreeBrianScript
+	bg_event  6, 11, BGEVENT_UP, Meanman1FAdOfficeSignScript
+	bg_event 14, 13, BGEVENT_READ, Meanman1FStatueScript
+	bg_event 15, 13, BGEVENT_READ, Meanman1FStatueScript
+	bg_event 15, 12, BGEVENT_READ, Meanman1FStatueScript
+	bg_event 14, 12, BGEVENT_READ, Meanman1FStatueScript
+	bg_event  2, 15, BGEVENT_UP, MeanmanReadingRoomShelfScript
+	bg_event  9, 15, BGEVENT_UP, MeanmanReadingRoomShelfScript
+	bg_event  8, 15, BGEVENT_UP, MeanmanReadingRoomShelfScript
+	bg_event  7, 15, BGEVENT_UP, MeanmanReadingRoomShelfScript
+	bg_event  6, 15, BGEVENT_UP, MeanmanReadingRoomShelfScript
+	bg_event  5, 15, BGEVENT_UP, MeanmanReadingRoomShelfScript
+	bg_event  4, 15, BGEVENT_UP, MeanmanReadingRoomShelfScript
+	bg_event  3, 15, BGEVENT_UP, MeanmanReadingRoomShelfScript
+	bg_event  8,  8, BGEVENT_READ, Meanman1FTreeBrianScript
+	bg_event  8,  9, BGEVENT_READ, Meanman1FTreeBrianScript
 
 	def_object_events
 ;	object_event x, y, sprite, movement, rx, ry, h1, h2, palette, type, range, script, event_flag
-	object_event 14, 19, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_WANDER, 2, 5, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, Meeman1FWanderingStudent1, 0
-	object_event 15,  5, SPRITE_SABRINA, SPRITEMOVEDATA_WANDER, 2, 5, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, Meeman1FWanderingStudent2, 0
-	object_event  2,  2, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 0, BobWillisScript, 0
+	object_event 14, 19, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_WANDER, 2, 5, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, Meanman1FWanderingStudent1, 0
+	object_event 15,  5, SPRITE_SABRINA, SPRITEMOVEDATA_WANDER, 2, 5, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, Meanman1FWanderingStudent2, 0
+	object_event  2,  2, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 0, FrankWillisScript, 0
 	object_event 25,  3, SPRITE_GENTLEMAN, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 0, JordanPetersonScript, 0
-	object_event  9,  6, SPRITE_LASS, SPRITEMOVEDATA_WALK_UP_DOWN, 3, 3, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Meeman1FAdvertisingStudentScript, 0
-	object_event  6, 16, SPRITE_BILL, SPRITEMOVEDATA_WANDER, 4, 1, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Meeman1FReadingRoomStudentScript, 0
-	object_event  5, 21, SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Meeman1FReadingRoomStudent2Script, 0
-	object_event 21, 23, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Meeman1FPetersonWatcher1Script, 0
-	object_event 21,  9, SPRITE_BEAUTY, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Meeman1FPetersonWatcher2Script, 0
+	object_event  9,  6, SPRITE_LASS, SPRITEMOVEDATA_WALK_UP_DOWN, 3, 3, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Meanman1FAdvertisingStudentScript, 0
+	object_event  6, 16, SPRITE_BILL, SPRITEMOVEDATA_WANDER, 4, 1, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Meanman1FReadingRoomStudentScript, 0
+	object_event  5, 21, SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Meanman1FReadingRoomStudent2Script, 0
+	object_event 21, 23, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Meanman1FPetersonWatcher1Script, 0
+	object_event 21,  9, SPRITE_BEAUTY, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Meanman1FPetersonWatcher2Script, 0
 	object_event 26, 13, SPRITE_SUPER_NERD, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 0, TrainerWeirdoCalvin, 0
-	object_event  8,  2, SPRITE_GRANNY, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, CandyJusticeScript, 0
+	object_event  8,  2, SPRITE_GRANNY, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, CherryVictoryScript, 0
