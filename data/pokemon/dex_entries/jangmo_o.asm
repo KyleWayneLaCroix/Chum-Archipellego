@@ -1,11 +1,11 @@
 
 	db "Scaly@" ; species name
-	dw 6, 297 ; height, weight
+	dw 112, 655 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "JANGMO-O strikes"
+    next "its scales to"
+    next "communicate with"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "others of its kind"
+    next "and will duel them"
+    next "to train.@"

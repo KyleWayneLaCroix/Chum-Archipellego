@@ -1,11 +1,11 @@
 
 	db "Sleeping@" ; species name
-	dw 21, 4600 ; height, weight
+	dw 611, 10143 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "It only stops"
+    next "sleeping so it can"
+    next "eat more food."
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "It only stops"
+    next "eating so it can"
+    next "get more sleep.@"

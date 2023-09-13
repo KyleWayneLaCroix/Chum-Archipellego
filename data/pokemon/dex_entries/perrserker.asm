@@ -1,11 +1,11 @@
 
 	db "Viking@" ; species name
-	dw 8, 280 ; height, weight
+	dw 207, 617 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Its long claws are"
+    next "so long and sharp"
+    next "they appear to be"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "daggers."
+    next "It lives for the"
+    next "thrill of battle.@"

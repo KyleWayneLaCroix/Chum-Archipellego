@@ -1,11 +1,11 @@
 
 	db "Screech@" ; species name
-	dw 7, 10 ; height, weight
+	dw 204, 22 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "It loves to watch"
+    next "the people it's"
+    next "scared."
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "It frightens them"
+    next "by appearing and"
+    next "screaming.@"

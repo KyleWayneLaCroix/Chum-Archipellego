@@ -1,11 +1,11 @@
 
 	db "Volcano@" ; species name
-	dw 507, 230 ; height, weight
+	dw 16604, 507 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "When a REGIROCK"
+    next "is formed from"
+    next "volcanic rocks, it"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "instead becomes"
+    next "this elusive form."
+    next "nan@"

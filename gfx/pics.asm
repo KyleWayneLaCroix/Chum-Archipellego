@@ -279,12 +279,12 @@ DragalgeFrontpic:      INCBIN "gfx/pokemon/dragalge/front.animated.2bpp.lz"
 DragalgeBackpic:      INCBIN "gfx/pokemon/dragalge/back.2bpp.lz"
 DragapultFrontpic:      INCBIN "gfx/pokemon/dragapult/front.animated.2bpp.lz"
 DragapultBackpic:      INCBIN "gfx/pokemon/dragapult/back.2bpp.lz"
-DrakloakFrontpic:      INCBIN "gfx/pokemon/drakloak/front.animated.2bpp.lz"
-DrakloakBackpic:      INCBIN "gfx/pokemon/drakloak/back.2bpp.lz"
 
 
 SECTION "Pics 9", ROMX
 
+DrakloakFrontpic:      INCBIN "gfx/pokemon/drakloak/front.animated.2bpp.lz"
+DrakloakBackpic:      INCBIN "gfx/pokemon/drakloak/back.2bpp.lz"
 DrampaFrontpic:      INCBIN "gfx/pokemon/drampa/front.animated.2bpp.lz"
 DrampaBackpic:      INCBIN "gfx/pokemon/drampa/back.2bpp.lz"
 DreepyFrontpic:      INCBIN "gfx/pokemon/dreepy/front.animated.2bpp.lz"

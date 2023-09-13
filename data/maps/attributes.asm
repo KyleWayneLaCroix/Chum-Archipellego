@@ -191,10 +191,10 @@ ENDM
 	map_attributes UnivercityMartB1F, UNIVERCITY_MART_B1F, $00, 0
 	map_attributes CampusMission, CAMPUS_MISSION, $00, 0
 	map_attributes SarahGym, SARAH_GYM, $00, 0
-	map_attributes Meeman1F, MEEMAN_1F, $00, 0
-	map_attributes Meeman2F, MEEMAN_2F, $00, 0
-	map_attributes MeemanRoof, MEEMAN_ROOF, $48, 0
-	map_attributes MeemanPool, MEEMAN_POOL, $00, 0
+	map_attributes Meanman1F, MEEMAN_1F, $00, 0
+	map_attributes Meanman2F, MEEMAN_2F, $00, 0
+	map_attributes MeanmanRoof, MEEMAN_ROOF, $48, 0
+	map_attributes MeanmanPool, MEEMAN_POOL, $00, 0
 	map_attributes Dorm1F, DORM_1F, $00, 0
 	map_attributes Dorm2F, DORM_2F, $00, 0
 	map_attributes Dorm3F, DORM_3F, $00, 0

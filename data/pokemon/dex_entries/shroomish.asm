@@ -1,11 +1,11 @@
 
 	db "Mushroom@" ; species name
-	dw 4, 45 ; height, weight
+	dw 104, 99 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Living in the damp"
+    next "soil of the dark"
+    next "depths of forests,"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "feeding on the"
+    next "compost made of"
+    next "fallen leaves.@"

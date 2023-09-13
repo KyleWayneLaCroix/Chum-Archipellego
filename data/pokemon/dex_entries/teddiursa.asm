@@ -1,11 +1,11 @@
 
 	db "Little Bear@" ; species name
-	dw 6, 88 ; height, weight
+	dw 112, 194 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Because it always"
+    next "licks up honey,"
+    next "its paw is stained"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "with the flavor,"
+    next "making it always"
+    next "taste sweet.@"

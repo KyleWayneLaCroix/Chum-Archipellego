@@ -1,11 +1,11 @@
 
 	db "Blocking@" ; species name
-	dw 16, 460 ; height, weight
+	dw 503, 1014 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Due to their loud,"
+    next "abrasive voices,"
+    next "many OBSTAGOON"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "become angry"
+    next "debate bros on"
+    next "YouTube.@"

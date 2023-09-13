@@ -1,11 +1,11 @@
 
 	db "Clear Wing@" ; species name
-	dw 12, 380 ; height, weight
+	dw 311, 838 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "YANMA can flap its"
+    next "wings so fast that"
+    next "it generates shock"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "waves that will"
+    next "shatter windows in"
+    next "the area.@"

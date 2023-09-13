@@ -1,11 +1,11 @@
 
 	db "Gnash Teeth@" ; species name
-	dw 9, 190 ; height, weight
+	dw 211, 419 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "It stuns its prey"
+    next "using its psycho-"
+    next "-kinesis and then"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "grinds them to"
+    next "mush with its"
+    next "strong teeth.@"

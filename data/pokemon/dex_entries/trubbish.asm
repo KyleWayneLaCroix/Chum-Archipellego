@@ -1,11 +1,11 @@
 
 	db "Trash Bag@" ; species name
-	dw 6, 310 ; height, weight
+	dw 112, 684 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "No one is sure if"
+    next "they are attracted"
+    next "to bags of garbage"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "or are born from"
+    next "them. Either way,"
+    next "they smell bad.@"

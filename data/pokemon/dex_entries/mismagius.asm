@@ -1,11 +1,11 @@
 
 	db "Magical@" ; species name
-	dw 9, 44 ; height, weight
+	dw 211, 97 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "It chants and"
+    next "mutters strange"
+    next "incantations that"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "no one understands"
+    next "as it curses its"
+    next "foes.@"

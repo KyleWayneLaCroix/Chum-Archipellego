@@ -1,11 +1,11 @@
 
 	db "Big Horn@" ; species name
-	dw 14, 712 ; height, weight
+	dw 511, 2097 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "The fur from a "
+    next "WYRDEER's beard"
+    next "retains heat very"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "well and is used"
+    next "to make winter"
+    next "clothing.@"

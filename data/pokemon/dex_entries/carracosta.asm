@@ -1,11 +1,11 @@
 
 	db "Prototurtle@" ; species name
-	dw 12, 810 ; height, weight
+	dw 311, 1786 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Their mighty jaws"
+    next "can chew through"
+    next "steel beams."
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "Their whereabouts"
+    next "on September 11,"
+    next "2001 are unknown.@"

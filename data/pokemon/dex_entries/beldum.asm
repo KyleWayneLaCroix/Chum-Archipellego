@@ -1,11 +1,11 @@
 
 	db "Iron Ball@" ; species name
-	dw 6, 952 ; height, weight
+	dw 112, 2099 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Beldum does not"
+    next "have any blood."
+    next "Only magnets."
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "Its cells are"
+    next "magnets."
+    next "Only magnets.@"

@@ -1,11 +1,11 @@
 
 	db "Iron Armor@" ; species name
-	dw 21, 3600 ; height, weight
+	dw 611, 7937 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "You can tell an"
+    next "AGGRON's age by"
+    next "the length of its"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "horns. It claims"
+    next "entire mountains"
+    next "as territory.@"

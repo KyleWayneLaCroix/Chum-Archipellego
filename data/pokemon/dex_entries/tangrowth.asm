@@ -1,11 +1,11 @@
 
 	db "Vine@" ; species name
-	dw 20, 1286 ; height, weight
+	dw 607, 2836 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Its arms are made"
+    next "of tightly woven"
+    next "vines. If they get"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "chopped off, it"
+    next "is no problem."
+    next "They just regrow.@"

@@ -1,11 +1,11 @@
 
 	db "Honeyed@" ; species name
-	dw 109, 140 ; height, weight
+	dw 210, 309 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "When an EEVEE"
+    next "gorges itself upon"
+    next "COMBEE honey, it"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "becomes HONEON."
+    next "It retains this"
+    next "gluttony.@"

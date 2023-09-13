@@ -1,11 +1,11 @@
 
 	db "Pig@" ; species name
-	dw 4, 65 ; height, weight
+	dw 104, 143 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "It uses the tip of"
+    next "its nose to dig"
+    next "for food, and can"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "track its favorite"
+    next "snacks for miles"
+    next "if needed.@"

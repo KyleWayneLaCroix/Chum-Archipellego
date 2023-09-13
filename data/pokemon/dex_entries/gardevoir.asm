@@ -1,11 +1,11 @@
 
 	db "Embrace@" ; species name
-	dw 16, 484 ; height, weight
+	dw 503, 1067 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Gardevoir has the"
+    next "power to create a"
+    next "small black hole."
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "This ability is"
+    next "used to get rid of"
+    next "creeps.@"

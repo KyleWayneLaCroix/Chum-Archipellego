@@ -1,11 +1,11 @@
 
 	db "Dog@" ; species name
-	dw 10, 340 ; height, weight
+	dw 303, 750 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Boltund's legs are"
+    next "full of electrical"
+    next "currents, enabling"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "it to run at"
+    next "the speed of a"
+    next "mid-size sedan.@"

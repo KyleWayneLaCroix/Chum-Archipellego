@@ -1,11 +1,11 @@
 
 	db "HAL Lab@" ; species name
-	dw 1, 1 ; height, weight
+	dw 506, 617 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "I asked MADDIE"
+    next "what her favorite"
+    next "#MON was, and"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "she said KIRBY!"
+    next "That's why he's in"
+    next "this game.@"

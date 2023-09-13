@@ -1,11 +1,11 @@
 
 	db "Cherry@" ; species name
-	dw 4, 33 ; height, weight
+	dw 104, 73 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "The smaller ball"
+    next "is not only filled"
+    next "with nutrients, it"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "is very tasty."
+    next "Many are killed by"
+    next "bird #MON.@"

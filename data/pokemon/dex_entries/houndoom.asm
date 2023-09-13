@@ -1,11 +1,11 @@
 
 	db "Dark@" ; species name
-	dw 14, 350 ; height, weight
+	dw 407, 772 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "If you are burned"
+    next "by the flames it"
+    next "shoots from its"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "mouth, the pain"
+    next "will never go"
+    next "away.@"

@@ -1,11 +1,11 @@
 
 	db "Jolly@" ; species name
-	dw 12, 325 ; height, weight
+	dw 311, 717 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "LOMBRE will try"
+    next "to bother and"
+    next "confuse fishermen"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "by tying their"
+    next "fishing line to"
+    next "random objects.@"

@@ -1,11 +1,11 @@
 
 	db "Iron Claw@" ; species name
-	dw 12, 2025 ; height, weight
+	dw 311, 4465 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "METANG is formed"
+    next "by two BELDUM"
+    next "fusing together,"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "forming a nervous"
+    next "system, but with"
+    next "magnetism.@"

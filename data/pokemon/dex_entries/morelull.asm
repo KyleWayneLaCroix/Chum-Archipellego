@@ -1,11 +1,11 @@
 
 	db "Illuminator@" ; species name
-	dw 580, 15 ; height, weight
+	dw 19003, 33 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "#MON living in"
+    next "forest eat the"
+    next "delicious caps on"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "MORELULL's head."
+    next "The caps regrow"
+    next "overnight.@"

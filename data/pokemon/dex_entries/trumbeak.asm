@@ -1,11 +1,11 @@
 
 	db "Bugle Beak@" ; species name
-	dw 6, 148 ; height, weight
+	dw 112, 326 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "It fires the seeds"
+    next "of berries it has"
+    next "eaten like bullets"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "from its beak for"
+    next "defense and to"
+    next "grow new plants.@"

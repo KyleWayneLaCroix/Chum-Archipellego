@@ -53,7 +53,7 @@ WakeUpScript:
 	setflag ENGINE_POKEGEAR
 	setflag ENGINE_MAP_CARD
 	setflag ENGINE_RADIO_CARD
-	;setflag ENGINE_POKEDEX
+	setflag ENGINE_POKEDEX
 	promptbutton
 	special SetDayOfWeek
 .SetDayOfWeek:
@@ -527,6 +527,40 @@ AwakeningLabHealingMachineHealedText:
 	done
 
 AwakeningLabTeleport:
+	; givepoke FURIOUSB, 100
+	; giveitem BRITE_CARD
+	; giveitem JUMP_3
+	; giveitem JUMP_2
+	; giveitem JUMP_1
+	; giveitem HM_SURF
+	; giveitem HM_FLY
+	; giveitem HM_STRENGTH
+	; giveitem BOMBS
+	; giveitem FLASHLIGHT
+	; setflag ENGINE_FLYPOINT_AWAKENING_BEACH
+	; setflag ENGINE_FLYPOINT_GEAR_CITY
+	; setflag ENGINE_FLYPOINT_CEMETARY
+	; setflag ENGINE_FLYPOINT_UNIVERCITY
+	; setflag ENGINE_FLYPOINT_EEVEE_RANCH
+	; setflag ENGINE_FLYPOINT_JUNGLE
+	; setflag ENGINE_FLYPOINT_VOLCANO_EXTERIOR
+	; setflag ENGINE_FLYPOINT_MAYBE_VILLAGE
+	; setflag ENGINE_FLYPOINT_IVY_ROAD
+	; setflag ENGINE_FLYPOINT_THE_DARK_LAB
+	; setflag ENGINE_ZEPHYRBADGE
+	; setflag ENGINE_HIVEBADGE
+	; setflag ENGINE_PLAINBADGE
+	; setflag ENGINE_FOGBADGE
+	; setflag ENGINE_MINERALBADGE
+	; setflag ENGINE_STORMBADGE
+	; setflag ENGINE_GLACIERBADGE
+	; setflag ENGINE_RISINGBADGE
+	; warp KYLES_DESKTOP_ROOM, 3, 3
+	; setflag ENGINE_POKEGEAR
+	; setflag ENGINE_MAP_CARD
+	; setflag ENGINE_RADIO_CARD
+	; setflag ENGINE_POKEDEX
+	; givepoke SPIRRIP, 5
 	;givepoke FURIOUSB, 100
 	;giveitem BRITE_CARD
 	;giveitem JUMP_3
@@ -751,7 +785,7 @@ AwakeningLab_MapEvents:
 	bg_event 24, 12, BGEVENT_READ, AwakeningLabHealingMachine
 	bg_event 25, 12, BGEVENT_READ, AwakeningLabHealingMachine
 	bg_event  2,  7, BGEVENT_READ, AwakeningLabBombableWall
-	bg_event 15, 15, BGEVENT_READ, AwakeningLabTeleport
+	bg_event 23,  2, BGEVENT_READ, AwakeningLabTeleport
 	bg_event 2, 4, BGEVENT_READ, AwakeningLabJump
 
 	def_object_events

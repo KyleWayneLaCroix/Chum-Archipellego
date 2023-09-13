@@ -1,11 +1,11 @@
 
 	db "Shadow@" ; species name
-	dw 14, 405 ; height, weight
+	dw 407, 893 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "MEGA evolution"
+    next "removes it's inhi-"
+    next "-bitions, it will"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "try to take the"
+    next "lives of all, even"
+    next "its own trainer.@"

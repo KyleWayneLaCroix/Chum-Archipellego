@@ -1,11 +1,11 @@
 
 	db "Sun@" ; species name
-	dw 9, 265 ; height, weight
+	dw 211, 584 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "ESPEON are valued"
+    next "in battle due to"
+    next "their ability to"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "read the immediate"
+    next "future, predicting"
+    next "new attacks.@"

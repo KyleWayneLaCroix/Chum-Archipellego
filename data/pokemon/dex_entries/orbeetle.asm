@@ -1,11 +1,11 @@
 
 	db "Seven Spot@" ; species name
-	dw 4, 408 ; height, weight
+	dw 104, 899 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "ORBEETLE possess"
+    next "immense psychic"
+    next "power, and very"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "large brains."
+    next "Often mistaken for"
+    next "alien invaders.@"

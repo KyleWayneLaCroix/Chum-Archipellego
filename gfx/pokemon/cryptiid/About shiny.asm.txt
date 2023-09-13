@@ -1,3 +1,0 @@
-The shiny is just a temporary/conceptual idea for what would fit, you can change it to whatever you want, but keep in mind you have to stay within the RGB-31 range. 
-
-If the colours appear messed up, switch the values in shiny.asm 

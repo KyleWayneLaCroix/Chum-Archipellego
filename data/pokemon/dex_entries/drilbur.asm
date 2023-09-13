@@ -1,11 +1,11 @@
 
 	db "Mole@" ; species name
-	dw 3, 85 ; height, weight
+	dw 12, 187 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "It can spin as it"
+    next "drills underground"
+    next "to reach speeds as"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "high as 30 mph."
+    next "No prey can escape"
+    next "its grasp.@"

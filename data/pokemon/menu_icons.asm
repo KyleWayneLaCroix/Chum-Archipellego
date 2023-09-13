@@ -153,8 +153,8 @@ MonMenuIcons:
 	db ICON_DOG         ; LILLIPUP
 	db ICON_DOG         ; HERDIER
 	db ICON_DOG         ; STOUTLAND
-	db ICON_MONSTER     ; SALANDIT2
-	db ICON_MONSTER     ; SALAZZLE2
+	db ICON_UNOWN       ; SALANDIT2
+	db ICON_UNOWN       ; SALAZZLE2
 	db ICON_MONSTER     ; TYKER
 	db ICON_MONSTER     ; STRAIGAR
 	db ICON_BALL        ; TYMPOLE

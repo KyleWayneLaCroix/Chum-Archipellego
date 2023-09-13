@@ -66,7 +66,7 @@ PlayBattleMusic:
 	jr .done
 
 .kantowild
-	ld de, MUSIC_KANTO_WILD_BATTLE
+	ld de, MUSIC_JOHTO_WILD_BATTLE
 	jr .done
 
 .trainermusic
@@ -94,7 +94,7 @@ PlayBattleMusic:
 	cp TREE_BRIAN
 	jr z, .done
 
-	ld de, MUSIC_KANTO_GYM_LEADER_BATTLE
+	ld de, MUSIC_JOHTO_GYM_LEADER_BATTLE
 	farcall IsKantoGymLeader
 	jr c, .done
 
@@ -104,11 +104,11 @@ PlayBattleMusic:
 	farcall IsGymLeader
 	jr c, .done
 
-	ld de, MUSIC_RIVAL_BATTLE
+	ld de, MUSIC_MEGALOVANIA
 	ld a, [wOtherTrainerClass]
-	cp RIVAL1
+	cp KYLE2
 	jr z, .done
-	cp RIVAL2
+	cp BRIAN_3
 	jr nz, .othertrainer
 
 	ld a, [wOtherTrainerID]
@@ -132,7 +132,7 @@ PlayBattleMusic:
 	jr .done
 
 .kantotrainer
-	ld de, MUSIC_KANTO_TRAINER_BATTLE
+	ld de, MUSIC_JOHTO_TRAINER_BATTLE
 
 .done
 	call PlayMusic

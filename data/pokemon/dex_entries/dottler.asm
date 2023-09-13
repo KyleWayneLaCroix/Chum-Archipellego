@@ -1,11 +1,11 @@
 
 	db "Radome@" ; species name
-	dw 4, 195 ; height, weight
+	dw 104, 430 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Mastering its"
+    next "ability to assess"
+    next "its suroundings,"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "DOTTLER is now"
+    next "capable of reading"
+    next "minds.@"

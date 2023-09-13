@@ -1,11 +1,11 @@
 
 	db "Iron Leg@" ; species name
-	dw 16, 5500 ; height, weight
+	dw 503, 12128 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "METAGROSS has four"
+    next "brains in total,"
+    next "that combine to"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "be smarter than"
+    next "even a powerful"
+    next "supercomputer.@"

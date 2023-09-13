@@ -1,11 +1,11 @@
 
 	db "Raven@" ; species name
-	dw 8, 160 ; height, weight
+	dw 207, 353 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "An intelligent"
+    next "#MON, these"
+    next "birds can use any"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "tool they find"
+    next "including guns and"
+    next "#BALLs.@"

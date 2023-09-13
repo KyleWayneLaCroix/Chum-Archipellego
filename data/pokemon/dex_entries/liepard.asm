@@ -1,11 +1,11 @@
 
 	db "Cruel@" ; species name
-	dw 11, 375 ; height, weight
+	dw 307, 827 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Silently, LIEPARDs"
+    next "will sneak behind"
+    next "their prey in the "
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "night."
+    next "Be worried if you"
+    next "lose sight of one.@"

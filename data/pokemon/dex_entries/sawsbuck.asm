@@ -1,11 +1,11 @@
 
 	db "Season@" ; species name
-	dw 19, 925 ; height, weight
+	dw 603, 2040 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "SAWSBUCK with many"
+    next "flowers on their"
+    next "antlers appear to"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "grow more slowly"
+    next "as if the flowers"
+    next "steal energy...@"

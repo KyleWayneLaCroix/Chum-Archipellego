@@ -1,11 +1,11 @@
 
 	db "BashBuffalo@" ; species name
-	dw 16, 946 ; height, weight
+	dw 503, 2086 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "The fluffy fur of"
+    next "BOUFFALANT absorbs"
+    next "damage, allowing"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "them to strike"
+    next "even a brick wall"
+    next "with headbutts.@"

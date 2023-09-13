@@ -1,11 +1,11 @@
 
 	db "Bat@" ; species name
-	dw 4, 21 ; height, weight
+	dw 104, 46 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "The heart-shaped"
+    next "mark its nostrils"
+    next "leave on surfaces"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "are the surest"
+    next "sign that a WOOBAT"
+    next "is nearby.@"

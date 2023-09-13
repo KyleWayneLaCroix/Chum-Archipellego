@@ -1,11 +1,11 @@
 
 	db "Scaly@" ; species name
-	dw 16, 782 ; height, weight
+	dw 503, 1724 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "There was once a"
+    next "legendary warrior"
+    next "who wore armor of"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "KOMMO-O scales."
+    next "Many died trying"
+    next "to copy him.@"

@@ -1,11 +1,11 @@
 
 	db "Worm@" ; species name
-	dw 3, 38 ; height, weight
+	dw 100, 84 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "SNOM eat snow,"
+    next "preferring the"
+    next "soft, freshly"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "fallen snow on"
+    next "top of mountains"
+    next "and houses.@"

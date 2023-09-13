@@ -1,11 +1,11 @@
 
 	db "Draft Horse@" ; species name
-	dw 25, 9200 ; height, weight
+	dw 802, 20286 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Able to carry over"
+    next "10 tons, MUDSDALE"
+    next "have kicks capable"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "of reducing trucks"
+    next "to mere scrap in a"
+    next "single blow.@"

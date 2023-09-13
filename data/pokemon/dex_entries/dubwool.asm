@@ -1,11 +1,11 @@
 
 	db "Sheep@" ; species name
-	dw 13, 430 ; height, weight
+	dw 403, 948 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Its majestic horns"
+    next "are solely for"
+    next "attracting mates."
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "They are actually"
+    next "also made out of"
+    next "wool.@"

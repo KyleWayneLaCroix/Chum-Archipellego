@@ -68,24 +68,24 @@ TrophyBrianAfterText:
 	cont "     STAFF       "
 
 	para "     DIRECTOR    "
-	line "   KYLE LACROIX  "
+	line "  KYLE 'LWELYK'  "
 
 	para "   CO-DIRECTOR   "
-	line "   KYLE LACROIX  "
+	line "  KYLE 'LWELYK'  "
 
 	para "   PROGRAMMERS   "
-	line "   KYLE LACROIX  "
-	line "   KYLE LACROIX  "
-	line "   KYLE LACROIX  "
-	line "   KYLE LACROIX  "
+	line "  KYLE 'LWELYK'  "
+	line "  KYLE 'LWELYK'  "
+	line "  KYLE 'LWELYK'  "
+	line "  KYLE 'LWELYK'  "
 
 	para "   PROGRAMMERS   "
-	line "   KYLE LACROIX  "
-	line "   KYLE LACROIX  "
-	line "   KYLE LACROIX  "
+	line "  KYLE 'LWELYK'  "
+	line "  KYLE 'LWELYK'  "
+	line "  KYLE 'LWELYK'  "
 
 	para "GRAPHICS DIRECTOR"
-	line "   KYLE LACROIX  "
+	line "  KYLE 'LWELYK'  "
 
 	para "     THE END     "
 	done

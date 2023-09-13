@@ -1,11 +1,11 @@
 
 	db "Blossom@" ; species name
-	dw 5, 93 ; height, weight
+	dw 108, 205 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "If it senses some"
+    next "strong sunlight,"
+    next "it will unfurl its"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "petals to absorb"
+    next "the suns rays with"
+    next "its full body.@"

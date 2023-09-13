@@ -81,7 +81,7 @@ ItemNames::
 	li "CLEANSE TAG"
 	li "SMOKE BALL"
 	li "EVERSTONE"
-	li "UP-GRADE"
+	li "STRANGE USB"
 	li "DRAGON SCALE"
 	li "BERRY JUICE"
 	li "P.B.R."
@@ -190,7 +190,7 @@ ItemNames::
 	li "SMALL KEY"
 	li "JUMP"
 	li "JUMP"
-	li "TERU-SAMA"
+	li "BETA STONE"
 	li "TERU-SAMA"
 	assert_list_length NUM_ITEMS
 	li "TM01"

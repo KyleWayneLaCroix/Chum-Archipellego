@@ -1,11 +1,11 @@
 
 	db "Apple Wing@" ; species name
-	dw 3, 10 ; height, weight
+	dw 12, 22 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "It flies on wings"
+    next "of apple skin and"
+    next "spits a powerful"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "acid so strong it"
+    next "can cause chemical"
+    next "burns.@"

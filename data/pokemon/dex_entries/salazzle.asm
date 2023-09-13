@@ -1,11 +1,11 @@
 
 	db "ToxicLizard@" ; species name
-	dw 12, 222 ; height, weight
+	dw 311, 490 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "SALAZZLE's poison"
+    next "also serves as a"
+    next "pheromone for "
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "attracting mates."
+    next "Both smell awful"
+    next "to people.@"

@@ -1,11 +1,11 @@
 
 	db "Subterrene@" ; species name
-	dw 7, 404 ; height, weight
+	dw 204, 891 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "They make their"
+    next "homes in maze-like"
+    next "tunnels beneath"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "the earth, causing"
+    next "major problems"
+    next "with subways.@"

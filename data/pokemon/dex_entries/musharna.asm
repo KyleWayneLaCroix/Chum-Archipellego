@@ -1,11 +1,11 @@
 
 	db "Drowsing@" ; species name
-	dw 11, 605 ; height, weight
+	dw 307, 1334 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Musharna can shape"
+    next "the dream gas that"
+    next "its forehead emits"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "When it has fed on"
+    next "mostly nightmares,"
+    next "this is dangerous.@"

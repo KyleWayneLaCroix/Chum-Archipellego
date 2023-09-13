@@ -1,11 +1,11 @@
 
 	db "Coconut@" ; species name
-	dw 109, 4156 ; height, weight
+	dw 3509, 9164 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Blazing sunlight"
+    next "drew out the"
+    next "latent draconic"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "powers EXEGGUTOR"
+    next "was hiding inside"
+    next "all along.@"

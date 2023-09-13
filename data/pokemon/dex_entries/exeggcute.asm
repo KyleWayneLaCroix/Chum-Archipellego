@@ -1,11 +1,11 @@
 
 	db "Egg@" ; species name
-	dw 4, 25 ; height, weight
+	dw 104, 55 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "The six eggs"
+    next "gather together"
+    next "using their"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "telepathy."
+    next "They combine their"
+    next "mental power.@"

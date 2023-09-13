@@ -1,11 +1,11 @@
 
 	db "Aurora@" ; species name
-	dw 20, 1870 ; height, weight
+	dw 607, 4123 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Said to be the"
+    next "reincarnation of"
+    next "north winds, it"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "can instantly"
+    next "purify filthy,"
+    next "murky water.@"

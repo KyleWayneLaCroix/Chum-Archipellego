@@ -1,11 +1,11 @@
 
 	db "Fruit@" ; species name
-	dw 3, 32 ; height, weight
+	dw 12, 71 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Bird #MON are"
+    next "always trying to"
+    next "eat BOUNSWEET."
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "Thankfully, they"
+    next "are too dumb to"
+    next "realize this.@"

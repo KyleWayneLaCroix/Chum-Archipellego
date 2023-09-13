@@ -1,11 +1,11 @@
 
 	db "Tadpole@" ; species name
-	dw 5, 45 ; height, weight
+	dw 108, 99 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "The soundwaves it"
+    next "it emits to warn"
+    next "others of danger"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "are pitched such"
+    next "that humans cannot"
+    next "hear them.@"

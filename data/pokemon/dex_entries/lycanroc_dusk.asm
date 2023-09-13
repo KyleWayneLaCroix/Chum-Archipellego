@@ -1,11 +1,11 @@
 
 	db "Wolf@" ; species name
-	dw 8, 250 ; height, weight
+	dw 207, 551 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "This rare, temper-"
+    next "-mental form of"
+    next "LYCANROC acts calm"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "most of the time,"
+    next "but turns vicious"
+    next "very quickly.@"

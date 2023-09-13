@@ -1,11 +1,11 @@
 
 	db "Frost Tree@" ; species name
-	dw 10, 505 ; height, weight
+	dw 303, 1114 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "During cold"
+    next "seasons, it will"
+    next "migrate to the"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "base of mountains."
+    next "In the spring, it"
+    next "returns home.@"

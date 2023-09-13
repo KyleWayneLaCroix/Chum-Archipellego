@@ -1,11 +1,11 @@
 
 	db "Emotion@" ; species name
-	dw 8, 202 ; height, weight
+	dw 207, 445 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "KIRLIA can use its"
+    next "psychic powers to"
+    next "rip a whole in"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "spacetime."
+    next "It dances when"
+    next "it is happy.@"

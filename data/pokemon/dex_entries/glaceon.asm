@@ -1,11 +1,11 @@
 
 	db "Fresh Snow@" ; species name
-	dw 8, 259 ; height, weight
+	dw 207, 571 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "By controlling"
+    next "its body heat, it"
+    next "can freeze the air"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "around it to make"
+    next "a diamond-dust"
+    next "flurry of snow.@"

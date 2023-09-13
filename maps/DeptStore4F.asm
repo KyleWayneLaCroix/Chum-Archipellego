@@ -213,9 +213,10 @@ EvoOtherItemsText:
 	cont "a TART APPLE."
 
 	para "Also PORYGON2"
-	line "uses an UPGRADE"
-	cont "to become PORY-"
-	cont "-GON Z."
+	line "uses a STRANGE USB STRANGE USB STRANGE USB"
+	cont "to become"
+	cont "PORYGON Z."
+	cont "PORYGON X."
 	done
 
 EvoSexText:
@@ -229,9 +230,16 @@ EvoSexText:
 	cont "if female."
 
 	para "TANGELA evolves"
-	line "to TANGROWTH if"
-	cont "male, and JUNGELA"
-	cont "if female."
+	line "to JUNGELA via a"
+	cont "BETA STONE, but"
+	cont "once evolved"
+	cont "JUNGELA can use"
+	cont "TESTOSTERONE to"
+	cont "become a"
+	cont "TANGROWTH, and"
+	cont "become a JUNGELA"
+	cont "again with some"
+	cont "TESTOSTERONE."
 
 	para "Also ESPURR has a"
 	line "male and female"

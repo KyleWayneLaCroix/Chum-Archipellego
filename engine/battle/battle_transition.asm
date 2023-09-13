@@ -675,7 +675,26 @@ StartTrainerBattle_LoadPokeBallGraphics:
 	jr .nextscene
 
 .cgb
+	ld hl, .brianpals
+	ld a, [wOtherTrainerClass]
+	cp BALL_BRIAN
+	jr z, .load_brian_pals
+	cp MAD_DOG
+	jr z, .load_brian_pals
+	cp BRIAN_F
+	jr z, .load_brian_pals
+	cp BRIAN_M
+	jr z, .load_brian_pals
+	cp BRIAN_64
+	jr z, .load_brian_pals
+	cp BUG_BRIAN
+	jr z, .load_brian_pals
+	cp ROCK_BRIAN
+	jr z, .load_brian_pals
+	cp TREE_BRIAN
+	jr z, .load_brian_pals
 	ld hl, .pals
+.load_brian_pals
 	ld a, [wTimeOfDayPal]
 	maskbits NUM_DAYTIMES
 	cp DARKNESS_F
@@ -732,8 +751,28 @@ INCLUDE "gfx/overworld/trainer_battle.pal"
 .darkpals:
 INCLUDE "gfx/overworld/trainer_battle_dark.pal"
 
+.brianpals:
+INCLUDE "gfx/overworld/brian_battle.pal"
+
 .loadpokeballgfx:
+	ld de, BrianTransition
 	ld a, [wOtherTrainerClass]
+	cp BALL_BRIAN
+	ret z
+	cp MAD_DOG
+	ret z
+	cp BRIAN_F
+	ret z
+	cp BRIAN_M
+	ret z
+	cp BRIAN_64
+	ret z
+	cp BUG_BRIAN
+	ret z
+	cp ROCK_BRIAN
+	ret z
+	cp TREE_BRIAN
+	ret z
 	ld de, PokeBallTransition
 	ret
 
@@ -757,6 +796,27 @@ opt b.X ; . = 0, X = 1
 	bigdw %..XXXX....XXXX..
 	bigdw %....XXXXXXXX....
 	bigdw %......XXXX......
+popo
+
+BrianTransition:
+pusho
+opt b.X ; . = 0, X = 1
+	bigdw %XXXXXXXXXXXX....
+	bigdw %XXXXXXXXXXXXXX..
+	bigdw %XXXXXXXXXXXXXXX.
+	bigdw %XXXXXXXXXXXXXXX.
+	bigdw %XXXXX.....XXXXXX
+	bigdw %XXXXX......XXXXX
+	bigdw %XXXXX.....XXXXXX
+	bigdw %XXXXXXXXXXXXXXX.
+	bigdw %XXXXXXXXXXXXXXX.
+	bigdw %XXXXX.....XXXXXX
+	bigdw %XXXXX......XXXXX
+	bigdw %XXXXX.....XXXXXX
+	bigdw %XXXXXXXXXXXXXXX.
+	bigdw %XXXXXXXXXXXXXXX.
+	bigdw %XXXXXXXXXXXXXX..
+	bigdw %XXXXXXXXXXXX....
 popo
 
 WipeLYOverrides:

@@ -1,11 +1,11 @@
 
 	db "Transform@" ; species name
-	dw 3, 40 ; height, weight
+	dw 12, 88 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "When DITTO attempt"
+    next "to copy another"
+    next "DITTO, they will"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "both vibrate until"
+    next "they clip through"
+    next "the environment.@"

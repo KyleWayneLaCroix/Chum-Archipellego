@@ -1,11 +1,11 @@
 
 	db "VineHair@" ; species name
-	dw 1, 1 ; height, weight
+	dw 605, 2763 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "This beta evo-"
+    next "-lution of TANGELA"
+    next "is much more"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "mischevous than"
+    next "its Generation IV"
+    next "counterpart.@"

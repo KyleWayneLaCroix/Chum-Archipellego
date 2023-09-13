@@ -1,11 +1,11 @@
 
 	db "Water Weed@" ; species name
-	dw 5, 26 ; height, weight
+	dw 108, 57 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "It's said LOTAD"
+    next "use to live on"
+    next "land, but the leaf"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "on its head grew"
+    next "too large, so it"
+    next "floats instead.@"

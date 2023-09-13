@@ -1,11 +1,11 @@
 
 	db "Cannon@" ; species name
-	dw 11, 260 ; height, weight
+	dw 307, 573 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Within its beak,"
+    next "its internal gas"
+    next "ignites to launch"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "seeds with enough"
+    next "power to pulverize"
+    next "boulders.@"

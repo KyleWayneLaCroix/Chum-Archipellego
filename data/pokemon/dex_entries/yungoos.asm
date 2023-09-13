@@ -1,11 +1,11 @@
 
 	db "Loitering@" ; species name
-	dw 4, 60 ; height, weight
+	dw 104, 132 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Yungoos are 90%"
+    next "stomache, and will"
+    next "hunt until they"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "collapse from"
+    next "exhaustion until"
+    next "the next day.@"

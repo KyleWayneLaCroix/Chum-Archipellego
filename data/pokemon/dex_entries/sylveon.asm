@@ -1,11 +1,11 @@
 
 	db "Transgender@" ; species name
-	dw 10, 235 ; height, weight
+	dw 303, 518 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "It wraps its"
+    next "ribbonlike feelers"
+    next "around its friends"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "and its beloved"
+    next "trainer as it"
+    next "walks with them.@"

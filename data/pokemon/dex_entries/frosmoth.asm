@@ -1,11 +1,11 @@
 
 	db "Frost Moth@" ; species name
-	dw 13, 420 ; height, weight
+	dw 403, 926 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "The wings of a"
+    next "FROSMOTH are"
+    next "so cold that they"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "freeze the water"
+    next "in the air as they"
+    next "fly about.@"

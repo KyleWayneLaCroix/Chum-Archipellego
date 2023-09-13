@@ -1,11 +1,11 @@
 
 	db "Carefree@" ; species name
-	dw 15, 550 ; height, weight
+	dw 411, 1213 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Despite JYNX's"
+    next "cancelation, thus"
+    next "far LUDICOLO has"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "remained an active"
+    next "#MON to this"
+    next "day.@"

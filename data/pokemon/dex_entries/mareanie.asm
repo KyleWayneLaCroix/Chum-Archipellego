@@ -1,11 +1,11 @@
 
 	db "Brutal Star@" ; species name
-	dw 4, 80 ; height, weight
+	dw 104, 176 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Every part of its"
+    next "body except its"
+    next "head regenerates"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "if it is lost."
+    next "Unfortunately they"
+    next "taste too bitter.@"

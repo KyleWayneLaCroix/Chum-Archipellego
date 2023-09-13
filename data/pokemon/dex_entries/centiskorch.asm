@@ -1,11 +1,11 @@
 
 	db "Radiator@" ; species name
-	dw 30, 1200 ; height, weight
+	dw 910, 2646 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "This massive,"
+    next "burning bug can"
+    next "lash like a whip"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "and is a danger"
+    next "to both people and"
+    next "#MON alike.@"

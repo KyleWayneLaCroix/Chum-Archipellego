@@ -1,11 +1,11 @@
 
 	db "Sand Heap@" ; species name
-	dw 5, 700 ; height, weight
+	dw 108, 1544 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Born from a sand"
+    next "mound playfully"
+    next "built by a child,"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "this #MON"
+    next "embodies grudges"
+    next "of the departed.@"

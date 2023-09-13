@@ -1,11 +1,11 @@
 
 	db "Electrified@" ; species name
-	dw 8, 298 ; height, weight
+	dw 207, 657 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Its mane shines"
+    next "when it discharges"
+    next "electricity."
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "They use this"
+    next "to communicate"
+    next "with eachother.@"

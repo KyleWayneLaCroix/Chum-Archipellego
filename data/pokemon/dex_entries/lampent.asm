@@ -1,11 +1,11 @@
 
 	db "Lamp@" ; species name
-	dw 6, 130 ; height, weight
+	dw 20, 287 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Its baleful fire"
+    next "is powered by"
+    next "departed souls."
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "It is seen near"
+    next "hospitals, waiting"
+    next "for death.@"

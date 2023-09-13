@@ -1,11 +1,11 @@
 
 	db "Scaly@" ; species name
-	dw 12, 470 ; height, weight
+	dw 311, 1036 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "It continuously"
+    next "sheds and regrows"
+    next "its scales."
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "They become harder"
+    next "and sharper with"
+    next "every regrowth.@"

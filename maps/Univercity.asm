@@ -180,7 +180,7 @@ UnivercityWhiteGirlText:
 	done
 
 JSchoolSignText:
-	text "Edward J. Meeman"
+	text "Alfred J. Meanman"
 	line "Journalism School"
 
 	para "Training today's"

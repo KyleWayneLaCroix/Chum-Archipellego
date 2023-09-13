@@ -854,29 +854,11 @@ Cry_Aipom_Ch8:
 	noise_note 20, 10, 3, 76
 	sound_ret
 
-Cry_Nidoran_M:
-	channel_count 3
-	channel 5, Cry_Nidoran_M_Ch5
-	channel 6, Cry_Nidoran_M_Ch6
-	channel 8, Cry_Nidoran_M_Ch8
-
-Cry_Nidoran_F:
-	channel_count 3
-	channel 5, Cry_Nidoran_F_Ch5
-	channel 6, Cry_Nidoran_F_Ch6
-	channel 8, Cry_Nidoran_F_Ch8
-
 Cry_Slowpoke:
 	channel_count 3
 	channel 5, Cry_Slowpoke_Ch5
 	channel 6, Cry_Slowpoke_Ch6
 	channel 8, Cry_Slowpoke_Ch8
-
-Cry_Kangaskhan:
-	channel_count 3
-	channel 5, Cry_Kangaskhan_Ch5
-	channel 6, Cry_Kangaskhan_Ch6
-	channel 8, Cry_Kangaskhan_Ch8
 
 Cry_Charmander:
 	channel_count 3
@@ -1260,35 +1242,6 @@ Cry_Weepinbell_Ch8:
 	noise_note 8, 9, 1, 28
 	sound_ret
 
-Cry_Kangaskhan_Ch5:
-	duty_cycle_pattern 3, 3, 0, 0
-	square_note 4, 15, 7, 1544
-	square_note 6, 14, 6, 1536
-	square_note 6, 13, 7, 1520
-	square_note 6, 12, 4, 1504
-	square_note 5, 13, 3, 1472
-	square_note 4, 13, 3, 1440
-	square_note 8, 14, 1, 1408
-	sound_ret
-
-Cry_Kangaskhan_Ch6:
-	duty_cycle_pattern 0, 0, 2, 2
-	square_note 4, 12, 7, 1284
-	square_note 6, 10, 6, 1282
-	square_note 6, 9, 7, 1265
-	square_note 4, 11, 4, 1249
-	square_note 5, 10, 3, 1218
-	square_note 4, 11, 3, 1187
-	square_note 8, 12, 1, 1154
-	sound_ret
-
-Cry_Kangaskhan_Ch8:
-	noise_note 12, 14, 4, 76
-	noise_note 10, 12, 7, 92
-	noise_note 12, 11, 6, 76
-	noise_note 15, 10, 2, 92
-	sound_ret
-
 Cry_Bulbasaur_Ch5:
 	duty_cycle_pattern 3, 3, 0, 1
 	square_note 4, 15, 7, 1984
@@ -1345,26 +1298,6 @@ Cry_Spearow_Ch8:
 	noise_note 4, 7, 4, 33
 	noise_note 4, 7, 4, 16
 	noise_note 4, 7, 1, 32
-	sound_ret
-
-Cry_Nidoran_M_Ch5:
-	duty_cycle_pattern 3, 3, 1, 1
-	square_note 4, 15, 3, 1816
-	square_note 15, 14, 5, 1944
-	square_note 8, 9, 1, 1880
-	sound_ret
-
-Cry_Nidoran_M_Ch6:
-	duty_cycle_pattern 2, 2, 0, 0
-	square_note 5, 11, 3, 1800
-	square_note 15, 12, 5, 1928
-	square_note 8, 7, 1, 1864
-	sound_ret
-
-Cry_Nidoran_M_Ch8:
-	noise_note 3, 10, 1, 28
-	noise_note 14, 9, 4, 44
-	noise_note 8, 8, 1, 28
 	sound_ret
 
 Cry_Pidgey_Ch5:
@@ -1563,28 +1496,6 @@ Cry_Drowzee_Ch8:
 	noise_note 4, 10, 1, 60
 	sound_ret
 
-Cry_Nidoran_F_Ch5:
-	duty_cycle_pattern 2, 2, 0, 0
-	square_note 4, 15, 3, 1536
-	square_note 8, 13, 5, 1888
-	square_note 3, 14, 2, 1824
-	square_note 8, 13, 1, 1808
-	sound_ret
-
-Cry_Nidoran_F_Ch6:
-	duty_cycle_pattern 1, 1, 2, 2
-	square_note 5, 11, 3, 1777
-	square_note 7, 12, 5, 1874
-	square_note 3, 10, 2, 1809
-	square_note 8, 11, 1, 1537
-	sound_ret
-
-Cry_Nidoran_F_Ch8:
-	noise_note 3, 10, 2, 60
-	noise_note 12, 9, 4, 44
-	noise_note 3, 8, 2, 28
-	noise_note 8, 7, 1, 44
-	sound_ret
 
 Cry_Nidoqueen_Ch5:
 	duty_cycle_pattern 3, 3, 0, 0
@@ -2107,4 +2018,89 @@ Cry_Rattata_Ch8:
 	noise_note 7, 11, 5, 41
 	noise_note 1, 10, 2, 57
 	noise_note 8, 9, 1, 73
+	sound_ret
+
+
+Cry_Gastrodon:
+	channel_count 3
+	channel 5, Cry_Gastrodon_Ch5
+	channel 6, Cry_Gastrodon_Ch6
+	channel 8, Cry_Gastrodon_Ch8
+	
+Cry_Gastrodon_Ch5:
+Cry_Gastrodon_branch:
+	square_note  3, 15, 7, $0601
+	square_note  3, 15, 7, $0701
+	sound_loop 8, Cry_Gastrodon_branch
+	sound_ret
+
+Cry_Gastrodon_Ch6: 
+	square_note  2, 15, 7, $ffff
+	square_note  3, 15, 7, $0602
+	square_note  3, 15, 7, $0702
+	sound_loop 8, Cry_Gastrodon_branch
+	
+Cry_Gastrodon_Ch8: 
+Cry_Gastrodon_Ch8_branch: 
+	noise_note 2, 15, 8, $41
+	noise_note 3,  9, 12, $24
+	noise_note 1,  0, 0, $0
+	noise_note 4,  5, 9, $16
+	noise_note 3,  0, 0, $0
+	sound_loop 3, Cry_Gastrodon_Ch8_branch
+	sound_ret
+	
+Cry_Chatot:
+	channel_count 3
+	channel 5, Cry_Chatot_Ch5
+	channel 6, Cry_Chatot_Ch6
+	channel 8, Cry_Chatot_Ch8
+
+Cry_Chatot_Ch5:
+	duty_cycle_pattern 0, 1 ,2 ,3
+	square_note  5, 13, 3, $0740
+	square_note 10, 12, 6, $0720
+	square_note  1,  0, 0, $0000
+	square_note 16, 14, 5, $0760
+	sound_ret
+
+Cry_Chatot_Ch6:
+	sound_duty 1, 0, 0, 2
+	square_note  2, 12, 3, $0701
+	square_note  3, 12, 3, $0708
+	square_note 10, 10, 6, $06f1
+	square_note  1,  0, 0, $0000
+	square_note 16, 13, 7, $0741
+Cry_Chatot_Ch8:
+	sound_ret
+	
+Cry_Amaura:
+	channel_count 2
+	channel 5, Cry_Amaura_Ch5
+	channel 6, Cry_Amaura_Ch6
+
+Cry_Amaura_Ch5:
+	dutycycle 1
+	square_note  5,  6, 8, $075c
+	square_note  3, 14, 8, $0764
+	square_note  3, 14, 8, $076b
+	square_note  3, 14, 8, $0770
+	square_note  4, 15, 4, $076b
+	square_note  5,  7, 9, $075d
+	square_note  7, 14, 8, $0782
+	square_note  7, 14, 8, $0780
+	square_note  7, 15, 1, $077e
+	sound_ret
+
+Cry_Amaura_Ch6:
+	sound_duty 1, 0, 0, 1
+	square_note  5,  6, 8, $0758
+	square_note  3, 14, 8, $0760
+	square_note  3, 14, 8, $0767
+	square_note  3, 14, 8, $076c
+	square_note  4, 15, 4, $0767
+	square_note  5,  7, 9, $0759
+	square_note  7, 14, 8, $077e
+	square_note  7, 14, 8, $077c
+	square_note  7, 15, 1, $077a
 	sound_ret

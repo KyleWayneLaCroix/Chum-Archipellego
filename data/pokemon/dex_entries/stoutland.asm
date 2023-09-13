@@ -1,11 +1,11 @@
 
 	db "Big-Hearted@" ; species name
-	dw 12, 610 ; height, weight
+	dw 311, 1345 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "STOUTLANDs have"
+    next "moustaches so fine"
+    next "that humans are"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "jealous of them"
+    next "and their ability"
+    next "keep others warm.@"

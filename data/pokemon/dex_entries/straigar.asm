@@ -1,11 +1,11 @@
 
 	db "Elec Tiger@" ; species name
-	dw 1, 1 ; height, weight
+	dw 411, 450 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "This guy actually"
+    next "had a third evo,"
+    next "but we only have"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "the back sprite,"
+    next "so that one wasn't"
+    next "included in this.@"

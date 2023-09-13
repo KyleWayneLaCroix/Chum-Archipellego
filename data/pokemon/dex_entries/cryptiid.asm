@@ -1,11 +1,11 @@
 
 	db "Crypt@" ; species name
-	dw 1, 1 ; height, weight
+	dw 780, 7500 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Often found at the"
+    next "cneter of large"
+    next "cemetaries."
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "CRYPTIID feeds off"
+    next "of the sorrow of"
+    next "those nearby.@"

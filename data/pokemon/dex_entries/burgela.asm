@@ -1,11 +1,11 @@
 
 	db "Toussled@" ; species name
-	dw 1, 1 ; height, weight
+	dw 201, 352 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "A beta baby #-"
+    next "-MON, BURGELA is "
+    next "one of the many"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "babies who didn't"
+    next "make the cut in"
+    next "GEN II.@"

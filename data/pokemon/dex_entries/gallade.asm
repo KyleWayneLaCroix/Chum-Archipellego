@@ -1,11 +1,11 @@
 
 	db "Blade@" ; species name
-	dw 16, 520 ; height, weight
+	dw 503, 1147 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "A master swordsman"
+    next "GALLADEs use their"
+    next "psychic powers and"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "their thousand- "
+    next "-folded steel arms"
+    next "to destroy foes.@"

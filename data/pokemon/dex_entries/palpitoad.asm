@@ -1,11 +1,11 @@
 
 	db "Vibration@" ; species name
-	dw 8, 170 ; height, weight
+	dw 207, 375 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "They can vibrate"
+    next "the bumps on their"
+    next "head to make waves"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "in water or"
+    next "earthquakes on"
+    next "land.@"

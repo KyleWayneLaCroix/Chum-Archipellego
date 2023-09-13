@@ -1,11 +1,11 @@
 
 	db "Malware@" ; species name
-	dw 1, 1 ; height, weight
+	dw 300, 1 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Likely due to the"
+    next "leftover BETA data"
+    next "for PORYGON 2, it"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "became corrupted"
+    next "when trying to ev-"
+    next "-olve to PORYGON Z@"

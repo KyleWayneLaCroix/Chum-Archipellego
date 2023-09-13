@@ -1,11 +1,11 @@
 
 	db "Serene@" ; species name
-	dw 6, 48 ; height, weight
+	dw 112, 106 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Using the braids"
+    next "on its head, it"
+    next "can pummel foes"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "as strong as"
+    next "MIKE TYSON with a"
+    next "single blow.@"

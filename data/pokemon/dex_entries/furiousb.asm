@@ -1,11 +1,11 @@
 
 	db "Slacker@" ; species name
-	dw 57, 160 ; height, weight
+	dw 1808, 353 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "A fusion of BRIAN"
+    next "and #MON,"
+    next "FURIOUSB has max"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "stats in every"
+    next "category and a"
+    next "mind of his own.@"

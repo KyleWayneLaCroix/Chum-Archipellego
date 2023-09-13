@@ -1,11 +1,11 @@
 
 	db "Whiskers@" ; species name
-	dw 4, 19 ; height, weight
+	dw 104, 42 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "BARBOACH have"
+    next "bodies covered in"
+    next "protective slime."
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "This can be used"
+    next "by those aware of"
+    next "HAPPY FISHERMEN.@"

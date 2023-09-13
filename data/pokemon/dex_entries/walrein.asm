@@ -1,11 +1,11 @@
 
 	db "Ice Break@" ; species name
-	dw 14, 1506 ; height, weight
+	dw 407, 3321 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "The big tusks on a"
+    next "WALREIN can break"
+    next "ice real savage"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "like. These tusks"
+    next "never stop growing"
+    next "until it dies.@"

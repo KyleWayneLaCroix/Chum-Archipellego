@@ -1,11 +1,11 @@
 
 	db "Prim@" ; species name
-	dw 11, 326 ; height, weight
+	dw 307, 719 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "DELCATTY live life"
+    next "without rules or"
+    next "boundaries, and"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "are not consistent"
+    next "with the times"
+    next "they are active.@"

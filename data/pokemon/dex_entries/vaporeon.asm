@@ -1,11 +1,11 @@
 
 	db "Bubble Jet@" ; species name
-	dw 10, 290 ; height, weight
+	dw 303, 639 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "As it uses the"
+    next "fins on the tip"
+    next "of its tail to"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "swim, it blends"
+    next "with the water"
+    next "perfectly.@"

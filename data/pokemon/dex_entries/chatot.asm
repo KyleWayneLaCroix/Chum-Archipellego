@@ -1,11 +1,11 @@
 
 	db "Music Note@" ; species name
-	dw 5, 19 ; height, weight
+	dw 108, 42 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "The tongue of a"
+    next "CHATOT is the same"
+    next "as a human's."
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "This allows them"
+    next "to perfectly mimic"
+    next "human speech.@"

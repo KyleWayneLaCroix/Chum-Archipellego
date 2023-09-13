@@ -1,11 +1,11 @@
 
 	db "Silent@" ; species name
-	dw 21, 50 ; height, weight
+	dw 611, 110 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Known as the"
+    next "forest witch, this"
+    next "#MON drives all"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "others away from"
+    next "its home by giving"
+    next "them headaches.@"

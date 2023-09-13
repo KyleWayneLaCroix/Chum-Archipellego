@@ -1,11 +1,11 @@
 
 	db "Hibernator@" ; species name
-	dw 18, 1258 ; height, weight
+	dw 511, 2774 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Although it has"
+    next "a large body, it"
+    next "can climb trees"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "with ease."
+    next "It eats and sleeps"
+    next "in the treetops.@"

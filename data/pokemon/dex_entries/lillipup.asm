@@ -1,11 +1,11 @@
 
 	db "Puppy@" ; species name
-	dw 4, 41 ; height, weight
+	dw 104, 90 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Far brighter than"
+    next "the average child,"
+    next "LILLIPUP will not"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "forget the love it"
+    next "receives or any"
+    next "abuse it suffers.@"

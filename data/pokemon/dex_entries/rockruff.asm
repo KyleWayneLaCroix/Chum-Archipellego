@@ -1,11 +1,11 @@
 
 	db "Puppy@" ; species name
-	dw 5, 92 ; height, weight
+	dw 108, 203 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "This #MON can"
+    next "form a very strong"
+    next "bond with their"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "Trainer, but can"
+    next "gnaw through their"
+    next "furniture easily.@"

@@ -1,11 +1,11 @@
 
 	db "Skunk@" ; species name
-	dw 10, 380 ; height, weight
+	dw 303, 838 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "SKUNTANK can smell"
+    next "so bad when they"
+    next "spray opponents,"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "their prey will be"
+    next "so stinky, even"
+    next "they don't eat it.@"

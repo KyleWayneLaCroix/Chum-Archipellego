@@ -1,11 +1,11 @@
 
 	db "Fire Horse@" ; species name
-	dw 17, 800 ; height, weight
+	dw 507, 1764 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "This #MON will"
+    next "dash airly through"
+    next "the forest, its"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "steps aided by"
+    next "the psychich power"
+    next "in its fetlocks.@"

@@ -1,11 +1,11 @@
 
-	db "ToxicLizard@" ; species name
-	dw 12, 222 ; height, weight
+	db "Pornographic@" ; species name
+	dw 606, 666 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "I really hope you"
+    next "found this without"
+    next "knowing about the"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "context for this"
+    next "picture. I wasted"
+    next "2 #DEX slots.@"

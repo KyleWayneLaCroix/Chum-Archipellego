@@ -1,11 +1,11 @@
 
 	db "Stag Beetle@" ; species name
-	dw 15, 450 ; height, weight
+	dw 411, 992 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "The modern railgun"
+    next "was inspired by"
+    next "this BUG #MON's"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "ability to fire"
+    next "powerful beams"
+    next "and projectiles.@"

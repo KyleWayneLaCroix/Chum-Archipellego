@@ -1,11 +1,11 @@
 
 	db "Ball Roll@" ; species name
-	dw 11, 876 ; height, weight
+	dw 307, 1932 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "SEALEO will spin"
+    next "objects on their"
+    next "nose in order to"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "learn textures,"
+    next "colors, and odors"
+    next "with ease.@"

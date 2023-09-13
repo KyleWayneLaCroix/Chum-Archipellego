@@ -1,11 +1,11 @@
 
 	db "Woodpecker@" ; species name
-	dw 3, 12 ; height, weight
+	dw 12, 26 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "It can peck at a"
+    next "rate of 16 times a"
+    next "second to drill"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "holes in trees."
+    next "It uses the holes"
+    next "for storage.@"

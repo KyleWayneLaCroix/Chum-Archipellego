@@ -1,11 +1,11 @@
 
 	db "Raven@" ; species name
-	dw 22, 750 ; height, weight
+	dw 703, 1653 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "CORVIKNIGHT reigns"
+    next "supreme in the"
+    next "sky with its steel"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "feathers and red"
+    next "eyes terrorizing"
+    next "its prey.@"

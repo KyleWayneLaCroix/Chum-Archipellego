@@ -1,53 +1,53 @@
 CreditsStringsPointers:
 ; entries correspond to constants/credits_constants.asm
 	table_width 2, CreditsStringsPointers
-	dw .SatoshiTajiri
-	dw .JunichiMasuda
-	dw .TetsuyaWatanabe
-	dw .ShigekiMorimoto
-	dw .SousukeTamada
-	dw .TakenoriOota
-	dw .KenSugimori
-	dw .MotofumiFujiwara
-	dw .AtsukoNishida
-	dw .MuneoSaito
-	dw .SatoshiOota
-	dw .RenaYoshikawa
-	dw .JunOkutani
-	dw .HironobuYoshida
-	dw .AsukaIwashita
-	dw .GoIchinose
-	dw .MorikazuAoki
-	dw .KohjiNishino
-	dw .KenjiMatsushima
-	dw .ToshinobuMatsumiya
-	dw .SatoruIwata
-	dw .NobuhiroSeya
-	dw .KazuhitoSekine
-	dw .TetsujiOota
-	dw .NclSuperMarioClub
-	dw .Sarugakucho
-	dw .AkitoMori
-	dw .TakahiroHarada
-	dw .TohruHashimoto
-	dw .NoboruMatsumoto
-	dw .TakehiroIzushi
-	dw .TakashiKawaguchi
-	dw .TsunekazuIshihara
-	dw .HiroshiYamauchi
-	dw .KenjiSaiki
-	dw .AtsushiTada
-	dw .NaokoKawakami
-	dw .HiroyukiZinnai
-	dw .KunimiKawamura
-	dw .HisashiSogabe
-	dw .KeitaKagaya
-	dw .YoshinoriMatsuda
-	dw .HitomiSato
-	dw .ToruOsawa
-	dw .TakaoOhara
-	dw .YuichiroIto
-	dw .TakaoShimizu
+	dw .KyleLwelyk
+	dw .Pret
+	dw .Rangi
+	dw .ldain
+	dw .Brian
+	dw .Ryan
+	dw .Nyuuk
+	dw .GSCEssentials
+	dw .utytft
+	dw .PolishedMap
+	dw .PeanutFiverr
+	dw .PocketIllust
+	dw .Eevee1999
+	dw .PolishedCrystal
+	dw .Cinnaboopa
+	dw .AxelComics
+	dw .PiaCarrot
+	dw .BroIsland
+	dw .CryEd
+	dw .Midi2ASM
+	dw .CrystalTracker
+	dw .TilemapStudio
+	dw .DevEd2
+	dw .ChaosLord
+	dw .Dannye
+	dw .TriteHexagon
+	dw .SeeCreditsMD
+	dw .ForFullCredits
+	dw .OtherGraphics
+	dw .Project
+	dw .Bronzewagger
+	dw .JustinNuggets
+	dw .MoonlightLass
+	dw .Shockslayer
+	dw .Celadonk
+	dw .Ax6
+	dw .SourApple
+	dw .WalshyB
+	dw .MyRattata
+	dw .FrostedGeullesisia
+	dw .PolishedDevs
+	dw .Jordan
+	dw .Sam
+	dw .Casey
+	dw .Ashley
+	dw .LeeAndSarah
+	dw .Maddie
 	dw .Planning
 	dw .KeitaNakamura
 	dw .HirotakaUemura
@@ -74,24 +74,24 @@ CreditsStringsPointers:
 	dw .End
 	dw .Unknown
 	dw .Staff
-	dw .Director
-	dw .CoDirector
-	dw .Programmers
-	dw .GraphicsDirector
-	dw .MonsterDesign
-	dw .GraphicsDesign
+	dw .Creator
+	dw .Using
+	dw .InspiredBy
+	dw .SpirripSprites
+	dw .PokemonSprites
+	dw .Cries
 	dw .Music
-	dw .SoundEffects
-	dw .GameDesign
-	dw .GameScenario
-	dw .ToolProgramming
-	dw .ParametricDesign
-	dw .ScriptDesign
-	dw .MapDataDesign
-	dw .MapDesign
-	dw .ProductTesting
+	dw .CreatedBy
+	dw .Megalovania
+	dw .PokeMusicDemakes
+	dw .EveryoneOn
+	dw .Discord
+	dw .AndCredit
+	dw .Wiki
+	dw .ForCredit
+	dw .GoodSport
 	dw .SpecialThanks
-	dw .Producers
+	dw .Testing
 	dw .ExecutiveProducer
 	dw .PokemonAnimation
 	dw .PokedexText
@@ -106,53 +106,53 @@ CreditsStringsPointers:
 	dw .PaadTesting
 	assert_table_length NUM_CREDITS_STRINGS
 
-.SatoshiTajiri:       db "     KYLE LACROIX@"         ; "たじり　さとし@"
-.JunichiMasuda:       db "   JUNICHI MASUDA@"         ; "ますだ　じゅんいち@"
-.TetsuyaWatanabe:     db "  TETSUYA WATANABE@"        ; "わたなべ　てつや@"
-.ShigekiMorimoto:     db "  SHIGEKI MORIMOTO@"        ; "もりもと　しげき@"
-.SousukeTamada:       db "   SOUSUKE TAMADA@"         ; "たまだ　そうすけ@"
-.TakenoriOota:        db "   TAKENORI OOTA@"          ; "おおた　たけのり@"
-.KenSugimori:         db "    KEN SUGIMORI@"          ; "すぎもり　けん@"
-.MotofumiFujiwara:    db " MOTOFUMI FUJIWARA@"        ; "ふじわら　もとふみ@"
-.AtsukoNishida:       db "   ATSUKO NISHIDA@"         ; "にしだ　あつこ@"
-.MuneoSaito:          db "    MUNEO SAITO@"           ; "さいとう　むねお@"
-.SatoshiOota:         db "    SATOSHI OOTA@"          ; "おおた　さとし@"
-.RenaYoshikawa:       db "   RENA YOSHIKAWA@"         ; "よしかわ　れな@"
-.JunOkutani:          db "    JUN OKUTANI@"           ; "おくたに　じゅん@"
-.HironobuYoshida:     db "  HIRONOBU YOSHIDA@"        ; "よしだ　ひろのぶ@"
-.AsukaIwashita:       db "   ASUKA IWASHITA@"         ; "いわした　あすか@"
-.GoIchinose:          db "    GO ICHINOSE@"           ; "いちのせ　ごう@"
-.MorikazuAoki:        db "   MORIKAZU AOKI@"          ; "あおき　もりかず@"
-.KohjiNishino:        db "   KOHJI NISHINO@"          ; "にしの　こうじ@"
-.KenjiMatsushima:     db "  KENJI MATSUSHIMA@"        ; "まつしま　けんじ@"
-.ToshinobuMatsumiya:  db "TOSHINOBU MATSUMIYA@"       ; "まつみや　としのぶ@"
-.SatoruIwata:         db "    SATORU IWATA@"          ; "いわた　さとる@"
-.NobuhiroSeya:        db "   NOBUHIRO SEYA@"          ; "せや　のぶひろ@"
-.KazuhitoSekine:      db "  KAZUHITO SEKINE@"         ; "せきね　かずひと@"
-.TetsujiOota:         db "    TETSUJI OOTA@"          ; "おおた　てつじ@"
-.NclSuperMarioClub:   db "NCL SUPER MARIO CLUB@"      ; "スーパーマりオクラブ@"
-.Sarugakucho:         db "    SARUGAKUCHO@"           ; "さるがくちょう@"
-.AkitoMori:           db "     AKITO MORI@"           ; "もり　あきと@"
-.TakahiroHarada:      db "  TAKAHIRO HARADA@"         ; "はらだ　たかひろ@"
-.TohruHashimoto:      db "  TOHRU HASHIMOTO@"         ; "はしもと　とおる@"
-.NoboruMatsumoto:     db "  NOBORU MATSUMOTO@"        ; "まつもと　のぼる@"
-.TakehiroIzushi:      db "  TAKEHIRO IZUSHI@"         ; "いずし　たけひろ@"
-.TakashiKawaguchi:    db " TAKASHI KAWAGUCHI@"        ; "かわぐち　たかし@"
-.TsunekazuIshihara:   db " TSUNEKAZU ISHIHARA@"       ; "いしはら　つねかず@"
-.HiroshiYamauchi:     db "  HIROSHI YAMAUCHI@"        ; "やまうち　ひろし@"
-.KenjiSaiki:          db "    KENJI SAIKI@"           ; "さいき　けんじ@"
-.AtsushiTada:         db "    ATSUSHI TADA@"          ; "ただ　あつし@"
-.NaokoKawakami:       db "   NAOKO KAWAKAMI@"         ; "かわかみ　なおこ@"
-.HiroyukiZinnai:      db "  HIROYUKI ZINNAI@"         ; "じんない　ひろゆき@"
-.KunimiKawamura:      db "  KUNIMI KAWAMURA@"         ; "かわむら　くにみ@"
-.HisashiSogabe:       db "   HISASHI SOGABE@"         ; "そがべ　ひさし@"
-.KeitaKagaya:         db "    KEITA KAGAYA@"          ; "かがや　けいた@"
-.YoshinoriMatsuda:    db " YOSHINORI MATSUDA@"        ; "まつだ　よしのり@"
-.HitomiSato:          db "    HITOMI SATO@"           ; "さとう　ひとみ@"
-.ToruOsawa:           db "     TORU OSAWA@"           ; "おおさわ　とおる@"
-.TakaoOhara:          db "    TAKAO OHARA@"           ; "おおはら　たかお@"
-.YuichiroIto:         db "    YUICHIRO ITO@"          ; "いとう　ゆういちろう@"
-.TakaoShimizu:        db "   TAKAO SHIMIZU@"          ; "しみず　たかお@"
+.KyleLwelyk:          db "    KYLE 'lwelyk'@"         ; "たじり　さとし@"
+.Pret:                db "The pret disassembly@"      ; "ますだ　じゅんいち@"
+.Rangi:               db "      Rangi42@"             ; "わたなべ　てつや@"
+.ldain:               db "       ldain@"        ; "もりもと　しげき@"
+.Brian:               db "       BRIAN@"         ; "たまだ　そうすけ@"
+.Ryan:                db "       RYAN@"          ; "おおた　たけのり@"
+.Nyuuk:               db "       NYUUK@"          ; "すぎもり　けん@"
+.GSCEssentials:       db "   GSC Essentials@"        ; "ふじわら　もとふみ@"
+.utytft:              db "       utytft@"         ; "にしだ　あつこ@"
+.PolishedMap:         db "    Polished Map@"           ; "さいとう　むねお@"
+.PeanutFiverr:        db "  Peanut on Fiverr@"          ; "おおた　さとし@"
+.PocketIllust:        db "    PocketIllust@"         ; "よしかわ　れな@"
+.Eevee1999:           db "    EeVeeEe1999@"           ; "おくたに　じゅん@"
+.PolishedCrystal:     db "  Polished Crystal@"        ; "よしだ　ひろのぶ@"
+.Cinnaboopa:          db "    Cinnaboopa@"         ; "いわした　あすか@"
+.AxelComics:          db "    Axel-Comics@"           ; "いちのせ　ごう@"
+.PiaCarrot:           db "     PiaCarrot@"          ; "あおき　もりかず@"
+.BroIsland:           db "     BRO ISLAND@"          ; "にしの　こうじ@"
+.CryEd:               db "       CryEd@"        ; "まつしま　けんじ@"
+.Midi2ASM:            db "      Midi2ASM@"       ; "まつみや　としのぶ@"
+.CrystalTracker:      db "   Crystal Tracker@"          ; "いわた　さとる@"
+.TilemapStudio:       db "   Tile Map Studio@"          ; "せや　のぶひろ@"
+.DevEd2:              db "       DevEd2@"         ; "せきね　かずひと@"
+.ChaosLord:           db "     Chaos-Lord@"          ; "おおた　てつじ@"
+.Dannye:              db "       Dannye@"      ; "スーパーマりオクラブ@"
+.TriteHexagon:        db "    TriteHexagon@"           ; "さるがくちょう@"
+.SeeCreditsMD:        db "See Credits.md for@"           ; "もり　あきと@"
+.ForFullCredits:      db "full credits of the@"         ; "はらだ　たかひろ@"
+.OtherGraphics:       db "   Other Graphics@"         ; "はしもと　とおる@"
+.Project:             db "      Project@"        ; "まつもと　のぼる@"
+.Bronzewagger:        db "    Bronzewagger@"         ; "いずし　たけひろ@"
+.JustinNuggets:       db "   Justin Nuggets@"        ; "かわぐち　たかし@"
+.MoonlightLass:       db "    moonlightlass@"       ; "いしはら　つねかず@"
+.Shockslayer:         db "    Shockslayer@"        ; "やまうち　ひろし@"
+.Celadonk:            db "      Celadonk@"           ; "さいき　けんじ@"
+.Ax6:                 db "        Ax6@"          ; "ただ　あつし@"
+.SourApple:           db "     Sour Apple@"         ; "かわかみ　なおこ@"
+.WalshyB:             db "      WalshyB@"         ; "じんない　ひろゆき@"
+.MyRattata:           db "     MyRattata@"         ; "かわむら　くにみ@"
+.FrostedGeullesisia:  db " FrostedGuellesisia@"         ; "そがべ　ひさし@"
+.PolishedDevs:        db "    PolishedDevs@"          ; "かがや　けいた@"
+.Jordan:              db "       JORDAN@"        ; "まつだ　よしのり@"
+.Sam:                 db "        SAM@"           ; "さとう　ひとみ@"
+.Casey:               db "       CASEY@"           ; "おおさわ　とおる@"
+.Ashley:              db "      ASHLEY@"           ; "おおはら　たかお@"
+.LeeAndSarah:         db "   LEE AND SARAH@"          ; "いとう　ゆういちろう@"
+.Maddie:              db "       MADDIE@"          ; "しみず　たかお@"
 .Planning:            db " SPECIAL PRODUCTION"
                     next "      PLANNING"             ; "きかくかいはつぶ@"
                     next " & DEVELOPMENT DEPT.@"
@@ -181,30 +181,30 @@ CreditsStringsPointers:
 .KazuyoshiOsawa:      db "  KAZUYOSHI OSAWA@"
 .KimikoNakamichi:     db "  KIMIKO NAKAMICHI@"
 .Staff:               db "      #MON"                 ; "ポケットモンスター"
-                    next " CHUM ARCHIPELAGO"          ; "　　クりスタル　バージョン"
-                    next "       STAFF@"              ; "　　　　スタッフ@"
-.Director:            db "      CREATOR@"            ; "エグゼクティブ　ディレクター@"
-.CoDirector:          db "       USING@"           ; "ディレクター@"
-.Programmers:         db "    PROGRAMMERS@"           ; "プログラム@"
-.GraphicsDirector:    db " GRAPHICS DIRECTOR@"        ; "グラフィック　ディレクター@"
-.MonsterDesign:       db "   MONSTER DESIGN@"         ; "#　デザイン@"
-.GraphicsDesign:      db "  GRAPHICS DESIGN@"         ; "グラフィック　デザイン@"
+                    next "  CHUM ARCHIPELAGO"          ; "　　クりスタル　バージョン"
+                    next "      STAFF@"              ; "　　　　スタッフ@"
+.Creator:             db "      CREATOR@"            ; "エグゼクティブ　ディレクター@"
+.Using:               db "    CREATED WITH@"           ; "ディレクター@"
+.InspiredBy:          db "    INSPIRED BY@"           ; "プログラム@"
+.SpirripSprites:      db "   SPIRRIP SPRITES@"        ; "グラフィック　ディレクター@"
+.PokemonSprites:      db "   POKEMON SPRITES@"         ; "#　デザイン@"
+.Cries:               db "    POKEMON CRIES@"         ; "グラフィック　デザイン@"
 .Music:               db "       MUSIC@"              ; "おんがく@"
-.SoundEffects:        db "   SOUND EFFECTS@"          ; "サウンド　エフェクト@"
-.GameDesign:          db "    GAME DESIGN@"           ; "ゲームデザイン@"
-.GameScenario:        db "   GAME SCENARIO@"          ; "シナりオ@"
-.ToolProgramming:     db "  TOOL PROGRAMMING@"        ; "ツール　プログラム@"
-.ParametricDesign:    db " PARAMETRIC DESIGN@"        ; "パラメーター　せってい@"
-.ScriptDesign:        db "   SCRIPT DESIGN@"          ; "スクりプト　せってい@"
-.MapDataDesign:       db "  MAP DATA DESIGN@"         ; "マップデータ　せってい@"
-.MapDesign:           db "     MAP DESIGN@"           ; "マップ　デザイン@"
-.ProductTesting:      db "  PRODUCT TESTING@"         ; "デバッグプレイ@"
+.CreatedBy:           db "     CREATED BY@"          ; "サウンド　エフェクト@"
+.Megalovania:         db "    MEGALOVANIA@"           ; "ゲームデザイン@"
+.PokeMusicDemakes:    db "  POKEMUSIC DEMAKES@"          ; "シナりオ@"
+.EveryoneOn:          db "   EVERYONE ON THE@"        ; "ツール　プログラム@"
+.Discord:             db "       DISCORD@"        ; "パラメーター　せってい@"
+.AndCredit:           db "        AND@"          ; "スクりプト　せってい@"
+.Wiki:                db "       WIKI@"         ; "マップデータ　せってい@"
+.ForCredit:           db "        FOR@"           ; "マップ　デザイン@"
+.GoodSport:           db " BEING A GOOD SPORT@"         ; "デバッグプレイ@"
 .SpecialThanks:       db "   SPECIAL THANKS@"         ; "スぺシャルサンクス@"
-.Producers:           db "     PRODUCERS@"            ; "プロデューサー@"
-.ExecutiveProducer:   db " EXECUTIVE PRODUCER@"       ; "エグゼクティブ　プロデューサー@"
-.PokemonAnimation:    db " #MON ANIMATION@"           ; "#　アニメーション@"
-.PokedexText:         db "    #DEX TEXT@"             ; "ずかん　テキスト@"
-.MobilePrjLeader:     db " MOBILE PRJ. LEADER@"       ; "モバイルプロジェクト　りーダー@"
+.Testing:             db "TESTING AND FEEDBACK@"            ; "プロデューサー@"
+.ExecutiveProducer:   db "ANY SIMILARITIES TO@"       ; "エグゼクティブ　プロデューサー@"
+.PokemonAnimation:    db " ANYONE LIVING OR@"           ; "#　アニメーション@"
+.PokedexText:         db " DEAD IS MERELY A@"             ; "ずかん　テキスト@"
+.MobilePrjLeader:     db "   COOINCIDENCE@"       ; "モバイルプロジェクト　りーダー@"
 .MobileSystemAd:      db " MOBILE SYSTEM AD.@"        ; "モバイル　システムアドバイザー@"
 .MobileStadiumDir:    db "MOBILE STADIUM DIR.@"       ; "モバイルスタジアム　ディレクター@"
 .Coordination:        db "    COORDINATION@"          ; "コーディネーター@"

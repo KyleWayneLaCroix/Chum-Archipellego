@@ -1,11 +1,11 @@
 
 	db "Wing Fish@" ; species name
-	dw 4, 70 ; height, weight
+	dw 104, 154 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Its pink line can"
+    next "store sunlight, so"
+    next "it glows vividly"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "at night, making"
+    next "beautiful as it"
+    next "attracts mates.@"

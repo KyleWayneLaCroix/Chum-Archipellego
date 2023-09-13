@@ -1,11 +1,11 @@
 
 	db "Armor Bird@" ; species name
-	dw 17, 505 ; height, weight
+	dw 507, 1114 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "The feathers that"
+    next "it sheds are very"
+    next "sharp."
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "People used to"
+    next "collect them to"
+    next "use as swords.@"

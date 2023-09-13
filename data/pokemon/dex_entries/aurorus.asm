@@ -1,11 +1,11 @@
 
 	db "Tundra@" ; species name
-	dw 27, 2250 ; height, weight
+	dw 810, 4961 ; height, weight
 
-	db   "There is much to"
-    next "learn about this"
-    next "newly discovered"
+	db   "Its skin is so"
+    next "cold that its"
+    next "trainer's skin can"
 
-    page "#MON."
-    next "Temporary #dex"
-    next "entry.@"
+    page "freeze and stick"
+    next "to it when trying"
+    next "to pet them.@"
